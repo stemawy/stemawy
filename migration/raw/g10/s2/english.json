@@ -1,0 +1,96 @@
+{
+  "learningObjectives": {
+    "Cycle1": {
+      "title": "Cycle 1",
+      "concepts": [
+        {
+          "title": "Upstream (unit1)",
+          "description": "study in upstream book from page 8 to page19"
+        },
+        {
+          "title": "Hello (unit1,2)",
+          "description": "study from Hello book both unit1 and unit2 from lesson 1 to lesson 5"
+        },
+        {
+          "title": "Grammerway",
+          "description": "study in Grammerway book unit2 (past forms), unit5 (model verbs)"
+        },
+        {
+          "title": "Writing academic english",
+          "description": "study in Writing acadimic english book from page 3 to page 16"
+        },
+        {
+          "title": "NOVEL",
+          "description": "study from the novel both chapter1 and chapter 2"
+        }
+      ]
+    },
+    "Cycle2": {
+      "title": "Cycle 2",
+      "concepts": [
+        {
+          "title": "Upstream (unit2)",
+          "description": "study in upstream book from page 22 to page25, and from page 30 to page 33."
+        },
+        {
+          "title": "Hello (unit3,4)",
+          "description": "study from Hello book both unit3 and unit4 from lesson 1 to lesson 5"
+        },
+        {
+          "title": "Grammerway",
+          "description": "study in Grammerway book unit4, unit8"
+        },
+        {
+          "title": "Writing academic english",
+          "description": "study in Writing acadimic english book from page 18 to page 37, and from page 162 to page 171"
+        },
+        {
+          "title": "NOVEL",
+          "description": "study from the novel both chapter 3 and chapter 4"
+        }
+      ]
+    },
+    "Cycle3": {
+      "title": "Cycle 3",
+      "concepts": [
+        {
+          "title": "Upstream (unit5)",
+          "description": "study in upstream book from page 77, 78, and from page 84 to page 86"
+        },
+        {
+          "title": "Hello (unit5,6)",
+          "description": "study from Hello book both unit5 and unit6 from lesson 1 to lesson 5"
+        },
+        {
+          "title": "Grammerway",
+          "description": "study in Grammerway book unit12"
+        },
+        {
+          "title": "Writing academic english",
+          "description": "study in Writing acadimic english book from page 39 to page 54"
+        },
+        {
+          "title": "NOVEL",
+          "description": "study from the novel both chapter5 and chapter 6"
+        }
+      ]
+    },
+    "books": {
+      "title": "Books",
+      "concepts": []
+    }
+  },
+  "resourceFiles": {
+    "books": [
+      "second semester/books/Eng_1SE_SB_T2_25-26.pdf",
+      "second semester/books/Grammarway 3.pdf",
+      "second semester/books/upstream-intermediate-b2-students-book_compress.pdf"
+    ]
+  },
+  "shareMap": {
+    "Eng_1SE_SB_T2_25-26.pdf": "https://drive.google.com/file/d/1DzZrko_Pxxg5ZQLWIK15gNaCN5WX6s74/view?usp=drive_link",
+    "Grammarway 3.pdf": "https://drive.google.com/file/d/1d4bEAQgnFb3D3ePBayfEROTXCnAkk2dD/view?usp=drive_link",
+    "upstream-intermediate-b2-students-book_compress.pdf": "https://drive.google.com/file/d/1JisZKrMw1NIW63T5sCkLHI1-iuHHkqQ8/view?usp=drive_link"
+  },
+  "explicitShareMapLinks": []
+}

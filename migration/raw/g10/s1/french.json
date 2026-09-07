@@ -1,0 +1,30 @@
+{
+  "learningObjectives": {
+    "LO1": {
+      "title": "LO1: Présentation",
+      "concepts": [
+        {
+          "title": "Se présenter"
+        },
+        {
+          "title": "Dire son âge"
+        }
+      ]
+    }
+  },
+  "resourceFiles": {
+    "livres": [
+      "first semester/livres/French1_Sec1_tr1_w1.pdf",
+      "first semester/livres/French2_Sec1_tr1_w1.pdf",
+      "first semester/livres/MÉTRO Exercices- 1sec- Unité1- Leçon1.pdf",
+      "first semester/livres/امتحان اولي ثانوي نص المنهج.pdf"
+    ]
+  },
+  "shareMap": {
+    "French1_Sec1_tr1_w1.pdf": "https://drive.google.com/file/d/1E_Z36D5HVsO-7cdoYdP6K7RPUqhZF5bf/view?usp=drivesdk",
+    "MÉTRO Exercices- 1sec- Unité1- Leçon1.pdf": "https://drive.google.com/file/d/1CEQyZ28stj3BY7zUQ01wnvSKmRLYR72U/view?usp=drivesdk",
+    "French2_Sec1_tr1_w1.pdf": "https://drive.google.com/file/d/1LxNZHuqfuwf_uUuHW9JQD16pBPr3416R/view?usp=drivesdk",
+    "امتحان اولي ثانوي نص المنهج.pdf": "https://drive.google.com/file/d/1lkUfMn_CK78jNz06Yztj4cHVPbSQXyJu/view?usp=drivesdk"
+  },
+  "explicitShareMapLinks": []
+}

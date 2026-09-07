@@ -1,0 +1,24 @@
+{
+  "missingDriveUrls": [],
+  "missingVideoUrls": [],
+  "duplicateResourceIds": [],
+  "deduplicatedResourceIds": [
+    {
+      "id": "physics-g10-s2-pdf-physics-book-pdf-1116717a5e",
+      "count": 2
+    }
+  ],
+  "unrecognizedResourceLocations": [],
+  "notes": [],
+  "statistics": {
+    "units": 4,
+    "concepts": 36,
+    "resources": 84,
+    "pdfs": 36,
+    "videos": 48,
+    "testBanks": 13,
+    "missingDriveUrls": 0,
+    "missingVideoUrls": 0,
+    "duplicateResourceIds": 0
+  }
+}

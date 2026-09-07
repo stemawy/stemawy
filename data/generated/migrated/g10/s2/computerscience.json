@@ -1,0 +1,974 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-06T01:16:15.523Z",
+  "source": {
+    "file": "migration/raw/g10/s2/computerscience.json"
+  },
+  "subject": {
+    "id": "computerscience-g10-s2",
+    "name": "Computer Science",
+    "description": "Computer Science resources for Grade 10, Semester 2.",
+    "grade": "10",
+    "semester": "2",
+    "icon": "computerscience",
+    "content": [
+      {
+        "id": "computerscience-g10-s2-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "SketchUp & 3D Design",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "computerscience-g10-s2-concept-sketch-up-structure-tools-and-styles",
+            "title": "Sketch up structure, tools, and styles",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-3d-design",
+            "title": "3D design",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-orbit-pan-command-bar-large-tool-set",
+            "title": "orbit, pan, command bar, large tool set",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-style-toolbox-tray",
+            "title": "Style, toolbox, tray",
+            "description": "",
+            "order": 4,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "computerscience-g10-s2-pdf-sketchup-tools3-png-1d04110697",
+          "computerscience-g10-s2-pdf-sketchup-tools2-jpg-1e70f7e74e",
+          "computerscience-g10-s2-pdf-sketchup-largetoolset-jpg-c022574209",
+          "computerscience-g10-s2-pdf-sketchup-keyring-tutorial-pdf-7b37ca0da1",
+          "computerscience-g10-s2-pdf-sketchup-interface1-pdf-7d5fc9ee54"
+        ]
+      },
+      {
+        "id": "computerscience-g10-s2-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Machine Language & Number Systems",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "computerscience-g10-s2-concept-machine-language-data-digit-bit-byte-word-nibble-decimal-number-system-binary-system-octal-and-hexadecimal-systems",
+            "title": "machine language data, digit, bit, byte. Word, Nibble Decimal number system Binary system Octal and Hexadecimal Systems",
+            "description": "",
+            "order": 1,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "computerscience-g10-s2-pdf-number-system1-pdf-a2c312ad2d"
+        ]
+      },
+      {
+        "id": "computerscience-g10-s2-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Networks & Administration",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "computerscience-g10-s2-concept-lan",
+            "title": "LAN",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-wan",
+            "title": "WAN",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-peer-to-peer-networks",
+            "title": "Peer-to-Peer Networks",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-system-administrator-task",
+            "title": "System administrator task",
+            "description": "",
+            "order": 4,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "computerscience-g10-s2-pdf-mp4-560be129dc",
+          "computerscience-g10-s2-pdf-networks-wmv-d983f3362e",
+          "computerscience-g10-s2-pdf-networks-mp4-0d00cd17cb",
+          "computerscience-g10-s2-pdf-networkbasics1-ppt-799acd1641",
+          "computerscience-g10-s2-pdf-network-topology1-pdf-a42ea066a6",
+          "computerscience-g10-s2-pdf-network-lo3-pptx-e87b5d4c38"
+        ]
+      },
+      {
+        "id": "computerscience-g10-s2-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "Programming & Problem Solving",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "computerscience-g10-s2-concept-computer-programming-problem-solving-well-defined-problem",
+            "title": "Computer programming Problem solving Well-defined problem.",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-algorithm",
+            "title": "Algorithm.",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-flowcharts-flowchart-symbols",
+            "title": "Flowcharts (Flowchart symbols).",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-pseudo-code-sequencing-conditional-loop",
+            "title": "Pseudo-code sequencing – conditional Loop",
+            "description": "",
+            "order": 4,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "computerscience-g10-s2-pdf-problem-solving-pdf-ebcd9e8146",
+          "computerscience-g10-s2-pdf-problem-solving-lo4-pdf-7b2c0da4c2"
+        ]
+      },
+      {
+        "id": "computerscience-g10-s2-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "HTML & Web Fundamentals",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "computerscience-g10-s2-concept-html-elements-tags-start-end",
+            "title": "HTML - Elements /Tags (Start – End).",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-html-documents",
+            "title": "HTML Documents.",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-html-headings",
+            "title": "HTML Headings.",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-html-links",
+            "title": "HTML Links.",
+            "description": "",
+            "order": 4,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-html-images",
+            "title": "HTML Images.",
+            "description": "",
+            "order": 5,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-html-lists",
+            "title": "HTML Lists.",
+            "description": "",
+            "order": 6,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-attributes",
+            "title": "Attributes.",
+            "description": "",
+            "order": 7,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-the-div-element",
+            "title": "The div element.",
+            "description": "",
+            "order": 8,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-web-addresses",
+            "title": "Web addresses.",
+            "description": "",
+            "order": 9,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-html-form-elements",
+            "title": "HTML Form Elements.",
+            "description": "",
+            "order": 10,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-html-multimedia-sound-music-videos-movies-and-animations",
+            "title": "HTML Multimedia (sound, music, videos, movies, and animations).",
+            "description": "",
+            "order": 11,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-html5",
+            "title": "HTML5",
+            "description": "",
+            "order": 12,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "computerscience-g10-s2-pdf-html5reference-pdf-9ec8a88721",
+          "computerscience-g10-s2-pdf-html-pdf-9295929691",
+          "computerscience-g10-s2-pdf-html-tags-chart-pdf-fb1baea150",
+          "computerscience-g10-s2-pdf-html-tutorial-pdf-0d169833cc"
+        ]
+      },
+      {
+        "id": "computerscience-g10-s2-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "CSS & Styling",
+        "description": "",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "computerscience-g10-s2-concept-css-term",
+            "title": "CSS term.",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-style-attribute-style-element",
+            "title": "Style attribute / Style element",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-inline-styles-multiple-styles",
+            "title": "Inline styles / Multiple styles.",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-css-syntax-selector-rules",
+            "title": "CSS syntax (Selector - Rules).",
+            "description": "",
+            "order": 4,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-selectors-type-class-and-id",
+            "title": "Selectors (Type - Class and ID).",
+            "description": "",
+            "order": 5,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-external-ccs-file",
+            "title": "External CCS file.",
+            "description": "",
+            "order": 6,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-boxes-content-padding-border-margin",
+            "title": "Boxes (Content – Padding – Border - Margin).",
+            "description": "",
+            "order": 7,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-style-sheet-or-style-element-not-both",
+            "title": "Style sheet or style element — not both!",
+            "description": "",
+            "order": 8,
+            "resources": []
+          },
+          {
+            "id": "computerscience-g10-s2-concept-css-colors",
+            "title": "CSS colors.",
+            "description": "",
+            "order": 9,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "computerscience-g10-s2-pdf-introduction-to-css-lo6-pdf-3e2c1cf116"
+        ]
+      },
+      {
+        "id": "computerscience-g10-s2-unit-07",
+        "type": "unit",
+        "number": "07",
+        "title": "Revision",
+        "description": "",
+        "order": 7,
+        "concepts": [],
+        "resources": [
+          "computerscience-g10-s2-pdf-excelreaderadvanced-claudechat1-docx-1dea3d6a26",
+          "computerscience-g10-s2-pdf-flowcharts-revision1-pdf-a48ddd3a00",
+          "computerscience-g10-s2-pdf-flowcharts-revision1-docx-99fec82f8a",
+          "computerscience-g10-s2-pdf-css-revision1-pdf-6df8e07694",
+          "computerscience-g10-s2-pdf-css-revision1-docx-4df8ccdc7b",
+          "computerscience-g10-s2-pdf-css-mcq-1-pdf-c976f36d06",
+          "computerscience-g10-s2-pdf-css-mcq-1-docx-16c6ee6f5c",
+          "computerscience-g10-s2-pdf-css-basics-quiz01-docx-5055a32b12",
+          "computerscience-g10-s2-pdf-css-quiz1-docx-1e0a788e5c",
+          "computerscience-g10-s2-pdf-cs-midterm-dec21-docx-87a07b4ba1",
+          "computerscience-g10-s2-pdf-networkmcq2-docx-370a868210",
+          "computerscience-g10-s2-pdf-networkmcq2-ocr-pdf-59f606336e",
+          "computerscience-g10-s2-pdf-networkmcq2-pdf-c92e2725ce",
+          "computerscience-g10-s2-pdf-networkmcq-pdf-4fc118a967",
+          "computerscience-g10-s2-pdf-networkmcq-docx-351974d3ab",
+          "computerscience-g10-s2-pdf-mcqs-flowcharts-docx-79ac95f4b1",
+          "computerscience-g10-s2-pdf-mcqnetworking1-docx-15d434feff",
+          "computerscience-g10-s2-pdf-mcq-html-docx-cec8fc13d4",
+          "computerscience-g10-s2-pdf-javascript-mcq-docx-59d743631d",
+          "computerscience-g10-s2-pdf-html-quiz-hardlevel01-docx-c5b971a141"
+        ]
+      },
+      {
+        "id": "computerscience-g10-s2-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 8,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "computerscience-g10-s2-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 9,
+        "concepts": [],
+        "resources": [
+          "computerscience-g10-s2-pdf-excelreaderadvanced-claudechat1-docx-1dea3d6a26",
+          "computerscience-g10-s2-pdf-flowcharts-revision1-pdf-a48ddd3a00",
+          "computerscience-g10-s2-pdf-flowcharts-revision1-docx-99fec82f8a",
+          "computerscience-g10-s2-pdf-css-revision1-pdf-6df8e07694",
+          "computerscience-g10-s2-pdf-css-revision1-docx-4df8ccdc7b",
+          "computerscience-g10-s2-pdf-css-mcq-1-pdf-c976f36d06",
+          "computerscience-g10-s2-pdf-css-mcq-1-docx-16c6ee6f5c",
+          "computerscience-g10-s2-pdf-css-basics-quiz01-docx-5055a32b12",
+          "computerscience-g10-s2-pdf-css-quiz1-docx-1e0a788e5c",
+          "computerscience-g10-s2-pdf-cs-midterm-dec21-docx-87a07b4ba1",
+          "computerscience-g10-s2-pdf-networkmcq2-docx-370a868210",
+          "computerscience-g10-s2-pdf-networkmcq2-ocr-pdf-59f606336e",
+          "computerscience-g10-s2-pdf-networkmcq2-pdf-c92e2725ce",
+          "computerscience-g10-s2-pdf-networkmcq-pdf-4fc118a967",
+          "computerscience-g10-s2-pdf-networkmcq-docx-351974d3ab",
+          "computerscience-g10-s2-pdf-mcqs-flowcharts-docx-79ac95f4b1",
+          "computerscience-g10-s2-pdf-mcqnetworking1-docx-15d434feff",
+          "computerscience-g10-s2-pdf-mcq-html-docx-cec8fc13d4",
+          "computerscience-g10-s2-pdf-javascript-mcq-docx-59d743631d",
+          "computerscience-g10-s2-pdf-html-quiz-hardlevel01-docx-c5b971a141"
+        ]
+      },
+      {
+        "id": "computerscience-g10-s2-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 10,
+        "concepts": [],
+        "resources": []
+      }
+    ],
+    "units": 7
+  },
+  "resources": [
+    {
+      "id": "computerscience-g10-s2-pdf-sketchup-tools3-png-1d04110697",
+      "title": "sketchup-tools3.png",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "sketchup-tools3.png",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-sketchup-tools2-jpg-1e70f7e74e",
+      "title": "Sketchup-Tools2.jpg",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "Sketchup-Tools2.jpg",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-sketchup-largetoolset-jpg-c022574209",
+      "title": "Sketchup-LargeToolSet.jpg",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "Sketchup-LargeToolSet.jpg",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-sketchup-keyring-tutorial-pdf-7b37ca0da1",
+      "title": "SketchUp-Keyring-Tutorial.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1QGsspE3J0z8zZ0M99pJIT7nRj-Q-7FAa/view?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-sketchup-interface1-pdf-7d5fc9ee54",
+      "title": "Sketchup-Interface1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1d6DXGmKPbdhq-5sVi4Fs_tT9LHm979aj/view?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-number-system1-pdf-a2c312ad2d",
+      "title": "number system1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1sKCzvwQpBf71pcuaHs8Nfyo3IaDsqHnG/view?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-mp4-560be129dc",
+      "title": "شرح أجهزة الشبكات والفرق بين اله...mp4",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "شرح أجهزة الشبكات والفرق بين اله...mp4",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-networks-wmv-d983f3362e",
+      "title": "Networks.wmv",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "Networks.wmv",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-networks-mp4-0d00cd17cb",
+      "title": "Networks.mp4",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "Networks.mp4",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-networkbasics1-ppt-799acd1641",
+      "title": "NetworkBasics1.ppt",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "NetworkBasics1.ppt",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-network-topology1-pdf-a42ea066a6",
+      "title": "Network-topology1.pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "Network-topology1.pdf",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-network-lo3-pptx-e87b5d4c38",
+      "title": "Network-LO3.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1EBD6L3WnIOuUmuCA-fQm_GzufKxV6Z-i/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-problem-solving-pdf-ebcd9e8146",
+      "title": "Problem Solving.pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "Problem Solving.pdf",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-problem-solving-lo4-pdf-7b2c0da4c2",
+      "title": "Problem Solving(LO4).pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "Problem Solving(LO4).pdf",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-html5reference-pdf-9ec8a88721",
+      "title": "HTML5Reference.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/17sqYrLPPeFwuPyodmwTY7T2W3qGmmhen/view?usp=drivesdk",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-html-pdf-9295929691",
+      "title": "HTML.pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "HTML.pdf",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-html-tags-chart-pdf-fb1baea150",
+      "title": "html-tags-chart.pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "html-tags-chart.pdf",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-html-tutorial-pdf-0d169833cc",
+      "title": "HTML Tutorial.pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "HTML Tutorial.pdf",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-introduction-to-css-lo6-pdf-3e2c1cf116",
+      "title": "Introduction-to-CSS-LO6.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1TQBHuOnogUNWvvd4migvfbxr0PoJTGQE/view?usp=drivesdk",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-06"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-excelreaderadvanced-claudechat1-docx-1dea3d6a26",
+      "title": "ExcelReaderAdvanced-ClaudeChat1.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "ExcelReaderAdvanced-ClaudeChat1.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-flowcharts-revision1-pdf-a48ddd3a00",
+      "title": "Flowcharts-Revision1.pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "Flowcharts-Revision1.pdf",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-flowcharts-revision1-docx-99fec82f8a",
+      "title": "Flowcharts-Revision1.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "Flowcharts-Revision1.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-css-revision1-pdf-6df8e07694",
+      "title": "CSS-Revision1.pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "CSS-Revision1.pdf",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-css-revision1-docx-4df8ccdc7b",
+      "title": "CSS-Revision1.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "CSS-Revision1.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-css-mcq-1-pdf-c976f36d06",
+      "title": "CSS-mcq-1.pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "CSS-mcq-1.pdf",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-css-mcq-1-docx-16c6ee6f5c",
+      "title": "CSS-mcq-1.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "CSS-mcq-1.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-css-basics-quiz01-docx-5055a32b12",
+      "title": "css-basics-quiz01.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "css-basics-quiz01.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-css-quiz1-docx-1e0a788e5c",
+      "title": "CSS quiz1.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "CSS quiz1.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-cs-midterm-dec21-docx-87a07b4ba1",
+      "title": "CS-midterm-Dec21.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "CS-midterm-Dec21.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-networkmcq2-docx-370a868210",
+      "title": "networkmcq2.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "networkmcq2.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-networkmcq2-ocr-pdf-59f606336e",
+      "title": "networkmcq2_OCR.pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "networkmcq2_OCR.pdf",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-networkmcq2-pdf-c92e2725ce",
+      "title": "networkmcq2.pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "networkmcq2.pdf",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-networkmcq-pdf-4fc118a967",
+      "title": "networkmcq.pdf",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "networkmcq.pdf",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-networkmcq-docx-351974d3ab",
+      "title": "networkmcq.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "networkmcq.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-mcqs-flowcharts-docx-79ac95f4b1",
+      "title": "MCQs  flowcharts.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "MCQs  flowcharts.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-mcqnetworking1-docx-15d434feff",
+      "title": "mcqNetworking1.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "mcqNetworking1.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-mcq-html-docx-cec8fc13d4",
+      "title": "MCQ -HTML.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "MCQ -HTML.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-javascript-mcq-docx-59d743631d",
+      "title": "JavaScript MCQ.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "JavaScript MCQ.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "computerscience-g10-s2-pdf-html-quiz-hardlevel01-docx-c5b971a141",
+      "title": "html-quiz-HardLevel01.docx",
+      "type": "pdf",
+      "provider": "legacy",
+      "url": "html-quiz-HardLevel01.docx",
+      "source": {
+        "location": "revision"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "computerscience-g10-s2-unit-07"
+      }
+    }
+  ]
+}

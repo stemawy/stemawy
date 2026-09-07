@@ -1,0 +1,1269 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T18:51:23.601Z",
+  "source": {
+    "file": "migration/raw/g10/s1/geology.json"
+  },
+  "subject": {
+    "id": "geology-g10-s1",
+    "name": "Geology",
+    "description": "Geology resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "geology",
+    "content": [
+      {
+        "id": "geology-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Introduction to Geology",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "geology-g10-s1-concept-the-contribution-of-geology-to-the-different-domains-in-our-lives",
+            "title": "The contribution of geology to the different domains in our lives",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s1-video-k-cb-qgytje-2a6b74e6ec"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s1-pdf-geology-its-branches-and-scope-pdf-79e8e5364a",
+          "geology-g10-s1-pdf-geology-l-o-1-grade-10-pptx-d257b7cace"
+        ]
+      },
+      {
+        "id": "geology-g10-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Minerals and Their Properties",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "geology-g10-s1-concept-minerals-are-homogeneous-solid-earth-materials",
+            "title": "Minerals are homogeneous solid earth materials.",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s1-video-x89jhh1fa7i-5501095bb9"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-minerals-have-distinct-physical-properties-that-enable-them-to-be-distinguished-from-one-another",
+            "title": "Minerals have distinct physical properties that enable them to be distinguished from one another.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "geology-g10-s1-video-m4rznuzfv4w-3b2f07bac9"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-for-most-common-minerals-the-most-useful-properties-for-hand-sample-identification-include-hardness-cleavage-or-fracture-patterns-translucency-and-color",
+            "title": "For most common minerals, the most useful properties for hand sample identification include hardness, cleavage or fracture patterns, translucency, and color.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "geology-g10-s1-video-1sgc3vbqzy0-a84ceda33e"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-metallic-minerals-are-uncommon-but-economically-important",
+            "title": "Metallic minerals are uncommon, but economically important.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "geology-g10-s1-video-bowqcgw9iyk-525759698f"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-for-metallic-minerals-the-additional-properties-of-streak-and-magnetism-are-useful-for-hand-sample-identification",
+            "title": "For metallic minerals, the additional properties of streak and magnetism are useful for hand sample identification",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "geology-g10-s1-video-7nacspqzg8u-c9ed324f4d"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-completely-unambiguous-identification-of-minerals-often-requires-sophisticated-laboratory-analysis",
+            "title": "Completely unambiguous identification of minerals often requires sophisticated laboratory analysis.",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "geology-g10-s1-video-ybpezjsug-be372ac2f0"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-some-construction-materials-are-highly-refined-from-the-original-earth-material-while-others-are-used-in-the-original-state",
+            "title": "Some construction materials are highly refined from the original Earth material, while others are used in the original state.",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "geology-g10-s1-video-1inpon9cktg-bd02c67566"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s1-pdf-geology-l-o-2-grade-10-pptx-986e3d7f2e",
+          "geology-g10-s1-pdf-minerals-2-ppt-99044aca15",
+          "geology-g10-s1-pdf-minerals-by-rushdy-saad-vip-pptx-2720e0df67"
+        ]
+      },
+      {
+        "id": "geology-g10-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Engineering Properties",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "geology-g10-s1-concept-different-earth-materials-and-different-manufactured-materials-have-different-engineering-properties-such-as-their-behavior-under-stress-making-them-suitable-for-different-uses-in-construction",
+            "title": "Different Earth materials and different manufactured materials have different engineering properties, such as their behavior under stress, making them suitable for different uses in construction.",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s1-video-zk5fzhud5a4-9679d75616"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s1-pdf-building-materials-gr-3-pdf-63465e5513",
+          "geology-g10-s1-pdf-building-materials-ppt-v-v-2nd-sess-important-pptx-9cc2f7e2ea",
+          "geology-g10-s1-pdf-building-materials-1-pdf-8e0c8144a3",
+          "geology-g10-s1-pdf-geology-l-o3-ppt-67b219961c",
+          "geology-g10-s1-pdf-lo-1-03-building-materials-2017-pdf-eef0b65984",
+          "geology-g10-s1-pdf-lo-es1-03-earth-materials-2017-pdf-26b09c36c7",
+          "geology-g10-s1-pdf-lo3-building-materials-sess1-pptx-b6fc8fb997"
+        ]
+      },
+      {
+        "id": "geology-g10-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "Igneous Rocks",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "geology-g10-s1-concept-rocks-are-heterogeneous-mixtures-of-minerals-and-rarely-other-earth-materials",
+            "title": "Rocks are heterogeneous mixtures of minerals and (rarely) other earth materials.",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s1-video-ceuyx-abzdo-54cac42754"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-igneous-rocks-cooled-from-melts-are-found-in-association-with-volcanoes-and-also-as-rocks-that-cooled-underground",
+            "title": "Igneous rocks cooled from melts are found in association with volcanoes and also as rocks that cooled underground",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "geology-g10-s1-video-cufgmk-sda4-3091b2e436"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-different-cooling-histories-produce-different-igneous-textures",
+            "title": "Different cooling histories produce different igneous textures.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "geology-g10-s1-video-8tmwcrllnuk-cfca6fa30b"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-differences-in-magma-composition-and-eruption-location-create-differences-in-eruption-explosivity-that-affect-volcanic-rock-textures",
+            "title": "Differences in magma composition and eruption location create differences in eruption explosivity that affect volcanic rock textures.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "geology-g10-s1-video-ovsj1sygngm-411fb5d7d2"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s1-pdf-chapter-3-intrusive-igneous-rocks-v-v-imp-ppt-4a039a3f02",
+          "geology-g10-s1-pdf-geo-l-o4-pptx-5dc03b5d88",
+          "geology-g10-s1-pdf-geology-l-o4-pptx-9e66249f3f"
+        ]
+      },
+      {
+        "id": "geology-g10-s1-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "Sedimentary Rocks",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "geology-g10-s1-concept-sedimentary-rocks-that-accumulate-from-particles-can-be-formed-in-a-wide-range-of-environments-on-earth-s-surface",
+            "title": "Sedimentary rocks that accumulate from particles can be formed in a wide range of environments on Earth's surface",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s1-video-x0laugbqwvq-6154aed0f9"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-some-sedimentary-rocks-form-from-particles-of-older-rocks-that-are-removed-from-their-original-location-and-deposited-in-a-new-one",
+            "title": "Some sedimentary rocks form from particles of older rocks that are removed from their original location and deposited in a new one.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "geology-g10-s1-video-etu9bwbudly-65f33c5a76"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-the-environment-of-deposition-and-the-source-material-both-contribute-to-differences-in-texture-and-composition-among-these-sedimentary-rocks",
+            "title": "The environment of deposition and the source material both contribute to differences in texture and composition among these sedimentary rocks.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "geology-g10-s1-video-ptq3h6wzwyg-a99770925a"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-some-sedimentary-rocks-are-made-of-particles-from-once-living-organisms",
+            "title": "Some sedimentary rocks are made of particles from once living organisms.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "geology-g10-s1-video-kq4djy-5asy-c06b3547ed"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-the-types-of-organisms-determine-much-about-the-texture-and-mineral-composition-of-such-rocks",
+            "title": "The types of organisms determine much about the texture and mineral composition of such rocks",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "geology-g10-s1-video-qqdf-26nvw0-09cc7045b7"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-sedimentary-rocks-often-contain-pore-spaces-that-make-them-important-reservoirs-of-fluids-in-the-upper-part-of-earth-s-crust",
+            "title": "Sedimentary rocks often contain pore spaces that make them important reservoirs of fluids in the upper part of Earth's crust.",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "geology-g10-s1-video-cscnamemlgk-8ba7e35475"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-sedimentary-rocks-sometimes-contain-organic-material-that-may-become-part-of-earth-s-energy-resources",
+            "title": "Sedimentary rocks sometimes contain organic material that may become part of Earth's energy resources",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "geology-g10-s1-video-xeozx2av3rc-cd29f20924"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-limestone-and-cement-materials-derived-from-limestone-are-essential-egyptian-building-resources-due-both-to-their-abundance-and-to-the-lack-of-alternative-building-materials",
+            "title": "Limestone and cement materials derived from limestone are essential Egyptian building resources due both to their abundance and to the lack of alternative building materials.",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "geology-g10-s1-video-sybiqjohyia-c39362dc48"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s1-pdf-chapter-6-sedimentary-rocks-ppt-dc2e8d9283",
+          "geology-g10-s1-pdf-geology-l-o-5-grade-10-pptx-e4394ee2e3",
+          "geology-g10-s1-pdf-geology-l-o-5-pptx-60a14285d7"
+        ]
+      },
+      {
+        "id": "geology-g10-s1-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "Metamorphic Rocks",
+        "description": "",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "geology-g10-s1-concept-changes-in-temperature-pressure-or-composition-in-earth-s-subsurface-can-change-the-texture-and-mineral-composition-of-pre-existing-rocks-creating-metamorphic-rocks",
+            "title": "Changes in temperature, pressure, or composition in Earth's subsurface can change the texture and mineral composition of pre-existing rocks,creating metamorphic rocks",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s1-video-0qtkumojnuu-0510ab60ab"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-deformation-during-metamorphism-produces-foliated-textures-and-may-destroy-original-textures",
+            "title": "Deformation during metamorphism produces foliated textures and may destroy original textures.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "geology-g10-s1-video-k-fq0ibckg0-daba59a5a0"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-deformation-change-in-shape-and-stresses-distribution-of-forces-are-related-but-maximum-deformation-and-maximum-stress-are-not-always-parallel",
+            "title": "Deformation (change in shape) and stresses (distribution of forces) are related, but maximum deformation and maximum stress are not always parallel.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "geology-g10-s1-video-7duvsdokujm-fdf191bc25"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-the-metamorphic-texture-and-mineralogy-observed-in-metamorphic-rocks-are-most-commonly-related-to-the-conditions-when-the-rock-experienced-its-maximum-temperature",
+            "title": "The metamorphic texture and mineralogy observed in metamorphic rocks are most commonly related to the conditions when the rock experienced its maximum temperature.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "geology-g10-s1-video-vl9lr0vxlfw-568424966c"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s1-pdf-geology-l-o-6-grade-10-pptx-b43e3d529a",
+          "geology-g10-s1-pdf-geology-l-o-6-pptx-5a663933b5"
+        ]
+      },
+      {
+        "id": "geology-g10-s1-unit-07",
+        "type": "unit",
+        "number": "07",
+        "title": "Rock Cycle and Geological History",
+        "description": "",
+        "order": 7,
+        "concepts": [
+          {
+            "id": "geology-g10-s1-concept-the-rock-cycle-is-a-group-of-processes-that-act-on-the-different-types-of-rocks-and-change-rocks-from-one-form-to-another-over-geologic-time",
+            "title": "The rock cycle is a group of processes that act on the different types of rocks and change rocks from one form to another over geologic time",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "geology-g10-s1-concept-rock-composition-and-texture-provides-evidence-that-can-be-interpreted-to-yield-a-geologic-history",
+            "title": "Rock composition and texture provides evidence that can be interpreted to yield a geologic history",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "geology-g10-s1-video-fysem63fv0s-cd1f70e4c7"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-interpreting-cross-sections-to-study-the-age-relationships-of-different-rock-units",
+            "title": "Interpreting cross sections to study the age relationships of different rock units.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "geology-g10-s1-video-gpfay9tgcgi-652a56d4e5"
+            ]
+          },
+          {
+            "id": "geology-g10-s1-concept-interpreting-different-geological-maps-that-show-outcrops-of-different-rocks-of-egypt",
+            "title": "Interpreting different geological maps that show outcrops of different rocks of Egypt.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "geology-g10-s1-video-thucu1lxex4-d7310e4e88"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s1-pdf-geology-l-o-7-grade-10-pptx-d1caa24838",
+          "geology-g10-s1-pdf-geology-l-o-7-pptx-795886b110",
+          "geology-g10-s1-pdf-lo1-07-pdf-d731c3b13e",
+          "geology-g10-s1-pdf-rock-cycle-ppt-804e30829d"
+        ]
+      },
+      {
+        "id": "geology-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 8,
+        "concepts": [],
+        "resources": [
+          "geology-g10-s1-pdf-g10-queeze-pdf-092c3cd01f",
+          "geology-g10-s1-pdf-geo-quiz-lo1-01-pdf-b0e0c32976",
+          "geology-g10-s1-pdf-igneous-test-png-efffb44598",
+          "geology-g10-s1-pdf-igneousvers2-quiz-and-answer-pdf-e79666be8f",
+          "geology-g10-s1-pdf-l-o-7-quizz-and-answer-docx-660da3cecf",
+          "geology-g10-s1-pdf-lo-6-quizz-with-answer-docx-f6f76a4689",
+          "geology-g10-s1-pdf-metamorphic-quiz-doc-d0349215cc",
+          "geology-g10-s1-pdf-metamorphic-rocks-quiz-docx-9fef8645af",
+          "geology-g10-s1-pdf-minerals-question-and-answers-pdf-105ad02fb4",
+          "geology-g10-s1-pdf-quiz-lo1-01-pdf-36989e6f29",
+          "geology-g10-s1-pdf-quiz-on-igneous-rocks-rtf-b5512171a4",
+          "geology-g10-s1-pdf-quiz-on-sedimentary-rtf-008fe9fe7a",
+          "geology-g10-s1-pdf-quizz-and-answer-on-metamorphic-pdf-4009ea4e47",
+          "geology-g10-s1-pdf-rock-pre-quiz-and-answer-pdf-33e7593465"
+        ]
+      },
+      {
+        "id": "geology-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 9,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "geology-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 10,
+        "concepts": [],
+        "resources": []
+      }
+    ],
+    "units": 7
+  },
+  "resources": [
+    {
+      "id": "geology-g10-s1-video-k-cb-qgytje-2a6b74e6ec",
+      "title": "The contribution of geology to the different domains in our lives",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/k_CB-qGytJE?si=ao6pHNN7Uttd4w9w",
+      "youtubeId": "k_CB-qGytJE",
+      "source": {
+        "location": "LO1 → The contribution of geology to the different domains in our lives"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geology-its-branches-and-scope-pdf-79e8e5364a",
+      "title": "Geology  Its Branches and Scope.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1bOUSB_Et7jp1PzcHh-I6z02-ZIXKEi4l/view?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geology-l-o-1-grade-10-pptx-d257b7cace",
+      "title": "Geology L.O 1 grade 10.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1Ko01DC5NTdihxK7lm8_LG5hvr_xIZoJU/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-x89jhh1fa7i-5501095bb9",
+      "title": "Minerals are homogeneous solid earth materials.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/x89JhH1FA7I?si=LQivIBHCDtllv7Ln",
+      "youtubeId": "x89JhH1FA7I",
+      "source": {
+        "location": "LO2 → Minerals are homogeneous solid earth materials."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-m4rznuzfv4w-3b2f07bac9",
+      "title": "Minerals have distinct physical properties that enable them to be distinguished from one another.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/M4rzNUZFV4w?si=SGMBWloA1K8EMF4K",
+      "youtubeId": "M4rzNUZFV4w",
+      "source": {
+        "location": "LO2 → Minerals have distinct physical properties that enable them to be distinguished from one another."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-1sgc3vbqzy0-a84ceda33e",
+      "title": "For most common minerals, the most useful properties for hand sample identification include hardness, cleavage or fracture patterns, translucency, and color.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/1SGC3VBQZY0?si=bawZ2bzAao9tHnNL",
+      "youtubeId": "1SGC3VBQZY0",
+      "source": {
+        "location": "LO2 → For most common minerals, the most useful properties for hand sample identification include hardness, cleavage or fracture patterns, translucency, and color."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-bowqcgw9iyk-525759698f",
+      "title": "Metallic minerals are uncommon, but economically important.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/BowQcGw9IYk?si=eCkyGOlRs6vGVRLa",
+      "youtubeId": "BowQcGw9IYk",
+      "source": {
+        "location": "LO2 → Metallic minerals are uncommon, but economically important."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-7nacspqzg8u-c9ed324f4d",
+      "title": "For metallic minerals, the additional properties of streak and magnetism are useful for hand sample identification",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7nacSPqZg8U?si=kGawUS7FSGA2Bxkl",
+      "youtubeId": "7nacSPqZg8U",
+      "source": {
+        "location": "LO2 → For metallic minerals, the additional properties of streak and magnetism are useful for hand sample identification"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-ybpezjsug-be372ac2f0",
+      "title": "Completely unambiguous identification of minerals often requires sophisticated laboratory analysis.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/__yBpEzjSUg?si=DYzmrpt89LC37zSe",
+      "youtubeId": "__yBpEzjSUg",
+      "source": {
+        "location": "LO2 → Completely unambiguous identification of minerals often requires sophisticated laboratory analysis."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-1inpon9cktg-bd02c67566",
+      "title": "Some construction materials are highly refined from the original Earth material, while others are used in the original state.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/1iNpON9ckTg?si=yAI9cnTrtY7CeUaD",
+      "youtubeId": "1iNpON9ckTg",
+      "source": {
+        "location": "LO2 → Some construction materials are highly refined from the original Earth material, while others are used in the original state."
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geology-l-o-2-grade-10-pptx-986e3d7f2e",
+      "title": "Geology L.O 2 grade 10.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/11R_GpEd4qqIc9LzvnMv8Ojga4cWVY_ud/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-minerals-2-ppt-99044aca15",
+      "title": "minerals 2.ppt",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1YnvtFVyUVossyZwdJfmpq07VQZyjmdBS/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-minerals-by-rushdy-saad-vip-pptx-2720e0df67",
+      "title": "Minerals by Rushdy saad VIP.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1zfPteZnklqVnC-06LiZKPR-elKv_tckQ/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-zk5fzhud5a4-9679d75616",
+      "title": "Different Earth materials and different manufactured materials have different engineering properties, such as their behavior under stress, making them suitable for different uses in construction.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zk5FZhUD5a4?si=hXemCntqlIgMjc_A",
+      "youtubeId": "zk5FZhUD5a4",
+      "source": {
+        "location": "LO3 → Different Earth materials and different manufactured materials have different engineering properties, such as their behavior under stress, making them suitable for different uses in construction."
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-building-materials-gr-3-pdf-63465e5513",
+      "title": "Building Materials  ( gr 3 ).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1lLOlMopdffLLl7C2pW7o8hzLsR6XZoAu/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-building-materials-ppt-v-v-2nd-sess-important-pptx-9cc2f7e2ea",
+      "title": "building materials ppt  v.v.2nd sess   important.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1reLfi13oC-4jBKrNWVQYDR7r2olS3gdy/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-building-materials-1-pdf-8e0c8144a3",
+      "title": "Building_materials (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1mRh_AYT8mQfue-SyApFhTI6GDU1RLO11/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geology-l-o3-ppt-67b219961c",
+      "title": "Geology L.O3.ppt",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1oSr9B8sdJYLzPb2X1L5u5T1r3AsB3_D_/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-lo-1-03-building-materials-2017-pdf-eef0b65984",
+      "title": "LO .1.03 Building Materials 2017.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1BZw9NpH51lY-Vd7brhyWwhr_rg-EhcS4/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-lo-es1-03-earth-materials-2017-pdf-26b09c36c7",
+      "title": "LO ES1.03 Earth Materials 2017.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1GhwnrlZSkkweRR9DHtOmaBGg7VIWpY8o/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-lo3-building-materials-sess1-pptx-b6fc8fb997",
+      "title": "lo3 building materials  مهم جدا SESS1.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1kKzsJNWJDu57PAtnYUAVYIsqmQeMWjNE/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-ceuyx-abzdo-54cac42754",
+      "title": "Rocks are heterogeneous mixtures of minerals and (rarely) other earth materials.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/CeuYx-AbZdo?si=RVRHfSI3HPMNiZp3",
+      "youtubeId": "CeuYx-AbZdo",
+      "source": {
+        "location": "LO4 → Rocks are heterogeneous mixtures of minerals and (rarely) other earth materials."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-cufgmk-sda4-3091b2e436",
+      "title": "Igneous rocks cooled from melts are found in association with volcanoes and also as rocks that cooled underground",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/cuFGMk_sDa4?si=h_obNzfKiik0bSFx",
+      "youtubeId": "cuFGMk_sDa4",
+      "source": {
+        "location": "LO4 → Igneous rocks cooled from melts are found in association with volcanoes and also as rocks that cooled underground"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-8tmwcrllnuk-cfca6fa30b",
+      "title": "Different cooling histories produce different igneous textures.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8tmwCrlLnUk?si=Vvl0Y97q-cwdRRoP",
+      "youtubeId": "8tmwCrlLnUk",
+      "source": {
+        "location": "LO4 → Different cooling histories produce different igneous textures."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-ovsj1sygngm-411fb5d7d2",
+      "title": "Differences in magma composition and eruption location create differences in eruption explosivity that affect volcanic rock textures.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Ovsj1SyGnGM?si=16M_70qeeZwKETN8",
+      "youtubeId": "Ovsj1SyGnGM",
+      "source": {
+        "location": "LO4 → Differences in magma composition and eruption location create differences in eruption explosivity that affect volcanic rock textures."
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-chapter-3-intrusive-igneous-rocks-v-v-imp-ppt-4a039a3f02",
+      "title": "Chapter 3 Intrusive igneous rocks v.v.imp.ppt",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1ecbl6gTZ0DT3NdYb2mbfbtId5tsW8XeN/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geo-l-o4-pptx-5dc03b5d88",
+      "title": "Geo L.O4 +.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1R8WKNkyeU3nDnyD7kWBi1ca0i_F25eYX/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geology-l-o4-pptx-9e66249f3f",
+      "title": "Geology L.O4.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1T4QWflZ-Y9W2zqGmKZmD5YdsKmzFFL1H/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-x0laugbqwvq-6154aed0f9",
+      "title": "Sedimentary rocks that accumulate from particles can be formed in a wide range of environments on Earth's surface",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/x0lauGbQWvQ?si=xUOFR7aA5k8JRnqV",
+      "youtubeId": "x0lauGbQWvQ",
+      "source": {
+        "location": "LO5 → Sedimentary rocks that accumulate from particles can be formed in a wide range of environments on Earth's surface"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-etu9bwbudly-65f33c5a76",
+      "title": "Some sedimentary rocks form from particles of older rocks that are removed from their original location and deposited in a new one.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Etu9BWbuDlY?si=mlKlDEQmD04L3-TQ",
+      "youtubeId": "Etu9BWbuDlY",
+      "source": {
+        "location": "LO5 → Some sedimentary rocks form from particles of older rocks that are removed from their original location and deposited in a new one."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-ptq3h6wzwyg-a99770925a",
+      "title": "The environment of deposition and the source material both contribute to differences in texture and composition among these sedimentary rocks.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ptq3h6WZWYg?si=rwtXzcNr9qYmHTtM",
+      "youtubeId": "ptq3h6WZWYg",
+      "source": {
+        "location": "LO5 → The environment of deposition and the source material both contribute to differences in texture and composition among these sedimentary rocks."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-kq4djy-5asy-c06b3547ed",
+      "title": "Some sedimentary rocks are made of particles from once living organisms.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/kq4DJY_5ASY?si=eHhct9Si46_mxanA",
+      "youtubeId": "kq4DJY_5ASY",
+      "source": {
+        "location": "LO5 → Some sedimentary rocks are made of particles from once living organisms."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-qqdf-26nvw0-09cc7045b7",
+      "title": "The types of organisms determine much about the texture and mineral composition of such rocks",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Qqdf_26NVW0?si=LF9vg6RTLXFYF6qw",
+      "youtubeId": "Qqdf_26NVW0",
+      "source": {
+        "location": "LO5 → The types of organisms determine much about the texture and mineral composition of such rocks"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-cscnamemlgk-8ba7e35475",
+      "title": "Sedimentary rocks often contain pore spaces that make them important reservoirs of fluids in the upper part of Earth's crust.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/cSCNAMEmLGk?si=vANlg6-pS0rH7KfG",
+      "youtubeId": "cSCNAMEmLGk",
+      "source": {
+        "location": "LO5 → Sedimentary rocks often contain pore spaces that make them important reservoirs of fluids in the upper part of Earth's crust."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-xeozx2av3rc-cd29f20924",
+      "title": "Sedimentary rocks sometimes contain organic material that may become part of Earth's energy resources",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/XEozX2Av3rc?si=TVmhAyEJsNwY5eHs",
+      "youtubeId": "XEozX2Av3rc",
+      "source": {
+        "location": "LO5 → Sedimentary rocks sometimes contain organic material that may become part of Earth's energy resources"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-sybiqjohyia-c39362dc48",
+      "title": "Limestone and cement materials derived from limestone are essential Egyptian building resources due both to their abundance and to the lack of alternative building materials.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/syBiqjoHyIA?si=Zy66_VPYKAv7XhGK",
+      "youtubeId": "syBiqjoHyIA",
+      "source": {
+        "location": "LO5 → Limestone and cement materials derived from limestone are essential Egyptian building resources due both to their abundance and to the lack of alternative building materials."
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-chapter-6-sedimentary-rocks-ppt-dc2e8d9283",
+      "title": "Chapter 6 Sedimentary Rocks للشرح.ppt",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1T1jL2wyXsmPLfo1RAmT0qudkSCu7MSAV/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geology-l-o-5-grade-10-pptx-e4394ee2e3",
+      "title": "Geology L.O 5 grade 10.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1OrWYjpIXh4C50mq2S9HeB8q6xwCkDTgD/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geology-l-o-5-pptx-60a14285d7",
+      "title": "Geology L.O 5.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1J2uQ8p8naNLxOB85PgiR9-EQQ9SJDZDY/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-0qtkumojnuu-0510ab60ab",
+      "title": "Changes in temperature, pressure, or composition in Earth's subsurface can change the texture and mineral composition of pre-existing rocks,creating metamorphic rocks",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/0QTkumoJnuU?si=waOt9EEHb3ur3fnO",
+      "youtubeId": "0QTkumoJnuU",
+      "source": {
+        "location": "LO6 → Changes in temperature, pressure, or composition in Earth's subsurface can change the texture and mineral composition of pre-existing rocks,creating metamorphic rocks"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-k-fq0ibckg0-daba59a5a0",
+      "title": "Deformation during metamorphism produces foliated textures and may destroy original textures.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/K-fQ0iBckG0?si=Fj5vmPowlD_5VeRP",
+      "youtubeId": "K-fQ0iBckG0",
+      "source": {
+        "location": "LO6 → Deformation during metamorphism produces foliated textures and may destroy original textures."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-7duvsdokujm-fdf191bc25",
+      "title": "Deformation (change in shape) and stresses (distribution of forces) are related, but maximum deformation and maximum stress are not always parallel.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7DuVsDOKUJM?si=bDsFSHNLsr0gx2MQ",
+      "youtubeId": "7DuVsDOKUJM",
+      "source": {
+        "location": "LO6 → Deformation (change in shape) and stresses (distribution of forces) are related, but maximum deformation and maximum stress are not always parallel."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-vl9lr0vxlfw-568424966c",
+      "title": "The metamorphic texture and mineralogy observed in metamorphic rocks are most commonly related to the conditions when the rock experienced its maximum temperature.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/vL9lr0vXLFw?si=x6cxCN6Z6vrgfrMY",
+      "youtubeId": "vL9lr0vXLFw",
+      "source": {
+        "location": "LO6 → The metamorphic texture and mineralogy observed in metamorphic rocks are most commonly related to the conditions when the rock experienced its maximum temperature."
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geology-l-o-6-grade-10-pptx-b43e3d529a",
+      "title": "Geology L.O 6 grade 10.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1-C0nsI5mqJp1XFaG_vk_O7Qt74pwWFcX/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geology-l-o-6-pptx-5a663933b5",
+      "title": "Geology L.O 6.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1XGRqeQ4J5DvqNSQlHyhG8AGLSgOzZusH/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-fysem63fv0s-cd1f70e4c7",
+      "title": "Rock composition and texture provides evidence that can be interpreted to yield a geologic history",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/fYSeM63Fv0s?si=0oZFWi9AopO8JcFu",
+      "youtubeId": "fYSeM63Fv0s",
+      "source": {
+        "location": "LO7 → Rock composition and texture provides evidence that can be interpreted to yield a geologic history"
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-gpfay9tgcgi-652a56d4e5",
+      "title": "Interpreting cross sections to study the age relationships of different rock units.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/GpFAy9tGCgI?si=hafn7Kig87pUS3Nn",
+      "youtubeId": "GpFAy9tGCgI",
+      "source": {
+        "location": "LO7 → Interpreting cross sections to study the age relationships of different rock units."
+      }
+    },
+    {
+      "id": "geology-g10-s1-video-thucu1lxex4-d7310e4e88",
+      "title": "Interpreting different geological maps that show outcrops of different rocks of Egypt.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/thUcu1lXEX4?si=ZPtL5_esPc678o2E",
+      "youtubeId": "thUcu1lXEX4",
+      "source": {
+        "location": "LO7 → Interpreting different geological maps that show outcrops of different rocks of Egypt."
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geology-l-o-7-grade-10-pptx-d1caa24838",
+      "title": "Geology L.O 7 grade 10.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/10thYKW9fom1wqS4eD9jGgukDcBj_qUbf/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-07"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geology-l-o-7-pptx-795886b110",
+      "title": "Geology L.O 7.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/16KTN-cPq3ckl2m1W96JA45jroDuy3uyb/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-07"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-lo1-07-pdf-d731c3b13e",
+      "title": "LO1.07.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1eilAkXBzFLv02pbdz1PhhcOf09mKHeyn/view?usp=drivesdk",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-07"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-rock-cycle-ppt-804e30829d",
+      "title": "rock cycle.ppt",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1h2U15C4VCv5FfzRFDthC1cw8PqNlAvzI/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s1-unit-07"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-g10-queeze-pdf-092c3cd01f",
+      "title": "G10 queeze.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1-fK4P0lbBwCQz0-G50kyUCf5-nyES89d/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-geo-quiz-lo1-01-pdf-b0e0c32976",
+      "title": "Geo Quiz LO1.01.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1_en6bf2orNxnrxH5ATNhvSSNLn2bvR_v/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-igneous-test-png-efffb44598",
+      "title": "igneous test.PNG",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1GwurogFLm5GINKzoLg0rIyXhfnYjOhR1/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-igneousvers2-quiz-and-answer-pdf-e79666be8f",
+      "title": "IgneousVers2 QUIZ AND ANSWER.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1K8k6K8QC82TLNHaLrKHC5WkzgBanxrhL/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-l-o-7-quizz-and-answer-docx-660da3cecf",
+      "title": "L.O 7 quizz and answer.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1JoX40gpBCSVS56a2s0L0hLJaAfLKQBmr/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-lo-6-quizz-with-answer-docx-f6f76a4689",
+      "title": "LO 6 quizz with answer.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1-8T-5Lbi_BRVBLkLkioq5O73z07Z1grS/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-metamorphic-quiz-doc-d0349215cc",
+      "title": "metamorphic quiz.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1U30IdRo95BNCjurdt68cXvu5Au-iuu-E/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-metamorphic-rocks-quiz-docx-9fef8645af",
+      "title": "Metamorphic Rocks Quiz.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/135Xbf3xRIOSF3LQpwykFbrvEZBjlV4ue/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-minerals-question-and-answers-pdf-105ad02fb4",
+      "title": "Minerals QUESTION AND ANSWERS.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1gNSoBkAbLEPHDjyDAhkSJ8FBfjJEdXwa/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-quiz-lo1-01-pdf-36989e6f29",
+      "title": "Quiz LO1.01.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1IqDEbMpjIQ02f1s-Y4OKVXO1PPBV77r2/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-quiz-on-igneous-rocks-rtf-b5512171a4",
+      "title": "quiz-on-igneous-rocks.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1hPA8eWfcNLKHfTFmYYOLZ--w_5_5dytN/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-quiz-on-sedimentary-rtf-008fe9fe7a",
+      "title": "quiz-on-sedimentary.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1CCEr84KDYyzL8NFiBE6GnjQ2O4Z8sNL_/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-quizz-and-answer-on-metamorphic-pdf-4009ea4e47",
+      "title": "quizz and answer on metamorphic.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1en-kSDm4eTrl9cXFHP5ZTkgOvKX0woW4/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s1-pdf-rock-pre-quiz-and-answer-pdf-33e7593465",
+      "title": "Rock Pre QUIZ AND ANSWER.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1SwvG3_q3iS-g0vKIZJy1o0GJe9fPaYun/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-06T00:20:26.109Z",
+  "source": {
+    "file": "migration/raw/g10/s1/german.json"
+  },
+  "subject": {
+    "id": "german-g10-s1",
+    "name": "German",
+    "description": "German resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "german",
+    "content": [
+      {
+        "id": "german-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Begrüßung & Auskunft",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "german-g10-s1-concept-jemanden-begr-ssen-und-sich-verabschieden",
+            "title": "jemanden begrüssen und sich verabschieden",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "german-g10-s1-concept-jemanden-nach-dem-herkunftsland-nennen-und-ber-sprachkenntnisse",
+            "title": "‣jemanden nach dem Herkunftsland nennen und über Sprachkenntnisse",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "german-g10-s1-concept-auskunft-geben",
+            "title": "Auskunft geben",
+            "description": "",
+            "order": 3,
+            "resources": []
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "german-g10-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Befinden & Familie",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "german-g10-s1-concept-jemanden-nach-dem-befinden-fragen-und-sein-eigenes-befinden-ausdr-cken",
+            "title": "jemanden nach dem Befinden fragen und sein eigenes Befinden ausdrücken",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "german-g10-s1-concept-seine-familie-und-freunde-vorstellen",
+            "title": "seine Familie und Freunde vorstellen",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "german-g10-s1-concept-den-wohnort-und-die-adresse-nennen",
+            "title": "den Wohnort und die Adresse nennen",
+            "description": "",
+            "order": 3,
+            "resources": []
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "german-g10-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Additional References",
+        "description": "",
+        "order": 3,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "german-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 4,
+        "concepts": [],
+        "resources": [
+          "german-g10-s1-pdf-alltagssituationen1-10-l-1-2-docx-7a82e107de",
+          "german-g10-s1-pdf-grammatik-10-l-1-2-a-2-docx-a46a01a62c",
+          "german-g10-s1-pdf-lektion-1-2-test-1-docx-05ed995432",
+          "german-g10-s1-pdf-lektion-1-2-test-doc-05611c50c9",
+          "german-g10-s1-pdf-lektion-1-2-test-docx-39fb76335b",
+          "german-g10-s1-pdf-schriftlicher-ausdruck-l-1-2-a-docx-4b7f123eba",
+          "german-g10-s1-pdf-schriftlicher-ausdruck-l-1-2-a-docx-a315580cea",
+          "german-g10-s1-pdf-wiederholt-texterfassung-l-1-2-docx-d29a31bbdd",
+          "german-g10-s1-pdf-wiederholt-texterfassung-10-l-1-2-a-docx-40475b3565"
+        ]
+      },
+      {
+        "id": "german-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 5,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "german-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 6,
+        "concepts": [],
+        "resources": [
+          "german-g10-s1-pdf-arbeitsbuch-a1-pdf-9d2d617dde",
+          "german-g10-s1-pdf-deutsch-com-1-pdf-3134e2a9ec"
+        ]
+      }
+    ],
+    "units": 3
+  },
+  "resources": [
+    {
+      "id": "german-g10-s1-pdf-alltagssituationen1-10-l-1-2-docx-7a82e107de",
+      "title": "Alltagssituationen1  10  L. 1+2.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1iNKc7rB_qqIvsJaCBZGhTroV5HEYlEXm/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s1-pdf-grammatik-10-l-1-2-a-2-docx-a46a01a62c",
+      "title": "Grammatik 10 - L 1, 2 A (2).docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1u5bgsXRP_ED-KVh9N5yrEPiaoJqB3K1A/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s1-pdf-lektion-1-2-test-1-docx-05ed995432",
+      "title": "Lektion 1 & 2 - Test-1.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1exS75A5Or5rA-nzeYIeP3ov4iPcdHqHf/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s1-pdf-lektion-1-2-test-doc-05611c50c9",
+      "title": "Lektion 1 & 2 - Test.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1NXaxjSd8rkM8ZcLecqKkSaU9ELQB2t79/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s1-pdf-lektion-1-2-test-docx-39fb76335b",
+      "title": "Lektion 1 & 2 - Test.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1QX1l1iw0-eRpz7tzWAKlk5muE863bBLt/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s1-pdf-schriftlicher-ausdruck-l-1-2-a-docx-4b7f123eba",
+      "title": "Schriftlicher Ausdruck L 1, 2 A.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1Ma8_WQ_3d-N3HocR3EDQCvNxJo5lg0L8/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s1-pdf-schriftlicher-ausdruck-l-1-2-a-docx-a315580cea",
+      "title": "Schriftlicher Ausdruck L 1.2.A.....docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1XyYueG1JY4jH-nh7MSoB3whtnudyKH9B/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s1-pdf-wiederholt-texterfassung-l-1-2-docx-d29a31bbdd",
+      "title": "Wiederholt Texterfassung  - L. 1_ 2 .docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/10P5gspEukNFTrC6SFrb4sS-msNXmJBgF/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s1-pdf-wiederholt-texterfassung-10-l-1-2-a-docx-40475b3565",
+      "title": "Wiederholt Texterfassung 10 - L 1, 2 A.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1ZpsWD30SmFHjYpWD4UCH5eq7EjQYxFNA/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s1-pdf-arbeitsbuch-a1-pdf-9d2d617dde",
+      "title": "Arbeitsbuch a1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/15H4aU0SIjBN9gGidNgbWnduJZBQmw_SN/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "german-g10-s1-pdf-deutsch-com-1-pdf-3134e2a9ec",
+      "title": "Deutsch .com 1 .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1MnDztLlFw2LS31hip-I6rVqtjCAWcdgc/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

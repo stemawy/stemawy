@@ -1,0 +1,919 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T18:55:22.192Z",
+  "source": {
+    "file": "migration/raw/g10/s2/mechanics.json"
+  },
+  "subject": {
+    "id": "mechanics-g10-s2",
+    "name": "Mechanics",
+    "description": "Mechanics resources for Grade 10, Semester 2.",
+    "grade": "10",
+    "semester": "2",
+    "icon": "mechanics",
+    "content": [
+      {
+        "id": "mechanics-g10-s2-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "LO5",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "mechanics-g10-s2-concept-launch-angle",
+            "title": "Launch angle",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "mechanics-g10-s2-video-zz39o1razwy-c05c632183",
+              "mechanics-g10-s2-video-dlf-xbkav9w-e4059332c1"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-projectile-motion",
+            "title": "Projectile Motion",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "mechanics-g10-s2-video-ay8z2qo44wa-810a7a8dea",
+              "mechanics-g10-s2-video-8nlzuurxfwy-e4971634a4",
+              "mechanics-g10-s2-video-jwl1tglj9jy-f864ce027f"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-range",
+            "title": "Range",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "mechanics-g10-s2-video-mp8bz5p1m4i-e805055aa8",
+              "mechanics-g10-s2-video-cu-yzfinpn0-c8779bd1dd"
+            ]
+          }
+        ],
+        "resources": [
+          "mechanics-g10-s2-pdf-lo-5-f-pdf-ef0119be3d",
+          "mechanics-g10-s2-pdf-mechanics-lo5-utag-pdf-0cdbde9afb",
+          "mechanics-g10-s2-video-n7rri8owj7g-73dcb5daff"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s2-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "LO6",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "mechanics-g10-s2-concept-resultant-of-forces",
+            "title": "Resultant of forces",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "mechanics-g10-s2-video-yg3btmcansm-9a358c87d3",
+              "mechanics-g10-s2-video-rxv06oj5smc-2bc3afea96",
+              "mechanics-g10-s2-video-lrwyac-4thy-261626cc26"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-resolution-of-a-force",
+            "title": "resolution of a force",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "mechanics-g10-s2-video-owdnonbvu3a-817129b3c1"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-lami-s-rule",
+            "title": "Lami's rule",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "mechanics-g10-s2-video-tvygghcfkko-84b3bf37b3"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-triangle-of-force",
+            "title": "Triangle of force",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "mechanics-g10-s2-video-5we36xm5knc-2b5c209def"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-equilibrium-of-co-planar-forces-act-at-a-point",
+            "title": "Equilibrium of co-planar forces act at a point",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "mechanics-g10-s2-video-x9g4g1ebhca-862bd498ce"
+            ]
+          }
+        ],
+        "resources": [
+          "mechanics-g10-s2-pdf-lo-me-1-06-pdf-aa2ca739fa",
+          "mechanics-g10-s2-pdf-lo-6-1-pdf-a958b3afd5",
+          "mechanics-g10-s2-video-wiwubdzz1gg-3b9047a6f2"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s2-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "LO7",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "mechanics-g10-s2-concept-net-force",
+            "title": "Net force",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "mechanics-g10-s2-video-fwdwjzkrtue-4cdb1df410"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-mass",
+            "title": "Mass",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "mechanics-g10-s2-video-bjjoz5qqpmc-1ef6a48e18",
+              "mechanics-g10-s2-video-lb-wov071vc-d61c359b9e"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-acceleration",
+            "title": "Acceleration",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "mechanics-g10-s2-video-jspwctipfqw-45612d4e06"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-free-body-diagrams",
+            "title": "Free body diagrams",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "mechanics-g10-s2-video-52r61aswhg0-08f1426c19"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-friction",
+            "title": "Friction",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "mechanics-g10-s2-video-mx7nyruxdb0-dd42d9559a"
+            ]
+          }
+        ],
+        "resources": [
+          "mechanics-g10-s2-pdf-lo-7-me-pdf-03938aff08",
+          "mechanics-g10-s2-video-vaeqw2vb5kg-0434a274c2"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s2-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "LO8",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "mechanics-g10-s2-concept-vector-sum-of-forces-resultant",
+            "title": "Vector sum of forces: resultant",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "mechanics-g10-s2-video-ej3zvxljjfo-98666b3bc1",
+              "mechanics-g10-s2-video-m-pasq4mioa-eae2a76ea7"
+            ]
+          }
+        ],
+        "resources": [
+          "mechanics-g10-s2-pdf-newton-second-law-2-1-pdf-3190ccb4cb",
+          "mechanics-g10-s2-pdf-copy-of-lo-8-me-pdf-496ad3c3eb",
+          "mechanics-g10-s2-video-vaeqw2vb5kg-0a150befc4"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s2-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "LO9",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "mechanics-g10-s2-concept-centripetal-acceleration",
+            "title": "Centripetal acceleration",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "mechanics-g10-s2-video-zblirqut9uu-1b2c550830"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-centripetal-force",
+            "title": "Centripetal force",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "mechanics-g10-s2-video-sqx22vvmrps-c34ebd1c1f"
+            ]
+          },
+          {
+            "id": "mechanics-g10-s2-concept-force-free-body-diagrams",
+            "title": "Force (free body) Diagrams",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "mechanics-g10-s2-video-i447nwnpscm-8cc45b15e7"
+            ]
+          }
+        ],
+        "resources": [
+          "mechanics-g10-s2-pdf-copy-of-lo-9-me-pdf-03c812ff7a",
+          "mechanics-g10-s2-pdf-mechanics-lo-9-ahmed-mohamed-pdf-601bc52ce7",
+          "mechanics-g10-s2-video-zujc4d-n8hu-a7c97e9d03",
+          "mechanics-g10-s2-video-psiwtpbhza-60336efbdd"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s2-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 6,
+        "concepts": [],
+        "resources": [
+          "mechanics-g10-s2-pdf-copy-of-lo-9-exercises-pdf-5b39a3a9f6",
+          "mechanics-g10-s2-pdf-copy-of-lo-7-8-me-exercises-pdf-258ca9582e",
+          "mechanics-g10-s2-pdf-revision-mech-lo7-pdf-12987ee36a",
+          "mechanics-g10-s2-pdf-revision-mech-lo-6-pdf-8385c4e88a",
+          "mechanics-g10-s2-pdf-revision-mech-lo-5-proje-pdf-618c5b73e7"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s2-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 7,
+        "concepts": [],
+        "resources": [
+          "mechanics-g10-s2-video-utrqofxj9pk-3659ebdfa4",
+          "mechanics-g10-s2-video-eyaprde8fuk-8c245c8ee6",
+          "mechanics-g10-s2-video-k1edneagqz0-d96d504b99",
+          "mechanics-g10-s2-video-fmomrfdiurm-a2cba7a36e",
+          "mechanics-g10-s2-video-bsjdf84g7oc-f53c750bcb"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s2-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 8,
+        "concepts": [],
+        "resources": [
+          "mechanics-g10-s2-pdf-final-revision-on-mechanics-with-answer-pdf-f541380f9e",
+          "mechanics-g10-s2-pdf-mech-2015-2016-g10-final-2nd-pdf-eacce22d90",
+          "mechanics-g10-s2-pdf-mechanics-lo5-utag-pdf-0cdbde9afb"
+        ]
+      }
+    ],
+    "units": 5
+  },
+  "resources": [
+    {
+      "id": "mechanics-g10-s2-video-zz39o1razwy-c05c632183",
+      "title": "Launch angle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ZZ39o1rAZWY?si=zTkNFkqmgu1jqoEi",
+      "youtubeId": "ZZ39o1rAZWY",
+      "source": {
+        "location": "LO5 → Launch angle"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-dlf-xbkav9w-e4059332c1",
+      "title": "Launch angle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/dlf-xBkAv9w?si=80tUlmTIvgvx46yy",
+      "youtubeId": "dlf-xBkAv9w",
+      "source": {
+        "location": "LO5 → Launch angle"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-ay8z2qo44wa-810a7a8dea",
+      "title": "Projectile Motion",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/aY8z2qO44WA?si=Bw31JDjc_5VUv4pE",
+      "youtubeId": "aY8z2qO44WA",
+      "source": {
+        "location": "LO5 → Projectile Motion"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-8nlzuurxfwy-e4971634a4",
+      "title": "Projectile Motion",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8NLzuURxFwY?si=OUv65WRyrHssaJui",
+      "youtubeId": "8NLzuURxFwY",
+      "source": {
+        "location": "LO5 → Projectile Motion"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-jwl1tglj9jy-f864ce027f",
+      "title": "Projectile Motion",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/jWl1TgLj9JY?si=8unEwVZZPvWZYbfN",
+      "youtubeId": "jWl1TgLj9JY",
+      "source": {
+        "location": "LO5 → Projectile Motion"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-mp8bz5p1m4i-e805055aa8",
+      "title": "Range",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Mp8bz5P1m4I?si=7ZX-03E_GsZfyh0d",
+      "youtubeId": "Mp8bz5P1m4I",
+      "source": {
+        "location": "LO5 → Range"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-cu-yzfinpn0-c8779bd1dd",
+      "title": "Range",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/cu_YZFINPN0?si=tiG3Aj-6lgmbaP-u",
+      "youtubeId": "cu_YZFINPN0",
+      "source": {
+        "location": "LO5 → Range"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-lo-5-f-pdf-ef0119be3d",
+      "title": "LO 5 F.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1xjI1yZ8TyZxoAdz8Xg8rtiQkcw9uXGrR/view",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-mechanics-lo5-utag-pdf-0cdbde9afb",
+      "title": "Mechanics LO5 UTAG.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1gdV97UtNlmTlsrpwHtyVm2SFsynPqfMw/view",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-n7rri8owj7g-73dcb5daff",
+      "title": "LO5 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/n7rri8owj7g?si=Uzo2itZCO-ke1gpb",
+      "youtubeId": "n7rri8owj7g",
+      "source": {
+        "location": "LO5 → Summary"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-yg3btmcansm-9a358c87d3",
+      "title": "Resultant of forces",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/yg3bTMcAnsM?si=hid3fOnbIUCbkYP6",
+      "youtubeId": "yg3bTMcAnsM",
+      "source": {
+        "location": "LO6 → Resultant of forces"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-rxv06oj5smc-2bc3afea96",
+      "title": "Resultant of forces",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/RxV06Oj5sMc?si=x_wHVAvT2aPvaom-",
+      "youtubeId": "RxV06Oj5sMc",
+      "source": {
+        "location": "LO6 → Resultant of forces"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-lrwyac-4thy-261626cc26",
+      "title": "Resultant of forces",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LrwYAC_4ThY?si=bXnMMdTlXE5yxtkb",
+      "youtubeId": "LrwYAC_4ThY",
+      "source": {
+        "location": "LO6 → Resultant of forces"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-owdnonbvu3a-817129b3c1",
+      "title": "resolution of a force",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/oWDnoNBVu3A?si=rKWvpSe0Fb2nUe6m",
+      "youtubeId": "oWDnoNBVu3A",
+      "source": {
+        "location": "LO6 → resolution of a force"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-tvygghcfkko-84b3bf37b3",
+      "title": "Lami's rule",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TvyggHcfkKo?si=xj1ScaQ-CUrjPNTN",
+      "youtubeId": "TvyggHcfkKo",
+      "source": {
+        "location": "LO6 → Lami's rule"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-5we36xm5knc-2b5c209def",
+      "title": "Triangle of force",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/5WE36XM5knc?si=b9TIKz9IiD8A5_lk",
+      "youtubeId": "5WE36XM5knc",
+      "source": {
+        "location": "LO6 → Triangle of force"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-x9g4g1ebhca-862bd498ce",
+      "title": "Equilibrium of co-planar forces act at a point",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/X9g4G1eBHCA?si=8p7dPkydN2yJVisE",
+      "youtubeId": "X9g4G1eBHCA",
+      "source": {
+        "location": "LO6 → Equilibrium of co-planar forces act at a point"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-lo-me-1-06-pdf-aa2ca739fa",
+      "title": "LO .ME . 1.06.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1mk-e3uWXVD1uyRXAbgxr36ccSdd6Mt9J/view",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-lo-6-1-pdf-a958b3afd5",
+      "title": "LO 6 (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1AIS87eJjC_Es5QUKEHAm7tL5WY-L7Shy/view",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-wiwubdzz1gg-3b9047a6f2",
+      "title": "LO6 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/wiwUbDzz1Gg?si=xRF923BRhkKIDnQM",
+      "youtubeId": "wiwUbDzz1Gg",
+      "source": {
+        "location": "LO6 → Summary"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-fwdwjzkrtue-4cdb1df410",
+      "title": "Net force",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/fwDWJZkrtUE?si=zKBc2PaesD8hwEB5",
+      "youtubeId": "fwDWJZkrtUE",
+      "source": {
+        "location": "LO7 → Net force"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-bjjoz5qqpmc-1ef6a48e18",
+      "title": "Mass",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/BJJOZ5QQpmc?si=XsQx7rjV6QHs9DNl",
+      "youtubeId": "BJJOZ5QQpmc",
+      "source": {
+        "location": "LO7 → Mass"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-lb-wov071vc-d61c359b9e",
+      "title": "Mass",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LB_WoV071vc?si=EfDJa56uY-G8noVJ",
+      "youtubeId": "LB_WoV071vc",
+      "source": {
+        "location": "LO7 → Mass"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-jspwctipfqw-45612d4e06",
+      "title": "Acceleration",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/JSPwCtIPfQw?si=U02VXW8VSiR0m2Qj",
+      "youtubeId": "JSPwCtIPfQw",
+      "source": {
+        "location": "LO7 → Acceleration"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-52r61aswhg0-08f1426c19",
+      "title": "Free body diagrams",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/52R61aSWHg0?si=oQfB45PTDupBkAvb",
+      "youtubeId": "52R61aSWHg0",
+      "source": {
+        "location": "LO7 → Free body diagrams"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-mx7nyruxdb0-dd42d9559a",
+      "title": "Friction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/mx7NYrUXDB0?si=629XjM3FpWUci0f5",
+      "youtubeId": "mx7NYrUXDB0",
+      "source": {
+        "location": "LO7 → Friction"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-lo-7-me-pdf-03938aff08",
+      "title": "LO 7 ME.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1uTAbBLHnRAjohk1TwAPieQek_fo63bIN/view",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-vaeqw2vb5kg-0434a274c2",
+      "title": "LO7 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/vAeqw2vb5Kg?si=dIFkTp71xTLqax3L",
+      "youtubeId": "vAeqw2vb5Kg",
+      "source": {
+        "location": "LO7 → Summary"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-ej3zvxljjfo-98666b3bc1",
+      "title": "Vector sum of forces: resultant",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Ej3ZVxljJfo?si=y8F8jLiH8KZM2ZDo",
+      "youtubeId": "Ej3ZVxljJfo",
+      "source": {
+        "location": "LO8 → Vector sum of forces: resultant"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-m-pasq4mioa-eae2a76ea7",
+      "title": "Vector sum of forces: resultant",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/m_pAsq4MIoA?si=OLej8sZWSybawip2",
+      "youtubeId": "m_pAsq4MIoA",
+      "source": {
+        "location": "LO8 → Vector sum of forces: resultant"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-newton-second-law-2-1-pdf-3190ccb4cb",
+      "title": "newton second law 2 (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/12TnOQE1Iv-lK6WDnqHw9TtMFKV3XxAq2/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-copy-of-lo-8-me-pdf-496ad3c3eb",
+      "title": "Copy of LO 8 ME.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1XXwiAckM769tSzZcyhBg0hICVwXyznjq/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-vaeqw2vb5kg-0a150befc4",
+      "title": "LO8 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/vAeqw2vb5Kg?si=nTQ3V3DC5mwG0l9K",
+      "youtubeId": "vAeqw2vb5Kg",
+      "source": {
+        "location": "LO8 → Summary"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-zblirqut9uu-1b2c550830",
+      "title": "Centripetal acceleration",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ZbLirQuT9uU?si=x6VyaIHhNkXZ0AI4",
+      "youtubeId": "ZbLirQuT9uU",
+      "source": {
+        "location": "LO9 → Centripetal acceleration"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-sqx22vvmrps-c34ebd1c1f",
+      "title": "Centripetal force",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/SQX22VVmRPs?si=1mfjoePdgYMzo295",
+      "youtubeId": "SQX22VVmRPs",
+      "source": {
+        "location": "LO9 → Centripetal force"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-i447nwnpscm-8cc45b15e7",
+      "title": "Force (free body) Diagrams",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/i447NWNpScM?si=TR42GqS8FK1DL2au",
+      "youtubeId": "i447NWNpScM",
+      "source": {
+        "location": "LO9 → Force (free body) Diagrams"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-copy-of-lo-9-me-pdf-03c812ff7a",
+      "title": "Copy of LO 9 ME.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1fGIFABlQtT-ZYqugg2ZCd3BVy8pAuzP1/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-mechanics-lo-9-ahmed-mohamed-pdf-601bc52ce7",
+      "title": "Mechanics LO.9 Ahmed Mohamed.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Nos6qZepkoocQpTlPQ6er_1mWp9qdd9z/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-zujc4d-n8hu-a7c97e9d03",
+      "title": "LO9 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Zujc4D_N8HU?si=6ochgRvKB6dXIfy4",
+      "youtubeId": "Zujc4D_N8HU",
+      "source": {
+        "location": "LO9 → Summary"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-psiwtpbhza-60336efbdd",
+      "title": "LO9 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/_psIWtPBHzA?si=aV_ZiY7PW6F0EUiJ",
+      "youtubeId": "_psIWtPBHzA",
+      "source": {
+        "location": "LO9 → Summary"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-copy-of-lo-9-exercises-pdf-5b39a3a9f6",
+      "title": "Copy of LO 9 exercises.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1MZWXTPLJ3kJeGTV2n2G3W6DTa6R_bOfN/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-copy-of-lo-7-8-me-exercises-pdf-258ca9582e",
+      "title": "Copy of LO 7 &8 ME exercises.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1jXdYxgy_MJ7pzyYMz6NHxkjD03RchWKH/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-revision-mech-lo7-pdf-12987ee36a",
+      "title": "revision-mech-LO7.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1VVkV0hxt0xGYEO96SeUYeLf_QYO7cWC0/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-revision-mech-lo-6-pdf-8385c4e88a",
+      "title": "revision -mech-LO-6.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1LcB09CBteCJKEvouEXzdMbF299m7wXeO/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-revision-mech-lo-5-proje-pdf-618c5b73e7",
+      "title": "revision mech-LO 5 proje..pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1sLYytjgLcFRfjwxKXXrvCY5DrdjdmJMQ/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-utrqofxj9pk-3659ebdfa4",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/UTrqoFXJ9pk?si=HURcJsWn8Q1G4Qqz",
+      "youtubeId": "UTrqoFXJ9pk",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-eyaprde8fuk-8c245c8ee6",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/eYApRDE8fuk?si=dqArCm5v2oun1nRh",
+      "youtubeId": "eYApRDE8fuk",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-k1edneagqz0-d96d504b99",
+      "title": "final Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/K1EdNEAgQZ0?si=WPZ9qCwbpWdFDkd4",
+      "youtubeId": "K1EdNEAgQZ0",
+      "source": {
+        "location": "Revision → final"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-fmomrfdiurm-a2cba7a36e",
+      "title": "final Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/fMomRFDIURM?si=nvjUVxBk6ZlZYD9k",
+      "youtubeId": "fMomRFDIURM",
+      "source": {
+        "location": "Revision → final"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-video-bsjdf84g7oc-f53c750bcb",
+      "title": "final Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/bSjDf84G7oc?si=Je_TSfYYmbLMEXwL",
+      "youtubeId": "bSjDf84G7oc",
+      "source": {
+        "location": "Revision → final"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-final-revision-on-mechanics-with-answer-pdf-f541380f9e",
+      "title": "Final revision on Mechanics with Answer.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1lYBtiltD_kNq4CekN3Tegtz8RekYrfLt/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "mechanics-g10-s2-pdf-mech-2015-2016-g10-final-2nd-pdf-eacce22d90",
+      "title": "mech-2015-2016-G10-final-2nd.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1zZs_bPVo1n69ExWmFJ2ju_dCCUD0dyBw/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

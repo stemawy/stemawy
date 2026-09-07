@@ -1,0 +1,19 @@
+{
+  "missingDriveUrls": [],
+  "missingVideoUrls": [],
+  "duplicateResourceIds": [],
+  "deduplicatedResourceIds": [],
+  "unrecognizedResourceLocations": [],
+  "notes": [],
+  "statistics": {
+    "units": 8,
+    "concepts": 32,
+    "resources": 73,
+    "pdfs": 43,
+    "videos": 30,
+    "testBanks": 4,
+    "missingDriveUrls": 0,
+    "missingVideoUrls": 0,
+    "duplicateResourceIds": 0
+  }
+}

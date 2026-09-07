@@ -1,0 +1,57 @@
+{
+  "learningObjectives": {
+    "LO1": {
+      "title": "LO1: Begrüßung & Auskunft",
+      "concepts": [
+        "jemanden begrüssen und sich verabschieden",
+        "‣jemanden nach dem Herkunftsland nennen und über Sprachkenntnisse",
+        "Auskunft geben"
+      ]
+    },
+    "LO2": {
+      "title": "LO2: Befinden & Familie",
+      "concepts": [
+        "jemanden nach dem Befinden fragen und sein eigenes Befinden ausdrücken",
+        "seine Familie und Freunde vorstellen",
+        "den Wohnort und die Adresse nennen"
+      ]
+    },
+    "references": {
+      "title": "Additional References",
+      "concepts": []
+    }
+  },
+  "resourceFiles": {
+    "books": [
+      "Deutsch_herr_amr_مترجم_FINAL[2].pptx",
+      "كتاب super star مراجعه ث ع .pdf",
+      "كتاب ستار مراجعه اولى ترم تانى.pdf",
+      "نموذج اجابة كتاب ستار مراجعة ث ع .pdf"
+    ],
+    "files": [
+      "مراجعة كلمات الصف الأول.pdf",
+      "مواقف ال 18 درس كلهم.pdf"
+    ],
+    "testBanks": [
+      "Online Quizs.docx",
+      "أسئلة درس المفعول به الأدوات فقط .pdf",
+      "أولى ثانوى المتفوقين+ أسئلة - Copy.pdf",
+      "أولى ثانوى المتفوقين+ إجابات.docx",
+      "إجابات درس المفعول به فقط الأدوات - Copy.pdf"
+    ]
+  },
+  "shareMap": {
+    "Deutsch_herr_amr_مترجم_FINAL[2].pptx": "https://docs.google.com/presentation/d/1VKb4Dd7j9SP2__gp6laPdC7avhyikUQ3/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+    "كتاب super star مراجعه ث ع .pdf": "https://drive.google.com/file/d/1kd7H7PdOl7ndsq8oCA0xTcK6zHew7jOV/view?usp=drive_link",
+    "كتاب ستار مراجعه اولى ترم تانى.pdf": "https://drive.google.com/file/d/1VNh1KUUrMWqsWgPkum8wvK9t3NC20GbX/view?usp=drive_link",
+    "نموذج اجابة كتاب ستار مراجعة ث ع .pdf": "https://drive.google.com/file/d/1rdYcfXe2ufsPapc_RnY7dGVtYPnVH3OU/view?usp=drive_link",
+    "مراجعة كلمات الصف الأول.pdf": "https://drive.google.com/file/d/1Nux6F1J3rBzw30swTvQt3Xj2XPUfU78z/view?usp=drive_link",
+    "مواقف ال 18 درس كلهم.pdf": "https://drive.google.com/file/d/1nZjy49GyIsSPefW49nlLUBHhAWJG_ipf/view?usp=drive_link",
+    "Online Quizs.docx": "https://docs.google.com/document/d/1EPRn-xbUYflSvEkLELNWCTdkONjrDCaZ/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+    "أسئلة درس المفعول به الأدوات فقط .pdf": "https://drive.google.com/file/d/1mtlIdxmn1T4uJPUdtazLtmAI0i1MGfV5/view?usp=drive_link",
+    "أولى ثانوى المتفوقين+ أسئلة - Copy.pdf": "https://drive.google.com/file/d/1FeW7OgWaR5IXhxAaxqOan1QV6uEg4OkK/view?usp=drive_link",
+    "أولى ثانوى المتفوقين+ إجابات.docx": "https://docs.google.com/document/d/1wbimrkWyJbwErBTRm3-XbVKTGABkJjcG/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+    "إجابات درس المفعول به فقط الأدوات - Copy.pdf": "https://drive.google.com/file/d/1VvrUC1ncKrkde8eBFTZv5UeOYWx87f5k/view?usp=drive_link"
+  },
+  "explicitShareMapLinks": []
+}

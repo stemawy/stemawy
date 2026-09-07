@@ -1,0 +1,162 @@
+{
+  "learningObjectives": {
+    "LO1": {
+      "title": "LO1: Motion Graphs and Reference Frames",
+      "concepts": [
+        "Position /Time graphs",
+        "Velocity/Time graphs",
+        "Acceleration /Time graphs",
+        "Relative velocity",
+        "Instantaneous velocity",
+        "Average velocity",
+        "Reference Frames"
+      ]
+    },
+    "LO2": {
+      "title": "LO2: Kinematics",
+      "concepts": [
+        "Area under a curve",
+        "Kinematic equations for 1-D motion with constant acceleration",
+        "Free-fall motion"
+      ]
+    },
+    "LO3": {
+      "title": "LO3: Reference Frames & Signed Velocity",
+      "concepts": [
+        "Reference frame",
+        "Reference object",
+        "Velocity as a signed quantity",
+        "Difference of velocities"
+      ]
+    },
+    "LO4": {
+      "title": "LO4: Vectors and 2D Motion",
+      "concepts": [
+        "Vector and scalar quantities",
+        "Rectangular coordinates",
+        "Polar coordinates",
+        "Engineering (i,j,k) notation",
+        "Physical diagrams",
+        "Position vectors",
+        "Resultant of two vectors",
+        "Relative velocity in 2-dimensions"
+      ]
+    }
+  },
+  "resourceFiles": {
+    "LO1": [
+      "first semester/LO1/1 Displacement time graph.pptx",
+      "first semester/LO1/2 velocity time graph.pptx",
+      "first semester/LO1/3 acceleration time graph.pptx",
+      "first semester/LO1/4 relative velocity averrage velocity.pptx",
+      "first semester/LO1/LO 1 ME.pptx",
+      "first semester/LO1/ME 1.01.3 (2).pptx",
+      "first semester/LO1/ME 1.01.4.pptx",
+      "first semester/LO1/ME 1.01.pptx",
+      "first semester/LO1/relative velocity.pdf"
+    ],
+    "LO2": [
+      "first semester/LO2/1-under graph.pptx",
+      "first semester/LO2/2-kinematic equation.pptx",
+      "first semester/LO2/3-Free Fall.pptx",
+      "first semester/LO2/5th free fall motion.pptx",
+      "first semester/LO2/Area under the curve.pptx",
+      "first semester/LO2/ME 1.02.3.pptx",
+      "first semester/LO2/Mechanics-5.pptx",
+      "first semester/LO2/Mechanics-6.pptx",
+      "first semester/LO2/Mechanics-7.pptx",
+      "first semester/LO2/session 6.pptx"
+    ],
+    "LO3": [
+      "first semester/LO3/4 relative velocity averrage velocity.pptx",
+      "first semester/LO3/ME 1.03 collision linear momentum conservation.pptx",
+      "first semester/LO3/relative velocity.pdf"
+    ],
+    "LO4": [
+      "first semester/LO4/4th suvat equations.pptx",
+      "first semester/LO4/Conservation of Momentum -Collision.pptx",
+      "first semester/LO4/Mathematical-Vector-Addition-Packet3.pdf",
+      "first semester/LO4/ME 1.04 Vectors.pptx",
+      "first semester/LO4/vector 1.pptx",
+      "first semester/LO4/vector 2.pptx",
+      "first semester/LO4/vector3.pptx"
+    ],
+    "revisions": [
+      "first semester/revision/Mechanics 1st term.pdf",
+      "first semester/revision/Mechanics Revision LO 1,2.pptx",
+      "first semester/revision/Vectors Revision.pdf"
+    ],
+    "testBanks": [
+      "first semester/Test banks/Final revision on Mechanics with Answer.pdf",
+      "first semester/Test banks/final+revision+on+mechanics+for+grade+10+first+semester+2017.pdf",
+      "first semester/Test banks/LO 1 exercise.pptx",
+      "first semester/Test banks/Quiz Mechanics NO.1.pdf",
+      "first semester/Test banks/TestBank (1).pdf"
+    ]
+  },
+  "loSummaryVideos": {
+    "LO1": [
+      "https://youtu.be/CfdjX3EXbSQ?si=9j-PLLyA1z0cVs92",
+      "https://youtu.be/qVVslgaq7qI?si=L-VOoBh_NFppK5YU"
+    ],
+    "LO2": [
+      "https://youtu.be/KOUUgZejJKo?si=Sd1OTepQ6diW3Kxg"
+    ],
+    "LO3": [
+      "https://youtu.be/OefU3LHLARE?si=sPUmNgKBx8Ziy0hQ"
+    ],
+    "LO4": [
+      "https://youtu.be/OefU3LHLARE?si=sPUmNgKBx8Ziy0hQ"
+    ]
+  },
+  "revisionVideos": {
+    "midterm": [
+      "https://youtu.be/EqxS3-22rLw?si=8CTIG9Z6YfA0dXZr",
+      "https://youtu.be/Go2f_918TSw?si=kdakt5ChkGuKxDcG",
+      "https://youtu.be/eYApRDE8fuk?si=OpLI1uvuG27A8VUm"
+    ],
+    "final": [
+      "https://youtu.be/nrOsxeMj_VM?si=OfGgnTBq2FbsB8sR",
+      "https://youtu.be/v9kytyiDPyg?si=PbHZ-FsGjWfH-L_9"
+    ]
+  },
+  "shareMap": {
+    "TestBank (1).pdf": "https://drive.google.com/file/d/1FhqK4rnObR1ZIwVHhseFWXikfgkXuo14/view?usp=drivesdk",
+    "Quiz Mechanics NO.1.pdf": "https://drive.google.com/file/d/1vMeVCsGqrmFlvKF5fZQiFW8s0ysm12Gt/view?usp=drivesdk",
+    "LO 1 exercise.pptx": "https://docs.google.com/presentation/d/18MVH11tjMexi8WYU6Tror_ir6UaRUqDD/edit?usp=drivesdk&rtpof=true&sd=true",
+    "Final revision on Mechanics with Answer.pdf": "https://drive.google.com/file/d/1aU60gW_uYmPcSaLGA289vTZ30NlyfrS6/view?usp=drivesdk",
+    "final+revision+on+mechanics+for+grade+10+first+semester+2017.pdf": "https://drive.google.com/file/d/1w4vGVFtJoOfPVwZxzAlzCSx_tbfY7m5b/view?usp=drivesdk",
+    "ME 1.01.pptx": "https://docs.google.com/presentation/d/1uy824Y3C5VfU1aQ5EwN2mjgvT-J21prS/edit?usp=drivesdk&rtpof=true&sd=true",
+    "ME 1.01.3 (2).pptx": "https://docs.google.com/presentation/d/1dk-lHXH1bLPEGpbNk8YvqVpHs6p8U9ja/edit?usp=drivesdk&rtpof=true&sd=true",
+    "ME 1.01.4.pptx": "https://docs.google.com/presentation/d/1utM0KVsNJSudvcsqcswTKW0YD6iDBxtv/edit?usp=drivesdk&rtpof=true&sd=true",
+    "1 Displacement time graph.pptx": "https://docs.google.com/presentation/d/1lVQzs5DZjlgfhMnVr7VPHpawLl9157jK/edit?usp=drivesdk&rtpof=true&sd=true",
+    "3 acceleration time graph.pptx": "https://docs.google.com/presentation/d/1KnVv3-b-N1AkElBPkNZ6P2AypydebknQ/edit?usp=drivesdk&rtpof=true&sd=true",
+    "2 velocity time graph.pptx": "https://docs.google.com/presentation/d/1gaL-F6jrxfT4QfdEBouJF5ypQCtYHXjN/edit?usp=drivesdk&rtpof=true&sd=true",
+    "4 relative velocity averrage velocity.pptx": "https://docs.google.com/presentation/d/1ZNBJs1km10rYssXlDYN-OJ8r1nNrYW1C/edit?usp=drivesdk&rtpof=true&sd=true",
+    "relative velocity.pdf": "https://drive.google.com/file/d/1C8sXIF2OvV0s5RCX3CXqPYwd1lN8YsL7/view?usp=drivesdk",
+    "LO 1 ME.pptx": "https://docs.google.com/presentation/d/1PEFE62wGIVaK5XRJwcJr88JXaTmjiF40/edit?usp=drivesdk&rtpof=true&sd=true",
+    "ME 1.02.3.pptx": "https://docs.google.com/presentation/d/1iSdg9W5v2X2WZzkFrnpP9jzZvw16aQEz/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Area under the curve.pptx": "https://docs.google.com/presentation/d/1warUiW0KsrhodQEDrSH-eUHcTkYAOZJJ/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "3-Free Fall.pptx": "https://docs.google.com/presentation/d/1eEVNEb9Cc6lsqQ2BznV6feI2DoeCdFRr/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "2-kinematic equation.pptx": "https://docs.google.com/presentation/d/1L-r27XABW9fvzz46aufMMg2m4otG1Lbm/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "1-under graph.pptx": "https://docs.google.com/presentation/d/1TGN2dzg0CwiFjqrbJGajmj0UMrQZ4EwE/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "session 6.pptx": "https://docs.google.com/presentation/d/13po_BTMx3s6ZRIhtYyBazLq0ycdw9lBW/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "5th free fall motion.pptx": "https://docs.google.com/presentation/d/19hSpyfPj6JeiXFdIYmWD0fnaYtJRL2-E/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Mechanics-7.pptx": "https://docs.google.com/presentation/d/1E6v-xKnQ7ekUnxWg5wPDSG72188hSPyY/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Mechanics-6.pptx": "https://docs.google.com/presentation/d/16VOCVck5GVHEpa3k4fZzXFnFxFpc4Nrk/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Mechanics-5.pptx": "https://docs.google.com/presentation/d/1uMRK68mEIX7IyDX88ltFuE76TjKTXH5t/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Mechanics Revision LO 1,2.pptx": "https://docs.google.com/presentation/d/1ZDu3qU0N2idbNVbP_hzUTD8G6lCoJbtQ/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Mechanics 1st term.pdf": "https://drive.google.com/file/d/1Vrd7yE0TbPbBgVay-rgxJxI9MmFv2CjM/view?usp=drivesdk",
+    "Vectors Revision.pdf": "https://drive.google.com/file/d/1j1CAAXjJt8Sn7u8oYJ5QJrAy4tyM9aNT/view?usp=drivesdk",
+    "ME 1.04 Vectors.pptx": "https://docs.google.com/presentation/d/1JjNwkkdWCT9s50xmyp2D95PY5AHTgqws/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "4th suvat equations.pptx": "https://docs.google.com/presentation/d/1z8nY1jfLO3Xmk-CF1BDLXNfx3dl5fXyp/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "vector3.pptx": "https://docs.google.com/presentation/d/1-2XH34aCd8UfWUnmIvz3Nz_IaGJKGjcu/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "vector 1.pptx": "https://docs.google.com/presentation/d/1RdXrkqJFyKw4ec4AdYCehlsDido6oLl0/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "vector 2.pptx": "https://docs.google.com/presentation/d/1TEMvqii-TkSeby24jSE3V5KTnn2w_8WN/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Conservation of Momentum -Collision.pptx": "https://docs.google.com/presentation/d/1B0YIajut-zeJx88sJ5i0JnusBMgdu-tU/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Mathematical-Vector-Addition-Packet3.pdf": "https://drive.google.com/file/d/1oqINNjzrbkJp20uPdTOgXWNMUKp59GNy/view?usp=drivesdk",
+    "ME 1.03 collision linear momentum conservation.pptx": "https://docs.google.com/presentation/d/1EcsA-zSbyRRPB42QyyR5qsew4xVb80qW/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "first semester/LO3/4 relative velocity averrage velocity.pptx": "https://docs.google.com/presentation/d/1OjqOb1GeyPs8gPfosj9aK1Slp5faBs6l/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "first semester/LO3/relative velocity.pdf": "https://drive.google.com/file/d/1Yt2UcFcuJnIDAgJVtxtPWfcnTEL3jfDn/view?usp=drivesdk"
+  }
+}

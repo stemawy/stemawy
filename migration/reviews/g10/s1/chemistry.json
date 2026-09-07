@@ -1,0 +1,52 @@
+{
+  "missingDriveUrls": [],
+  "missingVideoUrls": [],
+  "duplicateResourceIds": [],
+  "deduplicatedResourceIds": [
+    {
+      "id": "chemistry-g10-s1-video-p30qlwssuic-df25e121db",
+      "count": 2
+    },
+    {
+      "id": "chemistry-g10-s1-video-cprff-ecgt8-4f7f51be07",
+      "count": 3
+    },
+    {
+      "id": "chemistry-g10-s1-video-lgymxh1lcdo-e4adec643f",
+      "count": 2
+    },
+    {
+      "id": "chemistry-g10-s1-video-1upyq63arvg-453c1e0cd7",
+      "count": 2
+    },
+    {
+      "id": "chemistry-g10-s1-video-hepb00cqvp0-c58f72bddc",
+      "count": 2
+    },
+    {
+      "id": "chemistry-g10-s1-video-4url0pjbcuu-0e30f4c197",
+      "count": 2
+    },
+    {
+      "id": "chemistry-g10-s1-video-b9qxaflpz9u-d78bc9600c",
+      "count": 2
+    },
+    {
+      "id": "chemistry-g10-s1-video-b9qxaflpz9u-dd3516b49d",
+      "count": 2
+    }
+  ],
+  "unrecognizedResourceLocations": [],
+  "notes": [],
+  "statistics": {
+    "units": 8,
+    "concepts": 69,
+    "resources": 165,
+    "pdfs": 42,
+    "videos": 123,
+    "testBanks": 24,
+    "missingDriveUrls": 0,
+    "missingVideoUrls": 0,
+    "duplicateResourceIds": 0
+  }
+}

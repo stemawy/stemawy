@@ -1,0 +1,1370 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T18:20:37.758Z",
+  "source": {
+    "file": "migration/raw/g10/s1/biology.json"
+  },
+  "subject": {
+    "id": "biology-g10-s1",
+    "name": "Biology",
+    "description": "Biology resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "biology",
+    "content": [
+      {
+        "id": "biology-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Disease and Cell Theory",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "biology-g10-s1-concept-cell-theory-disease",
+            "title": "Cell Theory Disease.",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "biology-g10-s1-video-l3nh3ktns3e-befe48b2a5"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-infectious-or-noninfectious-and-factors-vectors-non-infectious-factors",
+            "title": "Infectious or noninfectious and factors, Vectors, Non-infectious factors",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "biology-g10-s1-video-gbzualib61k-aa91275f6d"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-relation-between-diseases-and-economic-development",
+            "title": "Relation between diseases and economic development",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "biology-g10-s1-video-khdaji7dxw0-ca13332bb2"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-case-study-malaria",
+            "title": "Case study: Malaria",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "biology-g10-s1-video-hznekaazh9k-6b7a16047d",
+              "biology-g10-s1-video-ntvjirrhhzm-54c1fefc8d"
+            ]
+          }
+        ],
+        "resources": [
+          "biology-g10-s1-pdf-bl-1-01-pdf-bc79cce1fa",
+          "biology-g10-s1-pdf-l-o-1-docx-40f4d42a1c"
+        ]
+      },
+      {
+        "id": "biology-g10-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Cell Structure and Types",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "biology-g10-s1-concept-compare-and-contrast-eukaryotes-and-prokaryotes",
+            "title": "Compare and contrast eukaryotes and prokaryotes",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "biology-g10-s1-video-xtnnv7yplso-991efd7597"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-eukaryotic-cell-structure-and-function",
+            "title": "Eukaryotic cell structure and function",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "biology-g10-s1-video-7fn1nbov2u0-74d7104908"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-case-study-tuberculosis",
+            "title": "Case study: Tuberculosis",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "biology-g10-s1-video-6p6zbhpwiga-682bb23c18",
+              "biology-g10-s1-video-wv1pllyoaj8-4b35346217"
+            ]
+          }
+        ],
+        "resources": [
+          "biology-g10-s1-pdf-bi-01-02-part-2-tuberclosis-pdf-a8c0bb1546",
+          "biology-g10-s1-pdf-bio-presentation-pdf-98ab26e701",
+          "biology-g10-s1-pdf-bl-1-02-pdf-2-pdf-7f2e9563c5",
+          "biology-g10-s1-pdf-explanation-g10-lo2-1-1-pdf-af3ef07a20",
+          "biology-g10-s1-pdf-l-o-2-docx-d78d7ddb3f"
+        ]
+      },
+      {
+        "id": "biology-g10-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Cell Membrane and Transport",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "biology-g10-s1-concept-cell-membrane-barrier-function-phospholipids-and-proteins-fluid-structure-membrane-models-for-study-of-function",
+            "title": "Cell membrane (barrier function, phospholipids and proteins, fluid structure, membrane models for study of function)",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "biology-g10-s1-video-qpcaca39yta-bcdaf1555a",
+              "biology-g10-s1-video-qbcvvszqqns-62459313b7"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-cell-membrane-and-diffusion-diffusion-osmosis-selective-permeability-protein-channels-and-facilitated-diffusion-concentration-gradients-transport-proteins-and-active-transport",
+            "title": "Cell membrane and diffusion (diffusion, osmosis, selective permeability, protein channels and facilitated diffusion, concentration gradients, transport proteins and active transport)",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "biology-g10-s1-video-jhszfbtbpoi-542273815c"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-case-study-diabetes",
+            "title": "Case study: Diabetes",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "biology-g10-s1-video-ulxywzf7bwc-b7334468e2",
+              "biology-g10-s1-video-b-rvybvffu-c858964ed2"
+            ]
+          }
+        ],
+        "resources": [
+          "biology-g10-s1-pdf-l-o-3-docx-7cf823490b",
+          "biology-g10-s1-pdf-l-o3-part-1-pdf-5a69d9af3c",
+          "biology-g10-s1-pdf-l-o3-part-2-g10-pdf-1fad32a152"
+        ]
+      },
+      {
+        "id": "biology-g10-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "DNA and RNA Structure",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "biology-g10-s1-concept-deoxyribonucleic-acid-dna",
+            "title": "Deoxyribonucleic acid (DNA).",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "biology-g10-s1-video-8m6hhrlkwxy-7846cd84c0"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-nucleotide-subunits",
+            "title": "Nucleotide subunits.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "biology-g10-s1-video-2lonjjineu4-64a3338680"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-nitrogenous-bases",
+            "title": "Nitrogenous bases",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "biology-g10-s1-video-iyhh2urjdwe-7218fd1d35"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-sugar-phosphate-backbone",
+            "title": "Sugar–phosphate backbone",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "biology-g10-s1-video-nvcwfl57-3u-e102a7e9f5"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-complementary-strands",
+            "title": "Complementary strands",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "biology-g10-s1-video-xkkk3tss9wc-b800905f7a"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-double-helix",
+            "title": "Double helix.",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "biology-g10-s1-video-1vm3od-umfg-fa918042c3"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-rna-structure",
+            "title": "RNA structure",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "biology-g10-s1-video-juujsom1ihu-c61666e0bf",
+              "biology-g10-s1-video-jqbyjprj-ma-ae3c9cb387"
+            ]
+          }
+        ],
+        "resources": [
+          "biology-g10-s1-pdf-grade-10-lo-4-part-1-pdf-6ba1ff4089",
+          "biology-g10-s1-pdf-l-o-4-docx-faea19a362"
+        ]
+      },
+      {
+        "id": "biology-g10-s1-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "Proteins and Enzymes",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "biology-g10-s1-concept-functions-of-proteins-in-cells-proteins-in-cells-protein-classification-enzyme-structure-functions-and-factors-affecting-rates",
+            "title": "Functions of Proteins in cells (Proteins in cells, Protein classification, Enzyme structure, functions and factors affecting rates.)",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "biology-g10-s1-video-hok2hyed9go-bdbe735a7f",
+              "biology-g10-s1-video-vhxujqaiszy-6198c492a9"
+            ]
+          }
+        ],
+        "resources": [
+          "biology-g10-s1-pdf-l-o-5-docx-d4b540761b",
+          "biology-g10-s1-pdf-lo-5-g10-part-1-pdf-42b0f8b7a6",
+          "biology-g10-s1-pdf-lo-5-g10-part-2-pdf-f49e724881"
+        ]
+      },
+      {
+        "id": "biology-g10-s1-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "Cell Growth and Division",
+        "description": "",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "biology-g10-s1-concept-cell-growth-and-division",
+            "title": "Cell growth and division.",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "biology-g10-s1-video-ludws4jriii-fd2681cad4"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-phases-sequence-g1-s-g2-m",
+            "title": "Phases sequence (G1, S, G2, M)",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "biology-g10-s1-video-znjj-c2j4gk-50b0a17a6a"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-normal-and-abnormal-rates-and-processes",
+            "title": "Normal and abnormal rates and processes",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "biology-g10-s1-video-xkzhcyetvsc-4bda91892d"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-rate-differentiation-based-on-cell-type",
+            "title": "Rate differentiation based on cell type",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "biology-g10-s1-video-gwaz-btvula-701546dd68",
+              "biology-g10-s1-video-t3g26p9mh-k-15ba821cd2"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-case-study-cancer",
+            "title": "Case study: Cancer",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "biology-g10-s1-video-qvcjdnxjree-dab4cc0c77",
+              "biology-g10-s1-video-sgaq0wwz-0i-078a0c1a84"
+            ]
+          }
+        ],
+        "resources": [
+          "biology-g10-s1-pdf-l-o-6-docx-78b367f465",
+          "biology-g10-s1-pdf-lo-6-g10-part-1-pdf-f4bb42c2db",
+          "biology-g10-s1-pdf-lo6-g10-part-2-pdf-909ee0fa7a"
+        ]
+      },
+      {
+        "id": "biology-g10-s1-unit-07",
+        "type": "unit",
+        "number": "07",
+        "title": "Stem Cells",
+        "description": "",
+        "order": 7,
+        "concepts": [
+          {
+            "id": "biology-g10-s1-concept-stem-cells-types-according-to-differentiation-totipotent-pluripotent-multipoint",
+            "title": "STEM cells types according to differentiation (Totipotent, Pluripotent, Multipoint)",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "biology-g10-s1-concept-types-of-stem-cells-according-to-its-presence-embryonic-adults-somatic",
+            "title": "Types of STEM cells according to its presence (Embryonic, Adults (somatic))",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "biology-g10-s1-video-fp5h3sslskq-10828a7189"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-layers-of-embryo-ectoderm-endoderm-mesoderm",
+            "title": "Layers of embryo (Ectoderm, Endoderm, Mesoderm)",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "biology-g10-s1-video-u6203vwpfu0-829315f986",
+              "biology-g10-s1-video-81adk8kybxw-8422d8202f"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-stem-cells-as-a-treatment-treatment-for-leukemia-umbilical-cord-blood-stem-cells-therapy-bone-marrow-transplant",
+            "title": "STEM cells as a treatment (Treatment for leukemia, Umbilical cord blood STEM cells therapy, Bone marrow transplant)",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "biology-g10-s1-video-7qfhss4y-l4-495aae6366"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-new-researches-treatment-for-diabetes",
+            "title": "New researches treatment for diabetes",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "biology-g10-s1-video-fhynq1wesni-e134a2f434"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-the-stem-cells-debate",
+            "title": "The STEM cells debate.",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "biology-g10-s1-video-lwgrbos9y8a-3b26a730d9",
+              "biology-g10-s1-video-f5d0iewfkli-e0a3f61013",
+              "biology-g10-s1-video-5finhdzpozg-8cb4c3450d"
+            ]
+          }
+        ],
+        "resources": [
+          "biology-g10-s1-pdf-lo-7-g10-part-2-pdf-314125125a",
+          "biology-g10-s1-pdf-lo7-g10-part-1-pdf-94f3600222",
+          "biology-g10-s1-pdf-stem-cell-specializing-pdf-651e7cd86b"
+        ]
+      },
+      {
+        "id": "biology-g10-s1-unit-08",
+        "type": "unit",
+        "number": "08",
+        "title": "Viral Interactions",
+        "description": "",
+        "order": 8,
+        "concepts": [
+          {
+            "id": "biology-g10-s1-concept-the-relationship-between-cell-protein-and-viral-protein",
+            "title": "The relationship between cell protein and viral protein",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "biology-g10-s1-video-8wawlwjaghs-5506db3872"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-receptor-proteins-and-enzymes",
+            "title": "Receptor proteins and enzymes",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "biology-g10-s1-video-kaorrzakjge-4e1d5edb99"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-protein-manufacture-of-virus-utilizing-cell-organelles",
+            "title": "Protein manufacture of virus utilizing cell organelles.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "biology-g10-s1-video-oefai2x2cqm-e58fc96e81"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-hiv-virus-mechanism-of-infection-and-replication",
+            "title": "HIV virus mechanism of infection and replication.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "biology-g10-s1-video-kvveccxndks-b4b3d9dc58",
+              "biology-g10-s1-video-xwfptxq-oca-3d22cc4e45"
+            ]
+          },
+          {
+            "id": "biology-g10-s1-concept-case-study-hiv-disease-symptoms",
+            "title": "Case study: HIV (disease symptoms)",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "biology-g10-s1-video-yytwuvo6gke-8cad65cbaa"
+            ]
+          }
+        ],
+        "resources": [
+          "biology-g10-s1-pdf-bi-1-08-part-1-pdf-1a600c92ff",
+          "biology-g10-s1-pdf-bi-1-08-part-2-pdf-65f30d61f0",
+          "biology-g10-s1-pdf-l-o-8-docx-1c59821c5e",
+          "biology-g10-s1-pdf-lo-8-pptx-f0cca96009"
+        ]
+      },
+      {
+        "id": "biology-g10-s1-unit-09",
+        "type": "unit",
+        "number": "09",
+        "title": "Additional References",
+        "description": "",
+        "order": 9,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "biology-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 10,
+        "concepts": [],
+        "resources": [
+          "biology-g10-s1-pdf-bi-1-06-test-bank-part-2-pdf-824bad10d4",
+          "biology-g10-s1-pdf-campbell-testbank-pdf-0c606c1de8"
+        ]
+      },
+      {
+        "id": "biology-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 11,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "biology-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 12,
+        "concepts": [],
+        "resources": []
+      }
+    ],
+    "units": 9
+  },
+  "resources": [
+    {
+      "id": "biology-g10-s1-video-l3nh3ktns3e-befe48b2a5",
+      "title": "Cell Theory Disease.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/L3nH3KTNS3E?si=_wkkUYLGIk8RKv3x",
+      "youtubeId": "L3nH3KTNS3E",
+      "source": {
+        "location": "LO1 → Cell Theory Disease."
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-gbzualib61k-aa91275f6d",
+      "title": "Infectious or noninfectious and factors, Vectors, Non-infectious factors",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/GbzUaLIb61k?si=bQVh6dVbDMzeBqxt",
+      "youtubeId": "GbzUaLIb61k",
+      "source": {
+        "location": "LO1 → Infectious or noninfectious and factors, Vectors, Non-infectious factors"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-khdaji7dxw0-ca13332bb2",
+      "title": "Relation between diseases and economic development",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/khDAji7dXw0?si=1w9RhC3nraf-qLRe",
+      "youtubeId": "khDAji7dXw0",
+      "source": {
+        "location": "LO1 → Relation between diseases and economic development"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-hznekaazh9k-6b7a16047d",
+      "title": "Case study: Malaria",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/hZnekAAzH9k?si=esjGulkkd85qWk7Z",
+      "youtubeId": "hZnekAAzH9k",
+      "source": {
+        "location": "LO1 → Case study: Malaria"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-ntvjirrhhzm-54c1fefc8d",
+      "title": "Case study: Malaria",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/NtvJirrHhZM?si=6fdy4K9UK5ZTShJZ",
+      "youtubeId": "NtvJirrHhZM",
+      "source": {
+        "location": "LO1 → Case study: Malaria"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-bl-1-01-pdf-bc79cce1fa",
+      "title": "Bl.1.01.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1m1oNk35xv557KkuMIZEDlOdNrynn_mgt/view?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-l-o-1-docx-40f4d42a1c",
+      "title": "L O 1.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1Uk25U-ruiBUxHYBsFMPR4rT_Um4wdEM8/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-xtnnv7yplso-991efd7597",
+      "title": "Compare and contrast eukaryotes and prokaryotes",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/xTnNv7YplSo?si=6CA9k7A55NrXi_Au",
+      "youtubeId": "xTnNv7YplSo",
+      "source": {
+        "location": "LO2 → Compare and contrast eukaryotes and prokaryotes"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-7fn1nbov2u0-74d7104908",
+      "title": "Eukaryotic cell structure and function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7FN1NBoV2u0?si=OtVQ9w_bjeCsSta1",
+      "youtubeId": "7FN1NBoV2u0",
+      "source": {
+        "location": "LO2 → Eukaryotic cell structure and function"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-6p6zbhpwiga-682bb23c18",
+      "title": "Case study: Tuberculosis",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/6P6zBHpWiGA?si=yMOH9X1FoA96FKYU",
+      "youtubeId": "6P6zBHpWiGA",
+      "source": {
+        "location": "LO2 → Case study: Tuberculosis"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-wv1pllyoaj8-4b35346217",
+      "title": "Case study: Tuberculosis",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/wV1pllyOaj8?si=oqUhw-VYfct-Hhsp",
+      "youtubeId": "wV1pllyOaj8",
+      "source": {
+        "location": "LO2 → Case study: Tuberculosis"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-bi-01-02-part-2-tuberclosis-pdf-a8c0bb1546",
+      "title": "BI.01.02 part 2 Tuberclosis.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1iEmzqRMg859WHkiHtypWt1YdAf6nrA47/view?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-bio-presentation-pdf-98ab26e701",
+      "title": "BIO Presentation.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/19lGDXcgK1Ah__dCp5UQp-yMdjE7XcR-v/view?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-bl-1-02-pdf-2-pdf-7f2e9563c5",
+      "title": "Bl.1.02 PDF (2).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1AWP-UXLp1pbb84V98DZ2pqtyeV1_gtYK/view?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-explanation-g10-lo2-1-1-pdf-af3ef07a20",
+      "title": "Explanation G10 - LO2 (1) (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1c31T8c1C7tSB8ugAcZLrvQOjjPggMqj1/view?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-l-o-2-docx-d78d7ddb3f",
+      "title": "L O 2.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1-wS6tKyLl6gx4Q8MYInUtiRZ5CjuQkb-/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-qpcaca39yta-bcdaf1555a",
+      "title": "Cell membrane (barrier function, phospholipids and proteins, fluid structure, membrane models for study of function)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/QpcACa39YtA?si=Cnm7118fRmQAYbVz",
+      "youtubeId": "QpcACa39YtA",
+      "source": {
+        "location": "LO3 → Cell membrane (barrier function, phospholipids and proteins, fluid structure, membrane models for study of function)"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-qbcvvszqqns-62459313b7",
+      "title": "Cell membrane (barrier function, phospholipids and proteins, fluid structure, membrane models for study of function)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/qBCVVszQQNs?si=reEeycCQ5QTsWxrr",
+      "youtubeId": "qBCVVszQQNs",
+      "source": {
+        "location": "LO3 → Cell membrane (barrier function, phospholipids and proteins, fluid structure, membrane models for study of function)"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-jhszfbtbpoi-542273815c",
+      "title": "Cell membrane and diffusion (diffusion, osmosis, selective permeability, protein channels and facilitated diffusion, concentration gradients, transport proteins and active transport)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/jhszFBtBPoI?si=FudIb3Sg08gPyLH_",
+      "youtubeId": "jhszFBtBPoI",
+      "source": {
+        "location": "LO3 → Cell membrane and diffusion (diffusion, osmosis, selective permeability, protein channels and facilitated diffusion, concentration gradients, transport proteins and active transport)"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-ulxywzf7bwc-b7334468e2",
+      "title": "Case study: Diabetes",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ulxyWZf7BWc?si=-U9NbxtNmLWUteMJ",
+      "youtubeId": "ulxyWZf7BWc",
+      "source": {
+        "location": "LO3 → Case study: Diabetes"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-b-rvybvffu-c858964ed2",
+      "title": "Case study: Diabetes",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/-B-RVybvffU?si=euzVHUGBddSnpHU-",
+      "youtubeId": "-B-RVybvffU",
+      "source": {
+        "location": "LO3 → Case study: Diabetes"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-l-o-3-docx-7cf823490b",
+      "title": "L O 3.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1K9O9A5UUhk_tybJOTgUvfTijKxI86N79/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-l-o3-part-1-pdf-5a69d9af3c",
+      "title": "L.O3 part 1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1lzyHD1msrP2YlMbQQm7kKgr_c3p4wYy-/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-l-o3-part-2-g10-pdf-1fad32a152",
+      "title": "L.O3 part 2 G10.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1HXdcIwwBWZO1fjhNTWTtLDjzd1AAxfxY/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-8m6hhrlkwxy-7846cd84c0",
+      "title": "Deoxyribonucleic acid (DNA).",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8m6hHRlKwxY?si=QZmy1BnF67EWCGd-",
+      "youtubeId": "8m6hHRlKwxY",
+      "source": {
+        "location": "LO4 → Deoxyribonucleic acid (DNA)."
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-2lonjjineu4-64a3338680",
+      "title": "Nucleotide subunits.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/2LonjjINeU4?si=k1u2Yc_Yw7okxLAR",
+      "youtubeId": "2LonjjINeU4",
+      "source": {
+        "location": "LO4 → Nucleotide subunits."
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-iyhh2urjdwe-7218fd1d35",
+      "title": "Nitrogenous bases",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/iYHH2UrjDWE?si=n_yKOi7bvNTqU21v",
+      "youtubeId": "iYHH2UrjDWE",
+      "source": {
+        "location": "LO4 → Nitrogenous bases"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-nvcwfl57-3u-e102a7e9f5",
+      "title": "Sugar–phosphate backbone",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/nVcWFl57-3U?si=u7eVsGp5Vp2nxTUz",
+      "youtubeId": "nVcWFl57-3U",
+      "source": {
+        "location": "LO4 → Sugar–phosphate backbone"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-xkkk3tss9wc-b800905f7a",
+      "title": "Complementary strands",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Xkkk3tSs9Wc?si=27Aeseks222RL4nN",
+      "youtubeId": "Xkkk3tSs9Wc",
+      "source": {
+        "location": "LO4 → Complementary strands"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-1vm3od-umfg-fa918042c3",
+      "title": "Double helix.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/1vm3od_UmFg?si=1JstRmDSsI-tUbIj",
+      "youtubeId": "1vm3od_UmFg",
+      "source": {
+        "location": "LO4 → Double helix."
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-juujsom1ihu-c61666e0bf",
+      "title": "RNA structure",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/jUUJSOM1ihU?si=-Lo4peWOZceALpPG",
+      "youtubeId": "jUUJSOM1ihU",
+      "source": {
+        "location": "LO4 → RNA structure"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-jqbyjprj-ma-ae3c9cb387",
+      "title": "RNA structure",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/JQByjprj_mA?si=VdJVBP-dVAS122k8",
+      "youtubeId": "JQByjprj_mA",
+      "source": {
+        "location": "LO4 → RNA structure"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-grade-10-lo-4-part-1-pdf-6ba1ff4089",
+      "title": "Grade 10 lo.4 part 1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Svq2VbY9TUBICtxS2xNtmMhOlPS8yqoT/view?usp=drivesdk",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-l-o-4-docx-faea19a362",
+      "title": "L O 4.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1rPXF0Tl8mEM7mHeB3BSt8_JdTLwDjsht/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-hok2hyed9go-bdbe735a7f",
+      "title": "Functions of Proteins in cells (Proteins in cells, Protein classification, Enzyme structure, functions and factors affecting rates.)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/hok2hyED9go?si=zSQO6p2Zm8EF5fYi",
+      "youtubeId": "hok2hyED9go",
+      "source": {
+        "location": "LO5 → Functions of Proteins in cells (Proteins in cells, Protein classification, Enzyme structure, functions and factors affecting rates.)"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-vhxujqaiszy-6198c492a9",
+      "title": "Functions of Proteins in cells (Proteins in cells, Protein classification, Enzyme structure, functions and factors affecting rates.)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/VhXujqaIsZY?si=LLdC9rPoOfht264G",
+      "youtubeId": "VhXujqaIsZY",
+      "source": {
+        "location": "LO5 → Functions of Proteins in cells (Proteins in cells, Protein classification, Enzyme structure, functions and factors affecting rates.)"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-l-o-5-docx-d4b540761b",
+      "title": "L O 5.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1lu3i4gchhB5qQbfmgxWehF6mEldy3jQ5/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-lo-5-g10-part-1-pdf-42b0f8b7a6",
+      "title": "LO 5 G10 part 1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1MPY4-IAdH8tAZGlIVn_azlz2lEFdD73P/view?usp=drivesdk",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-lo-5-g10-part-2-pdf-f49e724881",
+      "title": "LO 5 G10 part 2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1auyp4d4DoS2nJe-TWbdRYQbKqh5zMqsN/view?usp=drivesdk",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-ludws4jriii-fd2681cad4",
+      "title": "Cell growth and division.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LUDws4JrIiI?si=4PbM4Nxj7ZLxHHoK",
+      "youtubeId": "LUDws4JrIiI",
+      "source": {
+        "location": "LO6 → Cell growth and division."
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-znjj-c2j4gk-50b0a17a6a",
+      "title": "Phases sequence (G1, S, G2, M)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zNJJ_C2j4gk?si=xU26dzLxo7gM5H1t",
+      "youtubeId": "zNJJ_C2j4gk",
+      "source": {
+        "location": "LO6 → Phases sequence (G1, S, G2, M)"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-xkzhcyetvsc-4bda91892d",
+      "title": "Normal and abnormal rates and processes",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/XKZhcYetvsc?si=NWSTHjNjbM_8ywou",
+      "youtubeId": "XKZhcYetvsc",
+      "source": {
+        "location": "LO6 → Normal and abnormal rates and processes"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-gwaz-btvula-701546dd68",
+      "title": "Rate differentiation based on cell type",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/gwAz_BtVuLA?si=C-IrqaHg8AxZqx3T",
+      "youtubeId": "gwAz_BtVuLA",
+      "source": {
+        "location": "LO6 → Rate differentiation based on cell type"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-t3g26p9mh-k-15ba821cd2",
+      "title": "Rate differentiation based on cell type",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/t3g26p9Mh_k?si=lex2Ha5m_j3fmVL6",
+      "youtubeId": "t3g26p9Mh_k",
+      "source": {
+        "location": "LO6 → Rate differentiation based on cell type"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-qvcjdnxjree-dab4cc0c77",
+      "title": "Case study: Cancer",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/QVCjdNxJreE?si=rXrjKmSHITVCzjXD",
+      "youtubeId": "QVCjdNxJreE",
+      "source": {
+        "location": "LO6 → Case study: Cancer"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-sgaq0wwz-0i-078a0c1a84",
+      "title": "Case study: Cancer",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/SGaQ0WwZ_0I?si=OOy3yYGhbWzax5W4",
+      "youtubeId": "SGaQ0WwZ_0I",
+      "source": {
+        "location": "LO6 → Case study: Cancer"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-l-o-6-docx-78b367f465",
+      "title": "L O 6.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1vqDXKVASilmske0NyqlFEfQA6zLPP_nb/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-lo-6-g10-part-1-pdf-f4bb42c2db",
+      "title": "LO 6 G10 Part 1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1fE7nR1dsTUK8ghKZ7jVp0bwrzA7Zaio7/view?usp=drivesdk",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-lo6-g10-part-2-pdf-909ee0fa7a",
+      "title": "LO6 G10 part 2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1-1lLF1qeEhhLPqTEocTEzJHXrz8tYblA/view?usp=drivesdk",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-fp5h3sslskq-10828a7189",
+      "title": "Types of STEM cells according to its presence (Embryonic, Adults (somatic))",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/fp5H3SslskQ?si=FtCPHWpES1AckCOI",
+      "youtubeId": "fp5H3SslskQ",
+      "source": {
+        "location": "LO7 → Types of STEM cells according to its presence (Embryonic, Adults (somatic))"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-u6203vwpfu0-829315f986",
+      "title": "Layers of embryo (Ectoderm, Endoderm, Mesoderm)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/u6203vWPFU0?si=aB4_sUITQqSp5Mja",
+      "youtubeId": "u6203vWPFU0",
+      "source": {
+        "location": "LO7 → Layers of embryo (Ectoderm, Endoderm, Mesoderm)"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-81adk8kybxw-8422d8202f",
+      "title": "Layers of embryo (Ectoderm, Endoderm, Mesoderm)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/81ADk8Kybxw?si=PRybXfOvL-znO1ZO",
+      "youtubeId": "81ADk8Kybxw",
+      "source": {
+        "location": "LO7 → Layers of embryo (Ectoderm, Endoderm, Mesoderm)"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-7qfhss4y-l4-495aae6366",
+      "title": "STEM cells as a treatment (Treatment for leukemia, Umbilical cord blood STEM cells therapy, Bone marrow transplant)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7QfHsS4Y_L4?si=3Vuf3YV3bnkA0Chg",
+      "youtubeId": "7QfHsS4Y_L4",
+      "source": {
+        "location": "LO7 → STEM cells as a treatment (Treatment for leukemia, Umbilical cord blood STEM cells therapy, Bone marrow transplant)"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-fhynq1wesni-e134a2f434",
+      "title": "New researches treatment for diabetes",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/FHYNq1WESnI?si=UE7avZaT5rEL2ICI",
+      "youtubeId": "FHYNq1WESnI",
+      "source": {
+        "location": "LO7 → New researches treatment for diabetes"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-lwgrbos9y8a-3b26a730d9",
+      "title": "The STEM cells debate.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/lWgRbOS9Y8A?si=IYyAc6O9OtrflnlN",
+      "youtubeId": "lWgRbOS9Y8A",
+      "source": {
+        "location": "LO7 → The STEM cells debate."
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-f5d0iewfkli-e0a3f61013",
+      "title": "The STEM cells debate.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/f5d0ieWfKlI?si=Ii1t_tbUr5KmqWsa",
+      "youtubeId": "f5d0ieWfKlI",
+      "source": {
+        "location": "LO7 → The STEM cells debate."
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-5finhdzpozg-8cb4c3450d",
+      "title": "The STEM cells debate.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/5FInHdzPoZg?si=xGsOwiBRZPuacADd",
+      "youtubeId": "5FInHdzPoZg",
+      "source": {
+        "location": "LO7 → The STEM cells debate."
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-lo-7-g10-part-2-pdf-314125125a",
+      "title": "LO 7 G10 Part 2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1sW5w9T4zS5V4Ag1jYEwjnCC2Xh0LZk4r/view?usp=drivesdk",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-07"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-lo7-g10-part-1-pdf-94f3600222",
+      "title": "LO7 G10 Part 1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/16VaAEcfofkRJxe9VOmABxCT1mESCOlBz/view?usp=drivesdk",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-07"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-stem-cell-specializing-pdf-651e7cd86b",
+      "title": "STEM cell specializing.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1bgysoXRV3mGo0abHAGufur_SHZucOuVQ/view?usp=drivesdk",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-07"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-8wawlwjaghs-5506db3872",
+      "title": "The relationship between cell protein and viral protein",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8wAwLwJAGHs?si=k-bSSn6b43uem350",
+      "youtubeId": "8wAwLwJAGHs",
+      "source": {
+        "location": "LO8 → The relationship between cell protein and viral protein"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-kaorrzakjge-4e1d5edb99",
+      "title": "Receptor proteins and enzymes",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/kaoRrzakjGE?si=uVmly4v0otshHVY0",
+      "youtubeId": "kaoRrzakjGE",
+      "source": {
+        "location": "LO8 → Receptor proteins and enzymes"
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-oefai2x2cqm-e58fc96e81",
+      "title": "Protein manufacture of virus utilizing cell organelles.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/oefAI2x2CQM?si=qGv656twUcmshIPx",
+      "youtubeId": "oefAI2x2CQM",
+      "source": {
+        "location": "LO8 → Protein manufacture of virus utilizing cell organelles."
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-kvveccxndks-b4b3d9dc58",
+      "title": "HIV virus mechanism of infection and replication.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/KvvECcXnDks?si=1BQy587DA7RsHf-X",
+      "youtubeId": "KvvECcXnDks",
+      "source": {
+        "location": "LO8 → HIV virus mechanism of infection and replication."
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-xwfptxq-oca-3d22cc4e45",
+      "title": "HIV virus mechanism of infection and replication.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/XWFpTxQ_oCA?si=pIOR8Q4p2JL8HXLN",
+      "youtubeId": "XWFpTxQ_oCA",
+      "source": {
+        "location": "LO8 → HIV virus mechanism of infection and replication."
+      }
+    },
+    {
+      "id": "biology-g10-s1-video-yytwuvo6gke-8cad65cbaa",
+      "title": "Case study: HIV (disease symptoms)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/YYTwuvo6GkE?si=ojNJSD1Gc9TDc1uA",
+      "youtubeId": "YYTwuvo6GkE",
+      "source": {
+        "location": "LO8 → Case study: HIV (disease symptoms)"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-bi-1-08-part-1-pdf-1a600c92ff",
+      "title": "BI 1.08 part 1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1nPWpI8aHRljaSvw8Lmj8SYaVmpy9v-k2/view?usp=drivesdk",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-08"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-bi-1-08-part-2-pdf-65f30d61f0",
+      "title": "BI 1.08 part 2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1MYtESsSz7ZlvwW3ZbBc8TrdIkPA8p0qc/view?usp=drivesdk",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-08"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-l-o-8-docx-1c59821c5e",
+      "title": "L O 8.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1ftn55imv1uq1Inke69xfWGrdE04uJDY6/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-08"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-lo-8-pptx-f0cca96009",
+      "title": "LO.8.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1nVUbpJ-FWR6D0gen0AxZSVkvdocoxbLV/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "biology-g10-s1-unit-08"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-bi-1-06-test-bank-part-2-pdf-824bad10d4",
+      "title": "BI 1.06 test bank part 2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1W1zO0ZUa54VpKXcNLEwnkpPH0T4pFHp-/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "biology-g10-s1-pdf-campbell-testbank-pdf-0c606c1de8",
+      "title": "Campbell-TestBank.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/18TJCM2ST6piGBi7Stkhazo_ISGUn6y03/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    }
+  ]
+}

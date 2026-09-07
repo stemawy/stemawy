@@ -1,0 +1,445 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  min-height: calc(100vh - 78px);
+  padding: 40px 48px 0;
+  background: var(--background);
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  background: var(--surface-container-high);
+}
+
+.hero::after {
+  position: absolute;
+  top: -220px;
+  right: -120px;
+  width: 560px;
+  height: 560px;
+  border-radius: 50%;
+  background: rgb(64 89 170 / 7%);
+  content: "";
+}
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 680px;
+  padding: 64px;
+}
+.selectorRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+  font-size: 16px;
+  font-weight: 600;
+}
+.selectorRow select {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.selectorRow option {
+  color: var(--on-surface);
+}
+.hero h1 {
+  margin: 16px 0 8px;
+  color: var(--on-surface);
+  font-family: var(--font-heading), sans-serif;
+  font-size: clamp(28px, 3vw, 48px);
+  line-height: 1.18;
+}
+.hero h1 span {
+  color: var(--primary);
+}
+.hero p {
+  max-width: 600px;
+  margin: 0;
+  color: var(--on-surface-variant);
+  font-size: 18px;
+  line-height: 28px;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sectionHeading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+.sectionHeading h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+}
+.sectionHeading h2 svg {
+  color: var(--primary);
+}
+.sectionHeading h2 span,
+.sectionHeading > span {
+  color: var(--outline);
+  font-family: var(--font-body), sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sectionHeading a {
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 600;
+}
+.recentGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.recentCard,
+.curriculumCard,
+.opportunities,
+.ai {
+  border: 1px solid rgb(197 197 211 / 32%);
+  border-radius: 12px;
+  background: var(--surface-container-lowest);
+  box-shadow: var(--shadow-card);
+}
+.recentCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  padding: 26px 24px;
+  transition:
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+.recentCard:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card-hover);
+}
+.recentCard > span:last-child {
+  min-width: 0;
+}
+.recentCard small,
+.recentCard strong {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.recentCard small {
+  margin-bottom: 4px;
+  color: var(--outline);
+  font-size: 16px;
+}
+.recentCard strong {
+  color: var(--on-surface);
+  font-size: 16px;
+  font-weight: 500;
+}
+.subjectIcon,
+.curriculumIcon {
+  display: grid;
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border-radius: 8px;
+}
+.blue {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+.green {
+  background: #dcfce7;
+  color: #15803d;
+}
+.violet {
+  background: #f3e8ff;
+  color: #7e22ce;
+}
+.contentGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
+  gap: 40px;
+}
+.curriculumGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.curriculumCard {
+  position: relative;
+  display: block;
+  min-height: 172px;
+  padding: 24px;
+  overflow: hidden;
+  color: inherit;
+  text-decoration: none;
+  transition:
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast),
+    border-color var(--transition-fast);
+}
+.curriculumCard:hover {
+  transform: translateY(-3px);
+  border-color: var(--primary);
+  box-shadow: var(--shadow-card-hover);
+}
+.backgroundSubjectIcon {
+  position: absolute;
+  right: -18px;
+  bottom: -38px;
+  display: grid;
+  width: 154px;
+  height: 154px;
+  place-items: center;
+  background: transparent !important;
+  color: var(--primary);
+  opacity: 0.08;
+  pointer-events: none;
+  transform: rotate(-12deg);
+  transition:
+    opacity var(--transition-fast),
+    transform var(--transition-fast);
+}
+.curriculumCard:hover .backgroundSubjectIcon {
+  opacity: 0.14;
+  transform: rotate(-8deg) scale(1.05);
+}
+.cardTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.curriculumIcon {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border-radius: 12px;
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+  transition:
+    transform var(--transition-fast),
+    background-color var(--transition-fast);
+}
+.curriculumCard:hover .curriculumIcon {
+  transform: scale(1.05);
+}
+.cardTop small {
+  padding: 5px 8px;
+  border-radius: 5px;
+  background: var(--surface-container);
+  color: var(--on-surface-variant);
+  font-size: 11px;
+  font-weight: 600;
+}
+.curriculumCard h3 {
+  margin: 24px 0 4px;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 20px;
+}
+.curriculumCard p {
+  margin: 0;
+  color: var(--on-surface-variant);
+  font-size: 15px;
+}
+.sideColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.opportunities {
+  overflow: hidden;
+}
+.opportunities > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  background: var(--secondary);
+  color: var(--on-secondary);
+}
+.opportunities h2 {
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 20px;
+}
+.opportunityList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+}
+.opportunity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.opportunity img {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.opportunity strong,
+.opportunity small {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.opportunity strong {
+  color: var(--on-surface);
+  font-size: 14px;
+}
+.opportunity small {
+  margin-top: 4px;
+  color: var(--on-surface-variant);
+  font-size: 12px;
+}
+.opportunity .urgent {
+  color: var(--error);
+}
+.findLink {
+  margin-top: 4px;
+  padding: 10px;
+  border: 1px solid rgb(0 35 111 / 20%);
+  border-radius: 6px;
+  color: var(--primary);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.ai {
+  padding: 24px;
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+}
+.aiTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.aiTitle span {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--on-primary-container);
+  color: var(--primary-container);
+}
+.ai h2 {
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 20px;
+}
+.ai p {
+  margin: 18px 0;
+  color: rgb(220 225 255 / 80%);
+  font-size: 15px;
+}
+.aiInput {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 8px;
+  background: rgb(255 255 255 / 10%);
+}
+.aiInput input {
+  min-width: 0;
+  flex: 1;
+  padding: 12px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--on-primary-container);
+}
+.aiInput input::placeholder {
+  color: rgb(220 225 255 / 58%);
+}
+.aiInput button {
+  display: grid;
+  margin-right: 6px;
+  padding: 6px;
+  border: 0;
+  background: transparent;
+  color: var(--on-primary-container);
+}
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+@media (max-width: 1100px) {
+  .dashboard {
+    padding-inline: 32px;
+  }
+  .contentGrid {
+    grid-template-columns: 1fr;
+  }
+  .sideColumn {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+  }
+}
+@media (max-width: 767px) {
+  .dashboard {
+    gap: 36px;
+    padding: 24px 16px 0;
+  }
+  .heroContent {
+    padding: 32px 24px;
+  }
+  .hero p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .selectorRow {
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .recentGrid,
+  .curriculumGrid,
+  .sideColumn {
+    grid-template-columns: 1fr;
+  }
+  .sectionHeading {
+    align-items: flex-start;
+  }
+  .sectionHeading h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .sectionHeading h2 span,
+  .sectionHeading > span {
+    display: none;
+  }
+  .recentCard {
+    padding: 20px;
+  }
+  .footer {
+    padding-inline: 16px;
+  }
+}

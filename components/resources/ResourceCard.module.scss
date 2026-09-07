@@ -1,0 +1,58 @@
+.card {
+  display: flex;
+  min-width: 0;
+  align-items: flex-start;
+  gap: 12px;
+  min-height: 88px;
+  padding: 12px;
+  border: 1px solid var(--outline-variant);
+  border-radius: var(--radius-md);
+  background: var(--surface-container-lowest);
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast),
+    transform var(--transition-fast);
+}
+.card:hover {
+  border-color: var(--primary-fixed-dim);
+  box-shadow: var(--shadow-card);
+  transform: translateY(-2px);
+}
+.icon {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  place-items: center;
+  border-radius: 10px;
+  background: var(--primary-fixed);
+  color: var(--primary);
+}
+.copy {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: 3px;
+}
+.copy strong,
+.copy small {
+  overflow-wrap: anywhere;
+}
+.copy strong {
+  display: block;
+  color: var(--on-surface);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 600;
+}
+.copy small {
+  display: block;
+  color: var(--on-surface-variant);
+  font-size: 11px;
+  line-height: 16px;
+}
+.arrow {
+  flex: 0 0 auto;
+  color: var(--outline);
+}

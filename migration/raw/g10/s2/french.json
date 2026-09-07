@@ -1,0 +1,36 @@
+{
+  "learningObjectives": {
+    "LO1": {
+      "title": "LO1: Présentation",
+      "concepts": [
+        {
+          "title": "Se présenter"
+        },
+        {
+          "title": "Dire son âge"
+        }
+      ]
+    }
+  },
+  "resourceFiles": {
+    "livres": [
+      "second semester/livres/Bravo second term.pdf"
+    ],
+    "testBanks": [
+      "second semester/test banks/Exam unite 3 de lecon 1.pdf",
+      "second semester/test banks/Exam unite 3 de lecon 2.pdf",
+      "second semester/test banks/Examen unite 3 lecon 3 .pdf",
+      "second semester/test banks/French Gr 10 stem mid-term2018_د.pdf",
+      "second semester/test banks/Quiz sur les trois premières séances.docx"
+    ]
+  },
+  "shareMap": {
+    "Bravo second term.pdf": "https://drive.google.com/file/d/1C4kapAUswmZHZQMcJIJP0zFK9NcsR5hx/view?usp=drive_link",
+    "Exam unite 3 de lecon 1.pdf": "https://drive.google.com/file/d/1KRSD8Uwz4awtW5LO-x89E0nVRtoZqZm5/view?usp=drive_link",
+    "Exam unite 3 de lecon 2.pdf": "https://drive.google.com/file/d/1sZ6y2kRKBTRHpBZUYi5elqccuH4vuaU4/view?usp=drive_link",
+    "Examen unite 3 lecon 3 .pdf": "https://drive.google.com/file/d/1tTgdnN1QP5WI-S-DVABFsXgr6yNFmFLd/view?usp=drive_link",
+    "French Gr 10 stem mid-term2018_د.pdf": "https://drive.google.com/file/d/17uAp6VCJiZjtvwThscpQNEBu67DG_2Wx/view?usp=drive_link",
+    "Quiz sur les trois premières séances.docx": "https://docs.google.com/document/d/1yhJ6X1RnxExoO5ocdpIqMGo8JU2j8HIE/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true"
+  },
+  "explicitShareMapLinks": []
+}

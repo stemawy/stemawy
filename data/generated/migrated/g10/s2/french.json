@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-06T00:25:23.793Z",
+  "source": {
+    "file": "migration/raw/g10/s2/french.json"
+  },
+  "subject": {
+    "id": "french-g10-s2",
+    "name": "French",
+    "description": "French resources for Grade 10, Semester 2.",
+    "grade": "10",
+    "semester": "2",
+    "icon": "french",
+    "content": [
+      {
+        "id": "french-g10-s2-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Présentation",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "french-g10-s2-concept-se-pr-senter",
+            "title": "Se présenter",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "french-g10-s2-concept-dire-son-ge",
+            "title": "Dire son âge",
+            "description": "",
+            "order": 2,
+            "resources": []
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "french-g10-s2-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 2,
+        "concepts": [],
+        "resources": [
+          "french-g10-s2-pdf-exam-unite-3-de-lecon-1-pdf-b27a878304",
+          "french-g10-s2-pdf-exam-unite-3-de-lecon-2-pdf-ea528723f2",
+          "french-g10-s2-pdf-examen-unite-3-lecon-3-pdf-9e6b5e2d8f",
+          "french-g10-s2-pdf-french-gr-10-stem-mid-term2018-pdf-b271248604",
+          "french-g10-s2-pdf-quiz-sur-les-trois-premi-res-s-ances-docx-97bf5cea8d"
+        ]
+      },
+      {
+        "id": "french-g10-s2-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 3,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "french-g10-s2-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 4,
+        "concepts": [],
+        "resources": [
+          "french-g10-s2-pdf-bravo-second-term-pdf-d73cc79626"
+        ]
+      }
+    ],
+    "units": 1
+  },
+  "resources": [
+    {
+      "id": "french-g10-s2-pdf-exam-unite-3-de-lecon-1-pdf-b27a878304",
+      "title": "Exam unite 3 de lecon 1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1KRSD8Uwz4awtW5LO-x89E0nVRtoZqZm5/view?usp=drive_link",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "french-g10-s2-pdf-exam-unite-3-de-lecon-2-pdf-ea528723f2",
+      "title": "Exam unite 3 de lecon 2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1sZ6y2kRKBTRHpBZUYi5elqccuH4vuaU4/view?usp=drive_link",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "french-g10-s2-pdf-examen-unite-3-lecon-3-pdf-9e6b5e2d8f",
+      "title": "Examen unite 3 lecon 3 .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1tTgdnN1QP5WI-S-DVABFsXgr6yNFmFLd/view?usp=drive_link",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "french-g10-s2-pdf-french-gr-10-stem-mid-term2018-pdf-b271248604",
+      "title": "French Gr 10 stem mid-term2018_د.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/17uAp6VCJiZjtvwThscpQNEBu67DG_2Wx/view?usp=drive_link",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "french-g10-s2-pdf-quiz-sur-les-trois-premi-res-s-ances-docx-97bf5cea8d",
+      "title": "Quiz sur les trois premières séances.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1yhJ6X1RnxExoO5ocdpIqMGo8JU2j8HIE/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "french-g10-s2-pdf-bravo-second-term-pdf-d73cc79626",
+      "title": "Bravo second term.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1C4kapAUswmZHZQMcJIJP0zFK9NcsR5hx/view?usp=drive_link",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

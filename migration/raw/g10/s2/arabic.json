@@ -1,0 +1,349 @@
+{
+  "learningObjectives": {
+    "LO1": {
+      "title": "النحو",
+      "concepts": [
+        {
+          "title": "أسلوب الاستثناء",
+          "video": [
+            {
+              "title": "محمد صلاح | نحو | أسلوب الاستثناء",
+              "video": "https://youtu.be/4I8XJ4Imm0E?si=rk-mHUwSj29Q8CYj"
+            },
+            {
+              "title": "أسلوب الاستثناء كاملاً في فيديو واحد | أسهل شرح لأولى ثانوي الترم الثاني ٢٠٢٦ ",
+              "video": "https://www.youtube.com/watch?v=TKabfNxz738"
+            },
+            {
+              "title": "اسلوب الاستثناء الدرس الاول اولى ثانوى | شرح درس الاستثناء للصف الاول الثانوي الترم التاني",
+              "video": "https://www.youtube.com/watch?v=bOEV3rWkCX8"
+            }
+          ]
+        },
+        {
+          "title": "الاسم المقصور",
+          "video": [
+            {
+              "title": "شرح الاسم المقصور بطريقة سهلة مش هتنساها - للصف الأول الثانوي ترم ثان 2025",
+              "video": "https://www.youtube.com/watch?v=DaG44QcIzcU"
+            },
+            {
+              "title": "الاسم المقصور وتثنيته وجمعه | تعلم الإعراب بسهولة",
+              "video": "https://www.youtube.com/watch?v=2bXSvO67TzY"
+            },
+            {
+              "title": "شرح الاسم المقصور تثنيته وجمعه جمعا سالما | أولى ثانوي 2025 | ثانوية عامة",
+              "video": "https://www.youtube.com/watch?v=BU-X8u9sFu4"
+            }
+          ]
+        },
+        {
+          "title": "الاسم المنقوص",
+          "video": [
+            {
+              "title": "الاسم المقصور والمنقوص والممدود | نحو | ثانوية عامة | جهاد أشرف | دفعة 2026",
+              "video": "https://www.youtube.com/watch?v=X-VrraGpHFM"
+            },
+            {
+              "title": "شرح الاسم المقصور والمنقوص والممدود لدفعة 2026 | مع القائد حسام حسن",
+              "video": "https://www.youtube.com/watch?v=cmZs9tz2Das"
+            },
+            {
+              "title": "الاسم المنقوص وتثنيته وجمعه | تعلم الإعراب بسهولة",
+              "video": "https://www.youtube.com/watch?v=pDHQbZRhISE"
+            }
+          ]
+        },
+        {
+          "title": "الاسم  الممدود",
+          "video": [
+            {
+              "title": "الاسم الممدود وتثنيته وجمعه | تعلم الإعراب بسهولة",
+              "video": "https://www.youtube.com/watch?v=-Ht7muhYAmw"
+            },
+            {
+              "title": "الاسم المقصور والاسم المنقوص و الاسم الممدود - الصف الأول الثانوي (الترم الثاني)",
+              "video": "https://www.youtube.com/watch?v=nXYE9QkgKCE"
+            },
+            {
+              "title": "شرح الاسم المقصور والمنقوص والممدود لدفعة 2026 | مع القائد حسام حسن",
+              "video": "https://www.youtube.com/watch?v=cmZs9tz2Das"
+            }
+          ]
+        },
+        {
+          "title": "المثني",
+          "video": [
+            {
+              "title": " الملحق بالمثنى | شرح المثنى كاملًا",
+              "video": "https://www.youtube.com/watch?v=5SeV1RO4vSM"
+            },
+            {
+              "title": "المثنى والملحق به | جمع المذكر السالم والملحق به| المؤنث السالم والملحق به| نحو | للثانوية العامة",
+              "video": "https://www.youtube.com/watch?v=YnYJlYQsMsg"
+            },
+            {
+              "title": "شرح المثنى وملحقاته | أولى ثانوي 2025 | ثانوية عامة",
+              "video": "https://www.youtube.com/watch?v=eFU3ls4NRBE"
+            }
+          ]
+        },
+        {
+          "title": "جمع المذكر السالم",
+          "video": [
+            {
+              "title": "شرح درس جمع المذكر السالم وما يلحق به - نحو اولي ثانوي الترم التاني 2024",
+              "video": "https://www.youtube.com/watch?v=Q1fLG0h9_Lw"
+            },
+            {
+              "title": "الملحق بجمع المذكر السالم",
+              "video": "https://www.youtube.com/watch?v=d7cDEiaT-Y0"
+            },
+            {
+              "title": "شرح جمع المذكر السالم وملحقاته | أولى ثانوي الترم الثاني 2025",
+              "video": "https://www.youtube.com/watch?v=7MrUsm5diJE"
+            }
+          ]
+        },
+        {
+          "title": "جمع المؤنث السالم",
+          "video": [
+            {
+              "title": "الملحق بجمع المؤنث السالم بطريقة سهلة مستحيل تنساها 2025",
+              "video": "https://www.youtube.com/watch?v=a7vuwCR36Eg"
+            },
+            {
+              "title": "جمع المؤنث السالم وما يُلحق به | شرح شامل لطلاب الصف الأول الثانوي العام مع د. ربيع الجمهودي",
+              "video": "https://www.youtube.com/watch?v=xtq7KWhVrgs"
+            },
+            {
+              "title": "شرح جمع المؤنث السالم وملحقاته | أولى ثانوي 2025 | مكملات منهج ثانوية عامة",
+              "video": "https://www.youtube.com/watch?v=lUCZBaLV93k"
+            }
+          ]
+        },
+        {
+          "title": "إسناد الأفعال إلى الضمائر",
+          "video": [
+            {
+              "title": "ملخص سهل جدا لأصعب درس في المنهج | إسناد الأفعال إلى الضمائر",
+              "video": "https://www.youtube.com/watch?v=9cP-mZziF9s"
+            },
+            {
+              "title": "شرح إسناد الأفعال إلى الضمائر | أولى ثانوي 2025 | ثانوية عامة",
+              "video": "https://www.youtube.com/watch?v=-cfYNysuli0"
+            },
+            {
+              "title": "إسناد الأفعال للضمائر | الملحق بالمثنى | الملحق بجمع المذكر السالم | الملحق بجمع المؤنث السالم",
+              "video": "https://www.youtube.com/watch?v=vciU8_J5lqU"
+            }
+          ]
+        },
+        {
+          "title": "البلاي ليست دي شارحة منهج النحو كله",
+          "video": "https://youtube.com/playlist?list=PLiHRnPC3do8XbF1VVZwhJaXq9CH2WRl1n&si=E9Q3Z8Xdw41JYAtv"
+        }
+      ]
+    },
+    "LO2": {
+      "title": "الأدب",
+      "concepts": [
+        {
+          "title": "الأدب في العصر العباسي",
+          "video": [
+            {
+              "title": "شرح درس الأدب في العصر العباسي بأسهل طريقة للصف الأول الثانوي 2025",
+              "video": "https://www.youtube.com/watch?v=lO8lRXI1JoQ"
+            },
+            {
+              "title": "أدب العصر العباسي في ١٦ دقيقة | أسهل شرح لأولى ثانوي الترم الثاني ٢٠٢٦",
+              "video": "https://www.youtube.com/watch?v=5AYHY69n0XU"
+            },
+            {
+              "title": "الادب في العصر العباسي | الشعر والنثر | بطريقه كيف يأتي في الامتحان | دروس عربيه",
+              "video": "https://www.youtube.com/watch?v=7qWsu85fGm0"
+            }
+          ]
+        },
+        {
+          "title": "تطور الشعر المعاصر",
+          "video": [
+            {
+              "title": "تطور الشعر المعاصر مع أهم المفاتيح اللي هتخليك تحل للصف الأول الثانوي 2025",
+              "video": "https://www.youtube.com/watch?v=IUxZMlk7kCU"
+            },
+            {
+              "title": "شرح تطور الشعر المعاصر- أدب - أولى ثانوي 2025",
+              "video": "https://www.youtube.com/watch?v=9HIsE2EZbI8"
+            },
+            {
+              "title": "تطور الشعر المعاصر (أدب) - الصف الأول الثانوي (الترم الثاني)",
+              "video": "https://www.youtube.com/watch?v=GO-XzrzkBSA"
+            }
+          ]
+        },
+        {
+          "title": "ملخص ل منهج الأدب",
+          "video": "https://youtu.be/7OsHS_d-Vpw?si=qPUkuL4gcFvGLz4-"
+        }
+      ]
+    },
+    "LO3": {
+      "title": "القصة",
+      "concepts": [
+        {
+          "title": "ملخص القصة ",
+          "video": [
+            {
+              "title": "ملخص قصة عنترة الترم الثاني ( كاملة ) - الصف الأول الثانوي",
+              "video": "https://youtu.be/crcoaI8bWek?si=eU5E6FOWqbHnNROb"
+            },
+            {
+              "title": "قصة أبو الفوارس | عنترة بن شداد | الترم الثاني | الصف الأول الثانوي | جهاد أشرف | دفعة 2025",
+              "video": "https://youtu.be/RXUpTm2cdtE?si=DJ1wpCZIoKcEIXJV"
+            }
+          ]
+        }
+      ],
+      "bookFile": "أبو الفوارس عنترة.pdf"
+    },
+    "LO4": {
+      "title": "القراءة والنصوص",
+      "concepts": [
+        {
+          "title": "النصوص",
+          "video": [
+            {
+              "title": "النصوص المتحررة | أولى وثانية ثانوي | المراجعة النهائية",
+              "video": "https://www.youtube.com/watch?v=xoKNnXGc_1g"
+            },
+            {
+              "title": "شرح تطور الشعر المعاصر- أدب - أولى ثانوي اضمن درجة النصوص والقراءة المتحررة | أولى وتانية ثانوي 2026 | الترم الأول | رضا الفاروق",
+              "video": "https://www.youtube.com/watch?v=NjDO9Z1c2ys"
+            }
+          ]
+        }
+      ]
+    },
+    "LO5": {
+      "title": "البلاغة",
+      "concepts": [
+        {
+          "title": "الكناية",
+          "video": [
+            {
+              "title": " درس الكناية (بلاغة) بأبسط شكل 😍 - الصف الأول الثانوي (الترم الثاني) 2025",
+              "video": "https://www.youtube.com/watch?v=5T1rcTmfXvo"
+            },
+            {
+              "title": "شرح الكناية بطريقة سهلة مش هتنساها - للصف الأول الثانوي ترم ثان 2025",
+              "video": "https://www.youtube.com/watch?v=CwerF1QOUK4"
+            },
+            {
+              "title": "الكناية ببساطة للصف الأول الثانوي | أسهل شرح بالأمثلة والتطبيقات العملية _دروس عربيه",
+              "video": "https://www.youtube.com/watch?v=djxpcGT-FVQ"
+            }
+          ]
+        },
+        {
+          "title": "المجاز المرسل",
+          "video": [
+            {
+              "title": "المجاز المرسل | تعلم البلاغة بسهولة",
+              "video": "https://www.youtube.com/watch?v=75XYOalcLvI"
+            },
+            {
+              "title": "المجاز المرسل (بلاغة) - الصف الأول الثانوي (الترم الثاني)",
+              "video": "https://www.youtube.com/watch?v=YlmuK0DHkZU"
+            },
+            {
+              "title": "المجاز المرسل للصف الأول الثانوي | أبسط شرح مع أمثلة |وداعًا لصعوبة البلاغة _دروس عربية",
+              "video": "https://www.youtube.com/watch?v=_SU0VK81Aks"
+            }
+          ]
+        },
+        {
+          "title": "ملخص ل منهج البلاغة  ",
+          "video": [
+            {
+              "title": "بلاغة الترم الثاني كاملة - الصف الأول الثانوي",
+              "video": "https://www.youtube.com/watch?v=do6gJr--YfA"
+            }
+          ]
+        }
+      ]
+    },
+    "LO6": {
+      "title": "كتب المنهج",
+      "bookGroups": [
+        {
+          "title": "كتب المنهج الأساسية",
+          "books": [
+            {
+              "title": "كتاب الامتحان",
+              "file": "كتاب الامتحان الأساسى - أولى ثانوى الترم الثانى.pdf",
+              "description": "تدريبات وأسئلة شاملة لكل أقسام المنهج"
+            },
+            {
+              "title": "كتاب الأضواء",
+              "file": "الاضواء - لغة عربية - 1 ثانوي - ترم 2.pdf",
+              "description": "كتاب الأضواء للفصل الدراسي الأول"
+            }
+          ]
+        },
+        {
+          "title": "كتب المراجعة والتدريبات",
+          "books": [
+            {
+              "title": "كتاب المراجعة",
+              "file": "مراجعة سريعة على اللغة العربية.pdf",
+              "description": "مراجعة لكل أقسام المنهج"
+            }
+          ]
+        },
+        {
+          "title": "نسخ إضافية من المنهج",
+          "books": []
+        },
+        {
+          "title": "كتب القصة",
+          "books": [
+            {
+              "title": "قصة أبو الفوارس عنترة",
+              "file": "أبو الفوارس عنترة.pdf",
+              "description": "القصة المقررة كاملة"
+            }
+          ]
+        }
+      ]
+    },
+    "references": {
+      "title": "المراجع الإضافية",
+      "concepts": []
+    }
+  },
+  "shareMap": {
+    "الاضواء - لغة عربية - 1 ثانوي - ترم 2.pdf": "https://drive.google.com/file/d/13UGPFk1JRcD_ezTOGmcfdCvfQqK5SlK8/view?usp=drive_link",
+    "كتاب الامتحان الأساسى - أولى ثانوى الترم الثانى.pdf": "https://drive.google.com/file/d/1PO6ovHwik2Wa4p-xBhF5zjTjAgGOyBKz/view?usp=drive_link",
+    "مراجعة سريعة على اللغة العربية.pdf": "https://drive.google.com/file/d/1fkBpsVv1H19eRtncNcrRqWVKT2UVXwD-/view?usp=drive_link",
+    "أبو الفوارس عنترة.pdf": "https://drive.google.com/file/d/1F2LbvysohN9qYk_MNnmSzc4wQjdil0SI/view?usp=drive_link"
+  },
+  "explicitShareMapLinks": [
+    {
+      "file": "تدريب نحو.docx",
+      "title": "تدريب نحو"
+    },
+    {
+      "file": "تدريب نحوي.docx",
+      "title": "تدريب نحوي"
+    },
+    {
+      "file": "اختبار نحو كاد وأخواتها.docx",
+      "title": "اختبار نحو كاد وأخواتها"
+    },
+    {
+      "file": "( ستون تدريبًا نحويًا طبقأ لمنهج 2 ث الحديث 2015 ).doc",
+      "title": "ستون تدريبًا نحويًا"
+    }
+  ]
+}

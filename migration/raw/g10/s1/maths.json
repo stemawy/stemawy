@@ -1,0 +1,342 @@
+{
+  "learningObjectives": {
+    "LO1": {
+      "title": "LO1: Trigonometry",
+      "concepts": [
+        "Unit circle",
+        "Six trigonometric functions",
+        "Related angles",
+        "Sine law, cos law",
+        "Angle of elevation and angle of depression",
+        "Directed angle",
+        "Positive, negative, and coterminal angles of rotation"
+      ]
+    },
+    "LO2": {
+      "title": "LO2: Statistics and Data Analysis",
+      "concepts": [
+        "Shape, center, spread",
+        "Histogram",
+        "Stem plot",
+        "Dot plot",
+        "Skewed",
+        "Symmetric",
+        "IQR",
+        "Boxplot",
+        "Outliers",
+        "Scatter plot",
+        "Correlation",
+        "Correlation coefficient",
+        "Regression line",
+        "Standard deviation (without frequency)"
+      ]
+    },
+    "LO3": {
+      "title": "LO3: Three-Dimensional Geometry",
+      "concepts": [
+        "Cross section",
+        "Dimensional objects",
+        "Classifying regular polyhedral"
+      ]
+    },
+    "LO4": {
+      "title": "LO4: Similarity and Transformations",
+      "concepts": [
+        "Similarity",
+        "Transformation (reduction and magnification)",
+        "Proportionality",
+        "Parallel lines and proportional parts",
+        "Angle bisectors"
+      ]
+    },
+    "LO5": {
+      "title": "LO5: Area and Volume",
+      "concepts": [
+        "Area",
+        "Volume",
+        "Composite figures"
+      ]
+    },
+    "LO6": {
+      "title": "LO6: Functions",
+      "concepts": [
+        "Linear functions",
+        "Piecewise function",
+        "Absolute-Value Functions",
+        "STEP function",
+        "Direct variation",
+        "Inverse variation",
+        "Intercepted part",
+        "Composition of functions",
+        "Translation of linear function"
+      ]
+    },
+    "references": {
+      "title": "Additional References",
+      "concepts": []
+    }
+  },
+  "resourceFiles": {
+    "LO1": [
+      "first semester/LO1/LO 1.pptx",
+      "first semester/LO1/LO 1 MATH.pptx",
+      "first semester/LO1/MA 1.01.1 Modeling with trigonometric functions.pptx",
+      "first semester/LO1/Trig 7 sin=cos (2).pptx",
+      "first semester/LO1/2a lesson 3.4 .6 .7.pdf",
+      "first semester/LO1/LAW OF SINES AND COSINES.pdf",
+      "first semester/LO1/1 st trigonometric functions.pptx",
+      "first semester/LO1/2nd  Follow trigonometric functions.pptx",
+      "first semester/LO1/4th trig sin and cos law.pptx",
+      "first semester/LO1/3rd trig identities.pptx",
+      "first semester/LO1/6th cross section and rotaion (1).pptx",
+      "first semester/LO1/5th trig angl elevation annd depretion.pptx",
+      "first semester/LO1/Trig Functions and Identities.pdf",
+      "first semester/LO1/Trig 8  Sum and Difference of two angles  Formulas.ppt",
+      "first semester/LO1/Trig 1The Unit Circle.ppt",
+      "first semester/LO1/trig 3 starting and ending points for sin and  functions.ppt"
+    ],
+    "LO2": [
+      "first semester/LO2/G10 S3.pdf",
+      "first semester/LO2/LO 2.pptx",
+      "first semester/LO2/MA 1.02.1.pptx"
+    ],
+    "LO3": [
+      "first semester/LO3/LO 3.pptx",
+      "first semester/LO3/MA 1.03 Modeling with geometry.pptx"
+    ],
+    "LO4": [
+      "first semester/LO4/LO 4.pptx",
+      "first semester/LO4/MA 1.04 Similarity.pptx"
+    ],
+    "LO5": [
+      "first semester/LO5/LO 5.pptx",
+      "first semester/LO5/MA 1.05 pyramid.pptx",
+      "first semester/LO5/MA 1.05 Cone.pptx"
+    ],
+    "LO6": [
+      "first semester/LO6/LO 6.pptx",
+      "first semester/LO6/MA 1.06 functions.pptx",
+      "first semester/LO6/MA 1.06 functions.2pptx.pptx"
+    ],
+    "testBanks": [
+      "first semester/test banks/LO 1 exercise.pptx",
+      "first semester/test banks/LO 2 exercise.pptx",
+      "first semester/test banks/LO 3 exercise.pptx",
+      "first semester/test banks/LO 4 exercise.pptx",
+      "first semester/test banks/LO 5 exercise.pdf",
+      "first semester/test banks/5B Honors Quiz Review final.pdf"
+    ],
+    "revisions": [
+      "first semester/revisions/First term revision.pptx",
+      "first semester/revisions/First term revision2.pptx",
+      "first semester/revisions/Revision L.O.5 & 6.pdf",
+      "first semester/revisions/final revision on maths for grade 10 first semester 2017.pdf",
+      "first semester/revisions/pure math 1st term .docx"
+    ]
+  },
+  "videoLinks": {
+    "Unit circle": [
+      "https://youtu.be/CPvPfdMwMig?si=FXCX-lzVtz-aZDCk",
+      "https://youtu.be/iXGfVuv-sIY?si=hwLbvO1q03T-kt_M"
+    ],
+    "Six trigonometric functions": [
+      "https://youtu.be/Fe4I9D5m4Cs?si=bYWrjpttbljYHKDT",
+      "https://youtu.be/VlqBs_FzVds?si=QO54_ZLKTXShHkcH"
+    ],
+    "Related angles": [
+      "https://youtu.be/D7w4DCJH2ZI?si=rOIEExFRbFbJk0_l"
+    ],
+    "Sine law, cos law": [
+      "https://youtu.be/RfvDaovSkSU?si=it2vMTuArSahhHir",
+      "https://youtu.be/RfvDaovSkSU?si=FN-aQlFmy7wxIx2I"
+    ],
+    "Angle of elevation and angle of depression": [
+      "https://youtu.be/dMxFmmwbVXE?si=951ExjyXERrv_I7m"
+    ],
+    "Directed angle": [
+      "https://youtu.be/CL2b187XUTg?si=l2w2dvJH0GcLRn2L"
+    ],
+    "Positive, negative, and coterminal angles of rotation": [
+      "https://youtu.be/IqM-HtvUE-8?si=pwrlHauiZJNFgM1t"
+    ],
+    "Shape, center, spread": [
+      "https://youtu.be/uYbtPM9p71w?si=f9HUHfC4beNZlDzu"
+    ],
+    "Histogram": [
+      "https://youtu.be/Pr9ZqFU9-_U?si=F1QLC8PlZvJqXZdh"
+    ],
+    "Stem plot": [
+      "https://youtu.be/lqeYIv8X67g?si=JDwnw8U-kA7g3KTH"
+    ],
+    "Dot plot": [
+      "https://youtu.be/9qKfLDWN_Es?si=9f-mx4eFE2xk3zje"
+    ],
+    "Skewed": [
+      "https://youtu.be/mypZy8Jl-Jc?si=MjGGQygLQLc8Xltx"
+    ],
+    "Symmetric": [
+      "https://youtu.be/mypZy8Jl-Jc?si=ouLEUlCRiiREzwOU"
+    ],
+    "IQR": [
+      "https://youtu.be/mypZy8Jl-Jc?si=RQmVJ79MaNDSA2nt"
+    ],
+    "Boxplot": [
+      "https://youtu.be/mypZy8Jl-Jc?si=RQmVJ79MaNDSA2nt"
+    ],
+    "Outliers": [
+      "https://youtu.be/mypZy8Jl-Jc?si=RQmVJ79MaNDSA2nt"
+    ],
+    "Scatter plot": [
+      "https://youtu.be/mypZy8Jl-Jc?si=RQmVJ79MaNDSA2nt"
+    ],
+    "Correlation": [
+      "https://youtu.be/mypZy8Jl-Jc?si=RQmVJ79MaNDSA2nt"
+    ],
+    "Correlation coefficient": [
+      "https://youtu.be/mypZy8Jl-Jc?si=RQmVJ79MaNDSA2nt"
+    ],
+    "Regression line": [
+      "https://youtu.be/29jQdHLCGPA?si=xapeIrJMDpF5GdEW"
+    ],
+    "Standard deviation (without frequency)": [
+      "https://youtu.be/29jQdHLCGPA?si=xapeIrJMDpF5GdEW"
+    ],
+    "Cross section": [
+      "https://youtu.be/4vLy5VoUcQE?si=iSFCajv1fxxn6tOj"
+    ],
+    "Dimensional objects": [
+      "https://youtu.be/J2Qz-7ZWDAE?si=9I5znkCSJ4Mu5IVf"
+    ],
+    "Classifying regular polyhedral": [
+      "https://youtu.be/UkxUMqrtGUw?si=BbQJrVITzYXzXKSM"
+    ],
+    "Similarity": [
+      {
+        "url": "https://youtu.be/6p1lweGactg?si=IVq4lCghbgc1E14j",
+        "text": "see the whole playlist"
+      }
+    ],
+    "Transformation (reduction and magnification)": [
+      "https://youtu.be/XiAoUDfrar0?si=am5JrD0W6_b6ANEG"
+    ],
+    "Proportionality": [
+      "https://youtu.be/AQFZuih2odo?si=LT5Nu4rVMVboGepC"
+    ],
+    "Parallel lines and proportional parts": [
+      "https://youtu.be/iywHKl0U-D0?si=VFyaldGacRGFWxcS"
+    ],
+    "Angle bisectors": [
+      "https://youtu.be/TpIBLnRAslI?si=HximHX53hSy1Eb4b"
+    ],
+    "Area": [
+      "https://youtu.be/kqqmJiJez6o?si=iyK37gPe0gfidits"
+    ],
+    "Volume": [
+      "https://youtu.be/xMz9WFvox9g?si=V4OYRqCz0JsYwcBh"
+    ],
+    "Composite figures": [
+      "https://youtu.be/z4Lat1uOQI4?si=x-KMGBOyYFST3_X8"
+    ],
+    "Linear functions": [
+      "https://youtu.be/AZroE4fJqtQ?si=2aiauDXqRrNf9JXg"
+    ],
+    "Piecewise function": [
+      "https://youtu.be/hg2HR9zJFq4?si=kw20EcXgOOyR7fba"
+    ],
+    "Absolute-Value Functions": [
+      "https://youtu.be/u6zDpUL5RkU?si=cqO9f7n7pI217pwn"
+    ],
+    "STEP function": [
+      "https://youtu.be/RqByBGKGHDU?si=c27anoSFcxETSi-R"
+    ],
+    "Direct variation": [
+      "https://youtu.be/92U67CUy9Gc?si=DudyuKtHmw-xQwCS"
+    ],
+    "Inverse variation": [
+      "https://youtu.be/92U67CUy9Gc?si=DudyuKtHmw-xQwCS"
+    ],
+    "Intercepted part": [
+      "https://youtu.be/RvS5VTV8O88?si=suluCJopAXFTAJ3R"
+    ],
+    "Composition of functions": [
+      "https://youtu.be/wUNWjd4bMmw?si=tAV9tmuWe3c2E_Zl"
+    ],
+    "Translation of linear function": [
+      "https://youtu.be/rgvysb9emcQ?si=g3Y__YZoONFkPC9O"
+    ]
+  },
+  "loSummaryVideos": {
+    "LO1": [
+      "https://youtu.be/Uq6OsIPhqzw?si=j7wGJnem-EHPmhr5",
+      "https://youtu.be/2trG5-1w5KE?si=0kkz7eiBc8YcmBmq"
+    ],
+    "LO2": [
+      "https://youtu.be/dUBxHP0zBdc?si=bUJ8PHb4rSeuMZW-",
+      "https://youtu.be/gNCI5EHKenw?si=b98hXHMt593mX_ee"
+    ],
+    "LO3": [
+      "https://youtu.be/q2SQPztYaQQ?si=fZvPiR_t927FIc3I"
+    ],
+    "LO4": [
+      "https://youtu.be/gd377CI_uZY?si=DiDl_H1ugYVYDSiP"
+    ],
+    "LO5": [
+      "https://youtu.be/q2SQPztYaQQ?si=bpXGAUgjn--uEdAF"
+    ],
+    "LO6": [
+      "https://youtu.be/7oUir6R9x2w?si=j0X3o2n91Hr0Hp1s"
+    ]
+  },
+  "revisionVideos": {
+    "midterm": [
+      "https://youtu.be/eBdw_2tLabg?si=nv8PoczibR6B0z3Z",
+      "https://youtu.be/O92lj_P9Pes?si=X2u17Sc9vKJKhIvG",
+      "https://youtu.be/4UQ7JMbpWig?si=fte2M9m859FWXt-h"
+    ],
+    "final": [
+      "https://youtu.be/yNszOrjbDSg?si=5jwp5SYOTlSIC4TV"
+    ]
+  },
+  "shareMap": {
+    "LO 1.pptx": "https://docs.google.com/presentation/d/1FdGqo-21V3Y1qt_4VNDsXwkosi4Sh4Kn/edit?usp=sharing",
+    "LO 1 MATH.pptx": "https://docs.google.com/presentation/d/1Giim5RVOhLFSQkffCrksDPWHL1KbwluB/edit?usp=sharing",
+    "MA 1.01.1 Modeling with trigonometric functions.pptx": "https://docs.google.com/presentation/d/1IRpwXNJFlpn_ueYcSSj0-6KZAXoyeggX/edit?usp=sharing",
+    "Trig Functions and Identities.pdf": "https://drive.google.com/file/d/1iGaaBTxBLLht5G7XmpnmhqVMYbhC6tWj/view?usp=sharing",
+    "MA 1.06 functions.pptx": "https://docs.google.com/presentation/d/1rc--v8LmNy01hf8uHNckGnRBS1wRoQ3N/edit?usp=sharing",
+    "MA 1.06 functions.2pptx.pptx": "https://docs.google.com/presentation/d/1P9LMRGyUHFKl3WSGhl0bchCvx2d2zQ59/edit?usp=sharing",
+    "LO 1 exercise.pptx": "https://docs.google.com/presentation/d/1puJGrzFAprcef2YJW7hy9ghe5rcHUgY-/edit?usp=sharing",
+    "LO 2 exercise.pptx": "https://docs.google.com/presentation/d/1-B1tG1NuihTAEKeYFK9Lye13hbfwI1x6/edit?usp=sharing",
+    "LO 3 exercise.pptx": "https://docs.google.com/presentation/d/11IWafbzqF9oEPj5d2xinV_k0EfmdmsZb/edit?usp=sharing",
+    "LO 4 exercise.pptx": "https://docs.google.com/presentation/d/17zoQd9lky3Yud5XsScnFFqwuPa-m0f-w/edit?usp=sharing",
+    "LO 5 exercise.pdf": "https://drive.google.com/file/d/1KSbcP-83rHE76eOkgY_Mj_kJEW0mOrOf/view?usp=sharing",
+    "5B Honors Quiz Review final.pdf": "https://drive.google.com/file/d/1zJfftm-ZsOiCbbLm7-JbvHyfmw91Q99v/view?usp=sharing",
+    "Revision L.O.5 & 6.pdf": "https://drive.google.com/file/d/15mfxDc76f540OAGRiOHphT99foENSDvE/view?usp=sharing",
+    "First term revision.pptx": "https://docs.google.com/presentation/d/1N5igRHMtf580lzgam1nfMVg_Jra2xCOR/edit?usp=sharing",
+    "First term revision2.pptx": "https://docs.google.com/presentation/d/1O1A6NAb2CkrDN19MIbfHcAT2GCw0DbfU/edit?usp=sharing",
+    "final revision on maths for grade 10 first semester 2017.pdf": "https://drive.google.com/file/d/19SH4HOs4s8iteLiisGZc9pxHdtd4IfI5/view?usp=sharing",
+    "pure math 1st term .docx": "https://docs.google.com/document/d/1bFyCBSzKntzZh6wRwJ5eOX57sVE9FgYG/edit?usp=sharing",
+    "LO 6.pptx": "https://docs.google.com/presentation/d/12Rau-6JGJlENAtrc8uQaxJ9dGdfCbGnK/edit?usp=sharing",
+    "LO 5.pptx": "https://docs.google.com/presentation/d/1L-7THfGCXlq1jEW4VTlXVi9MaOczVFbK/edit?usp=sharing",
+    "MA 1.05 pyramid.pptx": "https://docs.google.com/presentation/d/16oCUdRawsz3FqHuZKs4bynzn5gVQ0hM5/edit?usp=sharing",
+    "MA 1.05 Cone.pptx": "https://docs.google.com/presentation/d/1TKd3WwBkg82qxw3pk66WTAYhVpr-9OLo/edit?usp=sharing",
+    "LO 4.pptx": "https://docs.google.com/presentation/d/1QnoaIKLj73Ry20X7YhrLAaOvEU2_fHaU/edit?usp=sharing",
+    "MA 1.04 Similarity.pptx": "https://docs.google.com/presentation/d/1009nneJgOCiIXt24EbC-kRs2pSRDkwGb/edit?usp=sharing",
+    "LO 3.pptx": "https://docs.google.com/presentation/d/1qv_X-Qy2g23OFh7C_5_AJR1za9zd1BVX/edit?usp=sharing",
+    "MA 1.03 Modeling with geometry.pptx": "https://docs.google.com/presentation/d/1Q7drACLaLJ7TuMpUIfv4OYr-zKZl47Sk/edit?usp=sharing",
+    "G10 S3.pdf": "https://drive.google.com/file/d/1nIGGd8RheQvldM4NBU0I-rCFSVMUXU4L/view?usp=sharing",
+    "LO 2.pptx": "https://docs.google.com/presentation/d/1Iby_kKYJO1s67smbDMpctB27c6sZBVqz/edit?usp=sharing",
+    "MA 1.02.1.pptx": "https://docs.google.com/presentation/d/1-Pfn178Ftqx10PgS4g-IKYgP_AE314B9/edit?usp=sharing",
+    "Trig 7 sin=cos (2).pptx": "https://docs.google.com/presentation/d/1qxj4B5Jr0i6j1ZePOd6Fxkzy6UPRqTnO/edit?usp=sharing",
+    "2a lesson 3.4 .6 .7.pdf": "https://drive.google.com/file/d/1-XFnVMn0pNgp9P6WzdeTFKFNgz43xN0p/view?usp=sharing",
+    "LAW OF SINES AND COSINES.pdf": "https://drive.google.com/file/d/1TamSbaOWXzbv5FeHlM_YqdkeJrdxbRgg/view?usp=sharing",
+    "1 st trigonometric functions.pptx": "https://docs.google.com/presentation/d/1ppQLnIf0Ua8170_qiCN2eC2CyK1dWbI4/edit?usp=sharing",
+    "2nd  Follow trigonometric functions.pptx": "https://docs.google.com/presentation/d/1W85ypvrele1Pw2SuRRJ9d02nvWgL9LTM/edit?usp=sharing",
+    "4th trig sin and cos law.pptx": "https://docs.google.com/presentation/d/1pJkBs9DwpPS2IVKCAYAG1nOBb592TKbY/edit?usp=sharing",
+    "3rd trig identities.pptx": "https://docs.google.com/presentation/d/1Sz8Tl2Xuody6RU_w7ndw8lnq3I1bS8VU/edit?usp=sharing",
+    "6th cross section and rotaion (1).pptx": "https://docs.google.com/presentation/d/1-omYi-veGVHMSvP3PfS4J5aE80ctmbSF/edit?usp=sharing",
+    "5th trig angl elevation annd depretion.pptx": "https://docs.google.com/presentation/d/11LbVV8IKX4Q6raG372xVwCX2AaIppTtY/edit?usp=sharing",
+    "Trig 8  Sum and Difference of two angles  Formulas.ppt": "https://docs.google.com/presentation/d/1TWDCXlAY7Xc-4G0aXSNjEp5UW5R5ZKaL/edit?usp=sharing",
+    "Trig 1The Unit Circle.ppt": "https://docs.google.com/presentation/d/1WcdMeDQQ-syeLhAUMSBrYNi9xZVFCh9l/edit?usp=sharing",
+    "trig 3 starting and ending points for sin and  functions.ppt": "https://docs.google.com/presentation/d/1Se6sJV-o_e78JB9yUW5hSumiWCzvuRMn/edit?usp=sharing"
+  }
+}

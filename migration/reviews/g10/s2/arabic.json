@@ -1,0 +1,41 @@
+{
+  "missingDriveUrls": [
+    {
+      "title": "تدريب نحو.docx",
+      "location": "تدريب نحو"
+    },
+    {
+      "title": "تدريب نحوي.docx",
+      "location": "تدريب نحوي"
+    },
+    {
+      "title": "اختبار نحو كاد وأخواتها.docx",
+      "location": "اختبار نحو كاد وأخواتها"
+    },
+    {
+      "title": "( ستون تدريبًا نحويًا طبقأ لمنهج 2 ث الحديث 2015 ).doc",
+      "location": "ستون تدريبًا نحويًا"
+    }
+  ],
+  "missingVideoUrls": [],
+  "duplicateResourceIds": [],
+  "deduplicatedResourceIds": [
+    {
+      "id": "arabic-g10-s2-video-cmzs9tz2das-f01cea4be1",
+      "count": 2
+    }
+  ],
+  "unrecognizedResourceLocations": [],
+  "notes": [],
+  "statistics": {
+    "units": 7,
+    "concepts": 17,
+    "resources": 46,
+    "pdfs": 4,
+    "videos": 42,
+    "testBanks": 0,
+    "missingDriveUrls": 4,
+    "missingVideoUrls": 0,
+    "duplicateResourceIds": 0
+  }
+}

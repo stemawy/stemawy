@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T23:14:35.803Z",
+  "source": {
+    "file": "migration/raw/g10/s1/religion.json"
+  },
+  "subject": {
+    "id": "religion-g10-s1",
+    "name": "Religion",
+    "description": "Religion resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "religion",
+    "content": [
+      {
+        "id": "religion-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "كتب المنهج",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "religion-g10-s1-concept-",
+            "title": "كتاب الدين للصف الأول",
+            "description": "الكتاب الأساسي للمادة",
+            "order": 1,
+            "resources": [
+              "religion-g10-s1-video-lblgh30we1c-8b60bd22eb",
+              "religion-g10-s1-pdf-pdf-9d58c7671b"
+            ]
+          },
+          {
+            "id": "religion-g10-s1-concept-",
+            "title": "معجزة القرآن",
+            "description": "كتاب معجزة القرآن للصف الأول",
+            "order": 2,
+            "resources": [
+              "religion-g10-s1-pdf-pdf-c26ca87f82"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "religion-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 2,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "religion-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 3,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "religion-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 4,
+        "concepts": [],
+        "resources": []
+      }
+    ],
+    "units": 1
+  },
+  "resources": [
+    {
+      "id": "religion-g10-s1-video-lblgh30we1c-8b60bd22eb",
+      "title": "كتاب الدين للصف الأول",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/lbLgH30we1c?si=KZji1pjFdDLLQljF",
+      "youtubeId": "lbLgH30we1c",
+      "source": {
+        "location": "references → كتاب الدين للصف الأول"
+      }
+    },
+    {
+      "id": "religion-g10-s1-pdf-pdf-9d58c7671b",
+      "title": "دين الصف الأول.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1MQp-LwbO7c-w4xauo2JU6gntc3nvn5FM/view?usp=drivesdk",
+      "source": {
+        "location": "references → كتاب الدين للصف الأول"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "religion-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "religion-g10-s1-pdf-pdf-c26ca87f82",
+      "title": "معجزة القرآن الصف الأول.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Ed2e6qbuBuAJF5oB-A0ISWqzW7C3BJjT/view?usp=drivesdk",
+      "source": {
+        "location": "references → معجزة القرآن"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "religion-g10-s1-unit-01"
+      }
+    }
+  ]
+}

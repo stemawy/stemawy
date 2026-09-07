@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T22:48:29.036Z",
+  "source": {
+    "file": "migration/raw/g10/s1/english.json"
+  },
+  "subject": {
+    "id": "english-g10-s1",
+    "name": "English",
+    "description": "English resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "english",
+    "content": [
+      {
+        "id": "english-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Cycle 1",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "english-g10-s1-concept-upstream-unit1",
+            "title": "Upstream (unit1)",
+            "description": "study in upstream book from page 8 to page19",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-hello-unit1-2",
+            "title": "Hello (unit1,2)",
+            "description": "study from Hello book both unit1 and unit2 from lesson 1 to lesson 5",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-grammerway",
+            "title": "Grammerway",
+            "description": "study in Grammerway book unit2 (past forms), unit5 (model verbs)",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-writing-academic-english",
+            "title": "Writing academic english",
+            "description": "study in Writing acadimic english book from page 3 to page 16",
+            "order": 4,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-novel",
+            "title": "NOVEL",
+            "description": "study from the novel both chapter1 and chapter 2",
+            "order": 5,
+            "resources": []
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "english-g10-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Cycle 2",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "english-g10-s1-concept-upstream-unit2",
+            "title": "Upstream (unit2)",
+            "description": "study in upstream book from page 22 to page25, and from page 30 to page 33.",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-hello-unit3-4",
+            "title": "Hello (unit3,4)",
+            "description": "study from Hello book both unit3 and unit4 from lesson 1 to lesson 5",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-grammerway",
+            "title": "Grammerway",
+            "description": "study in Grammerway book unit4, unit8",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-writing-academic-english",
+            "title": "Writing academic english",
+            "description": "study in Writing acadimic english book from page 18 to page 37, and from page 162 to page 171",
+            "order": 4,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-novel",
+            "title": "NOVEL",
+            "description": "study from the novel both chapter 3 and chapter 4",
+            "order": 5,
+            "resources": []
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "english-g10-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Cycle 3",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "english-g10-s1-concept-upstream-unit5",
+            "title": "Upstream (unit5)",
+            "description": "study in upstream book from page 77, 78, and from page 84 to page 86",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-hello-unit5-6",
+            "title": "Hello (unit5,6)",
+            "description": "study from Hello book both unit5 and unit6 from lesson 1 to lesson 5",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-grammerway",
+            "title": "Grammerway",
+            "description": "study in Grammerway book unit12",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-writing-academic-english",
+            "title": "Writing academic english",
+            "description": "study in Writing acadimic english book from page 39 to page 54",
+            "order": 4,
+            "resources": []
+          },
+          {
+            "id": "english-g10-s1-concept-novel",
+            "title": "NOVEL",
+            "description": "study from the novel both chapter5 and chapter 6",
+            "order": 5,
+            "resources": []
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "english-g10-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "Books",
+        "description": "",
+        "order": 4,
+        "concepts": [],
+        "resources": [
+          "english-g10-s1-pdf-english-1sec-t1-pdf-8c3dfba509",
+          "english-g10-s1-pdf-grammarway-3-pdf-31539cc63e",
+          "english-g10-s1-pdf-upstream-intermediate-b2-tfile-ru-pdf-2cacdd35ab",
+          "english-g10-s1-pdf-writing-academic-english-pdf-e460a33ae7",
+          "english-g10-s1-pdf-1-1-pdf-8e45678df1"
+        ]
+      },
+      {
+        "id": "english-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 5,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "english-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 6,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "english-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 7,
+        "concepts": [],
+        "resources": []
+      }
+    ],
+    "units": 4
+  },
+  "resources": [
+    {
+      "id": "english-g10-s1-pdf-english-1sec-t1-pdf-8c3dfba509",
+      "title": "English_1sec_t1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1wOk_Mlyy__HufVaM-bEYCVbK6Ve7fUJ0/view?usp=drivesdk",
+      "source": {
+        "location": "books"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "english-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "english-g10-s1-pdf-grammarway-3-pdf-31539cc63e",
+      "title": "Grammarway 3.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1DeDJZ_ElU9v3nC9aWvLUS73Mgzeg_BiH/view?usp=drivesdk",
+      "source": {
+        "location": "books"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "english-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "english-g10-s1-pdf-upstream-intermediate-b2-tfile-ru-pdf-2cacdd35ab",
+      "title": "Upstream_intermediate_B2_[tfile.ru].pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1fg4OXkpKesmT5VDPEUaGwl3nheSwev4a/view?usp=drivesdk",
+      "source": {
+        "location": "books"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "english-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "english-g10-s1-pdf-writing-academic-english-pdf-e460a33ae7",
+      "title": "Writing_Academic_English.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1NbPk5L18KYfEVC7xopLlehpqI-xCnJbX/view?usp=drivesdk",
+      "source": {
+        "location": "books"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "english-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "english-g10-s1-pdf-1-1-pdf-8e45678df1",
+      "title": "جيم - لغة انجليزية - 1 ثانوي - ترم 1 - ذاكرولي.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1EeuwQrNARS2VO43DbehazTEr54kbS326/view?usp=drivesdk",
+      "source": {
+        "location": "books"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "english-g10-s1-unit-04"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1955 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T17:01:25.093Z",
+  "source": {
+    "file": "migration/raw/g10/s1/physics.json"
+  },
+  "subject": {
+    "id": "physics-g10-s1",
+    "name": "Physics",
+    "description": "Physics resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "physics",
+    "content": [
+      {
+        "id": "physics-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Measurements and Units",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "physics-g10-s1-concept-physics-as-experimental-science",
+            "title": "Physics as experimental science",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "physics-g10-s1-video-uxa3keakdws-d1884bf5bd"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-systems-of-measurements-and-standards",
+            "title": "Systems of measurements and standards",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "physics-g10-s1-video-0kibygx-30u-10b62ba93c"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-international-system-of-units",
+            "title": "International system of units",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "physics-g10-s1-video-8rzrypoerpw-097f71e975"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-prefixes-of-metric-units",
+            "title": "Prefixes of metric units",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "physics-g10-s1-video-0kibygx-30u-18fbe4dccc"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-from-macro-to-nanoscale",
+            "title": "From Macro to Nanoscale",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "physics-g10-s1-video-ek8gxp3pimu-e8a554c2bd"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-measurement-errors",
+            "title": "Measurement errors",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "physics-g10-s1-video-jbeo46uv6d4-10fb44e44d"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-measurement-accuracy-vs-precision",
+            "title": "Measurement accuracy vs. precision",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "physics-g10-s1-video-0iihpkavo7g-bde74ef7d7"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-dimensional-analysis",
+            "title": "Dimensional analysis",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "physics-g10-s1-video-vwovdihteqs-95689b1356"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g10-s1-pdf-lo1-session-01-systems-of-measurement-pdf-3ae5a6ed51",
+          "physics-g10-s1-pdf-lo1-session-02-unit-conversion-pdf-2b8e9e8382",
+          "physics-g10-s1-pdf-lo1-session-03-measurement-errors-pdf-7edf9efa92",
+          "physics-g10-s1-pdf-lo1-session-04-dimensional-analysis-pdf-5c10c81779",
+          "physics-g10-s1-pdf-solutions-of-measurement-problems-lo-1-pdf-88a1176bbe",
+          "physics-g10-s1-video-uxa3keakdws-8579f28e1a",
+          "physics-g10-s1-video-9qekgsi4ini-f75901a9b5"
+        ]
+      },
+      {
+        "id": "physics-g10-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Forces and Equilibrium",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "physics-g10-s1-concept-forces",
+            "title": "Forces",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "physics-g10-s1-video-maabuhliixa-1f938d77d7",
+              "physics-g10-s1-video-vz0ehaoezke-5cb15a41a4"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-static-equilibrium",
+            "title": "Static equilibrium",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "physics-g10-s1-video-qgvfal5ck-c-8c2c06bb40"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-dynamic-equilibrium",
+            "title": "Dynamic equilibrium",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "physics-g10-s1-video-zahm74k9z1w-08a151f46a"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-system-of-forces",
+            "title": "System of forces",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "physics-g10-s1-video-e626-diqgrs-259db87092"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-newton-s-third-law",
+            "title": "Newton's third law",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "physics-g10-s1-video-txhesw6ytog-135f7ed5ec"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-free-body-diagram",
+            "title": "Free body diagram",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "physics-g10-s1-video-52r61aswhg0-26a80354e9"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-action-reaction-pairs",
+            "title": "Action-Reaction Pairs",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "physics-g10-s1-video-hm7b-xxj1um-5fff33cf22"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-point-particle",
+            "title": "Point particle",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "physics-g10-s1-video-fyjtgg3a2hy-6624e7e3fc"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g10-s1-pdf-lo2-session-07-forces-pdf-23b0916382",
+          "physics-g10-s1-pdf-lo2-session-08-newton-s-3rd-law-pdf-c6badb86bb",
+          "physics-g10-s1-pdf-newton-s-3rd-law-lo-2-answers-pdf-7103aeaed5",
+          "physics-g10-s1-video-myri9aen9qg-b1500ec15b",
+          "physics-g10-s1-video-h-hcjuvioyi-dbd9e70882"
+        ]
+      },
+      {
+        "id": "physics-g10-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Motion and Newton's Laws",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "physics-g10-s1-concept-equilibrium-vs-motion-vs-change-in-motion",
+            "title": "Equilibrium vs. motion vs. change in motion",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "physics-g10-s1-video-ongo9bbdi7q-ae52f4fdfc"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-force-as-a-vector",
+            "title": "Force as a vector",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "physics-g10-s1-video-ewshkusxx-8-7628538354"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-net-force-acting-on-a-free-body",
+            "title": "Net force acting on a free body.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "physics-g10-s1-video-fwdwjzkrtue-94faa7ecbb"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-newton-s-laws-of-motion",
+            "title": "Newton's Laws of Motion",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "physics-g10-s1-video-g550h4e5fcy-f7243254cf"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-centripetal-acceleration",
+            "title": "Centripetal acceleration",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "physics-g10-s1-video-zblirqut9uu-a89a397980"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-centripetal-force",
+            "title": "Centripetal force",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "physics-g10-s1-video-sqx22vvmrps-cd2119354c"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-inertial-reference-frame",
+            "title": "Inertial reference frame",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "physics-g10-s1-video-8xiip2b6l3m-9c005fe5d9",
+              "physics-g10-s1-video-3yaz7lkqpuq-837c33e24c"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g10-s1-pdf-lo-3-circular-motion-answers-pdf-08d0930504",
+          "physics-g10-s1-pdf-lo-3-newton-s-1st-2nd-law-questions-and-answers-pdf-cb9dc06154",
+          "physics-g10-s1-pdf-lo3-session-09-newtong-s-laws-pdf-a31d6f335c",
+          "physics-g10-s1-pdf-lo3-session-10-net-force-pdf-266b95ce4c",
+          "physics-g10-s1-pdf-lo3-session-11-net-force-part-2-pdf-b7eae165cb",
+          "physics-g10-s1-pdf-lo3-session-12-circular-motion-pdf-efe5057583",
+          "physics-g10-s1-video-kgzrm2tcfeu-0809adea4e",
+          "physics-g10-s1-video-x-auv0dfij0-414ec325fa"
+        ]
+      },
+      {
+        "id": "physics-g10-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "Gravitation",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "physics-g10-s1-concept-mass",
+            "title": "Mass",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "physics-g10-s1-video-iuboedihluc-fb86b05683"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-gravity",
+            "title": "Gravity",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "physics-g10-s1-video-ep1jihhdf2a-3848bd68f9"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-gravitational-field",
+            "title": "Gravitational field",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "physics-g10-s1-video-8auljad-aye-dd7057c5ec"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-weight",
+            "title": "Weight",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "physics-g10-s1-video-himydnpijzw-c1cedaf0f3"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-general-law-of-gravitation",
+            "title": "General Law of Gravitation",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "physics-g10-s1-video-8cykj3ngbqs-d3636bcd95"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-newton-s-second-law-in-gravitational-field",
+            "title": "Newton's Second Law in gravitational field",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "physics-g10-s1-video-pipngilqefe-0fee16d944"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-free-fall",
+            "title": "Free Fall",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "physics-g10-s1-video-bvgemk1y2wa-c626adaa27",
+              "physics-g10-s1-video-wf8sytb4r-g-2213fa5d1b"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-apparent-weight",
+            "title": "Apparent weight",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "physics-g10-s1-video-tvsygam8mv4-0be2071f0c"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g10-s1-pdf-lo-4-newton-s-universal-law-of-gravitation-answers-pdf-c9c6207f98",
+          "physics-g10-s1-pdf-lo4-session-13-newtong-s-law-of-universal-gravitation-pdf-972256cfe5",
+          "physics-g10-s1-pdf-lo4-session-14-apparent-weight-free-fall-pdf-0f437eb10a",
+          "physics-g10-s1-video-f-xaqezhley-37ba58916d"
+        ]
+      },
+      {
+        "id": "physics-g10-s1-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "Center of Mass and Rotational Equilibrium",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "physics-g10-s1-concept-center-of-mass",
+            "title": "Center of mass",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "physics-g10-s1-video-swu-i-19rn0-2b32838191"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-torque",
+            "title": "Torque",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "physics-g10-s1-video-jg4e8w44-e4-778b724bb3"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-static-equilibrium",
+            "title": "Static equilibrium",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "physics-g10-s1-video-qgvfal5ck-c-d2e4fe1a39"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-translational-vs-rotational-equilibrium",
+            "title": "Translational vs. Rotational Equilibrium",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "physics-g10-s1-video-xmxxnswf3fm-147742b223"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-the-equilibrium-torque-condition-rotational-analogue-of-newton-s-laws",
+            "title": "The equilibrium torque condition: rotational analogue of Newton's Laws",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "physics-g10-s1-video-xusmsv2z77s-28cb150cb1"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-simple-machines",
+            "title": "Simple machines",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "physics-g10-s1-video-dvevyrsuyjm-a08cf18a28"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-the-mechanical-advantage-of-simple-machines",
+            "title": "The mechanical advantage of simple machines",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "physics-g10-s1-video-sptnkncqlw4-6f2417c560"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-stability-of-extended-rigid-bodies-depends-on-the-sum-of-the-forces-the-sum-of-the-torques-and-on-the-location-of-the-center-of-mass",
+            "title": "Stability of extended rigid bodies depends on the sum of the forces, the sum of the torques and on the location of the center of mass.",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "physics-g10-s1-video-jqdeowrr4uu-470131dbcd"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g10-s1-pdf-session-15-lo5-center-of-mass-pdf-9836717b77",
+          "physics-g10-s1-pdf-session-16-lo5-torque-pdf-3dfeee7429",
+          "physics-g10-s1-pdf-session-17-lo5-simple-machines-pdf-8318321917",
+          "physics-g10-s1-pdf-session-18-lo5-newtong-s-second-law-of-rotational-motion-pdf-8c069cfca3",
+          "physics-g10-s1-video-agaexztlqry-9bc28ff20e",
+          "physics-g10-s1-video-pb3mwmokhsq-1a1367f1d9"
+        ]
+      },
+      {
+        "id": "physics-g10-s1-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "Elasticity and Stress",
+        "description": "",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "physics-g10-s1-concept-elasticity-hooke-s-law",
+            "title": "Elasticity & Hooke's Law",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "physics-g10-s1-video-halbtydujp0-971265d388"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-range-of-validity-for-hooke-s-law",
+            "title": "Range of validity for Hooke's Law",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "physics-g10-s1-video-halbtydujp0-971265d388"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-stress-and-strain",
+            "title": "Stress and strain",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "physics-g10-s1-video-ncode2fsqq0-81096bce2d",
+              "physics-g10-s1-video-c6ndd5ktkp4-8f29e08e95"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-young-s-modulus",
+            "title": "Young's modulus",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "physics-g10-s1-video-jr-uprzv8hq-1d6574454b",
+              "physics-g10-s1-video-dle-ieovfji-ac8da87380"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g10-s1-pdf-lo-6-7-elasticity-hook-s-law-questions-answers-copy-pdf-9691ab4560",
+          "physics-g10-s1-pdf-session-19-lo6-young-s-modulus-of-elasticity-pdf-62c0fb8297",
+          "physics-g10-s1-video-agaexztlqry-0b10fead18"
+        ]
+      },
+      {
+        "id": "physics-g10-s1-unit-07",
+        "type": "unit",
+        "number": "07",
+        "title": "Hooke's Law and Spring Systems",
+        "description": "",
+        "order": 7,
+        "concepts": [
+          {
+            "id": "physics-g10-s1-concept-hooke-s-law-linear-springs",
+            "title": "Hooke's Law & Linear Springs",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "physics-g10-s1-video-zzwuhs9ldby-f76522ce8d"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-the-spring-constant",
+            "title": "The spring constant",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "physics-g10-s1-video-bnqkccfkg0m-8b1dec59de"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-yield-point",
+            "title": "Yield point",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "physics-g10-s1-video-jtaj0s203ci-d070b0b9f5",
+              "physics-g10-s1-video-b-caxh44anq-28d194ec0e"
+            ]
+          },
+          {
+            "id": "physics-g10-s1-concept-tension-and-compression",
+            "title": "Tension and compression",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "physics-g10-s1-video-f5oqj5t-pa4-b8010ac899",
+              "physics-g10-s1-video-wp8pt075vak-faa917117f"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g10-s1-pdf-lo-6-7-elasticity-hook-s-law-questions-answers-pdf-1de86c70f6",
+          "physics-g10-s1-pdf-session-20-lo7-hooke-s-law-pdf-0715736d80",
+          "physics-g10-s1-video-agaexztlqry-acc60a32c5"
+        ]
+      },
+      {
+        "id": "physics-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 8,
+        "concepts": [],
+        "resources": [
+          "physics-g10-s1-pdf-8-01-physics-for-scientists-and-engineers-with-modern-physics-serway-jewett-pdf-78cb32b157",
+          "physics-g10-s1-pdf-book-giancoli-physics-7th-edition-pdf-80f6be5105",
+          "physics-g10-s1-pdf-center-of-mass-pdf-59769d0f84",
+          "physics-g10-s1-pdf-chapter-1-measurement-pdf-27c486484e",
+          "physics-g10-s1-pdf-equilibrium-and-elasticity-pdf-5aeab3d7e1",
+          "physics-g10-s1-pdf-force-and-motion-haliday-tb-pdf-4bcd0acd67",
+          "physics-g10-s1-pdf-gravitation-questions-pdf-6c1efdd58e",
+          "physics-g10-s1-pdf-halliday-resnick-walker-fundamentals-of-physics-10th-edition-pdf-5381294dff",
+          "physics-g10-s1-pdf-serway-vuille-college-physics-pdf-94a3c0ba4a",
+          "physics-g10-s1-pdf-torque-haliday-test-bank-pdf-93657f88cf",
+          "physics-g10-s1-pdf-mid-exam-g10-semester-1-pdf-c16996cb07",
+          "physics-g10-s1-pdf-physics-lo2-g10-s1-pdf-7a5a97c73c",
+          "physics-g10-s1-pdf-physics-lo1-g10-s1-pdf-324cccc84a",
+          "physics-g10-s1-pdf-final-exam-1-pdf-13769c368b",
+          "physics-g10-s1-pdf-final-exam-2-pdf-9fd308ab03",
+          "physics-g10-s1-pdf-final-exam-3-pdf-5625c7b986",
+          "physics-g10-s1-pdf-final-exam-4-pdf-be995767d5",
+          "physics-g10-s1-pdf-final-exam-5-pdf-a7b437faf6"
+        ]
+      },
+      {
+        "id": "physics-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 9,
+        "concepts": [],
+        "resources": [
+          "physics-g10-s1-video-vuf59ffqhcc-6e26d26c02"
+        ]
+      },
+      {
+        "id": "physics-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 10,
+        "concepts": [],
+        "resources": [
+          "physics-g10-s1-pdf-8-01-physics-for-scientists-and-engineers-with-modern-physics-serway-jewett-pdf-78cb32b157",
+          "physics-g10-s1-pdf-book-giancoli-physics-7th-edition-pdf-80f6be5105",
+          "physics-g10-s1-pdf-halliday-resnick-walker-fundamentals-of-physics-10th-edition-pdf-5381294dff",
+          "physics-g10-s1-pdf-physics-book-pdf-897f0f8dcb",
+          "physics-g10-s1-pdf-serway-vuille-college-physics-pdf-94a3c0ba4a"
+        ]
+      }
+    ],
+    "units": 7
+  },
+  "resources": [
+    {
+      "id": "physics-g10-s1-video-uxa3keakdws-d1884bf5bd",
+      "title": "Physics as experimental science",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/uXa3keakdWs?si=K-cP76rRtxekQO_V",
+      "youtubeId": "uXa3keakdWs",
+      "source": {
+        "location": "LO1 → Physics as experimental science"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-0kibygx-30u-10b62ba93c",
+      "title": "Systems of measurements and standards",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/0KiBYgx-30U?si=UKyy0CdKVHd3XdVL",
+      "youtubeId": "0KiBYgx-30U",
+      "source": {
+        "location": "LO1 → Systems of measurements and standards"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-8rzrypoerpw-097f71e975",
+      "title": "International system of units",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8rZRYPoerPw?si=0tlb0sQyp5NXP9SB",
+      "youtubeId": "8rZRYPoerPw",
+      "source": {
+        "location": "LO1 → International system of units"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-0kibygx-30u-18fbe4dccc",
+      "title": "Prefixes of metric units",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/0KiBYgx-30U?si=HvgrsKBwSXEfWojf",
+      "youtubeId": "0KiBYgx-30U",
+      "source": {
+        "location": "LO1 → Prefixes of metric units"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-ek8gxp3pimu-e8a554c2bd",
+      "title": "From Macro to Nanoscale",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/eK8gXP3pImU?si=3OwpeVuOd4wnVADx",
+      "youtubeId": "eK8gXP3pImU",
+      "source": {
+        "location": "LO1 → From Macro to Nanoscale"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-jbeo46uv6d4-10fb44e44d",
+      "title": "Measurement errors",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/JbEo46uV6d4?si=xIh0Ickt6VfwtQ1J",
+      "youtubeId": "JbEo46uV6d4",
+      "source": {
+        "location": "LO1 → Measurement errors"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-0iihpkavo7g-bde74ef7d7",
+      "title": "Measurement accuracy vs. precision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/0IiHPKAvo7g?si=e1tPaI2se1fhd650",
+      "youtubeId": "0IiHPKAvo7g",
+      "source": {
+        "location": "LO1 → Measurement accuracy vs. precision"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-vwovdihteqs-95689b1356",
+      "title": "Dimensional analysis",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/vWovdihteqs?si=9F2wJPICS0UjplLR",
+      "youtubeId": "vWovdihteqs",
+      "source": {
+        "location": "LO1 → Dimensional analysis"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo1-session-01-systems-of-measurement-pdf-3ae5a6ed51",
+      "title": "LO1 Session (01) systems of measurement.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/11g530gLxkTqnHon0MatCBdcleibhWVbu/view?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo1-session-02-unit-conversion-pdf-2b8e9e8382",
+      "title": "LO1 Session (02) Unit Conversion.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1dxTHb6pRCrSrt6CeX8-ebSTGyA2TB0nf/view?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo1-session-03-measurement-errors-pdf-7edf9efa92",
+      "title": "LO1 Session (03)  Measurement Errors.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1iDt417HQF9nRWwePt_w-jg5QxA6Nk-AZ/view?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo1-session-04-dimensional-analysis-pdf-5c10c81779",
+      "title": "LO1 Session (04)  Dimensional analysis.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1TJFQjUonwXufE6D0tFDK7jFcyxZp8Vha/view?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-solutions-of-measurement-problems-lo-1-pdf-88a1176bbe",
+      "title": "Solutions of measurement problems  LO. 1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1TB5aR8Zv-K5XUC5di6rfvo8x6W8y3EtH/view?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-uxa3keakdws-8579f28e1a",
+      "title": "LO1 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/uXa3keakdWs?si=GsW0ld517POGIcom",
+      "youtubeId": "uXa3keakdWs",
+      "source": {
+        "location": "LO1 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-9qekgsi4ini-f75901a9b5",
+      "title": "LO1 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/9qEKGSi4inI?si=yn5VkQzEaBKA36Gk",
+      "youtubeId": "9qEKGSi4inI",
+      "source": {
+        "location": "LO1 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-maabuhliixa-1f938d77d7",
+      "title": "Forces",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/MaabUHLIIXA?si=3rZLqIQU1Duir7PO",
+      "youtubeId": "MaabUHLIIXA",
+      "source": {
+        "location": "LO2 → Forces"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-vz0ehaoezke-5cb15a41a4",
+      "title": "Forces",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/vZ0ehaOEZKE?si=K-8bSa3KBQwAlI0G",
+      "youtubeId": "vZ0ehaOEZKE",
+      "source": {
+        "location": "LO2 → Forces"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-qgvfal5ck-c-8c2c06bb40",
+      "title": "Static equilibrium",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/qGvFAl5CK_c?si=DAdCmvbwkjAF5Elp",
+      "youtubeId": "qGvFAl5CK_c",
+      "source": {
+        "location": "LO2 → Static equilibrium"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-zahm74k9z1w-08a151f46a",
+      "title": "Dynamic equilibrium",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zaHM74k9Z1w?si=ho8oNaUK0YVI94jb",
+      "youtubeId": "zaHM74k9Z1w",
+      "source": {
+        "location": "LO2 → Dynamic equilibrium"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-e626-diqgrs-259db87092",
+      "title": "System of forces",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/E626-DiQgRs?si=9yBrjFEHiW-VmLJk",
+      "youtubeId": "E626-DiQgRs",
+      "source": {
+        "location": "LO2 → System of forces"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-txhesw6ytog-135f7ed5ec",
+      "title": "Newton's third law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TxhESW6YtOg?si=-2Ov-yTp5xW_7Gyf",
+      "youtubeId": "TxhESW6YtOg",
+      "source": {
+        "location": "LO2 → Newton's third law"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-52r61aswhg0-26a80354e9",
+      "title": "Free body diagram",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/52R61aSWHg0?si=rWZvad6YGGlvYYQv",
+      "youtubeId": "52R61aSWHg0",
+      "source": {
+        "location": "LO2 → Free body diagram"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-hm7b-xxj1um-5fff33cf22",
+      "title": "Action-Reaction Pairs",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Hm7B-xXJ1uM?si=7aN1ru7DjUCMPAU2",
+      "youtubeId": "Hm7B-xXJ1uM",
+      "source": {
+        "location": "LO2 → Action-Reaction Pairs"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-fyjtgg3a2hy-6624e7e3fc",
+      "title": "Point particle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/FyJTgG3a2hY?si=4U27PgSq65c3ATUc",
+      "youtubeId": "FyJTgG3a2hY",
+      "source": {
+        "location": "LO2 → Point particle"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo2-session-07-forces-pdf-23b0916382",
+      "title": "LO2 Session 07 Forces.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1nOt5ZpmosnaY62d7FSEdVPJOOcSo1rqN/view?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo2-session-08-newton-s-3rd-law-pdf-c6badb86bb",
+      "title": "LO2 Session 08 Newton's 3rd law.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/12-fX54HhK9rxLeYz60lc82X3YNqH0xOg/view?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-newton-s-3rd-law-lo-2-answers-pdf-7103aeaed5",
+      "title": "Newton_s 3rd law  LO. 2 - Answers.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1IO5Emg0PmzULb1KrexWN2EntbUbrOqSl/view?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-myri9aen9qg-b1500ec15b",
+      "title": "LO2 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/myRI9aen9qg?si=Ve1ZNWsDDX61T8ML",
+      "youtubeId": "myRI9aen9qg",
+      "source": {
+        "location": "LO2 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-h-hcjuvioyi-dbd9e70882",
+      "title": "LO2 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/H-hCJUviOyI?si=zc2D-4Ad6gSesgcF",
+      "youtubeId": "H-hCJUviOyI",
+      "source": {
+        "location": "LO2 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-ongo9bbdi7q-ae52f4fdfc",
+      "title": "Equilibrium vs. motion vs. change in motion",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/oNgo9bbDi7Q?si=NvxNr0OnOH0eV6cU",
+      "youtubeId": "oNgo9bbDi7Q",
+      "source": {
+        "location": "LO3 → Equilibrium vs. motion vs. change in motion"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-ewshkusxx-8-7628538354",
+      "title": "Force as a vector",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/EwSHKuSxX_8?si=58w15govolcKfVaE",
+      "youtubeId": "EwSHKuSxX_8",
+      "source": {
+        "location": "LO3 → Force as a vector"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-fwdwjzkrtue-94faa7ecbb",
+      "title": "Net force acting on a free body.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/fwDWJZkrtUE?si=pohUiTYJyIipT9j9",
+      "youtubeId": "fwDWJZkrtUE",
+      "source": {
+        "location": "LO3 → Net force acting on a free body."
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-g550h4e5fcy-f7243254cf",
+      "title": "Newton's Laws of Motion",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/g550H4e5FCY?si=7IQi9fXkHlcaMUGU",
+      "youtubeId": "g550H4e5FCY",
+      "source": {
+        "location": "LO3 → Newton's Laws of Motion"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-zblirqut9uu-a89a397980",
+      "title": "Centripetal acceleration",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ZbLirQuT9uU?si=PZW2RRaLUpbPAvN3",
+      "youtubeId": "ZbLirQuT9uU",
+      "source": {
+        "location": "LO3 → Centripetal acceleration"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-sqx22vvmrps-cd2119354c",
+      "title": "Centripetal force",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/SQX22VVmRPs?si=QAM94hCZONFd2RWe",
+      "youtubeId": "SQX22VVmRPs",
+      "source": {
+        "location": "LO3 → Centripetal force"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-8xiip2b6l3m-9c005fe5d9",
+      "title": "Inertial reference frame",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8xiIP2B6L3M?si=Z6cdj6o9nRkQD3NN",
+      "youtubeId": "8xiIP2B6L3M",
+      "source": {
+        "location": "LO3 → Inertial reference frame"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-3yaz7lkqpuq-837c33e24c",
+      "title": "Inertial reference frame",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/3yaZ7lkQPUQ?si=QH_d4qCXbZMht290",
+      "youtubeId": "3yaZ7lkQPUQ",
+      "source": {
+        "location": "LO3 → Inertial reference frame"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo-3-circular-motion-answers-pdf-08d0930504",
+      "title": "LO. 3 Circular motion Answers.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1SnmlhdIolXjj10VZyABRHH-0Q-O8KSrz/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo-3-newton-s-1st-2nd-law-questions-and-answers-pdf-cb9dc06154",
+      "title": "LO. 3 Newton_s 1st _ 2nd law - Questions and answers.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1jOmcelXYQABvVOMzzTJHbuCWq06SVL6Z/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo3-session-09-newtong-s-laws-pdf-a31d6f335c",
+      "title": "LO3 Session (09)  NewtonGÇÖs Laws.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/159CgIwB3JJmaJKzrQPgvY8epPV4UW1is/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo3-session-10-net-force-pdf-266b95ce4c",
+      "title": "LO3 Session (10)  Net force.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1g8w7eb3_-HzNp-bbDaY_ckXv-qsoaDVk/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo3-session-11-net-force-part-2-pdf-b7eae165cb",
+      "title": "LO3 Session (11) Net Force (Part 2).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1qWR-kkMAopEkEUg_OLJJj4aW9w6t5OT9/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo3-session-12-circular-motion-pdf-efe5057583",
+      "title": "LO3 Session (12)  CIRCULAR MOTION.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1z1imvO8pLstiKgDVv8JurmDpcr1ZeslW/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-kgzrm2tcfeu-0809adea4e",
+      "title": "LO3 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/kgZRM2tcFeU?si=EBFGNXMpg83S8Hgx",
+      "youtubeId": "kgZRM2tcFeU",
+      "source": {
+        "location": "LO3 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-x-auv0dfij0-414ec325fa",
+      "title": "LO3 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/x_auV0DFIJ0?si=ZeF07_5K0GMA82eX",
+      "youtubeId": "x_auV0DFIJ0",
+      "source": {
+        "location": "LO3 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-iuboedihluc-fb86b05683",
+      "title": "Mass",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/IuBoeDihLUc?si=3SXrfCI2W4X1hbhl",
+      "youtubeId": "IuBoeDihLUc",
+      "source": {
+        "location": "LO4 → Mass"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-ep1jihhdf2a-3848bd68f9",
+      "title": "Gravity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Ep1jIhHdf2A?si=1Dft7uAyrzapeR3q",
+      "youtubeId": "Ep1jIhHdf2A",
+      "source": {
+        "location": "LO4 → Gravity"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-8auljad-aye-dd7057c5ec",
+      "title": "Gravitational field",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8AUljAd_AyE?si=zlrXBiIpWOAKk64p",
+      "youtubeId": "8AUljAd_AyE",
+      "source": {
+        "location": "LO4 → Gravitational field"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-himydnpijzw-c1cedaf0f3",
+      "title": "Weight",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/hIMYdNPIjZw?si=ZKJxSISQWTmwo4Ht",
+      "youtubeId": "hIMYdNPIjZw",
+      "source": {
+        "location": "LO4 → Weight"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-8cykj3ngbqs-d3636bcd95",
+      "title": "General Law of Gravitation",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8CykJ3NgBQs?si=_AcV-o7BcBtRY30T",
+      "youtubeId": "8CykJ3NgBQs",
+      "source": {
+        "location": "LO4 → General Law of Gravitation"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-pipngilqefe-0fee16d944",
+      "title": "Newton's Second Law in gravitational field",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/PIpnGilqefE?si=MsCXWCg9bCAw0Az7",
+      "youtubeId": "PIpnGilqefE",
+      "source": {
+        "location": "LO4 → Newton's Second Law in gravitational field"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-bvgemk1y2wa-c626adaa27",
+      "title": "Free Fall",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/BVgemK1Y2wA?si=BI2c4O9p0rf_APhS",
+      "youtubeId": "BVgemK1Y2wA",
+      "source": {
+        "location": "LO4 → Free Fall"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-wf8sytb4r-g-2213fa5d1b",
+      "title": "Free Fall",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/wf8SYTb4r-g?si=bkmGitJMuuoGJaLN",
+      "youtubeId": "wf8SYTb4r-g",
+      "source": {
+        "location": "LO4 → Free Fall"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-tvsygam8mv4-0be2071f0c",
+      "title": "Apparent weight",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/tVsYgAM8MV4?si=AIF75ZNaR4mQwcRl",
+      "youtubeId": "tVsYgAM8MV4",
+      "source": {
+        "location": "LO4 → Apparent weight"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo-4-newton-s-universal-law-of-gravitation-answers-pdf-c9c6207f98",
+      "title": "LO. 4 Newton_s Universal law of gravitation answers.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Z3tJ2BQrNFyY1Q86Pw_omRDiszICkroS/view?usp=drivesdk",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo4-session-13-newtong-s-law-of-universal-gravitation-pdf-972256cfe5",
+      "title": "LO4 Session (13)  NewtonGÇÖs Law of Universal Gravitation.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1iMlXsANNOWZIOZYIYSmkZ4ye2iu5yzH-/view?usp=drivesdk",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo4-session-14-apparent-weight-free-fall-pdf-0f437eb10a",
+      "title": "LO4 Session (14)  Apparent weight &  Free fall.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1tJAndQzYDkSaEOJQlMaovj0dTsCjOi0G/view?usp=drivesdk",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-f-xaqezhley-37ba58916d",
+      "title": "LO4 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/f-xAQezHLEY?si=KI33rpN998P0SmI_",
+      "youtubeId": "f-xAQezHLEY",
+      "source": {
+        "location": "LO4 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-swu-i-19rn0-2b32838191",
+      "title": "Center of mass",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/SWu_i-19Rn0?si=MjRQ4VOkt9zgeEPJ",
+      "youtubeId": "SWu_i-19Rn0",
+      "source": {
+        "location": "LO5 → Center of mass"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-jg4e8w44-e4-778b724bb3",
+      "title": "Torque",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/jg4e8W44_E4?si=diORRPAPNAi8F1bK",
+      "youtubeId": "jg4e8W44_E4",
+      "source": {
+        "location": "LO5 → Torque"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-qgvfal5ck-c-d2e4fe1a39",
+      "title": "Static equilibrium",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/qGvFAl5CK_c?si=CQ-y5ZvrIoyTS9LR",
+      "youtubeId": "qGvFAl5CK_c",
+      "source": {
+        "location": "LO5 → Static equilibrium"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-xmxxnswf3fm-147742b223",
+      "title": "Translational vs. Rotational Equilibrium",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/XmXXnSWf3fM?si=sGgH-ImG8bj9YRZd",
+      "youtubeId": "XmXXnSWf3fM",
+      "source": {
+        "location": "LO5 → Translational vs. Rotational Equilibrium"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-xusmsv2z77s-28cb150cb1",
+      "title": "The equilibrium torque condition: rotational analogue of Newton's Laws",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/xusMSv2z77s?si=lxMyAIeKYSXt51z-",
+      "youtubeId": "xusMSv2z77s",
+      "source": {
+        "location": "LO5 → The equilibrium torque condition: rotational analogue of Newton's Laws"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-dvevyrsuyjm-a08cf18a28",
+      "title": "Simple machines",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/dvEVYrSUYJM?si=6RZCTRRpX_g45zzH",
+      "youtubeId": "dvEVYrSUYJM",
+      "source": {
+        "location": "LO5 → Simple machines"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-sptnkncqlw4-6f2417c560",
+      "title": "The mechanical advantage of simple machines",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/SPTNKnCqlW4?si=CaG23FY5ZxG_SajX",
+      "youtubeId": "SPTNKnCqlW4",
+      "source": {
+        "location": "LO5 → The mechanical advantage of simple machines"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-jqdeowrr4uu-470131dbcd",
+      "title": "Stability of extended rigid bodies depends on the sum of the forces, the sum of the torques and on the location of the center of mass.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/jQDEOwrR4UU?si=I3zwQ8hO8egkJtwD",
+      "youtubeId": "jQDEOwrR4UU",
+      "source": {
+        "location": "LO5 → Stability of extended rigid bodies depends on the sum of the forces, the sum of the torques and on the location of the center of mass."
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-session-15-lo5-center-of-mass-pdf-9836717b77",
+      "title": "Session (15) LO5 center of mass.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1TFoYFfAY9c0HCAOt95Wjf66moHvvHXzh/view?usp=drivesdk",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-session-16-lo5-torque-pdf-3dfeee7429",
+      "title": "Session (16) LO5 Torque.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1IRnAQkPP8SAAV6qdb77jIR_sLlPOH3Mf/view?usp=drivesdk",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-session-17-lo5-simple-machines-pdf-8318321917",
+      "title": "Session (17) LO5 Simple machines.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1EzsD-AH51mdVdt4o6Lt_ATBb3_m5uAWo/view?usp=drivesdk",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-session-18-lo5-newtong-s-second-law-of-rotational-motion-pdf-8c069cfca3",
+      "title": "Session (18) LO5 NewtonGÇÖs Second Law of rotational motion.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1JX0kZ-UHgqjA_JRdmZSMOcro8i1p2vjE/view?usp=drivesdk",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-agaexztlqry-9bc28ff20e",
+      "title": "LO5 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/aGaEXZTLqRY?si=O-cARovOqA7fFVao",
+      "youtubeId": "aGaEXZTLqRY",
+      "source": {
+        "location": "LO5 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-pb3mwmokhsq-1a1367f1d9",
+      "title": "LO5 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Pb3mWMOkHSQ?si=xDM74HEK_bg-8pC_",
+      "youtubeId": "Pb3mWMOkHSQ",
+      "source": {
+        "location": "LO5 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-halbtydujp0-971265d388",
+      "title": "Elasticity & Hooke's Law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/HALbtyDUjp0?si=MkinEWmQizsPuUf8",
+      "youtubeId": "HALbtyDUjp0",
+      "source": {
+        "location": "LO6 → Elasticity & Hooke's Law"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-ncode2fsqq0-81096bce2d",
+      "title": "Stress and strain",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Ncode2Fsqq0?si=8RRgPd3QZmIuF_7X",
+      "youtubeId": "Ncode2Fsqq0",
+      "source": {
+        "location": "LO6 → Stress and strain"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-c6ndd5ktkp4-8f29e08e95",
+      "title": "Stress and strain",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/c6ndD5kTkP4?si=e_0LhmM224aJbZ8i",
+      "youtubeId": "c6ndD5kTkP4",
+      "source": {
+        "location": "LO6 → Stress and strain"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-jr-uprzv8hq-1d6574454b",
+      "title": "Young's modulus",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/jr_UPRZV8hQ?si=_f3I82CssCsue2_6",
+      "youtubeId": "jr_UPRZV8hQ",
+      "source": {
+        "location": "LO6 → Young's modulus"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-dle-ieovfji-ac8da87380",
+      "title": "Young's modulus",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/DLE-ieOVFjI?si=UnR_2mcYnVIlHVs4",
+      "youtubeId": "DLE-ieOVFjI",
+      "source": {
+        "location": "LO6 → Young's modulus"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo-6-7-elasticity-hook-s-law-questions-answers-copy-pdf-9691ab4560",
+      "title": "LO. 6 _ 7  Elasticity _ Hook_s Law Questions _ answers - Copy.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1rmqYWRrP6e_F0k6zfHWscUXiEUZynHD4/view?usp=drivesdk",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-session-19-lo6-young-s-modulus-of-elasticity-pdf-62c0fb8297",
+      "title": "Session (19)  LO6 - Young_s Modulus of Elasticity.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1a0Ik-iD8vhhqHaEkAQPdh1tIXhS53KNW/view?usp=drivesdk",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-agaexztlqry-0b10fead18",
+      "title": "LO6 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/aGaEXZTLqRY?si=8P9atW9cwF8HGLuw",
+      "youtubeId": "aGaEXZTLqRY",
+      "source": {
+        "location": "LO6 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-zzwuhs9ldby-f76522ce8d",
+      "title": "Hooke's Law & Linear Springs",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ZzwuHS9ldbY?si=VmhfRfTUKf1xZm8s",
+      "youtubeId": "ZzwuHS9ldbY",
+      "source": {
+        "location": "LO7 → Hooke's Law & Linear Springs"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-bnqkccfkg0m-8b1dec59de",
+      "title": "The spring constant",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/BnqKCCFKG0M?si=vTBiPoT5HGy83TpQ",
+      "youtubeId": "BnqKCCFKG0M",
+      "source": {
+        "location": "LO7 → The spring constant"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-jtaj0s203ci-d070b0b9f5",
+      "title": "Yield point",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/jtAj0s203CI?si=O4nZDwHG_wYMRVVl",
+      "youtubeId": "jtAj0s203CI",
+      "source": {
+        "location": "LO7 → Yield point"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-b-caxh44anq-28d194ec0e",
+      "title": "Yield point",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/b_cAxh44aNQ?si=Idk8Xq4Veh3pcrF2",
+      "youtubeId": "b_cAxh44aNQ",
+      "source": {
+        "location": "LO7 → Yield point"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-f5oqj5t-pa4-b8010ac899",
+      "title": "Tension and compression",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/F5oqJ5t-pa4?si=60CL12R5CD1RYPPI",
+      "youtubeId": "F5oqJ5t-pa4",
+      "source": {
+        "location": "LO7 → Tension and compression"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-wp8pt075vak-faa917117f",
+      "title": "Tension and compression",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/WP8PT075VAk?si=_Ufj0TvHWW1Dcs5i",
+      "youtubeId": "WP8PT075VAk",
+      "source": {
+        "location": "LO7 → Tension and compression"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-lo-6-7-elasticity-hook-s-law-questions-answers-pdf-1de86c70f6",
+      "title": "LO. 6 _ 7  Elasticity _ Hook_s Law Questions _ answers.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1biVMffSdOZc3c5ERxtUjfyCvOCaCgOQY/view?usp=drivesdk",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-07"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-session-20-lo7-hooke-s-law-pdf-0715736d80",
+      "title": "Session (20) LO7 - Hooke_s Law.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1TaijdYuCHWLAnYpUKjLOS9DA9pOf-kTc/view?usp=drivesdk",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s1-unit-07"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-agaexztlqry-acc60a32c5",
+      "title": "LO7 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/aGaEXZTLqRY?si=lmfnsLPO_NDs-Fk0",
+      "youtubeId": "aGaEXZTLqRY",
+      "source": {
+        "location": "LO7 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-8-01-physics-for-scientists-and-engineers-with-modern-physics-serway-jewett-pdf-78cb32b157",
+      "title": "8.01-Physics for Scientists and Engineers with Modern Physics-Serway,Jewett.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1-dO3IRT1E6Njv3mvy-UO6nblMBA_zVUN/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-book-giancoli-physics-7th-edition-pdf-80f6be5105",
+      "title": "book Giancoli_Physics_7th_edition.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/19xDIN_RCsq7VDgCA9tiStRrEnDRLdsd5/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-center-of-mass-pdf-59769d0f84",
+      "title": "CENTER OF MASS.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1WssoxuYGCYWFKVwnyyzW4k_LUYMGDdQk/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-chapter-1-measurement-pdf-27c486484e",
+      "title": "Chapter 1 MEASUREMENT.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1pe0ZnJBWL__2FqyVruEc1iwgoiH0G_wH/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-equilibrium-and-elasticity-pdf-5aeab3d7e1",
+      "title": "EQUILIBRIUM AND ELASTICITY.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1_tQv-IOWRJfQ-hGT8aLHgkmcTtUo4Vhh/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-force-and-motion-haliday-tb-pdf-4bcd0acd67",
+      "title": "FORCE AND MOTION (Haliday TB).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/10x8VP435JN-N2pnumgSBE5UE1JixEVEb/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-gravitation-questions-pdf-6c1efdd58e",
+      "title": "GRAVITATION Questions.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1t5Mk5PF4oAI3752kRC4yFzIVriYg2Nho/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-halliday-resnick-walker-fundamentals-of-physics-10th-edition-pdf-5381294dff",
+      "title": "Halliday-Resnick-Walker - Fundamentals of Physics - 10th Edition.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1O3uzNA59iqvbYW7yyY-B1In5JPRyRq5J/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-serway-vuille-college-physics-pdf-94a3c0ba4a",
+      "title": "Serway Vuille College Physics.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1FyINU6ToPmQcvDL_He8PzxUCmA-3wjy-/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-torque-haliday-test-bank-pdf-93657f88cf",
+      "title": "TORQUE Haliday test bank.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1mUum66jFQXkJUpdsPj4pCrjJIE4olQLW/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-mid-exam-g10-semester-1-pdf-c16996cb07",
+      "title": "Mid exam G10 Semester 1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1OUAg_oa_sFFo1U-VbFh3qoew6wH52ULk/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-physics-lo2-g10-s1-pdf-7a5a97c73c",
+      "title": "Physics Lo2 G10 S1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1dA-NvI1AYBNId7hGCb3sGjdmdgeO3-lY/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-physics-lo1-g10-s1-pdf-324cccc84a",
+      "title": "Physics Lo1 G10 S1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1BAYJgmWEBa_Ew4jWcPzMwmvYSLIk94eD/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-final-exam-1-pdf-13769c368b",
+      "title": "Final exam 1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1_bn-VD7X9nUBw3q_s7LRfCdOZmD1Yevf/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-final-exam-2-pdf-9fd308ab03",
+      "title": "Final exam 2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Rbt5N2npv1PUnidkYrm9T-s_bcJH7jyr/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-final-exam-3-pdf-5625c7b986",
+      "title": "Final exam 3.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1eCKwvuw3aaqJNK5OsBIuJz5GqLNhrfFN/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-final-exam-4-pdf-be995767d5",
+      "title": "Final exam 4.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1vtQBaqG4m4lT3C5SwW3rh-RmefcKYQzk/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-final-exam-5-pdf-a7b437faf6",
+      "title": "Final exam 5.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1zhrFk7hgI8tFc5APJ5YsiurEg6sjhHQ3/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s1-video-vuf59ffqhcc-6e26d26c02",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/vuF59fFqHcc?si=nPpxmM8CCL3Mv08X",
+      "youtubeId": "vuF59fFqHcc",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "physics-g10-s1-pdf-physics-book-pdf-897f0f8dcb",
+      "title": "Physics Book.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1tItFkFjA3XSJVxb81f54cxW37EOJjaUC/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

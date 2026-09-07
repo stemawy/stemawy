@@ -1,0 +1,197 @@
+{
+  "learningObjectives": {
+    "LO5": {
+      "title": "LO5",
+      "concepts": [
+        "Launch angle",
+        "Projectile Motion",
+        "Range"
+      ]
+    },
+    "LO6": {
+      "title": "LO6",
+      "concepts": [
+        "Resultant of forces",
+        "resolution of a force",
+        "Lami's rule",
+        "Triangle of force",
+        "Equilibrium of co-planar forces act at a point"
+      ]
+    },
+    "LO7": {
+      "title": "LO7",
+      "concepts": [
+        "Net force",
+        "Mass",
+        "Acceleration",
+        "Free body diagrams",
+        "Friction"
+      ]
+    },
+    "LO8": {
+      "title": "LO8",
+      "concepts": [
+        "Vector sum of forces: resultant"
+      ]
+    },
+    "LO9": {
+      "title": "LO9",
+      "concepts": [
+        "Centripetal acceleration",
+        "Centripetal force",
+        "Force (free body) Diagrams"
+      ]
+    }
+  },
+  "resourceFiles": {
+    "LO5": [
+      "LO 5 F.pdf",
+      "Mechanics LO5 UTAG.pdf"
+    ],
+    "LO6": [
+      "LO .ME . 1.06.pdf",
+      "LO 6 (1).pdf"
+    ],
+    "LO7": [
+      "LO 7 ME.pdf"
+    ],
+    "LO8": [
+      "newton second law 2 (1).pdf",
+      "Copy of LO 8 ME.pdf"
+    ],
+    "LO9": [
+      "Copy of LO 9 ME.pdf",
+      "Mechanics LO.9 Ahmed Mohamed.pdf"
+    ],
+    "references": [
+      "Final revision on Mechanics with Answer.pdf",
+      "mech-2015-2016-G10-final-2nd.pdf",
+      "Mechanics LO5 UTAG.pdf"
+    ],
+    "testBanks": [
+      "Copy of LO 9 exercises.pdf",
+      "Copy of LO 7 &8 ME exercises.pdf",
+      "revision-mech-LO7.pdf",
+      "revision -mech-LO-6.pdf",
+      "revision mech-LO 5 proje..pdf"
+    ]
+  },
+  "videoLinks": {
+    "LO5": {
+      "Launch angle": [
+        "https://youtu.be/ZZ39o1rAZWY?si=zTkNFkqmgu1jqoEi",
+        "https://youtu.be/dlf-xBkAv9w?si=80tUlmTIvgvx46yy"
+      ],
+      "Projectile Motion": [
+        "https://youtu.be/aY8z2qO44WA?si=Bw31JDjc_5VUv4pE",
+        "https://youtu.be/8NLzuURxFwY?si=OUv65WRyrHssaJui",
+        "https://youtu.be/jWl1TgLj9JY?si=8unEwVZZPvWZYbfN"
+      ],
+      "Range": [
+        "https://youtu.be/Mp8bz5P1m4I?si=7ZX-03E_GsZfyh0d",
+        "https://youtu.be/cu_YZFINPN0?si=tiG3Aj-6lgmbaP-u"
+      ]
+    },
+    "LO6": {
+      "Resultant of forces": [
+        "https://youtu.be/yg3bTMcAnsM?si=hid3fOnbIUCbkYP6",
+        "https://youtu.be/RxV06Oj5sMc?si=x_wHVAvT2aPvaom-",
+        "https://youtu.be/LrwYAC_4ThY?si=bXnMMdTlXE5yxtkb"
+      ],
+      "resolution of a force": [
+        "https://youtu.be/oWDnoNBVu3A?si=rKWvpSe0Fb2nUe6m"
+      ],
+      "Lami's rule": [
+        "https://youtu.be/TvyggHcfkKo?si=xj1ScaQ-CUrjPNTN"
+      ],
+      "Triangle of force": [
+        "https://youtu.be/5WE36XM5knc?si=b9TIKz9IiD8A5_lk"
+      ],
+      "Equilibrium of co-planar forces act at a point": [
+        "https://youtu.be/X9g4G1eBHCA?si=8p7dPkydN2yJVisE"
+      ]
+    },
+    "LO7": {
+      "Net force": [
+        "https://youtu.be/fwDWJZkrtUE?si=zKBc2PaesD8hwEB5"
+      ],
+      "Mass": [
+        "https://youtu.be/BJJOZ5QQpmc?si=XsQx7rjV6QHs9DNl",
+        "https://youtu.be/LB_WoV071vc?si=EfDJa56uY-G8noVJ"
+      ],
+      "Acceleration": [
+        "https://youtu.be/JSPwCtIPfQw?si=U02VXW8VSiR0m2Qj"
+      ],
+      "Free body diagrams": [
+        "https://youtu.be/52R61aSWHg0?si=oQfB45PTDupBkAvb"
+      ],
+      "Friction": [
+        "https://youtu.be/mx7NYrUXDB0?si=629XjM3FpWUci0f5"
+      ]
+    },
+    "LO8": {
+      "Vector sum of forces: resultant": [
+        "https://youtu.be/Ej3ZVxljJfo?si=y8F8jLiH8KZM2ZDo",
+        "https://youtu.be/m_pAsq4MIoA?si=OLej8sZWSybawip2"
+      ]
+    },
+    "LO9": {
+      "Centripetal acceleration": [
+        "https://youtu.be/ZbLirQuT9uU?si=x6VyaIHhNkXZ0AI4"
+      ],
+      "Centripetal force": [
+        "https://youtu.be/SQX22VVmRPs?si=1mfjoePdgYMzo295"
+      ],
+      "Force (free body) Diagrams": [
+        "https://youtu.be/i447NWNpScM?si=TR42GqS8FK1DL2au"
+      ]
+    }
+  },
+  "loSummaryVideos": {
+    "LO5": [
+      "https://youtu.be/n7rri8owj7g?si=Uzo2itZCO-ke1gpb"
+    ],
+    "LO6": [
+      "https://youtu.be/wiwUbDzz1Gg?si=xRF923BRhkKIDnQM"
+    ],
+    "LO7": [
+      "https://youtu.be/vAeqw2vb5Kg?si=dIFkTp71xTLqax3L"
+    ],
+    "LO8": [
+      "https://youtu.be/vAeqw2vb5Kg?si=nTQ3V3DC5mwG0l9K"
+    ],
+    "LO9": [
+      "https://youtu.be/Zujc4D_N8HU?si=6ochgRvKB6dXIfy4",
+      "https://youtu.be/_psIWtPBHzA?si=aV_ZiY7PW6F0EUiJ"
+    ]
+  },
+  "revisionVideos": {
+    "midterm": [
+      "https://youtu.be/UTrqoFXJ9pk?si=HURcJsWn8Q1G4Qqz",
+      "https://youtu.be/eYApRDE8fuk?si=dqArCm5v2oun1nRh"
+    ],
+    "final": [
+      "https://youtu.be/K1EdNEAgQZ0?si=WPZ9qCwbpWdFDkd4",
+      "https://youtu.be/fMomRFDIURM?si=nvjUVxBk6ZlZYD9k",
+      "https://youtu.be/bSjDf84G7oc?si=Je_TSfYYmbLMEXwL"
+    ]
+  },
+  "shareMap": {
+    "LO 5 F.pdf": "https://drive.google.com/file/d/1xjI1yZ8TyZxoAdz8Xg8rtiQkcw9uXGrR/view",
+    "Mechanics LO5 UTAG.pdf": "https://drive.google.com/file/d/1gdV97UtNlmTlsrpwHtyVm2SFsynPqfMw/view",
+    "Copy of LO 9 exercises.pdf": "https://drive.google.com/file/d/1MZWXTPLJ3kJeGTV2n2G3W6DTa6R_bOfN/view",
+    "Copy of LO 7 &8 ME exercises.pdf": "https://drive.google.com/file/d/1jXdYxgy_MJ7pzyYMz6NHxkjD03RchWKH/view",
+    "revision-mech-LO7.pdf": "https://drive.google.com/file/d/1VVkV0hxt0xGYEO96SeUYeLf_QYO7cWC0/view",
+    "revision -mech-LO-6.pdf": "https://drive.google.com/file/d/1LcB09CBteCJKEvouEXzdMbF299m7wXeO/view",
+    "revision mech-LO 5 proje..pdf": "https://drive.google.com/file/d/1sLYytjgLcFRfjwxKXXrvCY5DrdjdmJMQ/view",
+    "newton second law 2 (1).pdf": "https://drive.google.com/file/d/12TnOQE1Iv-lK6WDnqHw9TtMFKV3XxAq2/view",
+    "Copy of LO 8 ME.pdf": "https://drive.google.com/file/d/1XXwiAckM769tSzZcyhBg0hICVwXyznjq/view",
+    "LO .ME . 1.06.pdf": "https://drive.google.com/file/d/1mk-e3uWXVD1uyRXAbgxr36ccSdd6Mt9J/view",
+    "LO 6 (1).pdf": "https://drive.google.com/file/d/1AIS87eJjC_Es5QUKEHAm7tL5WY-L7Shy/view",
+    "Copy of LO 9 ME.pdf": "https://drive.google.com/file/d/1fGIFABlQtT-ZYqugg2ZCd3BVy8pAuzP1/view",
+    "Mechanics LO.9 Ahmed Mohamed.pdf": "https://drive.google.com/file/d/1Nos6qZepkoocQpTlPQ6er_1mWp9qdd9z/view",
+    "LO 7 ME.pdf": "https://drive.google.com/file/d/1uTAbBLHnRAjohk1TwAPieQek_fo63bIN/view",
+    "Final revision on Mechanics with Answer.pdf": "https://drive.google.com/file/d/1lYBtiltD_kNq4CekN3Tegtz8RekYrfLt/view",
+    "mech-2015-2016-G10-final-2nd.pdf": "https://drive.google.com/file/d/1zZs_bPVo1n69ExWmFJ2ju_dCCUD0dyBw/view"
+  }
+}

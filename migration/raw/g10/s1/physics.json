@@ -1,0 +1,396 @@
+{
+  "learningObjectives": {
+    "LO1": {
+      "title": "LO1: Measurements and Units",
+      "concepts": [
+        "Physics as experimental science",
+        "Systems of measurements and standards",
+        "International system of units",
+        "Prefixes of metric units",
+        "From Macro to Nanoscale",
+        "Measurement errors",
+        "Measurement accuracy vs. precision",
+        "Dimensional analysis"
+      ]
+    },
+    "LO2": {
+      "title": "LO2: Forces and Equilibrium",
+      "concepts": [
+        "Forces",
+        "Static equilibrium",
+        "Dynamic equilibrium",
+        "System of forces",
+        "Newton's third law",
+        "Free body diagram",
+        "Action-Reaction Pairs",
+        "Point particle"
+      ]
+    },
+    "LO3": {
+      "title": "LO3: Motion and Newton's Laws",
+      "concepts": [
+        "Equilibrium vs. motion vs. change in motion",
+        "Force as a vector",
+        "Net force acting on a free body.",
+        "Newton's Laws of Motion",
+        "Centripetal acceleration",
+        "Centripetal force",
+        "Inertial reference frame"
+      ]
+    },
+    "LO4": {
+      "title": "LO4: Gravitation",
+      "concepts": [
+        "Mass",
+        "Gravity",
+        "Gravitational field",
+        "Weight",
+        "General Law of Gravitation",
+        "Newton's Second Law in gravitational field",
+        "Free Fall",
+        "Apparent weight"
+      ]
+    },
+    "LO5": {
+      "title": "LO5: Center of Mass and Rotational Equilibrium",
+      "concepts": [
+        "Center of mass",
+        "Torque",
+        "Static equilibrium",
+        "Translational vs. Rotational Equilibrium",
+        "The equilibrium torque condition: rotational analogue of Newton's Laws",
+        "Simple machines",
+        "The mechanical advantage of simple machines",
+        "Stability of extended rigid bodies depends on the sum of the forces, the sum of the torques and on the location of the center of mass."
+      ]
+    },
+    "LO6": {
+      "title": "LO6: Elasticity and Stress",
+      "concepts": [
+        "Elasticity & Hooke's Law",
+        "Range of validity for Hooke's Law",
+        "Stress and strain",
+        "Young's modulus"
+      ]
+    },
+    "LO7": {
+      "title": "LO7: Hooke's Law and Spring Systems",
+      "concepts": [
+        "Hooke's Law & Linear Springs",
+        "The spring constant",
+        "Yield point",
+        "Tension and compression"
+      ]
+    }
+  },
+  "resourceFiles": {
+    "LO1": [
+      "semester one/LO1/LO1 Session (01) systems of measurement.pdf",
+      "semester one/LO1/LO1 Session (02) Unit Conversion.pdf",
+      "semester one/LO1/LO1 Session (03)  Measurement Errors.pdf",
+      "semester one/LO1/LO1 Session (04)  Dimensional analysis.pdf",
+      "semester one/LO1/Solutions of measurement problems  LO. 1.pdf"
+    ],
+    "LO2": [
+      "semester one/LO2/LO2 Session 07 Forces.pdf",
+      "semester one/LO2/LO2 Session 08 Newton's 3rd law.pdf",
+      "semester one/LO2/Newton_s 3rd law  LO. 2 - Answers.pdf"
+    ],
+    "LO3": [
+      "semester one/LO3/LO. 3 Circular motion Answers.pdf",
+      "semester one/LO3/LO. 3 Newton_s 1st _ 2nd law - Questions and answers.pdf",
+      "semester one/LO3/LO3 Session (09)  NewtonGÇÖs Laws.pdf",
+      "semester one/LO3/LO3 Session (10)  Net force.pdf",
+      "semester one/LO3/LO3 Session (11) Net Force (Part 2).pdf",
+      "semester one/LO3/LO3 Session (12)  CIRCULAR MOTION.pdf"
+    ],
+    "LO4": [
+      "semester one/LO4/LO. 4 Newton_s Universal law of gravitation answers.pdf",
+      "semester one/LO4/LO4 Session (13)  NewtonGÇÖs Law of Universal Gravitation.pdf",
+      "semester one/LO4/LO4 Session (14)  Apparent weight &  Free fall.pdf"
+    ],
+    "LO5": [
+      "semester one/LO5/Session (15) LO5 center of mass.pdf",
+      "semester one/LO5/Session (16) LO5 Torque.pdf",
+      "semester one/LO5/Session (17) LO5 Simple machines.pdf",
+      "semester one/LO5/Session (18) LO5 NewtonGÇÖs Second Law of rotational motion.pdf"
+    ],
+    "LO6": [
+      "semester one/LO6/LO. 6 _ 7  Elasticity _ Hook_s Law Questions _ answers - Copy.pdf",
+      "semester one/LO6/Session (19)  LO6 - Young_s Modulus of Elasticity.pdf"
+    ],
+    "LO7": [
+      "semester one/LO7/LO. 6 _ 7  Elasticity _ Hook_s Law Questions _ answers.pdf",
+      "semester one/LO7/Session (20) LO7 - Hooke_s Law.pdf"
+    ],
+    "references": [
+      "semester one/additional refrence/8.01-Physics for Scientists and Engineers with Modern Physics-Serway,Jewett.pdf",
+      "semester one/additional refrence/book Giancoli_Physics_7th_edition.pdf",
+      "semester one/additional refrence/Halliday-Resnick-Walker - Fundamentals of Physics - 10th Edition.pdf",
+      "semester one/additional refrence/Physics Book.pdf",
+      "semester one/additional refrence/Serway Vuille College Physics.pdf"
+    ],
+    "testBanks": [
+      "semester one/test banks/8.01-Physics for Scientists and Engineers with Modern Physics-Serway,Jewett.pdf",
+      "semester one/test banks/book Giancoli_Physics_7th_edition.pdf",
+      "semester one/test banks/CENTER OF MASS.pdf",
+      "semester one/test banks/Chapter 1 MEASUREMENT.pdf",
+      "semester one/test banks/EQUILIBRIUM AND ELASTICITY.pdf",
+      "semester one/test banks/FORCE AND MOTION (Haliday TB).pdf",
+      "semester one/test banks/GRAVITATION Questions.pdf",
+      "semester one/test banks/Halliday-Resnick-Walker - Fundamentals of Physics - 10th Edition.pdf",
+      "semester one/test banks/Serway Vuille College Physics.pdf",
+      "semester one/test banks/TORQUE Haliday test bank.pdf",
+      "semester one/test banks/Mid exam G10 Semester 1.pdf",
+      "semester one/test banks/Physics Lo2 G10 S1.pdf",
+      "semester one/test banks/Physics Lo1 G10 S1.pdf",
+      "semester one/test banks/Final exam 1.pdf",
+      "semester one/test banks/Final exam 2.pdf",
+      "semester one/test banks/Final exam 3.pdf",
+      "semester one/test banks/Final exam 4.pdf",
+      "semester one/test banks/Final exam 5.pdf"
+    ]
+  },
+  "videoLinks": {
+    "LO1": {
+      "Physics as experimental science": [
+        "https://youtu.be/uXa3keakdWs?si=K-cP76rRtxekQO_V"
+      ],
+      "Systems of measurements and standards": [
+        "https://youtu.be/0KiBYgx-30U?si=UKyy0CdKVHd3XdVL"
+      ],
+      "International system of units": [
+        "https://youtu.be/8rZRYPoerPw?si=0tlb0sQyp5NXP9SB"
+      ],
+      "Prefixes of metric units": [
+        "https://youtu.be/0KiBYgx-30U?si=HvgrsKBwSXEfWojf"
+      ],
+      "From Macro to Nanoscale": [
+        "https://youtu.be/eK8gXP3pImU?si=3OwpeVuOd4wnVADx"
+      ],
+      "Measurement errors": [
+        "https://youtu.be/JbEo46uV6d4?si=xIh0Ickt6VfwtQ1J"
+      ],
+      "Measurement accuracy vs. precision": [
+        "https://youtu.be/0IiHPKAvo7g?si=e1tPaI2se1fhd650"
+      ],
+      "Dimensional analysis": [
+        "https://youtu.be/vWovdihteqs?si=9F2wJPICS0UjplLR"
+      ]
+    },
+    "LO2": {
+      "Forces": [
+        "https://youtu.be/MaabUHLIIXA?si=3rZLqIQU1Duir7PO",
+        "https://youtu.be/vZ0ehaOEZKE?si=K-8bSa3KBQwAlI0G"
+      ],
+      "Static equilibrium": [
+        "https://youtu.be/qGvFAl5CK_c?si=DAdCmvbwkjAF5Elp"
+      ],
+      "Dynamic equilibrium": [
+        "https://youtu.be/zaHM74k9Z1w?si=ho8oNaUK0YVI94jb"
+      ],
+      "System of forces": [
+        "https://youtu.be/E626-DiQgRs?si=9yBrjFEHiW-VmLJk"
+      ],
+      "Newton's third law": [
+        "https://youtu.be/TxhESW6YtOg?si=-2Ov-yTp5xW_7Gyf"
+      ],
+      "Free body diagram": [
+        "https://youtu.be/52R61aSWHg0?si=rWZvad6YGGlvYYQv"
+      ],
+      "Action-Reaction Pairs": [
+        "https://youtu.be/Hm7B-xXJ1uM?si=7aN1ru7DjUCMPAU2"
+      ],
+      "Point particle": [
+        "https://youtu.be/FyJTgG3a2hY?si=4U27PgSq65c3ATUc"
+      ]
+    },
+    "LO3": {
+      "Equilibrium vs. motion vs. change in motion": [
+        "https://youtu.be/oNgo9bbDi7Q?si=NvxNr0OnOH0eV6cU"
+      ],
+      "Force as a vector": [
+        "https://youtu.be/EwSHKuSxX_8?si=58w15govolcKfVaE"
+      ],
+      "Net force acting on a free body.": [
+        "https://youtu.be/fwDWJZkrtUE?si=pohUiTYJyIipT9j9"
+      ],
+      "Newton's Laws of Motion": [
+        "https://youtu.be/g550H4e5FCY?si=7IQi9fXkHlcaMUGU"
+      ],
+      "Centripetal acceleration": [
+        "https://youtu.be/ZbLirQuT9uU?si=PZW2RRaLUpbPAvN3"
+      ],
+      "Centripetal force": [
+        "https://youtu.be/SQX22VVmRPs?si=QAM94hCZONFd2RWe"
+      ],
+      "Inertial reference frame": [
+        "https://youtu.be/8xiIP2B6L3M?si=Z6cdj6o9nRkQD3NN",
+        "https://youtu.be/3yaZ7lkQPUQ?si=QH_d4qCXbZMht290"
+      ]
+    },
+    "LO4": {
+      "Mass": [
+        "https://youtu.be/IuBoeDihLUc?si=3SXrfCI2W4X1hbhl"
+      ],
+      "Gravity": [
+        "https://youtu.be/Ep1jIhHdf2A?si=1Dft7uAyrzapeR3q"
+      ],
+      "Gravitational field": [
+        "https://youtu.be/8AUljAd_AyE?si=zlrXBiIpWOAKk64p"
+      ],
+      "Weight": [
+        "https://youtu.be/hIMYdNPIjZw?si=ZKJxSISQWTmwo4Ht"
+      ],
+      "General Law of Gravitation": [
+        "https://youtu.be/8CykJ3NgBQs?si=_AcV-o7BcBtRY30T"
+      ],
+      "Newton's Second Law in gravitational field": [
+        "https://youtu.be/PIpnGilqefE?si=MsCXWCg9bCAw0Az7"
+      ],
+      "Free Fall": [
+        "https://youtu.be/BVgemK1Y2wA?si=BI2c4O9p0rf_APhS",
+        "https://youtu.be/wf8SYTb4r-g?si=bkmGitJMuuoGJaLN"
+      ],
+      "Apparent weight": [
+        "https://youtu.be/tVsYgAM8MV4?si=AIF75ZNaR4mQwcRl"
+      ]
+    },
+    "LO5": {
+      "Center of mass": [
+        "https://youtu.be/SWu_i-19Rn0?si=MjRQ4VOkt9zgeEPJ"
+      ],
+      "Torque": [
+        "https://youtu.be/jg4e8W44_E4?si=diORRPAPNAi8F1bK"
+      ],
+      "Static equilibrium": [
+        "https://youtu.be/qGvFAl5CK_c?si=CQ-y5ZvrIoyTS9LR"
+      ],
+      "Translational vs. Rotational Equilibrium": [
+        "https://youtu.be/XmXXnSWf3fM?si=sGgH-ImG8bj9YRZd"
+      ],
+      "The equilibrium torque condition: rotational analogue of Newton's Laws": [
+        "https://youtu.be/xusMSv2z77s?si=lxMyAIeKYSXt51z-"
+      ],
+      "Simple machines": [
+        "https://youtu.be/dvEVYrSUYJM?si=6RZCTRRpX_g45zzH"
+      ],
+      "The mechanical advantage of simple machines": [
+        "https://youtu.be/SPTNKnCqlW4?si=CaG23FY5ZxG_SajX"
+      ],
+      "Stability of extended rigid bodies depends on the sum of the forces, the sum of the torques and on the location of the center of mass.": [
+        "https://youtu.be/jQDEOwrR4UU?si=I3zwQ8hO8egkJtwD"
+      ]
+    },
+    "LO6": {
+      "Elasticity & Hooke's Law": [
+        "https://youtu.be/HALbtyDUjp0?si=MkinEWmQizsPuUf8"
+      ],
+      "Range of validity for Hooke's Law": [
+        "https://youtu.be/HALbtyDUjp0?si=MkinEWmQizsPuUf8"
+      ],
+      "Stress and strain": [
+        "https://youtu.be/Ncode2Fsqq0?si=8RRgPd3QZmIuF_7X",
+        "https://youtu.be/c6ndD5kTkP4?si=e_0LhmM224aJbZ8i"
+      ],
+      "Young's modulus": [
+        "https://youtu.be/jr_UPRZV8hQ?si=_f3I82CssCsue2_6",
+        "https://youtu.be/DLE-ieOVFjI?si=UnR_2mcYnVIlHVs4"
+      ]
+    },
+    "LO7": {
+      "Hooke's Law & Linear Springs": [
+        "https://youtu.be/ZzwuHS9ldbY?si=VmhfRfTUKf1xZm8s"
+      ],
+      "The spring constant": [
+        "https://youtu.be/BnqKCCFKG0M?si=vTBiPoT5HGy83TpQ"
+      ],
+      "Yield point": [
+        "https://youtu.be/jtAj0s203CI?si=O4nZDwHG_wYMRVVl",
+        "https://youtu.be/b_cAxh44aNQ?si=Idk8Xq4Veh3pcrF2"
+      ],
+      "Tension and compression": [
+        "https://youtu.be/F5oqJ5t-pa4?si=60CL12R5CD1RYPPI",
+        "https://youtu.be/WP8PT075VAk?si=_Ufj0TvHWW1Dcs5i"
+      ]
+    }
+  },
+  "loSummaryVideos": {
+    "LO1": [
+      "https://youtu.be/uXa3keakdWs?si=GsW0ld517POGIcom",
+      "https://youtu.be/9qEKGSi4inI?si=yn5VkQzEaBKA36Gk"
+    ],
+    "LO2": [
+      "https://youtu.be/myRI9aen9qg?si=Ve1ZNWsDDX61T8ML",
+      "https://youtu.be/H-hCJUviOyI?si=zc2D-4Ad6gSesgcF"
+    ],
+    "LO3": [
+      "https://youtu.be/kgZRM2tcFeU?si=EBFGNXMpg83S8Hgx",
+      "https://youtu.be/x_auV0DFIJ0?si=ZeF07_5K0GMA82eX"
+    ],
+    "LO4": [
+      "https://youtu.be/f-xAQezHLEY?si=KI33rpN998P0SmI_"
+    ],
+    "LO5": [
+      "https://youtu.be/aGaEXZTLqRY?si=O-cARovOqA7fFVao",
+      "https://youtu.be/Pb3mWMOkHSQ?si=xDM74HEK_bg-8pC_"
+    ],
+    "LO6": [
+      "https://youtu.be/aGaEXZTLqRY?si=8P9atW9cwF8HGLuw"
+    ],
+    "LO7": [
+      "https://youtu.be/aGaEXZTLqRY?si=lmfnsLPO_NDs-Fk0"
+    ]
+  },
+  "revisionVideos": {
+    "midterm": [
+      "https://youtu.be/vuF59fFqHcc?si=nPpxmM8CCL3Mv08X"
+    ]
+  },
+  "shareMap": {
+    "Mid exam G10 Semester 1.pdf": "https://drive.google.com/file/d/1OUAg_oa_sFFo1U-VbFh3qoew6wH52ULk/view?usp=drivesdk",
+    "Physics Lo2 G10 S1.pdf": "https://drive.google.com/file/d/1dA-NvI1AYBNId7hGCb3sGjdmdgeO3-lY/view?usp=drivesdk",
+    "Physics Lo1 G10 S1.pdf": "https://drive.google.com/file/d/1BAYJgmWEBa_Ew4jWcPzMwmvYSLIk94eD/view?usp=drivesdk",
+    "Final exam 5.pdf": "https://drive.google.com/file/d/1zhrFk7hgI8tFc5APJ5YsiurEg6sjhHQ3/view?usp=drivesdk",
+    "Final exam 4.pdf": "https://drive.google.com/file/d/1vtQBaqG4m4lT3C5SwW3rh-RmefcKYQzk/view?usp=drivesdk",
+    "Final exam 3.pdf": "https://drive.google.com/file/d/1eCKwvuw3aaqJNK5OsBIuJz5GqLNhrfFN/view?usp=drivesdk",
+    "Final exam 2.pdf": "https://drive.google.com/file/d/1Rbt5N2npv1PUnidkYrm9T-s_bcJH7jyr/view?usp=drivesdk",
+    "Final exam 1.pdf": "https://drive.google.com/file/d/1_bn-VD7X9nUBw3q_s7LRfCdOZmD1Yevf/view?usp=drivesdk",
+    "TORQUE Haliday test bank.pdf": "https://drive.google.com/file/d/1mUum66jFQXkJUpdsPj4pCrjJIE4olQLW/view?usp=drivesdk",
+    "EQUILIBRIUM AND ELASTICITY.pdf": "https://drive.google.com/file/d/1_tQv-IOWRJfQ-hGT8aLHgkmcTtUo4Vhh/view?usp=drivesdk",
+    "CENTER OF MASS.pdf": "https://drive.google.com/file/d/1WssoxuYGCYWFKVwnyyzW4k_LUYMGDdQk/view?usp=drivesdk",
+    "GRAVITATION Questions.pdf": "https://drive.google.com/file/d/1t5Mk5PF4oAI3752kRC4yFzIVriYg2Nho/view?usp=drivesdk",
+    "FORCE AND MOTION (Haliday TB).pdf": "https://drive.google.com/file/d/10x8VP435JN-N2pnumgSBE5UE1JixEVEb/view?usp=drivesdk",
+    "Chapter 1 MEASUREMENT.pdf": "https://drive.google.com/file/d/1pe0ZnJBWL__2FqyVruEc1iwgoiH0G_wH/view?usp=drivesdk",
+    "Serway Vuille College Physics.pdf": "https://drive.google.com/file/d/1FyINU6ToPmQcvDL_He8PzxUCmA-3wjy-/view?usp=drivesdk",
+    "Halliday-Resnick-Walker - Fundamentals of Physics - 10th Edition.pdf": "https://drive.google.com/file/d/1O3uzNA59iqvbYW7yyY-B1In5JPRyRq5J/view?usp=drivesdk",
+    "book Giancoli_Physics_7th_edition.pdf": "https://drive.google.com/file/d/19xDIN_RCsq7VDgCA9tiStRrEnDRLdsd5/view?usp=drivesdk",
+    "8.01-Physics for Scientists and Engineers with Modern Physics-Serway,Jewett.pdf": "https://drive.google.com/file/d/1-dO3IRT1E6Njv3mvy-UO6nblMBA_zVUN/view?usp=drivesdk",
+    "LO. 3 Circular motion Answers.pdf": "https://drive.google.com/file/d/1SnmlhdIolXjj10VZyABRHH-0Q-O8KSrz/view?usp=drivesdk",
+    "LO3 Session (12)  CIRCULAR MOTION.pdf": "https://drive.google.com/file/d/1z1imvO8pLstiKgDVv8JurmDpcr1ZeslW/view?usp=drivesdk",
+    "LO3 Session (09)  NewtonGÇÖs Laws.pdf": "https://drive.google.com/file/d/159CgIwB3JJmaJKzrQPgvY8epPV4UW1is/view?usp=drivesdk",
+    "LO3 Session (10)  Net force.pdf": "https://drive.google.com/file/d/1g8w7eb3_-HzNp-bbDaY_ckXv-qsoaDVk/view?usp=drivesdk",
+    "LO3 Session (11) Net Force (Part 2).pdf": "https://drive.google.com/file/d/1qWR-kkMAopEkEUg_OLJJj4aW9w6t5OT9/view?usp=drivesdk",
+    "LO2 Session 07 Forces.pdf": "https://drive.google.com/file/d/1nOt5ZpmosnaY62d7FSEdVPJOOcSo1rqN/view?usp=drivesdk",
+    "LO2 Session 08 Newton's 3rd law.pdf": "https://drive.google.com/file/d/12-fX54HhK9rxLeYz60lc82X3YNqH0xOg/view?usp=drivesdk",
+    "Newton_s 3rd law  LO. 2 - Answers.pdf": "https://drive.google.com/file/d/1IO5Emg0PmzULb1KrexWN2EntbUbrOqSl/view?usp=drivesdk",
+    "LO1 Session (01) systems of measurement.pdf": "https://drive.google.com/file/d/11g530gLxkTqnHon0MatCBdcleibhWVbu/view?usp=drivesdk",
+    "LO1 Session (02) Unit Conversion.pdf": "https://drive.google.com/file/d/1dxTHb6pRCrSrt6CeX8-ebSTGyA2TB0nf/view?usp=drivesdk",
+    "LO1 Session (03)  Measurement Errors.pdf": "https://drive.google.com/file/d/1iDt417HQF9nRWwePt_w-jg5QxA6Nk-AZ/view?usp=drivesdk",
+    "LO1 Session (04)  Dimensional analysis.pdf": "https://drive.google.com/file/d/1TJFQjUonwXufE6D0tFDK7jFcyxZp8Vha/view?usp=drivesdk",
+    "Solutions of measurement problems  LO. 1.pdf": "https://drive.google.com/file/d/1TB5aR8Zv-K5XUC5di6rfvo8x6W8y3EtH/view?usp=drivesdk",
+    "LO. 6 _ 7  Elasticity _ Hook_s Law Questions _ answers.pdf": "https://drive.google.com/file/d/1biVMffSdOZc3c5ERxtUjfyCvOCaCgOQY/view?usp=drivesdk",
+    "Session (20) LO7 - Hooke_s Law.pdf": "https://drive.google.com/file/d/1TaijdYuCHWLAnYpUKjLOS9DA9pOf-kTc/view?usp=drivesdk",
+    "Session (18) LO5 NewtonGÇÖs Second Law of rotational motion.pdf": "https://drive.google.com/file/d/1JX0kZ-UHgqjA_JRdmZSMOcro8i1p2vjE/view?usp=drivesdk",
+    "Session (17) LO5 Simple machines.pdf": "https://drive.google.com/file/d/1EzsD-AH51mdVdt4o6Lt_ATBb3_m5uAWo/view?usp=drivesdk",
+    "Session (16) LO5 Torque.pdf": "https://drive.google.com/file/d/1IRnAQkPP8SAAV6qdb77jIR_sLlPOH3Mf/view?usp=drivesdk",
+    "Session (15) LO5 center of mass.pdf": "https://drive.google.com/file/d/1TFoYFfAY9c0HCAOt95Wjf66moHvvHXzh/view?usp=drivesdk",
+    "LO. 3 Newton_s 1st _ 2nd law - Questions and answers.pdf": "https://drive.google.com/file/d/1jOmcelXYQABvVOMzzTJHbuCWq06SVL6Z/view?usp=drivesdk",
+    "LO. 4 Newton_s Universal law of gravitation answers.pdf": "https://drive.google.com/file/d/1Z3tJ2BQrNFyY1Q86Pw_omRDiszICkroS/view?usp=drivesdk",
+    "LO4 Session (13)  NewtonGÇÖs Law of Universal Gravitation.pdf": "https://drive.google.com/file/d/1iMlXsANNOWZIOZYIYSmkZ4ye2iu5yzH-/view?usp=drivesdk",
+    "LO4 Session (14)  Apparent weight &  Free fall.pdf": "https://drive.google.com/file/d/1tJAndQzYDkSaEOJQlMaovj0dTsCjOi0G/view?usp=drivesdk",
+    "LO. 6 _ 7  Elasticity _ Hook_s Law Questions _ answers - Copy.pdf": "https://drive.google.com/file/d/1rmqYWRrP6e_F0k6zfHWscUXiEUZynHD4/view?usp=drivesdk",
+    "Session (19)  LO6 - Young_s Modulus of Elasticity.pdf": "https://drive.google.com/file/d/1a0Ik-iD8vhhqHaEkAQPdh1tIXhS53KNW/view?usp=drivesdk",
+    "Physics Book.pdf": "https://drive.google.com/file/d/1tItFkFjA3XSJVxb81f54cxW37EOJjaUC/view?usp=drivesdk"
+  }
+}

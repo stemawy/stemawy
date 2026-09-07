@@ -1,0 +1,1809 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T18:18:27.348Z",
+  "source": {
+    "file": "migration/raw/g10/s2/maths.json"
+  },
+  "subject": {
+    "id": "maths-g10-s2",
+    "name": "Maths",
+    "description": "Maths resources for Grade 10, Semester 2.",
+    "grade": "10",
+    "semester": "2",
+    "icon": "maths",
+    "content": [
+      {
+        "id": "maths-g10-s2-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "LO7",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "maths-g10-s2-concept-quadratic-function",
+            "title": "Quadratic Function",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "maths-g10-s2-video-hq2up-1ih5e-8b784ddef2"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-first-and-second-differences",
+            "title": "First and second differences",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "maths-g10-s2-video-rax-foh28y-8f3b4519ad"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-completing-the-square",
+            "title": "Completing the square",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "maths-g10-s2-video-2mkigagpzmq-d30e75a863"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-complex-numbers",
+            "title": "Complex numbers",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "maths-g10-s2-video-yddjxj49c-m-2592161a75",
+              "maths-g10-s2-video-oqz1ydbcqsa-f924c74fc9"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-parabola",
+            "title": "Parabola",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "maths-g10-s2-video-bgz3pkogpag-b8e1489c18"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-focus",
+            "title": "Focus",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "maths-g10-s2-video-pe8dm-fupdu-7d4f6357f5"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-argand-diagram",
+            "title": "Argand diagram",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "maths-g10-s2-video-pdmg4v3exzu-47ca6659dd",
+              "maths-g10-s2-video-nbubycp7ot0-4f218c7a91"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-related-roots",
+            "title": "Related roots",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "maths-g10-s2-video-yc4e3awhlby-9ae9ef49c8",
+              "maths-g10-s2-video-5hw-i-9inoa-1e5488e700"
+            ]
+          }
+        ],
+        "resources": [
+          "maths-g10-s2-pdf-lo7-math-pdf-9d4ce0b3d1",
+          "maths-g10-s2-pdf-lo7-math-pptx-ea2ed6ec04",
+          "maths-g10-s2-video-ezlwmg0irra-fc6d91941d"
+        ]
+      },
+      {
+        "id": "maths-g10-s2-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "LO8",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "maths-g10-s2-concept-exponential-functions",
+            "title": "Exponential functions",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "maths-g10-s2-video-taaditpc8oi-88d6028b16"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-logarithmic-function",
+            "title": "Logarithmic function",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "maths-g10-s2-video-lrbi-pmx1dm-24984e0591"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-growth",
+            "title": "Growth",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "maths-g10-s2-video-77wtg-ffy3q-57f75d69ad"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-decay",
+            "title": "Decay",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "maths-g10-s2-video-axamvxaxjdg-781c4040e4",
+              "maths-g10-s2-video-sck2-kj9ccq-c757910f13"
+            ]
+          }
+        ],
+        "resources": [
+          "maths-g10-s2-pdf-copy-of-ma-1-08-exponetial-and-logarithms-pptx-86c37d0eb7",
+          "maths-g10-s2-pdf-copy-of-lo-ma-1-08-pdf-598fd0e4e9",
+          "maths-g10-s2-video-av-iclnhcfc-e849f9feca"
+        ]
+      },
+      {
+        "id": "maths-g10-s2-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "LO9",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "maths-g10-s2-concept-trigonometric-functions",
+            "title": "Trigonometric functions",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "maths-g10-s2-video-nefjohvks-5fc4280d6e"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-coordinates",
+            "title": "Coordinates",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "maths-g10-s2-video-asdat62ndye-2345326ff5"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-graphs-of-sine-cosine-and-tangent-functions",
+            "title": "Graphs of sine, cosine and tangent functions",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "maths-g10-s2-video-bm8oykklcxi-ece1e97ec3"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-inverses-of-the-sine-cosine-and-tangent-functions",
+            "title": "Inverses of the sine, cosine and tangent functions",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "maths-g10-s2-video-jt7p-mcc0ng-d19a986f03"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-shape-domain-range-amplitude-intercepts-max-min-period-asymptotes",
+            "title": "Shape, domain, range, amplitude, intercepts, max/min, period, asymptotes",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "maths-g10-s2-video-qgckjuha4eq-78a41e8974",
+              "maths-g10-s2-video-3g5wluj7lfa-4888b2593c"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-domain-of-trigonometric-functions",
+            "title": "Domain of trigonometric functions",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "maths-g10-s2-video-yhgvtuxnxpm-17125aacef"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-shift-and-stretch-a-trigonometric-function",
+            "title": "Shift and stretch a trigonometric function",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "maths-g10-s2-video-mkp1ljr2pym-4e57cd6c9e",
+              "maths-g10-s2-video-6yzxq62kwm4-4d2f1692a6",
+              "maths-g10-s2-video-h80n39xhhbq-f097074206"
+            ]
+          }
+        ],
+        "resources": [
+          "maths-g10-s2-pdf-copy-of-copy-of-trig-cheat-sheet-pdf-ed9020c69b",
+          "maths-g10-s2-pdf-copy-of-trig-2-1-pdf-dfde26ff50",
+          "maths-g10-s2-pdf-copy-of-trig-3-pdf-2c38ffa104",
+          "maths-g10-s2-pdf-copy-of-ma-1-09-trigonometric-functions-pptx-d47881e37c",
+          "maths-g10-s2-pdf-copy-of-trig-1-1-pdf-73c461f14b",
+          "maths-g10-s2-video-cjcebh39gco-d48a74cdb7"
+        ]
+      },
+      {
+        "id": "maths-g10-s2-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "LO10",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "maths-g10-s2-concept-trigonometric-identities",
+            "title": "Trigonometric identities",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "maths-g10-s2-video-m1oitpmkydy-feca44d8a5",
+              "maths-g10-s2-video-nirxgpodcno-3e1c9fb321"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-pythagorean-identities",
+            "title": "Pythagorean Identities",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "maths-g10-s2-video-hup3v7izulm-be80e5b606"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-cofunction-identities",
+            "title": "Cofunction Identities",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "maths-g10-s2-video-35fxto48hzy-5a394957a0"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-trig-identities-of-sum-and-difference-of-two-angels",
+            "title": "Trig identities of sum and difference of two angels",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "maths-g10-s2-video-6raosn1dl4a-0aba37433a",
+              "maths-g10-s2-video-0cb4mlhack0-57218f8c0d"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-trig-identities-of-double-angles-and-half-angels",
+            "title": "Trig identities of double angles and half angels",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "maths-g10-s2-video-se5sbtgrwh8-e52e381071",
+              "maths-g10-s2-video-9yi69okba3c-bf69c8773d"
+            ]
+          }
+        ],
+        "resources": [
+          "maths-g10-s2-pdf-copy-of-trig-cheat-sheet-pdf-df47dd78f8",
+          "maths-g10-s2-pdf-copy-of-copy-of-ma-1-10-trigonometric-identities-pptx-d6b5bd93f4",
+          "maths-g10-s2-pdf-copy-of-copy-of-ma-1-10-trigonometric-identities-1-pptx-36edf57a9a",
+          "maths-g10-s2-video-c4pkwssfitq-36d935f3d0"
+        ]
+      },
+      {
+        "id": "maths-g10-s2-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "LO11",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "maths-g10-s2-concept-system",
+            "title": "System",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "maths-g10-s2-concept-system-of-equations",
+            "title": "System of equations",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "maths-g10-s2-video-nok99johcjo-62c689b03b"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-unknowns",
+            "title": "Unknowns",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "maths-g10-s2-video-wzdzhuusmpm-4fd070f617"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-graphing-methods",
+            "title": "Graphing methods",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "maths-g10-s2-video-tff-db8isa-9859c43530"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-algebraic-methods",
+            "title": "Algebraic methods",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "maths-g10-s2-video-9xc9ya13mko-6f9b78bf98"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-matrix",
+            "title": "Matrix",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "maths-g10-s2-video-yrwq7a6jvlk-45f0565ba5",
+              "maths-g10-s2-video-yj0rmy6mbmk-855c1fd5b0"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-operations",
+            "title": "Operations",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "maths-g10-s2-video-satbf8ao4ok-88be884a7a",
+              "maths-g10-s2-video-3gaxvhvi4ci-d6e7a424a5"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-linear-programming",
+            "title": "Linear Programming",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "maths-g10-s2-video-bzzqx1f23a8-4f2f28f763"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-objective-functions",
+            "title": "Objective functions",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "maths-g10-s2-video-hcyazo9-b5g-584b559623"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-feasible-regions",
+            "title": "Feasible regions",
+            "description": "",
+            "order": 10,
+            "resources": [
+              "maths-g10-s2-video-treggeyslny-2a8dc9ce6b",
+              "maths-g10-s2-video-jttc9t7uijg-76fe724902"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-constraints",
+            "title": "Constraints",
+            "description": "",
+            "order": 11,
+            "resources": [
+              "maths-g10-s2-video-vwuv2idlp8q-abe357ee40"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-optimal-solution",
+            "title": "Optimal solution",
+            "description": "",
+            "order": 12,
+            "resources": [
+              "maths-g10-s2-video-w32yjmc2-6u-b21e5311b5",
+              "maths-g10-s2-video-q6xpmhry7aw-26605d1d4f"
+            ]
+          }
+        ],
+        "resources": [
+          "maths-g10-s2-pdf-copy-of-ma-lo-1-11-modelling-with-multiple-linear-equations-pptx-6ced2f254a",
+          "maths-g10-s2-pdf-copy-of-copy-of-lo-11-pdf-6abbf54f93",
+          "maths-g10-s2-video-qzdygg-dkok-a033496aed"
+        ]
+      },
+      {
+        "id": "maths-g10-s2-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "LO12",
+        "description": "",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "maths-g10-s2-concept-determinants",
+            "title": "Determinants",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "maths-g10-s2-video-3rozg6n4ymc-ea0aceb3da"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-value-of-a-determinant",
+            "title": "Value of a determinant",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "maths-g10-s2-video-ccbymh3noow-04b88e5a50",
+              "maths-g10-s2-video-qhcf4s4d9vy-8119a105ab"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-area-parallelogram-and-triangle",
+            "title": "Area, parallelogram and triangle",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "maths-g10-s2-video-jnldmw3bbuw-330aebb4ce"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-matrices",
+            "title": "Matrices",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "maths-g10-s2-video-yrwq7a6jvlk-26ffeeed76"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-system-of-equations",
+            "title": "System of equations",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "maths-g10-s2-video-nok99johcjo-59ebe5882c"
+            ]
+          },
+          {
+            "id": "maths-g10-s2-concept-cramer-rule",
+            "title": "Cramer Rule",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "maths-g10-s2-video-rdlo-9jh2em-5bf4176ef4"
+            ]
+          }
+        ],
+        "resources": [
+          "maths-g10-s2-pdf-copy-of-copy-of-lo12-math-pptx-e7f7c49229",
+          "maths-g10-s2-pdf-copy-of-copy-of-lo-12-pdf-939beed26c",
+          "maths-g10-s2-video-fzarv3xpjxc-cf158f4156"
+        ]
+      },
+      {
+        "id": "maths-g10-s2-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 7,
+        "concepts": [],
+        "resources": [
+          "maths-g10-s2-pdf-2016-2017-pdf-940222f068",
+          "maths-g10-s2-pdf-copy-of-maths-mid-term-test-bank-meo-pdf-ee6d6552d6",
+          "maths-g10-s2-pdf-2017-2018-pdf-11da93816b",
+          "maths-g10-s2-pdf-2018-2019-pdf-8ea15cca07",
+          "maths-g10-s2-pdf-math-grade-10-2nd-midterm-saved-pdf-84bcb270db",
+          "maths-g10-s2-pdf-math-grade-10-2nd-midterm-pdf-8b4755bd76",
+          "maths-g10-s2-pdf-2015-2016-1-pdf-20aea97a9c",
+          "maths-g10-s2-pdf-2015-2016-pdf-ee3e9b738c",
+          "maths-g10-s2-pdf-grade-10-second-midterm-exam-pdf-6191459f02",
+          "maths-g10-s2-pdf-math-final-test-grade10-pdf-7560b9b409",
+          "maths-g10-s2-pdf-quiz-lo7-pptx-b2efe420bb",
+          "maths-g10-s2-pdf-test-bank-lo7-pdf-5c8e355c35",
+          "maths-g10-s2-pdf-lo-7-exercise-pdf-dcfe0ce47a",
+          "maths-g10-s2-pdf-copy-of-copy-of-kfs-lo-8-exercise-pdf-ef00943637",
+          "maths-g10-s2-pdf-copy-of-copy-kfs-of-lo-9-ecercises-pdf-5229a121c6",
+          "maths-g10-s2-pdf-copy-of-math-revision-l-o-8-pdf-b787a9980c",
+          "maths-g10-s2-pdf-copy-of-lo-10-exercises-pdf-7e77f87424",
+          "maths-g10-s2-pdf-copy-of-worksheet-lo-9-pdf-88f6581dff",
+          "maths-g10-s2-pdf-copy-of-trig-identites-3-pdf-e4439ee8f0",
+          "maths-g10-s2-pdf-copy-of-trig-identites-1st-session-pdf-c54e4aa3b9",
+          "maths-g10-s2-pdf-copy-of-6-general-exercises-pptx-18a3f01ddd",
+          "maths-g10-s2-pdf-copy-of-trig-identites-2-pdf-742b79a2f6",
+          "maths-g10-s2-pdf-copy-of-copy-of-lo-11-12-exercises-pdf-da7db8d8df"
+        ]
+      },
+      {
+        "id": "maths-g10-s2-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 8,
+        "concepts": [],
+        "resources": [
+          "maths-g10-s2-video-z6mwjtdpp-4-031f6784ea",
+          "maths-g10-s2-video-tfs9xcego88-3a3688fa86"
+        ]
+      },
+      {
+        "id": "maths-g10-s2-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 9,
+        "concepts": [],
+        "resources": []
+      }
+    ],
+    "units": 6
+  },
+  "resources": [
+    {
+      "id": "maths-g10-s2-video-hq2up-1ih5e-8b784ddef2",
+      "title": "Quadratic Function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Hq2Up_1Ih5E?si=VIIHdvWqnAHXRA-6",
+      "youtubeId": "Hq2Up_1Ih5E",
+      "source": {
+        "location": "LO7 → Quadratic Function"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-rax-foh28y-8f3b4519ad",
+      "title": "First and second differences",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/-rax_fOh28Y?si=qhOWI9-1Hu0GMdZ3",
+      "youtubeId": "-rax_fOh28Y",
+      "source": {
+        "location": "LO7 → First and second differences"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-2mkigagpzmq-d30e75a863",
+      "title": "Completing the square",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/2MKigAgPZMQ?si=yMpyiw4uz8RIA-fL",
+      "youtubeId": "2MKigAgPZMQ",
+      "source": {
+        "location": "LO7 → Completing the square"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-yddjxj49c-m-2592161a75",
+      "title": "Complex numbers",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Yddjxj49C_M?si=WKR5jxQmHXicgTQ8",
+      "youtubeId": "Yddjxj49C_M",
+      "source": {
+        "location": "LO7 → Complex numbers"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-oqz1ydbcqsa-f924c74fc9",
+      "title": "Complex numbers",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/OQz1ydBcQSA?si=1VyUp1Mix3Ni9rnQ",
+      "youtubeId": "OQz1ydBcQSA",
+      "source": {
+        "location": "LO7 → Complex numbers"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-bgz3pkogpag-b8e1489c18",
+      "title": "Parabola",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/BGz3pkoGPag?si=ymAicDIpnT053Njy",
+      "youtubeId": "BGz3pkoGPag",
+      "source": {
+        "location": "LO7 → Parabola"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-pe8dm-fupdu-7d4f6357f5",
+      "title": "Focus",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/pe8Dm_FUpdU?si=03AiMsJVNgIbStk2",
+      "youtubeId": "pe8Dm_FUpdU",
+      "source": {
+        "location": "LO7 → Focus"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-pdmg4v3exzu-47ca6659dd",
+      "title": "Argand diagram",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Pdmg4V3eXZU?si=E6Adda1RBzsJyNbh",
+      "youtubeId": "Pdmg4V3eXZU",
+      "source": {
+        "location": "LO7 → Argand diagram"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-nbubycp7ot0-4f218c7a91",
+      "title": "Argand diagram",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/nBuByCp7ot0?si=AeOAMedMUKqqpuMo",
+      "youtubeId": "nBuByCp7ot0",
+      "source": {
+        "location": "LO7 → Argand diagram"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-yc4e3awhlby-9ae9ef49c8",
+      "title": "Related roots",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Yc4e3AwhLbY?si=u-nvaK8_iWyJ0GP9",
+      "youtubeId": "Yc4e3AwhLbY",
+      "source": {
+        "location": "LO7 → Related roots"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-5hw-i-9inoa-1e5488e700",
+      "title": "Related roots",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/5HW-I_9INoA?si=tQVYqF1c0UZkiYmr",
+      "youtubeId": "5HW-I_9INoA",
+      "source": {
+        "location": "LO7 → Related roots"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-lo7-math-pdf-9d4ce0b3d1",
+      "title": "LO7 Math.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1h1_WM2FrOvu2UYny_ih6HA5kYl196gCU/view",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-lo7-math-pptx-ea2ed6ec04",
+      "title": "lo7 math.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1kUx-mUjKrEC2SIemujYjyHfyokQdw_P8/view",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-ezlwmg0irra-fc6d91941d",
+      "title": "LO7 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/EzlwmG0irRA?si=xEchoud4_9Ruv7tg",
+      "youtubeId": "EzlwmG0irRA",
+      "source": {
+        "location": "LO7 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-taaditpc8oi-88d6028b16",
+      "title": "Exponential functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/tAaDItpC8OI?si=ihoB3Smy8bqeGTHA",
+      "youtubeId": "tAaDItpC8OI",
+      "source": {
+        "location": "LO8 → Exponential functions"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-lrbi-pmx1dm-24984e0591",
+      "title": "Logarithmic function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LRbi_pMX1DM?si=-7dGPm_OEUth6oGH",
+      "youtubeId": "LRbi_pMX1DM",
+      "source": {
+        "location": "LO8 → Logarithmic function"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-77wtg-ffy3q-57f75d69ad",
+      "title": "Growth",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/77wtG_fFY3Q?si=UFbmh8TOZr-e7-Yb",
+      "youtubeId": "77wtG_fFY3Q",
+      "source": {
+        "location": "LO8 → Growth"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-axamvxaxjdg-781c4040e4",
+      "title": "Decay",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/AXAMVxaxjDg?si=1QEps4BVrvSX9Kdv",
+      "youtubeId": "AXAMVxaxjDg",
+      "source": {
+        "location": "LO8 → Decay"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-sck2-kj9ccq-c757910f13",
+      "title": "Decay",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Sck2_kJ9cCQ?si=hqYgBkOb8kcqnV5g",
+      "youtubeId": "Sck2_kJ9cCQ",
+      "source": {
+        "location": "LO8 → Decay"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-ma-1-08-exponetial-and-logarithms-pptx-86c37d0eb7",
+      "title": "Copy of MA 1.08 Exponetial and logarithms.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/11w-IEiQsfH7RultRFu2PJwJ949e3lsBf/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-lo-ma-1-08-pdf-598fd0e4e9",
+      "title": "Copy of LO .MA . 1.08.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1DCyPjW7vu6XFWub4SYOX6M5_Ujh5zmqU/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-av-iclnhcfc-e849f9feca",
+      "title": "LO8 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Av_iclNHcfc?si=RCaKBBfm_IkrbwL_",
+      "youtubeId": "Av_iclNHcfc",
+      "source": {
+        "location": "LO8 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-nefjohvks-5fc4280d6e",
+      "title": "Trigonometric functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/__nefjOhVks?si=lXRXeOfX55yLOp9A",
+      "youtubeId": "__nefjOhVks",
+      "source": {
+        "location": "LO9 → Trigonometric functions"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-asdat62ndye-2345326ff5",
+      "title": "Coordinates",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/aSdaT62ndYE?si=AqU4udz-nFFwpV-e",
+      "youtubeId": "aSdaT62ndYE",
+      "source": {
+        "location": "LO9 → Coordinates"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-bm8oykklcxi-ece1e97ec3",
+      "title": "Graphs of sine, cosine and tangent functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/bm8oYKKlCXI?si=OpcU494UT6dUGMQH",
+      "youtubeId": "bm8oYKKlCXI",
+      "source": {
+        "location": "LO9 → Graphs of sine, cosine and tangent functions"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-jt7p-mcc0ng-d19a986f03",
+      "title": "Inverses of the sine, cosine and tangent functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/jt7p-mCC0ng?si=JiFoWNbSGhCJmwHL",
+      "youtubeId": "jt7p-mCC0ng",
+      "source": {
+        "location": "LO9 → Inverses of the sine, cosine and tangent functions"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-qgckjuha4eq-78a41e8974",
+      "title": "Shape, domain, range, amplitude, intercepts, max/min, period, asymptotes",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/qGCKjuhA4eQ?si=jAzBE525Cf777bRi",
+      "youtubeId": "qGCKjuhA4eQ",
+      "source": {
+        "location": "LO9 → Shape, domain, range, amplitude, intercepts, max/min, period, asymptotes"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-3g5wluj7lfa-4888b2593c",
+      "title": "Shape, domain, range, amplitude, intercepts, max/min, period, asymptotes",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/3G5WluJ7LFA?si=OHBGDVwt_CO69NNw",
+      "youtubeId": "3G5WluJ7LFA",
+      "source": {
+        "location": "LO9 → Shape, domain, range, amplitude, intercepts, max/min, period, asymptotes"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-yhgvtuxnxpm-17125aacef",
+      "title": "Domain of trigonometric functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/YHgVTUXnxpM?si=o_BJcjpIO3C7TmEF",
+      "youtubeId": "YHgVTUXnxpM",
+      "source": {
+        "location": "LO9 → Domain of trigonometric functions"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-mkp1ljr2pym-4e57cd6c9e",
+      "title": "Shift and stretch a trigonometric function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/MkP1LJR2PyM?si=B_qdz-HrAaaX1tA7",
+      "youtubeId": "MkP1LJR2PyM",
+      "source": {
+        "location": "LO9 → Shift and stretch a trigonometric function"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-6yzxq62kwm4-4d2f1692a6",
+      "title": "Shift and stretch a trigonometric function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/6yZXq62kwm4?si=1FWw69E97E-0_cRr",
+      "youtubeId": "6yZXq62kwm4",
+      "source": {
+        "location": "LO9 → Shift and stretch a trigonometric function"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-h80n39xhhbq-f097074206",
+      "title": "Shift and stretch a trigonometric function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/h80n39xhHbQ?si=qSJGlJ-Fj-6ODiCm",
+      "youtubeId": "h80n39xhHbQ",
+      "source": {
+        "location": "LO9 → Shift and stretch a trigonometric function"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-copy-of-trig-cheat-sheet-pdf-ed9020c69b",
+      "title": "Copy of Copy of Trig Cheat Sheet.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1B9cCknWypsxBQQW2ooc0IvrJ-gPgQ8ak/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-trig-2-1-pdf-dfde26ff50",
+      "title": "Copy of TRIG 2 (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1d1-FFd2K0qHyj321Xiray12H11uCzj22/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-trig-3-pdf-2c38ffa104",
+      "title": "Copy of TRIG 3.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1HlPrLqPJBA8pZs2BTAg1yGe6VoLAUJNX/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-ma-1-09-trigonometric-functions-pptx-d47881e37c",
+      "title": "Copy of MA 1.09 Trigonometric functions.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1L1iTCAjj7ZjITKSb9TkRf25HEMKkQyXE/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-trig-1-1-pdf-73c461f14b",
+      "title": "Copy of TRIG 1 (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1d07fLixV_bUvXnelcDdvbNFt4vB9JEFk/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-cjcebh39gco-d48a74cdb7",
+      "title": "LO9 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/CJCebh39GCo?si=mWffPMtb9uhteExk",
+      "youtubeId": "CJCebh39GCo",
+      "source": {
+        "location": "LO9 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-m1oitpmkydy-feca44d8a5",
+      "title": "Trigonometric identities",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/m1OitPmkydY?si=gDLRp4tST1QgxbwN",
+      "youtubeId": "m1OitPmkydY",
+      "source": {
+        "location": "LO10 → Trigonometric identities"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-nirxgpodcno-3e1c9fb321",
+      "title": "Trigonometric identities",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/NiRxGpOdCno?si=XL_St7hmJeoSBqvl",
+      "youtubeId": "NiRxGpOdCno",
+      "source": {
+        "location": "LO10 → Trigonometric identities"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-hup3v7izulm-be80e5b606",
+      "title": "Pythagorean Identities",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/huP3v7iZuLM?si=pzeBEBGKt6q0MEhN",
+      "youtubeId": "huP3v7iZuLM",
+      "source": {
+        "location": "LO10 → Pythagorean Identities"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-35fxto48hzy-5a394957a0",
+      "title": "Cofunction Identities",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/35fxto48HZY?si=HlZ8e4WLlcSBYCjx",
+      "youtubeId": "35fxto48HZY",
+      "source": {
+        "location": "LO10 → Cofunction Identities"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-6raosn1dl4a-0aba37433a",
+      "title": "Trig identities of sum and difference of two angels",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/6raOSn1dl4A?si=kPdA5MWUiYkYvsfn",
+      "youtubeId": "6raOSn1dl4A",
+      "source": {
+        "location": "LO10 → Trig identities of sum and difference of two angels"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-0cb4mlhack0-57218f8c0d",
+      "title": "Trig identities of sum and difference of two angels",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/0cB4MLhaCk0?si=91RMUq6KOeJFVHU3",
+      "youtubeId": "0cB4MLhaCk0",
+      "source": {
+        "location": "LO10 → Trig identities of sum and difference of two angels"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-se5sbtgrwh8-e52e381071",
+      "title": "Trig identities of double angles and half angels",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/SE5SBTgrwH8?si=-Xrp3YCw5ax1rlzl",
+      "youtubeId": "SE5SBTgrwH8",
+      "source": {
+        "location": "LO10 → Trig identities of double angles and half angels"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-9yi69okba3c-bf69c8773d",
+      "title": "Trig identities of double angles and half angels",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/9YI69okba3c?si=R_lSfwJnqoT-iGSY",
+      "youtubeId": "9YI69okba3c",
+      "source": {
+        "location": "LO10 → Trig identities of double angles and half angels"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-trig-cheat-sheet-pdf-df47dd78f8",
+      "title": "Copy of Trig Cheat Sheet.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1TrFy1Ws3O75l1LwznAhSajRX7D0sXSH3/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-copy-of-ma-1-10-trigonometric-identities-pptx-d6b5bd93f4",
+      "title": "Copy of Copy of MA 1.10 Trigonometric identities.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1CcD54Zg-95uLy4p3e5H3OJMJt8jc4MlX/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-copy-of-ma-1-10-trigonometric-identities-1-pptx-36edf57a9a",
+      "title": "Copy of Copy of MA 1.10 Trigonometric identities (1).pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1sXo7QTaRw5XCAnZq6KpFxsxfahhq7PK6/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-c4pkwssfitq-36d935f3d0",
+      "title": "LO10 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/c4pkwsSFiTQ?si=TAqy4JZBK0-j1OmV",
+      "youtubeId": "c4pkwsSFiTQ",
+      "source": {
+        "location": "LO10 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-nok99johcjo-62c689b03b",
+      "title": "System of equations",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/nok99JOhcjo?si=QKKQ2LxFjDlrQXP9",
+      "youtubeId": "nok99JOhcjo",
+      "source": {
+        "location": "LO11 → System of equations"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-wzdzhuusmpm-4fd070f617",
+      "title": "Unknowns",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/WZdZhuUSmpM?si=AoxSLLwV0Ypssio5",
+      "youtubeId": "WZdZhuUSmpM",
+      "source": {
+        "location": "LO11 → Unknowns"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-tff-db8isa-9859c43530",
+      "title": "Graphing methods",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/tfF_-Db8iSA?si=N8DmgqNNvXa7eybD",
+      "youtubeId": "tfF_-Db8iSA",
+      "source": {
+        "location": "LO11 → Graphing methods"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-9xc9ya13mko-6f9b78bf98",
+      "title": "Algebraic methods",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/9Xc9ya13MKo?si=GKPOPyL8bvWNY2Pq",
+      "youtubeId": "9Xc9ya13MKo",
+      "source": {
+        "location": "LO11 → Algebraic methods"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-yrwq7a6jvlk-45f0565ba5",
+      "title": "Matrix",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/yRwQ7A6jVLk?si=LLxK6YAeaewulUK2",
+      "youtubeId": "yRwQ7A6jVLk",
+      "source": {
+        "location": "LO11 → Matrix"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-yj0rmy6mbmk-855c1fd5b0",
+      "title": "Matrix",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Yj0rMy6MBMk?si=WRvhFHEuVoHg_8OO",
+      "youtubeId": "Yj0rMy6MBMk",
+      "source": {
+        "location": "LO11 → Matrix"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-satbf8ao4ok-88be884a7a",
+      "title": "Operations",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/saTBf8AO4Ok?si=KEJoiyBa2st4r6xy",
+      "youtubeId": "saTBf8AO4Ok",
+      "source": {
+        "location": "LO11 → Operations"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-3gaxvhvi4ci-d6e7a424a5",
+      "title": "Operations",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/3gaxVHVI4cI?si=JGF3TbxW6f1Mz5jw",
+      "youtubeId": "3gaxVHVI4cI",
+      "source": {
+        "location": "LO11 → Operations"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-bzzqx1f23a8-4f2f28f763",
+      "title": "Linear Programming",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Bzzqx1F23a8?si=DCzN5uuelFjoSU9t",
+      "youtubeId": "Bzzqx1F23a8",
+      "source": {
+        "location": "LO11 → Linear Programming"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-hcyazo9-b5g-584b559623",
+      "title": "Objective functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/hcYAZo9_b5g?si=aOg-jsiuRs_SjOU0",
+      "youtubeId": "hcYAZo9_b5g",
+      "source": {
+        "location": "LO11 → Objective functions"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-treggeyslny-2a8dc9ce6b",
+      "title": "Feasible regions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/tReggEYSlNY?si=TcZSTUeEjkiPVrLA",
+      "youtubeId": "tReggEYSlNY",
+      "source": {
+        "location": "LO11 → Feasible regions"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-jttc9t7uijg-76fe724902",
+      "title": "Feasible regions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/jttC9t7uijg?si=jH3GZ2jFDSL6WzFu",
+      "youtubeId": "jttC9t7uijg",
+      "source": {
+        "location": "LO11 → Feasible regions"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-vwuv2idlp8q-abe357ee40",
+      "title": "Constraints",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/vwUV2IDLP8Q?si=Vxqh1Yt2YChxDaDo",
+      "youtubeId": "vwUV2IDLP8Q",
+      "source": {
+        "location": "LO11 → Constraints"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-w32yjmc2-6u-b21e5311b5",
+      "title": "Optimal solution",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/w32YJMc2_6U?si=60un3bxTF573-weC",
+      "youtubeId": "w32YJMc2_6U",
+      "source": {
+        "location": "LO11 → Optimal solution"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-q6xpmhry7aw-26605d1d4f",
+      "title": "Optimal solution",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/q6xPMHry7Aw?si=APqNg1Mc7hk7RCvr",
+      "youtubeId": "q6xPMHry7Aw",
+      "source": {
+        "location": "LO11 → Optimal solution"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-ma-lo-1-11-modelling-with-multiple-linear-equations-pptx-6ced2f254a",
+      "title": "Copy of MA LO 1.11 Modelling with Multiple Linear Equations.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1AP8ypoEhuh02kIfkg9UQpeRMn-83qmua/view",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-copy-of-lo-11-pdf-6abbf54f93",
+      "title": "Copy of Copy of LO 11.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1JaS7RUf844ss0QAHYtZK4Xw1Cw34asMp/view",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-qzdygg-dkok-a033496aed",
+      "title": "LO11 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/QzdYgg_dKok?si=q4HrTw9eUIFmx-ui",
+      "youtubeId": "QzdYgg_dKok",
+      "source": {
+        "location": "LO11 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-3rozg6n4ymc-ea0aceb3da",
+      "title": "Determinants",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/3ROzG6n4yMc?si=ZSPgDXqH1PZh5a_y",
+      "youtubeId": "3ROzG6n4yMc",
+      "source": {
+        "location": "LO12 → Determinants"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-ccbymh3noow-04b88e5a50",
+      "title": "Value of a determinant",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/CcbyMH3Noow?si=SbuvQsnemxuWGuNw",
+      "youtubeId": "CcbyMH3Noow",
+      "source": {
+        "location": "LO12 → Value of a determinant"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-qhcf4s4d9vy-8119a105ab",
+      "title": "Value of a determinant",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/QhCF4s4D9vY?si=w2BK-WTMM8E8exwG",
+      "youtubeId": "QhCF4s4D9vY",
+      "source": {
+        "location": "LO12 → Value of a determinant"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-jnldmw3bbuw-330aebb4ce",
+      "title": "Area, parallelogram and triangle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/JnLDmw3bbuw?si=YRQ_L5QGcXKhV2SO",
+      "youtubeId": "JnLDmw3bbuw",
+      "source": {
+        "location": "LO12 → Area, parallelogram and triangle"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-yrwq7a6jvlk-26ffeeed76",
+      "title": "Matrices",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/yRwQ7A6jVLk?si=SlOs6wiK05XBlxXP",
+      "youtubeId": "yRwQ7A6jVLk",
+      "source": {
+        "location": "LO12 → Matrices"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-nok99johcjo-59ebe5882c",
+      "title": "System of equations",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/nok99JOhcjo?si=xsUns-QBe7t947mj",
+      "youtubeId": "nok99JOhcjo",
+      "source": {
+        "location": "LO12 → System of equations"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-rdlo-9jh2em-5bf4176ef4",
+      "title": "Cramer Rule",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/RdLo-9jh2EM?si=GO8q4Q7qwEaOpiL5",
+      "youtubeId": "RdLo-9jh2EM",
+      "source": {
+        "location": "LO12 → Cramer Rule"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-copy-of-lo12-math-pptx-e7f7c49229",
+      "title": "Copy of Copy of lo12 math.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ImqMl5VhqsbZ17GCF0rw8Y6GJQfO9cLq/view",
+      "source": {
+        "location": "LO12"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-06"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-copy-of-lo-12-pdf-939beed26c",
+      "title": "Copy of Copy of LO 12.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Noq1E8a8Hbr8LihAZ3NfhL7-doPDKC6D/view",
+      "source": {
+        "location": "LO12"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s2-unit-06"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-fzarv3xpjxc-cf158f4156",
+      "title": "LO12 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/FzArV3xpjxc?si=5pMB_almgkTv3eYS",
+      "youtubeId": "FzArV3xpjxc",
+      "source": {
+        "location": "LO12 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-2016-2017-pdf-940222f068",
+      "title": "2016-2017.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1GHHpqyvWkcv9nMv6je728jCQMqlO6aGT/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-maths-mid-term-test-bank-meo-pdf-ee6d6552d6",
+      "title": "Copy of Maths Mid-term test bank (MEO).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/12mUCznuaeQrlM5rbK6b5j14NTinPTkWJ/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-2017-2018-pdf-11da93816b",
+      "title": "2017-2018.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1FMmxbcur_wEFtwOrRE-q_021nfLDl6vR/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-2018-2019-pdf-8ea15cca07",
+      "title": "2018-2019.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1njfmefYq_9smYZRs6oRr0w1-go7uAY5Q/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-math-grade-10-2nd-midterm-saved-pdf-84bcb270db",
+      "title": "math.-grade-10-2nd-midterm. saved.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1qzAHhbWM4hV-U67iQEf5lxsrvVVgH32Z/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-math-grade-10-2nd-midterm-pdf-8b4755bd76",
+      "title": "math.-grade-10-2nd-midterm..pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/15xzw5DQ0_FglftZZjT778Khn76tnLvpF/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-2015-2016-1-pdf-20aea97a9c",
+      "title": "2015-2016 (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1KwUKmM_zxuqb0Sehqf3omvm6Jf8RVZ00/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-2015-2016-pdf-ee3e9b738c",
+      "title": "2015-2016.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1YR7WQXMIOj09ZF6mM0M71I4QS6WKzRSP/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-grade-10-second-midterm-exam-pdf-6191459f02",
+      "title": "grade 10 second midterm Exam.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1tCHhJ6c7F0WE7WZq1tSBOxo4CkzBoNpJ/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-math-final-test-grade10-pdf-7560b9b409",
+      "title": "Math final test Grade10.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/16x4gn_8x81oJCXMEhxRICRlgm2ME0SPW/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-quiz-lo7-pptx-b2efe420bb",
+      "title": "Quiz LO7.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1htnN_4bZaF1xBgzT1s4rYaAp8vYBExdH/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-test-bank-lo7-pdf-5c8e355c35",
+      "title": "TEST BANK LO7.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Bqtu87koizEicRTWvKP-ou854QuEa8zk/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-lo-7-exercise-pdf-dcfe0ce47a",
+      "title": "LO 7 exercise.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/11lg4svYoOLC1qs-7HTKpdYWbhwdSeXuA/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-copy-of-kfs-lo-8-exercise-pdf-ef00943637",
+      "title": "Copy of Copy of KFS LO 8 exercise.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/187PlXiDQXbusBTQjD4BKm2neSn__4Zag/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-copy-kfs-of-lo-9-ecercises-pdf-5229a121c6",
+      "title": "Copy of Copy KFS of LO 9 ecercises.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/17_At7yei-TwxedSA0QwVfJ9klqLv6zBw/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-math-revision-l-o-8-pdf-b787a9980c",
+      "title": "Copy of Math Revision L.O.8.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1WE8CdYGEWhgJKJKEOoO_ErlGCOaRl5bh/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-lo-10-exercises-pdf-7e77f87424",
+      "title": "Copy of LO 10 exercises.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1LT5360JPNxmsaHw0Ot2M28K1UWYIx0xt/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-worksheet-lo-9-pdf-88f6581dff",
+      "title": "Copy of worksheet lo 9.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ASM4BxOC8Q143awex13kqT6-29K_TP-W/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-trig-identites-3-pdf-e4439ee8f0",
+      "title": "Copy of Trig Identites 3.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1EGtNusUmKck5HR49qg08BiOKqDHCwVOF/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-trig-identites-1st-session-pdf-c54e4aa3b9",
+      "title": "Copy of Trig Identites 1st session.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1JukIDaW_94uM6n1__iHSzkpkJpSab9Or/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-6-general-exercises-pptx-18a3f01ddd",
+      "title": "Copy of 6 General exercises.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1pL98NrLNh3FKlYKdHcQVvJ53289Vn1Bb/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-trig-identites-2-pdf-742b79a2f6",
+      "title": "Copy of Trig Identites 2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1aqVVD0tvFZWL5YxB2mF1Yn6J4MM6vp8m/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-pdf-copy-of-copy-of-lo-11-12-exercises-pdf-da7db8d8df",
+      "title": "Copy of Copy of LO 11& 12 exercises.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1hgptP07pkO2NybwSJ0bqpjgApBXtYmSI/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-z6mwjtdpp-4-031f6784ea",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Z6MwjTdPP_4?si=7Ln_kpccziW7Mllp",
+      "youtubeId": "Z6MwjTdPP_4",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "maths-g10-s2-video-tfs9xcego88-3a3688fa86",
+      "title": "final Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TFS9XCEgo88?si=XLuDlfmg3uw2KFa3",
+      "youtubeId": "TFS9XCEgo88",
+      "source": {
+        "location": "Revision → final"
+      }
+    }
+  ]
+}

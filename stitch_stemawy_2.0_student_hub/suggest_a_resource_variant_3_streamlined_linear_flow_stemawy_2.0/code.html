@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary": "#ffffff", "background": "#faf8ff", "on-primary-container": "#90a8ff", "tertiary-fixed-dim": "#4edea3", "primary-fixed": "#dce1ff", "surface-container-highest": "#e3e1e9", "outline": "#757682", "on-secondary-fixed-variant": "#004395", "surface-container-high": "#e9e7ef", "inverse-on-surface": "#f1f0f7", "on-error": "#ffffff", "tertiary-container": "#004a31", "secondary": "#0058be", "surface-tint": "#4059aa", "on-tertiary-container": "#27c38a", "surface-container-low": "#f4f3fa", "on-surface-variant": "#444651", "surface-dim": "#dad9e1", "error": "#ba1a1a", "surface-bright": "#faf8ff", "on-primary-fixed": "#00164e", "on-primary": "#ffffff", "surface-container": "#eeedf4", "primary-fixed-dim": "#b6c4ff", "primary": "#00236f", "surface-container-lowest": "#ffffff", "on-background": "#1a1b21", "on-error-container": "#93000a", "on-surface": "#1a1b21", "on-tertiary-fixed": "#002113", "secondary-fixed": "#d8e2ff", "on-tertiary": "#ffffff", "on-primary-fixed-variant": "#264191", "secondary-container": "#2170e4", "on-secondary-container": "#fefcff", "error-container": "#ffdad6", "tertiary": "#00311f", "outline-variant": "#c5c5d3", "tertiary-fixed": "#6ffbbe", "on-tertiary-fixed-variant": "#005236", "on-secondary-fixed": "#001a42", "secondary-fixed-dim": "#adc6ff", "surface": "#faf8ff", "primary-container": "#1e3a8a", "inverse-primary": "#b6c4ff", "inverse-surface": "#2f3036", "surface-variant": "#e3e1e9" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "24px", "base": "8px", "xs": "4px", "sm": "12px", "lg": "40px", "md": "24px", "margin-desktop": "48px", "margin-mobile": "16px", "xl": "64px" }, "fontFamily": { "display-lg": ["Montserrat"], "label-md": ["Inter"], "headline-md": ["Montserrat"], "display-lg-mobile": ["Montserrat"], "headline-sm": ["Montserrat"], "body-lg": ["Inter"], "label-sm": ["Inter"], "body-md": ["Inter"] }, "fontSize": { "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "500" }], "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }], "display-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }] } } } };</script><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/></head><body class="bg-background font-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest border-r border-outline-variant z-50 flex flex-col"><div class="p-md flex items-center gap-sm"><img alt="Stemawy Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCq8ryP32uFqig84UY4Akrzpcgu26OYgKZt7z6lwEhGmtflBEaXUgY37aCRjwR1aQxe3nGZLC_y2L8bRdRyk2JDD4Av1ymcUR1QvTutuNs8l9PkyjUElsI6KSr5YUyCzBk_l6QghqiRSums9RxOptL8ha2u7HfuTDIRtFhul19XlSi9wTwVgSdLYkVtdVeeIQsHsnV-TcY-icxN6eo1TPU1djj454z46oLzQE8j7A_q8efF1pSZ5hgp"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Stemawy 2.0</span></div><nav class="flex-1 px-sm py-md space-y-xs" data-active-classes="bg-primary-container text-on-primary-container font-bold"><a aria-current="page" class="flex items-center gap-sm px-md py-sm rounded-lg transition-all duration-200 group bg-primary-container text-on-primary-container font-bold" data-path="dashboard" href="#"><span class="material-symbols-outlined">dashboard</span><span class="font-label-md text-label-md">Dashboard</span></a><a class="flex items-center gap-sm px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200" data-path="subjects" href="#"><span class="material-symbols-outlined">menu_book</span><span class="font-label-md text-label-md">Subjects</span></a><a class="flex items-center gap-sm px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200" data-path="skills" href="#"><span class="material-symbols-outlined">psychology</span><span class="font-label-md text-label-md">Skills</span></a><a class="flex items-center gap-sm px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200" data-path="opportunities" href="#"><span class="material-symbols-outlined">explore</span><span class="font-label-md text-label-md">Opportunities</span></a><a class="flex items-center gap-sm px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200" data-path="saved" href="#"><span class="material-symbols-outlined">bookmark</span><span class="font-label-md text-label-md">Saved</span></a><div class="pt-md mt-md border-t border-outline-variant"><a class="flex items-center gap-sm px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200" data-path="settings" href="#"><span class="material-symbols-outlined">settings</span><span class="font-label-md text-label-md">Settings</span></a></div></nav></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-20 bg-surface/80 backdrop-blur-xl z-40 px-margin-desktop flex items-center justify-between border-b border-outline-variant"><div class="relative w-full max-w-xl group"><span class="material-symbols-outlined absolute left-sm top-1/2 -translate-y-1/2 text-outline">search</span><input class="w-full pl-xl pr-md py-xs bg-surface-container-high border-none rounded-xl font-body-md text-on-surface-variant focus:ring-2 focus:ring-primary focus:outline-none transition-all" placeholder="Search Stemawy... (Ctrl+K)" type="text"/><div class="absolute right-sm top-1/2 -translate-y-1/2 flex items-center gap-xs px-xs py-[2px] bg-surface-container-lowest border border-outline-variant rounded-md text-[10px] text-outline font-bold">CTRL K</div></div><div class="flex items-center gap-md"><button class="relative p-xs rounded-full hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-on-surface-variant">notifications</span><span class="absolute top-1 right-1 w-2 h-2 bg-error rounded-full"></span></button><div class="h-8 w-[1px] bg-outline-variant"></div><div class="flex items-center gap-sm cursor-pointer group"><div class="text-right hidden lg:block"><div class="font-label-md text-label-md text-on-surface">Omar Al-Sayed</div><div class="font-label-sm text-label-sm text-outline">Grade 11 Student</div></div><img alt="Profile" class="w-10 h-10 rounded-full object-cover ring-2 ring-transparent group-hover:ring-primary transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzm-k3BEtHuYAW6Ma_pdIggEYUATzNugEtHnZsKFVI235V0RDqDnaeCAKUNyzmsNSTZ4rTyQLwo8dTmpiYh4-omRA0zQVCIbTo3esQyINZ53_6ejmhJisMG5WhulIPtQgz1n7-vbApSJKfjdK9vxtww09JtIkqMWPIZI2HBqloAMAFrgT1NIK5553boTTo48bUP-bS7NJmBmiYJ4x87hXfNIlt2Kzg2Wp96y0INhJa9dbsa8cu9JS4"/></div></div></header><main class="pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<div class="w-full max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop py-lg">
+<!-- Breadcrumb & Header Hierarchy -->
+<div class="space-y-sm mb-lg">
+<nav class="flex items-center gap-xs font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-xs" href="#">
+<span class="material-symbols-outlined text-[18px]">home</span>
+<span>Stemawy</span>
+</a>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+<span class="text-primary font-semibold">Suggest a Resource</span>
+</nav>
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-md">
+<div class="space-y-xs">
+<div class="inline-flex items-center gap-xs px-sm py-xs rounded-full bg-secondary-fixed text-on-secondary-fixed text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[14px]">auto_awesome</span>
+<span>Variant 3: Quick Pre-fill Active</span>
+</div>
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary tracking-tight">
+            Suggest a Resource
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+            Found a useful video, PDF, website, or other learning resource? Share it with Stemawy and help other students discover it.
+          </p>
+</div>
+<!-- Quick Stats Badge -->
+<div class="hidden lg:flex items-center gap-md p-sm rounded-xl bg-surface-container-low shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center font-bold">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<div class="text-left">
+<p class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Community Review</p>
+<p class="font-label-md text-label-md font-bold text-on-surface">&lt; 12h Verification</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Context Banner -->
+<div class="relative overflow-hidden mb-lg rounded-xl bg-surface-container-high p-md shadow-sm transition-all duration-300" id="contextBanner">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-md">
+<div class="flex items-center gap-sm">
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">bolt</span>
+</div>
+<div class="font-body-md text-body-md text-on-surface">
+            Submitting from <span class="font-bold text-primary">Physics</span>? We automatically detected 
+            <span class="inline-flex items-center px-xs py-[2px] rounded bg-primary-fixed text-on-primary-fixed font-semibold text-label-sm ml-xs">Grade 10</span>
+<span class="mx-xs text-outline">•</span>
+<span class="inline-flex items-center px-xs py-[2px] rounded bg-primary-fixed text-on-primary-fixed font-semibold text-label-sm">Physics</span>
+<span class="mx-xs text-outline">•</span>
+<span class="inline-flex items-center px-xs py-[2px] rounded bg-primary-fixed text-on-primary-fixed font-semibold text-label-sm">Semester 1</span>
+</div>
+</div>
+<div class="flex items-center gap-sm shrink-0">
+<button class="text-secondary font-label-md text-label-md hover:underline cursor-pointer" onclick="focusAcademicPlacement()" type="button">
+            Change context
+          </button>
+<button class="p-xs text-outline hover:text-on-surface rounded-full hover:bg-surface-container transition-colors" onclick="dismissContextBanner()" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Main Stepwise Linear Flow -->
+<form class="space-y-md" id="resourceForm" onsubmit="handleFormSubmit(event)">
+<!-- Step 1: Resource Details -->
+<section class="rounded-xl bg-surface-container-lowest p-md md:p-lg shadow-sm space-y-md transition-shadow hover:shadow-md">
+<div class="flex items-center gap-sm">
+<span class="flex items-center justify-center w-7 h-7 rounded-full bg-primary-container text-on-primary text-label-md font-bold">1</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Resource Details</h2>
+</div>
+<div class="space-y-sm">
+<label class="block font-label-md text-label-md text-on-surface" for="resourceTitle">
+            Resource Title <span class="text-error">*</span>
+</label>
+<input class="w-full px-md py-sm rounded-lg bg-surface-container-low text-on-surface font-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest shadow-inner transition-all duration-200" id="resourceTitle" placeholder="e.g. Introduction to Newton's Laws of Motion &amp; Free Body Diagrams" required="" type="text"/>
+</div>
+<div class="space-y-sm pt-xs">
+<label class="block font-label-md text-label-md text-on-surface">
+            Format / Type <span class="text-error">*</span>
+</label>
+<div class="flex flex-wrap gap-xs" id="typePillsContainer">
+<button class="type-pill px-md py-xs rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface-variant hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-all" onclick="selectType(this, 'Video')" type="button">
+              📹 Video Lecture
+            </button>
+<button class="type-pill px-md py-xs rounded-full font-label-md text-label-md bg-secondary-container text-on-secondary-container font-semibold shadow-sm transition-all" onclick="selectType(this, 'PDF')" type="button">
+              📄 PDF Document
+            </button>
+<button class="type-pill px-md py-xs rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface-variant hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-all" onclick="selectType(this, 'Document')" type="button">
+              📝 Study Notes / Docs
+            </button>
+<button class="type-pill px-md py-xs rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface-variant hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-all" onclick="selectType(this, 'Presentation')" type="button">
+              📊 Slide Presentation
+            </button>
+<button class="type-pill px-md py-xs rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface-variant hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-all" onclick="selectType(this, 'Website')" type="button">
+              🌐 Web Article / Lab Simulation
+            </button>
+<button class="type-pill px-md py-xs rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface-variant hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-all" onclick="selectType(this, 'Other')" type="button">
+              📦 Other Resource
+            </button>
+</div>
+<input id="selectedType" type="hidden" value="PDF"/>
+</div>
+</section>
+<!-- Step 2: Resource Source -->
+<section class="rounded-xl bg-surface-container-lowest p-md md:p-lg shadow-sm space-y-md transition-shadow hover:shadow-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-sm">
+<span class="flex items-center justify-center w-7 h-7 rounded-full bg-primary-container text-on-primary text-label-md font-bold">2</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Resource Source</h2>
+</div>
+<!-- Source Toggle Pill -->
+<div class="p-xs bg-surface-container-high rounded-lg flex items-center gap-xs">
+<button class="px-sm py-xs rounded font-label-md text-label-md flex items-center gap-xs bg-surface-container-lowest text-primary font-bold shadow-sm transition-all" id="btnSourceLink" onclick="toggleSourceMode('link')" type="button">
+<span class="material-symbols-outlined text-[16px]">link</span>
+<span>Web Link</span>
+</button>
+<button class="px-sm py-xs rounded font-label-md text-label-md flex items-center gap-xs text-on-surface-variant hover:text-on-surface transition-all" id="btnSourceFile" onclick="toggleSourceMode('file')" type="button">
+<span class="material-symbols-outlined text-[16px]">attach_file</span>
+<span>Upload File</span>
+</button>
+</div>
+</div>
+<!-- Link Input Pane -->
+<div class="space-y-sm" id="paneSourceLink">
+<div class="flex items-center justify-between">
+<label class="block font-label-md text-label-md text-on-surface" for="resourceURL">
+              Resource URL <span class="text-error">*</span>
+</label>
+<span class="hidden px-sm py-[2px] rounded-full text-label-sm font-label-sm uppercase font-bold tracking-wider" id="serviceBadge"></span>
+</div>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-sm top-1/2 -translate-y-1/2 text-outline">language</span>
+<input class="w-full pl-xl pr-md py-sm rounded-lg bg-surface-container-low text-on-surface font-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest shadow-inner transition-all duration-200" id="resourceURL" oninput="handleUrlDetect(this.value)" placeholder="https://www.youtube.com/watch?v=... or drive.google.com/..." type="url"/>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-xs">
+<span class="material-symbols-outlined text-[14px] text-secondary">info</span>
+            STEM-verified sources include YouTube, PhET, GeoGebra, GitHub, MIT OCW, and Google Drive open links.
+          </p>
+</div>
+<!-- File Upload Drag/Drop Pane (Hidden by Default) -->
+<div class="hidden space-y-sm" id="paneSourceFile">
+<div class="group cursor-pointer relative flex flex-col items-center justify-center p-xl rounded-xl bg-surface-container-low hover:bg-surface-container text-center transition-all duration-200" id="dropZone" ondragleave="handleDragLeave(event)" ondragover="handleDragOver(event)" ondrop="handleFileDrop(event)">
+<input class="absolute inset-0 opacity-0 cursor-pointer w-full h-full" id="fileUploadInput" onchange="handleFileSelected(event)" type="file"/>
+<div class="w-14 h-14 rounded-full bg-surface-container-lowest flex items-center justify-center text-secondary mb-sm shadow-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">cloud_upload</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface mb-xs">
+              Drag &amp; drop file here, or <span class="text-secondary underline">browse device</span>
+</p>
+<p class="font-label-md text-label-md text-on-surface-variant mb-md">
+              High-resolution course documents, guides, and slide decks
+            </p>
+<div class="flex flex-wrap items-center justify-center gap-xs">
+<span class="px-sm py-xs rounded bg-surface-container-highest text-on-surface text-label-sm font-semibold">PDF</span>
+<span class="px-sm py-xs rounded bg-surface-container-highest text-on-surface text-label-sm font-semibold">DOC / DOCX</span>
+<span class="px-sm py-xs rounded bg-surface-container-highest text-on-surface text-label-sm font-semibold">PPT / PPTX</span>
+<span class="text-outline text-label-sm ml-xs">• Max limit 25 MB</span>
+</div>
+</div>
+<div class="hidden items-center justify-between p-sm rounded-lg bg-surface-container-high" id="fileUploadPreview">
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-secondary">description</span>
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface truncate max-w-xs" id="fileNamePreview">physics-formula-sheet.pdf</p>
+<p class="font-label-sm text-label-sm text-outline" id="fileSizePreview">2.4 MB</p>
+</div>
+</div>
+<button class="p-xs text-error hover:bg-error-container/20 rounded-full transition-colors" onclick="removeSelectedFile()" type="button">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Step 3: Academic Placement -->
+<section class="rounded-xl bg-surface-container-lowest p-md md:p-lg shadow-sm space-y-md transition-shadow hover:shadow-md" id="academicPlacementCard">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-sm">
+<span class="flex items-center justify-center w-7 h-7 rounded-full bg-primary-container text-on-primary text-label-md font-bold">3</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Academic Placement</h2>
+</div>
+<span class="text-label-sm font-label-sm px-sm py-[2px] rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-semibold">Pre-filled</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-md">
+<!-- Grade -->
+<div class="space-y-xs">
+<label class="block font-label-md text-label-md text-on-surface font-semibold" for="selectGrade">Grade Level</label>
+<select class="w-full px-md py-sm rounded-lg bg-surface-container-low text-on-surface font-body-md focus:outline-none focus:bg-surface-container-lowest transition-all" id="selectGrade">
+<option selected="" value="Grade 10">Grade 10</option>
+<option value="Grade 11">Grade 11</option>
+<option value="Grade 12">Grade 12</option>
+<option value="General STEM">General STEM</option>
+</select>
+</div>
+<!-- Subject -->
+<div class="space-y-xs">
+<label class="block font-label-md text-label-md text-on-surface font-semibold" for="selectSubject">Subject Curriculum</label>
+<select class="w-full px-md py-sm rounded-lg bg-surface-container-low text-on-surface font-body-md focus:outline-none focus:bg-surface-container-lowest transition-all" id="selectSubject">
+<option selected="" value="Physics">Physics</option>
+<option value="Chemistry">Chemistry</option>
+<option value="Biology">Biology</option>
+<option value="Pure Mathematics">Pure Mathematics</option>
+<option value="Mechanics &amp; Calculus">Mechanics &amp; Calculus</option>
+<option value="Computer Science / Capstone">Computer Science / Capstone</option>
+<option value="Earth Science">Earth Science</option>
+</select>
+</div>
+<!-- Semester -->
+<div class="space-y-xs">
+<label class="block font-label-md text-label-md text-on-surface font-semibold" for="selectSemester">Semester / Term</label>
+<select class="w-full px-md py-sm rounded-lg bg-surface-container-low text-on-surface font-body-md focus:outline-none focus:bg-surface-container-lowest transition-all" id="selectSemester">
+<option selected="" value="Semester 1">Semester 1</option>
+<option value="Semester 2">Semester 2</option>
+<option value="Full Year / Capstone">Full Year / Capstone</option>
+</select>
+</div>
+</div>
+<!-- Collapsible Learning Outcome / Unit Accordion -->
+<div class="pt-sm">
+<button class="w-full flex items-center justify-between p-sm rounded-lg bg-surface-container hover:bg-surface-container-high transition-colors" onclick="toggleAccordion('unitAccordionContent', 'accordionIcon')" type="button">
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">tune</span>
+<span class="font-label-md text-label-md font-semibold text-on-surface">Add Unit (LO) / Concept Tag (Optional)</span>
+</div>
+<span class="material-symbols-outlined text-outline transition-transform duration-200" id="accordionIcon">expand_more</span>
+</button>
+<div class="hidden pt-md space-y-md" id="unitAccordionContent">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-md p-md rounded-lg bg-surface-container-low">
+<div class="space-y-xs">
+<label class="block font-label-sm text-label-sm text-on-surface font-semibold" for="unitCode">Unit / Learning Outcome (LO)</label>
+<input class="w-full px-md py-xs rounded bg-surface-container-lowest text-on-surface font-body-md focus:outline-none placeholder:text-outline" id="unitCode" placeholder="e.g. Unit 2: Dynamics (LO 2.1 &amp; 2.2)" type="text"/>
+</div>
+<div class="space-y-xs">
+<label class="block font-label-sm text-label-sm text-on-surface font-semibold" for="conceptTag">Specific Topics / Keyword Tags</label>
+<input class="w-full px-md py-xs rounded bg-surface-container-lowest text-on-surface font-body-md focus:outline-none placeholder:text-outline" id="conceptTag" placeholder="e.g. FBD, Friction, Kinetic vectors" type="text"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Step 4: Notes & Submission -->
+<section class="rounded-xl bg-surface-container-lowest p-md md:p-lg shadow-sm space-y-md transition-shadow hover:shadow-md">
+<div class="flex items-center gap-sm">
+<span class="flex items-center justify-center w-7 h-7 rounded-full bg-primary-container text-on-primary text-label-md font-bold">4</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Recommendation Notes</h2>
+</div>
+<div class="space-y-sm">
+<label class="block font-label-md text-label-md text-on-surface" for="recommendationReason">
+            Why do you recommend this resource? <span class="text-error">*</span>
+</label>
+<textarea class="w-full px-md py-sm rounded-lg bg-surface-container-low text-on-surface font-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest shadow-inner transition-all duration-200 resize-y" id="recommendationReason" placeholder="Tell us what makes it unique (e.g. solves complex past exam questions step-by-step, great intuitive visual diagrams, concise formula derivation)..." required="" rows="3"></textarea>
+</div>
+<div class="space-y-sm">
+<label class="block font-label-md text-label-md text-on-surface" for="studentEmail">
+            Your Email <span class="font-normal text-outline text-label-sm">(Optional - for credit &amp; review notification)</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-sm top-1/2 -translate-y-1/2 text-outline">alternate_email</span>
+<input class="w-full pl-xl pr-md py-sm rounded-lg bg-surface-container-low text-on-surface font-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest shadow-inner transition-all duration-200" id="studentEmail" placeholder="omar.sayed@stem.edu.eg" type="email"/>
+</div>
+</div>
+<!-- Action Bar -->
+<div class="pt-md flex flex-col sm:flex-row items-center justify-between gap-md">
+<button class="w-full sm:w-auto font-label-md text-label-md text-on-surface-variant hover:text-error transition-colors px-md py-sm rounded-lg cursor-pointer" onclick="resetFormState()" type="reset">
+            Reset form
+          </button>
+<button class="w-full sm:w-auto px-xl py-sm rounded-xl bg-secondary hover:bg-primary-container text-on-secondary font-headline-sm text-headline-sm font-semibold flex items-center justify-center gap-sm shadow-md hover:shadow-lg hover:scale-[1.01] transition-all cursor-pointer" type="submit">
+<span>Submit Suggestion</span>
+<span class="material-symbols-outlined text-[20px]">send</span>
+</button>
+</div>
+</section>
+<!-- Bottom Advisory Card -->
+<aside class="rounded-xl bg-surface-container p-md md:p-lg space-y-sm">
+<div class="flex items-center gap-xs font-label-md text-label-md font-bold text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[20px]">gavel</span>
+<span>Stemawy Resource Quality Guidelines</span>
+</div>
+<ul class="grid grid-cols-1 md:grid-cols-2 gap-sm font-body-md text-body-md text-on-surface-variant">
+<li class="flex items-start gap-xs">
+<span class="material-symbols-outlined text-tertiary-container text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span>Ensure all material adheres to Egyptian STEM curriculum outcomes and academic honesty.</span>
+</li>
+<li class="flex items-start gap-xs">
+<span class="material-symbols-outlined text-tertiary-container text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span>Avoid paywalled, pirated, or unauthorized commercial textbooks.</span>
+</li>
+<li class="flex items-start gap-xs">
+<span class="material-symbols-outlined text-tertiary-container text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span>Prioritize open access simulations, video explanations, and interactive labs.</span>
+</li>
+<li class="flex items-start gap-xs">
+<span class="material-symbols-outlined text-tertiary-container text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span>Every submission is reviewed by student curriculum moderators before going live.</span>
+</li>
+</ul>
+</aside>
+</form>
+<!-- Success Modal Dialog Simulation -->
+<div class="fixed inset-0 bg-inverse-surface/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-md" id="successModal">
+<div class="w-full max-w-lg rounded-2xl bg-surface-container-lowest p-lg shadow-2xl space-y-md text-center transform scale-95 transition-transform duration-200" id="successModalCard">
+<div class="w-16 h-16 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center mx-auto shadow-md">
+<span class="material-symbols-outlined text-[36px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<div class="space-y-xs">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">Resource Suggestion Submitted!</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Thanks for helping us improve Stemawy. Your contribution will be verified by the Physics curriculum team and added to the discovery library within 12 hours.
+          </p>
+</div>
+<!-- Submission Summary Snapshot -->
+<div class="rounded-xl bg-surface-container-low p-sm text-left font-label-md text-label-md space-y-xs">
+<div class="flex justify-between">
+<span class="text-outline">Submitted Item:</span>
+<span class="font-semibold text-primary truncate max-w-[200px]" id="summaryTitle">Newton's Laws Video</span>
+</div>
+<div class="flex justify-between">
+<span class="text-outline">Academic Tag:</span>
+<span class="font-semibold text-on-surface" id="summaryTag">Grade 10 • Physics</span>
+</div>
+<div class="flex justify-between">
+<span class="text-outline">Status:</span>
+<span class="text-secondary font-semibold flex items-center gap-[2px]">
+<span class="material-symbols-outlined text-[14px]">hourglass_top</span> In Moderation Queue
+            </span>
+</div>
+</div>
+<div class="pt-sm flex flex-col sm:flex-row gap-sm justify-center">
+<button class="px-md py-sm rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-semibold transition-all cursor-pointer" onclick="suggestAnother()" type="button">
+            Suggest Another
+          </button>
+<button class="px-md py-sm rounded-lg bg-surface-container-high hover:bg-surface-container text-on-surface font-label-md text-label-md font-semibold transition-all cursor-pointer" onclick="closeSuccessModal()" type="button">
+            Back to Help &amp; Feedback
+          </button>
+</div>
+</div>
+</div>
+<!-- Persistent Minimalist Clean Footer -->
+<footer class="mt-xl pt-lg border-t border-outline-variant flex flex-col md:flex-row items-center justify-between gap-md text-on-surface-variant">
+<div class="font-label-md text-label-md">
+        © 2025 Stemawy 2.0. Built for High-Performance Academic Empowerment.
+      </div>
+<div class="flex items-center gap-md font-label-md text-label-md">
+<a class="hover:text-primary transition-colors" href="#">About</a>
+<span class="text-outline">•</span>
+<a class="hover:text-primary transition-colors" href="#">Help &amp; Feedback</a>
+<span class="text-outline">•</span>
+<a class="text-primary font-bold" href="#">Suggest a Resource</a>
+</div>
+</footer>
+</div>
+</div>
+<script>
+  function dismissContextBanner() {
+    const banner = document.getElementById('contextBanner');
+    if (banner) {
+      banner.classList.add('opacity-0', 'scale-95');
+      setTimeout(() => banner.remove(), 250);
+    }
+  }
+
+  function focusAcademicPlacement() {
+    const card = document.getElementById('academicPlacementCard');
+    if (card) {
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      card.classList.add('ring-2', 'ring-primary');
+      setTimeout(() => card.classList.remove('ring-2', 'ring-primary'), 1500);
+    }
+  }
+
+  function selectType(button, type) {
+    const pills = document.querySelectorAll('.type-pill');
+    pills.forEach(pill => {
+      pill.className = 'type-pill px-md py-xs rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface-variant hover:bg-secondary-fixed hover:text-on-secondary-fixed transition-all';
+    });
+    button.className = 'type-pill px-md py-xs rounded-full font-label-md text-label-md bg-secondary-container text-on-secondary-container font-semibold shadow-sm transition-all';
+    document.getElementById('selectedType').value = type;
+  }
+
+  function toggleSourceMode(mode) {
+    const btnLink = document.getElementById('btnSourceLink');
+    const btnFile = document.getElementById('btnSourceFile');
+    const paneLink = document.getElementById('paneSourceLink');
+    const paneFile = document.getElementById('paneSourceFile');
+
+    if (mode === 'link') {
+      btnLink.className = 'px-sm py-xs rounded font-label-md text-label-md flex items-center gap-xs bg-surface-container-lowest text-primary font-bold shadow-sm transition-all';
+      btnFile.className = 'px-sm py-xs rounded font-label-md text-label-md flex items-center gap-xs text-on-surface-variant hover:text-on-surface transition-all';
+      paneLink.classList.remove('hidden');
+      paneFile.classList.add('hidden');
+    } else {
+      btnFile.className = 'px-sm py-xs rounded font-label-md text-label-md flex items-center gap-xs bg-surface-container-lowest text-primary font-bold shadow-sm transition-all';
+      btnLink.className = 'px-sm py-xs rounded font-label-md text-label-md flex items-center gap-xs text-on-surface-variant hover:text-on-surface transition-all';
+      paneFile.classList.remove('hidden');
+      paneLink.classList.add('hidden');
+    }
+  }
+
+  function handleUrlDetect(val) {
+    const badge = document.getElementById('serviceBadge');
+    const lower = val.toLowerCase();
+
+    if (lower.includes('youtube.com') || lower.includes('youtu.be')) {
+      badge.textContent = 'YouTube Video';
+      badge.className = 'px-sm py-[2px] rounded-full text-label-sm font-label-sm uppercase font-bold tracking-wider bg-error-container text-on-error-container block';
+    } else if (lower.includes('drive.google.com')) {
+      badge.textContent = 'Google Drive';
+      badge.className = 'px-sm py-[2px] rounded-full text-label-sm font-label-sm uppercase font-bold tracking-wider bg-secondary-fixed text-on-secondary-fixed block';
+    } else if (lower.includes('phet.colorado.edu')) {
+      badge.textContent = 'PhET Simulation';
+      badge.className = 'px-sm py-[2px] rounded-full text-label-sm font-label-sm uppercase font-bold tracking-wider bg-tertiary-fixed text-on-tertiary-fixed block';
+    } else if (lower.includes('github.com')) {
+      badge.textContent = 'GitHub Repo';
+      badge.className = 'px-sm py-[2px] rounded-full text-label-sm font-label-sm uppercase font-bold tracking-wider bg-surface-container-highest text-on-surface block';
+    } else if (lower.length > 5) {
+      badge.textContent = 'External Web';
+      badge.className = 'px-sm py-[2px] rounded-full text-label-sm font-label-sm uppercase font-bold tracking-wider bg-surface-container-high text-on-surface-variant block';
+    } else {
+      badge.className = 'hidden';
+    }
+  }
+
+  function handleDragOver(e) {
+    e.preventDefault();
+    e.currentTarget.classList.add('bg-secondary-fixed/30');
+  }
+
+  function handleDragLeave(e) {
+    e.preventDefault();
+    e.currentTarget.classList.remove('bg-secondary-fixed/30');
+  }
+
+  function handleFileDrop(e) {
+    e.preventDefault();
+    e.currentTarget.classList.remove('bg-secondary-fixed/30');
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+      displayFile(e.dataTransfer.files[0]);
+    }
+  }
+
+  function handleFileSelected(e) {
+    if (e.target.files && e.target.files[0]) {
+      displayFile(e.target.files[0]);
+    }
+  }
+
+  function displayFile(file) {
+    const preview = document.getElementById('fileUploadPreview');
+    const nameEl = document.getElementById('fileNamePreview');
+    const sizeEl = document.getElementById('fileSizePreview');
+    nameEl.textContent = file.name;
+    sizeEl.textContent = (file.size / (1024 * 1024)).toFixed(2) + ' MB';
+    preview.classList.remove('hidden');
+    preview.classList.add('flex');
+  }
+
+  function removeSelectedFile() {
+    document.getElementById('fileUploadInput').value = '';
+    const preview = document.getElementById('fileUploadPreview');
+    preview.classList.add('hidden');
+    preview.classList.remove('flex');
+  }
+
+  function toggleAccordion(contentId, iconId) {
+    const content = document.getElementById(contentId);
+    const icon = document.getElementById(iconId);
+    if (content.classList.contains('hidden')) {
+      content.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    } else {
+      content.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    }
+  }
+
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    const title = document.getElementById('resourceTitle').value;
+    const grade = document.getElementById('selectGrade').value;
+    const subject = document.getElementById('selectSubject').value;
+
+    document.getElementById('summaryTitle').textContent = title || 'Resource Item';
+    document.getElementById('summaryTag').textContent = `${grade} • ${subject}`;
+
+    const modal = document.getElementById('successModal');
+    const card = document.getElementById('successModalCard');
+    modal.classList.remove('hidden');
+    setTimeout(() => {
+      card.classList.remove('scale-95');
+      card.classList.add('scale-100');
+    }, 20);
+  }
+
+  function closeSuccessModal() {
+    const modal = document.getElementById('successModal');
+    modal.classList.add('hidden');
+  }
+
+  function suggestAnother() {
+    closeSuccessModal();
+    document.getElementById('resourceForm').reset();
+    resetFormState();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function resetFormState() {
+    removeSelectedFile();
+    toggleSourceMode('link');
+    document.getElementById('serviceBadge').className = 'hidden';
+    const unitContent = document.getElementById('unitAccordionContent');
+    if (!unitContent.classList.contains('hidden')) {
+      toggleAccordion('unitAccordionContent', 'accordionIcon');
+    }
+  }
+</script></main></div></body></html>

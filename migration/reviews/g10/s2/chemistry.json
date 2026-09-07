@@ -1,0 +1,32 @@
+{
+  "missingDriveUrls": [],
+  "missingVideoUrls": [],
+  "duplicateResourceIds": [],
+  "deduplicatedResourceIds": [
+    {
+      "id": "chemistry-g10-s2-pdf-lo-14-15-pdf-ad2279f908",
+      "count": 2
+    },
+    {
+      "id": "chemistry-g10-s2-video-0kdlufdkrte-9e28fa7229",
+      "count": 2
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-references-positions-pdf-05ca614127",
+      "count": 2
+    }
+  ],
+  "unrecognizedResourceLocations": [],
+  "notes": [],
+  "statistics": {
+    "units": 10,
+    "concepts": 70,
+    "resources": 129,
+    "pdfs": 67,
+    "videos": 62,
+    "testBanks": 0,
+    "missingDriveUrls": 0,
+    "missingVideoUrls": 0,
+    "duplicateResourceIds": 0
+  }
+}

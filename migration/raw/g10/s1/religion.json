@@ -1,0 +1,25 @@
+{
+  "learningObjectives": {
+    "references": {
+      "title": "كتب المنهج",
+      "concepts": [
+        {
+          "title": "كتاب الدين للصف الأول",
+          "description": "الكتاب الأساسي للمادة",
+          "file": "دين الصف الأول.pdf",
+          "video": "https://youtu.be/lbLgH30we1c?si=KZji1pjFdDLLQljF"
+        },
+        {
+          "title": "معجزة القرآن",
+          "description": "كتاب معجزة القرآن للصف الأول",
+          "file": "معجزة القرآن الصف الأول.pdf"
+        }
+      ]
+    }
+  },
+  "shareMap": {
+    "دين الصف الأول.pdf": "https://drive.google.com/file/d/1MQp-LwbO7c-w4xauo2JU6gntc3nvn5FM/view?usp=drivesdk",
+    "معجزة القرآن الصف الأول.pdf": "https://drive.google.com/file/d/1Ed2e6qbuBuAJF5oB-A0ISWqzW7C3BJjT/view?usp=drivesdk"
+  },
+  "explicitShareMapLinks": []
+}

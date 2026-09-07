@@ -1,0 +1,386 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T23:16:31.752Z",
+  "source": {
+    "file": "migration/raw/g10/s2/socialstudies.json"
+  },
+  "subject": {
+    "id": "socialstudies-g10-s2",
+    "name": "Social Studies",
+    "description": "Social Studies resources for Grade 10, Semester 2.",
+    "grade": "10",
+    "semester": "2",
+    "icon": "socialstudies",
+    "content": [
+      {
+        "id": "socialstudies-g10-s2-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "ملخصات",
+        "description": "",
+        "order": 1,
+        "concepts": [],
+        "resources": [
+          "socialstudies-g10-s2-pdf-a-c-e-geography-s-s-part-3-pdf-8e55f68482",
+          "socialstudies-g10-s2-pdf-a-c-e-geography-s-s-part-2-pdf-0b45ab5e3f",
+          "socialstudies-g10-s2-pdf-a-c-e-history-s-s-pdf-ce2bb7b0d3",
+          "socialstudies-g10-s2-pdf-a-c-e-geography-s-s-part1-pdf-7c2bf6b360",
+          "socialstudies-g10-s2-pdf-pdf-02f9aadb0c"
+        ]
+      },
+      {
+        "id": "socialstudies-g10-s2-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "ملفات",
+        "description": "",
+        "order": 2,
+        "concepts": [],
+        "resources": [
+          "socialstudies-g10-s2-pdf-the-history-the-3rd-week-1-pdf-424d907827",
+          "socialstudies-g10-s2-pdf-template-final-1-1-pdf-599d82ba87",
+          "socialstudies-g10-s2-pdf-1-1-1-pptx-c77b1f046c",
+          "socialstudies-g10-s2-pdf-pdf-2aa0cae22a",
+          "socialstudies-g10-s2-pdf-ss-1-pptx-aae0c8fef8",
+          "socialstudies-g10-s2-pdf-week-5-ss-pdf-6357db38fe",
+          "socialstudies-g10-s2-pdf-pptx-c73f1b069f",
+          "socialstudies-g10-s2-pdf-1-pdf-54c4f0bdeb",
+          "socialstudies-g10-s2-pdf-10-pdf-d765883a4f",
+          "socialstudies-g10-s2-pdf-pdf-f17819d2e4",
+          "socialstudies-g10-s2-pdf-pdf-3954f1df8d"
+        ]
+      },
+      {
+        "id": "socialstudies-g10-s2-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 3,
+        "concepts": [],
+        "resources": [
+          "socialstudies-g10-s2-pdf-mid-21-22-pdf-8ccd62ddbf",
+          "socialstudies-g10-s2-pdf-mid-22-23-pdf-675af4241e",
+          "socialstudies-g10-s2-pdf-revision-ans-pdf-071573ec46"
+        ]
+      },
+      {
+        "id": "socialstudies-g10-s2-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 4,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "socialstudies-g10-s2-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 5,
+        "concepts": [],
+        "resources": [
+          "socialstudies-g10-s2-pdf-1-2026-pdf-e7c26adc5d",
+          "socialstudies-g10-s2-pdf-24-al3baqara1-pdf-0b9c5ffbee"
+        ]
+      }
+    ],
+    "units": 2
+  },
+  "resources": [
+    {
+      "id": "socialstudies-g10-s2-pdf-a-c-e-geography-s-s-part-3-pdf-8e55f68482",
+      "title": "A.C.E geography S.S part 3 .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/16jwTP0vAYpuJQ9UYFpBnobMcJyFpKlSb/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-a-c-e-geography-s-s-part-2-pdf-0b45ab5e3f",
+      "title": "A.C.E geography S.S part 2 .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1pnNFBXiz_GVgHrs_Kr06Ai3I7bdzcoju/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-a-c-e-history-s-s-pdf-ce2bb7b0d3",
+      "title": "A.C.E  history S.S .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1lKZYujywnQWdMMqeJe95K-pxI4W33Dux/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-a-c-e-geography-s-s-part1-pdf-7c2bf6b360",
+      "title": "A.C.E geography S.S part1 .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1p160LxtLdyloVM3tBzlOFOz_Ecu360Gp/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-pdf-02f9aadb0c",
+      "title": "ملزمة الأستاذ أبو فادى.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/16dMJRAzl6VNn0Uf1a4wfuAsw_KqtQPXh/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-the-history-the-3rd-week-1-pdf-424d907827",
+      "title": "the history the 3rd week[1].pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1MAQcYWKXRI7kD3RpcdmJR5vgAqH6kn09/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-template-final-1-1-pdf-599d82ba87",
+      "title": "template_final[1][1].pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1pkH08HLCfxuA4DZvms6utrHUZuV0A2c_/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-1-1-1-pptx-c77b1f046c",
+      "title": "الدرس_الثالث[1] (1) (1).pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/18tZ3tLUG5dVt1jT8g9AVEAVdvK7GJ1DK/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-pdf-2aa0cae22a",
+      "title": "درس نمو وتركيب سكان مصر.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1oMu-x3wsVSOCglYexg8k23kxk14nAYf3/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-ss-1-pptx-aae0c8fef8",
+      "title": "ss[1].pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Uy9wM5r5ulUkbAnQL9it8LERsFPEJkJb/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-week-5-ss-pdf-6357db38fe",
+      "title": "week 5 ss.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1wBWUzfV3K5zLWj3DNRnYaij927Xm1hjI/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-pptx-c73f1b069f",
+      "title": "مصر و المنظمات الاقليميه و الدوليه.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1KDIxYD2eHQcfMN-rmLRqyR_7dS6_0zRd/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-1-pdf-54c4f0bdeb",
+      "title": "توزيع السكان والكثافة السكانية في مصر-1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/131959zsDJ8dy1NO2B3kKfhW6kA06_1Ga/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-10-pdf-d765883a4f",
+      "title": "فنون العمارة عبر الحضارات و نماذجها الاسبوع 10.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1F1ug6KjLEDTGWW8gqXYRDv4b-WUGbNnj/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-pdf-f17819d2e4",
+      "title": "درس التنمية الاقتصادية.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1BiPMCEdFlL-Q6H-XM9KeOHS6OlGUwrmP/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-pdf-3954f1df8d",
+      "title": "درس النقل والتجارة في مصر.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1dFIvWMi50mjt2leMnFRw7c5FxL60pMdW/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "socialstudies-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-mid-21-22-pdf-8ccd62ddbf",
+      "title": "mid 21-22.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/15vQ-SZIvxUOT_vIbmTPl733AZp4DUQ6r/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-mid-22-23-pdf-675af4241e",
+      "title": "mid 22-23 .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1_UMRD6SFntO3qEpCe4uRkW0bWI-jog-l/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-revision-ans-pdf-071573ec46",
+      "title": "Revision + Ans.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1K0qWv0hYpou7GL_F1E2FTwY5uQQLNQ0d/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-1-2026-pdf-e7c26adc5d",
+      "title": "الامتحان_تاريخ_1_ثانوي_الترم_الثاني_2026_المتميزون(١).PDF",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1XPaqia498BTUKf9X6WCBtHOnwqc2TbDP/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s2-pdf-24-al3baqara1-pdf-0b9c5ffbee",
+      "title": "الامتحان جغرافيا ١ث٢ 24 al3baqara1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Bs-rBOS05bvRL7S8Ta1-NNghh7xThV18/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

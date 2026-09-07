@@ -1,0 +1,264 @@
+{
+  "learningObjectives": {
+    "LO1": {
+      "title": "LO1: Introduction to Geology",
+      "concepts": [
+        "The contribution of geology to the different domains in our lives"
+      ],
+      "testBankUrl": "https://your-host.com/files/geology/LO1_TestBank.pdf"
+    },
+    "LO2": {
+      "title": "LO2: Minerals and Their Properties",
+      "concepts": [
+        "Minerals are homogeneous solid earth materials.",
+        "Minerals have distinct physical properties that enable them to be distinguished from one another.",
+        "For most common minerals, the most useful properties for hand sample identification include hardness, cleavage or fracture patterns, translucency, and color.",
+        "Metallic minerals are uncommon, but economically important.",
+        "For metallic minerals, the additional properties of streak and magnetism are useful for hand sample identification",
+        "Completely unambiguous identification of minerals often requires sophisticated laboratory analysis.",
+        "Some construction materials are highly refined from the original Earth material, while others are used in the original state."
+      ],
+      "testBankUrl": "https://your-host.com/files/geology/LO2_TestBank.pdf"
+    },
+    "LO3": {
+      "title": "LO3: Engineering Properties",
+      "concepts": [
+        "Different Earth materials and different manufactured materials have different engineering properties, such as their behavior under stress, making them suitable for different uses in construction."
+      ],
+      "testBankUrl": "https://your-host.com/files/geology/LO3_TestBank.pdf"
+    },
+    "LO4": {
+      "title": "LO4: Igneous Rocks",
+      "concepts": [
+        "Rocks are heterogeneous mixtures of minerals and (rarely) other earth materials.",
+        "Igneous rocks cooled from melts are found in association with volcanoes and also as rocks that cooled underground",
+        "Different cooling histories produce different igneous textures.",
+        "Differences in magma composition and eruption location create differences in eruption explosivity that affect volcanic rock textures."
+      ],
+      "testBankUrl": "https://your-host.com/files/geology/LO4_TestBank.pdf"
+    },
+    "LO5": {
+      "title": "LO5: Sedimentary Rocks",
+      "concepts": [
+        "Sedimentary rocks that accumulate from particles can be formed in a wide range of environments on Earth's surface",
+        "Some sedimentary rocks form from particles of older rocks that are removed from their original location and deposited in a new one.",
+        "The environment of deposition and the source material both contribute to differences in texture and composition among these sedimentary rocks.",
+        "Some sedimentary rocks are made of particles from once living organisms.",
+        "The types of organisms determine much about the texture and mineral composition of such rocks",
+        "Sedimentary rocks often contain pore spaces that make them important reservoirs of fluids in the upper part of Earth's crust.",
+        "Sedimentary rocks sometimes contain organic material that may become part of Earth's energy resources",
+        "Limestone and cement materials derived from limestone are essential Egyptian building resources due both to their abundance and to the lack of alternative building materials."
+      ],
+      "testBankUrl": "https://your-host.com/files/geology/LO5_TestBank.pdf"
+    },
+    "LO6": {
+      "title": "LO6: Metamorphic Rocks",
+      "concepts": [
+        "Changes in temperature, pressure, or composition in Earth's subsurface can change the texture and mineral composition of pre-existing rocks,creating metamorphic rocks",
+        "Deformation during metamorphism produces foliated textures and may destroy original textures.",
+        "Deformation (change in shape) and stresses (distribution of forces) are related, but maximum deformation and maximum stress are not always parallel.",
+        "The metamorphic texture and mineralogy observed in metamorphic rocks are most commonly related to the conditions when the rock experienced its maximum temperature."
+      ],
+      "testBankUrl": "https://your-host.com/files/geology/LO6_TestBank.pdf"
+    },
+    "LO7": {
+      "title": "LO7: Rock Cycle and Geological History",
+      "concepts": [
+        "The rock cycle is a group of processes that act on the different types of rocks and change rocks from one form to another over geologic time",
+        "Rock composition and texture provides evidence that can be interpreted to yield a geologic history",
+        "Interpreting cross sections to study the age relationships of different rock units.",
+        "Interpreting different geological maps that show outcrops of different rocks of Egypt."
+      ],
+      "testBankUrl": "https://your-host.com/files/geology/LO7_TestBank.pdf"
+    }
+  },
+  "resourceFiles": {
+    "LO1": [
+      "first semester/LO1/Geology  Its Branches and Scope.pdf",
+      "first semester/LO1/Geology L.O 1 grade 10.pptx"
+    ],
+    "LO2": [
+      "first semester/LO2/Geology L.O 2 grade 10.pptx",
+      "first semester/LO2/minerals 2.ppt",
+      "first semester/LO2/Minerals by Rushdy saad VIP.pptx"
+    ],
+    "LO3": [
+      "first semester/LO3/Building Materials  ( gr 3 ).pdf",
+      "first semester/LO3/building materials ppt  v.v.2nd sess   important.pptx",
+      "first semester/LO3/Building_materials (1).pdf",
+      "first semester/LO3/Geology L.O3.ppt",
+      "first semester/LO3/LO .1.03 Building Materials 2017.pdf",
+      "first semester/LO3/LO ES1.03 Earth Materials 2017.pdf",
+      "first semester/LO3/lo3 building materials  مهم جدا SESS1.pptx"
+    ],
+    "LO4": [
+      "first semester/LO4/Chapter 3 Intrusive igneous rocks v.v.imp.ppt",
+      "first semester/LO4/Geo L.O4 +.pptx",
+      "first semester/LO4/Geology L.O4.pptx"
+    ],
+    "LO5": [
+      "first semester/LO5/Chapter 6 Sedimentary Rocks للشرح.ppt",
+      "first semester/LO5/Geology L.O 5 grade 10.pptx",
+      "first semester/LO5/Geology L.O 5.pptx"
+    ],
+    "LO6": [
+      "first semester/LO6/Geology L.O 6 grade 10.pptx",
+      "first semester/LO6/Geology L.O 6.pptx"
+    ],
+    "LO7": [
+      "first semester/LO7/Geology L.O 7 grade 10.pptx",
+      "first semester/LO7/Geology L.O 7.pptx",
+      "first semester/LO7/LO1.07.pdf",
+      "first semester/LO7/rock cycle.ppt"
+    ],
+    "testBanks": [
+      "first semester/test banks/G10 queeze.pdf",
+      "first semester/test banks/Geo Quiz LO1.01.pdf",
+      "first semester/test banks/igneous test.PNG",
+      "first semester/test banks/IgneousVers2 QUIZ AND ANSWER.pdf",
+      "first semester/test banks/L.O 7 quizz and answer.docx",
+      "first semester/test banks/LO 6 quizz with answer.docx",
+      "first semester/test banks/metamorphic quiz.doc",
+      "first semester/test banks/Metamorphic Rocks Quiz.docx",
+      "first semester/test banks/Minerals QUESTION AND ANSWERS.pdf",
+      "first semester/test banks/Quiz LO1.01.pdf",
+      "first semester/test banks/quiz-on-igneous-rocks.rtf",
+      "first semester/test banks/quiz-on-sedimentary.rtf",
+      "first semester/test banks/quizz and answer on metamorphic.pdf",
+      "first semester/test banks/Rock Pre QUIZ AND ANSWER.pdf"
+    ],
+    "revisions": [
+      "first semester/revisions/geology_G_10_.pdf"
+    ],
+    "additionalReferences": [
+      "first semester/additional refrences/CK-12-Earth-Science-For-High-School-Workbook-with-Answers-١.pdf",
+      "first semester/additional refrences/Earth Com/Part 1 (1) EARTH.COMM BOOK.pdf",
+      "first semester/additional refrences/Earth Com/Part 2 (1)EA RTH.COMM BOOK.pdf",
+      "first semester/additional refrences/ESSENTIAL/ES student ebook (1).pdf",
+      "first semester/additional refrences/ESSENTIAL/Essentials of geologe 11th edetion.pdf",
+      "first semester/additional refrences/Physical Geology book/Chapter-14-Groundwater-21-01.pdf",
+      "first semester/additional refrences/Physical Geology book/Chapter-16-Glaciation-v.2.06.pdf",
+      "first semester/additional refrences/Physical Geology book/Chapter-7-Metamorphism-and-Metamorphic-Rocks-21-01.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-1-Introduction-to-Geology.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-10-Plate-Tectonics.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-11-Earthquakes.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-12-Geological-Structures.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-13-Streams-and-Floods.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-18-Geology-of-the-Oceans.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-2-Minerals.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-20-Geological-Resources.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-22-The-Origin-of-Earth-and-the-Solar-System.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-3-Intrusive-Igneous-Rocks.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-4-Volcanism.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-5-Weathering-and-Soil.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-6-Sediments-and-Sedimentary-Rocks.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-8-Measuring-Geological-Time.pdf",
+      "first semester/additional refrences/Physical Geology book/Physical-Geology-2nd-Edition-Chapter-9-Earths-Interior.pdf"
+    ]
+  },
+  "videoLinks": {
+    "loSummarized": {
+      "LO1": "https://youtu.be/ZYl02U-FxF8?si=iDotF9V0dfXaoQEe",
+      "LO2": "https://youtu.be/L880CG3ZeeI?si=7aFV79RcCe_TQc18",
+      "LO3": "https://youtu.be/XJ3OH1T2uYE?si=_zHNWhKlIVUnCrQM",
+      "LO4": "https://youtu.be/lp6n5Q8TuZ0?si=qkpzvX9RmS8tfhZv",
+      "LO5": "https://youtu.be/ndpJGDrkrg0?si=X9aJavhWeVASBdws",
+      "LO6": "https://youtu.be/ndpJGDrkrg0?si=uZnHlbfOu3JIsC-N",
+      "LO7": "https://youtu.be/zI7pMjkkQ6w?si=zr-HTfVoh5qqw37s"
+    },
+    "concept": {
+      "The contribution of geology to the different domains in our lives": "https://youtu.be/k_CB-qGytJE?si=ao6pHNN7Uttd4w9w",
+      "Minerals are homogeneous solid earth materials.": "https://youtu.be/x89JhH1FA7I?si=LQivIBHCDtllv7Ln",
+      "Minerals have distinct physical properties that enable them to be distinguished from one another.": "https://youtu.be/M4rzNUZFV4w?si=SGMBWloA1K8EMF4K",
+      "For most common minerals, the most useful properties for hand sample identification include hardness, cleavage or fracture patterns, translucency, and color.": "https://youtu.be/1SGC3VBQZY0?si=bawZ2bzAao9tHnNL",
+      "Metallic minerals are uncommon, but economically important.": "https://youtu.be/BowQcGw9IYk?si=eCkyGOlRs6vGVRLa",
+      "For metallic minerals, the additional properties of streak and magnetism are useful for hand sample identification": "https://youtu.be/7nacSPqZg8U?si=kGawUS7FSGA2Bxkl",
+      "Completely unambiguous identification of minerals often requires sophisticated laboratory analysis.": "https://youtu.be/__yBpEzjSUg?si=DYzmrpt89LC37zSe",
+      "Some construction materials are highly refined from the original Earth material, while others are used in the original state.": "https://youtu.be/1iNpON9ckTg?si=yAI9cnTrtY7CeUaD",
+      "Different Earth materials and different manufactured materials have different engineering properties, such as their behavior under stress, making them suitable for different uses in construction.": "https://youtu.be/zk5FZhUD5a4?si=hXemCntqlIgMjc_A",
+      "Rocks are heterogeneous mixtures of minerals and (rarely) other earth materials.": "https://youtu.be/CeuYx-AbZdo?si=RVRHfSI3HPMNiZp3",
+      "Igneous rocks cooled from melts are found in association with volcanoes and also as rocks that cooled underground": "https://youtu.be/cuFGMk_sDa4?si=h_obNzfKiik0bSFx",
+      "Different cooling histories produce different igneous textures.": "https://youtu.be/8tmwCrlLnUk?si=Vvl0Y97q-cwdRRoP",
+      "Differences in magma composition and eruption location create differences in eruption explosivity that affect volcanic rock textures.": "https://youtu.be/Ovsj1SyGnGM?si=16M_70qeeZwKETN8",
+      "Sedimentary rocks that accumulate from particles can be formed in a wide range of environments on Earth's surface": "https://youtu.be/x0lauGbQWvQ?si=xUOFR7aA5k8JRnqV",
+      "Some sedimentary rocks form from particles of older rocks that are removed from their original location and deposited in a new one.": "https://youtu.be/Etu9BWbuDlY?si=mlKlDEQmD04L3-TQ",
+      "The environment of deposition and the source material both contribute to differences in texture and composition among these sedimentary rocks.": "https://youtu.be/ptq3h6WZWYg?si=rwtXzcNr9qYmHTtM",
+      "Some sedimentary rocks are made of particles from once living organisms.": "https://youtu.be/kq4DJY_5ASY?si=eHhct9Si46_mxanA",
+      "The types of organisms determine much about the texture and mineral composition of such rocks": "https://youtu.be/Qqdf_26NVW0?si=LF9vg6RTLXFYF6qw",
+      "Sedimentary rocks often contain pore spaces that make them important reservoirs of fluids in the upper part of Earth's crust.": "https://youtu.be/cSCNAMEmLGk?si=vANlg6-pS0rH7KfG",
+      "Sedimentary rocks sometimes contain organic material that may become part of Earth's energy resources": "https://youtu.be/XEozX2Av3rc?si=TVmhAyEJsNwY5eHs",
+      "Limestone and cement materials derived from limestone are essential Egyptian building resources due both to their abundance and to the lack of alternative building materials.": "https://youtu.be/syBiqjoHyIA?si=Zy66_VPYKAv7XhGK",
+      "Changes in temperature, pressure, or composition in Earth's subsurface can change the texture and mineral composition of pre-existing rocks,creating metamorphic rocks": "https://youtu.be/0QTkumoJnuU?si=waOt9EEHb3ur3fnO",
+      "Deformation during metamorphism produces foliated textures and may destroy original textures.": "https://youtu.be/K-fQ0iBckG0?si=Fj5vmPowlD_5VeRP",
+      "Deformation (change in shape) and stresses (distribution of forces) are related, but maximum deformation and maximum stress are not always parallel.": "https://youtu.be/7DuVsDOKUJM?si=bDsFSHNLsr0gx2MQ",
+      "The metamorphic texture and mineralogy observed in metamorphic rocks are most commonly related to the conditions when the rock experienced its maximum temperature.": "https://youtu.be/vL9lr0vXLFw?si=x6cxCN6Z6vrgfrMY",
+      "Rock composition and texture provides evidence that can be interpreted to yield a geologic history": "https://youtu.be/fYSeM63Fv0s?si=0oZFWi9AopO8JcFu",
+      "Interpreting cross sections to study the age relationships of different rock units.": "https://youtu.be/GpFAy9tGCgI?si=hafn7Kig87pUS3Nn",
+      "Interpreting different geological maps that show outcrops of different rocks of Egypt.": "https://youtu.be/thUcu1lXEX4?si=ZPtL5_esPc678o2E"
+    }
+  },
+  "shareMap": {
+    "Geology  Its Branches and Scope.pdf": "https://drive.google.com/file/d/1bOUSB_Et7jp1PzcHh-I6z02-ZIXKEi4l/view?usp=drivesdk",
+    "Geology L.O 1 grade 10.pptx": "https://docs.google.com/presentation/d/1Ko01DC5NTdihxK7lm8_LG5hvr_xIZoJU/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Geology L.O 2 grade 10.pptx": "https://docs.google.com/presentation/d/11R_GpEd4qqIc9LzvnMv8Ojga4cWVY_ud/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "minerals 2.ppt": "https://docs.google.com/presentation/d/1YnvtFVyUVossyZwdJfmpq07VQZyjmdBS/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Minerals by Rushdy saad VIP.pptx": "https://docs.google.com/presentation/d/1zfPteZnklqVnC-06LiZKPR-elKv_tckQ/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Building Materials  ( gr 3 ).pdf": "https://drive.google.com/file/d/1lLOlMopdffLLl7C2pW7o8hzLsR6XZoAu/view?usp=drivesdk",
+    "building materials ppt  v.v.2nd sess   important.pptx": "https://docs.google.com/presentation/d/1reLfi13oC-4jBKrNWVQYDR7r2olS3gdy/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Building_materials (1).pdf": "https://drive.google.com/file/d/1mRh_AYT8mQfue-SyApFhTI6GDU1RLO11/view?usp=drivesdk",
+    "Geology L.O3.ppt": "https://docs.google.com/presentation/d/1oSr9B8sdJYLzPb2X1L5u5T1r3AsB3_D_/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "LO .1.03 Building Materials 2017.pdf": "https://drive.google.com/file/d/1BZw9NpH51lY-Vd7brhyWwhr_rg-EhcS4/view?usp=drivesdk",
+    "LO ES1.03 Earth Materials 2017.pdf": "https://drive.google.com/file/d/1GhwnrlZSkkweRR9DHtOmaBGg7VIWpY8o/view?usp=drivesdk",
+    "lo3 building materials  مهم جدا SESS1.pptx": "https://docs.google.com/presentation/d/1kKzsJNWJDu57PAtnYUAVYIsqmQeMWjNE/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Chapter 3 Intrusive igneous rocks v.v.imp.ppt": "https://docs.google.com/presentation/d/1ecbl6gTZ0DT3NdYb2mbfbtId5tsW8XeN/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Geo L.O4 +.pptx": "https://docs.google.com/presentation/d/1R8WKNkyeU3nDnyD7kWBi1ca0i_F25eYX/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Geology L.O4.pptx": "https://docs.google.com/presentation/d/1T4QWflZ-Y9W2zqGmKZmD5YdsKmzFFL1H/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Chapter 6 Sedimentary Rocks للشرح.ppt": "https://docs.google.com/presentation/d/1T1jL2wyXsmPLfo1RAmT0qudkSCu7MSAV/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Geology L.O 5 grade 10.pptx": "https://docs.google.com/presentation/d/1OrWYjpIXh4C50mq2S9HeB8q6xwCkDTgD/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Geology L.O 5.pptx": "https://docs.google.com/presentation/d/1J2uQ8p8naNLxOB85PgiR9-EQQ9SJDZDY/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Geology L.O 6 grade 10.pptx": "https://docs.google.com/presentation/d/1-C0nsI5mqJp1XFaG_vk_O7Qt74pwWFcX/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Geology L.O 6.pptx": "https://docs.google.com/presentation/d/1XGRqeQ4J5DvqNSQlHyhG8AGLSgOzZusH/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Geology L.O 7 grade 10.pptx": "https://docs.google.com/presentation/d/10thYKW9fom1wqS4eD9jGgukDcBj_qUbf/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Geology L.O 7.pptx": "https://docs.google.com/presentation/d/16KTN-cPq3ckl2m1W96JA45jroDuy3uyb/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "LO1.07.pdf": "https://drive.google.com/file/d/1eilAkXBzFLv02pbdz1PhhcOf09mKHeyn/view?usp=drivesdk",
+    "rock cycle.ppt": "https://docs.google.com/presentation/d/1h2U15C4VCv5FfzRFDthC1cw8PqNlAvzI/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "G10 queeze.pdf": "https://drive.google.com/file/d/1-fK4P0lbBwCQz0-G50kyUCf5-nyES89d/view?usp=drivesdk",
+    "Geo Quiz LO1.01.pdf": "https://drive.google.com/file/d/1_en6bf2orNxnrxH5ATNhvSSNLn2bvR_v/view?usp=drivesdk",
+    "igneous test.PNG": "https://drive.google.com/file/d/1GwurogFLm5GINKzoLg0rIyXhfnYjOhR1/view?usp=drivesdk",
+    "IgneousVers2 QUIZ AND ANSWER.pdf": "https://drive.google.com/file/d/1K8k6K8QC82TLNHaLrKHC5WkzgBanxrhL/view?usp=drivesdk",
+    "L.O 7 quizz and answer.docx": "https://docs.google.com/document/d/1JoX40gpBCSVS56a2s0L0hLJaAfLKQBmr/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "LO 6 quizz with answer.docx": "https://docs.google.com/document/d/1-8T-5Lbi_BRVBLkLkioq5O73z07Z1grS/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "metamorphic quiz.doc": "https://docs.google.com/document/d/1U30IdRo95BNCjurdt68cXvu5Au-iuu-E/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Metamorphic Rocks Quiz.docx": "https://docs.google.com/document/d/135Xbf3xRIOSF3LQpwykFbrvEZBjlV4ue/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Minerals QUESTION AND ANSWERS.pdf": "https://drive.google.com/file/d/1gNSoBkAbLEPHDjyDAhkSJ8FBfjJEdXwa/view?usp=drivesdk",
+    "Quiz LO1.01.pdf": "https://drive.google.com/file/d/1IqDEbMpjIQ02f1s-Y4OKVXO1PPBV77r2/view?usp=drivesdk",
+    "quizz and answer on metamorphic.pdf": "https://drive.google.com/file/d/1en-kSDm4eTrl9cXFHP5ZTkgOvKX0woW4/view?usp=drivesdk",
+    "Rock Pre QUIZ AND ANSWER.pdf": "https://drive.google.com/file/d/1SwvG3_q3iS-g0vKIZJy1o0GJe9fPaYun/view?usp=drivesdk",
+    "geology_G_10_.pdf": "https://drive.google.com/file/d/1B-e8K2XCuII1ZibvvUax30EqP5U3xC3N/view?usp=drivesdk",
+    "CK-12-Earth-Science-For-High-School-Workbook-with-Answers-١.pdf": "https://drive.google.com/file/d/1oK16UY5G9XK74-0cdoV_lw1goewaL3LE/view?usp=drivesdk",
+    "Part 1 (1) EARTH.COMM BOOK.pdf": "https://drive.google.com/file/d/1Tx27jLfqonvJBfrLtLjdail0pG5v3Jaj/view?usp=drivesdk",
+    "Part 2 (1)EA RTH.COMM BOOK.pdf": "https://drive.google.com/file/d/1PuLQBmFV_AlfgNeLBqXWLBbaG5KKQsHR/view?usp=drivesdk",
+    "ES student ebook (1).pdf": "https://drive.google.com/file/d/17TtGX7zNM-NVJ4Hmpp61iFIMtdknB2Es/view?usp=drivesdk",
+    "Essentials of geologe 11th edetion.pdf": "https://drive.google.com/file/d/1eOpEnb6Y2MTQUeZE9RydHA7GV9VHU8qx/view?usp=drivesdk",
+    "Chapter-14-Groundwater-21-01.pdf": "https://drive.google.com/file/d/1_JjL080jGHqrlJsAB32v7kTWGvDXYI_F/view?usp=drivesdk",
+    "Chapter-16-Glaciation-v.2.06.pdf": "https://drive.google.com/file/d/1-ZU__2y_CzusVdokLFJmYVlik4Dn2coz/view?usp=drivesdk",
+    "Chapter-7-Metamorphism-and-Metamorphic-Rocks-21-01.pdf": "https://drive.google.com/file/d/1cIFk84-c8ZRSxtiwUTXU7pf-Q0jsx4uD/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-1-Introduction-to-Geology.pdf": "https://drive.google.com/file/d/1WQJnEpFnLJW1AzD6UtLrIHavH8lMlcTh/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-10-Plate-Tectonics.pdf": "https://drive.google.com/file/d/16PFMVrj34Oh_sJ1kLVOgliu66dscCi-f/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-11-Earthquakes.pdf": "https://drive.google.com/file/d/1u9JdPhqsANzm0LtBKGLTRfZZRCn9WLah/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-12-Geological-Structures.pdf": "https://drive.google.com/file/d/1fp8k6R6rftg5BhBSZyiHogXBdDuelS4h/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-13-Streams-and-Floods.pdf": "https://drive.google.com/file/d/18ZyvAZztYcvv66ICJgdQByaUO3FKH2hJ/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-18-Geology-of-the-Oceans.pdf": "https://drive.google.com/file/d/1d8PZi7VrxQ2__KaEbR3RxIvTG6QcI1j5/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-2-Minerals.pdf": "https://drive.google.com/file/d/1iVFZYdY6_dBIa6oHCpJm2q5jQcjLK5y_/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-20-Geological-Resources.pdf": "https://drive.google.com/file/d/1y6AaLbgYCmE-gHIjliZAUFwlhLWlTSlL/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-22-The-Origin-of-Earth-and-the-Solar-System.pdf": "https://drive.google.com/file/d/1yMaFJdMCzOiXlgIGlah-F51ng8Pdrq-/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-3-Intrusive-Igneous-Rocks.pdf": "https://drive.google.com/file/d/1Ul954N_CngDqT_XjSsIXuEJInVTStzqv/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-4-Volcanism.pdf": "https://drive.google.com/file/d/1dXF49nKa7QdcqbP49MvnGO5cJsxKOHby/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-5-Weathering-and-Soil.pdf": "https://drive.google.com/file/d/1P46H-g9Ce0JBXEj_fQntL2msZbo0xhJl/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-6-Sediments-and-Sedimentary-Rocks.pdf": "https://drive.google.com/file/d/1vy6H7AyAI7c-rQmxSTnkYjGC7we5bG_m/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-8-Measuring-Geological-Time.pdf": "https://drive.google.com/file/d/1skcfxNWMnCyddJ9MPLDOvohPPbqYpCfv/view?usp=drivesdk",
+    "Physical-Geology-2nd-Edition-Chapter-9-Earths-Interior.pdf": "https://drive.google.com/file/d/1sLjwjy05I5NQMqyHzIgZLB0ega6h94Yb/view?usp=drivesdk",
+    "quiz-on-sedimentary.rtf": "https://drive.google.com/file/d/1CCEr84KDYyzL8NFiBE6GnjQ2O4Z8sNL_/view?usp=drivesdk",
+    "quiz-on-igneous-rocks.rtf": "https://drive.google.com/file/d/1hPA8eWfcNLKHfTFmYYOLZ--w_5_5dytN/view?usp=drivesdk"
+  }
+}

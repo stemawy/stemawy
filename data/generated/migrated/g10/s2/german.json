@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-06T00:20:53.066Z",
+  "source": {
+    "file": "migration/raw/g10/s2/german.json"
+  },
+  "subject": {
+    "id": "german-g10-s2",
+    "name": "German",
+    "description": "German resources for Grade 10, Semester 2.",
+    "grade": "10",
+    "semester": "2",
+    "icon": "german",
+    "content": [
+      {
+        "id": "german-g10-s2-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Begrüßung & Auskunft",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "german-g10-s2-concept-jemanden-begr-ssen-und-sich-verabschieden",
+            "title": "jemanden begrüssen und sich verabschieden",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "german-g10-s2-concept-jemanden-nach-dem-herkunftsland-nennen-und-ber-sprachkenntnisse",
+            "title": "‣jemanden nach dem Herkunftsland nennen und über Sprachkenntnisse",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "german-g10-s2-concept-auskunft-geben",
+            "title": "Auskunft geben",
+            "description": "",
+            "order": 3,
+            "resources": []
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "german-g10-s2-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Befinden & Familie",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "german-g10-s2-concept-jemanden-nach-dem-befinden-fragen-und-sein-eigenes-befinden-ausdr-cken",
+            "title": "jemanden nach dem Befinden fragen und sein eigenes Befinden ausdrücken",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "german-g10-s2-concept-seine-familie-und-freunde-vorstellen",
+            "title": "seine Familie und Freunde vorstellen",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "german-g10-s2-concept-den-wohnort-und-die-adresse-nennen",
+            "title": "den Wohnort und die Adresse nennen",
+            "description": "",
+            "order": 3,
+            "resources": []
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "german-g10-s2-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Additional References",
+        "description": "",
+        "order": 3,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "german-g10-s2-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 4,
+        "concepts": [],
+        "resources": [
+          "german-g10-s2-pdf-online-quizs-docx-541b22f1cf",
+          "german-g10-s2-pdf-pdf-47568cb596",
+          "german-g10-s2-pdf-copy-pdf-1ff25151a1",
+          "german-g10-s2-pdf-docx-964c6490c2",
+          "german-g10-s2-pdf-copy-pdf-f3c8f8065f"
+        ]
+      },
+      {
+        "id": "german-g10-s2-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 5,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "german-g10-s2-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 6,
+        "concepts": [],
+        "resources": [
+          "german-g10-s2-pdf-deutsch-herr-amr-final-2-pptx-4166cb3201",
+          "german-g10-s2-pdf-super-star-pdf-4431b27460",
+          "german-g10-s2-pdf-pdf-52dfd53ffd",
+          "german-g10-s2-pdf-pdf-6b057271ec",
+          "german-g10-s2-pdf-pdf-8365e5a86e",
+          "german-g10-s2-pdf-18-pdf-1a0db9b573"
+        ]
+      }
+    ],
+    "units": 3
+  },
+  "resources": [
+    {
+      "id": "german-g10-s2-pdf-online-quizs-docx-541b22f1cf",
+      "title": "Online Quizs.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1EPRn-xbUYflSvEkLELNWCTdkONjrDCaZ/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s2-pdf-pdf-47568cb596",
+      "title": "أسئلة درس المفعول به الأدوات فقط .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1mtlIdxmn1T4uJPUdtazLtmAI0i1MGfV5/view?usp=drive_link",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s2-pdf-copy-pdf-1ff25151a1",
+      "title": "أولى ثانوى المتفوقين+ أسئلة - Copy.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1FeW7OgWaR5IXhxAaxqOan1QV6uEg4OkK/view?usp=drive_link",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s2-pdf-docx-964c6490c2",
+      "title": "أولى ثانوى المتفوقين+ إجابات.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1wbimrkWyJbwErBTRm3-XbVKTGABkJjcG/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s2-pdf-copy-pdf-f3c8f8065f",
+      "title": "إجابات درس المفعول به فقط الأدوات - Copy.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1VvrUC1ncKrkde8eBFTZv5UeOYWx87f5k/view?usp=drive_link",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "german-g10-s2-pdf-deutsch-herr-amr-final-2-pptx-4166cb3201",
+      "title": "Deutsch_herr_amr_مترجم_FINAL[2].pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1VKb4Dd7j9SP2__gp6laPdC7avhyikUQ3/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "german-g10-s2-pdf-super-star-pdf-4431b27460",
+      "title": "كتاب super star مراجعه ث ع .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1kd7H7PdOl7ndsq8oCA0xTcK6zHew7jOV/view?usp=drive_link",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "german-g10-s2-pdf-pdf-52dfd53ffd",
+      "title": "كتاب ستار مراجعه اولى ترم تانى.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1VNh1KUUrMWqsWgPkum8wvK9t3NC20GbX/view?usp=drive_link",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "german-g10-s2-pdf-pdf-6b057271ec",
+      "title": "نموذج اجابة كتاب ستار مراجعة ث ع .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1rdYcfXe2ufsPapc_RnY7dGVtYPnVH3OU/view?usp=drive_link",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "german-g10-s2-pdf-pdf-8365e5a86e",
+      "title": "مراجعة كلمات الصف الأول.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Nux6F1J3rBzw30swTvQt3Xj2XPUfU78z/view?usp=drive_link",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "german-g10-s2-pdf-18-pdf-1a0db9b573",
+      "title": "مواقف ال 18 درس كلهم.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1nZjy49GyIsSPefW49nlLUBHhAWJG_ipf/view?usp=drive_link",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

@@ -1,0 +1,823 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T22:14:06.655Z",
+  "source": {
+    "file": "migration/raw/g10/s2/arabic.json"
+  },
+  "subject": {
+    "id": "arabic-g10-s2",
+    "name": "Arabic",
+    "description": "Arabic resources for Grade 10, Semester 2.",
+    "grade": "10",
+    "semester": "2",
+    "icon": "arabic",
+    "content": [
+      {
+        "id": "arabic-g10-s2-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "النحو",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "أسلوب الاستثناء",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "arabic-g10-s2-video-4i8xj4imm0e-df162531b6",
+              "arabic-g10-s2-video-tkabfnxz738-a50e26da9c",
+              "arabic-g10-s2-video-boev3rwkcx8-4ec07a5e94"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "الاسم المقصور",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "arabic-g10-s2-video-dag44qcizcu-f628153b7c",
+              "arabic-g10-s2-video-2bxsvo67tzy-803a9d578f",
+              "arabic-g10-s2-video-bu-x8u9sfu4-d9744143b2"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "الاسم المنقوص",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "arabic-g10-s2-video-x-vrragphfm-3e6ede4b0e",
+              "arabic-g10-s2-video-cmzs9tz2das-f01cea4be1",
+              "arabic-g10-s2-video-pdhqbzrhise-56145f1d7d"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "الاسم  الممدود",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "arabic-g10-s2-video-ht7muhyamw-2eec31c6cf",
+              "arabic-g10-s2-video-nxye9qkgkce-535bb6002b",
+              "arabic-g10-s2-video-cmzs9tz2das-f01cea4be1"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "المثني",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "arabic-g10-s2-video-5sev1ro4vsm-fa0674f3c7",
+              "arabic-g10-s2-video-ynyjlyqsmsg-de6cd4f5bb",
+              "arabic-g10-s2-video-efu3ls4nrbe-5ccf19a045"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "جمع المذكر السالم",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "arabic-g10-s2-video-q1flg0h9-lw-534e44487c",
+              "arabic-g10-s2-video-d7cdeiat-y0-e05c8d3744",
+              "arabic-g10-s2-video-7mrusm5dije-80d69b67b7"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "جمع المؤنث السالم",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "arabic-g10-s2-video-a7vuwcr36eg-9c58038a25",
+              "arabic-g10-s2-video-xtq7kwhvrgs-d065b571f8",
+              "arabic-g10-s2-video-luczbalv93k-44b8e4f2fd"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "إسناد الأفعال إلى الضمائر",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "arabic-g10-s2-video-9cp-mzzif9s-9f59a109bb",
+              "arabic-g10-s2-video-cfynysuli0-40097d329a",
+              "arabic-g10-s2-video-vciu8-j5lqu-5b257f4c99"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "البلاي ليست دي شارحة منهج النحو كله",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "arabic-g10-s2-video-72dbb1660a"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s2-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "الأدب",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "الأدب في العصر العباسي",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "arabic-g10-s2-video-lo8lrxi1joq-aaeb6eeb5f",
+              "arabic-g10-s2-video-5ayhy69n0xu-c5c82927d3",
+              "arabic-g10-s2-video-7qwsu85fgm0-c05ae173b0"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "تطور الشعر المعاصر",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "arabic-g10-s2-video-iuxzmlk7kcu-8f45f98a29",
+              "arabic-g10-s2-video-9hise2ezbi8-9958b49355",
+              "arabic-g10-s2-video-go-xzrzkbsa-ce5c4eb4f1"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "ملخص ل منهج الأدب",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "arabic-g10-s2-video-7oshs-d-vpw-4bb9db4019"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s2-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "القصة",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "ملخص القصة ",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "arabic-g10-s2-video-crcoai8bwek-338eadb5b7",
+              "arabic-g10-s2-video-rxuptm2cdte-1c91f9b82c"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s2-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "القراءة والنصوص",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "النصوص",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "arabic-g10-s2-video-xoknnxgc-1g-f3dad71d85",
+              "arabic-g10-s2-video-njdo9z1c2ys-e19407a211"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s2-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "البلاغة",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "الكناية",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "arabic-g10-s2-video-5t1rctmfxvo-661c161e55",
+              "arabic-g10-s2-video-cwerf1qouk4-391eb6e449",
+              "arabic-g10-s2-video-djxpcgt-fvq-7f5ce94a32"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "المجاز المرسل",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "arabic-g10-s2-video-75xyoalclvi-78899f91ef",
+              "arabic-g10-s2-video-ylmuk0dhkzu-8e4c78afe7",
+              "arabic-g10-s2-video-su0vk81aks-3bcf032433"
+            ]
+          },
+          {
+            "id": "arabic-g10-s2-concept-",
+            "title": "ملخص ل منهج البلاغة  ",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "arabic-g10-s2-video-do6gjr-yfa-3c64c7a0cf"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s2-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "كتب المنهج",
+        "description": "",
+        "order": 6,
+        "concepts": [],
+        "resources": [
+          "arabic-g10-s2-pdf-pdf-7464c651a6",
+          "arabic-g10-s2-pdf-1-2-pdf-cc73ad3676",
+          "arabic-g10-s2-pdf-pdf-e6018f3fba",
+          "arabic-g10-s2-pdf-pdf-66679bf64a"
+        ]
+      },
+      {
+        "id": "arabic-g10-s2-unit-07",
+        "type": "unit",
+        "number": "07",
+        "title": "المراجع الإضافية",
+        "description": "",
+        "order": 7,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s2-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 8,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s2-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 9,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s2-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 10,
+        "concepts": [],
+        "resources": []
+      }
+    ],
+    "units": 7
+  },
+  "resources": [
+    {
+      "id": "arabic-g10-s2-video-4i8xj4imm0e-df162531b6",
+      "title": "محمد صلاح | نحو | أسلوب الاستثناء",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/4I8XJ4Imm0E?si=rk-mHUwSj29Q8CYj",
+      "youtubeId": "4I8XJ4Imm0E",
+      "source": {
+        "location": "LO1 → أسلوب الاستثناء"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-tkabfnxz738-a50e26da9c",
+      "title": "أسلوب الاستثناء كاملاً في فيديو واحد | أسهل شرح لأولى ثانوي الترم الثاني ٢٠٢٦ ",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=TKabfNxz738",
+      "youtubeId": "TKabfNxz738",
+      "source": {
+        "location": "LO1 → أسلوب الاستثناء"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-boev3rwkcx8-4ec07a5e94",
+      "title": "اسلوب الاستثناء الدرس الاول اولى ثانوى | شرح درس الاستثناء للصف الاول الثانوي الترم التاني",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=bOEV3rWkCX8",
+      "youtubeId": "bOEV3rWkCX8",
+      "source": {
+        "location": "LO1 → أسلوب الاستثناء"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-dag44qcizcu-f628153b7c",
+      "title": "شرح الاسم المقصور بطريقة سهلة مش هتنساها - للصف الأول الثانوي ترم ثان 2025",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=DaG44QcIzcU",
+      "youtubeId": "DaG44QcIzcU",
+      "source": {
+        "location": "LO1 → الاسم المقصور"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-2bxsvo67tzy-803a9d578f",
+      "title": "الاسم المقصور وتثنيته وجمعه | تعلم الإعراب بسهولة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=2bXSvO67TzY",
+      "youtubeId": "2bXSvO67TzY",
+      "source": {
+        "location": "LO1 → الاسم المقصور"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-bu-x8u9sfu4-d9744143b2",
+      "title": "شرح الاسم المقصور تثنيته وجمعه جمعا سالما | أولى ثانوي 2025 | ثانوية عامة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=BU-X8u9sFu4",
+      "youtubeId": "BU-X8u9sFu4",
+      "source": {
+        "location": "LO1 → الاسم المقصور"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-x-vrragphfm-3e6ede4b0e",
+      "title": "الاسم المقصور والمنقوص والممدود | نحو | ثانوية عامة | جهاد أشرف | دفعة 2026",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=X-VrraGpHFM",
+      "youtubeId": "X-VrraGpHFM",
+      "source": {
+        "location": "LO1 → الاسم المنقوص"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-cmzs9tz2das-f01cea4be1",
+      "title": "شرح الاسم المقصور والمنقوص والممدود لدفعة 2026 | مع القائد حسام حسن",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=cmZs9tz2Das",
+      "youtubeId": "cmZs9tz2Das",
+      "source": {
+        "location": "LO1 → الاسم المنقوص"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-pdhqbzrhise-56145f1d7d",
+      "title": "الاسم المنقوص وتثنيته وجمعه | تعلم الإعراب بسهولة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=pDHQbZRhISE",
+      "youtubeId": "pDHQbZRhISE",
+      "source": {
+        "location": "LO1 → الاسم المنقوص"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-ht7muhyamw-2eec31c6cf",
+      "title": "الاسم الممدود وتثنيته وجمعه | تعلم الإعراب بسهولة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=-Ht7muhYAmw",
+      "youtubeId": "-Ht7muhYAmw",
+      "source": {
+        "location": "LO1 → الاسم  الممدود"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-nxye9qkgkce-535bb6002b",
+      "title": "الاسم المقصور والاسم المنقوص و الاسم الممدود - الصف الأول الثانوي (الترم الثاني)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=nXYE9QkgKCE",
+      "youtubeId": "nXYE9QkgKCE",
+      "source": {
+        "location": "LO1 → الاسم  الممدود"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-5sev1ro4vsm-fa0674f3c7",
+      "title": " الملحق بالمثنى | شرح المثنى كاملًا",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=5SeV1RO4vSM",
+      "youtubeId": "5SeV1RO4vSM",
+      "source": {
+        "location": "LO1 → المثني"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-ynyjlyqsmsg-de6cd4f5bb",
+      "title": "المثنى والملحق به | جمع المذكر السالم والملحق به| المؤنث السالم والملحق به| نحو | للثانوية العامة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=YnYJlYQsMsg",
+      "youtubeId": "YnYJlYQsMsg",
+      "source": {
+        "location": "LO1 → المثني"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-efu3ls4nrbe-5ccf19a045",
+      "title": "شرح المثنى وملحقاته | أولى ثانوي 2025 | ثانوية عامة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=eFU3ls4NRBE",
+      "youtubeId": "eFU3ls4NRBE",
+      "source": {
+        "location": "LO1 → المثني"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-q1flg0h9-lw-534e44487c",
+      "title": "شرح درس جمع المذكر السالم وما يلحق به - نحو اولي ثانوي الترم التاني 2024",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Q1fLG0h9_Lw",
+      "youtubeId": "Q1fLG0h9_Lw",
+      "source": {
+        "location": "LO1 → جمع المذكر السالم"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-d7cdeiat-y0-e05c8d3744",
+      "title": "الملحق بجمع المذكر السالم",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=d7cDEiaT-Y0",
+      "youtubeId": "d7cDEiaT-Y0",
+      "source": {
+        "location": "LO1 → جمع المذكر السالم"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-7mrusm5dije-80d69b67b7",
+      "title": "شرح جمع المذكر السالم وملحقاته | أولى ثانوي الترم الثاني 2025",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=7MrUsm5diJE",
+      "youtubeId": "7MrUsm5diJE",
+      "source": {
+        "location": "LO1 → جمع المذكر السالم"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-a7vuwcr36eg-9c58038a25",
+      "title": "الملحق بجمع المؤنث السالم بطريقة سهلة مستحيل تنساها 2025",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=a7vuwCR36Eg",
+      "youtubeId": "a7vuwCR36Eg",
+      "source": {
+        "location": "LO1 → جمع المؤنث السالم"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-xtq7kwhvrgs-d065b571f8",
+      "title": "جمع المؤنث السالم وما يُلحق به | شرح شامل لطلاب الصف الأول الثانوي العام مع د. ربيع الجمهودي",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=xtq7KWhVrgs",
+      "youtubeId": "xtq7KWhVrgs",
+      "source": {
+        "location": "LO1 → جمع المؤنث السالم"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-luczbalv93k-44b8e4f2fd",
+      "title": "شرح جمع المؤنث السالم وملحقاته | أولى ثانوي 2025 | مكملات منهج ثانوية عامة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=lUCZBaLV93k",
+      "youtubeId": "lUCZBaLV93k",
+      "source": {
+        "location": "LO1 → جمع المؤنث السالم"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-9cp-mzzif9s-9f59a109bb",
+      "title": "ملخص سهل جدا لأصعب درس في المنهج | إسناد الأفعال إلى الضمائر",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=9cP-mZziF9s",
+      "youtubeId": "9cP-mZziF9s",
+      "source": {
+        "location": "LO1 → إسناد الأفعال إلى الضمائر"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-cfynysuli0-40097d329a",
+      "title": "شرح إسناد الأفعال إلى الضمائر | أولى ثانوي 2025 | ثانوية عامة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=-cfYNysuli0",
+      "youtubeId": "-cfYNysuli0",
+      "source": {
+        "location": "LO1 → إسناد الأفعال إلى الضمائر"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-vciu8-j5lqu-5b257f4c99",
+      "title": "إسناد الأفعال للضمائر | الملحق بالمثنى | الملحق بجمع المذكر السالم | الملحق بجمع المؤنث السالم",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=vciU8_J5lqU",
+      "youtubeId": "vciU8_J5lqU",
+      "source": {
+        "location": "LO1 → إسناد الأفعال إلى الضمائر"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-72dbb1660a",
+      "title": "البلاي ليست دي شارحة منهج النحو كله",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtube.com/playlist?list=PLiHRnPC3do8XbF1VVZwhJaXq9CH2WRl1n&si=E9Q3Z8Xdw41JYAtv",
+      "source": {
+        "location": "LO1 → البلاي ليست دي شارحة منهج النحو كله"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-lo8lrxi1joq-aaeb6eeb5f",
+      "title": "شرح درس الأدب في العصر العباسي بأسهل طريقة للصف الأول الثانوي 2025",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=lO8lRXI1JoQ",
+      "youtubeId": "lO8lRXI1JoQ",
+      "source": {
+        "location": "LO2 → الأدب في العصر العباسي"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-5ayhy69n0xu-c5c82927d3",
+      "title": "أدب العصر العباسي في ١٦ دقيقة | أسهل شرح لأولى ثانوي الترم الثاني ٢٠٢٦",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=5AYHY69n0XU",
+      "youtubeId": "5AYHY69n0XU",
+      "source": {
+        "location": "LO2 → الأدب في العصر العباسي"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-7qwsu85fgm0-c05ae173b0",
+      "title": "الادب في العصر العباسي | الشعر والنثر | بطريقه كيف يأتي في الامتحان | دروس عربيه",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=7qWsu85fGm0",
+      "youtubeId": "7qWsu85fGm0",
+      "source": {
+        "location": "LO2 → الأدب في العصر العباسي"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-iuxzmlk7kcu-8f45f98a29",
+      "title": "تطور الشعر المعاصر مع أهم المفاتيح اللي هتخليك تحل للصف الأول الثانوي 2025",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=IUxZMlk7kCU",
+      "youtubeId": "IUxZMlk7kCU",
+      "source": {
+        "location": "LO2 → تطور الشعر المعاصر"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-9hise2ezbi8-9958b49355",
+      "title": "شرح تطور الشعر المعاصر- أدب - أولى ثانوي 2025",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=9HIsE2EZbI8",
+      "youtubeId": "9HIsE2EZbI8",
+      "source": {
+        "location": "LO2 → تطور الشعر المعاصر"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-go-xzrzkbsa-ce5c4eb4f1",
+      "title": "تطور الشعر المعاصر (أدب) - الصف الأول الثانوي (الترم الثاني)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=GO-XzrzkBSA",
+      "youtubeId": "GO-XzrzkBSA",
+      "source": {
+        "location": "LO2 → تطور الشعر المعاصر"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-7oshs-d-vpw-4bb9db4019",
+      "title": "ملخص ل منهج الأدب",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7OsHS_d-Vpw?si=qPUkuL4gcFvGLz4-",
+      "youtubeId": "7OsHS_d-Vpw",
+      "source": {
+        "location": "LO2 → ملخص ل منهج الأدب"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-crcoai8bwek-338eadb5b7",
+      "title": "ملخص قصة عنترة الترم الثاني ( كاملة ) - الصف الأول الثانوي",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/crcoaI8bWek?si=eU5E6FOWqbHnNROb",
+      "youtubeId": "crcoaI8bWek",
+      "source": {
+        "location": "LO3 → ملخص القصة "
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-rxuptm2cdte-1c91f9b82c",
+      "title": "قصة أبو الفوارس | عنترة بن شداد | الترم الثاني | الصف الأول الثانوي | جهاد أشرف | دفعة 2025",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/RXUpTm2cdtE?si=DJ1wpCZIoKcEIXJV",
+      "youtubeId": "RXUpTm2cdtE",
+      "source": {
+        "location": "LO3 → ملخص القصة "
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-xoknnxgc-1g-f3dad71d85",
+      "title": "النصوص المتحررة | أولى وثانية ثانوي | المراجعة النهائية",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=xoKNnXGc_1g",
+      "youtubeId": "xoKNnXGc_1g",
+      "source": {
+        "location": "LO4 → النصوص"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-njdo9z1c2ys-e19407a211",
+      "title": "شرح تطور الشعر المعاصر- أدب - أولى ثانوي اضمن درجة النصوص والقراءة المتحررة | أولى وتانية ثانوي 2026 | الترم الأول | رضا الفاروق",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=NjDO9Z1c2ys",
+      "youtubeId": "NjDO9Z1c2ys",
+      "source": {
+        "location": "LO4 → النصوص"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-5t1rctmfxvo-661c161e55",
+      "title": " درس الكناية (بلاغة) بأبسط شكل 😍 - الصف الأول الثانوي (الترم الثاني) 2025",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=5T1rcTmfXvo",
+      "youtubeId": "5T1rcTmfXvo",
+      "source": {
+        "location": "LO5 → الكناية"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-cwerf1qouk4-391eb6e449",
+      "title": "شرح الكناية بطريقة سهلة مش هتنساها - للصف الأول الثانوي ترم ثان 2025",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=CwerF1QOUK4",
+      "youtubeId": "CwerF1QOUK4",
+      "source": {
+        "location": "LO5 → الكناية"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-djxpcgt-fvq-7f5ce94a32",
+      "title": "الكناية ببساطة للصف الأول الثانوي | أسهل شرح بالأمثلة والتطبيقات العملية _دروس عربيه",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=djxpcGT-FVQ",
+      "youtubeId": "djxpcGT-FVQ",
+      "source": {
+        "location": "LO5 → الكناية"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-75xyoalclvi-78899f91ef",
+      "title": "المجاز المرسل | تعلم البلاغة بسهولة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=75XYOalcLvI",
+      "youtubeId": "75XYOalcLvI",
+      "source": {
+        "location": "LO5 → المجاز المرسل"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-ylmuk0dhkzu-8e4c78afe7",
+      "title": "المجاز المرسل (بلاغة) - الصف الأول الثانوي (الترم الثاني)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=YlmuK0DHkZU",
+      "youtubeId": "YlmuK0DHkZU",
+      "source": {
+        "location": "LO5 → المجاز المرسل"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-su0vk81aks-3bcf032433",
+      "title": "المجاز المرسل للصف الأول الثانوي | أبسط شرح مع أمثلة |وداعًا لصعوبة البلاغة _دروس عربية",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=_SU0VK81Aks",
+      "youtubeId": "_SU0VK81Aks",
+      "source": {
+        "location": "LO5 → المجاز المرسل"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-video-do6gjr-yfa-3c64c7a0cf",
+      "title": "بلاغة الترم الثاني كاملة - الصف الأول الثانوي",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=do6gJr--YfA",
+      "youtubeId": "do6gJr--YfA",
+      "source": {
+        "location": "LO5 → ملخص ل منهج البلاغة  "
+      }
+    },
+    {
+      "id": "arabic-g10-s2-pdf-pdf-7464c651a6",
+      "title": "كتاب الامتحان الأساسى - أولى ثانوى الترم الثانى.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1PO6ovHwik2Wa4p-xBhF5zjTjAgGOyBKz/view?usp=drive_link",
+      "source": {
+        "location": "LO6 → كتاب الامتحان"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-pdf-1-2-pdf-cc73ad3676",
+      "title": "الاضواء - لغة عربية - 1 ثانوي - ترم 2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/13UGPFk1JRcD_ezTOGmcfdCvfQqK5SlK8/view?usp=drive_link",
+      "source": {
+        "location": "LO6 → كتاب الأضواء"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-pdf-pdf-e6018f3fba",
+      "title": "مراجعة سريعة على اللغة العربية.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1fkBpsVv1H19eRtncNcrRqWVKT2UVXwD-/view?usp=drive_link",
+      "source": {
+        "location": "LO6 → كتاب المراجعة"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "arabic-g10-s2-pdf-pdf-66679bf64a",
+      "title": "أبو الفوارس عنترة.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1F2LbvysohN9qYk_MNnmSzc4wQjdil0SI/view?usp=drive_link",
+      "source": {
+        "location": "LO6 → قصة أبو الفوارس عنترة"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

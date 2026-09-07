@@ -1,0 +1,514 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-06T01:17:47.714Z",
+  "source": {
+    "file": "migration/raw/g10/s1/socialstudies.json"
+  },
+  "subject": {
+    "id": "socialstudies-g10-s1",
+    "name": "Social Studies",
+    "description": "Social Studies resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "socialstudies",
+    "content": [
+      {
+        "id": "socialstudies-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 1,
+        "concepts": [],
+        "resources": [
+          "socialstudies-g10-s1-pdf-docx-76608c4580",
+          "socialstudies-g10-s1-pdf-pdf-d1a55b4330",
+          "socialstudies-g10-s1-pdf-docx-3105bac73e",
+          "socialstudies-g10-s1-pdf-pdf-60af1ed0c7",
+          "socialstudies-g10-s1-pdf-pdf-3fb0f9d99b"
+        ]
+      },
+      {
+        "id": "socialstudies-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 2,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "socialstudies-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 3,
+        "concepts": [],
+        "resources": [
+          "socialstudies-g10-s1-pdf-pdf-433706ca4a",
+          "socialstudies-g10-s1-pdf-2021-pdf-0fb3cb877b",
+          "socialstudies-g10-s1-pdf-2024-pdf-c40c3b9b7b",
+          "socialstudies-g10-s1-pdf-1-1-pdf-38ef93f828",
+          "socialstudies-g10-s1-pdf-101-2025-1-pdf-d5c9021ad4",
+          "socialstudies-g10-s1-pdf-2-pdf-e0448d19b7",
+          "socialstudies-g10-s1-pdf-2024-pdf-c1b415a734",
+          "socialstudies-g10-s1-pdf-history-1sec-sb-wb-pdf-9671d9edf4",
+          "socialstudies-g10-s1-pdf-pdf-572ccab8fa",
+          "socialstudies-g10-s1-pdf-pptx-f6cca8c185",
+          "socialstudies-g10-s1-pdf-pdf-f233d3f58d",
+          "socialstudies-g10-s1-pdf-pdf-1a0798757c",
+          "socialstudies-g10-s1-pdf-pdf-c01e87751d",
+          "socialstudies-g10-s1-pdf-pdf-516c2c32d5",
+          "socialstudies-g10-s1-pdf-pdf-1a33234e49",
+          "socialstudies-g10-s1-pdf-docx-757cff0296",
+          "socialstudies-g10-s1-pdf-pdf-602ac7fcd1",
+          "socialstudies-g10-s1-pdf-pptx-7b20539a02",
+          "socialstudies-g10-s1-pdf-docx-ce1481a19f",
+          "socialstudies-g10-s1-pdf-docx-18e36e22f2",
+          "socialstudies-g10-s1-pdf-2-1-docx-ecc403501b",
+          "socialstudies-g10-s1-pdf-docx-9a3c31f383",
+          "socialstudies-g10-s1-pdf-docx-16969c8026",
+          "socialstudies-g10-s1-pdf-pptx-912f011fbb",
+          "socialstudies-g10-s1-pdf-ppt-14e3b89090",
+          "socialstudies-g10-s1-pdf-pdf-ab0fa6712a"
+        ]
+      }
+    ],
+    "units": 0
+  },
+  "resources": [
+    {
+      "id": "socialstudies-g10-s1-pdf-docx-76608c4580",
+      "title": "نموذج اختبار فى الدراسات الاجتماعية.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1BCaTP4rR5bH3V8KBXMhfTuYCTzMNou2B/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Questions"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-d1a55b4330",
+      "title": "مقالى تدريبات اولى  جغرافيا.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1m0-2SJ8knzyBMYqVzdvxbmH6S-pFbcbh/view?usp=drivesdk",
+      "source": {
+        "location": "Questions"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-docx-3105bac73e",
+      "title": "الدراسات الاجتماعية.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1Uav1o3N_58rbRZOlpMSAsDCFfsvlPoUA/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Questions"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-60af1ed0c7",
+      "title": "اسئلة جغرافيا.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1tFK1onEpLr-MW0fAxjqT9uWkwzAAHINj/view?usp=drivesdk",
+      "source": {
+        "location": "Questions"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-3fb0f9d99b",
+      "title": "اسئلة تاريخ.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ILivCgq4YI447iolNoeMpm6MhOzLCYRt/view?usp=drivesdk",
+      "source": {
+        "location": "Questions"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-433706ca4a",
+      "title": "كتاب تاريخ اولى ثانوى ترم اول - منتدى الامتحان التعليمى.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1nYhHkK-uN31CwqzFJFR94HdedeM_T4tW/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-2021-pdf-0fb3cb877b",
+      "title": "كتاب الجغرافيا أولي ثانوي الترم الأول 2021.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1qyAS7y8_e6KWg_83jxS0meHFHEKFwKaD/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-2024-pdf-c40c3b9b7b",
+      "title": "كتاب الامتحان 2024.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/11MDxiBwgiLqxX8MwHX_W1G12159C3paH/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-1-1-pdf-38ef93f828",
+      "title": "الامتحان_تاريخ_1_ثانوي_ترم_1_ذاكرولي.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1G3OQZzXxntSk53op1g6rY3bdlA_PJPe8/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-101-2025-1-pdf-d5c9021ad4",
+      "title": "الامتحان جغرافيا (101) 2025[1].pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ez43HQ5LVKV5fQmzGndN-x8eH5T9LKn9/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-2-pdf-e0448d19b7",
+      "title": "الامتحان التاريخ 2 ث.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1kIjFHrbgAxoXJ_ym9fRGNT9IbWL4EPBG/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-2024-pdf-c1b415a734",
+      "title": "الإمتحان جغرافيا ١ث ت١ 2024.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1vOO8ZPjh9G0hJhEi-xUsV5_VZORPVq9S/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-history-1sec-sb-wb-pdf-9671d9edf4",
+      "title": "history_1sec_sb_wb.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1dYPoOvpYfKXlqe5Xkt8X7-NqQ1uUIHu7/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-572ccab8fa",
+      "title": "ملخص رائع للجغرافيا والتاريخ.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1IdtxIfutr_GAp18CuasBSRizTBmH7ywH/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pptx-f6cca8c185",
+      "title": "ملخص تاريخ ستيم.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/196yrRrqXg2wAXZ0g255E3fPngGKVZugk/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-f233d3f58d",
+      "title": "ملخص تاريخ ستيم.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1-tztYfXsfwjbdwL3ZsLs1ikA-V8s1vFx/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-1a0798757c",
+      "title": "ملخص الجغرافيا.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1PTpBs2hnwT4GahRvThGwVTvSB1aT0pt3/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-c01e87751d",
+      "title": "جغرافيا في شوااااااال.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/10R7b0UEiWBi3uNN1LbAJKubtBI_8aAwq/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-516c2c32d5",
+      "title": "نماذج العمارة.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1WXZyuwsC3AojmtHtUJ9xEE6FKb-cjYmN/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-1a33234e49",
+      "title": "موقع مصر والتكوينات الجيولوجية.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1fnh1bJLinqJjFglmHMncYmQJQCBQcn2m/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-docx-757cff0296",
+      "title": "ملامح الحياة الاجتماعية.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1-VJsRwoV1bRNyx_MFvlIxfFF7um9WmMl/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-602ac7fcd1",
+      "title": "مذكرة تاريخ للصف الثاني الثانوي - موقع ملزمتي.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1vh74f4heRO-jTdki5T3Mq7fa7iOVa64p/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pptx-7b20539a02",
+      "title": "علاقة الجغرافيا بالعلوم الاخري .pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/18qb6tR2zC966HtyYjRMZo2ST7c-ezDYT/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-docx-ce1481a19f",
+      "title": "تحضير درس م-لامح الحياة الاجتماعية.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1hMZFiULeZ4c8Z_nas9MfhksF7bqJmXkv/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-docx-18e36e22f2",
+      "title": "تاريخ - الحياة  الدينية.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1Kz3sl9ccy4-0bh0cfBm3fl0La8Pp73xp/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-2-1-docx-ecc403501b",
+      "title": "الموديول الثانى تضاريس مصر 2 (1).docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1vwyxas-53Pm863SWES1qsmCZzWD1ih29/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-docx-9a3c31f383",
+      "title": "المشروعات الاقتصادية عبر التاريخ.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1jvyfoWL-PWvMtbUoGGXgM6fOzOlnV_GV/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-docx-16969c8026",
+      "title": "الصناعات عبر الحضارات.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/114lZkNCbJxViJR7PB3i5kcf0OC6ZUc0Y/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pptx-912f011fbb",
+      "title": "الحضاره اليابانية الحديثة.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/11hl5BhEJnE8ekPGmqfAPmP2RgJov_HJC/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-ppt-14e3b89090",
+      "title": "الحضارة الاسلامية.ppt",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1ihFW8kFdtn-toIYJJSCvHFNyuFnhfEOi/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "socialstudies-g10-s1-pdf-pdf-ab0fa6712a",
+      "title": "الحضارة الإسلامية وحضارة اليابان.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1qzsrUoRydhXkHnj9pV9DnSiBuoqB80IK/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-06T00:26:05.210Z",
+  "source": {
+    "file": "migration/raw/g10/s1/french.json"
+  },
+  "subject": {
+    "id": "french-g10-s1",
+    "name": "French",
+    "description": "French resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "french",
+    "content": [
+      {
+        "id": "french-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Présentation",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "french-g10-s1-concept-se-pr-senter",
+            "title": "Se présenter",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "french-g10-s1-concept-dire-son-ge",
+            "title": "Dire son âge",
+            "description": "",
+            "order": 2,
+            "resources": []
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "french-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 2,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "french-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 3,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "french-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 4,
+        "concepts": [],
+        "resources": [
+          "french-g10-s1-pdf-french1-sec1-tr1-w1-pdf-255890266f",
+          "french-g10-s1-pdf-french2-sec1-tr1-w1-pdf-ec82ca8591",
+          "french-g10-s1-pdf-m-tro-exercices-1sec-unit-1-le-on1-pdf-f12168b6b9",
+          "french-g10-s1-pdf-pdf-a462146eb9"
+        ]
+      }
+    ],
+    "units": 1
+  },
+  "resources": [
+    {
+      "id": "french-g10-s1-pdf-french1-sec1-tr1-w1-pdf-255890266f",
+      "title": "French1_Sec1_tr1_w1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1E_Z36D5HVsO-7cdoYdP6K7RPUqhZF5bf/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "french-g10-s1-pdf-french2-sec1-tr1-w1-pdf-ec82ca8591",
+      "title": "French2_Sec1_tr1_w1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1LxNZHuqfuwf_uUuHW9JQD16pBPr3416R/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "french-g10-s1-pdf-m-tro-exercices-1sec-unit-1-le-on1-pdf-f12168b6b9",
+      "title": "MÉTRO Exercices- 1sec- Unité1- Leçon1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1CEQyZ28stj3BY7zUQ01wnvSKmRLYR72U/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "french-g10-s1-pdf-pdf-a462146eb9",
+      "title": "امتحان اولي ثانوي نص المنهج.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1lkUfMn_CK78jNz06Yztj4cHVPbSQXyJu/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

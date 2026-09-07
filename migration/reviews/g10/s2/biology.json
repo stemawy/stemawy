@@ -1,0 +1,48 @@
+{
+  "missingDriveUrls": [],
+  "missingVideoUrls": [],
+  "duplicateResourceIds": [],
+  "deduplicatedResourceIds": [
+    {
+      "id": "biology-g10-s2-pdf-copy-of-biology-lo-10-and-11-pptx-da60a779cc",
+      "count": 2
+    },
+    {
+      "id": "biology-g10-s2-video-hql-rmanfcm-7472152c36",
+      "count": 2
+    },
+    {
+      "id": "biology-g10-s2-pdf-copy-of-lo-12-13-pptx-9108497269",
+      "count": 2
+    },
+    {
+      "id": "biology-g10-s2-pdf-copy-of-ecology-4-pdf-474c91c8d8",
+      "count": 4
+    },
+    {
+      "id": "biology-g10-s2-pdf-copy-of-ecology-ppt-9b257ceb3a",
+      "count": 4
+    },
+    {
+      "id": "biology-g10-s2-pdf-copy-of-52-ecology-campbell-reduced-ppt-461a486f72",
+      "count": 4
+    },
+    {
+      "id": "biology-g10-s2-pdf-copy-of-lo-14-and-15-pptx-42dd5cba05",
+      "count": 2
+    }
+  ],
+  "unrecognizedResourceLocations": [],
+  "notes": [],
+  "statistics": {
+    "units": 7,
+    "concepts": 75,
+    "resources": 176,
+    "pdfs": 47,
+    "videos": 129,
+    "testBanks": 11,
+    "missingDriveUrls": 0,
+    "missingVideoUrls": 0,
+    "duplicateResourceIds": 0
+  }
+}

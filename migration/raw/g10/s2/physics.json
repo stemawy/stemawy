@@ -1,0 +1,295 @@
+{
+  "learningObjectives": {
+    "LO8": {
+      "title": "LO8: Fluid Mechanics",
+      "concepts": [
+        "Fluids",
+        "Pressure",
+        "Manometer",
+        "Pressure gauge",
+        "Units of pressure",
+        "Effect of atmospheric pressure on boiling point of water",
+        "Change in atmospheric pressure with altitude",
+        "Pressure difference and force",
+        "Archimedes Principle",
+        "pascal principle"
+      ]
+    },
+    "LO9": {
+      "title": "LO9: Fluid Dynamics",
+      "concepts": [
+        "General properties of fluids",
+        "Continuity equation",
+        "Laminar vs Turbulent flow",
+        "Pascal's principle",
+        "p dV = Work",
+        "Work-energy theorem",
+        "Conservation of energy in fluids",
+        "Bernoulli equation",
+        "Viscosity"
+      ]
+    },
+    "LO10": {
+      "title": "LO10: Thermodynamics",
+      "concepts": [
+        "Temperature",
+        "Thermal energy",
+        "Heat",
+        "Conduction, Convection, Radiation",
+        "Measuring Temperature",
+        "Temperature scale",
+        "Heat capacity",
+        "Specific heat capacity",
+        "Blackbody radiation",
+        "Solar heat collector",
+        "Natural sources of heat: sun, geothermal",
+        "Latent heat"
+      ]
+    },
+    "LO11": {
+      "title": "LO11: Energy",
+      "concepts": [
+        "Conservation of thermal energy",
+        "Energy graphs",
+        "Low temperature physics",
+        "Thermodynamic processes (isothermal – isovolumetric – isobaric – adiabatic)",
+        "Phase changes"
+      ]
+    }
+  },
+  "resourceFiles": {
+    "LO8": [
+      "Copy of G10 PH.08.pdf",
+      "IS phys lo.8 .pptx",
+      "LO8 Session 01.pdf",
+      "LO8 Session 02.pdf",
+      "LO8 Session 03 Archimedes Principle.pdf",
+      "PH.1.8(MEO).pdf"
+    ],
+    "LO9": [
+      "Copy of G10 PH.09.pdf",
+      "Lo.9 phy IS.pptx",
+      "LO9 Session 06 Bernoulli_s Principle.pdf",
+      "PH.1.9(MEO).pdf"
+    ],
+    "LO10": [
+      "Copy of G10 PH.10.pdf",
+      "LO.10 IS Phy.pptx",
+      "LO10 Session 08 Thermodynamics.pdf",
+      "LO10 Session 09 Thermodynamics.pdf",
+      "PH.1.10(MEO).pdf"
+    ],
+    "LO11": [
+      "Copy of G10 PH.11.pdf",
+      "lo11 phy.pptx",
+      "LO11 Session 11 Thermodynamics.pdf",
+      "PH.1.11(MEO).pdf"
+    ],
+    "references": [
+      "Serway Vuille College Physics.pdf",
+      "Halliday-Resnick-Walker - Fundamentals of Physics - 10th Edition.pdf",
+      "book Giancoli_Physics_7th_edition.pdf",
+      "8.01-Physics for Scientists and Engineers with Modern Physics-Serway,Jewett.pdf",
+      "Physics Book.pdf"
+    ],
+    "testBanks": [
+      "PH.1.RULES(MEO).pdf",
+      "Physics G10 S2 laws summary.pdf",
+      "Physics Book.pdf",
+      "250-top-fluid-mechanics-questions-and-answers.pdf",
+      "STEM Gharbiya PH Test Bank.pdf",
+      "Physics Mid-term test bank (MEO).pdf",
+      "Physics Exam.pdf",
+      "2 midterm 10 2014 - 20152.pdf",
+      "PH.1 Test Bank (MEO) (1).pdf",
+      "Physics Chess Revision .pdf",
+      "2 term exam STEM g10 2015-2 - NEW.pdf",
+      "jpg2pdf (5).pdf",
+      "Fluids -TestBank.pdf"
+    ]
+  },
+  "videoLinks": {
+    "LO8": {
+      "Fluids": [
+        "https://youtu.be/XjKTF4ah-UQ?si=B4HjTghKTOgifjxH"
+      ],
+      "Pressure": [
+        "https://youtu.be/kkq8ruV8_Jw?si=7OldLBP-nVvtny8X"
+      ],
+      "Manometer": [
+        "https://youtu.be/YI4RRZ3ZM7g?si=ljKFqN-fGRotRuRf"
+      ],
+      "Pressure gauge": [
+        "https://youtu.be/LkI0jyaJwoA?si=KziVCBrOfbcZ4jNH"
+      ],
+      "Units of pressure": [
+        "https://youtu.be/JNOg1OsxMUw?si=XcMIhu4kPQGoNW_q"
+      ],
+      "Effect of atmospheric pressure on boiling point of water": [
+        "https://youtu.be/aiwynTBdln8?si=mEVh_QJyUJ5B9TSP"
+      ],
+      "Change in atmospheric pressure with altitude": [
+        "https://youtu.be/S7xWAO_FvVA?si=0XYTOtcbN_YUkshv"
+      ],
+      "Pressure difference and force": [
+        "https://youtu.be/qnJ-cbchr4Q?si=r1wUZbI9ZmfQWy7v"
+      ],
+      "Archimedes Principle": [
+        "https://youtu.be/Qgl_l0H7Qgc?si=JFcWZD_bfhITvR7g"
+      ],
+      "pascal principle": [
+        "https://youtu.be/MZ6GCH2nLy0?si=FRmZ0mq9U3h7u9he"
+      ]
+    },
+    "LO9": {
+      "General properties of fluids": [
+        "https://youtu.be/zqLicugjwZE?si=Pk9pW7oYu3Syowuj"
+      ],
+      "Continuity equation": [
+        "https://youtu.be/DxX6XLEdcAw?si=vn15-LPFvVM6H_JV"
+      ],
+      "Laminar vs Turbulent flow": [
+        "https://youtu.be/9A-uUG0WR0w?si=_G0Tifsca8H2Xdib"
+      ],
+      "Pascal's principle": [
+        "https://youtu.be/IzYDp-vmrIE?si=pKoD_GyVTZTMI7l3"
+      ],
+      "p dV = Work": [
+        "https://youtu.be/BTyQj39ZbMs?si=19YSyTbk6aFjRJow"
+      ],
+      "Work-energy theorem": [
+        "https://youtu.be/zVRH9d5PW8g?si=5yXgwtIueevCet8C",
+        "https://youtu.be/GSTW7Mlaoas?si=VbiVShcptG98QgrN"
+      ],
+      "Conservation of energy in fluids": [
+        "https://youtu.be/VANRFCUQUPE?si=vzpMaCHgmMhmeQk-"
+      ],
+      "Bernoulli equation": [
+        "https://youtu.be/DW4rItB20h4?si=slDpXaOGOn1qxlQN"
+      ],
+      "Viscosity": [
+        "https://youtu.be/PoG14wRRQmM?si=VJucGVvLT9RSCmlM"
+      ]
+    },
+    "LO10": {
+      "Temperature": [
+        "https://youtu.be/LL54E5CzQ-A?si=CrgthzXm4aCHYpZb"
+      ],
+      "Thermal energy": [
+        "https://youtu.be/-7Gl-yKF6Y4?si=jIP-mAjSUvwWFDmD"
+      ],
+      "Heat": [
+        "https://youtu.be/_5AZwrTkQNA?si=COzso65v2eSoMdoM"
+      ],
+      "Conduction, Convection, Radiation": [
+        "https://youtu.be/bRZwzy0xvhM?si=UR7CfJ0K4i_5JSai"
+      ],
+      "Measuring Temperature": [
+        "https://youtu.be/TIShPqStCEw?si=ExxytTrWEFjRhqtQ",
+        "https://youtu.be/fQeWzs_9dMg?si=HOUKOz3DRmxux08c"
+      ],
+      "Temperature scale": [
+        "https://youtu.be/4cM0ollAhKM?si=couulZtTa4jE8QvT"
+      ],
+      "Heat capacity": [
+        "https://youtu.be/QlusUNM1ehA?si=ZQJzvv1nIPo-3FTx"
+      ],
+      "Specific heat capacity": [
+        "https://youtu.be/GNelfJ6IAJw?si=gWWSak6ponQu9Qzv",
+        "https://youtu.be/IoHXMaiwT80?si=euoXK3WLTkGRa4sz"
+      ],
+      "Blackbody radiation": [
+        "https://youtu.be/7BXvc9W97iU?si=ctsPIft0pnNlooaR"
+      ],
+      "Solar heat collector": [
+        "https://youtu.be/rg1x4jJmSl4?si=oDRXIB6dP739f1A0"
+      ],
+      "Natural sources of heat: sun, geothermal": [
+        "https://youtu.be/4PlMYoDwgR4?si=GG3NPF1FJ-em0Y-m",
+        "https://youtu.be/j7q653ffQO4?si=mRujo1a2DeqIxz83",
+        "https://youtu.be/FgjfJGfusdE?si=200Dmm2dHc3k6XOX"
+      ],
+      "Latent heat": [
+        "https://youtu.be/qtSNLsQJTcY?si=PYb3ZNl6JJYBu-KY"
+      ]
+    },
+    "LO11": {
+      "Conservation of thermal energy": [
+        "https://youtu.be/ACDxcCkzUBI?si=_aajFeBpzzv8eEaS"
+      ],
+      "Energy graphs": [
+        "https://youtu.be/3Mjx0cFMpE8?si=-js0L1HWxDrCrGK1"
+      ],
+      "Low temperature physics": [
+        "https://youtu.be/Zlk3m0FZebU?si=cGot2B8oFgxXPI2Q",
+        "https://youtu.be/BfD0IhjSGx8?si=2HG08_4ZLTLXMO1Z"
+      ],
+      "Thermodynamic processes (isothermal – isovolumetric – isobaric – adiabatic)": [
+        "https://youtu.be/TnDCxw0y6YM?si=NFsL605ok9IZ9pHZ"
+      ],
+      "Phase changes": []
+    }
+  },
+  "loSummaryVideos": {
+    "LO8": [
+      "https://youtu.be/u6Enks0WIsM?si=ydcGPXjZooZ-Dxmv"
+    ],
+    "LO9": [
+      "https://youtu.be/la4fmQH_gjM?si=SfOiKY6gPTHPdROP",
+      "https://youtu.be/-7Nbrz5k54U?si=CWxH3prwZuISNXQa"
+    ],
+    "LO10": [
+      "https://youtu.be/kn_wzIaca0k?si=1_xcWDem4b6QM17l"
+    ],
+    "LO11": [
+      "https://youtu.be/0wFOrSY1_44?si=UlVPZxAIxWwJtcSY"
+    ]
+  },
+  "revisionVideos": {
+    "midterm": [
+      "https://youtu.be/larb_-6xQ7I?si=h454O7FVYzfTBIwu"
+    ],
+    "final": [
+      "https://youtu.be/64a457s0OdM?si=oBgDmUEVZn_8VOvt"
+    ]
+  },
+  "shareMap": {
+    "Copy of G10 PH.08.pdf": "https://drive.google.com/file/d/1e7EJ9SGH2UXNgQlPzkbFggjatgohtytW/view?usp=drive_link",
+    "IS phys lo.8 .pptx": "https://docs.google.com/presentation/d/1bxe0cCQX82PERgJQKi2BJpbUsYl4KLi-/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+    "LO8 Session 01.pdf": "https://drive.google.com/file/d/1SxThEFO5Bw_MyeCeS2LeNPyhJHPwYvKD/view?usp=drive_link",
+    "LO8 Session 02.pdf": "https://drive.google.com/file/d/1bGJmm6DyCXJhjIZMGEC_OB0On27-S44i/view?usp=drive_link",
+    "LO8 Session 03 Archimedes Principle.pdf": "https://drive.google.com/file/d/1mQispUqNXCJHXkHGYJKrKDA9dHnzhi_M/view?usp=drive_link",
+    "PH.1.8(MEO).pdf": "https://drive.google.com/file/d/1MuVIsplqKuEKH4tH23nzsZtjIEu94Cvo/view?usp=drive_link",
+    "Copy of G10 PH.09.pdf": "https://drive.google.com/file/d/1aYzFcS5M74zi4GdUY_BVg_DrN20CABPb/view?usp=drive_link",
+    "Lo.9 phy IS.pptx": "https://docs.google.com/presentation/d/1eL41tx4iOMMC5Ic8Y1q0bDk2eD01262U/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+    "LO9 Session 06 Bernoulli_s Principle.pdf": "https://drive.google.com/file/d/1OHKROwIuLEQ1HPycx4H_NcWaFlZZm17q/view?usp=drive_link",
+    "PH.1.9(MEO).pdf": "https://drive.google.com/file/d/1APkyZXGUXOBLg_--Qry_3Z42KniWqF8b/view?usp=drive_link",
+    "Copy of G10 PH.10.pdf": "https://drive.google.com/file/d/1y6UYZyq-zu5jLCEgiC1FKlzxmQo3QTnj/view?usp=drive_link",
+    "LO.10 IS Phy.pptx": "https://docs.google.com/presentation/d/1TQzpwq-qCPnzch3vLxY_BnZ-gu6XHDES/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+    "LO10 Session 08 Thermodynamics.pdf": "https://drive.google.com/file/d/18IJhXP6aH8XN8c08mwaMgwhhguDl6xF6/view?usp=drive_link",
+    "LO10 Session 09 Thermodynamics.pdf": "https://drive.google.com/file/d/1oky4PdvI69-wvTzB_EPURHA-SW-SOMzX/view?usp=drive_link",
+    "PH.1.10(MEO).pdf": "https://drive.google.com/file/d/1Fnbi2SvkzsrqfGEog3f7nIANlmBw4PhD/view?usp=drive_link",
+    "Copy of G10 PH.11.pdf": "https://drive.google.com/file/d/1x1Lw-Nkgp3sdMMSQIq-1B2Hl1lpN7UJR/view?usp=drive_link",
+    "lo11 phy.pptx": "https://docs.google.com/presentation/d/1OzyUeZRlxsVQDOoei5RucWYvLZif8R7y/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+    "LO11 Session 11 Thermodynamics.pdf": "https://drive.google.com/file/d/1HqAJAv2Guu5KoBbHtU-bigdFPO9lRHVX/view?usp=drive_link",
+    "PH.1.11(MEO).pdf": "https://drive.google.com/file/d/19P5R_9RF30ng4ZtdFEZq5Y2qsRUFN5B1/view?usp=drive_link",
+    "PH.1.RULES(MEO).pdf": "https://drive.google.com/file/d/1B5B-cfuKiQWqKaclc9unaHCtwt23wJCa/view?usp=drive_link",
+    "Physics G10 S2 laws summary.pdf": "https://drive.google.com/file/d/1xhEEszCGCFIToWtJrZocbz5h_NmCRPK6/view?usp=drive_link",
+    "Physics Book.pdf": "https://drive.google.com/file/d/1tItFkFjA3XSJVxb81f54cxW37EOJjaUC/view",
+    "250-top-fluid-mechanics-questions-and-answers.pdf": "https://drive.google.com/file/d/11UP2MeoptUa8rNhp8MCd3qVTfZtCNm4L/view?usp=drivesdk",
+    "STEM Gharbiya PH Test Bank.pdf": "https://drive.google.com/file/d/1sSUqKNdaALc-rV-Uhv6yUI-GryjjredZ/view?usp=drivesdk",
+    "Physics Mid-term test bank (MEO).pdf": "https://drive.google.com/file/d/1_kGTt_BNy26qMP5lfgVt-emcHY_tM6St/view?usp=drivesdk",
+    "Physics Exam.pdf": "https://drive.google.com/file/d/1xSiZsPHpNfulgXgkMrwqiBd_FzijPuoo/view?usp=drivesdk",
+    "2 midterm 10 2014 - 20152.pdf": "https://drive.google.com/file/d/11P5nsVdsn0HvMBfbPiT1-H41g2SSdsx8/view?usp=drive_link",
+    "PH.1 Test Bank (MEO) (1).pdf": "https://drive.google.com/file/d/1QKrfa8pdh66Zn4z28SI7uDfcMCFcjGAT/view?usp=drivesdk",
+    "Physics Chess Revision .pdf": "https://drive.google.com/file/d/157HHoTN3YHIf8S6E5lDdyTheFGozVdzW/view?usp=drivesdk",
+    "2 term exam STEM g10 2015-2 - NEW.pdf": "https://drive.google.com/file/d/1ElNihFAh1VVBD6s0ieFBatG6aM0Xrkhw/view?usp=drive_link",
+    "jpg2pdf (5).pdf": "https://drive.google.com/file/d/1K2Kh2TXDfUK-NcQQoW2XU3nJMQiXrZrH/view?usp=drivesdk",
+    "Fluids -TestBank.pdf": "https://drive.google.com/file/d/1NV_oROdc0xoBH8syz6ZLPuUGrdV5rcwm/view?usp=drivesdk",
+    "El-Moasser • Physics • Second Secondary • First Term • 2023 • Main Book.pdf": "https://drive.google.com/file/d/1EYkIx-ll_u_t_qP6BS7sU2ydsE5L6l9W/view?usp=drive_link",
+    "Serway Vuille College Physics.pdf": "https://drive.google.com/file/d/1FyINU6ToPmQcvDL_He8PzxUCmA-3wjy-/view",
+    "Halliday-Resnick-Walker - Fundamentals of Physics - 10th Edition.pdf": "https://drive.google.com/file/d/1SdV8Tw576P7DUwlGrkFeo_DCt5f4l_Dl/view",
+    "book Giancoli_Physics_7th_edition.pdf": "https://drive.google.com/file/d/1SB7-qKbciavCN4G2IpvtJImT9hXnMK2H/view",
+    "8.01-Physics for Scientists and Engineers with Modern Physics-Serway,Jewett.pdf": "https://drive.google.com/file/d/1DOISN80QB0dWorRWkG3_KGD7pt6ZCSMY/view"
+  }
+}

@@ -1,0 +1,273 @@
+.header {
+  position: fixed;
+  z-index: 40;
+  top: 0;
+  right: 0;
+  left: var(--sidebar-width);
+  display: flex;
+  height: 78px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 0 48px;
+  border-bottom: 1px solid var(--outline-variant);
+  background: rgb(250 248 255 / 82%);
+  color: var(--on-surface);
+  backdrop-filter: blur(18px);
+  transition: left var(--sidebar-transition);
+}
+
+.collapsed {
+  left: var(--sidebar-collapsed-width);
+}
+
+.searchShell {
+  position: relative;
+  display: flex;
+  width: min(100%, 576px);
+  height: 34px;
+  align-items: center;
+  border-radius: 999px;
+  background: var(--surface-container-high);
+  transition:
+    box-shadow var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+.searchShell:focus-within {
+  background: var(--surface-container-lowest);
+  box-shadow: 0 0 0 2px var(--primary-fixed-dim);
+}
+
+.searchIcon {
+  flex: 0 0 auto;
+  margin-left: 14px;
+  color: var(--outline);
+}
+
+.searchInput {
+  min-width: 0;
+  flex: 1;
+  height: 100%;
+  padding: 0 10px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--on-surface);
+  font-size: 17px;
+}
+
+.searchInput::placeholder {
+  color: var(--outline);
+  opacity: 0.65;
+}
+.searchInput::-webkit-search-cancel-button {
+  display: none;
+}
+
+.shortcut {
+  display: grid;
+  min-width: 45px;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  padding: 0 4px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 5px;
+  background: var(--surface-container-lowest);
+  color: var(--on-surface-variant);
+  font-family: var(--font-body), sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.actions {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 24px;
+}
+
+.iconButton,
+.profile {
+  border: 0;
+  background: transparent;
+  color: var(--on-surface-variant);
+}
+
+.iconButton {
+  position: relative;
+  display: grid;
+  width: 32px;
+  height: 40px;
+  place-items: center;
+  border-radius: 8px;
+}
+
+.iconButton:hover,
+.iconButton:focus-visible,
+.profile:hover .avatar,
+.profile:focus-visible .avatar {
+  background: var(--surface-container-high);
+  outline: none;
+}
+
+.notificationDot {
+  position: absolute;
+  top: 9px;
+  right: 3px;
+  width: 8px;
+  height: 8px;
+  border: 1px solid var(--surface);
+  border-radius: 50%;
+  background: var(--error);
+}
+
+.divider {
+  width: 1px;
+  height: 32px;
+  background: var(--outline-variant);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+  border-radius: 999px;
+  text-align: right;
+}
+
+.profileCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.profileCopy strong {
+  color: var(--on-surface);
+  font-size: 15px;
+  font-weight: 600;
+}
+.profileCopy small {
+  color: var(--outline);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.avatar {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--surface-container-high);
+  transition: background-color var(--transition-fast);
+}
+
+.mobileMenuButton {
+  display: none;
+}
+
+@media (max-width: 1279px) {
+  .header {
+    padding: 0 32px;
+  }
+  .searchShell {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .header {
+    gap: 16px;
+    padding: 0 24px;
+  }
+
+  .searchShell {
+    flex: 1;
+    max-width: none;
+  }
+
+  .actions {
+    gap: 16px;
+  }
+
+  .profileCopy {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    left: 0;
+    height: 70px;
+    gap: 12px;
+    padding: 0 16px 0 70px;
+  }
+
+  .header.collapsed {
+    left: 0;
+  }
+
+  .mobileMenuButton {
+    display: grid;
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    place-items: center;
+    border: 1px solid var(--outline-variant);
+    border-radius: 8px;
+    background: var(--surface-container-lowest);
+    color: var(--primary);
+    box-shadow: var(--shadow-card);
+  }
+
+  .searchShell {
+    height: 34px;
+    width: auto;
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+  .searchInput {
+    font-size: 14px;
+  }
+  .shortcut {
+    display: none;
+  }
+  .actions {
+    gap: 8px;
+  }
+  .divider {
+    display: none;
+  }
+  .profileCopy {
+    display: none;
+  }
+  .profile {
+    gap: 0;
+  }
+  .avatar {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header {
+    padding-right: 10px;
+    padding-left: 68px;
+  }
+  .actions {
+    gap: 2px;
+  }
+  .searchInput {
+    padding-right: 4px;
+    padding-left: 8px;
+  }
+  .iconButton {
+    width: 30px;
+  }
+}

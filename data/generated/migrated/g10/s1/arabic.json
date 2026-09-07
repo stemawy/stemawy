@@ -1,0 +1,1396 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T22:13:38.046Z",
+  "source": {
+    "file": "migration/raw/g10/s1/arabic.json"
+  },
+  "subject": {
+    "id": "arabic-g10-s1",
+    "name": "Arabic",
+    "description": "Arabic resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "arabic",
+    "content": [
+      {
+        "id": "arabic-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "النحو",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "اسم الفاعل",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "arabic-g10-s1-video-rybandwqi5k-93d12e3470",
+              "arabic-g10-s1-pdf-doc-fcaf0c97c0"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "اسم المفعول و طريقة صوغه",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "arabic-g10-s1-video-2mos9f8draq-ba11ad9047",
+              "arabic-g10-s1-pdf-docx-33fa2cf7d5"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "اسم المفعول",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "arabic-g10-s1-video-qjol7-lqybs-6f0968a789",
+              "arabic-g10-s1-pdf-doc-067401be74"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "أفعال المقاربة والرجاء والشروع",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "arabic-g10-s1-video-t0liycxcaqe-9f6dc45a95",
+              "arabic-g10-s1-pdf-doc-4a832d51da"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "أفعال تعمل عمل كان إثرائية نحو",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "arabic-g10-s1-video-7nsvx5twxay-c0ecbacae4",
+              "arabic-g10-s1-pdf-docx-169dc90388"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الأفعال الناقصة و التامة",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "arabic-g10-s1-video-psoqc1d4khu-379e01f60e",
+              "arabic-g10-s1-pdf-doc-93473b2f59"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "صيغ المبالغة",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "arabic-g10-s1-video-6zg2jhmrxjw-95a290b061",
+              "arabic-g10-s1-pdf-doc-2c9e503607"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "قواعد إعرابية هامة",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "arabic-g10-s1-pdf-doc-e0002a9adb"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "كيف تجيب على سؤال النحو؟",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "arabic-g10-s1-pdf-doc-e7b174e366"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "الأدب",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الأدب في العصر الأموي",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "arabic-g10-s1-video-foz5kflq9gw-2c5bd6a78c",
+              "arabic-g10-s1-pdf-doc-2bfe4e401b"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الأدب في العصر الجاهلي",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "arabic-g10-s1-video-dpuwgmtehua-69bfcbcb63",
+              "arabic-g10-s1-pdf-doc-e4574f256a"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الأدب في عصر صدر الإسلام",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "arabic-g10-s1-video-ulvthswpews-2bfa46cf50",
+              "arabic-g10-s1-pdf-doc-7744bd816c"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "القصة",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الفصل الأول: مغني القافلة",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "arabic-g10-s1-video-9di-w7nivvy-34db6f1a38",
+              "arabic-g10-s1-pdf-doc-80efac9fa0"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الفصل الثاني: الطل الثائر",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "arabic-g10-s1-video-ip5qns-zz9g-22ba93f6b4",
+              "arabic-g10-s1-pdf-doc-9bf4c0af86"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الفصل الثالث: الطريق إلى الحقيقة",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "arabic-g10-s1-video-i05rb41dsr4-686edc4d8f",
+              "arabic-g10-s1-pdf-doc-ae228206b2"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الفصل الرابع: حوار ساخن",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "arabic-g10-s1-video-dc0ati9u-og-360ae7d7f1",
+              "arabic-g10-s1-pdf-doc-5e96bca09e"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الفصل الخامس: خطبة عبلة",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "arabic-g10-s1-video-veaon2r-ke-e70bb7fd56",
+              "arabic-g10-s1-pdf-doc-764aaedd24"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الفصل السادس: البطل الحر",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "arabic-g10-s1-video-se2bhuntha0-f2c93001a7",
+              "arabic-g10-s1-pdf-doc-fd1962e403"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الفصل السابع: انتصار",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "arabic-g10-s1-video-sgcnyhallly-430b510f0a",
+              "arabic-g10-s1-pdf-doc-047464e3ce"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الفصل الثامن: علاقة قلقة",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "arabic-g10-s1-video-zk9ajfnopbs-323aa71f5a",
+              "arabic-g10-s1-pdf-doc-0030b50400"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "القراءة",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "تكنولوجيا المعلومات",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "arabic-g10-s1-video-9kfi6c1hzqk-22a935a81b",
+              "arabic-g10-s1-pdf-doc-2a27568475"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "قيم اجتماعية",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "arabic-g10-s1-video-odfdcoivqzm-907802879b",
+              "arabic-g10-s1-pdf-doc-391df0ddb3"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "مكارم الأخلاق وحاتم الطائي",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "arabic-g10-s1-video-w0rlmu6276g-00698c41cc",
+              "arabic-g10-s1-pdf-doc-8871f283d4"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s1-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "النصوص",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "ابدأ بنفسك",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "arabic-g10-s1-video-xcl5afivwlg-92c4e9f26e",
+              "arabic-g10-s1-pdf-doc-8caa13a795"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "آداب صناعة الكتّاب",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "arabic-g10-s1-video-l137mcniipc-8178cdbc6f",
+              "arabic-g10-s1-pdf-doc-7e21041715"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "العفو مأمول",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "arabic-g10-s1-video-lzykn98wtw4-da6cb7cdb2",
+              "arabic-g10-s1-pdf-doc-dd4da7f73d"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "شباب تسامى للعلا",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "arabic-g10-s1-video-1m0d2cl4gl8-ecf40a79f0",
+              "arabic-g10-s1-pdf-doc-9047b3abda"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "قيم الحياة الزوجية",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "arabic-g10-s1-video-uivfczux01s-2bd803f378",
+              "arabic-g10-s1-pdf-doc-e6680d8663"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "من أجل حياة كريمة",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "arabic-g10-s1-video-pohjvnbnku-302e09b772",
+              "arabic-g10-s1-pdf-doc-151240ff1f"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s1-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "البلاغة",
+        "description": "",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "الاستعارة",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "arabic-g10-s1-video-ocd6jjsjct0-770839707b",
+              "arabic-g10-s1-pdf-doc-86c6b1c19f"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "التشبيه",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "arabic-g10-s1-video-c-jmj4uyfxo-fdf2e7c0a2",
+              "arabic-g10-s1-pdf-doc-2ba486d784"
+            ]
+          },
+          {
+            "id": "arabic-g10-s1-concept-",
+            "title": "التعبير الحقيقي والتعبير المجازي",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "arabic-g10-s1-video-oow8nlidado-b255103113",
+              "arabic-g10-s1-pdf-doc-6c52ecb97b"
+            ]
+          }
+        ],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s1-unit-07",
+        "type": "unit",
+        "number": "07",
+        "title": "كتب المنهج",
+        "description": "",
+        "order": 7,
+        "concepts": [],
+        "resources": [
+          "arabic-g10-s1-pdf-pdf-cb53be4ef0",
+          "arabic-g10-s1-pdf-1-69-pdf-ca8e4030d3",
+          "arabic-g10-s1-pdf-pdf-1-pdf-53a896d7a8",
+          "arabic-g10-s1-pdf-pdf-2a41823341",
+          "arabic-g10-s1-pdf-1-2017-1-pdf-2ce6fa16b9",
+          "arabic-g10-s1-pdf-1-2017-2-pdf-6b9bea7062",
+          "arabic-g10-s1-pdf-pdf-85a217054e"
+        ]
+      },
+      {
+        "id": "arabic-g10-s1-unit-08",
+        "type": "unit",
+        "number": "08",
+        "title": "كتب المنهج",
+        "description": "",
+        "order": 8,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 9,
+        "concepts": [],
+        "resources": [
+          "arabic-g10-s1-pdf-docx-89f1406e40",
+          "arabic-g10-s1-pdf-docx-243a14c27b",
+          "arabic-g10-s1-pdf-docx-8e162a930d",
+          "arabic-g10-s1-pdf-2-2015-doc-7b694ea595"
+        ]
+      },
+      {
+        "id": "arabic-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 10,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "arabic-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 11,
+        "concepts": [],
+        "resources": []
+      }
+    ],
+    "units": 8
+  },
+  "resources": [
+    {
+      "id": "arabic-g10-s1-video-rybandwqi5k-93d12e3470",
+      "title": "اسم الفاعل",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/RYbANdWqI5k?si=gHt_ba70wrOCPmqx",
+      "youtubeId": "RYbANdWqI5k",
+      "source": {
+        "location": "LO1 → اسم الفاعل"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-fcaf0c97c0",
+      "title": "اسم الفاعل.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1miXMrHqXNAzW3xpo_1En_KOJPrSHKPuK/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1 → اسم الفاعل"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-2mos9f8draq-ba11ad9047",
+      "title": "اسم المفعول و طريقة صوغه",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/2Mos9f8DRaQ?si=umxAWLVQO_jMTmt2",
+      "youtubeId": "2Mos9f8DRaQ",
+      "source": {
+        "location": "LO1 → اسم المفعول و طريقة صوغه"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-docx-33fa2cf7d5",
+      "title": "اسم المفعول و طريقة صوغه.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1prjDXRcn5wyVKLDIQhvtlqtU5-aiZ0AS/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1 → اسم المفعول و طريقة صوغه"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-qjol7-lqybs-6f0968a789",
+      "title": "اسم المفعول",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/QjoL7_LQybs?si=ETlIkElqw9tvmrQH",
+      "youtubeId": "QjoL7_LQybs",
+      "source": {
+        "location": "LO1 → اسم المفعول"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-067401be74",
+      "title": "اسم المفعول.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1T7ob5TgTg1IdeG9Bl-8IgdlzVJkOLfG3/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1 → اسم المفعول"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-t0liycxcaqe-9f6dc45a95",
+      "title": "أفعال المقاربة والرجاء والشروع",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/t0LiYcxcAqE?si=yA0KnVA4ER_lYTXi",
+      "youtubeId": "t0LiYcxcAqE",
+      "source": {
+        "location": "LO1 → أفعال المقاربة والرجاء والشروع"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-4a832d51da",
+      "title": "أفعال المقاربة والرجاء والشروع.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1Ty6fm91sVZ6f39GpZ6-OWQkETXJPL8XZ/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1 → أفعال المقاربة والرجاء والشروع"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-7nsvx5twxay-c0ecbacae4",
+      "title": "أفعال تعمل عمل كان إثرائية نحو",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7NsVX5tWXaY?si=fcrQglh9D031Q2CJ",
+      "youtubeId": "7NsVX5tWXaY",
+      "source": {
+        "location": "LO1 → أفعال تعمل عمل كان إثرائية نحو"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-docx-169dc90388",
+      "title": "أفعال تعمل عمل كان إثرائية نحو.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1Du9wOia2DRWp0uhxf1amDUAZuCj7TOtk/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1 → أفعال تعمل عمل كان إثرائية نحو"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-psoqc1d4khu-379e01f60e",
+      "title": "الأفعال الناقصة و التامة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/psoQc1D4KhU?si=PjOg7v3Nrj0oagkN",
+      "youtubeId": "psoQc1D4KhU",
+      "source": {
+        "location": "LO1 → الأفعال الناقصة و التامة"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-93473b2f59",
+      "title": "الأفعال الناقصة و التامة.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1_X1flpzSZD7t9eURXND4L2iOCh3CHtoc/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1 → الأفعال الناقصة و التامة"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-6zg2jhmrxjw-95a290b061",
+      "title": "صيغ المبالغة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/6Zg2jhmRxjw?si=PlKFTIIWhKNb1pHo",
+      "youtubeId": "6Zg2jhmRxjw",
+      "source": {
+        "location": "LO1 → صيغ المبالغة"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-2c9e503607",
+      "title": "صيغ المبالغة.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/11-J8V16oVPKJBpxnlTY5xQZ-Rbb4uLAm/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1 → صيغ المبالغة"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-e0002a9adb",
+      "title": "قواعد إعرابية هامة.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1MOqur5TU7ooAYt0t7IK2dx4yuAsbRe8N/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1 → قواعد إعرابية هامة"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-e7b174e366",
+      "title": "كيف تجيب على سؤال النحو ؟.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1WHklIMU7raXtyB3HPsIO-eV659hrBsQw/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1 → كيف تجيب على سؤال النحو؟"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-foz5kflq9gw-2c5bd6a78c",
+      "title": "الأدب في العصر الأموي",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/FOZ5kfLQ9Gw?si=HZy7kSHSGMdec3S0",
+      "youtubeId": "FOZ5kfLQ9Gw",
+      "source": {
+        "location": "LO2 → الأدب في العصر الأموي"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-2bfe4e401b",
+      "title": "الأدب في العصر الأموي.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1R4nKkK2U0q-27EwGTP7LN0hlOAVjs5QA/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2 → الأدب في العصر الأموي"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-dpuwgmtehua-69bfcbcb63",
+      "title": "الأدب في العصر الجاهلي",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/DpUWGmTEhuA?si=RlERjgqX4SOSv4oL",
+      "youtubeId": "DpUWGmTEhuA",
+      "source": {
+        "location": "LO2 → الأدب في العصر الجاهلي"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-e4574f256a",
+      "title": "الأدب في العصر الجاهلي.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1_-FGHqIlv_wOugQnnrfVZESNv6MIjgd2/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2 → الأدب في العصر الجاهلي"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-ulvthswpews-2bfa46cf50",
+      "title": "الأدب في عصر صدر الإسلام",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/uLVthsWpEws?si=Yl4M-2C71NCrGzxG",
+      "youtubeId": "uLVthsWpEws",
+      "source": {
+        "location": "LO2 → الأدب في عصر صدر الإسلام"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-7744bd816c",
+      "title": "الأدب في عصر صدر الإسلام.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/16bXn8s-x6GksShHHLQGHBGfTXwdC0nDg/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2 → الأدب في عصر صدر الإسلام"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-9di-w7nivvy-34db6f1a38",
+      "title": "الفصل الأول: مغني القافلة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/9di-w7niVVY?si=PmS-tcNVqxRAw2t_",
+      "youtubeId": "9di-w7niVVY",
+      "source": {
+        "location": "LO3 → الفصل الأول: مغني القافلة"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-80efac9fa0",
+      "title": "الفصل الأول مغني القافلة.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1lqfyPfXqQovciqwlj9LpsdtHROuTNTGy/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3 → الفصل الأول: مغني القافلة"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-ip5qns-zz9g-22ba93f6b4",
+      "title": "الفصل الثاني: الطل الثائر",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/iP5qns-ZZ9g?si=F9DqmNcLSxbDvCkH",
+      "youtubeId": "iP5qns-ZZ9g",
+      "source": {
+        "location": "LO3 → الفصل الثاني: الطل الثائر"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-9bf4c0af86",
+      "title": "الفصل الثاني الطل الثائر.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1JBaGCWGRQISX3Plne1hDYVaBarY84iDn/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3 → الفصل الثاني: الطل الثائر"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-i05rb41dsr4-686edc4d8f",
+      "title": "الفصل الثالث: الطريق إلى الحقيقة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/i05Rb41DsR4?si=PGQYzy1r61ucM62q",
+      "youtubeId": "i05Rb41DsR4",
+      "source": {
+        "location": "LO3 → الفصل الثالث: الطريق إلى الحقيقة"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-ae228206b2",
+      "title": "الفصل الثالث الطريق إلى الحقيقة.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1HCDDziCjYzszo-yNIeeI1oyXrYc0BO-2/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3 → الفصل الثالث: الطريق إلى الحقيقة"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-dc0ati9u-og-360ae7d7f1",
+      "title": "الفصل الرابع: حوار ساخن",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/DC0aTI9u-Og?si=V3iRhMsPD3foQ250",
+      "youtubeId": "DC0aTI9u-Og",
+      "source": {
+        "location": "LO3 → الفصل الرابع: حوار ساخن"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-5e96bca09e",
+      "title": "الفصل الرابع حوار ساخن.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1MrXghipnsyd-msKHEl57AV70GIjpBDaL/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3 → الفصل الرابع: حوار ساخن"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-veaon2r-ke-e70bb7fd56",
+      "title": "الفصل الخامس: خطبة عبلة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/_VEAON2r_KE?si=D2SV-IFqdYSLadqL",
+      "youtubeId": "_VEAON2r_KE",
+      "source": {
+        "location": "LO3 → الفصل الخامس: خطبة عبلة"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-764aaedd24",
+      "title": "الفصل الخامس خطبة عبلة.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1LBAsP-ZpBKk4aW7jsieCTZq51xN1yxam/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3 → الفصل الخامس: خطبة عبلة"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-se2bhuntha0-f2c93001a7",
+      "title": "الفصل السادس: البطل الحر",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/SE2bhunTha0?si=YoSqgB2NebDlsUbu",
+      "youtubeId": "SE2bhunTha0",
+      "source": {
+        "location": "LO3 → الفصل السادس: البطل الحر"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-fd1962e403",
+      "title": "الفصل السادس البطل الحر.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1cICvQF2zqbVB5PUeZKojQi9zsmpKBFcg/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3 → الفصل السادس: البطل الحر"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-sgcnyhallly-430b510f0a",
+      "title": "الفصل السابع: انتصار",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/sGcnYHAllLY?si=4SHdTI8C9vtFL7fR",
+      "youtubeId": "sGcnYHAllLY",
+      "source": {
+        "location": "LO3 → الفصل السابع: انتصار"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-047464e3ce",
+      "title": "الفصل السابع انتصار.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1wqazkODUczfMIFRLXT_Gk4_kUyXxX9ZE/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3 → الفصل السابع: انتصار"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-zk9ajfnopbs-323aa71f5a",
+      "title": "الفصل الثامن: علاقة قلقة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zk9aJFnopBs?si=huh1eIfvTzwHDzHJ",
+      "youtubeId": "zk9aJFnopBs",
+      "source": {
+        "location": "LO3 → الفصل الثامن: علاقة قلقة"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-0030b50400",
+      "title": "الفصـل الثامن  علاقة قلقة.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1Kb-Z_X9zRP7pfzdRj14XvhmUuUEOzR3c/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3 → الفصل الثامن: علاقة قلقة"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-9kfi6c1hzqk-22a935a81b",
+      "title": "تكنولوجيا المعلومات",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/9KFi6C1hZQk?si=BQ3ULKQfzGh87b-3",
+      "youtubeId": "9KFi6C1hZQk",
+      "source": {
+        "location": "LO4 → تكنولوجيا المعلومات"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-2a27568475",
+      "title": "تكنولوجيا المعلومات.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/13BB0bAv9C_dAcDDsFcfoXU0txQycjfK_/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4 → تكنولوجيا المعلومات"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-odfdcoivqzm-907802879b",
+      "title": "قيم اجتماعية",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/oDFDCoIvqzM?si=dMAFX7b5iZkxSk6z",
+      "youtubeId": "oDFDCoIvqzM",
+      "source": {
+        "location": "LO4 → قيم اجتماعية"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-391df0ddb3",
+      "title": "قيم اجتماعية.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1pbJOhcHxKbTlkUcp7akwPg-fJ7MXfE3X/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4 → قيم اجتماعية"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-w0rlmu6276g-00698c41cc",
+      "title": "مكارم الأخلاق وحاتم الطائي",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/w0rLmu6276g?si=a-o_NRdkIK4hSL6O",
+      "youtubeId": "w0rLmu6276g",
+      "source": {
+        "location": "LO4 → مكارم الأخلاق وحاتم الطائي"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-8871f283d4",
+      "title": "مكارم الأخلاق وحاتم الطائي.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1-PKoLnFFv92bPFCUUTNYpVbkdJ-5z76_/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4 → مكارم الأخلاق وحاتم الطائي"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-xcl5afivwlg-92c4e9f26e",
+      "title": "ابدأ بنفسك",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/xCl5aFIVwlg?si=q2B0JpkSpJcoUU3A",
+      "youtubeId": "xCl5aFIVwlg",
+      "source": {
+        "location": "LO5 → ابدأ بنفسك"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-8caa13a795",
+      "title": "ابدأ بنفسك.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1v4W_5-AliyY5QBSD1lso3zm8JJvnVdFq/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO5 → ابدأ بنفسك"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-l137mcniipc-8178cdbc6f",
+      "title": "آداب صناعة الكتّاب",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/L137MCnIipc?si=Ny-Akxy64goFovdI",
+      "youtubeId": "L137MCnIipc",
+      "source": {
+        "location": "LO5 → آداب صناعة الكتّاب"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-7e21041715",
+      "title": "آداب صناعة الكتّاب.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/14KZ91eQIgtYuNXYHuJG_L_gvgr_d69hp/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO5 → آداب صناعة الكتّاب"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-lzykn98wtw4-da6cb7cdb2",
+      "title": "العفو مأمول",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/lzykn98Wtw4?si=qPAHKnZHOEXvCpy6",
+      "youtubeId": "lzykn98Wtw4",
+      "source": {
+        "location": "LO5 → العفو مأمول"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-dd4da7f73d",
+      "title": "العفو  مأمول.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1STmGL1syFfUvMFcXzwsgGCgAiozo6iRW/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO5 → العفو مأمول"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-1m0d2cl4gl8-ecf40a79f0",
+      "title": "شباب تسامى للعلا",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/1M0d2CL4gl8?si=oiwX23WvkihAFCuD",
+      "youtubeId": "1M0d2CL4gl8",
+      "source": {
+        "location": "LO5 → شباب تسامى للعلا"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-9047b3abda",
+      "title": "شباب تسامى للعلا.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1V-IBX52UTrniY0nRGe8WUKLhS2qM4l6P/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO5 → شباب تسامى للعلا"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-uivfczux01s-2bd803f378",
+      "title": "قيم الحياة الزوجية",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/UIVFczuX01s?si=SYyac6xT0bjPxbAS",
+      "youtubeId": "UIVFczuX01s",
+      "source": {
+        "location": "LO5 → قيم الحياة الزوجية"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-e6680d8663",
+      "title": "قيم الحياة الزوجية.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1u_-carQZKOnTW8DRRxSF5hihWjjUyxsY/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO5 → قيم الحياة الزوجية"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-pohjvnbnku-302e09b772",
+      "title": "من أجل حياة كريمة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/_POhjvNbNkU?si=tb2PdNhjEw-UUHKg",
+      "youtubeId": "_POhjvNbNkU",
+      "source": {
+        "location": "LO5 → من أجل حياة كريمة"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-151240ff1f",
+      "title": "من أجل حياة كريمة.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1oX32wbEubJbuUBGucNG9aIV6qBpyeEJ5/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO5 → من أجل حياة كريمة"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-ocd6jjsjct0-770839707b",
+      "title": "الاستعارة",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/oCD6JjsjcT0?si=T0qPBYr32KyVxsiU",
+      "youtubeId": "oCD6JjsjcT0",
+      "source": {
+        "location": "LO6 → الاستعارة"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-86c6b1c19f",
+      "title": "الاستعارة.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1u98Yz1GqEhsKBg17yVrSAFkJFjpFoNil/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO6 → الاستعارة"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-c-jmj4uyfxo-fdf2e7c0a2",
+      "title": "التشبيه",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/C-Jmj4uYFxo?si=1SGMrtXvbylIraNf",
+      "youtubeId": "C-Jmj4uYFxo",
+      "source": {
+        "location": "LO6 → التشبيه"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-2ba486d784",
+      "title": "التشبيه.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1REEcXArIVEBQ6G_ehMTVDleC2FIZc-NE/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO6 → التشبيه"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-video-oow8nlidado-b255103113",
+      "title": "التعبير الحقيقي والتعبير المجازي",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/oOW8nlidADo?si=anuTZYCKDygspPaA",
+      "youtubeId": "oOW8nlidADo",
+      "source": {
+        "location": "LO6 → التعبير الحقيقي والتعبير المجازي"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-doc-6c52ecb97b",
+      "title": "التعبير الحقيقي والتعبير المجازي.doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1_L0XPygn-uETNE4nj7rg48O9Y7sNfeZE/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO6 → التعبير الحقيقي والتعبير المجازي"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "arabic-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-pdf-cb53be4ef0",
+      "title": "اللغة العربية  الصف الأول الثانوي.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1EsUDgqNwC9Qq32jSjpFnZKShwpfAoZzG/view?usp=drivesdk",
+      "source": {
+        "location": "LO7 → كتاب اللغة العربية الأساسي"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-1-69-pdf-ca8e4030d3",
+      "title": "كتاب اللغة العربية الصف الأول الثانوى ف1 مرفق 69.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/17C19Xkg_uZZxJ7yqn_GdGCdkMI-0q2qx/view?usp=drivesdk",
+      "source": {
+        "location": "LO7 → كتاب المنهج - الفصل الأول"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-pdf-1-pdf-53a896d7a8",
+      "title": "كتاب الأضواء عربي اولى ثانوي الترم الأول pdf-1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1WCUPWR3QCZpQUA-cs7ws4U85TsV5B6bm/view?usp=drivesdk",
+      "source": {
+        "location": "LO7 → كتاب الأضواء"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-pdf-2a41823341",
+      "title": "كتاب الامتحان .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Bhy-FjQfIG9QkU9StfUXaPTToJJiUwoV/view?usp=drivesdk",
+      "source": {
+        "location": "LO7 → كتاب الامتحان"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-1-2017-1-pdf-2ce6fa16b9",
+      "title": "كتاب 1 ث  نت - 2017- 1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1gn0qYRfI5A2XjkNgXY-7jYTINBqJ3xpc/view?usp=drivesdk",
+      "source": {
+        "location": "LO7 → نسخة 2017 - الجزء الأول"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-1-2017-2-pdf-6b9bea7062",
+      "title": "كتاب  1ث - 2017- ت 2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1PgFCYgbGl99Nb-aXNb6RSJmx4vqsVYPQ/view?usp=drivesdk",
+      "source": {
+        "location": "LO7 → نسخة 2017 - الجزء الثاني"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-pdf-85a217054e",
+      "title": "أبو الفوارس عنترة.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1F2LbvysohN9qYk_MNnmSzc4wQjdil0SI/view?usp=drivesdk",
+      "source": {
+        "location": "LO7 → قصة أبو الفوارس عنترة"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-docx-89f1406e40",
+      "title": "تدريب نحو.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1vDrF5pIV_Bb6eyw42GI2VFqsLDx-kFHC/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "تدريب نحو"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-docx-243a14c27b",
+      "title": "تدريب نحوي.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1Ok1Svz0OrncUy3ARm8uq0uDEvNxsWMsp/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "تدريب نحوي"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-docx-8e162a930d",
+      "title": "اختبار نحو كاد وأخواتها.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1QPfp_IIMFSHIVqIOKYVTT4Vuk3zV5rf3/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "اختبار نحو كاد وأخواتها"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "arabic-g10-s1-pdf-2-2015-doc-7b694ea595",
+      "title": "( ستون تدريبًا نحويًا طبقأ لمنهج 2 ث الحديث 2015 ).doc",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1W7KuOKqmUOavQ44L4RIfXuF2vCpzDF6M/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "ستون تدريبًا نحويًا"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    }
+  ]
+}

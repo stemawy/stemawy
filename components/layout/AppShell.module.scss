@@ -1,0 +1,25 @@
+.shell {
+  --content-offset: var(--sidebar-width);
+  min-height: 100vh;
+  background: var(--background);
+}
+
+.collapsed {
+  --content-offset: var(--sidebar-collapsed-width);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: var(--content-offset);
+  transition: margin-left var(--sidebar-transition);
+  padding-top: 78px;
+}
+
+@media (max-width: 767px) {
+  .main {
+    margin-left: 0;
+    padding-top: 70px;
+  }
+}

@@ -1,0 +1,268 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  min-height: calc(100vh - 78px);
+  padding: 64px 48px 48px;
+  background: var(--background);
+}
+
+.detailPage {
+  display: flex;
+  max-width: 760px;
+  min-height: calc(100vh - 78px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 64px 48px;
+}
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 600;
+}
+.detailIcon {
+  display: grid;
+  width: 64px;
+  height: 64px;
+  place-items: center;
+  border-radius: 16px;
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+}
+.detailPage h1 {
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  font-size: clamp(36px, 4vw, 52px);
+}
+.detailPage p {
+  margin: 0;
+  color: var(--on-surface-variant);
+  font-size: 18px;
+  line-height: 28px;
+}
+.detailMeta {
+  color: var(--outline);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pageHeader h1 {
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  font-size: clamp(36px, 4vw, 52px);
+  line-height: 1.1;
+}
+.filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr minmax(260px, 1fr);
+  align-items: center;
+  gap: 40px;
+}
+.segmentedControl {
+  display: flex;
+  padding: 4px;
+  border-radius: 999px;
+  background: var(--surface-container);
+}
+.segmentedControl button {
+  flex: 1;
+  min-height: 48px;
+  padding: 0 24px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--on-surface-variant);
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.segmentedControl button:hover {
+  color: var(--on-surface);
+}
+.segmentedControl .selected {
+  background: var(--surface);
+  color: var(--on-surface);
+  box-shadow: var(--shadow-card);
+}
+.searchBox {
+  display: flex;
+  min-width: 0;
+  height: 56px;
+  align-items: center;
+  gap: 12px;
+  padding: 0 18px;
+  border-radius: 12px;
+  background: var(--surface-container-lowest);
+  color: var(--outline);
+  box-shadow: var(--shadow-card);
+}
+.searchBox:focus-within {
+  box-shadow: 0 0 0 2px var(--primary-fixed-dim);
+}
+.searchBox input {
+  min-width: 0;
+  flex: 1;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--on-surface);
+  font-size: 16px;
+}
+.searchBox input::placeholder {
+  color: var(--outline);
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.sectionTitle svg {
+  color: var(--primary);
+}
+.sectionTitle h2 {
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+}
+.subjectGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.subjectCard {
+  display: flex;
+  min-height: 220px;
+  flex-direction: column;
+  gap: 18px;
+  padding: 24px;
+  border-radius: 16px;
+  background: var(--surface-container-lowest);
+  box-shadow: var(--shadow-card);
+  transition:
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+.subjectCard:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card-hover);
+}
+.cardIcon {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border-radius: 12px;
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+}
+.cardCopy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 6px;
+}
+.cardCopy strong {
+  color: var(--on-surface);
+  font-family: var(--font-heading), sans-serif;
+  font-size: 20px;
+}
+.cardCopy span {
+  color: var(--on-surface-variant);
+  font-size: 15px;
+  line-height: 22px;
+}
+.cardAction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 600;
+}
+.cardAction svg {
+  transition: transform var(--transition-fast);
+}
+.subjectCard:hover .cardAction svg {
+  transform: translateX(4px);
+}
+.emptyState {
+  color: var(--outline);
+  font-size: 16px;
+}
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+@media (max-width: 1100px) {
+  .page {
+    padding-inline: 32px;
+  }
+  .filters {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .searchBox {
+    grid-column: 1 / -1;
+  }
+  .subjectGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 767px) {
+  .page {
+    gap: 28px;
+    padding: 32px 16px;
+  }
+  .filters {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .searchBox {
+    grid-column: auto;
+    height: 50px;
+  }
+  .segmentedControl button {
+    min-height: 44px;
+    padding-inline: 8px;
+    font-size: 14px;
+  }
+  .sections {
+    gap: 36px;
+  }
+  .sectionTitle h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .subjectGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .subjectCard {
+    min-height: 190px;
+  }
+}
+@media (max-width: 767px) {
+  .detailPage {
+    min-height: calc(100vh - 70px);
+    padding: 32px 16px;
+  }
+}

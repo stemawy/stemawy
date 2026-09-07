@@ -1,0 +1,137 @@
+{
+  "learningObjectives": {
+    "LO1": {
+      "title": "LO1: SketchUp & 3D Design",
+      "concepts": [
+        "Sketch up structure, tools, and styles",
+        "3D design",
+        "orbit, pan, command bar, large tool set",
+        "Style, toolbox, tray"
+      ]
+    },
+    "LO2": {
+      "title": "LO2: Machine Language & Number Systems",
+      "concepts": [
+        "machine language data, digit, bit, byte. Word, Nibble Decimal number system Binary system Octal and Hexadecimal Systems"
+      ]
+    },
+    "LO3": {
+      "title": "LO3: Networks & Administration",
+      "concepts": [
+        "LAN",
+        "WAN",
+        "Peer-to-Peer Networks",
+        "System administrator task"
+      ]
+    },
+    "LO4": {
+      "title": "LO4: Programming & Problem Solving",
+      "concepts": [
+        "Computer programming Problem solving Well-defined problem.",
+        "Algorithm.",
+        "Flowcharts (Flowchart symbols).",
+        "Pseudo-code sequencing – conditional Loop"
+      ]
+    },
+    "LO5": {
+      "title": "LO5: HTML & Web Fundamentals",
+      "concepts": [
+        "HTML - Elements /Tags (Start – End).",
+        "HTML Documents.",
+        "HTML Headings.",
+        "HTML Links.",
+        "HTML Images.",
+        "HTML Lists.",
+        "Attributes.",
+        "The div element.",
+        "Web addresses.",
+        "HTML Form Elements.",
+        "HTML Multimedia (sound, music, videos, movies, and animations).",
+        "HTML5"
+      ]
+    },
+    "LO6": {
+      "title": "LO6: CSS & Styling",
+      "concepts": [
+        "CSS term.",
+        "Style attribute / Style element",
+        "Inline styles / Multiple styles.",
+        "CSS syntax (Selector - Rules).",
+        "Selectors (Type - Class and ID).",
+        "External CCS file.",
+        "Boxes (Content – Padding – Border - Margin).",
+        "Style sheet or style element — not both!",
+        "CSS colors."
+      ]
+    },
+    "revision": {
+      "title": "Revision",
+      "concepts": []
+    }
+  },
+  "files": {
+    "LO1": [
+      "first semester/LO1/sketchup-tools3.png",
+      "first semester/LO1/Sketchup-Tools2.jpg",
+      "first semester/LO1/Sketchup-LargeToolSet.jpg",
+      "first semester/LO1/SketchUp-Keyring-Tutorial.pdf",
+      "first semester/LO1/Sketchup-Interface1.pdf"
+    ],
+    "LO2": [
+      "first semester/LO2/number system1.pdf"
+    ],
+    "LO3": [
+      "first semester/LO3/شرح أجهزة الشبكات والفرق بين اله...mp4",
+      "first semester/LO3/Networks.wmv",
+      "first semester/LO3/Networks.mp4",
+      "first semester/LO3/NetworkBasics1.ppt",
+      "first semester/LO3/Network-topology1.pdf",
+      "first semester/LO3/Network-LO3.pptx"
+    ],
+    "LO4": [
+      "first semester/LO4/Problem Solving.pdf",
+      "first semester/LO4/Problem Solving(LO4).pdf"
+    ],
+    "LO5": [
+      "first semester/LO5/HTML5Reference.pdf",
+      "first semester/LO5/HTML.pdf",
+      "first semester/LO5/html-tags-chart.pdf",
+      "first semester/LO5/HTML Tutorial.pdf",
+      "first semester/LO5/html-tags-chart.pdf"
+    ],
+    "LO6": [
+      "first semester/LO6/Introduction-to-CSS-LO6.pdf"
+    ],
+    "revision": [
+      "first semester/Revision/ExcelReaderAdvanced-ClaudeChat1.docx",
+      "first semester/Revision/Flowcharts-Revision1.pdf",
+      "first semester/Revision/Flowcharts-Revision1.docx",
+      "first semester/Revision/CSS-Revision1.pdf",
+      "first semester/Revision/CSS-Revision1.docx",
+      "first semester/Revision/CSS-mcq-1.pdf",
+      "first semester/Revision/CSS-mcq-1.docx",
+      "first semester/Revision/css-basics-quiz01.docx",
+      "first semester/Revision/CSS quiz1.docx",
+      "first semester/Revision/CS-midterm-Dec21.docx",
+      "first semester/Revision/networkmcq2.docx",
+      "first semester/Revision/networkmcq2_OCR.pdf",
+      "first semester/Revision/networkmcq2.pdf",
+      "first semester/Revision/networkmcq.pdf",
+      "first semester/Revision/networkmcq.docx",
+      "first semester/Revision/MCQs  flowcharts.docx",
+      "first semester/Revision/mcqNetworking1.docx",
+      "first semester/Revision/MCQ -HTML.docx",
+      "first semester/Revision/JavaScript MCQ.docx",
+      "first semester/Revision/html-quiz-HardLevel01.docx"
+    ]
+  },
+  "shareMap": {
+    "SketchUp-Keyring-Tutorial.pdf": "https://drive.google.com/file/d/1QGsspE3J0z8zZ0M99pJIT7nRj-Q-7FAa/view?usp=drivesdk",
+    "Sketchup-Interface1.pdf": "https://drive.google.com/file/d/1d6DXGmKPbdhq-5sVi4Fs_tT9LHm979aj/view?usp=drivesdk",
+    "number system1.pdf": "https://drive.google.com/file/d/1sKCzvwQpBf71pcuaHs8Nfyo3IaDsqHnG/view?usp=drivesdk",
+    "Network-LO3.pptx": "https://docs.google.com/presentation/d/1EBD6L3WnIOuUmuCA-fQm_GzufKxV6Z-i/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "HTML5Reference.pdf": "https://drive.google.com/file/d/17sqYrLPPeFwuPyodmwTY7T2W3qGmmhen/view?usp=drivesdk",
+    "Introduction-to-CSS-LO6.pdf": "https://drive.google.com/file/d/1TQBHuOnogUNWvvd4migvfbxr0PoJTGQE/view?usp=drivesdk"
+  },
+  "explicitShareMapLinks": []
+}

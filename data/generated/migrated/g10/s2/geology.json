@@ -1,0 +1,1528 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T18:53:32.877Z",
+  "source": {
+    "file": "migration/raw/g10/s2/geology.json"
+  },
+  "subject": {
+    "id": "geology-g10-s2",
+    "name": "Geology",
+    "description": "Geology resources for Grade 10, Semester 2.",
+    "grade": "10",
+    "semester": "2",
+    "icon": "geology",
+    "content": [
+      {
+        "id": "geology-g10-s2-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "LO8",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "geology-g10-s2-concept-a-different-earth-materials-and-ore-minerals-have-different-chemical-physical-and-engineering-properties-making-them-suitable-for-different-economic-industries",
+            "title": "‣A) Different earth materials and ore minerals have different chemical, physical and engineering properties making them suitable for different economic industries.",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s2-video-zpayislw-fu-6319fa1e67"
+            ]
+          },
+          {
+            "id": "geology-g10-s2-concept-b-common-ore-minerals-include-both-relatively-oxidized-some-oxides-hydroxides-carbonates-and-relatively-reduced-some-oxides-sulfides-compounds-of-metals-as-well-as-native-elements",
+            "title": "‣B) Common ore minerals include both relatively oxidized ( some oxides, hydroxides, carbonates) and relatively reduced (some oxides, sulfides) compounds of metals as well as native elements.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "geology-g10-s2-video-jin3nc6rwja-9dddfda827"
+            ]
+          },
+          {
+            "id": "geology-g10-s2-concept-c-ore-minerals-must-become-concentrated-by-some-geologic-process-to-produce-an-economic-mineral-deposit-igneous-sedimentary-and-metamorphic-processes-can-all-produce-ore-deposits",
+            "title": "‣C) Ore minerals must become concentrated by some geologic process to produce an economic mineral deposit. Igneous, sedimentary, and metamorphic processes can all produce ore deposits.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "geology-g10-s2-video-jfiw2ivtueu-8f1229384b"
+            ]
+          },
+          {
+            "id": "geology-g10-s2-concept-d-modern-electronics-technologies-require-new-materials-such-as-rare-earth-elements-that-must-also-be-extracted-from-earth-materials-creating-new-ores-and-new-industries",
+            "title": "‣D) Modern electronics technologies require new materials, such as rare earth elements, that must also be extracted from earth materials, creating new ores and new industries.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "geology-g10-s2-video-1inpon9cktg-cec6beccca"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s2-pdf-copy-of-g10-26-geo-l-o8-dr-baya-pdf-59bd7d3d53",
+          "geology-g10-s2-pdf-copy-of-geology-l-o-8-pdf-7bad511cbd",
+          "geology-g10-s2-pdf-mrs-amany-lo-8-pdf-12a6a62700",
+          "geology-g10-s2-video-tshserjnyms-c346055c95",
+          "geology-g10-s2-video-gyjba1wvzwe-6277abfcb5"
+        ]
+      },
+      {
+        "id": "geology-g10-s2-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "LO9",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "geology-g10-s2-concept-a-electrical-energy-and-transportation-fuels-come-from-a-variety-of-natural-resources",
+            "title": "‣A) Electrical energy and transportation fuels come from a variety of natural resources.",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s2-video-dw0jte80kmm-5c61718991",
+              "geology-g10-s2-video-1glsapovzyq-8e0b5ba54a"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s2-pdf-copy-of-g10-26-geo-l-o9-dr-baya-pdf-20e8bcbb35",
+          "geology-g10-s2-pdf-copy-of-geology-l-o-9-10-pdf-feb5c72167",
+          "geology-g10-s2-pdf-mrs-amany-lo-9-pdf-494e62d19e",
+          "geology-g10-s2-video-u4wz6r4rlnu-8f72b6c8e0",
+          "geology-g10-s2-video-zznnxs-jbg0-2ff7466e7f",
+          "geology-g10-s2-video-u4wz6r4rlnu-b5eece47aa"
+        ]
+      },
+      {
+        "id": "geology-g10-s2-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "LO10",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "geology-g10-s2-concept-a-electrical-energy-and-transportation-fuels-come-from-a-variety-of-natural-resources",
+            "title": "‣A) Electrical energy and transportation fuels come from a variety of natural resources.",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s2-video-zaxbvyr9ij0-01b63e3e98",
+              "geology-g10-s2-video-ied4ogxqxum-0f807ebf6a",
+              "geology-g10-s2-video-1glsapovzyq-66136bface"
+            ]
+          },
+          {
+            "id": "geology-g10-s2-concept-b-directly-capturing-the-sun-s-energy-through-solar-panels-or-wind-energy-through-turbines-is-a-renewable-way-to-provide-heat-hot-water-and-electricity",
+            "title": "‣ B) Directly capturing the sun's energy through solar panels or wind energy through turbines, is a renewable way to provide heat, hot water, and electricity.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "geology-g10-s2-video-xpf9zc57hae-72396b4140",
+              "geology-g10-s2-video-z1ur09-slvo-309b00fd99"
+            ]
+          },
+          {
+            "id": "geology-g10-s2-concept-c-electrical-energy-could-be-generated-by-hydroelectric-from-dams-or-by-tidal-movement-of-water",
+            "title": "‣ C) Electrical energy could be generated by hydroelectric - from dams or by tidal movement of water.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "geology-g10-s2-video-vktrctydsyk-bf65c1510a",
+              "geology-g10-s2-video-mixhw8jfrrq-1c4b2f088b"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s2-pdf-copy-of-l-o-10-part-2-geology-pdf-4b07af083a",
+          "geology-g10-s2-pdf-copy-of-g10-26-geo-l-o10-dr-baya-pdf-dd000ca7c2",
+          "geology-g10-s2-pdf-copy-of-copy-of-lo-10-geology-pptx-a822777d0f",
+          "geology-g10-s2-pdf-mrs-amany-lo-10-pdf-92062598e5",
+          "geology-g10-s2-pdf-copy-of-geology-l-o-9-10-pdf-feb5c72167",
+          "geology-g10-s2-video-zja5h14gpg0-314c8acec2",
+          "geology-g10-s2-video-zja5h14gpg0-102a22166b"
+        ]
+      },
+      {
+        "id": "geology-g10-s2-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "LO11",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "geology-g10-s2-concept-a-coal-is-a-source-of-trapped-energy-from-the-sun-accessible-by-mining-with-extensive-reserves",
+            "title": "‣A) Coal is a source of trapped energy from the sun, accessible by mining, with extensive reserves.",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s2-video-ujv-5gfavhy-284a672440",
+              "geology-g10-s2-video-hhauypsqdzm-e4c7993527"
+            ]
+          },
+          {
+            "id": "geology-g10-s2-concept-b-reserves-of-coal-are-limited-and-are-distributed-in-unequal-ways-geographically",
+            "title": "‣ B) Reserves of coal are limited and are distributed in unequal ways, geographically.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "geology-g10-s2-video-ncwtfuoycds-bb9ae46b70"
+            ]
+          },
+          {
+            "id": "geology-g10-s2-concept-c-impact-of-the-use-of-coal-on-the-environment",
+            "title": "‣C) Impact of the use of coal on the environment",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "geology-g10-s2-video-pggout3prc-1825b19d94"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s2-pdf-mrs-amany-lo-11-pdf-d50b7bd491",
+          "geology-g10-s2-pdf-copy-of-geology-l-o-11-pdf-3c00824baf",
+          "geology-g10-s2-pdf-copy-of-l-o-11-geology-g10-dr-baya-pdf-16a8afad6a",
+          "geology-g10-s2-video-b8kik9gskn0-882276b761",
+          "geology-g10-s2-video-eug5bi37qym-adf169bf4f",
+          "geology-g10-s2-video-129jgrxeq9e-f0977669ba"
+        ]
+      },
+      {
+        "id": "geology-g10-s2-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "LO12",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "geology-g10-s2-concept-a-petroleum-and-natural-gas-are-fluid-resources-that-accumulate-in-natural-reservoirs-and-can-be-extracted-by-drilling",
+            "title": "‣A) Petroleum and natural gas are fluid resources that accumulate in natural reservoirs and can be extracted by drilling.",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s2-video-8h35ksrd0c0-c94d11b522",
+              "geology-g10-s2-video-wjm5k6kf-ru-1bada2d644"
+            ]
+          },
+          {
+            "id": "geology-g10-s2-concept-b-reserves-of-petroleum-and-natural-gas-are-limited-and-are-distributed-in-unequal-ways-geographically",
+            "title": "‣ B) Reserves of petroleum and natural gas are limited and are distributed in unequal ways, geographically.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "geology-g10-s2-video-qmbqchzlulg-80584f2d62",
+              "geology-g10-s2-video-caxaltcra5k-46773396dd"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s2-pdf-mrs-amany-lo-12-pdf-27358a4ba0",
+          "geology-g10-s2-pdf-copy-of-geology-l-o-12-pdf-7f645cd6ed",
+          "geology-g10-s2-pdf-copy-of-l-o-12-geology-g10-dr-baya-pdf-b1a1a1be21",
+          "geology-g10-s2-video-fnozdjxurjc-1cfcddee6e",
+          "geology-g10-s2-video-vwhpktvsbjo-c112558dcf",
+          "geology-g10-s2-video-8yhsxxevb1m-6c73a913ec",
+          "geology-g10-s2-video-njmj0diwu8-36a1e3e3f5",
+          "geology-g10-s2-video-xmqugsrnbp8-2beab514a6",
+          "geology-g10-s2-video-upaqftniais-4e8d66988a"
+        ]
+      },
+      {
+        "id": "geology-g10-s2-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "LO13",
+        "description": "",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "geology-g10-s2-concept-a-burning-fossil-fuels-to-extract-energy-has-a-number-of-environmental-effects-one-of-which-is-acid-rain",
+            "title": "A. Burning fossil fuels to extract energy has a number of environmental effects one of which is acid rain",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "geology-g10-s2-video-ysl2yz825po-270259c55e",
+              "geology-g10-s2-video-3uzwuqlzvm0-a326b83875"
+            ]
+          }
+        ],
+        "resources": [
+          "geology-g10-s2-pdf-copy-of-copy-of-copy-of-geology-l-o-13-pdf-7d24b0eee5",
+          "geology-g10-s2-pdf-copy-of-l-o13-geology-g10-dr-baya-pdf-aa4814241a",
+          "geology-g10-s2-pdf-copy-of-copy-of-l-o-13-geo-pptx-545092923e",
+          "geology-g10-s2-video-se-yw5pxevm-ca5402af3b",
+          "geology-g10-s2-video-p-xtrujjbxy-61f41a41bd",
+          "geology-g10-s2-video-p-xtrujjbxy-777b99b110"
+        ]
+      },
+      {
+        "id": "geology-g10-s2-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 7,
+        "concepts": [],
+        "resources": [
+          "geology-g10-s2-pdf-geology-chess-revision-pdf-ba0a3fd408",
+          "geology-g10-s2-pdf-geology-final-testbank-pdf-2b20c1021c",
+          "geology-g10-s2-pdf-test-bank-final-revesion-club-geo-pdf-2c7b288168",
+          "geology-g10-s2-pdf-test-bank-earth-science-for-final-2025-with-answers-pdf-b930f56f00"
+        ]
+      },
+      {
+        "id": "geology-g10-s2-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 8,
+        "concepts": [],
+        "resources": [
+          "geology-g10-s2-video-ambzpuu9wgq-7beba31da8",
+          "geology-g10-s2-video-htii4nquzra-cde7728142",
+          "geology-g10-s2-video-s0mliw4tfag-3a8126bcfd",
+          "geology-g10-s2-video-zeu-c8sbrvi-1be60d3454",
+          "geology-g10-s2-video-zkrhgphyu7q-708ac58a5d",
+          "geology-g10-s2-video-eni494mhwds-82e7a0a1eb",
+          "geology-g10-s2-video-o1bbiowljz8-d5d017558d"
+        ]
+      },
+      {
+        "id": "geology-g10-s2-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 9,
+        "concepts": [],
+        "resources": [
+          "geology-g10-s2-pdf-essentials-of-geologe-11th-edetion-pdf-4c4c1d3c32",
+          "geology-g10-s2-pdf-es-student-ebook-1-pdf-e5e1b9cb7b",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-4-volcanism-pdf-90fb38f342",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-1-introduction-to-geology-pdf-ac11762268",
+          "geology-g10-s2-pdf-chapter-14-groundwater-21-01-pdf-58db860857",
+          "geology-g10-s2-pdf-chapter-7-metamorphism-and-metamorphic-rocks-21-01-pdf-846c5e60a7",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-2-minerals-pdf-18405d91fd",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-22-the-origin-of-earth-and-the-solar-system-pdf-a2d2958462",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-20-geological-resources-pdf-6ad90e5900",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-18-geology-of-the-oceans-pdf-f94c434e2c",
+          "geology-g10-s2-pdf-chapter-16-glaciation-v-2-06-pdf-e9b55ce802",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-13-streams-and-floods-pdf-8c9c08599d",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-12-geological-structures-pdf-e5b40131a3",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-11-earthquakes-pdf-0f3ee7e743",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-10-plate-tectonics-pdf-16aaf6a64e",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-9-earths-interior-pdf-a786b263f4",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-8-measuring-geological-time-pdf-19769cb27b",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-6-sediments-and-sedimentary-rocks-pdf-46d7c21701",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-3-intrusive-igneous-rocks-pdf-8e4a948caa",
+          "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-5-weathering-and-soil-pdf-1e06e3e7ab",
+          "geology-g10-s2-pdf-part-1-1-earth-comm-book-pdf-fe1b4edaba",
+          "geology-g10-s2-pdf-part-2-1-ea-rth-comm-book-pdf-63f8b00f7e",
+          "geology-g10-s2-pdf-geology-environment-3sec-e-copy-pdf-98e014057b",
+          "geology-g10-s2-pdf-ck-12-earth-science-for-high-school-workbook-with-answers-pdf-04c1b3a5f4"
+        ]
+      }
+    ],
+    "units": 6
+  },
+  "resources": [
+    {
+      "id": "geology-g10-s2-video-zpayislw-fu-6319fa1e67",
+      "title": "‣A) Different earth materials and ore minerals have different chemical, physical and engineering properties making them suitable for different economic industries.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zPaYiSlW-FU?si=1oZoLfOCzRPd13q1",
+      "youtubeId": "zPaYiSlW-FU",
+      "source": {
+        "location": "LO8 → ‣A) Different earth materials and ore minerals have different chemical, physical and engineering properties making them suitable for different economic industries."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-jin3nc6rwja-9dddfda827",
+      "title": "‣B) Common ore minerals include both relatively oxidized ( some oxides, hydroxides, carbonates) and relatively reduced (some oxides, sulfides) compounds of metals as well as native elements.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/jIN3nc6RwJA?si=vdgRyIgCC8wdIlVT",
+      "youtubeId": "jIN3nc6RwJA",
+      "source": {
+        "location": "LO8 → ‣B) Common ore minerals include both relatively oxidized ( some oxides, hydroxides, carbonates) and relatively reduced (some oxides, sulfides) compounds of metals as well as native elements."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-jfiw2ivtueu-8f1229384b",
+      "title": "‣C) Ore minerals must become concentrated by some geologic process to produce an economic mineral deposit. Igneous, sedimentary, and metamorphic processes can all produce ore deposits.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/JFIW2iVtuEU?si=S92xncDfkmyXLOZN",
+      "youtubeId": "JFIW2iVtuEU",
+      "source": {
+        "location": "LO8 → ‣C) Ore minerals must become concentrated by some geologic process to produce an economic mineral deposit. Igneous, sedimentary, and metamorphic processes can all produce ore deposits."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-1inpon9cktg-cec6beccca",
+      "title": "‣D) Modern electronics technologies require new materials, such as rare earth elements, that must also be extracted from earth materials, creating new ores and new industries.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/1iNpON9ckTg?si=ToLReutow6e3351F",
+      "youtubeId": "1iNpON9ckTg",
+      "source": {
+        "location": "LO8 → ‣D) Modern electronics technologies require new materials, such as rare earth elements, that must also be extracted from earth materials, creating new ores and new industries."
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-g10-26-geo-l-o8-dr-baya-pdf-59bd7d3d53",
+      "title": "Copy of G10_26 geo L.O8 Dr. Baya.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1rd7JVNaIP_3Jk44NSe4P5UE4KH07sAVT/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-geology-l-o-8-pdf-7bad511cbd",
+      "title": "Copy of Geology L.O.8.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1KsGRnDpad3k4v0YdYhTJ3fvm5Tx_vnV9/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-mrs-amany-lo-8-pdf-12a6a62700",
+      "title": "Mrs Amany lo 8.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1skwGN6BrgKnaIsGeftX4uSoGuOZ7aCam/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-tshserjnyms-c346055c95",
+      "title": "LO8 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TShSERJNyms?si=zVKjrUGz7Qkymad9",
+      "youtubeId": "TShSERJNyms",
+      "source": {
+        "location": "LO8 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-gyjba1wvzwe-6277abfcb5",
+      "title": "LO8 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/GYjBa1WVZwE?si=F344bt1dVevVAI9G",
+      "youtubeId": "GYjBa1WVZwE",
+      "source": {
+        "location": "LO8 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-dw0jte80kmm-5c61718991",
+      "title": "‣A) Electrical energy and transportation fuels come from a variety of natural resources.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/DW0jTe80kmM?si=gdyW07cTwrnuz2XW",
+      "youtubeId": "DW0jTe80kmM",
+      "source": {
+        "location": "LO9 → ‣A) Electrical energy and transportation fuels come from a variety of natural resources."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-1glsapovzyq-8e0b5ba54a",
+      "title": "‣A) Electrical energy and transportation fuels come from a variety of natural resources.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/1gLsApOvzYQ?si=TbU6jqqMJ8dc0bUU",
+      "youtubeId": "1gLsApOvzYQ",
+      "source": {
+        "location": "LO9 → ‣A) Electrical energy and transportation fuels come from a variety of natural resources."
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-g10-26-geo-l-o9-dr-baya-pdf-20e8bcbb35",
+      "title": "Copy of G10_26 geo L.O9 Dr. Baya.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1E_vJavIUF0hNdMb9F48iR2eopVIOKVpD/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-geology-l-o-9-10-pdf-feb5c72167",
+      "title": "Copy of Geology L.O.9& 10.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1GOBQLxYbiXjlwoL1UIUvE13Syoz2Ay9Q/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-mrs-amany-lo-9-pdf-494e62d19e",
+      "title": "Mrs Amany lo 9.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1d4NN98vy1Wp_bgIs9j1cxFIytQSGQ_xg/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-u4wz6r4rlnu-8f72b6c8e0",
+      "title": "LO9 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/u4Wz6R4RLNU?si=P-916uOYmL7TxurF",
+      "youtubeId": "u4Wz6R4RLNU",
+      "source": {
+        "location": "LO9 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-zznnxs-jbg0-2ff7466e7f",
+      "title": "LO9 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ZZnNxs-Jbg0?si=z8XzTol9DR_tgUA7",
+      "youtubeId": "ZZnNxs-Jbg0",
+      "source": {
+        "location": "LO9 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-u4wz6r4rlnu-b5eece47aa",
+      "title": "LO9 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/u4Wz6R4RLNU?si=IVoKIVbe6jPn2bOT",
+      "youtubeId": "u4Wz6R4RLNU",
+      "source": {
+        "location": "LO9 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-zaxbvyr9ij0-01b63e3e98",
+      "title": "‣A) Electrical energy and transportation fuels come from a variety of natural resources.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zaXBVYr9Ij0?si=TDETahEvuiYIzQtR",
+      "youtubeId": "zaXBVYr9Ij0",
+      "source": {
+        "location": "LO10 → ‣A) Electrical energy and transportation fuels come from a variety of natural resources."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-ied4ogxqxum-0f807ebf6a",
+      "title": "‣A) Electrical energy and transportation fuels come from a variety of natural resources.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Ied4ogxqXUM?si=5hlN5IL6NCDVYWxB",
+      "youtubeId": "Ied4ogxqXUM",
+      "source": {
+        "location": "LO10 → ‣A) Electrical energy and transportation fuels come from a variety of natural resources."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-1glsapovzyq-66136bface",
+      "title": "‣A) Electrical energy and transportation fuels come from a variety of natural resources.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/1gLsApOvzYQ?si=X-iGhMsXEsVls95A",
+      "youtubeId": "1gLsApOvzYQ",
+      "source": {
+        "location": "LO10 → ‣A) Electrical energy and transportation fuels come from a variety of natural resources."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-xpf9zc57hae-72396b4140",
+      "title": "‣ B) Directly capturing the sun's energy through solar panels or wind energy through turbines, is a renewable way to provide heat, hot water, and electricity.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/XpF9zc57HAE?si=huMaBosppmtcPh4K",
+      "youtubeId": "XpF9zc57HAE",
+      "source": {
+        "location": "LO10 → ‣ B) Directly capturing the sun's energy through solar panels or wind energy through turbines, is a renewable way to provide heat, hot water, and electricity."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-z1ur09-slvo-309b00fd99",
+      "title": "‣ B) Directly capturing the sun's energy through solar panels or wind energy through turbines, is a renewable way to provide heat, hot water, and electricity.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "http://www.youtube.com/watch?v=Z1ur09_SLVo",
+      "youtubeId": "Z1ur09_SLVo",
+      "source": {
+        "location": "LO10 → ‣ B) Directly capturing the sun's energy through solar panels or wind energy through turbines, is a renewable way to provide heat, hot water, and electricity."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-vktrctydsyk-bf65c1510a",
+      "title": "‣ C) Electrical energy could be generated by hydroelectric - from dams or by tidal movement of water.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/VkTRcTyDSyk?si=Uf27Le-O0qujUOK8",
+      "youtubeId": "VkTRcTyDSyk",
+      "source": {
+        "location": "LO10 → ‣ C) Electrical energy could be generated by hydroelectric - from dams or by tidal movement of water."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-mixhw8jfrrq-1c4b2f088b",
+      "title": "‣ C) Electrical energy could be generated by hydroelectric - from dams or by tidal movement of water.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/mIxhW8JfRrQ?si=Wcg9azWAhz0DeAnl",
+      "youtubeId": "mIxhW8JfRrQ",
+      "source": {
+        "location": "LO10 → ‣ C) Electrical energy could be generated by hydroelectric - from dams or by tidal movement of water."
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-l-o-10-part-2-geology-pdf-4b07af083a",
+      "title": "Copy of L.O 10 part 2 geology.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1DIPysDxpetYINXLvhKGNTzU5RSnAjrWV/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-g10-26-geo-l-o10-dr-baya-pdf-dd000ca7c2",
+      "title": "Copy of G10_26 geo L.O10 Dr. Baya.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1A3uhfGh4YCke41v-lML9GT6ZmYGXo9D2/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-copy-of-lo-10-geology-pptx-a822777d0f",
+      "title": "Copy of Copy of LO.10 Geology.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1XPTMqKhYMVVIx6Mg20_Jq5dRcTT_NZ7Y/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-mrs-amany-lo-10-pdf-92062598e5",
+      "title": "Mrs Amany lo 10.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1_4fL0qoyMb6vp5nncjR6D5kTnSah1rgq/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-zja5h14gpg0-314c8acec2",
+      "title": "LO10 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zJA5h14gpg0?si=VX1mQ5xAndds8VQ0",
+      "youtubeId": "zJA5h14gpg0",
+      "source": {
+        "location": "LO10 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-zja5h14gpg0-102a22166b",
+      "title": "LO10 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zJA5h14gpg0?si=vi70lVLhRxexZd8Y",
+      "youtubeId": "zJA5h14gpg0",
+      "source": {
+        "location": "LO10 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-ujv-5gfavhy-284a672440",
+      "title": "‣A) Coal is a source of trapped energy from the sun, accessible by mining, with extensive reserves.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/UJV-5GfAVhY?si=KN1F89aIDZdvdIwB",
+      "youtubeId": "UJV-5GfAVhY",
+      "source": {
+        "location": "LO11 → ‣A) Coal is a source of trapped energy from the sun, accessible by mining, with extensive reserves."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-hhauypsqdzm-e4c7993527",
+      "title": "‣A) Coal is a source of trapped energy from the sun, accessible by mining, with extensive reserves.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/HHaUypSqdzM?si=zIIAbLOjx0d40YLc",
+      "youtubeId": "HHaUypSqdzM",
+      "source": {
+        "location": "LO11 → ‣A) Coal is a source of trapped energy from the sun, accessible by mining, with extensive reserves."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-ncwtfuoycds-bb9ae46b70",
+      "title": "‣ B) Reserves of coal are limited and are distributed in unequal ways, geographically.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/NCWtFuOyCds?si=0tsscOSpQAKj6vbJ",
+      "youtubeId": "NCWtFuOyCds",
+      "source": {
+        "location": "LO11 → ‣ B) Reserves of coal are limited and are distributed in unequal ways, geographically."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-pggout3prc-1825b19d94",
+      "title": "‣C) Impact of the use of coal on the environment",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/_PggOuT3prc?si=gi3hoRezasEWYRWF",
+      "youtubeId": "_PggOuT3prc",
+      "source": {
+        "location": "LO11 → ‣C) Impact of the use of coal on the environment"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-mrs-amany-lo-11-pdf-d50b7bd491",
+      "title": "Mrs Amany lo 11.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1GwjsrFx0_vdGBN6SvnMeiAdlIPLkvh5V/view",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-geology-l-o-11-pdf-3c00824baf",
+      "title": "Copy of Geology L.O.11.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1k6fa-d9EFneUXYyEEO4wETknhaADUtW2/view",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-l-o-11-geology-g10-dr-baya-pdf-16a8afad6a",
+      "title": "Copy of L.O 11 geology G10 Dr. Baya.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1pKd4VnTJ0mt6itYmzzDq6jpvenqwPRFP/view",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-b8kik9gskn0-882276b761",
+      "title": "LO11 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/B8kIK9GSKN0?si=ax6EhXvPQDDMP3fS",
+      "youtubeId": "B8kIK9GSKN0",
+      "source": {
+        "location": "LO11 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-eug5bi37qym-adf169bf4f",
+      "title": "LO11 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/euG5bI37QyM?si=fFRpJpZz3oPTPFUj",
+      "youtubeId": "euG5bI37QyM",
+      "source": {
+        "location": "LO11 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-129jgrxeq9e-f0977669ba",
+      "title": "LO11 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/129JgrXEq9E?si=4rx8zO9yxMmBRq1v",
+      "youtubeId": "129JgrXEq9E",
+      "source": {
+        "location": "LO11 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-8h35ksrd0c0-c94d11b522",
+      "title": "‣A) Petroleum and natural gas are fluid resources that accumulate in natural reservoirs and can be extracted by drilling.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8h35KsRD0c0?si=OeHQJsc_hgHJTPYX",
+      "youtubeId": "8h35KsRD0c0",
+      "source": {
+        "location": "LO12 → ‣A) Petroleum and natural gas are fluid resources that accumulate in natural reservoirs and can be extracted by drilling."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-wjm5k6kf-ru-1bada2d644",
+      "title": "‣A) Petroleum and natural gas are fluid resources that accumulate in natural reservoirs and can be extracted by drilling.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/wjm5k6Kf-RU?si=U_i_ty0CHY1nSmZd",
+      "youtubeId": "wjm5k6Kf-RU",
+      "source": {
+        "location": "LO12 → ‣A) Petroleum and natural gas are fluid resources that accumulate in natural reservoirs and can be extracted by drilling."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-qmbqchzlulg-80584f2d62",
+      "title": "‣ B) Reserves of petroleum and natural gas are limited and are distributed in unequal ways, geographically.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/qmbQChzlulg?si=TVC2ZK3OjZePNb2L",
+      "youtubeId": "qmbQChzlulg",
+      "source": {
+        "location": "LO12 → ‣ B) Reserves of petroleum and natural gas are limited and are distributed in unequal ways, geographically."
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-caxaltcra5k-46773396dd",
+      "title": "‣ B) Reserves of petroleum and natural gas are limited and are distributed in unequal ways, geographically.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/cAxAltcRa5k?si=xWsJ5ot7Zno7OoXC",
+      "youtubeId": "cAxAltcRa5k",
+      "source": {
+        "location": "LO12 → ‣ B) Reserves of petroleum and natural gas are limited and are distributed in unequal ways, geographically."
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-mrs-amany-lo-12-pdf-27358a4ba0",
+      "title": "Mrs Amany lo 12.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1P4KtN7V9wsJssOgHJOaeCe8QbPwK7LHX/view",
+      "source": {
+        "location": "LO12"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-geology-l-o-12-pdf-7f645cd6ed",
+      "title": "Copy of Geology L.O.12.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1UXokYx7s_f_KR93A54Hyo_iG3yu9Mc9M/view",
+      "source": {
+        "location": "LO12"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-l-o-12-geology-g10-dr-baya-pdf-b1a1a1be21",
+      "title": "Copy of L.O 12 geology G10 dr. baya.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1bsMuTuGSieNIWX5B9elhVhuyhsTA0Ij-/view",
+      "source": {
+        "location": "LO12"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-fnozdjxurjc-1cfcddee6e",
+      "title": "LO12 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/FnoZDJXuRJc?si=slGc9zUiP38BCjYd",
+      "youtubeId": "FnoZDJXuRJc",
+      "source": {
+        "location": "LO12 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-vwhpktvsbjo-c112558dcf",
+      "title": "LO12 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/vwhpKtVSBjo?si=S0BfT-VcVyYG8jhv",
+      "youtubeId": "vwhpKtVSBjo",
+      "source": {
+        "location": "LO12 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-8yhsxxevb1m-6c73a913ec",
+      "title": "LO12 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8YHsxXEVB1M?si=RLuD4JewbGFPdMa7",
+      "youtubeId": "8YHsxXEVB1M",
+      "source": {
+        "location": "LO12 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-njmj0diwu8-36a1e3e3f5",
+      "title": "LO12 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/-njmj0diWu8?si=TOw3_deFTK5lBmlO",
+      "youtubeId": "-njmj0diWu8",
+      "source": {
+        "location": "LO12 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-xmqugsrnbp8-2beab514a6",
+      "title": "LO12 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/xMQUGSrnbP8?si=NQc5_sG8fuBwseCu",
+      "youtubeId": "xMQUGSrnbP8",
+      "source": {
+        "location": "LO12 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-upaqftniais-4e8d66988a",
+      "title": "LO12 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/UPAqfTNiais?si=5DTMGA5EA2RB_xqd",
+      "youtubeId": "UPAqfTNiais",
+      "source": {
+        "location": "LO12 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-ysl2yz825po-270259c55e",
+      "title": "A. Burning fossil fuels to extract energy has a number of environmental effects one of which is acid rain",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ySl2Yz825Po?si=6CsHZX90R_XPLYa_",
+      "youtubeId": "ySl2Yz825Po",
+      "source": {
+        "location": "LO13 → A. Burning fossil fuels to extract energy has a number of environmental effects one of which is acid rain"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-3uzwuqlzvm0-a326b83875",
+      "title": "A. Burning fossil fuels to extract energy has a number of environmental effects one of which is acid rain",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/3uzWUQlZvm0?si=UDhm5w4V7_rkqFo2",
+      "youtubeId": "3uzWUQlZvm0",
+      "source": {
+        "location": "LO13 → A. Burning fossil fuels to extract energy has a number of environmental effects one of which is acid rain"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-copy-of-copy-of-geology-l-o-13-pdf-7d24b0eee5",
+      "title": "Copy of Copy of Copy of Geology L.O.13.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/14wWRtshRIRnuHJAFa6JXC7UyXI3jABNy/view",
+      "source": {
+        "location": "LO13"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-06"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-l-o13-geology-g10-dr-baya-pdf-aa4814241a",
+      "title": "Copy of L.O13 geology G10 dr. baya.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1cBkTFlH-YsoDYCkwbdEmRp_vCNL_dcnf/view",
+      "source": {
+        "location": "LO13"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-06"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-copy-of-copy-of-l-o-13-geo-pptx-545092923e",
+      "title": "Copy of Copy of L.O-13(Geo).pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1jcu19EiBrGpriQEeM-TnQJXiC0ZTE9c5/view",
+      "source": {
+        "location": "LO13"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "geology-g10-s2-unit-06"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-se-yw5pxevm-ca5402af3b",
+      "title": "LO13 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/SE_Yw5pXEvM?si=sUNsCtnnfl6g_Vb6",
+      "youtubeId": "SE_Yw5pXEvM",
+      "source": {
+        "location": "LO13 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-p-xtrujjbxy-61f41a41bd",
+      "title": "LO13 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/P_xTRuJjBXY?si=dgr7SBmk0JjijYph",
+      "youtubeId": "P_xTRuJjBXY",
+      "source": {
+        "location": "LO13 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-p-xtrujjbxy-777b99b110",
+      "title": "LO13 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/P_xTRuJjBXY?si=JxL9HZGyzkniSABL",
+      "youtubeId": "P_xTRuJjBXY",
+      "source": {
+        "location": "LO13 → Summary"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-geology-chess-revision-pdf-ba0a3fd408",
+      "title": "Geology Chess Revision.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Mjwo6pU4h0WvRChFS82yKTJA04HbRjor/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-geology-final-testbank-pdf-2b20c1021c",
+      "title": "Geology Final testbank.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ejbj2oTqrw6MBTtyoT4I7uRgfr4SqJ3X/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-test-bank-final-revesion-club-geo-pdf-2c7b288168",
+      "title": "test bank FINAL REVESION club geo.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1owyT_HC8G3PdgyU4CoDnTGQ4kLbpoNkJ/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-test-bank-earth-science-for-final-2025-with-answers-pdf-b930f56f00",
+      "title": "Test bank earth science for final 2025 with answers .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1prPRugMZQlHKDtCq2zKWac755M6KUvaf/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-ambzpuu9wgq-7beba31da8",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/AmbzPuU9wGQ?si=MBvMJ9nlQePI8oXu",
+      "youtubeId": "AmbzPuU9wGQ",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-htii4nquzra-cde7728142",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/htIi4NQUZRA?si=jIM3WNseiwXS6nD4",
+      "youtubeId": "htIi4NQUZRA",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-s0mliw4tfag-3a8126bcfd",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/S0MliW4TFag?si=v3nGaHu7RxJARRt0",
+      "youtubeId": "S0MliW4TFag",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-zeu-c8sbrvi-1be60d3454",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zeU-C8sbRvI?si=JBIcbQmFC0FCYxBF",
+      "youtubeId": "zeU-C8sbRvI",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-zkrhgphyu7q-708ac58a5d",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zKrhGPhYU7Q?si=b8bKohgchR0EzNFZ",
+      "youtubeId": "zKrhGPhYU7Q",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-eni494mhwds-82e7a0a1eb",
+      "title": "final Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/eNI494mhwds?si=IusJzMDO2kqdg3gf",
+      "youtubeId": "eNI494mhwds",
+      "source": {
+        "location": "Revision → final"
+      }
+    },
+    {
+      "id": "geology-g10-s2-video-o1bbiowljz8-d5d017558d",
+      "title": "final Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/O1bBIOwljz8?si=SWgGwxR98y1gusGl",
+      "youtubeId": "O1bBIOwljz8",
+      "source": {
+        "location": "Revision → final"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-essentials-of-geologe-11th-edetion-pdf-4c4c1d3c32",
+      "title": "Essentials of geologe 11th edetion.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1eOpEnb6Y2MTQUeZE9RydHA7GV9VHU8qx/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-es-student-ebook-1-pdf-e5e1b9cb7b",
+      "title": "ES student ebook (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/17TtGX7zNM-NVJ4Hmpp61iFIMtdknB2Es/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-4-volcanism-pdf-90fb38f342",
+      "title": "Physical-Geology-2nd-Edition-Chapter-4-Volcanism.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1dXF49nKa7QdcqbP49MvnGO5cJsxKOHby/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-1-introduction-to-geology-pdf-ac11762268",
+      "title": "Physical-Geology-2nd-Edition-Chapter-1-Introduction-to-Geology.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1WQJnEpFnLJW1AzD6UtLrIHavH8lMlcTh/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-chapter-14-groundwater-21-01-pdf-58db860857",
+      "title": "Chapter-14-Groundwater-21-01.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1_JjL080jGHqrlJsAB32v7kTWGvDXYI_F/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-chapter-7-metamorphism-and-metamorphic-rocks-21-01-pdf-846c5e60a7",
+      "title": "Chapter-7-Metamorphism-and-Metamorphic-Rocks-21-01.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1cIFk84-c8ZRSxtiwUTXU7pf-Q0jsx4uD/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-2-minerals-pdf-18405d91fd",
+      "title": "Physical-Geology-2nd-Edition-Chapter-2-Minerals.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1iVFZYdY6_dBIa6oHCpJm2q5jQcjLK5y_/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-22-the-origin-of-earth-and-the-solar-system-pdf-a2d2958462",
+      "title": "Physical-Geology-2nd-Edition-Chapter-22-The-Origin-of-Earth-and-the-Solar-System.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1yMaFJdMCzOiXlgIGlah-F51ng8Pdrq-_/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-20-geological-resources-pdf-6ad90e5900",
+      "title": "Physical-Geology-2nd-Edition-Chapter-20-Geological-Resources.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1y6AaLbgYCmE-gHIjliZAUFwlhLWlTSlL/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-18-geology-of-the-oceans-pdf-f94c434e2c",
+      "title": "Physical-Geology-2nd-Edition-Chapter-18-Geology-of-the-Oceans.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1d8PZi7VrxQ2__KaEbR3RxIvTG6QcI1j5/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-chapter-16-glaciation-v-2-06-pdf-e9b55ce802",
+      "title": "Chapter-16-Glaciation-v.2.06.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1-ZU__2y_CzusVdokLFJmYVlik4Dn2coz/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-13-streams-and-floods-pdf-8c9c08599d",
+      "title": "Physical-Geology-2nd-Edition-Chapter-13-Streams-and-Floods.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/18ZyvAZztYcvv66ICJgdQByaUO3FKH2hJ/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-12-geological-structures-pdf-e5b40131a3",
+      "title": "Physical-Geology-2nd-Edition-Chapter-12-Geological-Structures.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1fp8k6R6rftg5BhBSZyiHogXBdDuelS4h/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-11-earthquakes-pdf-0f3ee7e743",
+      "title": "Physical-Geology-2nd-Edition-Chapter-11-Earthquakes.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1u9JdPhqsANzm0LtBKGLTRfZZRCn9WLah/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-10-plate-tectonics-pdf-16aaf6a64e",
+      "title": "Physical-Geology-2nd-Edition-Chapter-10-Plate-Tectonics.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/16PFMVrj34Oh_sJ1kLVOgliu66dscCi-f/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-9-earths-interior-pdf-a786b263f4",
+      "title": "Physical-Geology-2nd-Edition-Chapter-9-Earths-Interior.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1sLjwjy05I5NQMqyHzIgZLB0ega6h94Yb/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-8-measuring-geological-time-pdf-19769cb27b",
+      "title": "Physical-Geology-2nd-Edition-Chapter-8-Measuring-Geological-Time.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1skcfxNWMnCyddJ9MPLDOvohPPbqYpCfv/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-6-sediments-and-sedimentary-rocks-pdf-46d7c21701",
+      "title": "Physical-Geology-2nd-Edition-Chapter-6-Sediments-and-Sedimentary-Rocks.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1vy6H7AyAI7c-rQmxSTnkYjGC7we5bG_m/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-3-intrusive-igneous-rocks-pdf-8e4a948caa",
+      "title": "Physical-Geology-2nd-Edition-Chapter-3-Intrusive-Igneous-Rocks.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Ul954N_CngDqT_XjSsIXuEJInVTStzqv/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-physical-geology-2nd-edition-chapter-5-weathering-and-soil-pdf-1e06e3e7ab",
+      "title": "Physical-Geology-2nd-Edition-Chapter-5-Weathering-and-Soil.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1P46H-g9Ce0JBXEj_fQntL2msZbo0xhJl/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-part-1-1-earth-comm-book-pdf-fe1b4edaba",
+      "title": "Part 1 (1) EARTH.COMM BOOK.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Tx27jLfqonvJBfrLtLjdail0pG5v3Jaj/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-part-2-1-ea-rth-comm-book-pdf-63f8b00f7e",
+      "title": "Part 2 (1)EA RTH.COMM BOOK.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1PuLQBmFV_AlfgNeLBqXWLBbaG5KKQsHR/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-geology-environment-3sec-e-copy-pdf-98e014057b",
+      "title": "Geology_environment_3sec_E - Copy.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1mJJrzylmRHazNjzHNyptZ0TTv8oyKdJm/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "geology-g10-s2-pdf-ck-12-earth-science-for-high-school-workbook-with-answers-pdf-04c1b3a5f4",
+      "title": "CK-12-Earth-Science-For-High-School-Workbook-with-Answers-١.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1oK16UY5G9XK74-0cdoV_lw1goewaL3LE/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

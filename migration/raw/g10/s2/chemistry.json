@@ -1,0 +1,532 @@
+{
+  "learningObjectives": {
+    "LO8": {
+      "title": "LO8",
+      "concepts": [
+        "Pure substance",
+        "Solution",
+        "Solute",
+        "Solvent",
+        "Colloid",
+        "Tyndall Effect",
+        "Suspension"
+      ]
+    },
+    "LO9": {
+      "title": "LO9",
+      "concepts": [
+        "Texture",
+        "Uniformity",
+        "Strength",
+        "Elasticity",
+        "Bounce",
+        "Malleability"
+      ]
+    },
+    "LO10": {
+      "title": "LO10",
+      "concepts": [
+        "Stoichiometry",
+        "Mole",
+        "Molar mass",
+        "Standard temperature and pressure (STP)",
+        "Dimensional analysis (unit conversions)",
+        "Percentage yield",
+        "Limiting reagent"
+      ]
+    },
+    "LO11": {
+      "title": "LO11",
+      "concepts": [
+        "Synthesis reaction",
+        "Decomposition reaction",
+        "Single-replacement reaction",
+        "Double-replacement reaction"
+      ]
+    },
+    "LO12": {
+      "title": "LO12",
+      "concepts": [
+        "Intermolecular forces",
+        "London dispersion force",
+        "Dipole-dipole force",
+        "Electronegativity",
+        "Polarity",
+        "VESPR theory"
+      ]
+    },
+    "LO13": {
+      "title": "LO13",
+      "concepts": [
+        "Metals",
+        "Oxidation-reduction (redox) reaction",
+        "Oxidation",
+        "Reduction"
+      ]
+    },
+    "LO14": {
+      "title": "LO14",
+      "concepts": [
+        "Oxidation-reduction (redox) reaction",
+        "Half-reactions",
+        "Electrochemical cell",
+        "Galvanic cell",
+        "Spectator ions"
+      ]
+    },
+    "LO15": {
+      "title": "LO15",
+      "concepts": [
+        "System",
+        "Thermodynamic",
+        "Kinetics",
+        "Energy",
+        "Heat",
+        "Maximum work",
+        "Law of conservation of energy",
+        "Endothermic",
+        "Exothermic",
+        "Heat content",
+        "Enthalpy change",
+        "Energy diagram",
+        "Activation energy",
+        "Activated complex",
+        "Entropy(S)",
+        "Spontaneity",
+        "Gibbs free energy",
+        "Catalyst"
+      ]
+    },
+    "LO16": {
+      "title": "LO16",
+      "concepts": [
+        "Gas",
+        "Natural law",
+        "Pressure",
+        "Atmosphere",
+        "Barometers",
+        "Boyle's Law",
+        "Charles's Law",
+        "Absolute Zero",
+        "Kinetic Theory of Matter",
+        "Idea Gas"
+      ]
+    },
+    "LO17": {
+      "title": "LO17",
+      "concepts": [
+        "Diffusion",
+        "Effusion",
+        "Graham's Law of Effusion"
+      ]
+    }
+  },
+  "resourceFiles": {
+    "LO8": [
+      "L.O:8",
+      "lo8 chemistry.pdf",
+      "CH.1.08.pdf",
+      "Copy of CH.1.08.pptx",
+      "LO.O8 mixtures with questions.pptx",
+      "LO 8 questions.pdf",
+      "LO 8 Part One Mahjoub.pptx.pdf",
+      "Chemistry LO8 (M.E.O) (1).pdf",
+      "G10 CHEM.08.pdf"
+    ],
+    "LO9": [
+      "L.O:9",
+      "CH.1.09 .ppt",
+      "LO 9  Mahjoub.pptx.pdf",
+      "LO 9.pdf",
+      "LO.1.09 MR. Ayman Elkady.pdf",
+      "Chem LO9.pptx",
+      "G10 CHEM.09.pdf"
+    ],
+    "LO10": [
+      "L.O:10",
+      "Chemistry Lo 10 M.E.O.pdf",
+      "Copy of CH.1.10.pptx",
+      "LO 10-3.pdf",
+      "LO 10-2.pdf",
+      "LO 10-1.pdf",
+      "G10 CHEM.10.pdf"
+    ],
+    "LO11": [
+      "L.O:11",
+      "LO11.pptx",
+      "LO 11  Mahjoub.pdf",
+      "LO 11.pdf",
+      "G10 CHEM.11.pdf"
+    ],
+    "LO12": [
+      "L.O:12",
+      "chem.. 12.pptx",
+      "CH.1.12.pptx",
+      "LO 12 Mahjoub.pptx.pdf",
+      "LO 12.pdf",
+      "G10 CHEM.12.pdf"
+    ],
+    "LO13": [
+      "L.O:13",
+      "CH.1.13.pptx",
+      "LO 13 Mahjoub.pptx.pdf",
+      "LO13.pptx",
+      "G10 CHEM.13.pdf"
+    ],
+    "LO14": [
+      "L.O:14",
+      "CH.1.14.pptx",
+      "LO 14-15.pdf"
+    ],
+    "LO15": [
+      "L.O:15",
+      "CH.1.15.pptx",
+      "LO.15 Chem.pdf",
+      "LO 14-15.pdf",
+      "Chem LO.15.pptx",
+      "G10 CHEM.15.pdf"
+    ],
+    "LO16": [
+      "L.O:16",
+      "CH.1.16.pptx",
+      "LO 16.pdf",
+      "chem ch16 IS.pptx",
+      "G10 CHEM.16.pdf"
+    ],
+    "LO17": [
+      "L.O:17",
+      "CH.1.17.pptx",
+      "LO 17.pdf",
+      "LO 17 Mahjoub.pptx.pdf",
+      "chem lo17.pptx",
+      "G10 CHEM.17.pdf"
+    ],
+    "references": [
+      "References Positions.pdf",
+      "Principles_of_General_Chemistry_by_Martin_Silberberg_z_lib_org.pdf",
+      "Principles of organic chemistry.pdf",
+      "Holt_Chemistry_Textbook.pdf",
+      "Active_Chemistry.PDF",
+      "Zumdahl Chemistry 9th c2014 solutions - Copy.pdf",
+      "References Positions.pdf",
+      "G10 CHEM.14.pdf",
+      "Chemistry practical for G10, G11 Second term Dr. baya.pdf",
+      "Chemistry practical.pdf"
+    ],
+    "testBanks": []
+  },
+  "videoLinks": {
+    "LO8": {
+      "Pure substance": [
+        "https://youtu.be/XuXg3fmuAFY?si=Z_KLg4dotiCPAZY2",
+        "https://youtu.be/OHhnm2p5G3o?si=5kn_k1_wJiwo8KMY"
+      ],
+      "Solute, solved, solution": [
+        "https://youtu.be/MDHlaTHbEgM?si=uRTp5RML0vb8FtXr"
+      ],
+      "Colloid": [
+        "https://youtu.be/meZqm7HznZg?si=PWsrVxWBivq"
+      ],
+      "Tyndall Effect": [
+        "https://youtu.be/OXoKZPLb6Qo?si=hRoP_YxmsDO8najn"
+      ]
+    },
+    "LO9": {
+      "Texture": [
+        "https://youtu.be/phcI22TWtuU?si=7MspQFuBySc-fJQ-"
+      ],
+      "Materials and their properties": [
+        "https://youtu.be/340MmuY_osY?si=BGFjlEhxk6xYQ80K"
+      ],
+      "Homogeneous and Heterogeneous mixture": [
+        "https://youtu.be/eI-tmv4DLEk"
+      ],
+      "Mechanical properties": [
+        "https://youtu.be/mlQ8tu5VP4A?si=EHjhqKLoi6agJpWV"
+      ],
+      "Elasticity and Hooks law": [
+        "https://youtu.be/HALbtyDUjp0?si=uDT_UhdWejVN1u2D"
+      ],
+      "Woobling, dropping and bouncing": [
+        "https://youtu.be/i1okkh-c3Po?si=NAL89C2-lSFwVa5"
+      ],
+      "Malleability": [
+        "https://youtu.be/08mGIgBcscI?si=-HDsR1VKDHLEn3cr"
+      ],
+      "Mechanical properties of materials": [
+        "https://youtu.be/4val-DD3GAA?si=eVMee9zzwmfLgqhV"
+      ]
+    },
+    "LO10": {
+      "Stoichiometry": [
+        "https://youtu.be/bVRPVHhLuGA?si=VyK-S0-bm3qIn-2b"
+      ],
+      "Theoretical yeild": [
+        "https://youtu.be/jtAj0s203CI?si=3lpgg2wt-ebnBw62"
+      ],
+      "Percentage yield": [
+        "https://youtu.be/DIird9oZVII?si=UryysM-O6ocDlLh2"
+      ],
+      "Moles and mass": [
+        "https://youtu.be/kBlmEfS_P00?si=5bdOnuvjkI8Qb3Pq"
+      ],
+      "Limiting reagent": [
+        "https://youtu.be/nZOVR8EMwRU?si=e1-jNQQfwcO7IDWT"
+      ],
+      "Standard temperature and pressure (STP)": [
+        "https://youtu.be/B1ZsDnOGeYA?si=FlwiaPfDZjGBSiZd"
+      ]
+    },
+    "LO11": {
+      "Types of chemical reactions": [
+        "https://youtu.be/2Ik5KRHBlRU?si=ouIEM3quTsT8EuB8",
+        "https://youtu.be/iIJD8RNLpS0?si=oOzaMJjah8DJl0cy"
+      ],
+      "Single-replacement reaction": [
+        "https://youtu.be/4xLmQvoKFlg?si=5W4VTV8X2tU3tntL"
+      ],
+      "Double-replacement reaction": [
+        "https://youtu.be/d8vWIGf2mGE?si=vf26jifpyXF8_Pyf"
+      ],
+      "Synthesis reaction": [
+        "https://youtu.be/FRsuhbTGWSg?si=mgdiTm8_4uj"
+      ],
+      "Decomposition reaction": [
+        "https://youtu.be/Bf0alYXHbGw?si=SlhibqW1gaBDH6T9"
+      ]
+    },
+    "LO12": {
+      "Intermolecular forces": [
+        "https://youtu.be/bjZbDk1Oe9M?si=IENzDmtPcflDaPF0"
+      ],
+      "bond polarity, electronegativity, and the dipole moment": [
+        "https://youtu.be/ds5HXmBkO0Y?si=rh4_Egp898SuVa0D"
+      ],
+      "Dipole-dipole force": [
+        "https://youtu.be/zOvnu0KYyxo?si=IiMcrFUWzb7rVxpt"
+      ],
+      "London dispersion force": [
+        "https://youtu.be/yIuJfHOVh48?si=5FGJN7BPzD3d0LB5"
+      ],
+      "VESPR theory": [
+        "https://youtu.be/DBrq31w8vC4?si=-e7yKkCQnlSinUX6"
+      ],
+      "Chemical bonds": [
+        "https://youtu.be/PoQjsnQmxok?si=v1x3bJyiq-t17lwc"
+      ]
+    },
+    "LO13": {
+      "Metals": [
+        "https://youtu.be/BD7vnlr-i-c?si=Bx6Jc0i-z8W6SLMG"
+      ],
+      "Oxidation-reduction (redox) reaction": [
+        "https://youtu.be/VXvtkwubQQg?si=qJyRU-mDKsiWwnOb",
+        "https://youtu.be/6gtcvqLmPo8?si=Fj1IGKAq-NpLjE3s",
+        "https://youtu.be/lQ6FBA1HM3s?si=zqohJZIDiKupB4Lb"
+      ]
+    },
+    "LO14": {
+      "Oxidation-reduction (redox) reaction": [
+        "https://youtu.be/SaBiqQ_L46g?si=D9Lz8EdGXGpWatWx",
+        "https://youtu.be/dF5lB7gRtcA?si=JoO5a1rbI7FsYJmr"
+      ],
+      "Half-reactions": [
+        "https://youtu.be/fdbrhQAM9Gw?si=uIcCaD8L22EaWeJC"
+      ],
+      "Galvanic cell": [
+        "https://youtu.be/9blB-uMTIAM?si=M0gNqpsKP1PoWmFZ"
+      ],
+      "Electrochemical cell": [
+        "https://youtu.be/IV4IUsholjg?si=3NLq1MCobb69PGQ6"
+      ],
+      "Spectator ions": [
+        "https://youtu.be/PIciMJN5HwU?si=1alrSF-lUAB_QhiI"
+      ]
+    },
+    "LO15": {
+      "System": [
+        "https://youtu.be/TFP6SvWPOQc?si=VCnawRswSdUNp2VL"
+      ],
+      "Thermodynamic": [
+        "https://youtu.be/3Mjx0cFMpE8?si=Tp6zre4Qk-ULWd5D"
+      ],
+      "Kinetics": [
+        "https://youtu.be/DyaVgHGssos?si=_FkHiFJXBO6eNJ_z"
+      ],
+      "Energy": [
+        "https://youtu.be/JRIm_a2LDPM?si=eaFxcgmODwCvI3zj"
+      ],
+      "Heat": [
+        "https://youtu.be/2ixEf2zpR8E?si=cw7T3WKe_h1pWWmL"
+      ],
+      "Maximum work": [
+        "https://youtu.be/jX4dEOFwaLQ?si=XULxzLeJJ1W-EJlc"
+      ],
+      "Law of conservation of energy": [
+        "https://youtu.be/DWiCaDPM7Hk?si=-Ynh9xiAvBgXeliC"
+      ],
+      "Endothermic": [
+        "https://youtu.be/wYqQCojggyM?si=NMLrZJsbf3pAgb2d"
+      ],
+      "Exothermic": [
+        "https://youtu.be/8N1BxHgsoOw?si=0cJlKOp6-PgsH2CE"
+      ],
+      "Heat content": [
+        "https://youtu.be/zVRH9d5PW8g?si=1GaXRTm9fc_odrUi"
+      ],
+      "Enthalpy change": [
+        "https://youtu.be/OTK9JrKC6EY?si=JqiiGvgn8smnCVr3"
+      ],
+      "Energy diagram": [
+        "https://youtu.be/yhNHJ7WdT8A?si=oRxHlk8g3y46dmT5"
+      ],
+      "Activation energy": [
+        "https://youtu.be/8N1BxHgsoOw?si=FYAXy0dRKf8JKaQZ"
+      ],
+      "Activated complex": [
+        "https://youtu.be/7qOFtL3VEBc?si=8zmtKsXi4STSdc5z"
+      ],
+      "Entropy(S)": [
+        "https://youtu.be/a23khZI8wJk?si=btQStFOG7QfYLgDA"
+      ],
+      "Spontaneity": [
+        "https://youtu.be/ROBkMqJQLr4?si=bdGCkOHcf4MJnWK3"
+      ],
+      "Gibbs free energy": [
+        "https://youtu.be/hNNvIsQLSV8?si=DABx2uK6Ffcp1ueZ"
+      ]
+    },
+    "LO16": {
+      "Natural law": [
+        "https://youtu.be/r_UfYY7aWKo?si=egFHdgxJ1SyEaWxH"
+      ],
+      "Pressure": [
+        "https://youtu.be/6t50Gmo8tq0?si=iWTQQkxGDmDVNJCJ"
+      ],
+      "Barometers": [
+        "https://youtu.be/YI4RRZ3ZM7g?si=nkeKn3nG-a4zCoU-"
+      ],
+      "Boyle's Law": [
+        "https://youtu.be/v8r_AU_TlPg?si=TduxCehI44P2SaUi",
+        "https://youtu.be/YQmv272-4yU?si=CiwnDhmkUQnCuic0"
+      ],
+      "Charles's Law": [
+        "https://youtu.be/twCcSsHmMgI?si=0an_G1blrCB1NP_o",
+        "https://youtu.be/uZ2d79NFx2w?si=OM6rzEQWsA58Qvte"
+      ],
+      "Absolute Zero": [
+        "https://youtu.be/JHXxPnmyDbk?si=R5Jnmjy3IE3bH0r5"
+      ],
+      "Kinetic Theory of Matter": [
+        "https://youtu.be/robEY-idcLU?si=vst_CGpx02CS_kMf",
+        "https://youtu.be/cshKgBRigE0?si=7w_iW2ClFwgby_3s"
+      ]
+    },
+    "LO17": {
+      "Diffusion": [
+        "https://youtu.be/KRLNDTmBFZY?si=5UlabLk4zLZqERC8"
+      ],
+      "Effusion": [
+        "https://youtu.be/TLRZAFU_9Kg?si=JU6O1ZJa9-n50XMf"
+      ],
+      "Graham's Law of Effusion": [
+        "https://youtu.be/fE14DJj7oeI?si=jGUSagQ4wvgOGLCk"
+      ]
+    }
+  },
+  "loSummaryVideos": {
+    "LO8": [],
+    "LO9": [],
+    "LO10": [],
+    "LO11": [],
+    "LO12": [],
+    "LO13": [],
+    "LO14": [],
+    "LO15": [
+      "https://youtu.be/AGxnJF-dQlM?si=2ht01yyxO_uyLI2f"
+    ],
+    "LO16": [
+      "https://youtu.be/0kDlUfDkRTE?si=iwnbMJRdffosxAgi"
+    ],
+    "LO17": [
+      "https://youtu.be/0kDlUfDkRTE?si=iwnbMJRdffosxAgi"
+    ]
+  },
+  "revisionVideos": {
+    "midterm": [
+      "https://youtu.be/JTIlLwdEHOU?si=ZMvZQoFb8PGIQCvt"
+    ],
+    "final": [
+      "https://youtu.be/Jq_tValNch0?si=cit9F7aK46jbiwmq"
+    ]
+  },
+  "shareMap": {
+    "Chemistry practical for G10, G11 Second term Dr. baya.pdf": "https://drive.google.com/file/d/1ZlYnj1hvp9biEFR4FdikfSExrW2-aelR/view",
+    "Chemistry practical.pdf": "https://drive.google.com/file/d/1qDFJyjb5swFTv_QO7UNKMuu9HufyHc3k/view",
+    "G10 CHEM.14.pdf": "https://drive.google.com/file/d/1UKokQ8xgJbACZSV6MswEWJtiLGFRAw5y/view",
+    "G10 CHEM.16.pdf": "https://drive.google.com/file/d/1NLPywX50uonTIW-c6gIzj3_QByU9Hseh/view",
+    "G10 CHEM.17.pdf": "https://drive.google.com/file/d/1Y7c7-vGXIIMndHLRCvyK_cJ4c2RQ0C6R/view",
+    "G10 CHEM.15.pdf": "https://drive.google.com/file/d/1dFEhAAk1AwKsQbRggSU_7bBmPoVo-mEm/view",
+    "G10 CHEM.13.pdf": "https://drive.google.com/file/d/1ePci2A1HnGMk38bbGUmEVmgrtKt5uymi/view",
+    "G10 CHEM.11.pdf": "https://drive.google.com/file/d/1lcTafnpFU-v-VnTdNFDX-pKj90TVeP0b/view",
+    "G10 CHEM.12.pdf": "https://drive.google.com/file/d/10-ygXV1Bp7Ay7S_pD1qkmiJWBKUpUx2S/view",
+    "G10 CHEM.10.pdf": "https://drive.google.com/file/d/12h885E96a7nIJh-HI0YCENthXiA1-MUN/view",
+    "G10 CHEM.09.pdf": "https://drive.google.com/file/d/11_tgZ_iMGmqlg_LVMa4xkBAeA68vWMUa/view",
+    "G10 CHEM.08.pdf": "https://drive.google.com/file/d/1_UyTefoDhRpE1hagnfMgkMkh-xZkUHiL/view",
+    "L.O:17": "https://docs.google.com/document/d/1oCxnyJbcJz_CHNQEYTXvWwppHyJwDvnfJyPS90tBBgQ/edit",
+    "CH.1.17.pptx": "https://drive.google.com/file/d/12KPT4QLrpxedwDY4HdeJWgn1PGYjXwa4/view",
+    "LO 17.pdf": "https://drive.google.com/file/d/1Ff2qXL8SppfUJc1wj0VnnfIdZpXDvhNF/view",
+    "LO 17 Mahjoub.pptx.pdf": "https://drive.google.com/file/d/1Ou0znmhl8RHtoa3EgFKYUjmiTD2Sq5au/view",
+    "chem lo17.pptx": "https://drive.google.com/file/d/1wfaa6rKLibezIdoW9qvHikbMLDcgSgAv/view",
+    "L.O:16": "https://docs.google.com/document/d/1KjhFyrzpklrgC_ArGP5GwGKKmcnaycMQ5z-SJkqL15A/edit",
+    "CH.1.16.pptx": "https://drive.google.com/file/d/1mM53ep-8iIQN3AHIJYpZHTZLEmL5KPgz/view",
+    "LO 16.pdf": "https://drive.google.com/file/d/1Z5Lks-w7Yf9XTSAWDBdX699b5IaeZOG3/view",
+    "chem ch16 IS.pptx": "https://drive.google.com/file/d/1zNcz-OOXp3zIPShbrkBXapXVl4SyFuh1/view",
+    "L.O:15": "https://docs.google.com/document/d/1ETDXYhCX3Y8TskukRoUIIzk6Ju4syuOAuojVrsNC7KI/edit",
+    "CH.1.15.pptx": "https://drive.google.com/file/d/1t6VQ6O3xFhUJFvJyFMlLUdpwr4dc-lrb/view",
+    "LO.15 Chem.pdf": "https://drive.google.com/file/d/1knGbIia0MmfPmu7iSjP1oDdD4-OYF2a1/view",
+    "LO 14-15.pdf": "https://drive.google.com/file/d/1ALq5fBxf2QIuU3IE0rQEoGM7XD4b2TwD/view",
+    "Chem LO.15.pptx": "https://drive.google.com/file/d/19VWThZZk7Mb3GAUsIcMwkchd87e_a7Ks/view",
+    "L.O:14": "https://docs.google.com/document/d/1B2CEhKuiusuRQh2vMzkpmo5qSxAWkK6nvwZqKm8rq6s/edit",
+    "CH.1.14.pptx": "https://drive.google.com/file/d/1hOLQR-hyUX8KVYQLqi6nxjSm3XeZMAuc/view",
+    "L.O:13": "https://docs.google.com/document/d/16sgodK4nE8P-S4oVtZFiiPwB9CoAZmjmdmLgkQvgJzQ/edit",
+    "CH.1.13.pptx": "https://drive.google.com/file/d/10g9hq_pDwiKHjYsnKDCH7p3IzSLxtKwC/view",
+    "LO 13 Mahjoub.pptx.pdf": "https://drive.google.com/file/d/1lGoFpmZpdPyh2O9X740MzM-CF3BlqAvJ/view",
+    "LO13.pptx": "https://drive.google.com/file/d/1Oq75RW-0Z0xukmh3naA6nuGLvd9Kb6z1/view",
+    "L.O:12": "https://docs.google.com/document/d/19T0S51GubaTKXr6lN2COzEGeDFyZMyVM1VYGWcSze1o/edit",
+    "chem.. 12.pptx": "https://drive.google.com/file/d/1MVV7GTZxOe-SP1STQqceeuUsDa_K2jiH/view",
+    "CH.1.12.pptx": "https://drive.google.com/file/d/10edqtz0NLzF8B4S0Z_l68PqPegg417Yv/view",
+    "LO 12 Mahjoub.pptx.pdf": "https://drive.google.com/file/d/1kKK67vx4RseBLpve7NHrI6WB-cwUwib3/view",
+    "LO 12.pdf": "https://drive.google.com/file/d/106c5t2bDdrI7PVlBmkt4TMZKFa594WEy/view",
+    "L.O:11": "https://docs.google.com/document/d/1X7F9D_MatDl2jrt0IFQFqYhNPpuCXa786ZAwuwN7FTI/edit",
+    "LO11.pptx": "https://drive.google.com/file/d/1VAMxAiZam25sEef_IaJIo0tkEgoM-vz-/view",
+    "LO 11  Mahjoub.pdf": "https://drive.google.com/file/d/17Z8qH4Guimozvo4v4_dZFMkz8QV3t4NC/view",
+    "LO 11.pdf": "https://drive.google.com/file/d/12NlG_w85ArD7xTxoRF8WB5NdCFH9znvX/view",
+    "L.O:10": "https://docs.google.com/document/d/12gayhQhDBiofnsJ78vScSuyLhako7sK9FC2wwchHEPk/edit",
+    "Chemistry Lo 10 M.E.O.pdf": "https://drive.google.com/file/d/1ZwzXYQHU2rAoz6Ovq1ipZtY1CpVs120h/view",
+    "Copy of CH.1.10.pptx": "https://drive.google.com/file/d/1zN21FDvarAiPq60N-pwL57J742nRKfGt/view",
+    "LO 10-3.pdf": "https://drive.google.com/file/d/1aWCKY__S4ZLEX4cLeZqj34iC0j17z6BE/view",
+    "LO 10-2.pdf": "https://drive.google.com/file/d/14Bo9GetsnZ_zsFVcQro9XuRgPj76cFvY/view",
+    "LO 10-1.pdf": "https://drive.google.com/file/d/1FxubX3qTaiM_tTdSCYTzvFNqd2DLESfo/view",
+    "L.O:9": "https://docs.google.com/document/d/1p7AnrpoWcX3RWmSKG8sIwREBwa-EYiRFv_UL1wZMscA/edit",
+    "CH.1.09 .ppt": "https://drive.google.com/file/d/1dfQE4l6r-R9VCqDstNUOeB77MEHtOSLt/view",
+    "LO 9  Mahjoub.pptx.pdf": "https://drive.google.com/file/d/18NQzBFBTvndrApLQX21tFUre3Qj5UsSF/view",
+    "LO 9.pdf": "https://drive.google.com/file/d/1JHapMDk-Q2WUOOZczyl1eMu7Polffc8_/view",
+    "LO.1.09 MR. Ayman Elkady.pdf": "https://drive.google.com/file/d/17vokL-VUH5g7_JDMBYT5b9OG3u9m4BfC/view",
+    "Chem LO9.pptx": "https://drive.google.com/file/d/1p7L_IxHmR2r5twF0Tb4RYaY9-TZkLbGN/view",
+    "L.O:8": "https://docs.google.com/document/d/1ozklVlua61942qPdj0PvOF8A2U6Da2zIiBiHf9VHEE0/edit",
+    "lo8 chemistry.pdf": "https://drive.google.com/file/d/1oFeWLuUrAaAyhunsY_5vHjmb3iZR5L6E/view",
+    "CH.1.08.pdf": "https://drive.google.com/file/d/11w5ScfBdUTG1sgYAG8yaHbsXmsVJkCX8/view",
+    "Copy of CH.1.08.pptx": "https://drive.google.com/file/d/1r_YuU9N8EZhJ7cxm2v9Eni6n0ItVxVa6/view",
+    "LO.O8 mixtures with questions.pptx": "https://drive.google.com/file/d/1dBj4ZNoGGs-YvSOXum4tjI-6cVMGP9n-/view",
+    "LO 8 questions.pdf": "https://drive.google.com/file/d/1jyk1lN08blKsf9qFmAzJ9JxjK1EBnupH/view",
+    "LO 8 Part One Mahjoub.pptx.pdf": "https://drive.google.com/file/d/11fjtYkUxKr6UrNjj0a37L68I0sWaSfhy/view",
+    "Chemistry LO8 (M.E.O) (1).pdf": "https://drive.google.com/file/d/1o_N3xLHQM1sQ2yPqlQwXhkk0M9yjaCw6/view",
+    "References Positions.pdf": "https://drive.google.com/file/d/1-boikkPX4nk4zrKhj3s6kAPeBY3CZcDu/view",
+    "Principles_of_General_Chemistry_by_Martin_Silberberg_z_lib_org.pdf": "https://drive.google.com/file/d/14m3z-gnDKIHoXCYgkwT9YTX4iuoN1_4i/view",
+    "Principles of organic chemistry.pdf": "https://drive.google.com/file/d/1HCrQLUOSzkqV_84i9UcU-xaWlKraakzK/view",
+    "Holt_Chemistry_Textbook.pdf": "https://drive.google.com/file/d/1XNMHDqHhavlvWhBilOgMAQ8A0Fczt-eo/view",
+    "Active_Chemistry.PDF": "https://drive.google.com/file/d/1Mi7xSGxdqSaM3CsHU6U_1RALvtOy09IW/view",
+    "Zumdahl Chemistry 9th c2014 solutions - Copy.pdf": "https://drive.google.com/file/d/1y_ZiYIeS7ZVr0ZrcpG2SqO5a6Hai6IDi/view"
+  }
+}

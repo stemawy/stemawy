@@ -1,0 +1,326 @@
+.page {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 40px;
+  min-height: calc(100vh - 78px);
+  padding: 64px 48px 48px;
+}
+
+.pageHeader {
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(197 197 211 / 55%);
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  color: var(--outline);
+  font-size: 14px;
+}
+.breadcrumb strong {
+  color: var(--primary);
+}
+.pageHeader h1 {
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+}
+.pageHeader p {
+  margin: 8px 0 0;
+  color: var(--outline);
+  font-size: 18px;
+}
+.settingsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sectionLabel {
+  padding: 0 12px;
+}
+.sectionLabel h2 {
+  margin: 0;
+  color: var(--outline);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.sectionLabel p {
+  margin: 4px 0 0;
+  color: var(--outline);
+  font-size: 13px;
+}
+.settingsGroup {
+  overflow: hidden;
+  border: 1px solid rgb(197 197 211 / 65%);
+  border-radius: 16px;
+  background: var(--surface-container-lowest);
+  box-shadow: var(--shadow-card);
+}
+.settingRow {
+  display: flex;
+  min-height: 108px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px;
+  border-bottom: 1px solid rgb(197 197 211 / 35%);
+  transition: background-color var(--transition-fast);
+}
+.settingRow:last-child {
+  border-bottom: 0;
+}
+.settingRow:hover {
+  background: var(--surface-container-low);
+}
+.settingInfo {
+  min-width: 0;
+}
+.settingInfo h3 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0;
+  color: var(--on-surface);
+  font-family: var(--font-heading), sans-serif;
+  font-size: 17px;
+}
+.settingInfo p {
+  max-width: 470px;
+  margin: 5px 0 0;
+  color: var(--outline);
+  font-size: 16px;
+  line-height: 24px;
+}
+.rowIcon {
+  display: inline-flex;
+  color: var(--primary);
+}
+.controlGroup {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+  border-radius: 12px;
+  background: var(--surface-container);
+}
+.controlGroup button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 34px;
+  padding: 0 11px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--outline);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.controlGroup button:hover {
+  color: var(--on-surface);
+}
+.controlGroup .controlActive {
+  background: var(--surface-container-lowest);
+  color: var(--primary);
+  box-shadow: var(--shadow-card);
+}
+.controlGroup small {
+  padding: 2px 4px;
+  border-radius: 4px;
+  background: var(--primary-fixed);
+  color: var(--primary);
+  font-size: 9px;
+}
+.clearButton,
+.resetButton {
+  flex: 0 0 auto;
+  min-height: 34px;
+  padding: 0 14px;
+  border: 1px solid rgb(197 197 211 / 65%);
+  border-radius: 8px;
+  background: var(--surface-container);
+  color: var(--on-surface);
+  font-size: 13px;
+  font-weight: 600;
+}
+.clearButton:hover {
+  background: var(--surface-container-highest);
+}
+.resetButton {
+  border-color: transparent;
+  background: var(--error);
+  color: var(--on-error);
+}
+.resetButton:hover {
+  filter: brightness(0.92);
+}
+.dangerRow .settingInfo h3,
+.dangerRow .rowIcon {
+  color: var(--error);
+}
+.modalBackdrop {
+  position: fixed;
+  z-index: 100;
+  inset: 0;
+  display: grid;
+  padding: 20px;
+  place-items: center;
+  background: rgb(26 27 33 / 34%);
+}
+.confirmation {
+  position: relative;
+  width: min(100%, 440px);
+  padding: 32px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 16px;
+  background: var(--surface-container-lowest);
+  box-shadow: var(--shadow-modal);
+}
+.modalClose {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: grid;
+  padding: 7px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--outline);
+}
+.modalClose:hover {
+  background: var(--surface-container);
+}
+.warningIcon {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--error-container);
+  color: var(--error);
+}
+.confirmation h2 {
+  margin: 18px 0 8px;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 24px;
+}
+.confirmation p {
+  margin: 0;
+  color: var(--outline);
+  font-size: 15px;
+  line-height: 23px;
+}
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 26px;
+}
+.modalActions button {
+  min-height: 38px;
+  padding: 0 15px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 8px;
+  background: var(--surface-container);
+  color: var(--on-surface);
+  font-size: 13px;
+  font-weight: 600;
+}
+.modalActions .dangerButton {
+  border-color: transparent;
+  background: var(--error);
+  color: var(--on-error);
+}
+.toast {
+  position: fixed;
+  z-index: 110;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  max-width: min(360px, calc(100vw - 32px));
+  padding: 13px 16px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 10px;
+  background: var(--surface-container-highest);
+  color: var(--on-surface);
+  font-size: 14px;
+  box-shadow: var(--shadow-modal);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(14px);
+  transition:
+    opacity var(--transition-fast),
+    transform var(--transition-fast);
+}
+.toast svg {
+  color: var(--tertiary-container);
+}
+.toastVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+@media (max-width: 1279px) {
+  .page {
+    padding-inline: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .page {
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    gap: 30px;
+    padding: 32px 16px;
+  }
+  .pageHeader h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .pageHeader p {
+    font-size: 16px;
+  }
+  .settingRow {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    padding: 20px 16px;
+  }
+  .settingInfo p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .controlGroup {
+    align-self: flex-start;
+    max-width: 100%;
+  }
+  .controlGroup button {
+    padding-inline: 10px;
+  }
+  .clearButton,
+  .resetButton {
+    align-self: flex-start;
+  }
+  .confirmation {
+    padding: 26px 22px;
+  }
+  .toast {
+    right: 16px;
+    bottom: 16px;
+  }
+}

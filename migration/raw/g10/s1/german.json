@@ -1,0 +1,55 @@
+{
+  "learningObjectives": {
+    "LO1": {
+      "title": "LO1: Begrüßung & Auskunft",
+      "concepts": [
+        "jemanden begrüssen und sich verabschieden",
+        "‣jemanden nach dem Herkunftsland nennen und über Sprachkenntnisse",
+        "Auskunft geben"
+      ]
+    },
+    "LO2": {
+      "title": "LO2: Befinden & Familie",
+      "concepts": [
+        "jemanden nach dem Befinden fragen und sein eigenes Befinden ausdrücken",
+        "seine Familie und Freunde vorstellen",
+        "den Wohnort und die Adresse nennen"
+      ]
+    },
+    "references": {
+      "title": "Additional References",
+      "concepts": []
+    }
+  },
+  "resourceFiles": {
+    "books": [
+      "first semester/books/Arbeitsbuch a1.pdf",
+      "first semester/books/Deutsch .com 1 .pdf"
+    ],
+    "testBanks": [
+      "first semester/test banks/Alltagssituationen1  10  L. 1+2.docx",
+      "first semester/test banks/Grammatik 10 - L 1, 2 A (2).docx",
+      "first semester/test banks/Lektion 1 & 2 - Test-1.docx",
+      "first semester/test banks/Lektion 1 & 2 - Test.doc",
+      "first semester/test banks/Lektion 1 & 2 - Test.docx",
+      "first semester/test banks/Schriftlicher Ausdruck L 1, 2 A.docx",
+      "first semester/test banks/Schriftlicher Ausdruck L 1.2.A.....docx",
+      "first semester/test banks/Wiederholt Texterfassung  - L. 1_ 2 .docx",
+      "first semester/test banks/Wiederholt Texterfassung 10 - L 1, 2 A.docx"
+    ]
+  },
+  "shareMap": {
+    "Arbeitsbuch a1.pdf": "https://drive.google.com/file/d/15H4aU0SIjBN9gGidNgbWnduJZBQmw_SN/view?usp=drivesdk",
+    "Deutsch .com 1 .pdf": "https://drive.google.com/file/d/1MnDztLlFw2LS31hip-I6rVqtjCAWcdgc/view?usp=drivesdk",
+    "Alltagssituationen1  10  L. 1+2.docx": "https://docs.google.com/document/d/1iNKc7rB_qqIvsJaCBZGhTroV5HEYlEXm/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Schriftlicher Ausdruck L 1, 2 A.docx": "https://docs.google.com/document/d/1Ma8_WQ_3d-N3HocR3EDQCvNxJo5lg0L8/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Wiederholt Texterfassung 10 - L 1, 2 A.docx": "https://docs.google.com/document/d/1ZpsWD30SmFHjYpWD4UCH5eq7EjQYxFNA/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Lektion 1 & 2 - Test.doc": "https://docs.google.com/document/d/1NXaxjSd8rkM8ZcLecqKkSaU9ELQB2t79/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Lektion 1 & 2 - Test-1.docx": "https://docs.google.com/document/d/1exS75A5Or5rA-nzeYIeP3ov4iPcdHqHf/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Lektion 1 & 2 - Test.docx": "https://docs.google.com/document/d/1QX1l1iw0-eRpz7tzWAKlk5muE863bBLt/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Schriftlicher Ausdruck L 1.2.A.....docx": "https://docs.google.com/document/d/1XyYueG1JY4jH-nh7MSoB3whtnudyKH9B/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Wiederholt Texterfassung  - L. 1_ 2 .docx": "https://docs.google.com/document/d/10P5gspEukNFTrC6SFrb4sS-msNXmJBgF/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "Grammatik 10 - L 1, 2 A (2).docx": "https://docs.google.com/document/d/1u5bgsXRP_ED-KVh9N5yrEPiaoJqB3K1A/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true"
+  },
+  "explicitShareMapLinks": []
+}

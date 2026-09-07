@@ -1,0 +1,1495 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T17:19:54.951Z",
+  "source": {
+    "file": "migration/raw/g10/s1/maths.json"
+  },
+  "subject": {
+    "id": "maths-g10-s1",
+    "name": "Maths",
+    "description": "Maths resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "maths",
+    "content": [
+      {
+        "id": "maths-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Trigonometry",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "maths-g10-s1-concept-unit-circle",
+            "title": "Unit circle",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "maths-g10-s1-video-cpvpfdmwmig-d922af68f2",
+              "maths-g10-s1-video-ixgfvuv-siy-883c5d4dae"
+            ]
+          },
+          {
+            "id": "maths-g10-s1-concept-six-trigonometric-functions",
+            "title": "Six trigonometric functions",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "maths-g10-s1-video-fe4i9d5m4cs-b18c66c298",
+              "maths-g10-s1-video-vlqbs-fzvds-82d357e0d0"
+            ]
+          },
+          {
+            "id": "maths-g10-s1-concept-related-angles",
+            "title": "Related angles",
+            "description": "",
+            "order": 3,
+            "resources": ["maths-g10-s1-video-d7w4dcjh2zi-3f978caf77"]
+          },
+          {
+            "id": "maths-g10-s1-concept-sine-law-cos-law",
+            "title": "Sine law, cos law",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "maths-g10-s1-video-rfvdaovsksu-44f63e22b2",
+              "maths-g10-s1-video-rfvdaovsksu-599bb1b6be"
+            ]
+          },
+          {
+            "id": "maths-g10-s1-concept-angle-of-elevation-and-angle-of-depression",
+            "title": "Angle of elevation and angle of depression",
+            "description": "",
+            "order": 5,
+            "resources": ["maths-g10-s1-video-dmxfmmwbvxe-64d3d929ea"]
+          },
+          {
+            "id": "maths-g10-s1-concept-directed-angle",
+            "title": "Directed angle",
+            "description": "",
+            "order": 6,
+            "resources": ["maths-g10-s1-video-cl2b187xutg-54215853b3"]
+          },
+          {
+            "id": "maths-g10-s1-concept-positive-negative-and-coterminal-angles-of-rotation",
+            "title": "Positive, negative, and coterminal angles of rotation",
+            "description": "",
+            "order": 7,
+            "resources": ["maths-g10-s1-video-iqm-htvue-8-b1b999ca87"]
+          }
+        ],
+        "resources": [
+          "maths-g10-s1-pdf-lo-1-pptx-f4be663e67",
+          "maths-g10-s1-pdf-lo-1-math-pptx-93770f1b17",
+          "maths-g10-s1-pdf-ma-1-01-1-modeling-with-trigonometric-functions-pptx-72abf9ede8",
+          "maths-g10-s1-pdf-trig-7-sin-cos-2-pptx-09b62ae287",
+          "maths-g10-s1-pdf-2a-lesson-3-4-6-7-pdf-36538f4be0",
+          "maths-g10-s1-pdf-law-of-sines-and-cosines-pdf-b07fff4a13",
+          "maths-g10-s1-pdf-1-st-trigonometric-functions-pptx-f98457217a",
+          "maths-g10-s1-pdf-2nd-follow-trigonometric-functions-pptx-7546a860a8",
+          "maths-g10-s1-pdf-4th-trig-sin-and-cos-law-pptx-c0738ffda6",
+          "maths-g10-s1-pdf-3rd-trig-identities-pptx-cafa7694b8",
+          "maths-g10-s1-pdf-6th-cross-section-and-rotaion-1-pptx-53a447ed4a",
+          "maths-g10-s1-pdf-5th-trig-angl-elevation-annd-depretion-pptx-d35edfb46f",
+          "maths-g10-s1-pdf-trig-functions-and-identities-pdf-a4b48b08ed",
+          "maths-g10-s1-pdf-trig-8-sum-and-difference-of-two-angles-formulas-ppt-fc72ab3659",
+          "maths-g10-s1-pdf-trig-1the-unit-circle-ppt-97cef1ac1c",
+          "maths-g10-s1-pdf-trig-3-starting-and-ending-points-for-sin-and-functions-ppt-43c7aa8f5e",
+          "maths-g10-s1-video-uq6osiphqzw-dbe12d2179",
+          "maths-g10-s1-video-2trg5-1w5ke-fa22d2ecf9"
+        ]
+      },
+      {
+        "id": "maths-g10-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Statistics and Data Analysis",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "maths-g10-s1-concept-shape-center-spread",
+            "title": "Shape, center, spread",
+            "description": "",
+            "order": 1,
+            "resources": ["maths-g10-s1-video-uybtpm9p71w-56bf76b6e8"]
+          },
+          {
+            "id": "maths-g10-s1-concept-histogram",
+            "title": "Histogram",
+            "description": "",
+            "order": 2,
+            "resources": ["maths-g10-s1-video-pr9zqfu9-u-1ee904054b"]
+          },
+          {
+            "id": "maths-g10-s1-concept-stem-plot",
+            "title": "Stem plot",
+            "description": "",
+            "order": 3,
+            "resources": ["maths-g10-s1-video-lqeyiv8x67g-b741e50f50"]
+          },
+          {
+            "id": "maths-g10-s1-concept-dot-plot",
+            "title": "Dot plot",
+            "description": "",
+            "order": 4,
+            "resources": ["maths-g10-s1-video-9qkfldwn-es-7c4e045754"]
+          },
+          {
+            "id": "maths-g10-s1-concept-skewed",
+            "title": "Skewed",
+            "description": "",
+            "order": 5,
+            "resources": ["maths-g10-s1-video-mypzy8jl-jc-927ae806d5"]
+          },
+          {
+            "id": "maths-g10-s1-concept-symmetric",
+            "title": "Symmetric",
+            "description": "",
+            "order": 6,
+            "resources": ["maths-g10-s1-video-mypzy8jl-jc-571ca0e5c5"]
+          },
+          {
+            "id": "maths-g10-s1-concept-iqr",
+            "title": "IQR",
+            "description": "",
+            "order": 7,
+            "resources": ["maths-g10-s1-video-mypzy8jl-jc-6b74acf18c"]
+          },
+          {
+            "id": "maths-g10-s1-concept-boxplot",
+            "title": "Boxplot",
+            "description": "",
+            "order": 8,
+            "resources": ["maths-g10-s1-video-mypzy8jl-jc-6b74acf18c"]
+          },
+          {
+            "id": "maths-g10-s1-concept-outliers",
+            "title": "Outliers",
+            "description": "",
+            "order": 9,
+            "resources": ["maths-g10-s1-video-mypzy8jl-jc-6b74acf18c"]
+          },
+          {
+            "id": "maths-g10-s1-concept-scatter-plot",
+            "title": "Scatter plot",
+            "description": "",
+            "order": 10,
+            "resources": ["maths-g10-s1-video-mypzy8jl-jc-6b74acf18c"]
+          },
+          {
+            "id": "maths-g10-s1-concept-correlation",
+            "title": "Correlation",
+            "description": "",
+            "order": 11,
+            "resources": ["maths-g10-s1-video-mypzy8jl-jc-6b74acf18c"]
+          },
+          {
+            "id": "maths-g10-s1-concept-correlation-coefficient",
+            "title": "Correlation coefficient",
+            "description": "",
+            "order": 12,
+            "resources": ["maths-g10-s1-video-mypzy8jl-jc-6b74acf18c"]
+          },
+          {
+            "id": "maths-g10-s1-concept-regression-line",
+            "title": "Regression line",
+            "description": "",
+            "order": 13,
+            "resources": ["maths-g10-s1-video-29jqdhlcgpa-aa9395c089"]
+          },
+          {
+            "id": "maths-g10-s1-concept-standard-deviation-without-frequency",
+            "title": "Standard deviation (without frequency)",
+            "description": "",
+            "order": 14,
+            "resources": ["maths-g10-s1-video-29jqdhlcgpa-aa9395c089"]
+          }
+        ],
+        "resources": [
+          "maths-g10-s1-pdf-g10-s3-pdf-1bb7223448",
+          "maths-g10-s1-pdf-lo-2-pptx-a026ea9d9b",
+          "maths-g10-s1-pdf-ma-1-02-1-pptx-2a37d1b411",
+          "maths-g10-s1-video-dubxhp0zbdc-600514474c",
+          "maths-g10-s1-video-gnci5ehkenw-dc9ad993c2"
+        ]
+      },
+      {
+        "id": "maths-g10-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Three-Dimensional Geometry",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "maths-g10-s1-concept-cross-section",
+            "title": "Cross section",
+            "description": "",
+            "order": 1,
+            "resources": ["maths-g10-s1-video-4vly5voucqe-d35a4c01a8"]
+          },
+          {
+            "id": "maths-g10-s1-concept-dimensional-objects",
+            "title": "Dimensional objects",
+            "description": "",
+            "order": 2,
+            "resources": ["maths-g10-s1-video-j2qz-7zwdae-3a13ceee74"]
+          },
+          {
+            "id": "maths-g10-s1-concept-classifying-regular-polyhedral",
+            "title": "Classifying regular polyhedral",
+            "description": "",
+            "order": 3,
+            "resources": ["maths-g10-s1-video-ukxumqrtguw-36aa49900b"]
+          }
+        ],
+        "resources": [
+          "maths-g10-s1-pdf-lo-3-pptx-bf1ef93274",
+          "maths-g10-s1-pdf-ma-1-03-modeling-with-geometry-pptx-36fdb8b8a0",
+          "maths-g10-s1-video-q2sqpztyaqq-1dccac7cd1"
+        ]
+      },
+      {
+        "id": "maths-g10-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "Similarity and Transformations",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "maths-g10-s1-concept-similarity",
+            "title": "Similarity",
+            "description": "",
+            "order": 1,
+            "resources": ["maths-g10-s1-video-similarity-c1d44ff03a"]
+          },
+          {
+            "id": "maths-g10-s1-concept-transformation-reduction-and-magnification",
+            "title": "Transformation (reduction and magnification)",
+            "description": "",
+            "order": 2,
+            "resources": ["maths-g10-s1-video-xiaoudfrar0-6f36684971"]
+          },
+          {
+            "id": "maths-g10-s1-concept-proportionality",
+            "title": "Proportionality",
+            "description": "",
+            "order": 3,
+            "resources": ["maths-g10-s1-video-aqfzuih2odo-237d8ffb0d"]
+          },
+          {
+            "id": "maths-g10-s1-concept-parallel-lines-and-proportional-parts",
+            "title": "Parallel lines and proportional parts",
+            "description": "",
+            "order": 4,
+            "resources": ["maths-g10-s1-video-iywhkl0u-d0-bc1a1e5649"]
+          },
+          {
+            "id": "maths-g10-s1-concept-angle-bisectors",
+            "title": "Angle bisectors",
+            "description": "",
+            "order": 5,
+            "resources": ["maths-g10-s1-video-tpiblnrasli-fb5c1f6c79"]
+          }
+        ],
+        "resources": [
+          "maths-g10-s1-pdf-lo-4-pptx-5ba31029a9",
+          "maths-g10-s1-pdf-ma-1-04-similarity-pptx-a3403d4390",
+          "maths-g10-s1-video-gd377ci-uzy-24530e814a"
+        ]
+      },
+      {
+        "id": "maths-g10-s1-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "Area and Volume",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "maths-g10-s1-concept-area",
+            "title": "Area",
+            "description": "",
+            "order": 1,
+            "resources": ["maths-g10-s1-video-kqqmjijez6o-5d101f330c"]
+          },
+          {
+            "id": "maths-g10-s1-concept-volume",
+            "title": "Volume",
+            "description": "",
+            "order": 2,
+            "resources": ["maths-g10-s1-video-xmz9wfvox9g-d874c4d98a"]
+          },
+          {
+            "id": "maths-g10-s1-concept-composite-figures",
+            "title": "Composite figures",
+            "description": "",
+            "order": 3,
+            "resources": ["maths-g10-s1-video-z4lat1uoqi4-4cc7d853ee"]
+          }
+        ],
+        "resources": [
+          "maths-g10-s1-pdf-lo-5-pptx-2fac048067",
+          "maths-g10-s1-pdf-ma-1-05-pyramid-pptx-120f8a225a",
+          "maths-g10-s1-pdf-ma-1-05-cone-pptx-59101e35c6",
+          "maths-g10-s1-video-q2sqpztyaqq-a5a5108547"
+        ]
+      },
+      {
+        "id": "maths-g10-s1-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "Functions",
+        "description": "",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "maths-g10-s1-concept-linear-functions",
+            "title": "Linear functions",
+            "description": "",
+            "order": 1,
+            "resources": ["maths-g10-s1-video-azroe4fjqtq-a2e85d4fff"]
+          },
+          {
+            "id": "maths-g10-s1-concept-piecewise-function",
+            "title": "Piecewise function",
+            "description": "",
+            "order": 2,
+            "resources": ["maths-g10-s1-video-hg2hr9zjfq4-6ebf769979"]
+          },
+          {
+            "id": "maths-g10-s1-concept-absolute-value-functions",
+            "title": "Absolute-Value Functions",
+            "description": "",
+            "order": 3,
+            "resources": ["maths-g10-s1-video-u6zdpul5rku-36b795b927"]
+          },
+          {
+            "id": "maths-g10-s1-concept-step-function",
+            "title": "STEP function",
+            "description": "",
+            "order": 4,
+            "resources": ["maths-g10-s1-video-rqbybgkghdu-18a503850b"]
+          },
+          {
+            "id": "maths-g10-s1-concept-direct-variation",
+            "title": "Direct variation",
+            "description": "",
+            "order": 5,
+            "resources": ["maths-g10-s1-video-92u67cuy9gc-5fc138370d"]
+          },
+          {
+            "id": "maths-g10-s1-concept-inverse-variation",
+            "title": "Inverse variation",
+            "description": "",
+            "order": 6,
+            "resources": ["maths-g10-s1-video-92u67cuy9gc-5fc138370d"]
+          },
+          {
+            "id": "maths-g10-s1-concept-intercepted-part",
+            "title": "Intercepted part",
+            "description": "",
+            "order": 7,
+            "resources": ["maths-g10-s1-video-rvs5vtv8o88-58efd3a613"]
+          },
+          {
+            "id": "maths-g10-s1-concept-composition-of-functions",
+            "title": "Composition of functions",
+            "description": "",
+            "order": 8,
+            "resources": ["maths-g10-s1-video-wunwjd4bmmw-c7b63ef5fe"]
+          },
+          {
+            "id": "maths-g10-s1-concept-translation-of-linear-function",
+            "title": "Translation of linear function",
+            "description": "",
+            "order": 9,
+            "resources": ["maths-g10-s1-video-rgvysb9emcq-ddaecbcd80"]
+          }
+        ],
+        "resources": [
+          "maths-g10-s1-pdf-lo-6-pptx-f1fdc5180f",
+          "maths-g10-s1-pdf-ma-1-06-functions-pptx-7aac696e90",
+          "maths-g10-s1-pdf-ma-1-06-functions-2pptx-pptx-23cf8009dd",
+          "maths-g10-s1-video-7ouir6r9x2w-fb3fd1e3db"
+        ]
+      },
+      {
+        "id": "maths-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 8,
+        "concepts": [],
+        "resources": [
+          "maths-g10-s1-pdf-lo-1-exercise-pptx-95135d49b0",
+          "maths-g10-s1-pdf-lo-2-exercise-pptx-25c2549dba",
+          "maths-g10-s1-pdf-lo-3-exercise-pptx-6e43776ff4",
+          "maths-g10-s1-pdf-lo-4-exercise-pptx-0707ec89c7",
+          "maths-g10-s1-pdf-lo-5-exercise-pdf-02ada0ac19",
+          "maths-g10-s1-pdf-5b-honors-quiz-review-final-pdf-d512c62267"
+        ]
+      },
+      {
+        "id": "maths-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 9,
+        "concepts": [],
+        "resources": [
+          "maths-g10-s1-video-ebdw-2tlabg-ed4dded4b2",
+          "maths-g10-s1-video-o92lj-p9pes-e3fde8e4a7",
+          "maths-g10-s1-video-4uq7jmbpwig-6205eb8ca3",
+          "maths-g10-s1-video-ynszorjbdsg-5745063c52"
+        ]
+      },
+      {
+        "id": "maths-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 10,
+        "concepts": [],
+        "resources": []
+      }
+    ],
+    "units": 7
+  },
+  "resources": [
+    {
+      "id": "maths-g10-s1-video-cpvpfdmwmig-d922af68f2",
+      "title": "Unit circle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/CPvPfdMwMig?si=FXCX-lzVtz-aZDCk",
+      "youtubeId": "CPvPfdMwMig",
+      "source": {
+        "location": "LO1 → Unit circle"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-ixgfvuv-siy-883c5d4dae",
+      "title": "Unit circle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/iXGfVuv-sIY?si=hwLbvO1q03T-kt_M",
+      "youtubeId": "iXGfVuv-sIY",
+      "source": {
+        "location": "LO1 → Unit circle"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-fe4i9d5m4cs-b18c66c298",
+      "title": "Six trigonometric functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Fe4I9D5m4Cs?si=bYWrjpttbljYHKDT",
+      "youtubeId": "Fe4I9D5m4Cs",
+      "source": {
+        "location": "LO1 → Six trigonometric functions"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-vlqbs-fzvds-82d357e0d0",
+      "title": "Six trigonometric functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/VlqBs_FzVds?si=QO54_ZLKTXShHkcH",
+      "youtubeId": "VlqBs_FzVds",
+      "source": {
+        "location": "LO1 → Six trigonometric functions"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-d7w4dcjh2zi-3f978caf77",
+      "title": "Related angles",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/D7w4DCJH2ZI?si=rOIEExFRbFbJk0_l",
+      "youtubeId": "D7w4DCJH2ZI",
+      "source": {
+        "location": "LO1 → Related angles"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-rfvdaovsksu-44f63e22b2",
+      "title": "Sine law, cos law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/RfvDaovSkSU?si=it2vMTuArSahhHir",
+      "youtubeId": "RfvDaovSkSU",
+      "source": {
+        "location": "LO1 → Sine law, cos law"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-rfvdaovsksu-599bb1b6be",
+      "title": "Sine law, cos law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/RfvDaovSkSU?si=FN-aQlFmy7wxIx2I",
+      "youtubeId": "RfvDaovSkSU",
+      "source": {
+        "location": "LO1 → Sine law, cos law"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-dmxfmmwbvxe-64d3d929ea",
+      "title": "Angle of elevation and angle of depression",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/dMxFmmwbVXE?si=951ExjyXERrv_I7m",
+      "youtubeId": "dMxFmmwbVXE",
+      "source": {
+        "location": "LO1 → Angle of elevation and angle of depression"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-cl2b187xutg-54215853b3",
+      "title": "Directed angle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/CL2b187XUTg?si=l2w2dvJH0GcLRn2L",
+      "youtubeId": "CL2b187XUTg",
+      "source": {
+        "location": "LO1 → Directed angle"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-iqm-htvue-8-b1b999ca87",
+      "title": "Positive, negative, and coterminal angles of rotation",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/IqM-HtvUE-8?si=pwrlHauiZJNFgM1t",
+      "youtubeId": "IqM-HtvUE-8",
+      "source": {
+        "location": "LO1 → Positive, negative, and coterminal angles of rotation"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-1-pptx-f4be663e67",
+      "title": "LO 1.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1FdGqo-21V3Y1qt_4VNDsXwkosi4Sh4Kn/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-1-math-pptx-93770f1b17",
+      "title": "LO 1 MATH.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1Giim5RVOhLFSQkffCrksDPWHL1KbwluB/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-ma-1-01-1-modeling-with-trigonometric-functions-pptx-72abf9ede8",
+      "title": "MA 1.01.1 Modeling with trigonometric functions.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1IRpwXNJFlpn_ueYcSSj0-6KZAXoyeggX/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-trig-7-sin-cos-2-pptx-09b62ae287",
+      "title": "Trig 7 sin=cos (2).pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1qxj4B5Jr0i6j1ZePOd6Fxkzy6UPRqTnO/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-2a-lesson-3-4-6-7-pdf-36538f4be0",
+      "title": "2a lesson 3.4 .6 .7.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1-XFnVMn0pNgp9P6WzdeTFKFNgz43xN0p/view?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-law-of-sines-and-cosines-pdf-b07fff4a13",
+      "title": "LAW OF SINES AND COSINES.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1TamSbaOWXzbv5FeHlM_YqdkeJrdxbRgg/view?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-1-st-trigonometric-functions-pptx-f98457217a",
+      "title": "1 st trigonometric functions.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1ppQLnIf0Ua8170_qiCN2eC2CyK1dWbI4/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-2nd-follow-trigonometric-functions-pptx-7546a860a8",
+      "title": "2nd  Follow trigonometric functions.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1W85ypvrele1Pw2SuRRJ9d02nvWgL9LTM/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-4th-trig-sin-and-cos-law-pptx-c0738ffda6",
+      "title": "4th trig sin and cos law.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1pJkBs9DwpPS2IVKCAYAG1nOBb592TKbY/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-3rd-trig-identities-pptx-cafa7694b8",
+      "title": "3rd trig identities.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1Sz8Tl2Xuody6RU_w7ndw8lnq3I1bS8VU/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-6th-cross-section-and-rotaion-1-pptx-53a447ed4a",
+      "title": "6th cross section and rotaion (1).pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1-omYi-veGVHMSvP3PfS4J5aE80ctmbSF/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-5th-trig-angl-elevation-annd-depretion-pptx-d35edfb46f",
+      "title": "5th trig angl elevation annd depretion.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/11LbVV8IKX4Q6raG372xVwCX2AaIppTtY/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-trig-functions-and-identities-pdf-a4b48b08ed",
+      "title": "Trig Functions and Identities.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1iGaaBTxBLLht5G7XmpnmhqVMYbhC6tWj/view?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-trig-8-sum-and-difference-of-two-angles-formulas-ppt-fc72ab3659",
+      "title": "Trig 8  Sum and Difference of two angles  Formulas.ppt",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1TWDCXlAY7Xc-4G0aXSNjEp5UW5R5ZKaL/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-trig-1the-unit-circle-ppt-97cef1ac1c",
+      "title": "Trig 1The Unit Circle.ppt",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1WcdMeDQQ-syeLhAUMSBrYNi9xZVFCh9l/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-trig-3-starting-and-ending-points-for-sin-and-functions-ppt-43c7aa8f5e",
+      "title": "trig 3 starting and ending points for sin and  functions.ppt",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1Se6sJV-o_e78JB9yUW5hSumiWCzvuRMn/edit?usp=sharing",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-uq6osiphqzw-dbe12d2179",
+      "title": "LO1 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Uq6OsIPhqzw?si=j7wGJnem-EHPmhr5",
+      "youtubeId": "Uq6OsIPhqzw",
+      "source": {
+        "location": "LO1 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-2trg5-1w5ke-fa22d2ecf9",
+      "title": "LO1 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/2trG5-1w5KE?si=0kkz7eiBc8YcmBmq",
+      "youtubeId": "2trG5-1w5KE",
+      "source": {
+        "location": "LO1 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-uybtpm9p71w-56bf76b6e8",
+      "title": "Shape, center, spread",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/uYbtPM9p71w?si=f9HUHfC4beNZlDzu",
+      "youtubeId": "uYbtPM9p71w",
+      "source": {
+        "location": "LO2 → Shape, center, spread"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-pr9zqfu9-u-1ee904054b",
+      "title": "Histogram",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Pr9ZqFU9-_U?si=F1QLC8PlZvJqXZdh",
+      "youtubeId": "Pr9ZqFU9-_U",
+      "source": {
+        "location": "LO2 → Histogram"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-lqeyiv8x67g-b741e50f50",
+      "title": "Stem plot",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/lqeYIv8X67g?si=JDwnw8U-kA7g3KTH",
+      "youtubeId": "lqeYIv8X67g",
+      "source": {
+        "location": "LO2 → Stem plot"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-9qkfldwn-es-7c4e045754",
+      "title": "Dot plot",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/9qKfLDWN_Es?si=9f-mx4eFE2xk3zje",
+      "youtubeId": "9qKfLDWN_Es",
+      "source": {
+        "location": "LO2 → Dot plot"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-mypzy8jl-jc-927ae806d5",
+      "title": "Skewed",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/mypZy8Jl-Jc?si=MjGGQygLQLc8Xltx",
+      "youtubeId": "mypZy8Jl-Jc",
+      "source": {
+        "location": "LO2 → Skewed"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-mypzy8jl-jc-571ca0e5c5",
+      "title": "Symmetric",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/mypZy8Jl-Jc?si=ouLEUlCRiiREzwOU",
+      "youtubeId": "mypZy8Jl-Jc",
+      "source": {
+        "location": "LO2 → Symmetric"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-mypzy8jl-jc-6b74acf18c",
+      "title": "IQR",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/mypZy8Jl-Jc?si=RQmVJ79MaNDSA2nt",
+      "youtubeId": "mypZy8Jl-Jc",
+      "source": {
+        "location": "LO2 → IQR"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-29jqdhlcgpa-aa9395c089",
+      "title": "Regression line",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/29jQdHLCGPA?si=xapeIrJMDpF5GdEW",
+      "youtubeId": "29jQdHLCGPA",
+      "source": {
+        "location": "LO2 → Regression line"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-g10-s3-pdf-1bb7223448",
+      "title": "G10 S3.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1nIGGd8RheQvldM4NBU0I-rCFSVMUXU4L/view?usp=sharing",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-2-pptx-a026ea9d9b",
+      "title": "LO 2.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1Iby_kKYJO1s67smbDMpctB27c6sZBVqz/edit?usp=sharing",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-ma-1-02-1-pptx-2a37d1b411",
+      "title": "MA 1.02.1.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1-Pfn178Ftqx10PgS4g-IKYgP_AE314B9/edit?usp=sharing",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-dubxhp0zbdc-600514474c",
+      "title": "LO2 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/dUBxHP0zBdc?si=bUJ8PHb4rSeuMZW-",
+      "youtubeId": "dUBxHP0zBdc",
+      "source": {
+        "location": "LO2 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-gnci5ehkenw-dc9ad993c2",
+      "title": "LO2 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/gNCI5EHKenw?si=b98hXHMt593mX_ee",
+      "youtubeId": "gNCI5EHKenw",
+      "source": {
+        "location": "LO2 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-4vly5voucqe-d35a4c01a8",
+      "title": "Cross section",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/4vLy5VoUcQE?si=iSFCajv1fxxn6tOj",
+      "youtubeId": "4vLy5VoUcQE",
+      "source": {
+        "location": "LO3 → Cross section"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-j2qz-7zwdae-3a13ceee74",
+      "title": "Dimensional objects",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/J2Qz-7ZWDAE?si=9I5znkCSJ4Mu5IVf",
+      "youtubeId": "J2Qz-7ZWDAE",
+      "source": {
+        "location": "LO3 → Dimensional objects"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-ukxumqrtguw-36aa49900b",
+      "title": "Classifying regular polyhedral",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/UkxUMqrtGUw?si=BbQJrVITzYXzXKSM",
+      "youtubeId": "UkxUMqrtGUw",
+      "source": {
+        "location": "LO3 → Classifying regular polyhedral"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-3-pptx-bf1ef93274",
+      "title": "LO 3.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1qv_X-Qy2g23OFh7C_5_AJR1za9zd1BVX/edit?usp=sharing",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-ma-1-03-modeling-with-geometry-pptx-36fdb8b8a0",
+      "title": "MA 1.03 Modeling with geometry.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1Q7drACLaLJ7TuMpUIfv4OYr-zKZl47Sk/edit?usp=sharing",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-q2sqpztyaqq-1dccac7cd1",
+      "title": "LO3 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/q2SQPztYaQQ?si=fZvPiR_t927FIc3I",
+      "youtubeId": "q2SQPztYaQQ",
+      "source": {
+        "location": "LO3 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-similarity-c1d44ff03a",
+      "title": "Similarity",
+      "type": "video",
+      "provider": "youtube",
+      "url": {
+        "url": "https://youtu.be/6p1lweGactg?si=IVq4lCghbgc1E14j",
+        "text": "see the whole playlist"
+      },
+      "source": {
+        "location": "LO4 → Similarity"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-xiaoudfrar0-6f36684971",
+      "title": "Transformation (reduction and magnification)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/XiAoUDfrar0?si=am5JrD0W6_b6ANEG",
+      "youtubeId": "XiAoUDfrar0",
+      "source": {
+        "location": "LO4 → Transformation (reduction and magnification)"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-aqfzuih2odo-237d8ffb0d",
+      "title": "Proportionality",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/AQFZuih2odo?si=LT5Nu4rVMVboGepC",
+      "youtubeId": "AQFZuih2odo",
+      "source": {
+        "location": "LO4 → Proportionality"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-iywhkl0u-d0-bc1a1e5649",
+      "title": "Parallel lines and proportional parts",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/iywHKl0U-D0?si=VFyaldGacRGFWxcS",
+      "youtubeId": "iywHKl0U-D0",
+      "source": {
+        "location": "LO4 → Parallel lines and proportional parts"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-tpiblnrasli-fb5c1f6c79",
+      "title": "Angle bisectors",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TpIBLnRAslI?si=HximHX53hSy1Eb4b",
+      "youtubeId": "TpIBLnRAslI",
+      "source": {
+        "location": "LO4 → Angle bisectors"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-4-pptx-5ba31029a9",
+      "title": "LO 4.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1QnoaIKLj73Ry20X7YhrLAaOvEU2_fHaU/edit?usp=sharing",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-ma-1-04-similarity-pptx-a3403d4390",
+      "title": "MA 1.04 Similarity.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1009nneJgOCiIXt24EbC-kRs2pSRDkwGb/edit?usp=sharing",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-gd377ci-uzy-24530e814a",
+      "title": "LO4 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/gd377CI_uZY?si=DiDl_H1ugYVYDSiP",
+      "youtubeId": "gd377CI_uZY",
+      "source": {
+        "location": "LO4 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-kqqmjijez6o-5d101f330c",
+      "title": "Area",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/kqqmJiJez6o?si=iyK37gPe0gfidits",
+      "youtubeId": "kqqmJiJez6o",
+      "source": {
+        "location": "LO5 → Area"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-xmz9wfvox9g-d874c4d98a",
+      "title": "Volume",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/xMz9WFvox9g?si=V4OYRqCz0JsYwcBh",
+      "youtubeId": "xMz9WFvox9g",
+      "source": {
+        "location": "LO5 → Volume"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-z4lat1uoqi4-4cc7d853ee",
+      "title": "Composite figures",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/z4Lat1uOQI4?si=x-KMGBOyYFST3_X8",
+      "youtubeId": "z4Lat1uOQI4",
+      "source": {
+        "location": "LO5 → Composite figures"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-5-pptx-2fac048067",
+      "title": "LO 5.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1L-7THfGCXlq1jEW4VTlXVi9MaOczVFbK/edit?usp=sharing",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-ma-1-05-pyramid-pptx-120f8a225a",
+      "title": "MA 1.05 pyramid.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/16oCUdRawsz3FqHuZKs4bynzn5gVQ0hM5/edit?usp=sharing",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-ma-1-05-cone-pptx-59101e35c6",
+      "title": "MA 1.05 Cone.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1TKd3WwBkg82qxw3pk66WTAYhVpr-9OLo/edit?usp=sharing",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-q2sqpztyaqq-a5a5108547",
+      "title": "LO5 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/q2SQPztYaQQ?si=bpXGAUgjn--uEdAF",
+      "youtubeId": "q2SQPztYaQQ",
+      "source": {
+        "location": "LO5 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-azroe4fjqtq-a2e85d4fff",
+      "title": "Linear functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/AZroE4fJqtQ?si=2aiauDXqRrNf9JXg",
+      "youtubeId": "AZroE4fJqtQ",
+      "source": {
+        "location": "LO6 → Linear functions"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-hg2hr9zjfq4-6ebf769979",
+      "title": "Piecewise function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/hg2HR9zJFq4?si=kw20EcXgOOyR7fba",
+      "youtubeId": "hg2HR9zJFq4",
+      "source": {
+        "location": "LO6 → Piecewise function"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-u6zdpul5rku-36b795b927",
+      "title": "Absolute-Value Functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/u6zDpUL5RkU?si=cqO9f7n7pI217pwn",
+      "youtubeId": "u6zDpUL5RkU",
+      "source": {
+        "location": "LO6 → Absolute-Value Functions"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-rqbybgkghdu-18a503850b",
+      "title": "STEP function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/RqByBGKGHDU?si=c27anoSFcxETSi-R",
+      "youtubeId": "RqByBGKGHDU",
+      "source": {
+        "location": "LO6 → STEP function"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-92u67cuy9gc-5fc138370d",
+      "title": "Direct variation",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/92U67CUy9Gc?si=DudyuKtHmw-xQwCS",
+      "youtubeId": "92U67CUy9Gc",
+      "source": {
+        "location": "LO6 → Direct variation"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-rvs5vtv8o88-58efd3a613",
+      "title": "Intercepted part",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/RvS5VTV8O88?si=suluCJopAXFTAJ3R",
+      "youtubeId": "RvS5VTV8O88",
+      "source": {
+        "location": "LO6 → Intercepted part"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-wunwjd4bmmw-c7b63ef5fe",
+      "title": "Composition of functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/wUNWjd4bMmw?si=tAV9tmuWe3c2E_Zl",
+      "youtubeId": "wUNWjd4bMmw",
+      "source": {
+        "location": "LO6 → Composition of functions"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-rgvysb9emcq-ddaecbcd80",
+      "title": "Translation of linear function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/rgvysb9emcQ?si=g3Y__YZoONFkPC9O",
+      "youtubeId": "rgvysb9emcQ",
+      "source": {
+        "location": "LO6 → Translation of linear function"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-6-pptx-f1fdc5180f",
+      "title": "LO 6.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/12Rau-6JGJlENAtrc8uQaxJ9dGdfCbGnK/edit?usp=sharing",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-ma-1-06-functions-pptx-7aac696e90",
+      "title": "MA 1.06 functions.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1rc--v8LmNy01hf8uHNckGnRBS1wRoQ3N/edit?usp=sharing",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-ma-1-06-functions-2pptx-pptx-23cf8009dd",
+      "title": "MA 1.06 functions.2pptx.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1P9LMRGyUHFKl3WSGhl0bchCvx2d2zQ59/edit?usp=sharing",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "maths-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-7ouir6r9x2w-fb3fd1e3db",
+      "title": "LO6 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7oUir6R9x2w?si=j0X3o2n91Hr0Hp1s",
+      "youtubeId": "7oUir6R9x2w",
+      "source": {
+        "location": "LO6 → Summary"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-1-exercise-pptx-95135d49b0",
+      "title": "LO 1 exercise.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1puJGrzFAprcef2YJW7hy9ghe5rcHUgY-/edit?usp=sharing",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-2-exercise-pptx-25c2549dba",
+      "title": "LO 2 exercise.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1-B1tG1NuihTAEKeYFK9Lye13hbfwI1x6/edit?usp=sharing",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-3-exercise-pptx-6e43776ff4",
+      "title": "LO 3 exercise.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/11IWafbzqF9oEPj5d2xinV_k0EfmdmsZb/edit?usp=sharing",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-4-exercise-pptx-0707ec89c7",
+      "title": "LO 4 exercise.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/17zoQd9lky3Yud5XsScnFFqwuPa-m0f-w/edit?usp=sharing",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-lo-5-exercise-pdf-02ada0ac19",
+      "title": "LO 5 exercise.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1KSbcP-83rHE76eOkgY_Mj_kJEW0mOrOf/view?usp=sharing",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s1-pdf-5b-honors-quiz-review-final-pdf-d512c62267",
+      "title": "5B Honors Quiz Review final.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1zJfftm-ZsOiCbbLm7-JbvHyfmw91Q99v/view?usp=sharing",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-ebdw-2tlabg-ed4dded4b2",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/eBdw_2tLabg?si=nv8PoczibR6B0z3Z",
+      "youtubeId": "eBdw_2tLabg",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-o92lj-p9pes-e3fde8e4a7",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/O92lj_P9Pes?si=X2u17Sc9vKJKhIvG",
+      "youtubeId": "O92lj_P9Pes",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-4uq7jmbpwig-6205eb8ca3",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/4UQ7JMbpWig?si=fte2M9m859FWXt-h",
+      "youtubeId": "4UQ7JMbpWig",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "maths-g10-s1-video-ynszorjbdsg-5745063c52",
+      "title": "final Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/yNszOrjbDSg?si=5jwp5SYOTlSIC4TV",
+      "youtubeId": "yNszOrjbDSg",
+      "source": {
+        "location": "Revision → final"
+      }
+    }
+  ]
+}

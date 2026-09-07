@@ -1,0 +1,915 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T19:11:44.691Z",
+  "source": {
+    "file": "migration/raw/g10/s1/mechanics.json"
+  },
+  "subject": {
+    "id": "mechanics-g10-s1",
+    "name": "Mechanics",
+    "description": "Mechanics resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "mechanics",
+    "content": [
+      {
+        "id": "mechanics-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Motion Graphs and Reference Frames",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "mechanics-g10-s1-concept-position-time-graphs",
+            "title": "Position /Time graphs",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-velocity-time-graphs",
+            "title": "Velocity/Time graphs",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-acceleration-time-graphs",
+            "title": "Acceleration /Time graphs",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-relative-velocity",
+            "title": "Relative velocity",
+            "description": "",
+            "order": 4,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-instantaneous-velocity",
+            "title": "Instantaneous velocity",
+            "description": "",
+            "order": 5,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-average-velocity",
+            "title": "Average velocity",
+            "description": "",
+            "order": 6,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-reference-frames",
+            "title": "Reference Frames",
+            "description": "",
+            "order": 7,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "mechanics-g10-s1-pdf-1-displacement-time-graph-pptx-208735194c",
+          "mechanics-g10-s1-pdf-2-velocity-time-graph-pptx-1d9018c2b0",
+          "mechanics-g10-s1-pdf-3-acceleration-time-graph-pptx-ce334a5e60",
+          "mechanics-g10-s1-pdf-4-relative-velocity-averrage-velocity-pptx-8a4704e137",
+          "mechanics-g10-s1-pdf-lo-1-me-pptx-7fe4543433",
+          "mechanics-g10-s1-pdf-me-1-01-3-2-pptx-a11179ab20",
+          "mechanics-g10-s1-pdf-me-1-01-4-pptx-f95dca577e",
+          "mechanics-g10-s1-pdf-me-1-01-pptx-56983f26eb",
+          "mechanics-g10-s1-pdf-relative-velocity-pdf-c54b702600",
+          "mechanics-g10-s1-video-cfdjx3exbsq-c5cc40f9f9",
+          "mechanics-g10-s1-video-qvvslgaq7qi-d7b396a146"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Kinematics",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "mechanics-g10-s1-concept-area-under-a-curve",
+            "title": "Area under a curve",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-kinematic-equations-for-1-d-motion-with-constant-acceleration",
+            "title": "Kinematic equations for 1-D motion with constant acceleration",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-free-fall-motion",
+            "title": "Free-fall motion",
+            "description": "",
+            "order": 3,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "mechanics-g10-s1-pdf-1-under-graph-pptx-96ad240b7f",
+          "mechanics-g10-s1-pdf-2-kinematic-equation-pptx-4c17bb052c",
+          "mechanics-g10-s1-pdf-3-free-fall-pptx-87e74de3c9",
+          "mechanics-g10-s1-pdf-5th-free-fall-motion-pptx-5bdfbd8237",
+          "mechanics-g10-s1-pdf-area-under-the-curve-pptx-c7eb4896c1",
+          "mechanics-g10-s1-pdf-me-1-02-3-pptx-ada88a51b7",
+          "mechanics-g10-s1-pdf-mechanics-5-pptx-f85c92de16",
+          "mechanics-g10-s1-pdf-mechanics-6-pptx-8db5c92fec",
+          "mechanics-g10-s1-pdf-mechanics-7-pptx-d73c1a3a9b",
+          "mechanics-g10-s1-pdf-session-6-pptx-8355d56a9e",
+          "mechanics-g10-s1-video-kouugzejjko-5d1da32204"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Reference Frames & Signed Velocity",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "mechanics-g10-s1-concept-reference-frame",
+            "title": "Reference frame",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-reference-object",
+            "title": "Reference object",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-velocity-as-a-signed-quantity",
+            "title": "Velocity as a signed quantity",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-difference-of-velocities",
+            "title": "Difference of velocities",
+            "description": "",
+            "order": 4,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "mechanics-g10-s1-pdf-4-relative-velocity-averrage-velocity-pptx-559ffeb42d",
+          "mechanics-g10-s1-pdf-me-1-03-collision-linear-momentum-conservation-pptx-1c6549d3c7",
+          "mechanics-g10-s1-pdf-relative-velocity-pdf-afc00ac134",
+          "mechanics-g10-s1-video-oefu3lhlare-5517b5a0cc"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "Vectors and 2D Motion",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "mechanics-g10-s1-concept-vector-and-scalar-quantities",
+            "title": "Vector and scalar quantities",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-rectangular-coordinates",
+            "title": "Rectangular coordinates",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-polar-coordinates",
+            "title": "Polar coordinates",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-engineering-i-j-k-notation",
+            "title": "Engineering (i,j,k) notation",
+            "description": "",
+            "order": 4,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-physical-diagrams",
+            "title": "Physical diagrams",
+            "description": "",
+            "order": 5,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-position-vectors",
+            "title": "Position vectors",
+            "description": "",
+            "order": 6,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-resultant-of-two-vectors",
+            "title": "Resultant of two vectors",
+            "description": "",
+            "order": 7,
+            "resources": []
+          },
+          {
+            "id": "mechanics-g10-s1-concept-relative-velocity-in-2-dimensions",
+            "title": "Relative velocity in 2-dimensions",
+            "description": "",
+            "order": 8,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "mechanics-g10-s1-pdf-4th-suvat-equations-pptx-c2937b5e16",
+          "mechanics-g10-s1-pdf-conservation-of-momentum-collision-pptx-30e6d11d12",
+          "mechanics-g10-s1-pdf-mathematical-vector-addition-packet3-pdf-a4992edf8e",
+          "mechanics-g10-s1-pdf-me-1-04-vectors-pptx-4340467a8c",
+          "mechanics-g10-s1-pdf-vector-1-pptx-b91cf0f8b0",
+          "mechanics-g10-s1-pdf-vector-2-pptx-5a905d7499",
+          "mechanics-g10-s1-pdf-vector3-pptx-6aa6d726c6",
+          "mechanics-g10-s1-video-oefu3lhlare-5517b5a0cc"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 5,
+        "concepts": [],
+        "resources": [
+          "mechanics-g10-s1-pdf-final-revision-on-mechanics-with-answer-pdf-139491886a",
+          "mechanics-g10-s1-pdf-final-revision-on-mechanics-for-grade-10-first-semester-2017-pdf-aa501fc71a",
+          "mechanics-g10-s1-pdf-lo-1-exercise-pptx-26d140e577",
+          "mechanics-g10-s1-pdf-quiz-mechanics-no-1-pdf-9725c07445",
+          "mechanics-g10-s1-pdf-testbank-1-pdf-cc87450146"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 6,
+        "concepts": [],
+        "resources": [
+          "mechanics-g10-s1-pdf-mechanics-1st-term-pdf-4b05807c6c",
+          "mechanics-g10-s1-pdf-mechanics-revision-lo-1-2-pptx-c0d2742f08",
+          "mechanics-g10-s1-pdf-vectors-revision-pdf-63eb302c8c",
+          "mechanics-g10-s1-video-eqxs3-22rlw-fd3611a0ff",
+          "mechanics-g10-s1-video-go2f-918tsw-ceada15e93",
+          "mechanics-g10-s1-video-eyaprde8fuk-ebdf9e1c33",
+          "mechanics-g10-s1-video-nrosxemj-vm-3f5d71df63",
+          "mechanics-g10-s1-video-v9kytyidpyg-eab75d7149"
+        ]
+      },
+      {
+        "id": "mechanics-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 7,
+        "concepts": [],
+        "resources": []
+      }
+    ],
+    "units": 4
+  },
+  "resources": [
+    {
+      "id": "mechanics-g10-s1-pdf-1-displacement-time-graph-pptx-208735194c",
+      "title": "1 Displacement time graph.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1lVQzs5DZjlgfhMnVr7VPHpawLl9157jK/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-2-velocity-time-graph-pptx-1d9018c2b0",
+      "title": "2 velocity time graph.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1gaL-F6jrxfT4QfdEBouJF5ypQCtYHXjN/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-3-acceleration-time-graph-pptx-ce334a5e60",
+      "title": "3 acceleration time graph.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1KnVv3-b-N1AkElBPkNZ6P2AypydebknQ/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-4-relative-velocity-averrage-velocity-pptx-8a4704e137",
+      "title": "4 relative velocity averrage velocity.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1ZNBJs1km10rYssXlDYN-OJ8r1nNrYW1C/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-lo-1-me-pptx-7fe4543433",
+      "title": "LO 1 ME.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1PEFE62wGIVaK5XRJwcJr88JXaTmjiF40/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-me-1-01-3-2-pptx-a11179ab20",
+      "title": "ME 1.01.3 (2).pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1dk-lHXH1bLPEGpbNk8YvqVpHs6p8U9ja/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-me-1-01-4-pptx-f95dca577e",
+      "title": "ME 1.01.4.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1utM0KVsNJSudvcsqcswTKW0YD6iDBxtv/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-me-1-01-pptx-56983f26eb",
+      "title": "ME 1.01.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1uy824Y3C5VfU1aQ5EwN2mjgvT-J21prS/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-relative-velocity-pdf-c54b702600",
+      "title": "relative velocity.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1C8sXIF2OvV0s5RCX3CXqPYwd1lN8YsL7/view?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-video-cfdjx3exbsq-c5cc40f9f9",
+      "title": "LO1 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/CfdjX3EXbSQ?si=9j-PLLyA1z0cVs92",
+      "youtubeId": "CfdjX3EXbSQ",
+      "source": {
+        "location": "LO1 → Summary"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-video-qvvslgaq7qi-d7b396a146",
+      "title": "LO1 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/qVVslgaq7qI?si=L-VOoBh_NFppK5YU",
+      "youtubeId": "qVVslgaq7qI",
+      "source": {
+        "location": "LO1 → Summary"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-1-under-graph-pptx-96ad240b7f",
+      "title": "1-under graph.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1TGN2dzg0CwiFjqrbJGajmj0UMrQZ4EwE/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-2-kinematic-equation-pptx-4c17bb052c",
+      "title": "2-kinematic equation.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1L-r27XABW9fvzz46aufMMg2m4otG1Lbm/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-3-free-fall-pptx-87e74de3c9",
+      "title": "3-Free Fall.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1eEVNEb9Cc6lsqQ2BznV6feI2DoeCdFRr/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-5th-free-fall-motion-pptx-5bdfbd8237",
+      "title": "5th free fall motion.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/19hSpyfPj6JeiXFdIYmWD0fnaYtJRL2-E/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-area-under-the-curve-pptx-c7eb4896c1",
+      "title": "Area under the curve.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1warUiW0KsrhodQEDrSH-eUHcTkYAOZJJ/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-me-1-02-3-pptx-ada88a51b7",
+      "title": "ME 1.02.3.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1iSdg9W5v2X2WZzkFrnpP9jzZvw16aQEz/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-mechanics-5-pptx-f85c92de16",
+      "title": "Mechanics-5.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1uMRK68mEIX7IyDX88ltFuE76TjKTXH5t/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-mechanics-6-pptx-8db5c92fec",
+      "title": "Mechanics-6.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/16VOCVck5GVHEpa3k4fZzXFnFxFpc4Nrk/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-mechanics-7-pptx-d73c1a3a9b",
+      "title": "Mechanics-7.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1E6v-xKnQ7ekUnxWg5wPDSG72188hSPyY/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-session-6-pptx-8355d56a9e",
+      "title": "session 6.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/13po_BTMx3s6ZRIhtYyBazLq0ycdw9lBW/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-video-kouugzejjko-5d1da32204",
+      "title": "LO2 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/KOUUgZejJKo?si=Sd1OTepQ6diW3Kxg",
+      "youtubeId": "KOUUgZejJKo",
+      "source": {
+        "location": "LO2 → Summary"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-4-relative-velocity-averrage-velocity-pptx-559ffeb42d",
+      "title": "4 relative velocity averrage velocity.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1OjqOb1GeyPs8gPfosj9aK1Slp5faBs6l/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-me-1-03-collision-linear-momentum-conservation-pptx-1c6549d3c7",
+      "title": "ME 1.03 collision linear momentum conservation.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1EcsA-zSbyRRPB42QyyR5qsew4xVb80qW/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-relative-velocity-pdf-afc00ac134",
+      "title": "relative velocity.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Yt2UcFcuJnIDAgJVtxtPWfcnTEL3jfDn/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-video-oefu3lhlare-5517b5a0cc",
+      "title": "LO3 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/OefU3LHLARE?si=sPUmNgKBx8Ziy0hQ",
+      "youtubeId": "OefU3LHLARE",
+      "source": {
+        "location": "LO3 → Summary"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-4th-suvat-equations-pptx-c2937b5e16",
+      "title": "4th suvat equations.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1z8nY1jfLO3Xmk-CF1BDLXNfx3dl5fXyp/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-conservation-of-momentum-collision-pptx-30e6d11d12",
+      "title": "Conservation of Momentum -Collision.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1B0YIajut-zeJx88sJ5i0JnusBMgdu-tU/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-mathematical-vector-addition-packet3-pdf-a4992edf8e",
+      "title": "Mathematical-Vector-Addition-Packet3.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1oqINNjzrbkJp20uPdTOgXWNMUKp59GNy/view?usp=drivesdk",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-me-1-04-vectors-pptx-4340467a8c",
+      "title": "ME 1.04 Vectors.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1JjNwkkdWCT9s50xmyp2D95PY5AHTgqws/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-vector-1-pptx-b91cf0f8b0",
+      "title": "vector 1.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1RdXrkqJFyKw4ec4AdYCehlsDido6oLl0/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-vector-2-pptx-5a905d7499",
+      "title": "vector 2.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1TEMvqii-TkSeby24jSE3V5KTnn2w_8WN/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-vector3-pptx-6aa6d726c6",
+      "title": "vector3.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1-2XH34aCd8UfWUnmIvz3Nz_IaGJKGjcu/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "mechanics-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-final-revision-on-mechanics-with-answer-pdf-139491886a",
+      "title": "Final revision on Mechanics with Answer.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1aU60gW_uYmPcSaLGA289vTZ30NlyfrS6/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-final-revision-on-mechanics-for-grade-10-first-semester-2017-pdf-aa501fc71a",
+      "title": "final+revision+on+mechanics+for+grade+10+first+semester+2017.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1w4vGVFtJoOfPVwZxzAlzCSx_tbfY7m5b/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-lo-1-exercise-pptx-26d140e577",
+      "title": "LO 1 exercise.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/18MVH11tjMexi8WYU6Tror_ir6UaRUqDD/edit?usp=drivesdk&rtpof=true&sd=true",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-quiz-mechanics-no-1-pdf-9725c07445",
+      "title": "Quiz Mechanics NO.1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1vMeVCsGqrmFlvKF5fZQiFW8s0ysm12Gt/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-testbank-1-pdf-cc87450146",
+      "title": "TestBank (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1FhqK4rnObR1ZIwVHhseFWXikfgkXuo14/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-mechanics-1st-term-pdf-4b05807c6c",
+      "title": "Mechanics 1st term.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Vrd7yE0TbPbBgVay-rgxJxI9MmFv2CjM/view?usp=drivesdk",
+      "source": {
+        "location": "Revision"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "revision"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-mechanics-revision-lo-1-2-pptx-c0d2742f08",
+      "title": "Mechanics Revision LO 1,2.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1ZDu3qU0N2idbNVbP_hzUTD8G6lCoJbtQ/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "Revision"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "revision"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-pdf-vectors-revision-pdf-63eb302c8c",
+      "title": "Vectors Revision.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1j1CAAXjJt8Sn7u8oYJ5QJrAy4tyM9aNT/view?usp=drivesdk",
+      "source": {
+        "location": "Revision"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "revision"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-video-eqxs3-22rlw-fd3611a0ff",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/EqxS3-22rLw?si=8CTIG9Z6YfA0dXZr",
+      "youtubeId": "EqxS3-22rLw",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-video-go2f-918tsw-ceada15e93",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Go2f_918TSw?si=kdakt5ChkGuKxDcG",
+      "youtubeId": "Go2f_918TSw",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-video-eyaprde8fuk-ebdf9e1c33",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/eYApRDE8fuk?si=OpLI1uvuG27A8VUm",
+      "youtubeId": "eYApRDE8fuk",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-video-nrosxemj-vm-3f5d71df63",
+      "title": "final Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/nrOsxeMj_VM?si=OfGgnTBq2FbsB8sR",
+      "youtubeId": "nrOsxeMj_VM",
+      "source": {
+        "location": "Revision → final"
+      }
+    },
+    {
+      "id": "mechanics-g10-s1-video-v9kytyidpyg-eab75d7149",
+      "title": "final Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/v9kytyiDPyg?si=PbHZ-FsGjWfH-L_9",
+      "youtubeId": "v9kytyiDPyg",
+      "source": {
+        "location": "Revision → final"
+      }
+    }
+  ]
+}

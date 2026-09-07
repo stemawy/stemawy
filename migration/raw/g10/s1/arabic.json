@@ -1,0 +1,322 @@
+{
+  "learningObjectives": {
+    "LO1": {
+      "title": "النحو",
+      "concepts": [
+        {
+          "title": "اسم الفاعل",
+          "file": "اسم الفاعل.doc",
+          "video": "https://youtu.be/RYbANdWqI5k?si=gHt_ba70wrOCPmqx"
+        },
+        {
+          "title": "اسم المفعول و طريقة صوغه",
+          "file": "اسم المفعول و طريقة صوغه.docx",
+          "video": "https://youtu.be/2Mos9f8DRaQ?si=umxAWLVQO_jMTmt2"
+        },
+        {
+          "title": "اسم المفعول",
+          "file": "اسم المفعول.doc",
+          "video": "https://youtu.be/QjoL7_LQybs?si=ETlIkElqw9tvmrQH"
+        },
+        {
+          "title": "أفعال المقاربة والرجاء والشروع",
+          "file": "أفعال المقاربة والرجاء والشروع.doc",
+          "video": "https://youtu.be/t0LiYcxcAqE?si=yA0KnVA4ER_lYTXi"
+        },
+        {
+          "title": "أفعال تعمل عمل كان إثرائية نحو",
+          "file": "أفعال تعمل عمل كان إثرائية نحو.docx",
+          "video": "https://youtu.be/7NsVX5tWXaY?si=fcrQglh9D031Q2CJ"
+        },
+        {
+          "title": "الأفعال الناقصة و التامة",
+          "file": "الأفعال الناقصة و التامة.doc",
+          "video": "https://youtu.be/psoQc1D4KhU?si=PjOg7v3Nrj0oagkN"
+        },
+        {
+          "title": "صيغ المبالغة",
+          "file": "صيغ المبالغة.doc",
+          "video": "https://youtu.be/6Zg2jhmRxjw?si=PlKFTIIWhKNb1pHo"
+        },
+        {
+          "title": "قواعد إعرابية هامة",
+          "file": "قواعد إعرابية هامة.doc"
+        },
+        {
+          "title": "كيف تجيب على سؤال النحو؟",
+          "file": "كيف تجيب على سؤال النحو ؟.doc"
+        }
+      ]
+    },
+    "LO2": {
+      "title": "الأدب",
+      "concepts": [
+        {
+          "title": "الأدب في العصر الأموي",
+          "file": "الأدب في العصر الأموي.doc",
+          "video": "https://youtu.be/FOZ5kfLQ9Gw?si=HZy7kSHSGMdec3S0"
+        },
+        {
+          "title": "الأدب في العصر الجاهلي",
+          "file": "الأدب في العصر الجاهلي.doc",
+          "video": "https://youtu.be/DpUWGmTEhuA?si=RlERjgqX4SOSv4oL"
+        },
+        {
+          "title": "الأدب في عصر صدر الإسلام",
+          "file": "الأدب في عصر صدر الإسلام.doc",
+          "video": "https://youtu.be/uLVthsWpEws?si=Yl4M-2C71NCrGzxG"
+        }
+      ]
+    },
+    "LO3": {
+      "title": "القصة",
+      "concepts": [
+        {
+          "title": "الفصل الأول: مغني القافلة",
+          "file": "الفصل الأول مغني القافلة.doc",
+          "video": "https://youtu.be/9di-w7niVVY?si=PmS-tcNVqxRAw2t_"
+        },
+        {
+          "title": "الفصل الثاني: الطل الثائر",
+          "file": "الفصل الثاني الطل الثائر.doc",
+          "video": "https://youtu.be/iP5qns-ZZ9g?si=F9DqmNcLSxbDvCkH"
+        },
+        {
+          "title": "الفصل الثالث: الطريق إلى الحقيقة",
+          "file": "الفصل الثالث الطريق إلى الحقيقة.doc",
+          "video": "https://youtu.be/i05Rb41DsR4?si=PGQYzy1r61ucM62q"
+        },
+        {
+          "title": "الفصل الرابع: حوار ساخن",
+          "file": "الفصل الرابع حوار ساخن.doc",
+          "video": "https://youtu.be/DC0aTI9u-Og?si=V3iRhMsPD3foQ250"
+        },
+        {
+          "title": "الفصل الخامس: خطبة عبلة",
+          "file": "الفصل الخامس خطبة عبلة.doc",
+          "video": "https://youtu.be/_VEAON2r_KE?si=D2SV-IFqdYSLadqL"
+        },
+        {
+          "title": "الفصل السادس: البطل الحر",
+          "file": "الفصل السادس البطل الحر.doc",
+          "video": "https://youtu.be/SE2bhunTha0?si=YoSqgB2NebDlsUbu"
+        },
+        {
+          "title": "الفصل السابع: انتصار",
+          "file": "الفصل السابع انتصار.doc",
+          "video": "https://youtu.be/sGcnYHAllLY?si=4SHdTI8C9vtFL7fR"
+        },
+        {
+          "title": "الفصل الثامن: علاقة قلقة",
+          "file": "الفصـل الثامن  علاقة قلقة.doc",
+          "video": "https://youtu.be/zk9aJFnopBs?si=huh1eIfvTzwHDzHJ"
+        }
+      ],
+      "bookFile": "أبو الفوارس عنترة.pdf"
+    },
+    "LO4": {
+      "title": "القراءة",
+      "concepts": [
+        {
+          "title": "تكنولوجيا المعلومات",
+          "file": "تكنولوجيا المعلومات.doc",
+          "video": "https://youtu.be/9KFi6C1hZQk?si=BQ3ULKQfzGh87b-3"
+        },
+        {
+          "title": "قيم اجتماعية",
+          "file": "قيم اجتماعية.doc",
+          "video": "https://youtu.be/oDFDCoIvqzM?si=dMAFX7b5iZkxSk6z"
+        },
+        {
+          "title": "مكارم الأخلاق وحاتم الطائي",
+          "file": "مكارم الأخلاق وحاتم الطائي.doc",
+          "video": "https://youtu.be/w0rLmu6276g?si=a-o_NRdkIK4hSL6O"
+        }
+      ]
+    },
+    "LO5": {
+      "title": "النصوص",
+      "concepts": [
+        {
+          "title": "ابدأ بنفسك",
+          "file": "ابدأ بنفسك.doc",
+          "video": "https://youtu.be/xCl5aFIVwlg?si=q2B0JpkSpJcoUU3A"
+        },
+        {
+          "title": "آداب صناعة الكتّاب",
+          "file": "آداب صناعة الكتّاب.doc",
+          "video": "https://youtu.be/L137MCnIipc?si=Ny-Akxy64goFovdI"
+        },
+        {
+          "title": "العفو مأمول",
+          "file": "العفو  مأمول.doc",
+          "video": "https://youtu.be/lzykn98Wtw4?si=qPAHKnZHOEXvCpy6"
+        },
+        {
+          "title": "شباب تسامى للعلا",
+          "file": "شباب تسامى للعلا.doc",
+          "video": "https://youtu.be/1M0d2CL4gl8?si=oiwX23WvkihAFCuD"
+        },
+        {
+          "title": "قيم الحياة الزوجية",
+          "file": "قيم الحياة الزوجية.doc",
+          "video": "https://youtu.be/UIVFczuX01s?si=SYyac6xT0bjPxbAS"
+        },
+        {
+          "title": "من أجل حياة كريمة",
+          "file": "من أجل حياة كريمة.doc",
+          "video": "https://youtu.be/_POhjvNbNkU?si=tb2PdNhjEw-UUHKg"
+        }
+      ]
+    },
+    "LO6": {
+      "title": "البلاغة",
+      "concepts": [
+        {
+          "title": "الاستعارة",
+          "file": "الاستعارة.doc",
+          "video": "https://youtu.be/oCD6JjsjcT0?si=T0qPBYr32KyVxsiU"
+        },
+        {
+          "title": "التشبيه",
+          "file": "التشبيه.doc",
+          "video": "https://youtu.be/C-Jmj4uYFxo?si=1SGMrtXvbylIraNf"
+        },
+        {
+          "title": "التعبير الحقيقي والتعبير المجازي",
+          "file": "التعبير الحقيقي والتعبير المجازي.doc",
+          "video": "https://youtu.be/oOW8nlidADo?si=anuTZYCKDygspPaA"
+        }
+      ]
+    },
+    "LO7": {
+      "title": "كتب المنهج",
+      "bookGroups": [
+        {
+          "title": "كتب المنهج الأساسية",
+          "books": [
+            {
+              "title": "كتاب اللغة العربية الأساسي",
+              "file": "اللغة العربية  الصف الأول الثانوي.pdf",
+              "description": "الكتاب الرئيسي للمنهج"
+            },
+            {
+              "title": "كتاب المنهج - الفصل الأول",
+              "file": "كتاب اللغة العربية الصف الأول الثانوى ف1 مرفق 69.pdf",
+              "description": "النسخة المحدثة للفصل الدراسي الأول"
+            },
+            {
+              "title": "كتاب الأضواء",
+              "file": "كتاب الأضواء عربي اولى ثانوي الترم الأول pdf-1.pdf",
+              "description": "كتاب الأضواء للفصل الدراسي الأول"
+            }
+          ]
+        },
+        {
+          "title": "كتب المراجعة والتدريبات",
+          "books": [
+            {
+              "title": "كتاب الامتحان",
+              "file": "كتاب الامتحان .pdf",
+              "description": "تدريبات وأسئلة شاملة لكل أقسام المنهج"
+            }
+          ]
+        },
+        {
+          "title": "نسخ إضافية من المنهج",
+          "books": [
+            {
+              "title": "نسخة 2017 - الجزء الأول",
+              "file": "كتاب 1 ث  نت - 2017- 1.pdf",
+              "description": "النسخة الشبكية - الفصل الأول"
+            },
+            {
+              "title": "نسخة 2017 - الجزء الثاني",
+              "file": "كتاب  1ث - 2017- ت 2.pdf",
+              "description": "النسخة الشبكية - الفصل الثاني"
+            }
+          ]
+        },
+        {
+          "title": "كتب القصة",
+          "books": [
+            {
+              "title": "قصة أبو الفوارس عنترة",
+              "file": "أبو الفوارس عنترة.pdf",
+              "description": "القصة المقررة كاملة"
+            }
+          ]
+        }
+      ]
+    },
+    "references": {
+      "title": "كتب المنهج",
+      "concepts": []
+    }
+  },
+  "shareMap": {
+    "( ستون تدريبًا نحويًا طبقأ لمنهج 2 ث الحديث 2015 ).doc": "https://docs.google.com/document/d/1W7KuOKqmUOavQ44L4RIfXuF2vCpzDF6M/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "تدريب نحو.docx": "https://docs.google.com/document/d/1vDrF5pIV_Bb6eyw42GI2VFqsLDx-kFHC/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "اختبار نحو كاد وأخواتها.docx": "https://docs.google.com/document/d/1QPfp_IIMFSHIVqIOKYVTT4Vuk3zV5rf3/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "تدريب نحوي.docx": "https://docs.google.com/document/d/1Ok1Svz0OrncUy3ARm8uq0uDEvNxsWMsp/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "كيف تجيب على سؤال النحو ؟.doc": "https://docs.google.com/document/d/1WHklIMU7raXtyB3HPsIO-eV659hrBsQw/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "اسم الفاعل.doc": "https://docs.google.com/document/d/1miXMrHqXNAzW3xpo_1En_KOJPrSHKPuK/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "اسم المفعول.doc": "https://docs.google.com/document/d/1T7ob5TgTg1IdeG9Bl-8IgdlzVJkOLfG3/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "صيغ المبالغة.doc": "https://docs.google.com/document/d/11-J8V16oVPKJBpxnlTY5xQZ-Rbb4uLAm/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "قواعد إعرابية هامة.doc": "https://docs.google.com/document/d/1MOqur5TU7ooAYt0t7IK2dx4yuAsbRe8N/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "أفعال المقاربة والرجاء والشروع.doc": "https://docs.google.com/document/d/1Ty6fm91sVZ6f39GpZ6-OWQkETXJPL8XZ/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الأفعال الناقصة و التامة.doc": "https://docs.google.com/document/d/1_X1flpzSZD7t9eURXND4L2iOCh3CHtoc/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "أفعال تعمل عمل كان إثرائية نحو.docx": "https://docs.google.com/document/d/1Du9wOia2DRWp0uhxf1amDUAZuCj7TOtk/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "اسم المفعول و طريقة صوغه.docx": "https://docs.google.com/document/d/1prjDXRcn5wyVKLDIQhvtlqtU5-aiZ0AS/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "من أجل حياة كريمة.doc": "https://docs.google.com/document/d/1oX32wbEubJbuUBGucNG9aIV6qBpyeEJ5/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "قيم الحياة الزوجية.doc": "https://docs.google.com/document/d/1u_-carQZKOnTW8DRRxSF5hihWjjUyxsY/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "ابدأ بنفسك.doc": "https://docs.google.com/document/d/1v4W_5-AliyY5QBSD1lso3zm8JJvnVdFq/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "العفو  مأمول.doc": "https://docs.google.com/document/d/1STmGL1syFfUvMFcXzwsgGCgAiozo6iRW/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "شباب تسامى للعلا.doc": "https://docs.google.com/document/d/1V-IBX52UTrniY0nRGe8WUKLhS2qM4l6P/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "آداب صناعة الكتّاب.doc": "https://docs.google.com/document/d/14KZ91eQIgtYuNXYHuJG_L_gvgr_d69hp/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الاستعارة.doc": "https://docs.google.com/document/d/1u98Yz1GqEhsKBg17yVrSAFkJFjpFoNil/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "التشبيه.doc": "https://docs.google.com/document/d/1REEcXArIVEBQ6G_ehMTVDleC2FIZc-NE/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "التعبير الحقيقي والتعبير المجازي.doc": "https://docs.google.com/document/d/1_L0XPygn-uETNE4nj7rg48O9Y7sNfeZE/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الفصل الثالث الطريق إلى الحقيقة.doc": "https://docs.google.com/document/d/1HCDDziCjYzszo-yNIeeI1oyXrYc0BO-2/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الفصل الثاني الطل الثائر.doc": "https://docs.google.com/document/d/1JBaGCWGRQISX3Plne1hDYVaBarY84iDn/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الفصـل الثامن  علاقة قلقة.doc": "https://docs.google.com/document/d/1Kb-Z_X9zRP7pfzdRj14XvhmUuUEOzR3c/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الفصل الخامس خطبة عبلة.doc": "https://docs.google.com/document/d/1LBAsP-ZpBKk4aW7jsieCTZq51xN1yxam/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الفصل الرابع حوار ساخن.doc": "https://docs.google.com/document/d/1MrXghipnsyd-msKHEl57AV70GIjpBDaL/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الفصل السادس البطل الحر.doc": "https://docs.google.com/document/d/1cICvQF2zqbVB5PUeZKojQi9zsmpKBFcg/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الفصل الأول مغني القافلة.doc": "https://docs.google.com/document/d/1lqfyPfXqQovciqwlj9LpsdtHROuTNTGy/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الفصل السابع انتصار.doc": "https://docs.google.com/document/d/1wqazkODUczfMIFRLXT_Gk4_kUyXxX9ZE/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "أبو الفوارس عنترة.pdf": "https://drive.google.com/file/d/1F2LbvysohN9qYk_MNnmSzc4wQjdil0SI/view?usp=drivesdk",
+    "تلخيص الفصل الأول من قصة - عنترة بن شداد - للصف الأول الثانوي نظام جديد لغة عربية مع السيد فريد.mp4": "https://drive.google.com/file/d/1Fs5yZxrImrJSOKIRt7COOUe4cpEWrqgj/view?usp=drivesdk",
+    "تلخيص الفصل الثاني من قصة - عنترة بن شداد - للصف الأول الثانوي مع السيد فريد نظام جديد.mp4": "https://drive.google.com/file/d/1UANlTbGffSBdT4o58gSLWMz_sJ-qfqOQ/view?usp=drivesdk",
+    "الأدب في العصر الأموي.doc": "https://docs.google.com/document/d/1R4nKkK2U0q-27EwGTP7LN0hlOAVjs5QA/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الأدب في العصر الجاهلي.doc": "https://docs.google.com/document/d/1_-FGHqIlv_wOugQnnrfVZESNv6MIjgd2/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "الأدب في عصر صدر الإسلام.doc": "https://docs.google.com/document/d/16bXn8s-x6GksShHHLQGHBGfTXwdC0nDg/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+    "كتاب الأضواء عربي اولى ثانوي الترم الأول pdf-1.pdf": "https://drive.google.com/file/d/1WCUPWR3QCZpQUA-cs7ws4U85TsV5B6bm/view?usp=drivesdk",
+    "كتاب اللغة العربية الصف الأول الثانوى ف1 مرفق 69.pdf": "https://drive.google.com/file/d/17C19Xkg_uZZxJ7yqn_GdGCdkMI-0q2qx/view?usp=drivesdk",
+    "كتاب 1 ث  نت - 2017- 1.pdf": "https://drive.google.com/file/d/1gn0qYRfI5A2XjkNgXY-7jYTINBqJ3xpc/view?usp=drivesdk",
+    "اللغة العربية  الصف الأول الثانوي.pdf": "https://drive.google.com/file/d/1EsUDgqNwC9Qq32jSjpFnZKShwpfAoZzG/view?usp=drivesdk",
+    "كتاب  1ث - 2017- ت 2.pdf": "https://drive.google.com/file/d/1PgFCYgbGl99Nb-aXNb6RSJmx4vqsVYPQ/view?usp=drivesdk",
+    "كتاب الامتحان .pdf": "https://drive.google.com/file/d/1Bhy-FjQfIG9QkU9StfUXaPTToJJiUwoV/view?usp=drivesdk",
+    "مكارم الأخلاق وحاتم الطائي.doc": "https://docs.google.com/document/d/1-PKoLnFFv92bPFCUUTNYpVbkdJ-5z76_/edit?usp=drivesdk&rtpof=true&sd=true",
+    "تكنولوجيا المعلومات.doc": "https://docs.google.com/document/d/13BB0bAv9C_dAcDDsFcfoXU0txQycjfK_/edit?usp=drivesdk&rtpof=true&sd=true",
+    "قيم اجتماعية.doc": "https://docs.google.com/document/d/1pbJOhcHxKbTlkUcp7akwPg-fJ7MXfE3X/edit?usp=drivesdk&rtpof=true&sd=true"
+  },
+  "explicitShareMapLinks": [
+    {
+      "file": "تدريب نحو.docx",
+      "title": "تدريب نحو"
+    },
+    {
+      "file": "تدريب نحوي.docx",
+      "title": "تدريب نحوي"
+    },
+    {
+      "file": "اختبار نحو كاد وأخواتها.docx",
+      "title": "اختبار نحو كاد وأخواتها"
+    },
+    {
+      "file": "( ستون تدريبًا نحويًا طبقأ لمنهج 2 ث الحديث 2015 ).doc",
+      "title": "ستون تدريبًا نحويًا"
+    }
+  ]
+}

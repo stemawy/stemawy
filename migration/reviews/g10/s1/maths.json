@@ -1,0 +1,32 @@
+{
+  "missingDriveUrls": [],
+  "missingVideoUrls": [],
+  "duplicateResourceIds": [],
+  "deduplicatedResourceIds": [
+    {
+      "id": "maths-g10-s1-video-mypzy8jl-jc-6b74acf18c",
+      "count": 6
+    },
+    {
+      "id": "maths-g10-s1-video-29jqdhlcgpa-aa9395c089",
+      "count": 2
+    },
+    {
+      "id": "maths-g10-s1-video-92u67cuy9gc-5fc138370d",
+      "count": 2
+    }
+  ],
+  "unrecognizedResourceLocations": [],
+  "notes": [],
+  "statistics": {
+    "units": 7,
+    "concepts": 41,
+    "resources": 84,
+    "pdfs": 35,
+    "videos": 49,
+    "testBanks": 6,
+    "missingDriveUrls": 0,
+    "missingVideoUrls": 0,
+    "duplicateResourceIds": 0
+  }
+}

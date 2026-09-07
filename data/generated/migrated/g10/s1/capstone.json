@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-06T00:27:01.098Z",
+  "source": {
+    "file": "migration/raw/g10/s1/capstone.json"
+  },
+  "subject": {
+    "id": "capstone-g10-s1",
+    "name": "Capstone ",
+    "description": "Capstone  resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "capstone",
+    "content": [
+      {
+        "id": "capstone-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Files",
+        "description": "",
+        "order": 1,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "capstone-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 2,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "capstone-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 3,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "capstone-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 4,
+        "concepts": [],
+        "resources": [
+          "capstone-g10-s1-pdf-capstone-feedback-pptx-917f9761ed",
+          "capstone-g10-s1-pdf-capstone-portfolio-template-pdf-8570c1faf9",
+          "capstone-g10-s1-pdf-capstone-rubric-poster-pdf-bb8d79cc8f",
+          "capstone-g10-s1-pdf-capstone-challenge-grade-10-first-semester-2025-2026-pdf-fbe758dc72",
+          "capstone-g10-s1-pdf-edp-jpg-0aa3c67964",
+          "capstone-g10-s1-pdf-journals-and-feedbacks-pdf-b9f97cb434",
+          "capstone-g10-s1-pdf-poster-rubric-simplified-pdf-916b50c2a5"
+        ]
+      }
+    ],
+    "units": 1
+  },
+  "resources": [
+    {
+      "id": "capstone-g10-s1-pdf-capstone-feedback-pptx-917f9761ed",
+      "title": "capstone feedback.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1wLrXOhLRz0M_OTF4mEDyMbL0jbw8cKQp/edit?usp=drivesdk&ouid=101563598129890605704&rtpof=true&sd=true",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "capstone-g10-s1-pdf-capstone-portfolio-template-pdf-8570c1faf9",
+      "title": "Capstone Portfolio Template.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ZHil6hjqLXqtRDD9lPwZHYimMCh-0pSY/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "capstone-g10-s1-pdf-capstone-rubric-poster-pdf-bb8d79cc8f",
+      "title": "Capstone Rubric (Poster).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ZxOQl82UWMvOcm7k_o-k1Ci5UfI08xvQ/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "capstone-g10-s1-pdf-capstone-challenge-grade-10-first-semester-2025-2026-pdf-fbe758dc72",
+      "title": "Capstone_Challenge_Grade_10_FIRST_semester_2025-2026.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1tJx01DT3L7Vkh35KRjyCiMSRmy4EAGmW/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "capstone-g10-s1-pdf-edp-jpg-0aa3c67964",
+      "title": "EDP.jpg",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1-zSzCpjERFryNQ8RXms_QoER9W53kauz/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "capstone-g10-s1-pdf-journals-and-feedbacks-pdf-b9f97cb434",
+      "title": "Journals and feedbacks.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1UUFiY6gRo0jQrqhODP8Ynswdx0ZFBD2C/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "capstone-g10-s1-pdf-poster-rubric-simplified-pdf-916b50c2a5",
+      "title": "poster rubric simplified.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1hW1x5mFZv2wXzQOMiEnxY2dls86Q4OiU/view?usp=drivesdk",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1502 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T17:05:42.828Z",
+  "source": {
+    "file": "migration/raw/g10/s2/physics.json"
+  },
+  "subject": {
+    "id": "physics-g10-s2",
+    "name": "Physics",
+    "description": "Physics resources for Grade 10, Semester 2.",
+    "grade": "10",
+    "semester": "2",
+    "icon": "physics",
+    "content": [
+      {
+        "id": "physics-g10-s2-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Fluid Mechanics",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "physics-g10-s2-concept-fluids",
+            "title": "Fluids",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "physics-g10-s2-video-xjktf4ah-uq-4bfd41f468"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-pressure",
+            "title": "Pressure",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "physics-g10-s2-video-kkq8ruv8-jw-1876a61784"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-manometer",
+            "title": "Manometer",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "physics-g10-s2-video-yi4rrz3zm7g-07e4fcc7e7"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-pressure-gauge",
+            "title": "Pressure gauge",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "physics-g10-s2-video-lki0jyajwoa-afdebdd3dc"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-units-of-pressure",
+            "title": "Units of pressure",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "physics-g10-s2-video-jnog1osxmuw-fcc28a9229"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-effect-of-atmospheric-pressure-on-boiling-point-of-water",
+            "title": "Effect of atmospheric pressure on boiling point of water",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "physics-g10-s2-video-aiwyntbdln8-d2d6aba027"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-change-in-atmospheric-pressure-with-altitude",
+            "title": "Change in atmospheric pressure with altitude",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "physics-g10-s2-video-s7xwao-fvva-4d8f697228"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-pressure-difference-and-force",
+            "title": "Pressure difference and force",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "physics-g10-s2-video-qnj-cbchr4q-f087437af9"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-archimedes-principle",
+            "title": "Archimedes Principle",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "physics-g10-s2-video-qgl-l0h7qgc-f0083a7222"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-pascal-principle",
+            "title": "pascal principle",
+            "description": "",
+            "order": 10,
+            "resources": [
+              "physics-g10-s2-video-mz6gch2nly0-0454d30ddf"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g10-s2-pdf-copy-of-g10-ph-08-pdf-73a69c5069",
+          "physics-g10-s2-pdf-is-phys-lo-8-pptx-b48b3f7e8a",
+          "physics-g10-s2-pdf-lo8-session-01-pdf-6768d5dcf2",
+          "physics-g10-s2-pdf-lo8-session-02-pdf-88e42add16",
+          "physics-g10-s2-pdf-lo8-session-03-archimedes-principle-pdf-74e5c14354",
+          "physics-g10-s2-pdf-ph-1-8-meo-pdf-ef6dfd3a54",
+          "physics-g10-s2-video-u6enks0wism-88a85591be"
+        ]
+      },
+      {
+        "id": "physics-g10-s2-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Fluid Dynamics",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "physics-g10-s2-concept-general-properties-of-fluids",
+            "title": "General properties of fluids",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "physics-g10-s2-video-zqlicugjwze-3bab215fcf"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-continuity-equation",
+            "title": "Continuity equation",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "physics-g10-s2-video-dxx6xledcaw-92192ea65e"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-laminar-vs-turbulent-flow",
+            "title": "Laminar vs Turbulent flow",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "physics-g10-s2-video-9a-uug0wr0w-5ed7dcc422"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-pascal-s-principle",
+            "title": "Pascal's principle",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "physics-g10-s2-video-izydp-vmrie-32416d5db3"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-p-dv-work",
+            "title": "p dV = Work",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "physics-g10-s2-video-btyqj39zbms-9c4aba8096"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-work-energy-theorem",
+            "title": "Work-energy theorem",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "physics-g10-s2-video-zvrh9d5pw8g-ce9d5d7b58",
+              "physics-g10-s2-video-gstw7mlaoas-6aaee358a0"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-conservation-of-energy-in-fluids",
+            "title": "Conservation of energy in fluids",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "physics-g10-s2-video-vanrfcuqupe-9da2273b34"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-bernoulli-equation",
+            "title": "Bernoulli equation",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "physics-g10-s2-video-dw4ritb20h4-be3521a88d"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-viscosity",
+            "title": "Viscosity",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "physics-g10-s2-video-pog14wrrqmm-7da48a1cc1"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g10-s2-pdf-copy-of-g10-ph-09-pdf-d2c1c29747",
+          "physics-g10-s2-pdf-lo-9-phy-is-pptx-a9c622cae9",
+          "physics-g10-s2-pdf-lo9-session-06-bernoulli-s-principle-pdf-95bb8a6e54",
+          "physics-g10-s2-pdf-ph-1-9-meo-pdf-f79685a919",
+          "physics-g10-s2-video-la4fmqh-gjm-40377d913f",
+          "physics-g10-s2-video-7nbrz5k54u-7830ce646b"
+        ]
+      },
+      {
+        "id": "physics-g10-s2-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Thermodynamics",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "physics-g10-s2-concept-temperature",
+            "title": "Temperature",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "physics-g10-s2-video-ll54e5czq-a-0c0fe0842f"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-thermal-energy",
+            "title": "Thermal energy",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "physics-g10-s2-video-7gl-ykf6y4-62542d513f"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-heat",
+            "title": "Heat",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "physics-g10-s2-video-5azwrtkqna-b31700774e"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-conduction-convection-radiation",
+            "title": "Conduction, Convection, Radiation",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "physics-g10-s2-video-brzwzy0xvhm-111c2aa4ae"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-measuring-temperature",
+            "title": "Measuring Temperature",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "physics-g10-s2-video-tishpqstcew-4508db6f47",
+              "physics-g10-s2-video-fqewzs-9dmg-4b29db37f9"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-temperature-scale",
+            "title": "Temperature scale",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "physics-g10-s2-video-4cm0ollahkm-a4a88c698b"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-heat-capacity",
+            "title": "Heat capacity",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "physics-g10-s2-video-qlusunm1eha-cd0000001b"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-specific-heat-capacity",
+            "title": "Specific heat capacity",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "physics-g10-s2-video-gnelfj6iajw-f2cb91da88",
+              "physics-g10-s2-video-iohxmaiwt80-a25003c2d9"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-blackbody-radiation",
+            "title": "Blackbody radiation",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "physics-g10-s2-video-7bxvc9w97iu-d9ebdd56d4"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-solar-heat-collector",
+            "title": "Solar heat collector",
+            "description": "",
+            "order": 10,
+            "resources": [
+              "physics-g10-s2-video-rg1x4jjmsl4-0ad47151fb"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-natural-sources-of-heat-sun-geothermal",
+            "title": "Natural sources of heat: sun, geothermal",
+            "description": "",
+            "order": 11,
+            "resources": [
+              "physics-g10-s2-video-4plmyodwgr4-7ad016b10b",
+              "physics-g10-s2-video-j7q653ffqo4-216f78285d",
+              "physics-g10-s2-video-fgjfjgfusde-f1cbc219a1"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-latent-heat",
+            "title": "Latent heat",
+            "description": "",
+            "order": 12,
+            "resources": [
+              "physics-g10-s2-video-qtsnlsqjtcy-79847ab113"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g10-s2-pdf-copy-of-g10-ph-10-pdf-15509d46c1",
+          "physics-g10-s2-pdf-lo-10-is-phy-pptx-ae498f5b78",
+          "physics-g10-s2-pdf-lo10-session-08-thermodynamics-pdf-590fba44f9",
+          "physics-g10-s2-pdf-lo10-session-09-thermodynamics-pdf-d4ca67f31a",
+          "physics-g10-s2-pdf-ph-1-10-meo-pdf-a76a3a92f1",
+          "physics-g10-s2-video-kn-wziaca0k-a738e2a250"
+        ]
+      },
+      {
+        "id": "physics-g10-s2-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "Energy",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "physics-g10-s2-concept-conservation-of-thermal-energy",
+            "title": "Conservation of thermal energy",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "physics-g10-s2-video-acdxcckzubi-479c603277"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-energy-graphs",
+            "title": "Energy graphs",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "physics-g10-s2-video-3mjx0cfmpe8-addaf732e6"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-low-temperature-physics",
+            "title": "Low temperature physics",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "physics-g10-s2-video-zlk3m0fzebu-b77db99ab9",
+              "physics-g10-s2-video-bfd0ihjsgx8-a589bfa23e"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-thermodynamic-processes-isothermal-isovolumetric-isobaric-adiabatic",
+            "title": "Thermodynamic processes (isothermal – isovolumetric – isobaric – adiabatic)",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "physics-g10-s2-video-tndcxw0y6ym-f91fe51766"
+            ]
+          },
+          {
+            "id": "physics-g10-s2-concept-phase-changes",
+            "title": "Phase changes",
+            "description": "",
+            "order": 5,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "physics-g10-s2-pdf-copy-of-g10-ph-11-pdf-ca599d263a",
+          "physics-g10-s2-pdf-lo11-phy-pptx-2a3d8d851d",
+          "physics-g10-s2-pdf-lo11-session-11-thermodynamics-pdf-7c9c0a4bf8",
+          "physics-g10-s2-pdf-ph-1-11-meo-pdf-ad133a6f67",
+          "physics-g10-s2-video-0wforsy1-44-be446a3c6b"
+        ]
+      },
+      {
+        "id": "physics-g10-s2-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 5,
+        "concepts": [],
+        "resources": [
+          "physics-g10-s2-pdf-ph-1-rules-meo-pdf-74fbadd289",
+          "physics-g10-s2-pdf-physics-g10-s2-laws-summary-pdf-7023890848",
+          "physics-g10-s2-pdf-physics-book-pdf-1116717a5e",
+          "physics-g10-s2-pdf-250-top-fluid-mechanics-questions-and-answers-pdf-619cb6c7c4",
+          "physics-g10-s2-pdf-stem-gharbiya-ph-test-bank-pdf-87302bec46",
+          "physics-g10-s2-pdf-physics-mid-term-test-bank-meo-pdf-729094ed8a",
+          "physics-g10-s2-pdf-physics-exam-pdf-029d661935",
+          "physics-g10-s2-pdf-2-midterm-10-2014-20152-pdf-65bb4d4949",
+          "physics-g10-s2-pdf-ph-1-test-bank-meo-1-pdf-a45e4cdf5f",
+          "physics-g10-s2-pdf-physics-chess-revision-pdf-52a8d7d9b4",
+          "physics-g10-s2-pdf-2-term-exam-stem-g10-2015-2-new-pdf-04ff937695",
+          "physics-g10-s2-pdf-jpg2pdf-5-pdf-64275bfa03",
+          "physics-g10-s2-pdf-fluids-testbank-pdf-0f1b39597d"
+        ]
+      },
+      {
+        "id": "physics-g10-s2-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 6,
+        "concepts": [],
+        "resources": [
+          "physics-g10-s2-video-larb-6xq7i-581bb71b62",
+          "physics-g10-s2-video-64a457s0odm-f90c2eed4e"
+        ]
+      },
+      {
+        "id": "physics-g10-s2-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 7,
+        "concepts": [],
+        "resources": [
+          "physics-g10-s2-pdf-serway-vuille-college-physics-pdf-2b5fb1fd48",
+          "physics-g10-s2-pdf-halliday-resnick-walker-fundamentals-of-physics-10th-edition-pdf-aa64fb8750",
+          "physics-g10-s2-pdf-book-giancoli-physics-7th-edition-pdf-432d06d786",
+          "physics-g10-s2-pdf-8-01-physics-for-scientists-and-engineers-with-modern-physics-serway-jewett-pdf-91acc783aa",
+          "physics-g10-s2-pdf-physics-book-pdf-1116717a5e"
+        ]
+      }
+    ],
+    "units": 4
+  },
+  "resources": [
+    {
+      "id": "physics-g10-s2-video-xjktf4ah-uq-4bfd41f468",
+      "title": "Fluids",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/XjKTF4ah-UQ?si=B4HjTghKTOgifjxH",
+      "youtubeId": "XjKTF4ah-UQ",
+      "source": {
+        "location": "LO8 → Fluids"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-kkq8ruv8-jw-1876a61784",
+      "title": "Pressure",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/kkq8ruV8_Jw?si=7OldLBP-nVvtny8X",
+      "youtubeId": "kkq8ruV8_Jw",
+      "source": {
+        "location": "LO8 → Pressure"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-yi4rrz3zm7g-07e4fcc7e7",
+      "title": "Manometer",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/YI4RRZ3ZM7g?si=ljKFqN-fGRotRuRf",
+      "youtubeId": "YI4RRZ3ZM7g",
+      "source": {
+        "location": "LO8 → Manometer"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-lki0jyajwoa-afdebdd3dc",
+      "title": "Pressure gauge",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LkI0jyaJwoA?si=KziVCBrOfbcZ4jNH",
+      "youtubeId": "LkI0jyaJwoA",
+      "source": {
+        "location": "LO8 → Pressure gauge"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-jnog1osxmuw-fcc28a9229",
+      "title": "Units of pressure",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/JNOg1OsxMUw?si=XcMIhu4kPQGoNW_q",
+      "youtubeId": "JNOg1OsxMUw",
+      "source": {
+        "location": "LO8 → Units of pressure"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-aiwyntbdln8-d2d6aba027",
+      "title": "Effect of atmospheric pressure on boiling point of water",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/aiwynTBdln8?si=mEVh_QJyUJ5B9TSP",
+      "youtubeId": "aiwynTBdln8",
+      "source": {
+        "location": "LO8 → Effect of atmospheric pressure on boiling point of water"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-s7xwao-fvva-4d8f697228",
+      "title": "Change in atmospheric pressure with altitude",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/S7xWAO_FvVA?si=0XYTOtcbN_YUkshv",
+      "youtubeId": "S7xWAO_FvVA",
+      "source": {
+        "location": "LO8 → Change in atmospheric pressure with altitude"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-qnj-cbchr4q-f087437af9",
+      "title": "Pressure difference and force",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/qnJ-cbchr4Q?si=r1wUZbI9ZmfQWy7v",
+      "youtubeId": "qnJ-cbchr4Q",
+      "source": {
+        "location": "LO8 → Pressure difference and force"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-qgl-l0h7qgc-f0083a7222",
+      "title": "Archimedes Principle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Qgl_l0H7Qgc?si=JFcWZD_bfhITvR7g",
+      "youtubeId": "Qgl_l0H7Qgc",
+      "source": {
+        "location": "LO8 → Archimedes Principle"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-mz6gch2nly0-0454d30ddf",
+      "title": "pascal principle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/MZ6GCH2nLy0?si=FRmZ0mq9U3h7u9he",
+      "youtubeId": "MZ6GCH2nLy0",
+      "source": {
+        "location": "LO8 → pascal principle"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-copy-of-g10-ph-08-pdf-73a69c5069",
+      "title": "Copy of G10 PH.08.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1e7EJ9SGH2UXNgQlPzkbFggjatgohtytW/view?usp=drive_link",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-is-phys-lo-8-pptx-b48b3f7e8a",
+      "title": "IS phys lo.8 .pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1bxe0cCQX82PERgJQKi2BJpbUsYl4KLi-/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-lo8-session-01-pdf-6768d5dcf2",
+      "title": "LO8 Session 01.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1SxThEFO5Bw_MyeCeS2LeNPyhJHPwYvKD/view?usp=drive_link",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-lo8-session-02-pdf-88e42add16",
+      "title": "LO8 Session 02.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1bGJmm6DyCXJhjIZMGEC_OB0On27-S44i/view?usp=drive_link",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-lo8-session-03-archimedes-principle-pdf-74e5c14354",
+      "title": "LO8 Session 03 Archimedes Principle.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1mQispUqNXCJHXkHGYJKrKDA9dHnzhi_M/view?usp=drive_link",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-ph-1-8-meo-pdf-ef6dfd3a54",
+      "title": "PH.1.8(MEO).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1MuVIsplqKuEKH4tH23nzsZtjIEu94Cvo/view?usp=drive_link",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-u6enks0wism-88a85591be",
+      "title": "LO8 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/u6Enks0WIsM?si=ydcGPXjZooZ-Dxmv",
+      "youtubeId": "u6Enks0WIsM",
+      "source": {
+        "location": "LO8 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-zqlicugjwze-3bab215fcf",
+      "title": "General properties of fluids",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zqLicugjwZE?si=Pk9pW7oYu3Syowuj",
+      "youtubeId": "zqLicugjwZE",
+      "source": {
+        "location": "LO9 → General properties of fluids"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-dxx6xledcaw-92192ea65e",
+      "title": "Continuity equation",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/DxX6XLEdcAw?si=vn15-LPFvVM6H_JV",
+      "youtubeId": "DxX6XLEdcAw",
+      "source": {
+        "location": "LO9 → Continuity equation"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-9a-uug0wr0w-5ed7dcc422",
+      "title": "Laminar vs Turbulent flow",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/9A-uUG0WR0w?si=_G0Tifsca8H2Xdib",
+      "youtubeId": "9A-uUG0WR0w",
+      "source": {
+        "location": "LO9 → Laminar vs Turbulent flow"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-izydp-vmrie-32416d5db3",
+      "title": "Pascal's principle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/IzYDp-vmrIE?si=pKoD_GyVTZTMI7l3",
+      "youtubeId": "IzYDp-vmrIE",
+      "source": {
+        "location": "LO9 → Pascal's principle"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-btyqj39zbms-9c4aba8096",
+      "title": "p dV = Work",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/BTyQj39ZbMs?si=19YSyTbk6aFjRJow",
+      "youtubeId": "BTyQj39ZbMs",
+      "source": {
+        "location": "LO9 → p dV = Work"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-zvrh9d5pw8g-ce9d5d7b58",
+      "title": "Work-energy theorem",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zVRH9d5PW8g?si=5yXgwtIueevCet8C",
+      "youtubeId": "zVRH9d5PW8g",
+      "source": {
+        "location": "LO9 → Work-energy theorem"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-gstw7mlaoas-6aaee358a0",
+      "title": "Work-energy theorem",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/GSTW7Mlaoas?si=VbiVShcptG98QgrN",
+      "youtubeId": "GSTW7Mlaoas",
+      "source": {
+        "location": "LO9 → Work-energy theorem"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-vanrfcuqupe-9da2273b34",
+      "title": "Conservation of energy in fluids",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/VANRFCUQUPE?si=vzpMaCHgmMhmeQk-",
+      "youtubeId": "VANRFCUQUPE",
+      "source": {
+        "location": "LO9 → Conservation of energy in fluids"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-dw4ritb20h4-be3521a88d",
+      "title": "Bernoulli equation",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/DW4rItB20h4?si=slDpXaOGOn1qxlQN",
+      "youtubeId": "DW4rItB20h4",
+      "source": {
+        "location": "LO9 → Bernoulli equation"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-pog14wrrqmm-7da48a1cc1",
+      "title": "Viscosity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/PoG14wRRQmM?si=VJucGVvLT9RSCmlM",
+      "youtubeId": "PoG14wRRQmM",
+      "source": {
+        "location": "LO9 → Viscosity"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-copy-of-g10-ph-09-pdf-d2c1c29747",
+      "title": "Copy of G10 PH.09.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1aYzFcS5M74zi4GdUY_BVg_DrN20CABPb/view?usp=drive_link",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-lo-9-phy-is-pptx-a9c622cae9",
+      "title": "Lo.9 phy IS.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1eL41tx4iOMMC5Ic8Y1q0bDk2eD01262U/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-lo9-session-06-bernoulli-s-principle-pdf-95bb8a6e54",
+      "title": "LO9 Session 06 Bernoulli_s Principle.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1OHKROwIuLEQ1HPycx4H_NcWaFlZZm17q/view?usp=drive_link",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-ph-1-9-meo-pdf-f79685a919",
+      "title": "PH.1.9(MEO).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1APkyZXGUXOBLg_--Qry_3Z42KniWqF8b/view?usp=drive_link",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-la4fmqh-gjm-40377d913f",
+      "title": "LO9 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/la4fmQH_gjM?si=SfOiKY6gPTHPdROP",
+      "youtubeId": "la4fmQH_gjM",
+      "source": {
+        "location": "LO9 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-7nbrz5k54u-7830ce646b",
+      "title": "LO9 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/-7Nbrz5k54U?si=CWxH3prwZuISNXQa",
+      "youtubeId": "-7Nbrz5k54U",
+      "source": {
+        "location": "LO9 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-ll54e5czq-a-0c0fe0842f",
+      "title": "Temperature",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LL54E5CzQ-A?si=CrgthzXm4aCHYpZb",
+      "youtubeId": "LL54E5CzQ-A",
+      "source": {
+        "location": "LO10 → Temperature"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-7gl-ykf6y4-62542d513f",
+      "title": "Thermal energy",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/-7Gl-yKF6Y4?si=jIP-mAjSUvwWFDmD",
+      "youtubeId": "-7Gl-yKF6Y4",
+      "source": {
+        "location": "LO10 → Thermal energy"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-5azwrtkqna-b31700774e",
+      "title": "Heat",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/_5AZwrTkQNA?si=COzso65v2eSoMdoM",
+      "youtubeId": "_5AZwrTkQNA",
+      "source": {
+        "location": "LO10 → Heat"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-brzwzy0xvhm-111c2aa4ae",
+      "title": "Conduction, Convection, Radiation",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/bRZwzy0xvhM?si=UR7CfJ0K4i_5JSai",
+      "youtubeId": "bRZwzy0xvhM",
+      "source": {
+        "location": "LO10 → Conduction, Convection, Radiation"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-tishpqstcew-4508db6f47",
+      "title": "Measuring Temperature",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TIShPqStCEw?si=ExxytTrWEFjRhqtQ",
+      "youtubeId": "TIShPqStCEw",
+      "source": {
+        "location": "LO10 → Measuring Temperature"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-fqewzs-9dmg-4b29db37f9",
+      "title": "Measuring Temperature",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/fQeWzs_9dMg?si=HOUKOz3DRmxux08c",
+      "youtubeId": "fQeWzs_9dMg",
+      "source": {
+        "location": "LO10 → Measuring Temperature"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-4cm0ollahkm-a4a88c698b",
+      "title": "Temperature scale",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/4cM0ollAhKM?si=couulZtTa4jE8QvT",
+      "youtubeId": "4cM0ollAhKM",
+      "source": {
+        "location": "LO10 → Temperature scale"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-qlusunm1eha-cd0000001b",
+      "title": "Heat capacity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/QlusUNM1ehA?si=ZQJzvv1nIPo-3FTx",
+      "youtubeId": "QlusUNM1ehA",
+      "source": {
+        "location": "LO10 → Heat capacity"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-gnelfj6iajw-f2cb91da88",
+      "title": "Specific heat capacity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/GNelfJ6IAJw?si=gWWSak6ponQu9Qzv",
+      "youtubeId": "GNelfJ6IAJw",
+      "source": {
+        "location": "LO10 → Specific heat capacity"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-iohxmaiwt80-a25003c2d9",
+      "title": "Specific heat capacity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/IoHXMaiwT80?si=euoXK3WLTkGRa4sz",
+      "youtubeId": "IoHXMaiwT80",
+      "source": {
+        "location": "LO10 → Specific heat capacity"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-7bxvc9w97iu-d9ebdd56d4",
+      "title": "Blackbody radiation",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7BXvc9W97iU?si=ctsPIft0pnNlooaR",
+      "youtubeId": "7BXvc9W97iU",
+      "source": {
+        "location": "LO10 → Blackbody radiation"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-rg1x4jjmsl4-0ad47151fb",
+      "title": "Solar heat collector",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/rg1x4jJmSl4?si=oDRXIB6dP739f1A0",
+      "youtubeId": "rg1x4jJmSl4",
+      "source": {
+        "location": "LO10 → Solar heat collector"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-4plmyodwgr4-7ad016b10b",
+      "title": "Natural sources of heat: sun, geothermal",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/4PlMYoDwgR4?si=GG3NPF1FJ-em0Y-m",
+      "youtubeId": "4PlMYoDwgR4",
+      "source": {
+        "location": "LO10 → Natural sources of heat: sun, geothermal"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-j7q653ffqo4-216f78285d",
+      "title": "Natural sources of heat: sun, geothermal",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/j7q653ffQO4?si=mRujo1a2DeqIxz83",
+      "youtubeId": "j7q653ffQO4",
+      "source": {
+        "location": "LO10 → Natural sources of heat: sun, geothermal"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-fgjfjgfusde-f1cbc219a1",
+      "title": "Natural sources of heat: sun, geothermal",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/FgjfJGfusdE?si=200Dmm2dHc3k6XOX",
+      "youtubeId": "FgjfJGfusdE",
+      "source": {
+        "location": "LO10 → Natural sources of heat: sun, geothermal"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-qtsnlsqjtcy-79847ab113",
+      "title": "Latent heat",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/qtSNLsQJTcY?si=PYb3ZNl6JJYBu-KY",
+      "youtubeId": "qtSNLsQJTcY",
+      "source": {
+        "location": "LO10 → Latent heat"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-copy-of-g10-ph-10-pdf-15509d46c1",
+      "title": "Copy of G10 PH.10.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1y6UYZyq-zu5jLCEgiC1FKlzxmQo3QTnj/view?usp=drive_link",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-lo-10-is-phy-pptx-ae498f5b78",
+      "title": "LO.10 IS Phy.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1TQzpwq-qCPnzch3vLxY_BnZ-gu6XHDES/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-lo10-session-08-thermodynamics-pdf-590fba44f9",
+      "title": "LO10 Session 08 Thermodynamics.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/18IJhXP6aH8XN8c08mwaMgwhhguDl6xF6/view?usp=drive_link",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-lo10-session-09-thermodynamics-pdf-d4ca67f31a",
+      "title": "LO10 Session 09 Thermodynamics.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1oky4PdvI69-wvTzB_EPURHA-SW-SOMzX/view?usp=drive_link",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-ph-1-10-meo-pdf-a76a3a92f1",
+      "title": "PH.1.10(MEO).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Fnbi2SvkzsrqfGEog3f7nIANlmBw4PhD/view?usp=drive_link",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-kn-wziaca0k-a738e2a250",
+      "title": "LO10 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/kn_wzIaca0k?si=1_xcWDem4b6QM17l",
+      "youtubeId": "kn_wzIaca0k",
+      "source": {
+        "location": "LO10 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-acdxcckzubi-479c603277",
+      "title": "Conservation of thermal energy",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ACDxcCkzUBI?si=_aajFeBpzzv8eEaS",
+      "youtubeId": "ACDxcCkzUBI",
+      "source": {
+        "location": "LO11 → Conservation of thermal energy"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-3mjx0cfmpe8-addaf732e6",
+      "title": "Energy graphs",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/3Mjx0cFMpE8?si=-js0L1HWxDrCrGK1",
+      "youtubeId": "3Mjx0cFMpE8",
+      "source": {
+        "location": "LO11 → Energy graphs"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-zlk3m0fzebu-b77db99ab9",
+      "title": "Low temperature physics",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Zlk3m0FZebU?si=cGot2B8oFgxXPI2Q",
+      "youtubeId": "Zlk3m0FZebU",
+      "source": {
+        "location": "LO11 → Low temperature physics"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-bfd0ihjsgx8-a589bfa23e",
+      "title": "Low temperature physics",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/BfD0IhjSGx8?si=2HG08_4ZLTLXMO1Z",
+      "youtubeId": "BfD0IhjSGx8",
+      "source": {
+        "location": "LO11 → Low temperature physics"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-tndcxw0y6ym-f91fe51766",
+      "title": "Thermodynamic processes (isothermal – isovolumetric – isobaric – adiabatic)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TnDCxw0y6YM?si=NFsL605ok9IZ9pHZ",
+      "youtubeId": "TnDCxw0y6YM",
+      "source": {
+        "location": "LO11 → Thermodynamic processes (isothermal – isovolumetric – isobaric – adiabatic)"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-copy-of-g10-ph-11-pdf-ca599d263a",
+      "title": "Copy of G10 PH.11.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1x1Lw-Nkgp3sdMMSQIq-1B2Hl1lpN7UJR/view?usp=drive_link",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-lo11-phy-pptx-2a3d8d851d",
+      "title": "lo11 phy.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1OzyUeZRlxsVQDOoei5RucWYvLZif8R7y/edit?usp=drive_link&ouid=113613081342864765623&rtpof=true&sd=true",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-lo11-session-11-thermodynamics-pdf-7c9c0a4bf8",
+      "title": "LO11 Session 11 Thermodynamics.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1HqAJAv2Guu5KoBbHtU-bigdFPO9lRHVX/view?usp=drive_link",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-ph-1-11-meo-pdf-ad133a6f67",
+      "title": "PH.1.11(MEO).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/19P5R_9RF30ng4ZtdFEZq5Y2qsRUFN5B1/view?usp=drive_link",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-0wforsy1-44-be446a3c6b",
+      "title": "LO11 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/0wFOrSY1_44?si=UlVPZxAIxWwJtcSY",
+      "youtubeId": "0wFOrSY1_44",
+      "source": {
+        "location": "LO11 → Summary"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-ph-1-rules-meo-pdf-74fbadd289",
+      "title": "PH.1.RULES(MEO).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1B5B-cfuKiQWqKaclc9unaHCtwt23wJCa/view?usp=drive_link",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-physics-g10-s2-laws-summary-pdf-7023890848",
+      "title": "Physics G10 S2 laws summary.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1xhEEszCGCFIToWtJrZocbz5h_NmCRPK6/view?usp=drive_link",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-physics-book-pdf-1116717a5e",
+      "title": "Physics Book.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1tItFkFjA3XSJVxb81f54cxW37EOJjaUC/view",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-250-top-fluid-mechanics-questions-and-answers-pdf-619cb6c7c4",
+      "title": "250-top-fluid-mechanics-questions-and-answers.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/11UP2MeoptUa8rNhp8MCd3qVTfZtCNm4L/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-stem-gharbiya-ph-test-bank-pdf-87302bec46",
+      "title": "STEM Gharbiya PH Test Bank.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1sSUqKNdaALc-rV-Uhv6yUI-GryjjredZ/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-physics-mid-term-test-bank-meo-pdf-729094ed8a",
+      "title": "Physics Mid-term test bank (MEO).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1_kGTt_BNy26qMP5lfgVt-emcHY_tM6St/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-physics-exam-pdf-029d661935",
+      "title": "Physics Exam.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1xSiZsPHpNfulgXgkMrwqiBd_FzijPuoo/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-2-midterm-10-2014-20152-pdf-65bb4d4949",
+      "title": "2 midterm 10 2014 - 20152.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/11P5nsVdsn0HvMBfbPiT1-H41g2SSdsx8/view?usp=drive_link",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-ph-1-test-bank-meo-1-pdf-a45e4cdf5f",
+      "title": "PH.1 Test Bank (MEO) (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1QKrfa8pdh66Zn4z28SI7uDfcMCFcjGAT/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-physics-chess-revision-pdf-52a8d7d9b4",
+      "title": "Physics Chess Revision .pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/157HHoTN3YHIf8S6E5lDdyTheFGozVdzW/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-2-term-exam-stem-g10-2015-2-new-pdf-04ff937695",
+      "title": "2 term exam STEM g10 2015-2 - NEW.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ElNihFAh1VVBD6s0ieFBatG6aM0Xrkhw/view?usp=drive_link",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-jpg2pdf-5-pdf-64275bfa03",
+      "title": "jpg2pdf (5).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1K2Kh2TXDfUK-NcQQoW2XU3nJMQiXrZrH/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-fluids-testbank-pdf-0f1b39597d",
+      "title": "Fluids -TestBank.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1NV_oROdc0xoBH8syz6ZLPuUGrdV5rcwm/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-larb-6xq7i-581bb71b62",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/larb_-6xQ7I?si=h454O7FVYzfTBIwu",
+      "youtubeId": "larb_-6xQ7I",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "physics-g10-s2-video-64a457s0odm-f90c2eed4e",
+      "title": "final Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/64a457s0OdM?si=oBgDmUEVZn_8VOvt",
+      "youtubeId": "64a457s0OdM",
+      "source": {
+        "location": "Revision → final"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-serway-vuille-college-physics-pdf-2b5fb1fd48",
+      "title": "Serway Vuille College Physics.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1FyINU6ToPmQcvDL_He8PzxUCmA-3wjy-/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-halliday-resnick-walker-fundamentals-of-physics-10th-edition-pdf-aa64fb8750",
+      "title": "Halliday-Resnick-Walker - Fundamentals of Physics - 10th Edition.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1SdV8Tw576P7DUwlGrkFeo_DCt5f4l_Dl/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-book-giancoli-physics-7th-edition-pdf-432d06d786",
+      "title": "book Giancoli_Physics_7th_edition.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1SB7-qKbciavCN4G2IpvtJImT9hXnMK2H/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "physics-g10-s2-pdf-8-01-physics-for-scientists-and-engineers-with-modern-physics-serway-jewett-pdf-91acc783aa",
+      "title": "8.01-Physics for Scientists and Engineers with Modern Physics-Serway,Jewett.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1DOISN80QB0dWorRWkG3_KGD7pt6ZCSMY/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}

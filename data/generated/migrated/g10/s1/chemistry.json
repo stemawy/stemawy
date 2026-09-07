@@ -1,0 +1,2809 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T18:37:48.801Z",
+  "source": {
+    "file": "migration/raw/g10/s1/chemistry.json"
+  },
+  "subject": {
+    "id": "chemistry-g10-s1",
+    "name": "Chemistry",
+    "description": "Chemistry resources for Grade 10, Semester 1.",
+    "grade": "10",
+    "semester": "1",
+    "icon": "chemistry",
+    "content": [
+      {
+        "id": "chemistry-g10-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Fundamentals of Science",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s1-concept-lo-summerized",
+            "title": "LO summerized",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s1-video-rhut0bnxzsk-4338d57970"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-science",
+            "title": "Science.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s1-video-qjfp7ywz3a0-3626093146"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-scientific-methods",
+            "title": "Scientific methods.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s1-video-yi0hwfdqtsq-7fe64cc4ac",
+              "chemistry-g10-s1-video-n6iazlugww0-7cb1305c09"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-scientific-law",
+            "title": "Scientific law.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "chemistry-g10-s1-video-gyn2rhbhieu-6d435011ac",
+              "chemistry-g10-s1-video-p30qlwssuic-df25e121db"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-scientific-theory",
+            "title": "Scientific theory.",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "chemistry-g10-s1-video-gyn2rhbhieu-9ca7bf7c4a",
+              "chemistry-g10-s1-video-p30qlwssuic-df25e121db"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-relations-between-variables",
+            "title": "Relations between variables.",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s1-video-f9f7xfh-vtq-36888cfbd7",
+              "chemistry-g10-s1-video-afp3jhpns3g-71ffa59f28"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-uncertainty",
+            "title": "Uncertainty.",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "chemistry-g10-s1-video-ibrztvohbhy-82c9bb2779",
+              "chemistry-g10-s1-video-ibrztvohbhy-58556c249f"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-si-units",
+            "title": "SI units.",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "chemistry-g10-s1-video-8rzrypoerpw-28feffcee5",
+              "chemistry-g10-s1-video-8rzrypoerpw-919169cdc9"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-instrumentation-precision-accuracy-significant-figures",
+            "title": "Instrumentation (precision, accuracy, significant figures).",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "chemistry-g10-s1-video-eehtk5uyemm-30f7d32bcf",
+              "chemistry-g10-s1-video-b38hfwvejwi-0a14793d18",
+              "chemistry-g10-s1-video-0iihpkavo7g-253da11dbd"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-types-of-variables",
+            "title": "Types of variables.",
+            "description": "",
+            "order": 10,
+            "resources": [
+              "chemistry-g10-s1-video-r16p4q7voi4-8e3e46d06f",
+              "chemistry-g10-s1-video-j9kcgwaub0y-7b6063fa3a"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-density",
+            "title": "Density.",
+            "description": "",
+            "order": 11,
+            "resources": [
+              "chemistry-g10-s1-video-lixut4p0drg-058c6ff548",
+              "chemistry-g10-s1-video-9ckdqe35qxq-73b4512ffd"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-specific-gravity",
+            "title": "Specific gravity.",
+            "description": "",
+            "order": 12,
+            "resources": [
+              "chemistry-g10-s1-video-zdb7z-lsygs-c239170db8",
+              "chemistry-g10-s1-video-zdb7z-lsygs-e9dc8a0550"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s1-pdf-chapter-2-atoms-molecules-and-ions-docx-c1b38e28ad",
+          "chemistry-g10-s1-pdf-chemistry-l-o-1-ssc-pdf-3ea5c951cb",
+          "chemistry-g10-s1-pdf-chemistry-lo1-pptx-04d6ed75e1"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Atomic Structure",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s1-concept-lo-summerized",
+            "title": "LO summerized",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s1-video-l717yghpnio-2dec43d2d2"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-atoms",
+            "title": "Atoms.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s1-video-acdkmeekcnq-3edb7fa604",
+              "chemistry-g10-s1-video-acdkmeekcnq-4234d977f7"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-atomic-structure",
+            "title": "Atomic Structure.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s1-video-oh-asu-rwgk-49c1e57ca0",
+              "chemistry-g10-s1-video-oh-asu-rwgk-7f9d82762b"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-isotopes",
+            "title": "Isotopes.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "chemistry-g10-s1-video-bagegezbtos-a635f34795",
+              "chemistry-g10-s1-video-bagegezbtos-e81fc424e5"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-isobar",
+            "title": "Isobar.",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "chemistry-g10-s1-video-9xwmj-ai-6o-c15ffbab65",
+              "chemistry-g10-s1-video-9xwmj-ai-6o-21ab109b55"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-isotones",
+            "title": "Isotones.",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s1-video-7gpakfpqvm0-bb3e9d6d31",
+              "chemistry-g10-s1-video-zaktos-dzkg-bcb09a74f8"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-alpha",
+            "title": "Alpha.",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "chemistry-g10-s1-video-cprff-ecgt8-4f7f51be07",
+              "chemistry-g10-s1-video-cprff-ecgt8-475cb72c50"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-beta",
+            "title": "Beta.",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "chemistry-g10-s1-video-cprff-ecgt8-4f7f51be07",
+              "chemistry-g10-s1-video-dvhqzq-k7k8-04f353c5e6"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-gamma",
+            "title": "Gamma.",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "chemistry-g10-s1-video-cprff-ecgt8-4f7f51be07",
+              "chemistry-g10-s1-video-vexpmijpaze-695e179e41"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s1-pdf-4-5810146429913534102-pdf-7f7e336a09",
+          "chemistry-g10-s1-pdf-chemistry-l-o-2-pdf-c34b0d7c0c",
+          "chemistry-g10-s1-pdf-chemistry-l-o-2-ssc-pdf-de547c358a",
+          "chemistry-g10-s1-pdf-chemistry-lo2-pptx-5296aa0bbd"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Electronic Structure and Spectra",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s1-concept-lo-summerized",
+            "title": "LO summerized",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s1-video-h3k-yvd5gsk-ee52fba133"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-electron-configuration",
+            "title": "Electron configuration.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s1-video-niwcdnfjj98-4c10609172",
+              "chemistry-g10-s1-video-niwcdnfjj98-9a12442300"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-valence-numbers",
+            "title": "Valence numbers.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s1-video-fpk2zib9ix0-4b8df04327",
+              "chemistry-g10-s1-video-fpk2zib9ix0-c53d93e3c8"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-quantum-numbers",
+            "title": "Quantum numbers",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "chemistry-g10-s1-video-erin9cpdrpo-3ff5e6f6bd",
+              "chemistry-g10-s1-video-erin9cpdrpo-cd8decec73"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-electromagnetic-spectrum",
+            "title": "Electromagnetic spectrum.",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "chemistry-g10-s1-video-kwqitt-kdfe-e1e2cff68f",
+              "chemistry-g10-s1-video-kwqitt-kdfe-e818067398"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-frequency",
+            "title": "Frequency.",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s1-video-lgymxh1lcdo-e4adec643f",
+              "chemistry-g10-s1-video-lgymxh1lcdo-5276baae1a"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-wavelength",
+            "title": "Wavelength.",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "chemistry-g10-s1-video-lgymxh1lcdo-e4adec643f",
+              "chemistry-g10-s1-video-lgymxh1lcdo-2451ba4343"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-photon-absorption",
+            "title": "Photon Absorption.",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "chemistry-g10-s1-video-1upyq63arvg-453c1e0cd7",
+              "chemistry-g10-s1-video-vv2tnoie9h8-fd95fb8687"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-emission",
+            "title": "Emission.",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "chemistry-g10-s1-video-1upyq63arvg-453c1e0cd7",
+              "chemistry-g10-s1-video-1upyq63arvg-cafb7bc46d"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-energy-frequency-and-wavelength-relations",
+            "title": "Energy, frequency and wavelength relations.",
+            "description": "",
+            "order": 10,
+            "resources": [
+              "chemistry-g10-s1-video-lgymxh1lcdo-64f49e4f62",
+              "chemistry-g10-s1-video-tbatbesqycc-fe2a3280c3"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-photoelectric-phenomenon",
+            "title": "Photoelectric phenomenon.",
+            "description": "",
+            "order": 11,
+            "resources": [
+              "chemistry-g10-s1-video-mfpkwu5vugg-da5c23991a",
+              "chemistry-g10-s1-video-mfpkwu5vugg-27b78b884f"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-flame-test",
+            "title": ". Flame test.",
+            "description": "",
+            "order": 12,
+            "resources": [
+              "chemistry-g10-s1-video-tmz-xr3o5mg-5fb9cfae72",
+              "chemistry-g10-s1-video-6rbbbzpl9ow-9ff84b209d"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-excited-state",
+            "title": "Excited state.",
+            "description": "",
+            "order": 13,
+            "resources": [
+              "chemistry-g10-s1-video-pr2pnillg6a-84ba7d3eb9",
+              "chemistry-g10-s1-video-e2ulvqr69yi-a6c3dc5a0a"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s1-pdf-chemistry-l-o-3-ssc-pdf-c855c5b105",
+          "chemistry-g10-s1-pdf-chemistry-lo-3-pptx-32571314da"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "Periodic Table & Periodicity",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s1-concept-lo-summerized",
+            "title": "LO summerized",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s1-video-sttljayta1w-c4db2043f6"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-structure-of-the-periodic-table",
+            "title": "Structure of the periodic table.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s1-video-hepb00cqvp0-56813c726e",
+              "chemistry-g10-s1-video-hepb00cqvp0-8387f282ee"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-trends-and-periodicity",
+            "title": "Trends and Periodicity.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s1-video-7cetohlzq2a-1d140a5840",
+              "chemistry-g10-s1-video-gy9hr65dpyq-a93b12bc8d"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-atomic-radius",
+            "title": "Atomic Radius.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "chemistry-g10-s1-video-hepb00cqvp0-c58f72bddc",
+              "chemistry-g10-s1-video-4url0pjbcuu-0e30f4c197"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-atomic-radius",
+            "title": "Atomic Radius.",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "chemistry-g10-s1-video-hepb00cqvp0-c58f72bddc",
+              "chemistry-g10-s1-video-4url0pjbcuu-0e30f4c197"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-electronegativity",
+            "title": "Electronegativity.",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s1-video-c9n2-gkvsaw-df0713b661",
+              "chemistry-g10-s1-video-c9n2-gkvsaw-a4303866c5"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-electron-affinity",
+            "title": "Electron Affinity",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "chemistry-g10-s1-video-khlija77wqe-c63261f1eb",
+              "chemistry-g10-s1-video-khlija77wqe-fb28e3014d"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-metal-nonmetal-and-metalloid",
+            "title": ". Metal, nonmetal and metalloid",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "chemistry-g10-s1-video-26faogpnfio-0cd53aefdb",
+              "chemistry-g10-s1-video-26faogpnfio-b18599cd6b"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s1-pdf-chemistry-l-o-4-ssc-pdf-e3fc0f5e07",
+          "chemistry-g10-s1-pdf-chemistry-lo4-pptx-4cad383a34"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s1-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "Chemical Bonding & Organic Basics",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s1-concept-lo-summerized",
+            "title": "LO summerized",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s1-video-961zmt281gw-f82207549c",
+              "chemistry-g10-s1-video-dcnymrmd0kw-b3aa4437d8"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-chemical-bond",
+            "title": "Chemical bond.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s1-video-poqjsnqmxok-e7fbcc85d3",
+              "chemistry-g10-s1-video-poqjsnqmxok-2dee5aa692"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-ionic-and-covalent-bond",
+            "title": "Ionic and Covalent bond",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s1-video-s-k0kr2ezsq-17dd546461",
+              "chemistry-g10-s1-video-s-k0kr2ezsq-02244f658a"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-electron-dot-diagram",
+            "title": "Electron dot diagram",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "chemistry-g10-s1-video-sk7w2vgbhog-dca94e312c",
+              "chemistry-g10-s1-video-nfztjset3xe-3ff5e1f71f"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-nomenclature-of-alkanes-iupac-common-name",
+            "title": "Nomenclature of alkanes (IUPAC common name).",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "chemistry-g10-s1-video-tyu-jluleme-44937ba37b",
+              "chemistry-g10-s1-video-tyu-jluleme-00a0aa79a8"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-isomers-of-alkanes",
+            "title": "Isomers of alkanes.",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s1-video-tj7mxcwkrte-c0dbb05eb0",
+              "chemistry-g10-s1-video-z8m4ecippyi-45cf603ea7"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-cis-and-trans",
+            "title": "Cis and Trans.",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "chemistry-g10-s1-video-m8z8ouxfxia-8e1520607e",
+              "chemistry-g10-s1-video-m8z8ouxfxia-caa2c0878b"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-structure-isomers-and-chains",
+            "title": "Structure Isomers and Chains.",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "chemistry-g10-s1-video-48rsf1pohfa-b3b41d095b",
+              "chemistry-g10-s1-video-jjtzmqddyum-fedf957c41"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s1-pdf-ch-1-05-part-1-pptx-9c99fd5835",
+          "chemistry-g10-s1-pdf-ch-1-05-part-3-isomersm-pptx-44ae83afac",
+          "chemistry-g10-s1-pdf-chemistry-l-o-5-ssc-pdf-feb3f39550"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s1-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "Nuclear Chemistry & Radioactivity",
+        "description": "",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s1-concept-lo-summerized",
+            "title": "LO summerized",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s1-video-zsotts5o-ak-fe30e008d5"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-radioactive",
+            "title": "Radioactive.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s1-video-p-sd5rt6xmk-42a01b8f31",
+              "chemistry-g10-s1-video-cprff-ecgt8-86b72a856c"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-unstable-atoms",
+            "title": "Unstable Atoms.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s1-video-1hsra-vbh-m-f7b245b739",
+              "chemistry-g10-s1-video-utzw9jfixxm-cbd5f4ae08"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-fusion-reaction",
+            "title": "Fusion reaction.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "chemistry-g10-s1-video-b9qxaflpz9u-d78bc9600c",
+              "chemistry-g10-s1-video-b9qxaflpz9u-dd3516b49d"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-fusion-reaction",
+            "title": "Fusion reaction.",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "chemistry-g10-s1-video-b9qxaflpz9u-d78bc9600c",
+              "chemistry-g10-s1-video-b9qxaflpz9u-dd3516b49d"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-half-life",
+            "title": ". Half-life.",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s1-video-wtqvfvoof3g-d98ad9e6be",
+              "chemistry-g10-s1-video-wtqvfvoof3g-fcaa73aaf7"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-nuclear-forces",
+            "title": "Nuclear forces",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "chemistry-g10-s1-video-c3nge8z3-lo-5bea446191",
+              "chemistry-g10-s1-video-c3nge8z3-lo-0e0a98aa3d"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s1-pdf-chemistry-lo6-pptx-40077ab63f",
+          "chemistry-g10-s1-pdf-chemistry-l-o-6-7-pdf-e527ae0f12"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s1-unit-07",
+        "type": "unit",
+        "number": "07",
+        "title": "Chemical Reactions & Phase Changes",
+        "description": "",
+        "order": 7,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s1-concept-lo-summerized",
+            "title": "LO summerized",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s1-video-ymyfy3nfwgk-6e35bfa63b"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-element",
+            "title": "Element.",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s1-video-kwa-ztldnhw-6ff8583a5f",
+              "chemistry-g10-s1-video-kwa-ztldnhw-d72cf8e4d0"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-compound",
+            "title": ". Compound.",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s1-video-dgghwvfj8xs-61f21c906a",
+              "chemistry-g10-s1-video-dgghwvfj8xs-94de6c2b93"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-electrolysis",
+            "title": "Electrolysis.",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "chemistry-g10-s1-video-7uiiq-ofzgw-c743da63c8",
+              "chemistry-g10-s1-video-7uiiq-ofzgw-68d01aec50"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-chemical-formula",
+            "title": "Chemical formula.",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "chemistry-g10-s1-video-gj4mds0cwle-56c94fd879",
+              "chemistry-g10-s1-video-gj4mds0cwle-86cc1e1171"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-chemical-equation",
+            "title": "Chemical equation.",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s1-video-e-c-v5vjv80-77c7a052ac",
+              "chemistry-g10-s1-video-e-c-v5vjv80-e99e77e85c"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-law-of-conservation-of-mass",
+            "title": "Law of Conservation of Mass.",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "chemistry-g10-s1-video-ebtnzsclug4-28e6165d3d",
+              "chemistry-g10-s1-video-ebtnzsclug4-eef24234d0"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-temperature",
+            "title": "Temperature.",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "chemistry-g10-s1-video-brzwzy0xvhm-ee6a6d9cde",
+              "chemistry-g10-s1-video-ll54e5czq-a-041c47b471"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-kinetic-energy",
+            "title": "Kinetic energy.",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "chemistry-g10-s1-video-g7u6pifuvy4-049cc8f19e",
+              "chemistry-g10-s1-video-g7u6pifuvy4-5b29a8fdf4"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-vaporization",
+            "title": "Vaporization.",
+            "description": "",
+            "order": 10,
+            "resources": [
+              "chemistry-g10-s1-video-oc0ypedelb0-1ade578b6b",
+              "chemistry-g10-s1-video-g8r5sesf5h4-8a40cb8e13"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-sublimation",
+            "title": "Sublimation.",
+            "description": "",
+            "order": 11,
+            "resources": [
+              "chemistry-g10-s1-video-29x7varv2ni-2dd29abbea",
+              "chemistry-g10-s1-video-29x7varv2ni-dadbadf583"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s1-concept-heating-curve-of-water",
+            "title": "Heating Curve of Water.",
+            "description": "",
+            "order": 12,
+            "resources": [
+              "chemistry-g10-s1-video-ys2rhrirc88-1d4879cbdf",
+              "chemistry-g10-s1-video-ys2rhrirc88-e7eb9024a0"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s1-pdf-chemistry-l-o-6-7-lo7-pdf-0507c2f5b9",
+          "chemistry-g10-s1-pdf-chemistry-lo7-pptx-be60fb88b9"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s1-unit-08",
+        "type": "unit",
+        "number": "08",
+        "title": "Additional References",
+        "description": "",
+        "order": 8,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "chemistry-g10-s1-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 9,
+        "concepts": [],
+        "resources": [
+          "chemistry-g10-s1-pdf-c10-rtf-65a900ba1a",
+          "chemistry-g10-s1-pdf-c11-rtf-571079a554",
+          "chemistry-g10-s1-pdf-c12-rtf-de5a536782",
+          "chemistry-g10-s1-pdf-c13-rtf-bbcf28b688",
+          "chemistry-g10-s1-pdf-c14-rtf-806f1e69eb",
+          "chemistry-g10-s1-pdf-c15-rtf-01b1b3406a",
+          "chemistry-g10-s1-pdf-c16-rtf-72e4662115",
+          "chemistry-g10-s1-pdf-c17-rtf-d6d046f760",
+          "chemistry-g10-s1-pdf-c18-rtf-514337ba68",
+          "chemistry-g10-s1-pdf-c19-rtf-51454917b7",
+          "chemistry-g10-s1-pdf-c2-rtf-200aa078ce",
+          "chemistry-g10-s1-pdf-c20-rtf-c4767cc135",
+          "chemistry-g10-s1-pdf-c21-rtf-ec8c06013c",
+          "chemistry-g10-s1-pdf-c22-rtf-01b14f4fcc",
+          "chemistry-g10-s1-pdf-c3-rtf-65e80cc0ae",
+          "chemistry-g10-s1-pdf-c4-rtf-2629952176",
+          "chemistry-g10-s1-pdf-c5-rtf-8eaca6b083",
+          "chemistry-g10-s1-pdf-c6-rtf-c0e153aab5",
+          "chemistry-g10-s1-pdf-c7-rtf-fc8664d45d",
+          "chemistry-g10-s1-pdf-c8-rtf-51f7416706",
+          "chemistry-g10-s1-pdf-c9-rtf-52cec83ef5",
+          "chemistry-g10-s1-pdf-chapter-1-l-o-1-rtf-7138a52c1e",
+          "chemistry-g10-s1-pdf-l-o-5-questions-with-answers-1-pdf-7a5ef1ec1f",
+          "chemistry-g10-s1-pdf-zumdahl-chemistry-9th-edition-test-bank-pdf-0a2592f4e3"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s1-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 10,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "chemistry-g10-s1-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 11,
+        "concepts": [],
+        "resources": []
+      }
+    ],
+    "units": 8
+  },
+  "resources": [
+    {
+      "id": "chemistry-g10-s1-video-rhut0bnxzsk-4338d57970",
+      "title": "LO summerized",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/rHUt0bNXzsk?si=nMfIJEf1H5MK5Me1",
+      "youtubeId": "rHUt0bNXzsk",
+      "source": {
+        "location": "LO1 → LO summerized"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-qjfp7ywz3a0-3626093146",
+      "title": "Science.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/QjFP7ywz3A0?si=IbxVHRyPZFETFI_J",
+      "youtubeId": "QjFP7ywz3A0",
+      "source": {
+        "location": "LO1 → Science."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-yi0hwfdqtsq-7fe64cc4ac",
+      "title": "Scientific methods.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/yi0hwFDQTSQ?si=v4WsPKCujeLeZqd3",
+      "youtubeId": "yi0hwFDQTSQ",
+      "source": {
+        "location": "LO1 → Scientific methods."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-n6iazlugww0-7cb1305c09",
+      "title": "Scientific methods.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/N6IAzlugWw0?si=JgtfWagOp30f0cmG",
+      "youtubeId": "N6IAzlugWw0",
+      "source": {
+        "location": "LO1 → Scientific methods."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-gyn2rhbhieu-6d435011ac",
+      "title": "Scientific law.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/GyN2RhbhiEU?si=GJZq2FbsYPO3VwM9",
+      "youtubeId": "GyN2RhbhiEU",
+      "source": {
+        "location": "LO1 → Scientific law."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-p30qlwssuic-df25e121db",
+      "title": "Scientific law.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/P30QlwSsUic?si=HHfi0afAirtdoASo",
+      "youtubeId": "P30QlwSsUic",
+      "source": {
+        "location": "LO1 → Scientific law."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-gyn2rhbhieu-9ca7bf7c4a",
+      "title": "Scientific theory.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/GyN2RhbhiEU?si=IJYgQzymjcPCgSfL",
+      "youtubeId": "GyN2RhbhiEU",
+      "source": {
+        "location": "LO1 → Scientific theory."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-f9f7xfh-vtq-36888cfbd7",
+      "title": "Relations between variables.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/F9F7Xfh-VTQ?si=1h2TxAGCZszbvyJn",
+      "youtubeId": "F9F7Xfh-VTQ",
+      "source": {
+        "location": "LO1 → Relations between variables."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-afp3jhpns3g-71ffa59f28",
+      "title": "Relations between variables.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/afp3jhPNS3g?si=CMfKHGvtK8fxGw7X",
+      "youtubeId": "afp3jhPNS3g",
+      "source": {
+        "location": "LO1 → Relations between variables."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-ibrztvohbhy-82c9bb2779",
+      "title": "Uncertainty.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/IBRzTvoHbHY?si=YloSpFu5Wtovabb0",
+      "youtubeId": "IBRzTvoHbHY",
+      "source": {
+        "location": "LO1 → Uncertainty."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-ibrztvohbhy-58556c249f",
+      "title": "Uncertainty.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/IBRzTvoHbHY?si=g6SWN8c9maNrOaEu",
+      "youtubeId": "IBRzTvoHbHY",
+      "source": {
+        "location": "LO1 → Uncertainty."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-8rzrypoerpw-28feffcee5",
+      "title": "SI units.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8rZRYPoerPw?si=44CBMUQ8fOOPcLR3",
+      "youtubeId": "8rZRYPoerPw",
+      "source": {
+        "location": "LO1 → SI units."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-8rzrypoerpw-919169cdc9",
+      "title": "SI units.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8rZRYPoerPw?si=98pgDzFIAYjmXZnU",
+      "youtubeId": "8rZRYPoerPw",
+      "source": {
+        "location": "LO1 → SI units."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-eehtk5uyemm-30f7d32bcf",
+      "title": "Instrumentation (precision, accuracy, significant figures).",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/EeHtK5UYEMM?si=WJx1VXDMS1KCAWUE",
+      "youtubeId": "EeHtK5UYEMM",
+      "source": {
+        "location": "LO1 → Instrumentation (precision, accuracy, significant figures)."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-b38hfwvejwi-0a14793d18",
+      "title": "Instrumentation (precision, accuracy, significant figures).",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/b38hFWvEjwI?si=a1C8ggYem3MpfN0W",
+      "youtubeId": "b38hFWvEjwI",
+      "source": {
+        "location": "LO1 → Instrumentation (precision, accuracy, significant figures)."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-0iihpkavo7g-253da11dbd",
+      "title": "Instrumentation (precision, accuracy, significant figures).",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/0IiHPKAvo7g?si=WuTrI73kAfB2nqNh",
+      "youtubeId": "0IiHPKAvo7g",
+      "source": {
+        "location": "LO1 → Instrumentation (precision, accuracy, significant figures)."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-r16p4q7voi4-8e3e46d06f",
+      "title": "Types of variables.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/R16p4q7Voi4?si=_Y7-wK5RUR8rAbjP",
+      "youtubeId": "R16p4q7Voi4",
+      "source": {
+        "location": "LO1 → Types of variables."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-j9kcgwaub0y-7b6063fa3a",
+      "title": "Types of variables.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/J9kCgWAuB0Y?si=q9z1PiAyNaiZykGT",
+      "youtubeId": "J9kCgWAuB0Y",
+      "source": {
+        "location": "LO1 → Types of variables."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-lixut4p0drg-058c6ff548",
+      "title": "Density.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LiXut4P0drg?si=2bPEZmyN1FMJTeFG",
+      "youtubeId": "LiXut4P0drg",
+      "source": {
+        "location": "LO1 → Density."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-9ckdqe35qxq-73b4512ffd",
+      "title": "Density.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/9CKDQE35qXQ?si=zRnmu9d-GHXEMgoy",
+      "youtubeId": "9CKDQE35qXQ",
+      "source": {
+        "location": "LO1 → Density."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-zdb7z-lsygs-c239170db8",
+      "title": "Specific gravity.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Zdb7z-LSyGs?si=oE85cbmsogjcFhCj",
+      "youtubeId": "Zdb7z-LSyGs",
+      "source": {
+        "location": "LO1 → Specific gravity."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-zdb7z-lsygs-e9dc8a0550",
+      "title": "Specific gravity.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Zdb7z-LSyGs?si=TMxQsccLR_f0wKSH",
+      "youtubeId": "Zdb7z-LSyGs",
+      "source": {
+        "location": "LO1 → Specific gravity."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chapter-2-atoms-molecules-and-ions-docx-c1b38e28ad",
+      "title": "CHAPTER 2  Atoms, Molecules, and Ions.docx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1CvCAnTrDlYBaPZomu0Se34qffz7C2PUB/edit?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-l-o-1-ssc-pdf-3ea5c951cb",
+      "title": "Chemistry L.O.1 (SSC).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1qBYCEFiUeZV0sIaFXE0QrvY-gokeiW27/view?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-lo1-pptx-04d6ed75e1",
+      "title": "Chemistry LO1.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1Pvk826TbF0ywnp_l8CFTOSBBrCDMU0f6/edit?usp=drivesdk",
+      "source": {
+        "location": "LO1"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-l717yghpnio-2dec43d2d2",
+      "title": "LO summerized",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/l717yGHPnIo?si=Id11UkQPBCiq1RxV",
+      "youtubeId": "l717yGHPnIo",
+      "source": {
+        "location": "LO2 → LO summerized"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-acdkmeekcnq-3edb7fa604",
+      "title": "Atoms.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/acdkMeEKCNQ?si=MAqWhpvtWsV1Kjp0",
+      "youtubeId": "acdkMeEKCNQ",
+      "source": {
+        "location": "LO2 → Atoms."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-acdkmeekcnq-4234d977f7",
+      "title": "Atoms.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/acdkMeEKCNQ?si=xMTYoXZudxZjwgxB",
+      "youtubeId": "acdkMeEKCNQ",
+      "source": {
+        "location": "LO2 → Atoms."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-oh-asu-rwgk-49c1e57ca0",
+      "title": "Atomic Structure.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/OH-aSu-rWgk?si=ic0TOV6TqIQ4KoOW",
+      "youtubeId": "OH-aSu-rWgk",
+      "source": {
+        "location": "LO2 → Atomic Structure."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-oh-asu-rwgk-7f9d82762b",
+      "title": "Atomic Structure.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/OH-aSu-rWgk?si=fHeJYJgeBcxgh2yZ",
+      "youtubeId": "OH-aSu-rWgk",
+      "source": {
+        "location": "LO2 → Atomic Structure."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-bagegezbtos-a635f34795",
+      "title": "Isotopes.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/bagegEZBtOs?si=SS7dXlA0ZvwDNRdE",
+      "youtubeId": "bagegEZBtOs",
+      "source": {
+        "location": "LO2 → Isotopes."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-bagegezbtos-e81fc424e5",
+      "title": "Isotopes.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/bagegEZBtOs?si=n0qITzW1UxpfAEg9",
+      "youtubeId": "bagegEZBtOs",
+      "source": {
+        "location": "LO2 → Isotopes."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-9xwmj-ai-6o-c15ffbab65",
+      "title": "Isobar.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/9xwmJ_aI-6o?si=Sbht-RcrawuQowu-",
+      "youtubeId": "9xwmJ_aI-6o",
+      "source": {
+        "location": "LO2 → Isobar."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-9xwmj-ai-6o-21ab109b55",
+      "title": "Isobar.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/9xwmJ_aI-6o?si=noWX5WfctA2i-Pb1",
+      "youtubeId": "9xwmJ_aI-6o",
+      "source": {
+        "location": "LO2 → Isobar."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-7gpakfpqvm0-bb3e9d6d31",
+      "title": "Isotones.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7GPaKfpqVm0?si=GS_z5Npf7b8__bYh",
+      "youtubeId": "7GPaKfpqVm0",
+      "source": {
+        "location": "LO2 → Isotones."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-zaktos-dzkg-bcb09a74f8",
+      "title": "Isotones.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ZAKtoS-dzKg?si=EZWbA7vklFalSd7c",
+      "youtubeId": "ZAKtoS-dzKg",
+      "source": {
+        "location": "LO2 → Isotones."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-cprff-ecgt8-4f7f51be07",
+      "title": "Alpha.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/cPRFF-eCGT8?si=OVSRJwrlzqRggsEm",
+      "youtubeId": "cPRFF-eCGT8",
+      "source": {
+        "location": "LO2 → Alpha."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-cprff-ecgt8-475cb72c50",
+      "title": "Alpha.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/cPRFF-eCGT8?si=aIm_HaDBb0B5-1Za",
+      "youtubeId": "cPRFF-eCGT8",
+      "source": {
+        "location": "LO2 → Alpha."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-dvhqzq-k7k8-04f353c5e6",
+      "title": "Beta.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/dvhqzQ-K7K8?si=hKnBH5UTT6fvyGhH",
+      "youtubeId": "dvhqzQ-K7K8",
+      "source": {
+        "location": "LO2 → Beta."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-vexpmijpaze-695e179e41",
+      "title": "Gamma.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/VeXpMijpazE?si=fhAb47-cJF8D835C",
+      "youtubeId": "VeXpMijpazE",
+      "source": {
+        "location": "LO2 → Gamma."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-4-5810146429913534102-pdf-7f7e336a09",
+      "title": "4_5810146429913534102.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1JTluCJSCbH7o99aLPQ2xQWYLziHkKnE4/view?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-l-o-2-pdf-c34b0d7c0c",
+      "title": "chemistry l.o 2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1KRYnGzaIEbN0LXJnxokrmyAWl3Wqt6_5/view?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-l-o-2-ssc-pdf-de547c358a",
+      "title": "Chemistry L.O.2 (SSC).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1QnKHOw6FY2OAMDbWLILz53x-vvICf7pN/view?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-lo2-pptx-5296aa0bbd",
+      "title": "Chemistry LO2.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1KYVfjGzV7sCVt73ggmn9tljEt6tK0sSK/edit?usp=drivesdk",
+      "source": {
+        "location": "LO2"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-02"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-h3k-yvd5gsk-ee52fba133",
+      "title": "LO summerized",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/H3K_yVd5gsk?si=imm9as5zmIcXE1SV",
+      "youtubeId": "H3K_yVd5gsk",
+      "source": {
+        "location": "LO3 → LO summerized"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-niwcdnfjj98-4c10609172",
+      "title": "Electron configuration.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/NIwcDnFjj98?si=7U6PTZOn75rXb9U0",
+      "youtubeId": "NIwcDnFjj98",
+      "source": {
+        "location": "LO3 → Electron configuration."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-niwcdnfjj98-9a12442300",
+      "title": "Electron configuration.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/NIwcDnFjj98?si=iDzfPlTKmyox-Lut",
+      "youtubeId": "NIwcDnFjj98",
+      "source": {
+        "location": "LO3 → Electron configuration."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-fpk2zib9ix0-4b8df04327",
+      "title": "Valence numbers.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/FPk2ziB9iX0?si=qh376HO5-FFphosS",
+      "youtubeId": "FPk2ziB9iX0",
+      "source": {
+        "location": "LO3 → Valence numbers."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-fpk2zib9ix0-c53d93e3c8",
+      "title": "Valence numbers.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/FPk2ziB9iX0?si=iItcVqMcc08Ucipo",
+      "youtubeId": "FPk2ziB9iX0",
+      "source": {
+        "location": "LO3 → Valence numbers."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-erin9cpdrpo-3ff5e6f6bd",
+      "title": "Quantum numbers",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/eRIN9CPDrpo?si=I75cgY19EJbrML9g",
+      "youtubeId": "eRIN9CPDrpo",
+      "source": {
+        "location": "LO3 → Quantum numbers"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-erin9cpdrpo-cd8decec73",
+      "title": "Quantum numbers",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/eRIN9CPDrpo?si=_B7KrvYb2KwYXmEg",
+      "youtubeId": "eRIN9CPDrpo",
+      "source": {
+        "location": "LO3 → Quantum numbers"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-kwqitt-kdfe-e1e2cff68f",
+      "title": "Electromagnetic spectrum.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/KWQitt-kDFE?si=GCWNo0PUdpMiFzcP",
+      "youtubeId": "KWQitt-kDFE",
+      "source": {
+        "location": "LO3 → Electromagnetic spectrum."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-kwqitt-kdfe-e818067398",
+      "title": "Electromagnetic spectrum.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/KWQitt-kDFE?si=sPIh-v9m_ZHMd7O_",
+      "youtubeId": "KWQitt-kDFE",
+      "source": {
+        "location": "LO3 → Electromagnetic spectrum."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-lgymxh1lcdo-e4adec643f",
+      "title": "Frequency.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LgYMxH1LCdo?si=tgnHHBbMf754bhZb",
+      "youtubeId": "LgYMxH1LCdo",
+      "source": {
+        "location": "LO3 → Frequency."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-lgymxh1lcdo-5276baae1a",
+      "title": "Frequency.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LgYMxH1LCdo?si=VQ4ohZnFLdELZe2K",
+      "youtubeId": "LgYMxH1LCdo",
+      "source": {
+        "location": "LO3 → Frequency."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-lgymxh1lcdo-2451ba4343",
+      "title": "Wavelength.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LgYMxH1LCdo?si=htddK-o0KSQG3B9t",
+      "youtubeId": "LgYMxH1LCdo",
+      "source": {
+        "location": "LO3 → Wavelength."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-1upyq63arvg-453c1e0cd7",
+      "title": "Photon Absorption.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/1uPyq63aRvg?si=FnXICPvOzktc4iio",
+      "youtubeId": "1uPyq63aRvg",
+      "source": {
+        "location": "LO3 → Photon Absorption."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-vv2tnoie9h8-fd95fb8687",
+      "title": "Photon Absorption.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/vV2TnOie9h8?si=eJVRQG5pXajm9qfn",
+      "youtubeId": "vV2TnOie9h8",
+      "source": {
+        "location": "LO3 → Photon Absorption."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-1upyq63arvg-cafb7bc46d",
+      "title": "Emission.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/1uPyq63aRvg?si=WQo-SF17C7J2hIf3",
+      "youtubeId": "1uPyq63aRvg",
+      "source": {
+        "location": "LO3 → Emission."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-lgymxh1lcdo-64f49e4f62",
+      "title": "Energy, frequency and wavelength relations.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LgYMxH1LCdo?si=evSHTuRaBtUTFVLz",
+      "youtubeId": "LgYMxH1LCdo",
+      "source": {
+        "location": "LO3 → Energy, frequency and wavelength relations."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-tbatbesqycc-fe2a3280c3",
+      "title": "Energy, frequency and wavelength relations.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/tbaTbESqycc?si=GYZTcY1T7uUGT-tX",
+      "youtubeId": "tbaTbESqycc",
+      "source": {
+        "location": "LO3 → Energy, frequency and wavelength relations."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-mfpkwu5vugg-da5c23991a",
+      "title": "Photoelectric phenomenon.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/MFPKwu5vugg?si=xJsq1uNwUNGIGadI",
+      "youtubeId": "MFPKwu5vugg",
+      "source": {
+        "location": "LO3 → Photoelectric phenomenon."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-mfpkwu5vugg-27b78b884f",
+      "title": "Photoelectric phenomenon.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/MFPKwu5vugg?si=U7yyO7LuvQmF39K1",
+      "youtubeId": "MFPKwu5vugg",
+      "source": {
+        "location": "LO3 → Photoelectric phenomenon."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-tmz-xr3o5mg-5fb9cfae72",
+      "title": ". Flame test.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TMz_XR3o5mg?si=C3OcD_IzV3LCJVh1",
+      "youtubeId": "TMz_XR3o5mg",
+      "source": {
+        "location": "LO3 → . Flame test."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-6rbbbzpl9ow-9ff84b209d",
+      "title": ". Flame test.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/6RbbbzPl9Ow?si=Lc_56TGtKDUI-OnQ",
+      "youtubeId": "6RbbbzPl9Ow",
+      "source": {
+        "location": "LO3 → . Flame test."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-pr2pnillg6a-84ba7d3eb9",
+      "title": "Excited state.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/pR2pnIlLg6A?si=0wSEJWfsr024ooco",
+      "youtubeId": "pR2pnIlLg6A",
+      "source": {
+        "location": "LO3 → Excited state."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-e2ulvqr69yi-a6c3dc5a0a",
+      "title": "Excited state.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/E2ulVQr69yI?si=n100xmYk_RwO8XTo",
+      "youtubeId": "E2ulVQr69yI",
+      "source": {
+        "location": "LO3 → Excited state."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-l-o-3-ssc-pdf-c855c5b105",
+      "title": "Chemistry L.O.3 (SSC).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/19FRk9MYb6PNPPREuBf-l491oZkK7_1B0/view?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-lo-3-pptx-32571314da",
+      "title": "Chemistry lo 3.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1fXlfKJLJHte_jhbXmSpcanNMr0puQwXF/edit?usp=drivesdk",
+      "source": {
+        "location": "LO3"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-03"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-sttljayta1w-c4db2043f6",
+      "title": "LO summerized",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/sTTLJayta1w?si=fZX8FvmzfPj_C9OH",
+      "youtubeId": "sTTLJayta1w",
+      "source": {
+        "location": "LO4 → LO summerized"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-hepb00cqvp0-56813c726e",
+      "title": "Structure of the periodic table.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/hePb00CqvP0?si=L7pkp76spGj168iw",
+      "youtubeId": "hePb00CqvP0",
+      "source": {
+        "location": "LO4 → Structure of the periodic table."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-hepb00cqvp0-8387f282ee",
+      "title": "Structure of the periodic table.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/hePb00CqvP0?si=pfGSc9qYXQ7OxOLI",
+      "youtubeId": "hePb00CqvP0",
+      "source": {
+        "location": "LO4 → Structure of the periodic table."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-7cetohlzq2a-1d140a5840",
+      "title": "Trends and Periodicity.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7cEtOHLZQ2A?si=WvfLiNLHXYM7AQbR",
+      "youtubeId": "7cEtOHLZQ2A",
+      "source": {
+        "location": "LO4 → Trends and Periodicity."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-gy9hr65dpyq-a93b12bc8d",
+      "title": "Trends and Periodicity.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Gy9HR65DpYQ?si=8O4WjqyiW3F_iQnQ",
+      "youtubeId": "Gy9HR65DpYQ",
+      "source": {
+        "location": "LO4 → Trends and Periodicity."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-hepb00cqvp0-c58f72bddc",
+      "title": "Atomic Radius.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/hePb00CqvP0?si=lmZK0VQSMCGlSssZ",
+      "youtubeId": "hePb00CqvP0",
+      "source": {
+        "location": "LO4 → Atomic Radius."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-4url0pjbcuu-0e30f4c197",
+      "title": "Atomic Radius.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/4Url0pjbcuU?si=EVl7k8UwhsbZTICI",
+      "youtubeId": "4Url0pjbcuU",
+      "source": {
+        "location": "LO4 → Atomic Radius."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-c9n2-gkvsaw-df0713b661",
+      "title": "Electronegativity.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/c9n2-gkVsaw?si=v7BVPor4-KtVfvI2",
+      "youtubeId": "c9n2-gkVsaw",
+      "source": {
+        "location": "LO4 → Electronegativity."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-c9n2-gkvsaw-a4303866c5",
+      "title": "Electronegativity.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/c9n2-gkVsaw?si=aWqhWnYNlo4LNU82",
+      "youtubeId": "c9n2-gkVsaw",
+      "source": {
+        "location": "LO4 → Electronegativity."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-khlija77wqe-c63261f1eb",
+      "title": "Electron Affinity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/KhLijA77WQE?si=Ixp639SOjVDq-dyz",
+      "youtubeId": "KhLijA77WQE",
+      "source": {
+        "location": "LO4 → Electron Affinity"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-khlija77wqe-fb28e3014d",
+      "title": "Electron Affinity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/KhLijA77WQE?si=rkaVZLmwLmGTZjZM",
+      "youtubeId": "KhLijA77WQE",
+      "source": {
+        "location": "LO4 → Electron Affinity"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-26faogpnfio-0cd53aefdb",
+      "title": ". Metal, nonmetal and metalloid",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/26faogpnFIo?si=9y-HJo1osqdmnMpZ",
+      "youtubeId": "26faogpnFIo",
+      "source": {
+        "location": "LO4 → . Metal, nonmetal and metalloid"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-26faogpnfio-b18599cd6b",
+      "title": ". Metal, nonmetal and metalloid",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/26faogpnFIo?si=FVL1l04cuE-0H8po",
+      "youtubeId": "26faogpnFIo",
+      "source": {
+        "location": "LO4 → . Metal, nonmetal and metalloid"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-l-o-4-ssc-pdf-e3fc0f5e07",
+      "title": "Chemistry L.O.4 (SSC).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1vk5mKfOgcwuHCk9KrFekepPX4byYJaHl/view?usp=drivesdk",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-lo4-pptx-4cad383a34",
+      "title": "Chemistry LO4.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/12eaw5YGvEyaMGiWWzpHb3WVzlLKw6PmP/edit?usp=drivesdk",
+      "source": {
+        "location": "LO4"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-04"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-961zmt281gw-f82207549c",
+      "title": "LO summerized",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/961zMT281gw?si=m08LE3DfCW1mBbpj",
+      "youtubeId": "961zMT281gw",
+      "source": {
+        "location": "LO5 → LO summerized"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-dcnymrmd0kw-b3aa4437d8",
+      "title": "LO summerized",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/dcnymRMd0kw?si=jieHgCKQGJ9MfO6U",
+      "youtubeId": "dcnymRMd0kw",
+      "source": {
+        "location": "LO5 → LO summerized"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-poqjsnqmxok-e7fbcc85d3",
+      "title": "Chemical bond.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/PoQjsnQmxok?si=nN5gFsZvSm1jZgY9",
+      "youtubeId": "PoQjsnQmxok",
+      "source": {
+        "location": "LO5 → Chemical bond."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-poqjsnqmxok-2dee5aa692",
+      "title": "Chemical bond.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/PoQjsnQmxok?si=wlGNNJTOHY31bZr2",
+      "youtubeId": "PoQjsnQmxok",
+      "source": {
+        "location": "LO5 → Chemical bond."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-s-k0kr2ezsq-17dd546461",
+      "title": "Ionic and Covalent bond",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/S_k0kr2eZSQ?si=ksIqByV-8P2NX9zO",
+      "youtubeId": "S_k0kr2eZSQ",
+      "source": {
+        "location": "LO5 → Ionic and Covalent bond"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-s-k0kr2ezsq-02244f658a",
+      "title": "Ionic and Covalent bond",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/S_k0kr2eZSQ?si=PMfRnr4kIHyp2dmp",
+      "youtubeId": "S_k0kr2eZSQ",
+      "source": {
+        "location": "LO5 → Ionic and Covalent bond"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-sk7w2vgbhog-dca94e312c",
+      "title": "Electron dot diagram",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Sk7W2VgbhOg?si=OxMZ0ZynXb3L4oEd",
+      "youtubeId": "Sk7W2VgbhOg",
+      "source": {
+        "location": "LO5 → Electron dot diagram"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-nfztjset3xe-3ff5e1f71f",
+      "title": "Electron dot diagram",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/NFZtjSeT3XE?si=8IrPIlt4CdnYBd4q",
+      "youtubeId": "NFZtjSeT3XE",
+      "source": {
+        "location": "LO5 → Electron dot diagram"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-tyu-jluleme-44937ba37b",
+      "title": "Nomenclature of alkanes (IUPAC common name).",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TYU_JluleME?si=EdO1rv_12uz21XGe",
+      "youtubeId": "TYU_JluleME",
+      "source": {
+        "location": "LO5 → Nomenclature of alkanes (IUPAC common name)."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-tyu-jluleme-00a0aa79a8",
+      "title": "Nomenclature of alkanes (IUPAC common name).",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TYU_JluleME?si=L7SO_8qOTc86rthv",
+      "youtubeId": "TYU_JluleME",
+      "source": {
+        "location": "LO5 → Nomenclature of alkanes (IUPAC common name)."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-tj7mxcwkrte-c0dbb05eb0",
+      "title": "Isomers of alkanes.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Tj7mXcWkrTE?si=mR8WTmEaxQin_t4k",
+      "youtubeId": "Tj7mXcWkrTE",
+      "source": {
+        "location": "LO5 → Isomers of alkanes."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-z8m4ecippyi-45cf603ea7",
+      "title": "Isomers of alkanes.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/z8M4EciPpYI?si=26-iJWusgoKIOFcb",
+      "youtubeId": "z8M4EciPpYI",
+      "source": {
+        "location": "LO5 → Isomers of alkanes."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-m8z8ouxfxia-8e1520607e",
+      "title": "Cis and Trans.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/m8Z8ouxfxiA?si=eQJIuP2ljGSBLJWR",
+      "youtubeId": "m8Z8ouxfxiA",
+      "source": {
+        "location": "LO5 → Cis and Trans."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-m8z8ouxfxia-caa2c0878b",
+      "title": "Cis and Trans.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/m8Z8ouxfxiA?si=hWt9i4jcCXd46SWu",
+      "youtubeId": "m8Z8ouxfxiA",
+      "source": {
+        "location": "LO5 → Cis and Trans."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-48rsf1pohfa-b3b41d095b",
+      "title": "Structure Isomers and Chains.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/48rsf1pOhfA?si=J4a0DKUFcmAaaa3U",
+      "youtubeId": "48rsf1pOhfA",
+      "source": {
+        "location": "LO5 → Structure Isomers and Chains."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-jjtzmqddyum-fedf957c41",
+      "title": "Structure Isomers and Chains.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/JjtzMQDdyuM?si=0URCAFv9B98UR9mT",
+      "youtubeId": "JjtzMQDdyuM",
+      "source": {
+        "location": "LO5 → Structure Isomers and Chains."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-ch-1-05-part-1-pptx-9c99fd5835",
+      "title": "CH.1.05 part 1.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1oj4tr4IdjKV20xqLTtBjE8wb4OTS8ao_/edit?usp=drivesdk",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-ch-1-05-part-3-isomersm-pptx-44ae83afac",
+      "title": "CH.1.05 part 3 isomersm.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1X6atSQk55ofX_BBViUZX_TSTqQ4Xjgum/edit?usp=drivesdk",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-l-o-5-ssc-pdf-feb3f39550",
+      "title": "chemistry L.O.5 (SSC).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1OU_6yzhjtilpWxv0clW90wXCCnW88XYr/view?usp=drivesdk",
+      "source": {
+        "location": "LO5"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-05"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-zsotts5o-ak-fe30e008d5",
+      "title": "LO summerized",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zsOtTs5O_Ak?si=PJP_XRd1-eTeG8KC",
+      "youtubeId": "zsOtTs5O_Ak",
+      "source": {
+        "location": "LO6 → LO summerized"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-p-sd5rt6xmk-42a01b8f31",
+      "title": "Radioactive.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/P_SD5Rt6XMk?si=8DQ2TwK07hQGCe5y",
+      "youtubeId": "P_SD5Rt6XMk",
+      "source": {
+        "location": "LO6 → Radioactive."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-cprff-ecgt8-86b72a856c",
+      "title": "Radioactive.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/cPRFF-eCGT8?si=QX0gcrSnNNIBrn1E",
+      "youtubeId": "cPRFF-eCGT8",
+      "source": {
+        "location": "LO6 → Radioactive."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-1hsra-vbh-m-f7b245b739",
+      "title": "Unstable Atoms.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/1HsRA-vbh-M?si=n8rce_Jh0BiZxjWO",
+      "youtubeId": "1HsRA-vbh-M",
+      "source": {
+        "location": "LO6 → Unstable Atoms."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-utzw9jfixxm-cbd5f4ae08",
+      "title": "Unstable Atoms.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/UtZw9jfIxXM?si=Hae2IAAhrM_TzUAu",
+      "youtubeId": "UtZw9jfIxXM",
+      "source": {
+        "location": "LO6 → Unstable Atoms."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-b9qxaflpz9u-d78bc9600c",
+      "title": "Fusion reaction.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/b9qxAFLpz9U?si=kzOPsCUO4AdiG1M5",
+      "youtubeId": "b9qxAFLpz9U",
+      "source": {
+        "location": "LO6 → Fusion reaction."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-b9qxaflpz9u-dd3516b49d",
+      "title": "Fusion reaction.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "hhttps://youtu.be/b9qxAFLpz9U?si=gJlO6aIqJ8nMfX58",
+      "youtubeId": "b9qxAFLpz9U",
+      "source": {
+        "location": "LO6 → Fusion reaction."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-wtqvfvoof3g-d98ad9e6be",
+      "title": ". Half-life.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/WTQvfvoOF3g?si=7MLCmJMw1aDnJ1w4",
+      "youtubeId": "WTQvfvoOF3g",
+      "source": {
+        "location": "LO6 → . Half-life."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-wtqvfvoof3g-fcaa73aaf7",
+      "title": ". Half-life.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/WTQvfvoOF3g?si=_l6BjFq3GL08rtKE",
+      "youtubeId": "WTQvfvoOF3g",
+      "source": {
+        "location": "LO6 → . Half-life."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-c3nge8z3-lo-5bea446191",
+      "title": "Nuclear forces",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/c3nGE8Z3-lo?si=EuRZZz2N4b3RGHU2",
+      "youtubeId": "c3nGE8Z3-lo",
+      "source": {
+        "location": "LO6 → Nuclear forces"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-c3nge8z3-lo-0e0a98aa3d",
+      "title": "Nuclear forces",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/c3nGE8Z3-lo?si=nkrBFpv9nfHTFV0W",
+      "youtubeId": "c3nGE8Z3-lo",
+      "source": {
+        "location": "LO6 → Nuclear forces"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-lo6-pptx-40077ab63f",
+      "title": "Chemistry  LO6.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1lQB6VyX-IpUNddZ6yOCLLJqlAAhDNqBj/edit?usp=drivesdk",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-l-o-6-7-pdf-e527ae0f12",
+      "title": "Chemistry L.O.6_ 7.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1wCimWa2HsUXB4IDAus9e0UIH3CS_AXgn/view?usp=drivesdk",
+      "source": {
+        "location": "LO6"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-06"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-ymyfy3nfwgk-6e35bfa63b",
+      "title": "LO summerized",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/yMyfy3NFWGk?si=6B_Xvb9hUOzn2HM7",
+      "youtubeId": "yMyfy3NFWGk",
+      "source": {
+        "location": "LO7 → LO summerized"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-kwa-ztldnhw-6ff8583a5f",
+      "title": "Element.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/kWa_zTldnhw?si=F3EYdiuWjBvfv2LQ",
+      "youtubeId": "kWa_zTldnhw",
+      "source": {
+        "location": "LO7 → Element."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-kwa-ztldnhw-d72cf8e4d0",
+      "title": "Element.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/kWa_zTldnhw?si=DQrfXRdAOjcVv6zF",
+      "youtubeId": "kWa_zTldnhw",
+      "source": {
+        "location": "LO7 → Element."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-dgghwvfj8xs-61f21c906a",
+      "title": ". Compound.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/dggHWvFJ8Xs?si=pKO1JAbAnched2mI",
+      "youtubeId": "dggHWvFJ8Xs",
+      "source": {
+        "location": "LO7 → . Compound."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-dgghwvfj8xs-94de6c2b93",
+      "title": ". Compound.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/dggHWvFJ8Xs?si=gy_iWRd-j84PEefi",
+      "youtubeId": "dggHWvFJ8Xs",
+      "source": {
+        "location": "LO7 → . Compound."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-7uiiq-ofzgw-c743da63c8",
+      "title": "Electrolysis.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7uIIq_Ofzgw?si=L5DEFz3kSaZviUDX",
+      "youtubeId": "7uIIq_Ofzgw",
+      "source": {
+        "location": "LO7 → Electrolysis."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-7uiiq-ofzgw-68d01aec50",
+      "title": "Electrolysis.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7uIIq_Ofzgw?si=shvd8WwTHvvrvvI2",
+      "youtubeId": "7uIIq_Ofzgw",
+      "source": {
+        "location": "LO7 → Electrolysis."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-gj4mds0cwle-56c94fd879",
+      "title": "Chemical formula.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/GJ4Mds0CWLE?si=lYxiQowqOQOzTvDk",
+      "youtubeId": "GJ4Mds0CWLE",
+      "source": {
+        "location": "LO7 → Chemical formula."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-gj4mds0cwle-86cc1e1171",
+      "title": "Chemical formula.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/GJ4Mds0CWLE?si=eQzjJGnLyVvnPH-L",
+      "youtubeId": "GJ4Mds0CWLE",
+      "source": {
+        "location": "LO7 → Chemical formula."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-e-c-v5vjv80-77c7a052ac",
+      "title": "Chemical equation.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/e_C-V5vJv80?si=Xannl1L31rAh-LrW",
+      "youtubeId": "e_C-V5vJv80",
+      "source": {
+        "location": "LO7 → Chemical equation."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-e-c-v5vjv80-e99e77e85c",
+      "title": "Chemical equation.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/e_C-V5vJv80?si=Yvj_mAuaT04JwAB7",
+      "youtubeId": "e_C-V5vJv80",
+      "source": {
+        "location": "LO7 → Chemical equation."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-ebtnzsclug4-28e6165d3d",
+      "title": "Law of Conservation of Mass.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/eBTNzScLUg4?si=WBTW0C0IArbg2v3C",
+      "youtubeId": "eBTNzScLUg4",
+      "source": {
+        "location": "LO7 → Law of Conservation of Mass."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-ebtnzsclug4-eef24234d0",
+      "title": "Law of Conservation of Mass.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/eBTNzScLUg4?si=9ghgVfbECo7-A3jf",
+      "youtubeId": "eBTNzScLUg4",
+      "source": {
+        "location": "LO7 → Law of Conservation of Mass."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-brzwzy0xvhm-ee6a6d9cde",
+      "title": "Temperature.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/bRZwzy0xvhM?si=tLPFXajXaSbR91CS",
+      "youtubeId": "bRZwzy0xvhM",
+      "source": {
+        "location": "LO7 → Temperature."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-ll54e5czq-a-041c47b471",
+      "title": "Temperature.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/LL54E5CzQ-A?si=CWjRtdFjHPOCW5Ks",
+      "youtubeId": "LL54E5CzQ-A",
+      "source": {
+        "location": "LO7 → Temperature."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-g7u6pifuvy4-049cc8f19e",
+      "title": "Kinetic energy.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/g7u6pIfUVy4?si=q5-rTijs8O2Q0dIn",
+      "youtubeId": "g7u6pIfUVy4",
+      "source": {
+        "location": "LO7 → Kinetic energy."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-g7u6pifuvy4-5b29a8fdf4",
+      "title": "Kinetic energy.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/g7u6pIfUVy4?si=F7VDk4Thj4OpYF3N",
+      "youtubeId": "g7u6pIfUVy4",
+      "source": {
+        "location": "LO7 → Kinetic energy."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-oc0ypedelb0-1ade578b6b",
+      "title": "Vaporization.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/oc0ypeDELb0?si=WkQrNJyOFTOBlrrv",
+      "youtubeId": "oc0ypeDELb0",
+      "source": {
+        "location": "LO7 → Vaporization."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-g8r5sesf5h4-8a40cb8e13",
+      "title": "Vaporization.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/G8R5SESF5H4?si=GdPoTShEXH46F9U_",
+      "youtubeId": "G8R5SESF5H4",
+      "source": {
+        "location": "LO7 → Vaporization."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-29x7varv2ni-2dd29abbea",
+      "title": "Sublimation.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/29x7vArV2NI?si=6irV_14lR5TGzYvG",
+      "youtubeId": "29x7vArV2NI",
+      "source": {
+        "location": "LO7 → Sublimation."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-29x7varv2ni-dadbadf583",
+      "title": "Sublimation.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/29x7vArV2NI?si=qEx4ks8C2FGPiW8F",
+      "youtubeId": "29x7vArV2NI",
+      "source": {
+        "location": "LO7 → Sublimation."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-ys2rhrirc88-1d4879cbdf",
+      "title": "Heating Curve of Water.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ys2RHRiRc88?si=1Hz3_wUf3dLK-jx-",
+      "youtubeId": "ys2RHRiRc88",
+      "source": {
+        "location": "LO7 → Heating Curve of Water."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-video-ys2rhrirc88-e7eb9024a0",
+      "title": "Heating Curve of Water.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ys2RHRiRc88?si=VkJswskSnlwoTUJ_",
+      "youtubeId": "ys2RHRiRc88",
+      "source": {
+        "location": "LO7 → Heating Curve of Water."
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-l-o-6-7-lo7-pdf-0507c2f5b9",
+      "title": "Chemistry L.O.6_ 7 (LO7).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1u-pYHF7tjORkr9fnDkePQK80g7YRPqYO/view?usp=drivesdk",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-07"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chemistry-lo7-pptx-be60fb88b9",
+      "title": "Chemistry LO7.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1ybPqncUilXTbLt7szEHBZkRJk18FbweS/edit?usp=drivesdk",
+      "source": {
+        "location": "LO7"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s1-unit-07"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c10-rtf-65a900ba1a",
+      "title": "c10.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1YYJPhjTfr5kwt-TZdfUe0kloD4MsjxDU/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c11-rtf-571079a554",
+      "title": "c11.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/11hlktzj7nWOFlA6HSTaKIyRwCgRc6cRs/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c12-rtf-de5a536782",
+      "title": "c12.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1qgk3Vyb0SxC4P3F1C2MKh1RkaSpJGgLg/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c13-rtf-bbcf28b688",
+      "title": "c13.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/11g9owP3cUEhPZ5xVDXB9KZMRZ_oOhujQ/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c14-rtf-806f1e69eb",
+      "title": "c14.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1DcQNBejZbpG38nM0hFGgTo-k0kEvL0w1/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c15-rtf-01b1b3406a",
+      "title": "c15.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/15M77csz6MZTSBiEVvJPxrq2lfIYs2Cic/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c16-rtf-72e4662115",
+      "title": "c16.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1R9_cArMyYKcHgtDVNDOevSZ3W-IuD5Eg/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c17-rtf-d6d046f760",
+      "title": "c17.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ieSSDA40t7W7C-encpUbTk81Tyg5YOKa/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c18-rtf-514337ba68",
+      "title": "c18.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1IxhFxww1qJric1ka8xUtvseACdQVKpZR/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c19-rtf-51454917b7",
+      "title": "c19.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/179FzzJCR3Q-7AiRxNuXaf-AYASMUIZSE/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c2-rtf-200aa078ce",
+      "title": "c2.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1N-vUMgYgf2EXdFtCjnM-cdWkllZbbGGy/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c20-rtf-c4767cc135",
+      "title": "c20.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1p5jXxUvITEAQrqmb-LIBnJ_UwUoQLnpJ/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c21-rtf-ec8c06013c",
+      "title": "c21.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/17UMXYwRU9y8b1Yw8uDidZ3WObMa3kUuq/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c22-rtf-01b14f4fcc",
+      "title": "c22.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1VwVurWZKxD8hgJfeCjpe7sP_AadaquKc/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c3-rtf-65e80cc0ae",
+      "title": "c3.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1DH_EojvX4qlNhBPBPLXkdEFnZKCMs4GA/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c4-rtf-2629952176",
+      "title": "c4.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Faw0HI0qJdjjIwcD88Xx_83gx0Fjihlh/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c5-rtf-8eaca6b083",
+      "title": "c5.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/14JJhCqCfdM9WfUKZpXqVIN6tOvmsrDXU/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c6-rtf-c0e153aab5",
+      "title": "c6.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/10CGlsXj-SURSoRz7cILxetQsR9MeTV4_/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c7-rtf-fc8664d45d",
+      "title": "c7.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1jLcrgweLrokoHGMShdqIF-UW-DwiwziR/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c8-rtf-51f7416706",
+      "title": "c8.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1fGHet_MvZoDUMaJsIsFadgMAZd-LDmBc/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-c9-rtf-52cec83ef5",
+      "title": "c9.rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1kPsm50TtQMWQ5xZlBDdgqpQrQ4Wp56kb/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-chapter-1-l-o-1-rtf-7138a52c1e",
+      "title": "Chapter 1 (L.O.1).rtf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1i5OeZPQVX6jBFKqEHoFQ3dDapLGp6sSS/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-l-o-5-questions-with-answers-1-pdf-7a5ef1ec1f",
+      "title": "L.O 5 questions with answers (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1KpmpUv80qHdxFRY8jCepDVga-56f69Zo/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-zumdahl-chemistry-9th-edition-test-bank-pdf-0a2592f4e3",
+      "title": "Zumdahl Chemistry 9th Edition Test Bank.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/10XTkPTRfA3B-tkFSBARyp76k1TwR-5X3/view?usp=drivesdk",
+      "source": {
+        "location": "Question Bank"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "qs-bank"
+      }
+    }
+  ]
+}

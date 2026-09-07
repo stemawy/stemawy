@@ -1,0 +1,354 @@
+{
+  "learningObjectives": {
+    "LO7": {
+      "title": "LO7",
+      "concepts": [
+        "Quadratic Function",
+        "First and second differences",
+        "Completing the square",
+        "Complex numbers",
+        "Parabola",
+        "Focus",
+        "Argand diagram",
+        "Related roots"
+      ]
+    },
+    "LO8": {
+      "title": "LO8",
+      "concepts": [
+        "Exponential functions",
+        "Logarithmic function",
+        "Growth",
+        "Decay"
+      ]
+    },
+    "LO9": {
+      "title": "LO9",
+      "concepts": [
+        "Trigonometric functions",
+        "Coordinates",
+        "Graphs of sine, cosine and tangent functions",
+        "Inverses of the sine, cosine and tangent functions",
+        "Shape, domain, range, amplitude, intercepts, max/min, period, asymptotes",
+        "Domain of trigonometric functions",
+        "Shift and stretch a trigonometric function"
+      ]
+    },
+    "LO10": {
+      "title": "LO10",
+      "concepts": [
+        "Trigonometric identities",
+        "Pythagorean Identities",
+        "Cofunction Identities",
+        "Trig identities of sum and difference of two angels",
+        "Trig identities of double angles and half angels"
+      ]
+    },
+    "LO11": {
+      "title": "LO11",
+      "concepts": [
+        "System",
+        "System of equations",
+        "Unknowns",
+        "Graphing methods",
+        "Algebraic methods",
+        "Matrix",
+        "Operations",
+        "Linear Programming",
+        "Objective functions",
+        "Feasible regions",
+        "Constraints",
+        "Optimal solution"
+      ]
+    },
+    "LO12": {
+      "title": "LO12",
+      "concepts": [
+        "Determinants",
+        "Value of a determinant",
+        "Area, parallelogram and triangle",
+        "Matrices",
+        "System of equations",
+        "Cramer Rule"
+      ]
+    }
+  },
+  "resourceFiles": {
+    "LO7": [
+      "LO7 Math.pdf",
+      "lo7 math.pptx"
+    ],
+    "LO8": [
+      "Copy of MA 1.08 Exponetial and logarithms.pptx",
+      "Copy of LO .MA . 1.08.pdf"
+    ],
+    "LO9": [
+      "Copy of Copy of Trig Cheat Sheet.pdf",
+      "Copy of TRIG 2 (1).pdf",
+      "Copy of TRIG 3.pdf",
+      "Copy of MA 1.09 Trigonometric functions.pptx",
+      "Copy of TRIG 1 (1).pdf"
+    ],
+    "LO10": [
+      "Copy of Trig Cheat Sheet.pdf",
+      "Copy of Copy of MA 1.10 Trigonometric identities.pptx",
+      "Copy of Copy of MA 1.10 Trigonometric identities (1).pptx"
+    ],
+    "LO11": [
+      "Copy of MA LO 1.11 Modelling with Multiple Linear Equations.pptx",
+      "Copy of Copy of LO 11.pdf"
+    ],
+    "LO12": [
+      "Copy of Copy of lo12 math.pptx",
+      "Copy of Copy of LO 12.pdf"
+    ],
+    "references": [],
+    "testBanks": [
+      "2016-2017.pdf",
+      "Copy of Maths Mid-term test bank (MEO).pdf",
+      "2017-2018.pdf",
+      "2018-2019.pdf",
+      "math.-grade-10-2nd-midterm. saved.pdf",
+      "math.-grade-10-2nd-midterm..pdf",
+      "2015-2016 (1).pdf",
+      "2015-2016.pdf",
+      "grade 10 second midterm Exam.pdf",
+      "Math final test Grade10.pdf",
+      "Quiz LO7.pptx",
+      "TEST BANK LO7.pdf",
+      "LO 7 exercise.pdf",
+      "Copy of Copy of KFS LO 8 exercise.pdf",
+      "Copy of Copy KFS of LO 9 ecercises.pdf",
+      "Copy of Math Revision L.O.8.pdf",
+      "Copy of LO 10 exercises.pdf",
+      "Copy of worksheet lo 9.pdf",
+      "Copy of Trig Identites 3.pdf",
+      "Copy of Trig Identites 1st session.pdf",
+      "Copy of 6 General exercises.pptx",
+      "Copy of Trig Identites 2.pdf",
+      "Copy of Copy of LO 11& 12 exercises.pdf"
+    ]
+  },
+  "videoLinks": {
+    "LO7": {
+      "Quadratic Function": [
+        "https://youtu.be/Hq2Up_1Ih5E?si=VIIHdvWqnAHXRA-6"
+      ],
+      "First and second differences": [
+        "https://youtu.be/-rax_fOh28Y?si=qhOWI9-1Hu0GMdZ3"
+      ],
+      "Completing the square": [
+        "https://youtu.be/2MKigAgPZMQ?si=yMpyiw4uz8RIA-fL"
+      ],
+      "Complex numbers": [
+        "https://youtu.be/Yddjxj49C_M?si=WKR5jxQmHXicgTQ8",
+        "https://youtu.be/OQz1ydBcQSA?si=1VyUp1Mix3Ni9rnQ"
+      ],
+      "Parabola": [
+        "https://youtu.be/BGz3pkoGPag?si=ymAicDIpnT053Njy"
+      ],
+      "Focus": [
+        "https://youtu.be/pe8Dm_FUpdU?si=03AiMsJVNgIbStk2"
+      ],
+      "Argand diagram": [
+        "https://youtu.be/Pdmg4V3eXZU?si=E6Adda1RBzsJyNbh",
+        "https://youtu.be/nBuByCp7ot0?si=AeOAMedMUKqqpuMo"
+      ],
+      "Related roots": [
+        "https://youtu.be/Yc4e3AwhLbY?si=u-nvaK8_iWyJ0GP9",
+        "https://youtu.be/5HW-I_9INoA?si=tQVYqF1c0UZkiYmr"
+      ]
+    },
+    "LO8": {
+      "Exponential functions": [
+        "https://youtu.be/tAaDItpC8OI?si=ihoB3Smy8bqeGTHA"
+      ],
+      "Logarithmic function": [
+        "https://youtu.be/LRbi_pMX1DM?si=-7dGPm_OEUth6oGH"
+      ],
+      "Growth": [
+        "https://youtu.be/77wtG_fFY3Q?si=UFbmh8TOZr-e7-Yb"
+      ],
+      "Decay": [
+        "https://youtu.be/AXAMVxaxjDg?si=1QEps4BVrvSX9Kdv",
+        "https://youtu.be/Sck2_kJ9cCQ?si=hqYgBkOb8kcqnV5g"
+      ]
+    },
+    "LO9": {
+      "Trigonometric functions": [
+        "https://youtu.be/__nefjOhVks?si=lXRXeOfX55yLOp9A"
+      ],
+      "Coordinates": [
+        "https://youtu.be/aSdaT62ndYE?si=AqU4udz-nFFwpV-e"
+      ],
+      "Graphs of sine, cosine and tangent functions": [
+        "https://youtu.be/bm8oYKKlCXI?si=OpcU494UT6dUGMQH"
+      ],
+      "Inverses of the sine, cosine and tangent functions": [
+        "https://youtu.be/jt7p-mCC0ng?si=JiFoWNbSGhCJmwHL"
+      ],
+      "Shape, domain, range, amplitude, intercepts, max/min, period, asymptotes": [
+        "https://youtu.be/qGCKjuhA4eQ?si=jAzBE525Cf777bRi",
+        "https://youtu.be/3G5WluJ7LFA?si=OHBGDVwt_CO69NNw"
+      ],
+      "Domain of trigonometric functions": [
+        "https://youtu.be/YHgVTUXnxpM?si=o_BJcjpIO3C7TmEF"
+      ],
+      "Shift and stretch a trigonometric function": [
+        "https://youtu.be/MkP1LJR2PyM?si=B_qdz-HrAaaX1tA7",
+        "https://youtu.be/6yZXq62kwm4?si=1FWw69E97E-0_cRr",
+        "https://youtu.be/h80n39xhHbQ?si=qSJGlJ-Fj-6ODiCm"
+      ]
+    },
+    "LO10": {
+      "Trigonometric identities": [
+        "https://youtu.be/m1OitPmkydY?si=gDLRp4tST1QgxbwN",
+        "https://youtu.be/NiRxGpOdCno?si=XL_St7hmJeoSBqvl"
+      ],
+      "Pythagorean Identities": [
+        "https://youtu.be/huP3v7iZuLM?si=pzeBEBGKt6q0MEhN"
+      ],
+      "Cofunction Identities": [
+        "https://youtu.be/35fxto48HZY?si=HlZ8e4WLlcSBYCjx"
+      ],
+      "Trig identities of sum and difference of two angels": [
+        "https://youtu.be/6raOSn1dl4A?si=kPdA5MWUiYkYvsfn",
+        "https://youtu.be/0cB4MLhaCk0?si=91RMUq6KOeJFVHU3"
+      ],
+      "Trig identities of double angles and half angels": [
+        "https://youtu.be/SE5SBTgrwH8?si=-Xrp3YCw5ax1rlzl",
+        "https://youtu.be/9YI69okba3c?si=R_lSfwJnqoT-iGSY"
+      ]
+    },
+    "LO11": {
+      "System": [],
+      "System of equations": [
+        "https://youtu.be/nok99JOhcjo?si=QKKQ2LxFjDlrQXP9"
+      ],
+      "Unknowns": [
+        "https://youtu.be/WZdZhuUSmpM?si=AoxSLLwV0Ypssio5"
+      ],
+      "Graphing methods": [
+        "https://youtu.be/tfF_-Db8iSA?si=N8DmgqNNvXa7eybD"
+      ],
+      "Algebraic methods": [
+        "https://youtu.be/9Xc9ya13MKo?si=GKPOPyL8bvWNY2Pq"
+      ],
+      "Matrix": [
+        "https://youtu.be/yRwQ7A6jVLk?si=LLxK6YAeaewulUK2",
+        "https://youtu.be/Yj0rMy6MBMk?si=WRvhFHEuVoHg_8OO"
+      ],
+      "Operations": [
+        "https://youtu.be/saTBf8AO4Ok?si=KEJoiyBa2st4r6xy",
+        "https://youtu.be/3gaxVHVI4cI?si=JGF3TbxW6f1Mz5jw"
+      ],
+      "Linear Programming": [
+        "https://youtu.be/Bzzqx1F23a8?si=DCzN5uuelFjoSU9t"
+      ],
+      "Objective functions": [
+        "https://youtu.be/hcYAZo9_b5g?si=aOg-jsiuRs_SjOU0"
+      ],
+      "Feasible regions": [
+        "https://youtu.be/tReggEYSlNY?si=TcZSTUeEjkiPVrLA",
+        "https://youtu.be/jttC9t7uijg?si=jH3GZ2jFDSL6WzFu"
+      ],
+      "Constraints": [
+        "https://youtu.be/vwUV2IDLP8Q?si=Vxqh1Yt2YChxDaDo"
+      ],
+      "Optimal solution": [
+        "https://youtu.be/w32YJMc2_6U?si=60un3bxTF573-weC",
+        "https://youtu.be/q6xPMHry7Aw?si=APqNg1Mc7hk7RCvr"
+      ]
+    },
+    "LO12": {
+      "Determinants": [
+        "https://youtu.be/3ROzG6n4yMc?si=ZSPgDXqH1PZh5a_y"
+      ],
+      "Value of a determinant": [
+        "https://youtu.be/CcbyMH3Noow?si=SbuvQsnemxuWGuNw",
+        "https://youtu.be/QhCF4s4D9vY?si=w2BK-WTMM8E8exwG"
+      ],
+      "Area, parallelogram and triangle": [
+        "https://youtu.be/JnLDmw3bbuw?si=YRQ_L5QGcXKhV2SO"
+      ],
+      "Matrices": [
+        "https://youtu.be/yRwQ7A6jVLk?si=SlOs6wiK05XBlxXP"
+      ],
+      "System of equations": [
+        "https://youtu.be/nok99JOhcjo?si=xsUns-QBe7t947mj"
+      ],
+      "Cramer Rule": [
+        "https://youtu.be/RdLo-9jh2EM?si=GO8q4Q7qwEaOpiL5"
+      ]
+    }
+  },
+  "loSummaryVideos": {
+    "LO7": [
+      "https://youtu.be/EzlwmG0irRA?si=xEchoud4_9Ruv7tg"
+    ],
+    "LO8": [
+      "https://youtu.be/Av_iclNHcfc?si=RCaKBBfm_IkrbwL_"
+    ],
+    "LO9": [
+      "https://youtu.be/CJCebh39GCo?si=mWffPMtb9uhteExk"
+    ],
+    "LO10": [
+      "https://youtu.be/c4pkwsSFiTQ?si=TAqy4JZBK0-j1OmV"
+    ],
+    "LO11": [
+      "https://youtu.be/QzdYgg_dKok?si=q4HrTw9eUIFmx-ui"
+    ],
+    "LO12": [
+      "https://youtu.be/FzArV3xpjxc?si=5pMB_almgkTv3eYS"
+    ]
+  },
+  "revisionVideos": {
+    "midterm": [
+      "https://youtu.be/Z6MwjTdPP_4?si=7Ln_kpccziW7Mllp"
+    ],
+    "final": [
+      "https://youtu.be/TFS9XCEgo88?si=XLuDlfmg3uw2KFa3"
+    ]
+  },
+  "shareMap": {
+    "Copy of Copy of lo12 math.pptx": "https://drive.google.com/file/d/1ImqMl5VhqsbZ17GCF0rw8Y6GJQfO9cLq/view",
+    "Copy of Copy of LO 12.pdf": "https://drive.google.com/file/d/1Noq1E8a8Hbr8LihAZ3NfhL7-doPDKC6D/view",
+    "Copy of Copy of Trig Cheat Sheet.pdf": "https://drive.google.com/file/d/1B9cCknWypsxBQQW2ooc0IvrJ-gPgQ8ak/view",
+    "Copy of TRIG 2 (1).pdf": "https://drive.google.com/file/d/1d1-FFd2K0qHyj321Xiray12H11uCzj22/view",
+    "Copy of TRIG 3.pdf": "https://drive.google.com/file/d/1HlPrLqPJBA8pZs2BTAg1yGe6VoLAUJNX/view",
+    "Copy of MA 1.09 Trigonometric functions.pptx": "https://drive.google.com/file/d/1L1iTCAjj7ZjITKSb9TkRf25HEMKkQyXE/view",
+    "Copy of TRIG 1 (1).pdf": "https://drive.google.com/file/d/1d07fLixV_bUvXnelcDdvbNFt4vB9JEFk/view",
+    "LO7 Math.pdf": "https://drive.google.com/file/d/1h1_WM2FrOvu2UYny_ih6HA5kYl196gCU/view",
+    "lo7 math.pptx": "https://drive.google.com/file/d/1kUx-mUjKrEC2SIemujYjyHfyokQdw_P8/view",
+    "Copy of MA 1.08 Exponetial and logarithms.pptx": "https://drive.google.com/file/d/11w-IEiQsfH7RultRFu2PJwJ949e3lsBf/view",
+    "Copy of LO .MA . 1.08.pdf": "https://drive.google.com/file/d/1DCyPjW7vu6XFWub4SYOX6M5_Ujh5zmqU/view",
+    "2016-2017.pdf": "https://drive.google.com/file/d/1GHHpqyvWkcv9nMv6je728jCQMqlO6aGT/view",
+    "Copy of Maths Mid-term test bank (MEO).pdf": "https://drive.google.com/file/d/12mUCznuaeQrlM5rbK6b5j14NTinPTkWJ/view",
+    "2017-2018.pdf": "https://drive.google.com/file/d/1FMmxbcur_wEFtwOrRE-q_021nfLDl6vR/view",
+    "2018-2019.pdf": "https://drive.google.com/file/d/1njfmefYq_9smYZRs6oRr0w1-go7uAY5Q/view",
+    "math.-grade-10-2nd-midterm. saved.pdf": "https://drive.google.com/file/d/1qzAHhbWM4hV-U67iQEf5lxsrvVVgH32Z/view",
+    "math.-grade-10-2nd-midterm..pdf": "https://drive.google.com/file/d/15xzw5DQ0_FglftZZjT778Khn76tnLvpF/view",
+    "2015-2016 (1).pdf": "https://drive.google.com/file/d/1KwUKmM_zxuqb0Sehqf3omvm6Jf8RVZ00/view",
+    "2015-2016.pdf": "https://drive.google.com/file/d/1YR7WQXMIOj09ZF6mM0M71I4QS6WKzRSP/view",
+    "grade 10 second midterm Exam.pdf": "https://drive.google.com/file/d/1tCHhJ6c7F0WE7WZq1tSBOxo4CkzBoNpJ/view",
+    "Math final test Grade10.pdf": "https://drive.google.com/file/d/16x4gn_8x81oJCXMEhxRICRlgm2ME0SPW/view",
+    "Quiz LO7.pptx": "https://drive.google.com/file/d/1htnN_4bZaF1xBgzT1s4rYaAp8vYBExdH/view",
+    "TEST BANK LO7.pdf": "https://drive.google.com/file/d/1Bqtu87koizEicRTWvKP-ou854QuEa8zk/view",
+    "LO 7 exercise.pdf": "https://drive.google.com/file/d/11lg4svYoOLC1qs-7HTKpdYWbhwdSeXuA/view",
+    "Copy of Copy of KFS LO 8 exercise.pdf": "https://drive.google.com/file/d/187PlXiDQXbusBTQjD4BKm2neSn__4Zag/view",
+    "Copy of Copy KFS of LO 9 ecercises.pdf": "https://drive.google.com/file/d/17_At7yei-TwxedSA0QwVfJ9klqLv6zBw/view",
+    "Copy of Math Revision L.O.8.pdf": "https://drive.google.com/file/d/1WE8CdYGEWhgJKJKEOoO_ErlGCOaRl5bh/view",
+    "Copy of LO 10 exercises.pdf": "https://drive.google.com/file/d/1LT5360JPNxmsaHw0Ot2M28K1UWYIx0xt/view",
+    "Copy of worksheet lo 9.pdf": "https://drive.google.com/file/d/1ASM4BxOC8Q143awex13kqT6-29K_TP-W/view",
+    "Copy of Trig Identites 3.pdf": "https://drive.google.com/file/d/1EGtNusUmKck5HR49qg08BiOKqDHCwVOF/view",
+    "Copy of Trig Identites 1st session.pdf": "https://drive.google.com/file/d/1JukIDaW_94uM6n1__iHSzkpkJpSab9Or/view",
+    "Copy of 6 General exercises.pptx": "https://drive.google.com/file/d/1pL98NrLNh3FKlYKdHcQVvJ53289Vn1Bb/view",
+    "Copy of Trig Identites 2.pdf": "https://drive.google.com/file/d/1aqVVD0tvFZWL5YxB2mF1Yn6J4MM6vp8m/view",
+    "Copy of Copy of LO 11& 12 exercises.pdf": "https://drive.google.com/file/d/1hgptP07pkO2NybwSJ0bqpjgApBXtYmSI/view",
+    "Copy of Trig Cheat Sheet.pdf": "https://drive.google.com/file/d/1TrFy1Ws3O75l1LwznAhSajRX7D0sXSH3/view",
+    "Copy of Copy of MA 1.10 Trigonometric identities.pptx": "https://drive.google.com/file/d/1CcD54Zg-95uLy4p3e5H3OJMJt8jc4MlX/view",
+    "Copy of Copy of MA 1.10 Trigonometric identities (1).pptx": "https://drive.google.com/file/d/1sXo7QTaRw5XCAnZq6KpFxsxfahhq7PK6/view",
+    "Copy of MA LO 1.11 Modelling with Multiple Linear Equations.pptx": "https://drive.google.com/file/d/1AP8ypoEhuh02kIfkg9UQpeRMn-83qmua/view",
+    "Copy of Copy of LO 11.pdf": "https://drive.google.com/file/d/1JaS7RUf844ss0QAHYtZK4Xw1Cw34asMp/view"
+  }
+}

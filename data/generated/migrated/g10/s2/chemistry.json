@@ -1,0 +1,2461 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-05T18:33:38.298Z",
+  "source": {
+    "file": "migration/raw/g10/s2/chemistry.json"
+  },
+  "subject": {
+    "id": "chemistry-g10-s2",
+    "name": "Chemistry",
+    "description": "Chemistry resources for Grade 10, Semester 2.",
+    "grade": "10",
+    "semester": "2",
+    "icon": "chemistry",
+    "content": [
+      {
+        "id": "chemistry-g10-s2-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "LO8",
+        "description": "",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s2-concept-pure-substance",
+            "title": "Pure substance",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s2-video-xuxg3fmuafy-cc1de197c6",
+              "chemistry-g10-s2-video-ohhnm2p5g3o-3ab00ab216"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-solution",
+            "title": "Solution",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-solute",
+            "title": "Solute",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-solvent",
+            "title": "Solvent",
+            "description": "",
+            "order": 4,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-colloid",
+            "title": "Colloid",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "chemistry-g10-s2-video-mezqm7hznzg-2896e699a7"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-tyndall-effect",
+            "title": "Tyndall Effect",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s2-video-oxokzplb6qo-9100d5fb49"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-suspension",
+            "title": "Suspension",
+            "description": "",
+            "order": 7,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s2-pdf-l-o-8-65a6c1a354",
+          "chemistry-g10-s2-pdf-lo8-chemistry-pdf-db5507c745",
+          "chemistry-g10-s2-pdf-ch-1-08-pdf-bd58f38bf6",
+          "chemistry-g10-s2-pdf-copy-of-ch-1-08-pptx-c998c5740a",
+          "chemistry-g10-s2-pdf-lo-o8-mixtures-with-questions-pptx-2bc7af1d27",
+          "chemistry-g10-s2-pdf-lo-8-questions-pdf-065201f8ce",
+          "chemistry-g10-s2-pdf-lo-8-part-one-mahjoub-pptx-pdf-87755969a8",
+          "chemistry-g10-s2-pdf-chemistry-lo8-m-e-o-1-pdf-d32e6865f4",
+          "chemistry-g10-s2-pdf-g10-chem-08-pdf-ecb694568a"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s2-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "LO9",
+        "description": "",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s2-concept-texture",
+            "title": "Texture",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s2-video-phci22twtuu-944ab41cb8"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-uniformity",
+            "title": "Uniformity",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-strength",
+            "title": "Strength",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-elasticity",
+            "title": "Elasticity",
+            "description": "",
+            "order": 4,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-bounce",
+            "title": "Bounce",
+            "description": "",
+            "order": 5,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-malleability",
+            "title": "Malleability",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s2-video-08mgigbcsci-04c5515126"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s2-pdf-l-o-9-a152903668",
+          "chemistry-g10-s2-pdf-ch-1-09-ppt-f46cb62bca",
+          "chemistry-g10-s2-pdf-lo-9-mahjoub-pptx-pdf-d4c8a4ed99",
+          "chemistry-g10-s2-pdf-lo-9-pdf-e68c1598d3",
+          "chemistry-g10-s2-pdf-lo-1-09-mr-ayman-elkady-pdf-7da615b5c1",
+          "chemistry-g10-s2-pdf-chem-lo9-pptx-0a850b7657",
+          "chemistry-g10-s2-pdf-g10-chem-09-pdf-9ce9552341"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s2-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "LO10",
+        "description": "",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s2-concept-stoichiometry",
+            "title": "Stoichiometry",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s2-video-bvrpvhhluga-1d466873f2"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-mole",
+            "title": "Mole",
+            "description": "",
+            "order": 2,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-molar-mass",
+            "title": "Molar mass",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-standard-temperature-and-pressure-stp",
+            "title": "Standard temperature and pressure (STP)",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "chemistry-g10-s2-video-b1zsdnogeya-2eafb87483"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-dimensional-analysis-unit-conversions",
+            "title": "Dimensional analysis (unit conversions)",
+            "description": "",
+            "order": 5,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-percentage-yield",
+            "title": "Percentage yield",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s2-video-diird9ozvii-bf6a52d582"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-limiting-reagent",
+            "title": "Limiting reagent",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "chemistry-g10-s2-video-nzovr8emwru-7a7d360ad6"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s2-pdf-l-o-10-26a6c98915",
+          "chemistry-g10-s2-pdf-chemistry-lo-10-m-e-o-pdf-f23d791ecc",
+          "chemistry-g10-s2-pdf-copy-of-ch-1-10-pptx-33a52abbde",
+          "chemistry-g10-s2-pdf-lo-10-3-pdf-576d8fb861",
+          "chemistry-g10-s2-pdf-lo-10-2-pdf-8e16f7c612",
+          "chemistry-g10-s2-pdf-lo-10-1-pdf-626cfe26eb",
+          "chemistry-g10-s2-pdf-g10-chem-10-pdf-6eb9f28de2"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s2-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "LO11",
+        "description": "",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s2-concept-synthesis-reaction",
+            "title": "Synthesis reaction",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s2-video-frsuhbtgwsg-ae9c6afe65"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-decomposition-reaction",
+            "title": "Decomposition reaction",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s2-video-bf0alyxhbgw-21ce20cb8d"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-single-replacement-reaction",
+            "title": "Single-replacement reaction",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s2-video-4xlmqvokflg-dc530c9332"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-double-replacement-reaction",
+            "title": "Double-replacement reaction",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "chemistry-g10-s2-video-d8vwigf2mge-1a1fc8ead7"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s2-pdf-l-o-11-72d4226c6b",
+          "chemistry-g10-s2-pdf-lo11-pptx-33040133bf",
+          "chemistry-g10-s2-pdf-lo-11-mahjoub-pdf-82fdf622ee",
+          "chemistry-g10-s2-pdf-lo-11-pdf-e438c57010",
+          "chemistry-g10-s2-pdf-g10-chem-11-pdf-74bbf1f167"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s2-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "LO12",
+        "description": "",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s2-concept-intermolecular-forces",
+            "title": "Intermolecular forces",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s2-video-bjzbdk1oe9m-ed4bcdf906"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-london-dispersion-force",
+            "title": "London dispersion force",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s2-video-yiujfhovh48-ab2935a44d"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-dipole-dipole-force",
+            "title": "Dipole-dipole force",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s2-video-zovnu0kyyxo-b30ffb8358"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-electronegativity",
+            "title": "Electronegativity",
+            "description": "",
+            "order": 4,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-polarity",
+            "title": "Polarity",
+            "description": "",
+            "order": 5,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-vespr-theory",
+            "title": "VESPR theory",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s2-video-dbrq31w8vc4-9517d28547"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s2-pdf-l-o-12-b0e6d80803",
+          "chemistry-g10-s2-pdf-chem-12-pptx-8f2fa0c580",
+          "chemistry-g10-s2-pdf-ch-1-12-pptx-48a6ca3ea6",
+          "chemistry-g10-s2-pdf-lo-12-mahjoub-pptx-pdf-211f357cc4",
+          "chemistry-g10-s2-pdf-lo-12-pdf-ddc312fb11",
+          "chemistry-g10-s2-pdf-g10-chem-12-pdf-99fe1dc09e"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s2-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "LO13",
+        "description": "",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s2-concept-metals",
+            "title": "Metals",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s2-video-bd7vnlr-i-c-07314edf87"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-oxidation-reduction-redox-reaction",
+            "title": "Oxidation-reduction (redox) reaction",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s2-video-vxvtkwubqqg-3e7004f501",
+              "chemistry-g10-s2-video-6gtcvqlmpo8-e9a910303f",
+              "chemistry-g10-s2-video-lq6fba1hm3s-5e888197c0"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-oxidation",
+            "title": "Oxidation",
+            "description": "",
+            "order": 3,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-reduction",
+            "title": "Reduction",
+            "description": "",
+            "order": 4,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s2-pdf-l-o-13-72315c6acd",
+          "chemistry-g10-s2-pdf-ch-1-13-pptx-1ab7acb4b0",
+          "chemistry-g10-s2-pdf-lo-13-mahjoub-pptx-pdf-4eb99af54c",
+          "chemistry-g10-s2-pdf-lo13-pptx-ff26e18472",
+          "chemistry-g10-s2-pdf-g10-chem-13-pdf-4c5069ba05"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s2-unit-07",
+        "type": "unit",
+        "number": "07",
+        "title": "LO14",
+        "description": "",
+        "order": 7,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s2-concept-oxidation-reduction-redox-reaction",
+            "title": "Oxidation-reduction (redox) reaction",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s2-video-sabiqq-l46g-7c8a0e8e8d",
+              "chemistry-g10-s2-video-df5lb7grtca-a532aca86d"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-half-reactions",
+            "title": "Half-reactions",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s2-video-fdbrhqam9gw-04d7c09a94"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-electrochemical-cell",
+            "title": "Electrochemical cell",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s2-video-iv4iusholjg-7b48ecd92a"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-galvanic-cell",
+            "title": "Galvanic cell",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "chemistry-g10-s2-video-9blb-umtiam-f6f5272a83"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-spectator-ions",
+            "title": "Spectator ions",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "chemistry-g10-s2-video-picimjn5hwu-30e12996f4"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s2-pdf-l-o-14-a8cf2f3533",
+          "chemistry-g10-s2-pdf-ch-1-14-pptx-97e3274129",
+          "chemistry-g10-s2-pdf-lo-14-15-pdf-ad2279f908"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s2-unit-08",
+        "type": "unit",
+        "number": "08",
+        "title": "LO15",
+        "description": "",
+        "order": 8,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s2-concept-system",
+            "title": "System",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s2-video-tfp6svwpoqc-865c27a5e5"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-thermodynamic",
+            "title": "Thermodynamic",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s2-video-3mjx0cfmpe8-f0f7e72639"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-kinetics",
+            "title": "Kinetics",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s2-video-dyavghgssos-85b1b89381"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-energy",
+            "title": "Energy",
+            "description": "",
+            "order": 4,
+            "resources": [
+              "chemistry-g10-s2-video-jrim-a2ldpm-40ae1d5afe"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-heat",
+            "title": "Heat",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "chemistry-g10-s2-video-2ixef2zpr8e-9738d98e7b"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-maximum-work",
+            "title": "Maximum work",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s2-video-jx4deofwalq-02fd21bbf9"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-law-of-conservation-of-energy",
+            "title": "Law of conservation of energy",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "chemistry-g10-s2-video-dwicadpm7hk-88fe245fba"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-endothermic",
+            "title": "Endothermic",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "chemistry-g10-s2-video-wyqqcojggym-9d2f1b3009"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-exothermic",
+            "title": "Exothermic",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "chemistry-g10-s2-video-8n1bxhgsoow-295dd08d43"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-heat-content",
+            "title": "Heat content",
+            "description": "",
+            "order": 10,
+            "resources": [
+              "chemistry-g10-s2-video-zvrh9d5pw8g-cf4bd6d756"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-enthalpy-change",
+            "title": "Enthalpy change",
+            "description": "",
+            "order": 11,
+            "resources": [
+              "chemistry-g10-s2-video-otk9jrkc6ey-1150f2dcdf"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-energy-diagram",
+            "title": "Energy diagram",
+            "description": "",
+            "order": 12,
+            "resources": [
+              "chemistry-g10-s2-video-yhnhj7wdt8a-da65d2f2f6"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-activation-energy",
+            "title": "Activation energy",
+            "description": "",
+            "order": 13,
+            "resources": [
+              "chemistry-g10-s2-video-8n1bxhgsoow-28fbc7787d"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-activated-complex",
+            "title": "Activated complex",
+            "description": "",
+            "order": 14,
+            "resources": [
+              "chemistry-g10-s2-video-7qoftl3vebc-4b6845cfd8"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-entropy-s",
+            "title": "Entropy(S)",
+            "description": "",
+            "order": 15,
+            "resources": [
+              "chemistry-g10-s2-video-a23khzi8wjk-31d08cd8da"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-spontaneity",
+            "title": "Spontaneity",
+            "description": "",
+            "order": 16,
+            "resources": [
+              "chemistry-g10-s2-video-robkmqjqlr4-337eb0773e"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-gibbs-free-energy",
+            "title": "Gibbs free energy",
+            "description": "",
+            "order": 17,
+            "resources": [
+              "chemistry-g10-s2-video-hnnvisqlsv8-9d5a329702"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-catalyst",
+            "title": "Catalyst",
+            "description": "",
+            "order": 18,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s2-pdf-l-o-15-e52aac3ab5",
+          "chemistry-g10-s2-pdf-ch-1-15-pptx-723fb9c0af",
+          "chemistry-g10-s2-pdf-lo-15-chem-pdf-18484c74aa",
+          "chemistry-g10-s2-pdf-lo-14-15-pdf-ad2279f908",
+          "chemistry-g10-s2-pdf-chem-lo-15-pptx-4e78e9ca0c",
+          "chemistry-g10-s2-pdf-g10-chem-15-pdf-5612604338",
+          "chemistry-g10-s2-video-agxnjf-dqlm-72e9de47d2"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s2-unit-09",
+        "type": "unit",
+        "number": "09",
+        "title": "LO16",
+        "description": "",
+        "order": 9,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s2-concept-gas",
+            "title": "Gas",
+            "description": "",
+            "order": 1,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-natural-law",
+            "title": "Natural law",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s2-video-r-ufyy7awko-9e11deecfa"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-pressure",
+            "title": "Pressure",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s2-video-6t50gmo8tq0-48646d357c"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-atmosphere",
+            "title": "Atmosphere",
+            "description": "",
+            "order": 4,
+            "resources": []
+          },
+          {
+            "id": "chemistry-g10-s2-concept-barometers",
+            "title": "Barometers",
+            "description": "",
+            "order": 5,
+            "resources": [
+              "chemistry-g10-s2-video-yi4rrz3zm7g-77152d32d8"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-boyle-s-law",
+            "title": "Boyle's Law",
+            "description": "",
+            "order": 6,
+            "resources": [
+              "chemistry-g10-s2-video-v8r-au-tlpg-d044ccd8b6",
+              "chemistry-g10-s2-video-yqmv272-4yu-b65b692804"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-charles-s-law",
+            "title": "Charles's Law",
+            "description": "",
+            "order": 7,
+            "resources": [
+              "chemistry-g10-s2-video-twccsshmmgi-1961b1bb0c",
+              "chemistry-g10-s2-video-uz2d79nfx2w-08d957d004"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-absolute-zero",
+            "title": "Absolute Zero",
+            "description": "",
+            "order": 8,
+            "resources": [
+              "chemistry-g10-s2-video-jhxxpnmydbk-2980968b5a"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-kinetic-theory-of-matter",
+            "title": "Kinetic Theory of Matter",
+            "description": "",
+            "order": 9,
+            "resources": [
+              "chemistry-g10-s2-video-robey-idclu-92e6058922",
+              "chemistry-g10-s2-video-cshkgbrige0-3c271bbe5e"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-idea-gas",
+            "title": "Idea Gas",
+            "description": "",
+            "order": 10,
+            "resources": []
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s2-pdf-l-o-16-f4401b8699",
+          "chemistry-g10-s2-pdf-ch-1-16-pptx-b4c9e64878",
+          "chemistry-g10-s2-pdf-lo-16-pdf-41743a347c",
+          "chemistry-g10-s2-pdf-chem-ch16-is-pptx-2d7df43888",
+          "chemistry-g10-s2-pdf-g10-chem-16-pdf-c8d0616f21",
+          "chemistry-g10-s2-video-0kdlufdkrte-9e28fa7229"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s2-unit-10",
+        "type": "unit",
+        "number": "10",
+        "title": "LO17",
+        "description": "",
+        "order": 10,
+        "concepts": [
+          {
+            "id": "chemistry-g10-s2-concept-diffusion",
+            "title": "Diffusion",
+            "description": "",
+            "order": 1,
+            "resources": [
+              "chemistry-g10-s2-video-krlndtmbfzy-957245d8d3"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-effusion",
+            "title": "Effusion",
+            "description": "",
+            "order": 2,
+            "resources": [
+              "chemistry-g10-s2-video-tlrzafu-9kg-0a6142a616"
+            ]
+          },
+          {
+            "id": "chemistry-g10-s2-concept-graham-s-law-of-effusion",
+            "title": "Graham's Law of Effusion",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "chemistry-g10-s2-video-fe14djj7oei-451f9dcd22"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g10-s2-pdf-l-o-17-0a4d92922e",
+          "chemistry-g10-s2-pdf-ch-1-17-pptx-7d57425280",
+          "chemistry-g10-s2-pdf-lo-17-pdf-d9f2f47239",
+          "chemistry-g10-s2-pdf-lo-17-mahjoub-pptx-pdf-7f9fd111a6",
+          "chemistry-g10-s2-pdf-chem-lo17-pptx-c8b464f428",
+          "chemistry-g10-s2-pdf-g10-chem-17-pdf-001046a9b2",
+          "chemistry-g10-s2-video-0kdlufdkrte-9e28fa7229"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s2-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 11,
+        "concepts": [],
+        "resources": []
+      },
+      {
+        "id": "chemistry-g10-s2-revision-revision",
+        "type": "revision",
+        "title": "Revision",
+        "description": "Revision materials for the semester.",
+        "order": 12,
+        "concepts": [],
+        "resources": [
+          "chemistry-g10-s2-video-jtillwdehou-a7ea94b679",
+          "chemistry-g10-s2-video-jq-tvalnch0-b63254ad89"
+        ]
+      },
+      {
+        "id": "chemistry-g10-s2-references-references",
+        "type": "references",
+        "title": "References",
+        "description": "Reference books and additional materials.",
+        "order": 13,
+        "concepts": [],
+        "resources": [
+          "chemistry-g10-s2-pdf-references-positions-pdf-05ca614127",
+          "chemistry-g10-s2-pdf-principles-of-general-chemistry-by-martin-silberberg-z-lib-org-pdf-15b8352225",
+          "chemistry-g10-s2-pdf-principles-of-organic-chemistry-pdf-8a1ff2f17d",
+          "chemistry-g10-s2-pdf-holt-chemistry-textbook-pdf-62b0c5ad22",
+          "chemistry-g10-s2-pdf-active-chemistry-pdf-b219b81222",
+          "chemistry-g10-s2-pdf-zumdahl-chemistry-9th-c2014-solutions-copy-pdf-a0694ff447",
+          "chemistry-g10-s2-pdf-g10-chem-14-pdf-1186c17d0a",
+          "chemistry-g10-s2-pdf-chemistry-practical-for-g10-g11-second-term-dr-baya-pdf-810a698680",
+          "chemistry-g10-s2-pdf-chemistry-practical-pdf-d6ea4cdd9c"
+        ]
+      }
+    ],
+    "units": 10
+  },
+  "resources": [
+    {
+      "id": "chemistry-g10-s2-video-xuxg3fmuafy-cc1de197c6",
+      "title": "Pure substance",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/XuXg3fmuAFY?si=Z_KLg4dotiCPAZY2",
+      "youtubeId": "XuXg3fmuAFY",
+      "source": {
+        "location": "LO8 → Pure substance"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-ohhnm2p5g3o-3ab00ab216",
+      "title": "Pure substance",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/OHhnm2p5G3o?si=5kn_k1_wJiwo8KMY",
+      "youtubeId": "OHhnm2p5G3o",
+      "source": {
+        "location": "LO8 → Pure substance"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-mezqm7hznzg-2896e699a7",
+      "title": "Colloid",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/meZqm7HznZg?si=PWsrVxWBivq",
+      "youtubeId": "meZqm7HznZg",
+      "source": {
+        "location": "LO8 → Colloid"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-oxokzplb6qo-9100d5fb49",
+      "title": "Tyndall Effect",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/OXoKZPLb6Qo?si=hRoP_YxmsDO8najn",
+      "youtubeId": "OXoKZPLb6Qo",
+      "source": {
+        "location": "LO8 → Tyndall Effect"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-l-o-8-65a6c1a354",
+      "title": "L.O:8",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1ozklVlua61942qPdj0PvOF8A2U6Da2zIiBiHf9VHEE0/edit",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo8-chemistry-pdf-db5507c745",
+      "title": "lo8 chemistry.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1oFeWLuUrAaAyhunsY_5vHjmb3iZR5L6E/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-ch-1-08-pdf-bd58f38bf6",
+      "title": "CH.1.08.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/11w5ScfBdUTG1sgYAG8yaHbsXmsVJkCX8/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-copy-of-ch-1-08-pptx-c998c5740a",
+      "title": "Copy of CH.1.08.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1r_YuU9N8EZhJ7cxm2v9Eni6n0ItVxVa6/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-o8-mixtures-with-questions-pptx-2bc7af1d27",
+      "title": "LO.O8 mixtures with questions.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1dBj4ZNoGGs-YvSOXum4tjI-6cVMGP9n-/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-8-questions-pdf-065201f8ce",
+      "title": "LO 8 questions.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1jyk1lN08blKsf9qFmAzJ9JxjK1EBnupH/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-8-part-one-mahjoub-pptx-pdf-87755969a8",
+      "title": "LO 8 Part One Mahjoub.pptx.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/11fjtYkUxKr6UrNjj0a37L68I0sWaSfhy/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-chemistry-lo8-m-e-o-1-pdf-d32e6865f4",
+      "title": "Chemistry LO8 (M.E.O) (1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1o_N3xLHQM1sQ2yPqlQwXhkk0M9yjaCw6/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-g10-chem-08-pdf-ecb694568a",
+      "title": "G10 CHEM.08.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1_UyTefoDhRpE1hagnfMgkMkh-xZkUHiL/view",
+      "source": {
+        "location": "LO8"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-01"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-phci22twtuu-944ab41cb8",
+      "title": "Texture",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/phcI22TWtuU?si=7MspQFuBySc-fJQ-",
+      "youtubeId": "phcI22TWtuU",
+      "source": {
+        "location": "LO9 → Texture"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-08mgigbcsci-04c5515126",
+      "title": "Malleability",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/08mGIgBcscI?si=-HDsR1VKDHLEn3cr",
+      "youtubeId": "08mGIgBcscI",
+      "source": {
+        "location": "LO9 → Malleability"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-l-o-9-a152903668",
+      "title": "L.O:9",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1p7AnrpoWcX3RWmSKG8sIwREBwa-EYiRFv_UL1wZMscA/edit",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-ch-1-09-ppt-f46cb62bca",
+      "title": "CH.1.09 .ppt",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1dfQE4l6r-R9VCqDstNUOeB77MEHtOSLt/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-9-mahjoub-pptx-pdf-d4c8a4ed99",
+      "title": "LO 9  Mahjoub.pptx.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/18NQzBFBTvndrApLQX21tFUre3Qj5UsSF/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-9-pdf-e68c1598d3",
+      "title": "LO 9.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1JHapMDk-Q2WUOOZczyl1eMu7Polffc8_/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-1-09-mr-ayman-elkady-pdf-7da615b5c1",
+      "title": "LO.1.09 MR. Ayman Elkady.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/17vokL-VUH5g7_JDMBYT5b9OG3u9m4BfC/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-chem-lo9-pptx-0a850b7657",
+      "title": "Chem LO9.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1p7L_IxHmR2r5twF0Tb4RYaY9-TZkLbGN/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-g10-chem-09-pdf-9ce9552341",
+      "title": "G10 CHEM.09.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/11_tgZ_iMGmqlg_LVMa4xkBAeA68vWMUa/view",
+      "source": {
+        "location": "LO9"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-02"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-bvrpvhhluga-1d466873f2",
+      "title": "Stoichiometry",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/bVRPVHhLuGA?si=VyK-S0-bm3qIn-2b",
+      "youtubeId": "bVRPVHhLuGA",
+      "source": {
+        "location": "LO10 → Stoichiometry"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-b1zsdnogeya-2eafb87483",
+      "title": "Standard temperature and pressure (STP)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/B1ZsDnOGeYA?si=FlwiaPfDZjGBSiZd",
+      "youtubeId": "B1ZsDnOGeYA",
+      "source": {
+        "location": "LO10 → Standard temperature and pressure (STP)"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-diird9ozvii-bf6a52d582",
+      "title": "Percentage yield",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/DIird9oZVII?si=UryysM-O6ocDlLh2",
+      "youtubeId": "DIird9oZVII",
+      "source": {
+        "location": "LO10 → Percentage yield"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-nzovr8emwru-7a7d360ad6",
+      "title": "Limiting reagent",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/nZOVR8EMwRU?si=e1-jNQQfwcO7IDWT",
+      "youtubeId": "nZOVR8EMwRU",
+      "source": {
+        "location": "LO10 → Limiting reagent"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-l-o-10-26a6c98915",
+      "title": "L.O:10",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/12gayhQhDBiofnsJ78vScSuyLhako7sK9FC2wwchHEPk/edit",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-chemistry-lo-10-m-e-o-pdf-f23d791ecc",
+      "title": "Chemistry Lo 10 M.E.O.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ZwzXYQHU2rAoz6Ovq1ipZtY1CpVs120h/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-copy-of-ch-1-10-pptx-33a52abbde",
+      "title": "Copy of CH.1.10.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1zN21FDvarAiPq60N-pwL57J742nRKfGt/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-10-3-pdf-576d8fb861",
+      "title": "LO 10-3.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1aWCKY__S4ZLEX4cLeZqj34iC0j17z6BE/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-10-2-pdf-8e16f7c612",
+      "title": "LO 10-2.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/14Bo9GetsnZ_zsFVcQro9XuRgPj76cFvY/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-10-1-pdf-626cfe26eb",
+      "title": "LO 10-1.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1FxubX3qTaiM_tTdSCYTzvFNqd2DLESfo/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-g10-chem-10-pdf-6eb9f28de2",
+      "title": "G10 CHEM.10.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/12h885E96a7nIJh-HI0YCENthXiA1-MUN/view",
+      "source": {
+        "location": "LO10"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-03"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-frsuhbtgwsg-ae9c6afe65",
+      "title": "Synthesis reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/FRsuhbTGWSg?si=mgdiTm8_4uj",
+      "youtubeId": "FRsuhbTGWSg",
+      "source": {
+        "location": "LO11 → Synthesis reaction"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-bf0alyxhbgw-21ce20cb8d",
+      "title": "Decomposition reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Bf0alYXHbGw?si=SlhibqW1gaBDH6T9",
+      "youtubeId": "Bf0alYXHbGw",
+      "source": {
+        "location": "LO11 → Decomposition reaction"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-4xlmqvokflg-dc530c9332",
+      "title": "Single-replacement reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/4xLmQvoKFlg?si=5W4VTV8X2tU3tntL",
+      "youtubeId": "4xLmQvoKFlg",
+      "source": {
+        "location": "LO11 → Single-replacement reaction"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-d8vwigf2mge-1a1fc8ead7",
+      "title": "Double-replacement reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/d8vWIGf2mGE?si=vf26jifpyXF8_Pyf",
+      "youtubeId": "d8vWIGf2mGE",
+      "source": {
+        "location": "LO11 → Double-replacement reaction"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-l-o-11-72d4226c6b",
+      "title": "L.O:11",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1X7F9D_MatDl2jrt0IFQFqYhNPpuCXa786ZAwuwN7FTI/edit",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo11-pptx-33040133bf",
+      "title": "LO11.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1VAMxAiZam25sEef_IaJIo0tkEgoM-vz-/view",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-11-mahjoub-pdf-82fdf622ee",
+      "title": "LO 11  Mahjoub.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/17Z8qH4Guimozvo4v4_dZFMkz8QV3t4NC/view",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-11-pdf-e438c57010",
+      "title": "LO 11.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/12NlG_w85ArD7xTxoRF8WB5NdCFH9znvX/view",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-g10-chem-11-pdf-74bbf1f167",
+      "title": "G10 CHEM.11.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1lcTafnpFU-v-VnTdNFDX-pKj90TVeP0b/view",
+      "source": {
+        "location": "LO11"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-04"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-bjzbdk1oe9m-ed4bcdf906",
+      "title": "Intermolecular forces",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/bjZbDk1Oe9M?si=IENzDmtPcflDaPF0",
+      "youtubeId": "bjZbDk1Oe9M",
+      "source": {
+        "location": "LO12 → Intermolecular forces"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-yiujfhovh48-ab2935a44d",
+      "title": "London dispersion force",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/yIuJfHOVh48?si=5FGJN7BPzD3d0LB5",
+      "youtubeId": "yIuJfHOVh48",
+      "source": {
+        "location": "LO12 → London dispersion force"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-zovnu0kyyxo-b30ffb8358",
+      "title": "Dipole-dipole force",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zOvnu0KYyxo?si=IiMcrFUWzb7rVxpt",
+      "youtubeId": "zOvnu0KYyxo",
+      "source": {
+        "location": "LO12 → Dipole-dipole force"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-dbrq31w8vc4-9517d28547",
+      "title": "VESPR theory",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/DBrq31w8vC4?si=-e7yKkCQnlSinUX6",
+      "youtubeId": "DBrq31w8vC4",
+      "source": {
+        "location": "LO12 → VESPR theory"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-l-o-12-b0e6d80803",
+      "title": "L.O:12",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/19T0S51GubaTKXr6lN2COzEGeDFyZMyVM1VYGWcSze1o/edit",
+      "source": {
+        "location": "LO12"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-chem-12-pptx-8f2fa0c580",
+      "title": "chem.. 12.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1MVV7GTZxOe-SP1STQqceeuUsDa_K2jiH/view",
+      "source": {
+        "location": "LO12"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-ch-1-12-pptx-48a6ca3ea6",
+      "title": "CH.1.12.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/10edqtz0NLzF8B4S0Z_l68PqPegg417Yv/view",
+      "source": {
+        "location": "LO12"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-12-mahjoub-pptx-pdf-211f357cc4",
+      "title": "LO 12 Mahjoub.pptx.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1kKK67vx4RseBLpve7NHrI6WB-cwUwib3/view",
+      "source": {
+        "location": "LO12"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-12-pdf-ddc312fb11",
+      "title": "LO 12.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/106c5t2bDdrI7PVlBmkt4TMZKFa594WEy/view",
+      "source": {
+        "location": "LO12"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-g10-chem-12-pdf-99fe1dc09e",
+      "title": "G10 CHEM.12.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/10-ygXV1Bp7Ay7S_pD1qkmiJWBKUpUx2S/view",
+      "source": {
+        "location": "LO12"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-05"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-bd7vnlr-i-c-07314edf87",
+      "title": "Metals",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/BD7vnlr-i-c?si=Bx6Jc0i-z8W6SLMG",
+      "youtubeId": "BD7vnlr-i-c",
+      "source": {
+        "location": "LO13 → Metals"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-vxvtkwubqqg-3e7004f501",
+      "title": "Oxidation-reduction (redox) reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/VXvtkwubQQg?si=qJyRU-mDKsiWwnOb",
+      "youtubeId": "VXvtkwubQQg",
+      "source": {
+        "location": "LO13 → Oxidation-reduction (redox) reaction"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-6gtcvqlmpo8-e9a910303f",
+      "title": "Oxidation-reduction (redox) reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/6gtcvqLmPo8?si=Fj1IGKAq-NpLjE3s",
+      "youtubeId": "6gtcvqLmPo8",
+      "source": {
+        "location": "LO13 → Oxidation-reduction (redox) reaction"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-lq6fba1hm3s-5e888197c0",
+      "title": "Oxidation-reduction (redox) reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/lQ6FBA1HM3s?si=zqohJZIDiKupB4Lb",
+      "youtubeId": "lQ6FBA1HM3s",
+      "source": {
+        "location": "LO13 → Oxidation-reduction (redox) reaction"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-l-o-13-72315c6acd",
+      "title": "L.O:13",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/16sgodK4nE8P-S4oVtZFiiPwB9CoAZmjmdmLgkQvgJzQ/edit",
+      "source": {
+        "location": "LO13"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-06"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-ch-1-13-pptx-1ab7acb4b0",
+      "title": "CH.1.13.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/10g9hq_pDwiKHjYsnKDCH7p3IzSLxtKwC/view",
+      "source": {
+        "location": "LO13"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-06"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-13-mahjoub-pptx-pdf-4eb99af54c",
+      "title": "LO 13 Mahjoub.pptx.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1lGoFpmZpdPyh2O9X740MzM-CF3BlqAvJ/view",
+      "source": {
+        "location": "LO13"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-06"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo13-pptx-ff26e18472",
+      "title": "LO13.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Oq75RW-0Z0xukmh3naA6nuGLvd9Kb6z1/view",
+      "source": {
+        "location": "LO13"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-06"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-g10-chem-13-pdf-4c5069ba05",
+      "title": "G10 CHEM.13.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ePci2A1HnGMk38bbGUmEVmgrtKt5uymi/view",
+      "source": {
+        "location": "LO13"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-06"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-sabiqq-l46g-7c8a0e8e8d",
+      "title": "Oxidation-reduction (redox) reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/SaBiqQ_L46g?si=D9Lz8EdGXGpWatWx",
+      "youtubeId": "SaBiqQ_L46g",
+      "source": {
+        "location": "LO14 → Oxidation-reduction (redox) reaction"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-df5lb7grtca-a532aca86d",
+      "title": "Oxidation-reduction (redox) reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/dF5lB7gRtcA?si=JoO5a1rbI7FsYJmr",
+      "youtubeId": "dF5lB7gRtcA",
+      "source": {
+        "location": "LO14 → Oxidation-reduction (redox) reaction"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-fdbrhqam9gw-04d7c09a94",
+      "title": "Half-reactions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/fdbrhQAM9Gw?si=uIcCaD8L22EaWeJC",
+      "youtubeId": "fdbrhQAM9Gw",
+      "source": {
+        "location": "LO14 → Half-reactions"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-iv4iusholjg-7b48ecd92a",
+      "title": "Electrochemical cell",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/IV4IUsholjg?si=3NLq1MCobb69PGQ6",
+      "youtubeId": "IV4IUsholjg",
+      "source": {
+        "location": "LO14 → Electrochemical cell"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-9blb-umtiam-f6f5272a83",
+      "title": "Galvanic cell",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/9blB-uMTIAM?si=M0gNqpsKP1PoWmFZ",
+      "youtubeId": "9blB-uMTIAM",
+      "source": {
+        "location": "LO14 → Galvanic cell"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-picimjn5hwu-30e12996f4",
+      "title": "Spectator ions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/PIciMJN5HwU?si=1alrSF-lUAB_QhiI",
+      "youtubeId": "PIciMJN5HwU",
+      "source": {
+        "location": "LO14 → Spectator ions"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-l-o-14-a8cf2f3533",
+      "title": "L.O:14",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1B2CEhKuiusuRQh2vMzkpmo5qSxAWkK6nvwZqKm8rq6s/edit",
+      "source": {
+        "location": "LO14"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-ch-1-14-pptx-97e3274129",
+      "title": "CH.1.14.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1hOLQR-hyUX8KVYQLqi6nxjSm3XeZMAuc/view",
+      "source": {
+        "location": "LO14"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-14-15-pdf-ad2279f908",
+      "title": "LO 14-15.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ALq5fBxf2QIuU3IE0rQEoGM7XD4b2TwD/view",
+      "source": {
+        "location": "LO14"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-07"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-tfp6svwpoqc-865c27a5e5",
+      "title": "System",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TFP6SvWPOQc?si=VCnawRswSdUNp2VL",
+      "youtubeId": "TFP6SvWPOQc",
+      "source": {
+        "location": "LO15 → System"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-3mjx0cfmpe8-f0f7e72639",
+      "title": "Thermodynamic",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/3Mjx0cFMpE8?si=Tp6zre4Qk-ULWd5D",
+      "youtubeId": "3Mjx0cFMpE8",
+      "source": {
+        "location": "LO15 → Thermodynamic"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-dyavghgssos-85b1b89381",
+      "title": "Kinetics",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/DyaVgHGssos?si=_FkHiFJXBO6eNJ_z",
+      "youtubeId": "DyaVgHGssos",
+      "source": {
+        "location": "LO15 → Kinetics"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-jrim-a2ldpm-40ae1d5afe",
+      "title": "Energy",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/JRIm_a2LDPM?si=eaFxcgmODwCvI3zj",
+      "youtubeId": "JRIm_a2LDPM",
+      "source": {
+        "location": "LO15 → Energy"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-2ixef2zpr8e-9738d98e7b",
+      "title": "Heat",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/2ixEf2zpR8E?si=cw7T3WKe_h1pWWmL",
+      "youtubeId": "2ixEf2zpR8E",
+      "source": {
+        "location": "LO15 → Heat"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-jx4deofwalq-02fd21bbf9",
+      "title": "Maximum work",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/jX4dEOFwaLQ?si=XULxzLeJJ1W-EJlc",
+      "youtubeId": "jX4dEOFwaLQ",
+      "source": {
+        "location": "LO15 → Maximum work"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-dwicadpm7hk-88fe245fba",
+      "title": "Law of conservation of energy",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/DWiCaDPM7Hk?si=-Ynh9xiAvBgXeliC",
+      "youtubeId": "DWiCaDPM7Hk",
+      "source": {
+        "location": "LO15 → Law of conservation of energy"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-wyqqcojggym-9d2f1b3009",
+      "title": "Endothermic",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/wYqQCojggyM?si=NMLrZJsbf3pAgb2d",
+      "youtubeId": "wYqQCojggyM",
+      "source": {
+        "location": "LO15 → Endothermic"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-8n1bxhgsoow-295dd08d43",
+      "title": "Exothermic",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8N1BxHgsoOw?si=0cJlKOp6-PgsH2CE",
+      "youtubeId": "8N1BxHgsoOw",
+      "source": {
+        "location": "LO15 → Exothermic"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-zvrh9d5pw8g-cf4bd6d756",
+      "title": "Heat content",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/zVRH9d5PW8g?si=1GaXRTm9fc_odrUi",
+      "youtubeId": "zVRH9d5PW8g",
+      "source": {
+        "location": "LO15 → Heat content"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-otk9jrkc6ey-1150f2dcdf",
+      "title": "Enthalpy change",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/OTK9JrKC6EY?si=JqiiGvgn8smnCVr3",
+      "youtubeId": "OTK9JrKC6EY",
+      "source": {
+        "location": "LO15 → Enthalpy change"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-yhnhj7wdt8a-da65d2f2f6",
+      "title": "Energy diagram",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/yhNHJ7WdT8A?si=oRxHlk8g3y46dmT5",
+      "youtubeId": "yhNHJ7WdT8A",
+      "source": {
+        "location": "LO15 → Energy diagram"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-8n1bxhgsoow-28fbc7787d",
+      "title": "Activation energy",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/8N1BxHgsoOw?si=FYAXy0dRKf8JKaQZ",
+      "youtubeId": "8N1BxHgsoOw",
+      "source": {
+        "location": "LO15 → Activation energy"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-7qoftl3vebc-4b6845cfd8",
+      "title": "Activated complex",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/7qOFtL3VEBc?si=8zmtKsXi4STSdc5z",
+      "youtubeId": "7qOFtL3VEBc",
+      "source": {
+        "location": "LO15 → Activated complex"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-a23khzi8wjk-31d08cd8da",
+      "title": "Entropy(S)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/a23khZI8wJk?si=btQStFOG7QfYLgDA",
+      "youtubeId": "a23khZI8wJk",
+      "source": {
+        "location": "LO15 → Entropy(S)"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-robkmqjqlr4-337eb0773e",
+      "title": "Spontaneity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/ROBkMqJQLr4?si=bdGCkOHcf4MJnWK3",
+      "youtubeId": "ROBkMqJQLr4",
+      "source": {
+        "location": "LO15 → Spontaneity"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-hnnvisqlsv8-9d5a329702",
+      "title": "Gibbs free energy",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/hNNvIsQLSV8?si=DABx2uK6Ffcp1ueZ",
+      "youtubeId": "hNNvIsQLSV8",
+      "source": {
+        "location": "LO15 → Gibbs free energy"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-l-o-15-e52aac3ab5",
+      "title": "L.O:15",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1ETDXYhCX3Y8TskukRoUIIzk6Ju4syuOAuojVrsNC7KI/edit",
+      "source": {
+        "location": "LO15"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-08"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-ch-1-15-pptx-723fb9c0af",
+      "title": "CH.1.15.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1t6VQ6O3xFhUJFvJyFMlLUdpwr4dc-lrb/view",
+      "source": {
+        "location": "LO15"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-08"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-15-chem-pdf-18484c74aa",
+      "title": "LO.15 Chem.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1knGbIia0MmfPmu7iSjP1oDdD4-OYF2a1/view",
+      "source": {
+        "location": "LO15"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-08"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-chem-lo-15-pptx-4e78e9ca0c",
+      "title": "Chem LO.15.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/19VWThZZk7Mb3GAUsIcMwkchd87e_a7Ks/view",
+      "source": {
+        "location": "LO15"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-08"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-g10-chem-15-pdf-5612604338",
+      "title": "G10 CHEM.15.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1dFEhAAk1AwKsQbRggSU_7bBmPoVo-mEm/view",
+      "source": {
+        "location": "LO15"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-08"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-agxnjf-dqlm-72e9de47d2",
+      "title": "LO15 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/AGxnJF-dQlM?si=2ht01yyxO_uyLI2f",
+      "youtubeId": "AGxnJF-dQlM",
+      "source": {
+        "location": "LO15 → Summary"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-r-ufyy7awko-9e11deecfa",
+      "title": "Natural law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/r_UfYY7aWKo?si=egFHdgxJ1SyEaWxH",
+      "youtubeId": "r_UfYY7aWKo",
+      "source": {
+        "location": "LO16 → Natural law"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-6t50gmo8tq0-48646d357c",
+      "title": "Pressure",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/6t50Gmo8tq0?si=iWTQQkxGDmDVNJCJ",
+      "youtubeId": "6t50Gmo8tq0",
+      "source": {
+        "location": "LO16 → Pressure"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-yi4rrz3zm7g-77152d32d8",
+      "title": "Barometers",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/YI4RRZ3ZM7g?si=nkeKn3nG-a4zCoU-",
+      "youtubeId": "YI4RRZ3ZM7g",
+      "source": {
+        "location": "LO16 → Barometers"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-v8r-au-tlpg-d044ccd8b6",
+      "title": "Boyle's Law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/v8r_AU_TlPg?si=TduxCehI44P2SaUi",
+      "youtubeId": "v8r_AU_TlPg",
+      "source": {
+        "location": "LO16 → Boyle's Law"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-yqmv272-4yu-b65b692804",
+      "title": "Boyle's Law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/YQmv272-4yU?si=CiwnDhmkUQnCuic0",
+      "youtubeId": "YQmv272-4yU",
+      "source": {
+        "location": "LO16 → Boyle's Law"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-twccsshmmgi-1961b1bb0c",
+      "title": "Charles's Law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/twCcSsHmMgI?si=0an_G1blrCB1NP_o",
+      "youtubeId": "twCcSsHmMgI",
+      "source": {
+        "location": "LO16 → Charles's Law"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-uz2d79nfx2w-08d957d004",
+      "title": "Charles's Law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/uZ2d79NFx2w?si=OM6rzEQWsA58Qvte",
+      "youtubeId": "uZ2d79NFx2w",
+      "source": {
+        "location": "LO16 → Charles's Law"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-jhxxpnmydbk-2980968b5a",
+      "title": "Absolute Zero",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/JHXxPnmyDbk?si=R5Jnmjy3IE3bH0r5",
+      "youtubeId": "JHXxPnmyDbk",
+      "source": {
+        "location": "LO16 → Absolute Zero"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-robey-idclu-92e6058922",
+      "title": "Kinetic Theory of Matter",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/robEY-idcLU?si=vst_CGpx02CS_kMf",
+      "youtubeId": "robEY-idcLU",
+      "source": {
+        "location": "LO16 → Kinetic Theory of Matter"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-cshkgbrige0-3c271bbe5e",
+      "title": "Kinetic Theory of Matter",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/cshKgBRigE0?si=7w_iW2ClFwgby_3s",
+      "youtubeId": "cshKgBRigE0",
+      "source": {
+        "location": "LO16 → Kinetic Theory of Matter"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-l-o-16-f4401b8699",
+      "title": "L.O:16",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1KjhFyrzpklrgC_ArGP5GwGKKmcnaycMQ5z-SJkqL15A/edit",
+      "source": {
+        "location": "LO16"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-09"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-ch-1-16-pptx-b4c9e64878",
+      "title": "CH.1.16.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1mM53ep-8iIQN3AHIJYpZHTZLEmL5KPgz/view",
+      "source": {
+        "location": "LO16"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-09"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-16-pdf-41743a347c",
+      "title": "LO 16.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Z5Lks-w7Yf9XTSAWDBdX699b5IaeZOG3/view",
+      "source": {
+        "location": "LO16"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-09"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-chem-ch16-is-pptx-2d7df43888",
+      "title": "chem ch16 IS.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1zNcz-OOXp3zIPShbrkBXapXVl4SyFuh1/view",
+      "source": {
+        "location": "LO16"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-09"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-g10-chem-16-pdf-c8d0616f21",
+      "title": "G10 CHEM.16.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1NLPywX50uonTIW-c6gIzj3_QByU9Hseh/view",
+      "source": {
+        "location": "LO16"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-09"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-0kdlufdkrte-9e28fa7229",
+      "title": "LO16 Summary",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/0kDlUfDkRTE?si=iwnbMJRdffosxAgi",
+      "youtubeId": "0kDlUfDkRTE",
+      "source": {
+        "location": "LO16 → Summary"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-krlndtmbfzy-957245d8d3",
+      "title": "Diffusion",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/KRLNDTmBFZY?si=5UlabLk4zLZqERC8",
+      "youtubeId": "KRLNDTmBFZY",
+      "source": {
+        "location": "LO17 → Diffusion"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-tlrzafu-9kg-0a6142a616",
+      "title": "Effusion",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/TLRZAFU_9Kg?si=JU6O1ZJa9-n50XMf",
+      "youtubeId": "TLRZAFU_9Kg",
+      "source": {
+        "location": "LO17 → Effusion"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-fe14djj7oei-451f9dcd22",
+      "title": "Graham's Law of Effusion",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/fE14DJj7oeI?si=jGUSagQ4wvgOGLCk",
+      "youtubeId": "fE14DJj7oeI",
+      "source": {
+        "location": "LO17 → Graham's Law of Effusion"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-l-o-17-0a4d92922e",
+      "title": "L.O:17",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1oCxnyJbcJz_CHNQEYTXvWwppHyJwDvnfJyPS90tBBgQ/edit",
+      "source": {
+        "location": "LO17"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-10"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-ch-1-17-pptx-7d57425280",
+      "title": "CH.1.17.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/12KPT4QLrpxedwDY4HdeJWgn1PGYjXwa4/view",
+      "source": {
+        "location": "LO17"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-10"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-17-pdf-d9f2f47239",
+      "title": "LO 17.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Ff2qXL8SppfUJc1wj0VnnfIdZpXDvhNF/view",
+      "source": {
+        "location": "LO17"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-10"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-lo-17-mahjoub-pptx-pdf-7f9fd111a6",
+      "title": "LO 17 Mahjoub.pptx.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Ou0znmhl8RHtoa3EgFKYUjmiTD2Sq5au/view",
+      "source": {
+        "location": "LO17"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-10"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-chem-lo17-pptx-c8b464f428",
+      "title": "chem lo17.pptx",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1wfaa6rKLibezIdoW9qvHikbMLDcgSgAv/view",
+      "source": {
+        "location": "LO17"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-10"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-g10-chem-17-pdf-001046a9b2",
+      "title": "G10 CHEM.17.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Y7c7-vGXIIMndHLRCvyK_cJ4c2RQ0C6R/view",
+      "source": {
+        "location": "LO17"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "chemistry-g10-s2-unit-10"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-jtillwdehou-a7ea94b679",
+      "title": "midterm Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/JTIlLwdEHOU?si=ZMvZQoFb8PGIQCvt",
+      "youtubeId": "JTIlLwdEHOU",
+      "source": {
+        "location": "Revision → midterm"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-video-jq-tvalnch0-b63254ad89",
+      "title": "final Revision",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://youtu.be/Jq_tValNch0?si=cit9F7aK46jbiwmq",
+      "youtubeId": "Jq_tValNch0",
+      "source": {
+        "location": "Revision → final"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-references-positions-pdf-05ca614127",
+      "title": "References Positions.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1-boikkPX4nk4zrKhj3s6kAPeBY3CZcDu/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-principles-of-general-chemistry-by-martin-silberberg-z-lib-org-pdf-15b8352225",
+      "title": "Principles_of_General_Chemistry_by_Martin_Silberberg_z_lib_org.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/14m3z-gnDKIHoXCYgkwT9YTX4iuoN1_4i/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-principles-of-organic-chemistry-pdf-8a1ff2f17d",
+      "title": "Principles of organic chemistry.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1HCrQLUOSzkqV_84i9UcU-xaWlKraakzK/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-holt-chemistry-textbook-pdf-62b0c5ad22",
+      "title": "Holt_Chemistry_Textbook.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1XNMHDqHhavlvWhBilOgMAQ8A0Fczt-eo/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-active-chemistry-pdf-b219b81222",
+      "title": "Active_Chemistry.PDF",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Mi7xSGxdqSaM3CsHU6U_1RALvtOy09IW/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-zumdahl-chemistry-9th-c2014-solutions-copy-pdf-a0694ff447",
+      "title": "Zumdahl Chemistry 9th c2014 solutions - Copy.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1y_ZiYIeS7ZVr0ZrcpG2SqO5a6Hai6IDi/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-g10-chem-14-pdf-1186c17d0a",
+      "title": "G10 CHEM.14.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1UKokQ8xgJbACZSV6MswEWJtiLGFRAw5y/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-chemistry-practical-for-g10-g11-second-term-dr-baya-pdf-810a698680",
+      "title": "Chemistry practical for G10, G11 Second term Dr. baya.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ZlYnj1hvp9biEFR4FdikfSExrW2-aelR/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    },
+    {
+      "id": "chemistry-g10-s2-pdf-chemistry-practical-pdf-d6ea4cdd9c",
+      "title": "Chemistry practical.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1qDFJyjb5swFTv_QO7UNKMuu9HufyHc3k/view",
+      "source": {
+        "location": "References"
+      },
+      "classification": {
+        "status": "classified",
+        "contentType": "references"
+      }
+    }
+  ]
+}
