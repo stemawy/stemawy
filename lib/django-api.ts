@@ -1,7 +1,9 @@
 import type { Subject } from "@/data/subjects";
 import type { Resource } from "@/types";
+import type { Opportunity } from "@/data/opportunities";
 
 export type DjangoSubject = Subject & { resources?: Resource[] };
+export type DjangoOpportunity = Opportunity;
 
 const API_URL =
   process.env.NEXT_PUBLIC_STEMAWY_API_URL ?? "http://127.0.0.1:8000/api";
@@ -35,4 +37,16 @@ export async function fetchDjangoSubject(
   }
 
   return (await response.json()) as Subject;
+}
+
+export async function fetchDjangoOpportunities(): Promise<DjangoOpportunity[]> {
+  const response = await fetch(`${API_URL}/opportunities/`, {
+    cache: "no-store",
+  });
+  if (!response.ok)
+    throw new Error(`Django opportunities request failed: ${response.status}`);
+  const data = (await response.json()) as {
+    opportunities: DjangoOpportunity[];
+  };
+  return data.opportunities;
 }

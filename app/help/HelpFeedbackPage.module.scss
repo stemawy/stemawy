@@ -1,0 +1,391 @@
+.page {
+  flex: 1;
+  min-width: 0;
+  background: var(--background);
+}
+.container {
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 28px 48px 42px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--on-surface-variant);
+  font-size: 11px;
+}
+.breadcrumb span {
+  font-size: 14px;
+}
+.breadcrumb strong {
+  color: var(--primary);
+}
+.breadcrumb a:hover {
+  color: var(--primary);
+}
+.header h1 {
+  margin: 0;
+  color: var(--primary);
+  font-family: var(--font-heading), sans-serif;
+  font-size: clamp(36px, 4vw, 48px);
+  line-height: 1.1;
+}
+.header p {
+  margin: 0;
+  color: var(--on-surface-variant);
+  font-size: 17px;
+}
+.contentGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(280px, 5fr);
+  align-items: start;
+  gap: 24px;
+}
+.formPanel {
+  min-width: 0;
+  padding: 24px;
+  border: 1px solid var(--surface-container-highest);
+  border-radius: 12px;
+  background: var(--surface-container-lowest);
+  box-shadow: var(--shadow-card);
+}
+.formIntro {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--surface-container-highest);
+}
+.formIntro > div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--primary);
+}
+.formIntro h2 {
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 22px;
+}
+.formIntro p {
+  margin: 7px 0 0;
+  color: var(--on-surface-variant);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.contextBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0;
+  padding: 7px 10px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 8px;
+  background: var(--primary-fixed);
+  color: var(--on-primary-fixed);
+  font-size: 12px;
+}
+.contextBanner > div {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 6px;
+}
+.contextBanner > div > span:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.contextBanner button {
+  display: grid;
+  width: 25px;
+  height: 25px;
+  flex: 0 0 25px;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  color: inherit;
+}
+.contextBanner button:hover {
+  opacity: 0.65;
+}
+.contextBanner button span {
+  font-size: 16px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 20px;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: var(--on-surface);
+  font-size: 13px;
+  font-weight: 700;
+}
+.form label > span:first-child > span,
+.form label > span {
+  color: var(--error);
+}
+.form select,
+.form input,
+.form textarea {
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: var(--surface-container-high);
+  color: var(--on-surface);
+  font: inherit;
+  font-size: 14px;
+  outline: 0;
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+.form select,
+.form input {
+  height: 44px;
+  padding: 0 14px;
+}
+.form textarea {
+  resize: vertical;
+  padding: 14px;
+  line-height: 1.5;
+}
+.form select:focus,
+.form input:focus,
+.form textarea:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-fixed);
+}
+.form label small {
+  color: var(--outline);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+.labelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.labelRow small {
+  color: var(--outline) !important;
+}
+.submitButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 44px;
+  border: 0;
+  border-radius: 9px;
+  background: var(--secondary);
+  color: var(--on-secondary);
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: var(--shadow-card);
+  transition:
+    transform var(--transition-fast),
+    background var(--transition-fast);
+}
+.submitButton:hover {
+  background: var(--primary);
+  transform: translateY(-1px);
+}
+.submitButton:active {
+  transform: translateY(0);
+}
+.sideColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.resourceCard {
+  position: relative;
+  overflow: hidden;
+  padding: 24px;
+  border: 1px solid rgb(197 197 211 / 20%);
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-container));
+  color: var(--on-primary);
+  box-shadow: var(--shadow-card);
+}
+.resourceCard:after {
+  position: absolute;
+  right: -30px;
+  bottom: -35px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: rgb(33 112 228 / 35%);
+  content: "";
+}
+.resourceBadge {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 7px;
+  border-radius: 4px;
+  background: rgb(144 168 255 / 22%);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.resourceBadge span {
+  font-size: 14px;
+}
+.resourceCard h2,
+.resourceCard p,
+.resourceCard a {
+  position: relative;
+  z-index: 1;
+}
+.resourceCard h2 {
+  margin: 18px 0 8px;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
+}
+.resourceCard p {
+  margin: 0;
+  color: var(--primary-fixed);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.resourceCard a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 18px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--surface-container-lowest);
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 700;
+  transition:
+    transform var(--transition-fast),
+    background var(--transition-fast);
+}
+.resourceCard a:hover {
+  background: var(--surface-container);
+  transform: translateY(-1px);
+}
+.resourceCard a span {
+  font-size: 16px;
+}
+.privacyNote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin: 16px 0 0;
+  color: var(--outline);
+  font-size: 11px;
+  text-align: center;
+}
+.privacyNote span {
+  color: var(--outline-variant);
+}
+.privacyNote > .material-symbols-outlined {
+  font-size: 16px;
+  color: var(--outline);
+}
+.success {
+  display: flex;
+  min-height: 430px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+.successIcon {
+  display: grid;
+  width: 64px;
+  height: 64px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--tertiary-fixed);
+  color: var(--on-tertiary-fixed);
+}
+.successIcon span {
+  font-size: 36px;
+}
+.success h2 {
+  margin: 4px 0 0;
+  color: var(--primary);
+  font-family: var(--font-heading), sans-serif;
+  font-size: 22px;
+}
+.success p {
+  max-width: 360px;
+  margin: 0;
+  color: var(--on-surface-variant);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.success button {
+  margin-top: 8px;
+  padding: 9px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--surface-container);
+  color: var(--on-surface);
+  font-size: 13px;
+  font-weight: 600;
+}
+.success button:hover {
+  background: var(--surface-container-high);
+}
+@media (max-width: 900px) {
+  .container {
+    padding: 28px 32px 42px;
+  }
+  .contentGrid {
+    grid-template-columns: 1fr;
+  }
+  .sideColumn {
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 24px 16px 36px;
+  }
+  .header {
+    margin-bottom: 22px;
+  }
+  .header h1 {
+    font-size: 36px;
+  }
+  .header p {
+    font-size: 16px;
+  }
+  .formPanel {
+    padding: 18px;
+  }
+  .resourceCard {
+    padding: 20px;
+  }
+  .privacyNote {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    line-height: 1.5;
+  }
+  .success {
+    min-height: 360px;
+  }
+}

@@ -71,7 +71,7 @@ export default function SubjectsPage() {
         onSemesterChange={setSemester}
         onQueryChange={setQuery}
       />
-      <div className={styles.sections}>
+      <div className={styles.sections} key={`${grade}-${semester}`}>
         {scienceAndMath.length > 0 && (
           <SubjectSection
             title={`Science & Math - Semester ${semester}`}

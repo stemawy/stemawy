@@ -28,7 +28,12 @@ export function useSaveItem({ id, type }: UseSaveItemProps) {
     setSaved(!saved);
   };
 
-  return { saved, toggle, save: () => !saved && toggle(), unsave: () => saved && toggle() };
+  return {
+    saved,
+    toggle,
+    save: () => !saved && toggle(),
+    unsave: () => saved && toggle(),
+  };
 }
 
 export function useSaveItemWithDetails({
@@ -39,6 +44,7 @@ export function useSaveItemWithDetails({
   category,
   subcategory,
   icon,
+  href,
 }: {
   id: string;
   type: SavedItemType;
@@ -47,6 +53,7 @@ export function useSaveItemWithDetails({
   category?: string;
   subcategory?: string;
   icon?: string;
+  href?: string;
 }) {
   const [saved, setSaved] = useState(() => isSaved(id, type));
 
@@ -63,10 +70,16 @@ export function useSaveItemWithDetails({
         category,
         subcategory,
         icon,
+        href,
       });
       setSaved(true);
     }
   };
 
-  return { saved, toggle, save: () => !saved && toggle(), unsave: () => saved && toggle() };
+  return {
+    saved,
+    toggle,
+    save: () => !saved && toggle(),
+    unsave: () => saved && toggle(),
+  };
 }

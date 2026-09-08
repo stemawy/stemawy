@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Concept, ContentItem, Resource, Subject
+from .models import Concept, ContentItem, Opportunity, Resource, Subject
 
 
 class ConceptInline(admin.TabularInline):
@@ -58,6 +58,24 @@ class ResourceAdmin(admin.ModelAdmin):
     list_filter = ("type", "provider", "content_type")
     search_fields = ("id", "title", "url", "legacy_path")
     filter_horizontal = ("content_items", "concepts")
+
+
+@admin.register(Opportunity)
+class OpportunityAdmin(admin.ModelAdmin):
+    list_display = ("title", "category", "opportunity_type", "provider", "has_image", "featured", "is_published")
+    list_filter = ("category", "opportunity_type", "featured", "is_published")
+    search_fields = ("id", "title", "ar_title", "description", "provider", "field", "location")
+    list_editable = ("featured", "is_published")
+    ordering = ("-featured", "display_order", "title")
+    fieldsets = (
+        (None, {"fields": ("id", "title", "ar_title", "description", "ar_description", "url", "image_url")}),
+        ("Classification", {"fields": ("category", "opportunity_type", "provider", "field", "eligibility", "location", "deadline")}),
+        ("Publishing", {"fields": ("featured", "is_published", "display_order")}),
+    )
+
+    @admin.display(boolean=True, description="Image")
+    def has_image(self, obj):
+        return bool(obj.image_url)
 
 
 admin.site.site_header = "Stemawy Content Administration"

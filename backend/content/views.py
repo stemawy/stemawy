@@ -1,7 +1,7 @@
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404
 
-from .models import Resource, Subject
+from .models import Opportunity, Resource, Subject
 
 
 def resource_payload(resource):
@@ -79,3 +79,31 @@ def subjects(request):
 def subject_detail(request, subject_id):
     subject = get_object_or_404(Subject, id=subject_id, is_published=True)
     return JsonResponse(subject_payload(subject))
+
+
+def opportunity_payload(opportunity):
+    return {
+        "id": opportunity.id,
+        "title": opportunity.title,
+        "arTitle": opportunity.ar_title or opportunity.title,
+        "description": opportunity.description,
+        "arDescription": opportunity.ar_description or opportunity.description,
+        "href": opportunity.url,
+        "imageUrl": opportunity.image_url,
+        "category": opportunity.category,
+        "type": opportunity.opportunity_type,
+        "provider": opportunity.provider,
+        "field": opportunity.field,
+        "eligibility": opportunity.eligibility,
+        "location": opportunity.location,
+        "deadline": opportunity.deadline,
+        "featured": opportunity.featured,
+        "image": opportunity.image_url,
+        "urgent": False,
+        "date": opportunity.deadline,
+    }
+
+
+def opportunities(request):
+    queryset = Opportunity.objects.filter(is_published=True)
+    return JsonResponse({"opportunities": [opportunity_payload(item) for item in queryset]})

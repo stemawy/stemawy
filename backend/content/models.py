@@ -91,6 +91,7 @@ class Resource(models.Model):
     type = models.CharField(max_length=30, choices=TYPE_CHOICES)
     provider = models.CharField(max_length=100, blank=True)
     url = models.URLField(max_length=1000)
+    image_url = models.URLField(max_length=1000, blank=True)
     youtube_id = models.CharField(max_length=40, blank=True)
     legacy_path = models.CharField(max_length=1000, blank=True)
     location = models.CharField(max_length=300, blank=True)
@@ -103,6 +104,44 @@ class Resource(models.Model):
 
     class Meta:
         ordering = ["title"]
+
+    def __str__(self):
+        return self.title
+
+
+class Opportunity(models.Model):
+    CATEGORY_CHOICES = [
+        ("research", "Research"),
+        ("competition", "Competitions"),
+        ("course", "Courses"),
+        ("development", "Development"),
+    ]
+    TYPE_CHOICES = [
+        ("Research Program", "Research Program"),
+        ("Competition", "Competition"),
+        ("Course", "Course"),
+        ("Development Platform", "Development Platform"),
+    ]
+
+    id = models.CharField(max_length=160, primary_key=True)
+    title = models.CharField(max_length=240)
+    ar_title = models.CharField(max_length=240, blank=True)
+    description = models.TextField()
+    ar_description = models.TextField(blank=True)
+    url = models.URLField(max_length=1000)
+    category = models.CharField(max_length=30, choices=CATEGORY_CHOICES)
+    opportunity_type = models.CharField(max_length=40, choices=TYPE_CHOICES)
+    provider = models.CharField(max_length=160, blank=True)
+    field = models.CharField(max_length=160, blank=True)
+    eligibility = models.CharField(max_length=240, blank=True)
+    location = models.CharField(max_length=160, blank=True)
+    deadline = models.CharField(max_length=120, blank=True)
+    featured = models.BooleanField(default=False)
+    is_published = models.BooleanField(default=True)
+    display_order = models.PositiveIntegerField(default=0)
+
+    class Meta:
+        ordering = ["-featured", "display_order", "title"]
 
     def __str__(self):
         return self.title

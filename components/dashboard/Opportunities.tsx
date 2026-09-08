@@ -14,7 +14,18 @@ export default function Opportunities({ items }: { items: Opportunity[] }) {
       <div className={styles.opportunityList}>
         {items.map((item) => (
           <a href="/opportunities" className={styles.opportunity} key={item.id}>
-            <Image src={item.image} alt="" width={48} height={48} />
+            {item.image ? (
+              <Image src={item.image} alt="" width={48} height={48} />
+            ) : (
+              <div
+                style={{
+                  width: 48,
+                  height: 48,
+                  backgroundColor: "#e5e7eb",
+                  borderRadius: "4px",
+                }}
+              />
+            )}
             <span>
               <strong>{item.title}</strong>
               <small className={item.urgent ? styles.urgent : ""}>

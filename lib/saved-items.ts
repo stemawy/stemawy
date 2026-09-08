@@ -8,6 +8,7 @@ export type SavedItem = {
   category?: string;
   subcategory?: string;
   icon?: string;
+  href?: string;
   savedAt: number;
 };
 
@@ -38,16 +39,22 @@ export function getSavedItems(): SavedItem[] {
       return cachedItems;
     }
 
-    cachedItems = parsed.filter(
-      (item): item is SavedItem =>
-        Boolean(item) &&
-        typeof item === "object" &&
-        typeof (item as SavedItem).id === "string" &&
-        typeof (item as SavedItem).type === "string" &&
-        typeof (item as SavedItem).title === "string" &&
-        typeof (item as SavedItem).description === "string" &&
-        typeof (item as SavedItem).savedAt === "number",
-    );
+    cachedItems = parsed
+      .filter(
+        (item): item is SavedItem =>
+          Boolean(item) &&
+          typeof item === "object" &&
+          typeof (item as SavedItem).id === "string" &&
+          typeof (item as SavedItem).type === "string" &&
+          typeof (item as SavedItem).title === "string" &&
+          typeof (item as SavedItem).description === "string" &&
+          ((item as SavedItem).href === undefined ||
+            typeof (item as SavedItem).href === "string") &&
+          typeof (item as SavedItem).savedAt === "number",
+      )
+      .map((item) =>
+        item.type === "subject" ? { ...item, type: "resource" } : item,
+      );
     return cachedItems;
   } catch {
     cachedItems = [];

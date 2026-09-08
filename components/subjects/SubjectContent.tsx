@@ -6,9 +6,11 @@ import styles from "@/app/subject/[subjectId]/SubjectPage.module.scss";
 
 export default function SubjectContent({
   item,
+  subjectId,
   resources,
 }: {
   item: SubjectContent;
+  subjectId: string;
   resources: Resource[];
 }) {
   const isUnit = item.type === "unit";
@@ -17,7 +19,7 @@ export default function SubjectContent({
     .filter((resource): resource is Resource => Boolean(resource));
   return (
     <article className={styles.contentCard}>
-      <ContentHeader key={item.id} item={item} />
+      <ContentHeader key={item.id} item={item} subjectId={subjectId} />
       <div className={styles.contentBody}>
         <section className={styles.resourcesSection}>
           <div className={styles.sectionHeading}>

@@ -9,7 +9,7 @@
 
 .hero {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   border-radius: 24px;
   background: var(--surface-container-high);
 }
@@ -52,6 +52,161 @@
 .selectorRow option {
   color: var(--on-surface);
 }
+
+/* Grade & Semester Selector */
+.gradeSemesterContainer {
+  position: relative;
+  display: inline-block;
+  z-index: 1000;
+}
+
+.selectorButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.selectorButton:hover {
+  background: var(--primary-container);
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+.selectorButton:active {
+  transform: scale(0.98);
+}
+
+.selectorButton:focus-visible,
+.optionButton:focus-visible,
+.closeButton:focus-visible,
+.sectionHeading a:focus-visible,
+.curriculumCard:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.selectorButton .chevron {
+  transition: transform var(--transition-fast);
+}
+
+.gradeSemesterContainer[data-open="true"] .selectorButton .chevron {
+  transform: rotate(180deg);
+}
+
+.selectorPanel {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 12px;
+  padding: 20px;
+  background: var(--surface-container);
+  border: 1px solid rgb(197 197 211 / 32%);
+  border-radius: 16px;
+  box-shadow: var(--shadow-card-hover);
+  z-index: 1001;
+  min-width: 280px;
+  animation: slideDown 240ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -12px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+.selectorSection {
+  margin-bottom: 16px;
+}
+
+.selectorSection:last-of-type {
+  margin-bottom: 20px;
+}
+
+.selectorSection h3 {
+  margin: 0 0 12px;
+  color: var(--on-surface);
+  font-family: var(--font-heading), sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  opacity: 0.7;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 8px;
+}
+
+.optionButton {
+  flex: 1;
+  padding: 10px 12px;
+  border: 2px solid rgb(197 197 211 / 32%);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--on-surface-variant);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.optionButton:hover {
+  border-color: var(--primary);
+  color: var(--on-primary);
+  background: var(--primary-container);
+}
+
+.optionButton[data-selected="true"] {
+  border-color: var(--primary);
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
+.closeButton {
+  width: 100%;
+  padding: 12px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.closeButton:hover {
+  background: var(--primary);
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.closeButton:active {
+  transform: translateY(1px);
+}
+
 .hero h1 {
   margin: 16px 0 8px;
   color: var(--on-surface);
@@ -103,10 +258,16 @@
   color: var(--primary);
   font-size: 14px;
   font-weight: 600;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.sectionHeading a:hover {
+  color: var(--on-primary-container);
 }
 .recentGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 24px;
 }
 .recentCard,
@@ -131,6 +292,10 @@
 .recentCard:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-card-hover);
+}
+.recentCard:focus-visible,
+.curriculumCard:focus-visible {
+  border-color: var(--primary);
 }
 .recentCard > span:last-child {
   min-width: 0;
@@ -180,7 +345,7 @@
 }
 .curriculumGrid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 24px;
 }
 .curriculumCard {
@@ -326,6 +491,14 @@
   text-align: center;
   font-size: 14px;
   font-weight: 600;
+  text-decoration: none;
+  transition:
+    background-color var(--transition-fast),
+    color var(--transition-fast);
+}
+.findLink:hover {
+  background: var(--primary-container);
+  color: var(--on-primary-container);
 }
 .ai {
   padding: 24px;
@@ -383,6 +556,37 @@
   background: transparent;
   color: var(--on-primary-container);
 }
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 48px 24px;
+  border: 1px solid rgb(197 197 211 / 32%);
+  border-radius: 12px;
+  background: var(--surface-container-lowest);
+  text-align: center;
+}
+.emptyState svg {
+  color: var(--outline);
+  opacity: 0.4;
+}
+.emptyState h3 {
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--on-surface);
+}
+.emptyState p {
+  margin: 0;
+  max-width: 320px;
+  color: var(--on-surface-variant);
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .srOnly {
   position: absolute;
   width: 1px;
@@ -397,6 +601,7 @@
   }
   .contentGrid {
     grid-template-columns: 1fr;
+    gap: 32px;
   }
   .sideColumn {
     display: grid;
@@ -420,6 +625,9 @@
     max-width: 100%;
     font-size: 14px;
   }
+  .selectorPanel {
+    min-width: min(280px, calc(100vw - 32px));
+  }
   .recentGrid,
   .curriculumGrid,
   .sideColumn {
@@ -427,6 +635,8 @@
   }
   .sectionHeading {
     align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
   }
   .sectionHeading h2 {
     font-size: 20px;
@@ -441,5 +651,16 @@
   }
   .footer {
     padding-inline: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :global(*),
+  :global(*::before),
+  :global(*::after) {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

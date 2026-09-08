@@ -1,4 +1,5 @@
 import type { SavedItem } from "@/lib/saved-items";
+import Link from "next/link";
 import styles from "@/app/saved/SavedPage.module.scss";
 
 type SavedItemCardProps = {
@@ -6,37 +7,87 @@ type SavedItemCardProps = {
   onRemove: (id: string) => void;
 };
 
-const typeIconMap: Record<string, string> = {
-  resource: "article",
-  subject: "menu_book",
-  opportunity: "explore",
-  skill: "psychology",
-};
+function getBadge(item: SavedItem) {
+  if (item.type === "opportunity" && /robotics|research/i.test(item.title)) {
+    return { label: "RESEARCH", color: styles.badgeResearch, icon: "science" };
+  }
 
-const typeBadgeMap: Record<string, { label: string; color: string }> = {
-  resource: { label: "RESEARCH", color: styles.badgeResource },
-  subject: { label: "SUBJECT", color: styles.badgeSubject },
-  opportunity: { label: "OPPORTUNITY", color: styles.badgeOpportunity },
-  skill: { label: "SKILL", color: styles.badgeSkill },
-};
+  if (item.type === "opportunity" && /scholarship/i.test(item.title)) {
+    return {
+      label: "SCHOLARSHIP",
+      color: styles.badgeScholarship,
+      icon: "school",
+    };
+  }
+
+  if (item.type === "resource" && /video|crispr|gene/i.test(item.title)) {
+    return { label: "VIDEO", color: styles.badgeVideo, icon: "play_circle" };
+  }
+
+  const defaults: Record<
+    string,
+    { label: string; color: string; icon: string }
+  > = {
+    resource: {
+      label: "RESEARCH",
+      color: styles.badgeResearch,
+      icon: "science",
+    },
+    subject: {
+      label: "SUBJECT",
+      color: styles.badgeSubject,
+      icon: "menu_book",
+    },
+    opportunity: {
+      label: "OPPORTUNITY",
+      color: styles.badgeOpportunity,
+      icon: "explore",
+    },
+    skill: { label: "SKILL", color: styles.badgeSkill, icon: "psychology" },
+  };
+
+  return defaults[item.type];
+}
+
+function getItemHref(item: SavedItem) {
+  if (item.href) {
+    return item.href.replace(
+      /^(\/subject\/[^/?]+)-grade-\d+-semester-\d+(\?.*)?$/,
+      "$1$2",
+    );
+  }
+
+  if (item.type === "opportunity") return "/opportunities";
+  if (item.type === "skill") return "/skills";
+  if (item.type === "resource") {
+    return `/search?q=${encodeURIComponent(item.title)}`;
+  }
+
+  return "/subjects";
+}
 
 export default function SavedItemCard({ item, onRemove }: SavedItemCardProps) {
-  const badge = typeBadgeMap[item.type] || typeBadgeMap.resource;
-  const icon = typeIconMap[item.type] || "bookmark";
+  const badge = getBadge(item);
 
   return (
     <article className={styles.card}>
+      <Link
+        className={styles.cardLink}
+        href={getItemHref(item)}
+        aria-label={`Open ${item.title}`}
+      />
       <div className={styles.cardTop}>
         <span className={`${styles.badge} ${badge.color}`}>
-          <span className="material-symbols-outlined text-[16px]">{icon}</span>
+          <span className="material-symbols-outlined">{badge.icon}</span>
           {badge.label}
         </span>
         <button
           onClick={() => onRemove(item.id)}
           className={styles.removeButton}
-          aria-label="Remove"
+          aria-label={`Remove ${item.title} from saved`}
+          title="Remove from saved"
         >
-          <span className="material-symbols-outlined text-[20px]">close</span>
+          <span className="material-symbols-outlined">bookmark</span>
         </button>
       </div>
 

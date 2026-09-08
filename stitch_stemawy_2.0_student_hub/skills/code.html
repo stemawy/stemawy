@@ -1,0 +1,1219 @@
+<!doctype html>
+<html lang="en" style="">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <style>
+      @layer base {
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+        }
+        body {
+          overscroll-behavior: none;
+        }
+        main > :first-child {
+          margin-top: 0 !important;
+        }
+        main > :last-child {
+          margin-bottom: 0 !important;
+        }
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary": "#ffffff",
+              background: "#faf8ff",
+              "on-primary-container": "#90a8ff",
+              "tertiary-fixed-dim": "#4edea3",
+              "primary-fixed": "#dce1ff",
+              "surface-container-highest": "#e3e1e9",
+              outline: "#757682",
+              "on-secondary-fixed-variant": "#004395",
+              "surface-container-high": "#e9e7ef",
+              "inverse-on-surface": "#f1f0f7",
+              "on-error": "#ffffff",
+              "tertiary-container": "#004a31",
+              secondary: "#0058be",
+              "surface-tint": "#4059aa",
+              "on-tertiary-container": "#27c38a",
+              "surface-container-low": "#f4f3fa",
+              "on-surface-variant": "#444651",
+              "surface-dim": "#dad9e1",
+              error: "#ba1a1a",
+              "surface-bright": "#faf8ff",
+              "on-primary-fixed": "#00164e",
+              "on-primary": "#ffffff",
+              "surface-container": "#eeedf4",
+              "primary-fixed-dim": "#b6c4ff",
+              primary: "#00236f",
+              "surface-container-lowest": "#ffffff",
+              "on-background": "#1a1b21",
+              "on-error-container": "#93000a",
+              "on-surface": "#1a1b21",
+              "on-tertiary-fixed": "#002113",
+              "secondary-fixed": "#d8e2ff",
+              "on-tertiary": "#ffffff",
+              "on-primary-fixed-variant": "#264191",
+              "secondary-container": "#2170e4",
+              "on-secondary-container": "#fefcff",
+              "error-container": "#ffdad6",
+              tertiary: "#00311f",
+              "outline-variant": "#c5c5d3",
+              "tertiary-fixed": "#6ffbbe",
+              "on-tertiary-fixed-variant": "#005236",
+              "on-secondary-fixed": "#001a42",
+              "secondary-fixed-dim": "#adc6ff",
+              surface: "#faf8ff",
+              "primary-container": "#1e3a8a",
+              "inverse-primary": "#b6c4ff",
+              "inverse-surface": "#2f3036",
+              "surface-variant": "#e3e1e9",
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+            spacing: {
+              gutter: "24px",
+              base: "8px",
+              xs: "4px",
+              sm: "12px",
+              lg: "40px",
+              md: "24px",
+              "margin-desktop": "48px",
+              "margin-mobile": "16px",
+              xl: "64px",
+            },
+            fontFamily: {
+              "display-lg": ["Montserrat"],
+              "label-md": ["Inter"],
+              "headline-md": ["Montserrat"],
+              "display-lg-mobile": ["Montserrat"],
+              "headline-sm": ["Montserrat"],
+              "body-lg": ["Inter"],
+              "label-sm": ["Inter"],
+              "body-md": ["Inter"],
+            },
+            fontSize: {
+              "display-lg": [
+                "48px",
+                {
+                  lineHeight: "56px",
+                  letterSpacing: "-0.02em",
+                  fontWeight: "700",
+                },
+              ],
+              "label-md": [
+                "14px",
+                {
+                  lineHeight: "20px",
+                  letterSpacing: "0.01em",
+                  fontWeight: "500",
+                },
+              ],
+              "headline-md": [
+                "24px",
+                { lineHeight: "32px", fontWeight: "600" },
+              ],
+              "display-lg-mobile": [
+                "32px",
+                { lineHeight: "40px", fontWeight: "700" },
+              ],
+              "headline-sm": [
+                "20px",
+                { lineHeight: "28px", fontWeight: "600" },
+              ],
+              "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+              "label-sm": [
+                "12px",
+                {
+                  lineHeight: "16px",
+                  letterSpacing: "0.04em",
+                  fontWeight: "600",
+                },
+              ],
+              "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Inter:wght@400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-background font-body-md text-on-surface">
+    <aside
+      class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest border-r border-outline-variant z-50 flex flex-col"
+    >
+      <div class="p-md flex items-center gap-sm">
+        <img
+          alt="Stemawy Logo"
+          class="h-8 w-auto object-contain"
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCq8ryP32uFqig84UY4Akrzpcgu26OYgKZt7z6lwEhGmtflBEaXUgY37aCRjwR1aQxe3nGZLC_y2L8bRdRyk2JDD4Av1ymcUR1QvTutuNs8l9PkyjUElsI6KSr5YUyCzBk_l6QghqiRSums9RxOptL8ha2u7HfuTDIRtFhul19XlSi9wTwVgSdLYkVtdVeeIQsHsnV-TcY-icxN6eo1TPU1djj454z46oLzQE8j7A_q8efF1pSZ5hgp"
+        /><span
+          class="font-headline-sm text-headline-sm text-primary tracking-tight"
+          >Stemawy 2.0</span
+        >
+      </div>
+      <nav
+        class="flex-1 px-sm py-md space-y-xs"
+        data-active-classes="bg-primary-container text-on-primary-container font-bold"
+      >
+        <a
+          aria-current="page"
+          class="flex items-center gap-sm px-md py-sm rounded-lg transition-all duration-200 group bg-primary-container text-on-primary-container font-bold"
+          data-path="dashboard"
+          href="#"
+          ><span class="material-symbols-outlined">dashboard</span
+          ><span class="font-label-md text-label-md">Dashboard</span></a
+        ><a
+          class="flex items-center gap-sm px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200"
+          data-path="subjects"
+          href="#"
+          ><span class="material-symbols-outlined">menu_book</span
+          ><span class="font-label-md text-label-md">Subjects</span></a
+        ><a
+          class="flex items-center gap-sm px-md py-sm rounded-lg hover:text-on-surface transition-all duration-200 bg-primary text-on-primary font-semibold shadow-sm"
+          data-path="skills"
+          href="#"
+          ><span
+            class="material-symbols-outlined"
+            style="font-variation-settings: &quot;FILL&quot; 1"
+            >psychology</span
+          ><span class="font-label-md text-label-md">Skills</span></a
+        ><a
+          class="flex items-center gap-sm px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200"
+          data-path="opportunities"
+          href="#"
+          ><span class="material-symbols-outlined">explore</span
+          ><span class="font-label-md text-label-md">Opportunities</span></a
+        ><a
+          class="flex items-center gap-sm px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200"
+          data-path="saved"
+          href="#"
+          ><span class="material-symbols-outlined">bookmark</span
+          ><span class="font-label-md text-label-md">Saved</span></a
+        >
+        <div class="pt-md mt-md border-t border-outline-variant">
+          <a
+            class="flex items-center gap-sm px-md py-sm rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200"
+            data-path="settings"
+            href="#"
+            ><span class="material-symbols-outlined">settings</span
+            ><span class="font-label-md text-label-md">Settings</span></a
+          >
+        </div>
+      </nav>
+    </aside>
+    <div class="pl-72">
+      <header
+        class="fixed top-0 left-72 right-0 h-20 bg-surface/80 backdrop-blur-xl z-40 px-margin-desktop flex items-center justify-between border-b border-outline-variant"
+      >
+        <div class="relative w-full max-w-xl group">
+          <span
+            class="material-symbols-outlined absolute left-sm top-1/2 -translate-y-1/2 text-outline"
+            >search</span
+          ><input
+            class="w-full pl-xl pr-md py-xs bg-surface-container-high border-none rounded-xl font-body-md text-on-surface-variant focus:ring-2 focus:ring-primary focus:outline-none transition-all"
+            placeholder="Search Stemawy... (Ctrl+K)"
+            type="text"
+          />
+          <div
+            class="absolute right-sm top-1/2 -translate-y-1/2 flex items-center gap-xs px-xs py-[2px] bg-surface-container-lowest border border-outline-variant rounded-md text-[10px] text-outline font-bold"
+          >
+            CTRL K
+          </div>
+        </div>
+        <div class="flex items-center gap-md">
+          <button
+            class="relative p-xs rounded-full hover:bg-surface-container-high transition-colors"
+          >
+            <span class="material-symbols-outlined text-on-surface-variant"
+              >notifications</span
+            ><span
+              class="absolute top-1 right-1 w-2 h-2 bg-error rounded-full"
+            ></span>
+          </button>
+          <div class="h-8 w-[1px] bg-outline-variant"></div>
+          <div class="flex items-center gap-sm cursor-pointer group">
+            <div class="text-right hidden lg:block">
+              <div class="font-label-md text-label-md text-on-surface">
+                Omar Al-Sayed
+              </div>
+              <div class="font-label-sm text-label-sm text-outline">
+                Grade 11 Student
+              </div>
+            </div>
+            <img
+              alt="Profile"
+              class="w-10 h-10 rounded-full object-cover ring-2 ring-transparent group-hover:ring-primary transition-all"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzm-k3BEtHuYAW6Ma_pdIggEYUATzNugEtHnZsKFVI235V0RDqDnaeCAKUNyzmsNSTZ4rTyQLwo8dTmpiYh4-omRA0zQVCIbTo3esQyINZ53_6ejmhJisMG5WhulIPtQgz1n7-vbApSJKfjdK9vxtww09JtIkqMWPIZI2HBqloAMAFrgT1NIK5553boTTo48bUP-bS7NJmBmiYJ4x87hXfNIlt2Kzg2Wp96y0INhJa9dbsa8cu9JS4"
+            />
+          </div>
+        </div>
+      </header>
+      <main class="pt-20 bg-background min-h-screen">
+        <div class="flex flex-col w-full">
+          <!-- Active Sidebar Nav Sync via Script -->
+          <script>
+            (function syncSidebar() {
+              const skillsNav = document.querySelector(
+                'aside nav a[data-path="skills"]',
+              );
+              if (skillsNav) {
+                skillsNav.classList.remove(
+                  "text-on-surface-variant",
+                  "hover:bg-surface-container",
+                );
+                skillsNav.classList.add(
+                  "bg-primary",
+                  "text-on-primary",
+                  "font-semibold",
+                  "shadow-sm",
+                );
+                const icon = skillsNav.querySelector(
+                  ".material-symbols-outlined",
+                );
+                if (icon) icon.style.fontVariationSettings = "'FILL' 1";
+              }
+            })();
+          </script>
+          <!-- Main Container -->
+          <div
+            class="w-full max-w-[1280px] mx-auto px-margin-desktop py-lg space-y-xl"
+          >
+            <!-- Header & Discovery Introduction Section -->
+            <header class="space-y-sm">
+              <div
+                class="flex items-center gap-xs text-secondary font-label-md text-label-md"
+              >
+                <span class="material-symbols-outlined text-[18px]"
+                  >psychology</span
+                >
+                <span class="font-semibold tracking-wide uppercase"
+                  >Skills Library &amp; Practical Tools</span
+                >
+                <span class="text-outline-variant">/</span>
+                <span class="text-on-surface-variant">Discovery Hub</span>
+              </div>
+              <div
+                class="flex flex-col md:flex-row md:items-end justify-between gap-md"
+              >
+                <div>
+                  <h1
+                    class="font-display-lg text-display-lg text-primary tracking-tight"
+                  >
+                    Skills
+                  </h1>
+                  <p
+                    class="font-body-md text-body-md text-on-surface-variant max-w-2xl mt-xs leading-relaxed"
+                  >
+                    Curated practical abilities, interactive exercises, skill
+                    assessments, and external platforms designed to sharpen your
+                    analytical thinking, academic writing, and contest
+                    readiness.
+                  </p>
+                </div>
+              </div>
+            </header>
+            <!-- Search & Category Filters Bar -->
+            <section
+              aria-label="Skills Navigation and Search"
+              class="space-y-md"
+            >
+              <!-- Search Input Box -->
+              <div
+                class="relative w-full shadow-sm rounded-xl overflow-hidden bg-surface-container-lowest"
+              >
+                <span
+                  class="material-symbols-outlined absolute left-md top-1/2 -translate-y-1/2 text-outline"
+                  >search</span
+                >
+                <input
+                  class="w-full pl-xl pr-[130px] py-md bg-transparent border-none font-body-md text-on-surface placeholder:text-outline focus:ring-2 focus:ring-secondary focus:outline-none transition-all"
+                  id="skillsSearch"
+                  placeholder="Search skills by title, category, provider, or keywords (e.g. English, Coding, Memory)..."
+                  type="text"
+                />
+                <div
+                  class="absolute right-md top-1/2 -translate-y-1/2 flex items-center gap-xs"
+                >
+                  <button
+                    class="hidden text-outline hover:text-on-surface p-xs rounded-full transition-colors"
+                    id="clearSearchBtn"
+                    title="Clear search"
+                  >
+                    <span class="material-symbols-outlined text-[18px]"
+                      >close</span
+                    >
+                  </button>
+                </div>
+              </div>
+              <!-- Categories Tabs & Filter Indicator Row -->
+              <div
+                class="flex flex-col lg:flex-row lg:items-center justify-between gap-md pb-xs"
+              >
+                <!-- Categories Pill Scroll Bar -->
+                <div
+                  class="flex items-center gap-xs overflow-x-auto pb-xs scrollbar-none"
+                  id="categoryTabGroup"
+                >
+                  <button
+                    class="cat-pill active flex items-center gap-xs px-md py-xs rounded-full font-label-md text-label-md transition-all duration-200 bg-primary-container text-on-primary-container font-semibold shadow-sm"
+                    data-cat="all"
+                  >
+                    <span class="">All</span>
+                    <span
+                      class="bg-primary text-white text-[11px] px-xs py-[2px] rounded-full leading-none"
+                      >18</span
+                    >
+                  </button>
+                  <button
+                    class="cat-pill flex items-center gap-xs px-md py-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200"
+                    data-cat="english"
+                  >
+                    <span class="">English</span>
+                    <span
+                      class="bg-surface-container-highest text-on-surface-variant text-[11px] px-xs py-[2px] rounded-full leading-none"
+                      >8</span
+                    >
+                  </button>
+                  <button
+                    class="cat-pill flex items-center gap-xs px-md py-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200"
+                    data-cat="programming"
+                  >
+                    <span class="">Programming</span>
+                    <span
+                      class="bg-surface-container-highest text-on-surface-variant text-[11px] px-xs py-[2px] rounded-full leading-none"
+                      >1</span
+                    >
+                  </button>
+                  <button
+                    class="cat-pill flex items-center gap-xs px-md py-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200"
+                    data-cat="study &amp; learning"
+                  >
+                    <span class="">Study &amp; Learning</span>
+                    <span
+                      class="bg-surface-container-highest text-on-surface-variant text-[11px] px-xs py-[2px] rounded-full leading-none"
+                      >3</span
+                    >
+                  </button>
+                  <button
+                    class="cat-pill flex items-center gap-xs px-md py-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200"
+                    data-cat="mathematics"
+                  >
+                    <span class="">Mathematics</span>
+                    <span
+                      class="bg-surface-container-highest text-on-surface-variant text-[11px] px-xs py-[2px] rounded-full leading-none"
+                      >1</span
+                    >
+                  </button>
+                  <button
+                    class="cat-pill flex items-center gap-xs px-md py-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200"
+                    data-cat="science"
+                  >
+                    <span class="">Science</span>
+                    <span
+                      class="bg-surface-container-highest text-on-surface-variant text-[11px] px-xs py-[2px] rounded-full leading-none"
+                      >1</span
+                    >
+                  </button>
+                  <button
+                    class="cat-pill flex items-center gap-xs px-md py-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200"
+                    data-cat="productivity"
+                  >
+                    <span class="">Productivity</span>
+                    <span
+                      class="bg-surface-container-highest text-on-surface-variant text-[11px] px-xs py-[2px] rounded-full leading-none"
+                      >2</span
+                    >
+                  </button>
+                  <button
+                    class="cat-pill flex items-center gap-xs px-md py-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200"
+                    data-cat="tools &amp; utility"
+                  >
+                    <span class="">Tools &amp; Utility</span>
+                    <span
+                      class="bg-surface-container-highest text-on-surface-variant text-[11px] px-xs py-[2px] rounded-full leading-none"
+                      >2</span
+                    >
+                  </button>
+                </div>
+                <!-- Meta Information / View Toggle -->
+                <div
+                  class="flex items-center justify-between lg:justify-end gap-sm shrink-0"
+                >
+                  <span
+                    class="font-label-md text-label-md text-outline font-medium"
+                    id="resultCounter"
+                    >Showing 18 skills</span
+                  >
+                  <div
+                    class="h-4 w-[1px] bg-outline-variant hidden lg:block"
+                  ></div>
+                  <button
+                    class="flex items-center gap-xs px-sm py-[6px] rounded-lg bg-surface-container-lowest text-on-surface-variant hover:text-on-surface text-label-sm font-label-sm shadow-sm transition-all"
+                  >
+                    <span class="material-symbols-outlined text-[16px]"
+                      >tune</span
+                    >
+                    <span class="">All Types</span>
+                  </button>
+                </div>
+              </div>
+            </section>
+            <!-- Visual Anchor: Category & Filter Quick Banner from Reference -->
+
+            <!-- Curated / Featured Skills Section -->
+
+            <!-- All Skills Library Section -->
+            <section class="space-y-md">
+              <div class="flex items-center justify-between">
+                <div>
+                  <h2 class="font-headline-md text-headline-md text-primary">
+                    All Skills
+                  </h2>
+                  <p class="font-body-md text-[14px] text-on-surface-variant">
+                    Browse full directory of practical modules, simulations, and
+                    utilities.
+                  </p>
+                </div>
+                <div
+                  class="flex items-center gap-xs text-outline font-label-sm text-label-sm"
+                >
+                  <span class="material-symbols-outlined text-[18px]"
+                    >view_agenda</span
+                  >
+                  <span id="allCountBadge" class=""
+                    >18 resources available</span
+                  >
+                </div>
+              </div>
+              <!-- Skills Cards Grid -->
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-md"
+                id="skillsGrid"
+              >
+                <!-- Skill Card 1 -->
+                <article
+                  class="skill-card bg-surface-container-lowest rounded-xl p-md shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between group"
+                  data-category="productivity"
+                  data-title="test your writing speed typingworks"
+                  data-type="tool assessment"
+                >
+                  <div>
+                    <div class="flex items-center justify-between gap-xs mb-sm">
+                      <div class="flex items-center gap-xs">
+                        <span
+                          class="bg-secondary-fixed text-on-secondary-fixed text-[11px] font-semibold px-sm py-[2px] rounded-full"
+                          >Productivity</span
+                        >
+                        <span
+                          class="bg-surface-container-high text-on-surface-variant text-[11px] font-medium px-sm py-[2px] rounded-full"
+                          >Tool / Assessment</span
+                        >
+                      </div>
+                      <button
+                        class="bookmark-btn text-outline hover:text-secondary p-xs rounded-full hover:bg-surface-container-high transition-colors"
+                        title="Bookmark"
+                      >
+                        <span class="material-symbols-outlined text-[18px]"
+                          >bookmark</span
+                        >
+                      </button>
+                    </div>
+                    <h3
+                      class="font-headline-sm text-[18px] text-on-surface font-semibold group-hover:text-secondary transition-colors"
+                    >
+                      Test Your Writing Speed
+                    </h3>
+                    <p
+                      class="font-body-md text-[14px] text-on-surface-variant leading-relaxed mt-xs"
+                    >
+                      Measure and enhance your words per minute and accuracy for
+                      papers, contest submissions, and coding velocity.
+                    </p>
+                  </div>
+                  <div class="pt-md mt-md flex items-center justify-between">
+                    <span
+                      class="flex items-center gap-xs text-[12px] text-outline"
+                      ><span class="material-symbols-outlined text-[15px]"
+                        >timer</span
+                      >TypingWorks</span
+                    >
+                    <a
+                      class="px-md py-[6px] bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md rounded-lg font-medium transition-colors"
+                      href="#"
+                      >Take Test ↗</a
+                    >
+                  </div>
+                </article>
+                <!-- Skill Card 2 -->
+                <article
+                  class="skill-card bg-surface-container-lowest rounded-xl p-md shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between group"
+                  data-category="productivity"
+                  data-title="learn proper writing style formal research reports"
+                  data-type="learning resource"
+                >
+                  <div>
+                    <div class="flex items-center justify-between gap-xs mb-sm">
+                      <div class="flex items-center gap-xs">
+                        <span
+                          class="bg-secondary-fixed text-on-secondary-fixed text-[11px] font-semibold px-sm py-[2px] rounded-full"
+                          >Productivity</span
+                        >
+                        <span
+                          class="bg-surface-container-high text-on-surface-variant text-[11px] font-medium px-sm py-[2px] rounded-full"
+                          >Learning Resource</span
+                        >
+                      </div>
+                      <button
+                        class="bookmark-btn text-outline hover:text-secondary p-xs rounded-full hover:bg-surface-container-high transition-colors"
+                        title="Bookmark"
+                      >
+                        <span class="material-symbols-outlined text-[18px]"
+                          >bookmark</span
+                        >
+                      </button>
+                    </div>
+                    <h3
+                      class="font-headline-sm text-[18px] text-on-surface font-semibold group-hover:text-secondary transition-colors"
+                    >
+                      Learn Proper Writing
+                    </h3>
+                    <p
+                      class="font-body-md text-[14px] text-on-surface-variant leading-relaxed mt-xs"
+                    >
+                      Structured guides on formatting formal research reports,
+                      capstone theses, essays, and college statements.
+                    </p>
+                  </div>
+                  <div class="pt-md mt-md flex items-center justify-between">
+                    <span
+                      class="flex items-center gap-xs text-[12px] text-outline"
+                      ><span class="material-symbols-outlined text-[15px]"
+                        >article</span
+                      >Purdue OWL</span
+                    >
+                    <a
+                      class="px-md py-[6px] bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md rounded-lg font-medium transition-colors"
+                      href="#"
+                      >Learn ↗</a
+                    >
+                  </div>
+                </article>
+                <!-- Skill Card 3 -->
+                <article
+                  class="skill-card bg-surface-container-lowest rounded-xl p-md shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between group"
+                  data-category="english"
+                  data-title="test your english cefr proficiency diagnostic"
+                  data-type="assessment"
+                >
+                  <div>
+                    <div class="flex items-center justify-between gap-xs mb-sm">
+                      <div class="flex items-center gap-xs">
+                        <span
+                          class="bg-primary-fixed text-on-primary-fixed text-[11px] font-semibold px-sm py-[2px] rounded-full"
+                          >English</span
+                        >
+                        <span
+                          class="bg-surface-container-high text-on-surface-variant text-[11px] font-medium px-sm py-[2px] rounded-full"
+                          >Assessment</span
+                        >
+                      </div>
+                      <button
+                        class="bookmark-btn text-outline hover:text-secondary p-xs rounded-full hover:bg-surface-container-high transition-colors"
+                        title="Bookmark"
+                      >
+                        <span class="material-symbols-outlined text-[18px]"
+                          >bookmark</span
+                        >
+                      </button>
+                    </div>
+                    <h3
+                      class="font-headline-sm text-[18px] text-on-surface font-semibold group-hover:text-secondary transition-colors"
+                    >
+                      Test Your English
+                    </h3>
+                    <p
+                      class="font-body-md text-[14px] text-on-surface-variant leading-relaxed mt-xs"
+                    >
+                      Quick diagnostic assessment evaluating your CEFR
+                      proficiency level across reading comprehension and grammar
+                      precision.
+                    </p>
+                  </div>
+                  <div class="pt-md mt-md flex items-center justify-between">
+                    <span
+                      class="flex items-center gap-xs text-[12px] text-outline"
+                      ><span class="material-symbols-outlined text-[15px]"
+                        >quiz</span
+                      >Cambridge Prep</span
+                    >
+                    <a
+                      class="px-md py-[6px] bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md rounded-lg font-medium transition-colors"
+                      href="#"
+                      >Take Test ↗</a
+                    >
+                  </div>
+                </article>
+                <!-- Skill Card 4 -->
+                <article
+                  class="skill-card bg-surface-container-lowest rounded-xl p-md shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between group"
+                  data-category="english"
+                  data-title="improve your vocabulary sat ielts academic scientific"
+                  data-type="practice"
+                >
+                  <div>
+                    <div class="flex items-center justify-between gap-xs mb-sm">
+                      <div class="flex items-center gap-xs">
+                        <span
+                          class="bg-primary-fixed text-on-primary-fixed text-[11px] font-semibold px-sm py-[2px] rounded-full"
+                          >English</span
+                        >
+                        <span
+                          class="bg-surface-container-high text-on-surface-variant text-[11px] font-medium px-sm py-[2px] rounded-full"
+                          >Practice</span
+                        >
+                      </div>
+                      <button
+                        class="bookmark-btn text-outline hover:text-secondary p-xs rounded-full hover:bg-surface-container-high transition-colors"
+                        title="Bookmark"
+                      >
+                        <span class="material-symbols-outlined text-[18px]"
+                          >bookmark</span
+                        >
+                      </button>
+                    </div>
+                    <h3
+                      class="font-headline-sm text-[18px] text-on-surface font-semibold group-hover:text-secondary transition-colors"
+                    >
+                      Improve Your Vocabulary
+                    </h3>
+                    <p
+                      class="font-body-md text-[14px] text-on-surface-variant leading-relaxed mt-xs"
+                    >
+                      Interactive academic vocabulary builders tailored for
+                      scientific papers, thesis defense, and SAT/IELTS prep.
+                    </p>
+                  </div>
+                  <div class="pt-md mt-md flex items-center justify-between">
+                    <span
+                      class="flex items-center gap-xs text-[12px] text-outline"
+                      ><span class="material-symbols-outlined text-[15px]"
+                        >spellcheck</span
+                      >Merriam-Webster</span
+                    >
+                    <a
+                      class="px-md py-[6px] bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md rounded-lg font-medium transition-colors"
+                      href="#"
+                      >Practice ↗</a
+                    >
+                  </div>
+                </article>
+                <!-- Skill Card 5 -->
+                <article
+                  class="skill-card bg-surface-container-lowest rounded-xl p-md shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between group"
+                  data-category="english"
+                  data-title="grammar exercises sentence structure syntax punctuation"
+                  data-type="practice"
+                >
+                  <div>
+                    <div class="flex items-center justify-between gap-xs mb-sm">
+                      <div class="flex items-center gap-xs">
+                        <span
+                          class="bg-primary-fixed text-on-primary-fixed text-[11px] font-semibold px-sm py-[2px] rounded-full"
+                          >English</span
+                        >
+                        <span
+                          class="bg-surface-container-high text-on-surface-variant text-[11px] font-medium px-sm py-[2px] rounded-full"
+                          >Practice</span
+                        >
+                      </div>
+                      <button
+                        class="bookmark-btn text-outline hover:text-secondary p-xs rounded-full hover:bg-surface-container-high transition-colors"
+                        title="Bookmark"
+                      >
+                        <span class="material-symbols-outlined text-[18px]"
+                          >bookmark</span
+                        >
+                      </button>
+                    </div>
+                    <h3
+                      class="font-headline-sm text-[18px] text-on-surface font-semibold group-hover:text-secondary transition-colors"
+                    >
+                      Grammar Exercises
+                    </h3>
+                    <p
+                      class="font-body-md text-[14px] text-on-surface-variant leading-relaxed mt-xs"
+                    >
+                      Targeted interactive drills focused on sentence mechanics,
+                      clause subordination, and academic scientific syntax.
+                    </p>
+                  </div>
+                  <div class="pt-md mt-md flex items-center justify-between">
+                    <span
+                      class="flex items-center gap-xs text-[12px] text-outline"
+                      ><span class="material-symbols-outlined text-[15px]"
+                        >edit_note</span
+                      >GrammarBank</span
+                    >
+                    <a
+                      class="px-md py-[6px] bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md rounded-lg font-medium transition-colors"
+                      href="#"
+                      >Practice ↗</a
+                    >
+                  </div>
+                </article>
+                <!-- Skill Card 6 -->
+                <article
+                  class="skill-card bg-surface-container-lowest rounded-xl p-md shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between group"
+                  data-category="english"
+                  data-title="reading comprehension scientific journals literature contextual analysis"
+                  data-type="practice"
+                >
+                  <div>
+                    <div class="flex items-center justify-between gap-xs mb-sm">
+                      <div class="flex items-center gap-xs">
+                        <span
+                          class="bg-primary-fixed text-on-primary-fixed text-[11px] font-semibold px-sm py-[2px] rounded-full"
+                          >English</span
+                        >
+                        <span
+                          class="bg-surface-container-high text-on-surface-variant text-[11px] font-medium px-sm py-[2px] rounded-full"
+                          >Practice</span
+                        >
+                      </div>
+                      <button
+                        class="bookmark-btn text-outline hover:text-secondary p-xs rounded-full hover:bg-surface-container-high transition-colors"
+                        title="Bookmark"
+                      >
+                        <span class="material-symbols-outlined text-[18px]"
+                          >bookmark</span
+                        >
+                      </button>
+                    </div>
+                    <h3
+                      class="font-headline-sm text-[18px] text-on-surface font-semibold group-hover:text-secondary transition-colors"
+                    >
+                      Reading Comprehension
+                    </h3>
+                    <p
+                      class="font-body-md text-[14px] text-on-surface-variant leading-relaxed mt-xs"
+                    >
+                      Deep reading passages with contextual analysis questions
+                      sourced from peer-reviewed scientific journals and
+                      literature.
+                    </p>
+                  </div>
+                  <div class="pt-md mt-md flex items-center justify-between">
+                    <span
+                      class="flex items-center gap-xs text-[12px] text-outline"
+                      ><span class="material-symbols-outlined text-[15px]"
+                        >menu_book</span
+                      >ReadWorks</span
+                    >
+                    <a
+                      class="px-md py-[6px] bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md rounded-lg font-medium transition-colors"
+                      href="#"
+                      >Practice ↗</a
+                    >
+                  </div>
+                </article>
+                <!-- Skill Card 7 -->
+                <article
+                  class="skill-card bg-surface-container-lowest rounded-xl p-md shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between group"
+                  data-category="english"
+                  data-title="writing prompts analytical argumentative clarity essay"
+                  data-type="activity"
+                >
+                  <div>
+                    <div class="flex items-center justify-between gap-xs mb-sm">
+                      <div class="flex items-center gap-xs">
+                        <span
+                          class="bg-primary-fixed text-on-primary-fixed text-[11px] font-semibold px-sm py-[2px] rounded-full"
+                          >English</span
+                        >
+                        <span
+                          class="bg-surface-container-high text-on-surface-variant text-[11px] font-medium px-sm py-[2px] rounded-full"
+                          >Activity</span
+                        >
+                      </div>
+                      <button
+                        class="bookmark-btn text-outline hover:text-secondary p-xs rounded-full hover:bg-surface-container-high transition-colors"
+                        title="Bookmark"
+                      >
+                        <span class="material-symbols-outlined text-[18px]"
+                          >bookmark</span
+                        >
+                      </button>
+                    </div>
+                    <h3
+                      class="font-headline-sm text-[18px] text-on-surface font-semibold group-hover:text-secondary transition-colors"
+                    >
+                      Writing Prompts
+                    </h3>
+                    <p
+                      class="font-body-md text-[14px] text-on-surface-variant leading-relaxed mt-xs"
+                    >
+                      Weekly creative and analytical writing challenges designed
+                      to build fluency, essay confidence, and argumentative
+                      clarity.
+                    </p>
+                  </div>
+                  <div class="pt-md mt-md flex items-center justify-between">
+                    <span
+                      class="flex items-center gap-xs text-[12px] text-outline"
+                      ><span class="material-symbols-outlined text-[15px]"
+                        >draw</span
+                      >Daily Prompt</span
+                    >
+                    <a
+                      class="px-md py-[6px] bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md rounded-lg font-medium transition-colors"
+                      href="#"
+                      >Try It ↗</a
+                    >
+                  </div>
+                </article>
+                <!-- Skill Card 8 -->
+                <article
+                  class="skill-card bg-surface-container-lowest rounded-xl p-md shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between group"
+                  data-category="english"
+                  data-title="listening practice audio lectures podcasts comprehension"
+                  data-type="practice"
+                >
+                  <div>
+                    <div class="flex items-center justify-between gap-xs mb-sm">
+                      <div class="flex items-center gap-xs">
+                        <span
+                          class="bg-primary-fixed text-on-primary-fixed text-[11px] font-semibold px-sm py-[2px] rounded-full"
+                          >English</span
+                        >
+                        <span
+                          class="bg-surface-container-high text-on-surface-variant text-[11px] font-medium px-sm py-[2px] rounded-full"
+                          >Practice</span
+                        >
+                      </div>
+                      <button
+                        class="bookmark-btn text-outline hover:text-secondary p-xs rounded-full hover:bg-surface-container-high transition-colors"
+                        title="Bookmark"
+                      >
+                        <span class="material-symbols-outlined text-[18px]"
+                          >bookmark</span
+                        >
+                      </button>
+                    </div>
+                    <h3
+                      class="font-headline-sm text-[18px] text-on-surface font-semibold group-hover:text-secondary transition-colors"
+                    >
+                      Listening Practice
+                    </h3>
+                    <p
+                      class="font-body-md text-[14px] text-on-surface-variant leading-relaxed mt-xs"
+                    >
+                      Authentic audio lectures and scientific symposium
+                      recordings accompanied by rigorous comprehension checks.
+                    </p>
+                  </div>
+                  <div class="pt-md mt-md flex items-center justify-between">
+                    <span
+                      class="flex items-center gap-xs text-[12px] text-outline"
+                      ><span class="material-symbols-outlined text-[15px]"
+                        >headphones</span
+                      >NPR Academic</span
+                    >
+                    <a
+                      class="px-md py-[6px] bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md rounded-lg font-medium transition-colors"
+                      href="#"
+                      >Listen ↗</a
+                    >
+                  </div>
+                </article>
+                <!-- Skill Card 9 -->
+                <article
+                  class="skill-card bg-surface-container-lowest rounded-xl p-md shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between group"
+                  data-category="english"
+                  data-title="speaking exercises pronunciation debate presentations"
+                  data-type="activity"
+                >
+                  <div>
+                    <div class="flex items-center justify-between gap-xs mb-sm">
+                      <div class="flex items-center gap-xs">
+                        <span
+                          class="bg-primary-fixed text-on-primary-fixed text-[11px] font-semibold px-sm py-[2px] rounded-full"
+                          >English</span
+                        >
+                        <span
+                          class="bg-surface-container-high text-on-surface-variant text-[11px] font-medium px-sm py-[2px] rounded-full"
+                          >Activity</span
+                        >
+                      </div>
+                      <button
+                        class="bookmark-btn text-outline hover:text-secondary p-xs rounded-full hover:bg-surface-container-high transition-colors"
+                        title="Bookmark"
+                      >
+                        <span class="material-symbols-outlined text-[18px]"
+                          >bookmark</span
+                        >
+                      </button>
+                    </div>
+                    <h3
+                      class="font-headline-sm text-[18px] text-on-surface font-semibold group-hover:text-secondary transition-colors"
+                    >
+                      Speaking Exercises
+                    </h3>
+                    <p
+                      class="font-body-md text-[14px] text-on-surface-variant leading-relaxed mt-xs"
+                    >
+                      Pronunciation guides, debate structures, pitch practice,
+                      and recorded presentation self-evaluation prompts.
+                    </p>
+                  </div>
+                  <div class="pt-md mt-md flex items-center justify-between">
+                    <span
+                      class="flex items-center gap-xs text-[12px] text-outline"
+                      ><span class="material-symbols-outlined text-[15px]"
+                        >mic</span
+                      >Toastmasters Hub</span
+                    >
+                    <a
+                      class="px-md py-[6px] bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md rounded-lg font-medium transition-colors"
+                      href="#"
+                      >Practice ↗</a
+                    >
+                  </div>
+                </article>
+              </div>
+              <!-- Empty State for Search Filter Results -->
+              <div
+                class="hidden flex-col items-center justify-center p-xl bg-surface-container-lowest rounded-2xl text-center space-y-md shadow-sm"
+                id="emptyState"
+              >
+                <div
+                  class="w-16 h-16 rounded-full bg-surface-container-high flex items-center justify-center text-outline"
+                >
+                  <span class="material-symbols-outlined text-[32px]"
+                    >search_off</span
+                  >
+                </div>
+                <div class="space-y-xs max-w-md">
+                  <h3
+                    class="font-headline-sm text-headline-sm text-on-surface font-semibold"
+                  >
+                    No skills found matching your search
+                  </h3>
+                  <p class="font-body-md text-[14px] text-on-surface-variant">
+                    Try adjusting your query, selecting "All" categories, or
+                    clearing keyword filters to explore more learning tools.
+                  </p>
+                </div>
+                <button
+                  class="px-md py-sm bg-primary text-on-primary rounded-xl font-label-md text-label-md font-semibold hover:bg-secondary transition-all"
+                  id="resetSearchBtn"
+                >
+                  Clear Filters &amp; View All
+                </button>
+              </div>
+            </section>
+            <!-- Interactive Filter & Search Implementation -->
+            <script>
+              (function () {
+                const searchInput = document.getElementById("skillsSearch");
+                const clearBtn = document.getElementById("clearSearchBtn");
+                const catButtons = document.querySelectorAll(".cat-pill");
+                const cards = document.querySelectorAll(".skill-card");
+                const emptyState = document.getElementById("emptyState");
+                const resultCounter = document.getElementById("resultCounter");
+                const allCountBadge = document.getElementById("allCountBadge");
+                const resetSearchBtn =
+                  document.getElementById("resetSearchBtn");
+                const featuredSection =
+                  document.getElementById("featuredSection");
+
+                let activeCat = "all";
+
+                function filterSkills() {
+                  const query = searchInput.value.trim().toLowerCase();
+                  let visibleCount = 0;
+
+                  clearBtn.classList.toggle("hidden", query.length === 0);
+
+                  cards.forEach((card) => {
+                    const cardCat = card
+                      .getAttribute("data-category")
+                      .toLowerCase();
+                    const cardTitle = card
+                      .getAttribute("data-title")
+                      .toLowerCase();
+                    const textContent = card.innerText.toLowerCase();
+
+                    const matchCat =
+                      activeCat === "all" || cardCat === activeCat;
+                    const matchQuery =
+                      !query ||
+                      cardTitle.includes(query) ||
+                      textContent.includes(query);
+
+                    if (matchCat && matchQuery) {
+                      card.classList.remove("hidden");
+                      visibleCount++;
+                    } else {
+                      card.classList.add("hidden");
+                    }
+                  });
+
+                  // Empty state handling
+                  if (visibleCount === 0) {
+                    emptyState.classList.remove("hidden");
+                    emptyState.classList.add("flex");
+                  } else {
+                    emptyState.classList.add("hidden");
+                    emptyState.classList.remove("flex");
+                  }
+
+                  // Count text
+                  resultCounter.textContent = `Showing ${visibleCount} skill${visibleCount === 1 ? "" : "s"}`;
+                  allCountBadge.textContent = `${visibleCount} resource${visibleCount === 1 ? "" : "s"} available`;
+
+                  // Featured section suppression during active filtering
+                  if (query.length > 0 || activeCat !== "all") {
+                    featuredSection.classList.add(
+                      "opacity-40",
+                      "pointer-events-none",
+                    );
+                  } else {
+                    featuredSection.classList.remove(
+                      "opacity-40",
+                      "pointer-events-none",
+                    );
+                  }
+                }
+
+                searchInput.addEventListener("input", filterSkills);
+
+                clearBtn.addEventListener("click", () => {
+                  searchInput.value = "";
+                  filterSkills();
+                  searchInput.focus();
+                });
+
+                resetSearchBtn.addEventListener("click", () => {
+                  searchInput.value = "";
+                  activeCat = "all";
+                  updateCatPillStyles();
+                  filterSkills();
+                });
+
+                function updateCatPillStyles() {
+                  catButtons.forEach((btn) => {
+                    if (btn.getAttribute("data-cat") === activeCat) {
+                      btn.className =
+                        "cat-pill active flex items-center gap-xs px-md py-xs rounded-full font-label-md text-label-md transition-all duration-200 bg-primary-container text-on-primary-container font-semibold shadow-sm";
+                      const badge = btn.querySelector("span:last-child");
+                      if (badge) {
+                        badge.className =
+                          "bg-primary text-white text-[11px] px-xs py-[2px] rounded-full leading-none";
+                      }
+                    } else {
+                      btn.className =
+                        "cat-pill flex items-center gap-xs px-md py-xs rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all duration-200";
+                      const badge = btn.querySelector("span:last-child");
+                      if (badge) {
+                        badge.className =
+                          "bg-surface-container-highest text-on-surface-variant text-[11px] px-xs py-[2px] rounded-full leading-none";
+                      }
+                    }
+                  });
+                }
+
+                catButtons.forEach((btn) => {
+                  btn.addEventListener("click", () => {
+                    activeCat = btn.getAttribute("data-cat");
+                    updateCatPillStyles();
+                    filterSkills();
+                  });
+                });
+
+                // Global hotkey Ctrl+K / Cmd+K
+                window.addEventListener("keydown", (e) => {
+                  if ((e.ctrlKey || e.metaKey) && e.key === "k") {
+                    e.preventDefault();
+                    searchInput.focus();
+                    searchInput.select();
+                  }
+                });
+
+                // Bookmark Toggle micro-interaction
+                document.querySelectorAll(".bookmark-btn").forEach((btn) => {
+                  btn.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    const icon = btn.querySelector(
+                      ".material-symbols-outlined",
+                    );
+                    const isFilled =
+                      icon.style.fontVariationSettings &&
+                      icon.style.fontVariationSettings.includes("'FILL' 1");
+                    if (isFilled) {
+                      icon.style.fontVariationSettings = "'FILL' 0";
+                      btn.classList.remove("text-secondary");
+                      btn.classList.add("text-outline");
+                    } else {
+                      icon.style.fontVariationSettings = "'FILL' 1";
+                      btn.classList.remove("text-outline");
+                      btn.classList.add("text-secondary");
+                    }
+                  });
+                });
+              })();
+            </script>
+            <!-- Standard Stemawy 2.0 Discovery Hub Footer -->
+            <footer
+              class="pt-lg border-t border-outline-variant/40 flex flex-col sm:flex-row items-center justify-between gap-sm text-on-surface-variant font-label-md text-[13px] pb-md"
+            >
+              <div class="flex items-center gap-xs">
+                <span class="font-semibold text-primary">Stemawy 2.0</span>
+                <span class="">•</span>
+                <span class="">Academic Skills Hub</span>
+              </div>
+              <div class="flex items-center gap-md">
+                <a class="hover:text-primary transition-colors" href="#"
+                  >About</a
+                >
+                <span class="">•</span>
+                <a class="hover:text-primary transition-colors" href="#"
+                  >Help &amp; Feedback</a
+                >
+                <span class="">•</span>
+                <a class="hover:text-primary transition-colors" href="#"
+                  >Suggest a Resource</a
+                >
+              </div>
+            </footer>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

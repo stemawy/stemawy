@@ -6,14 +6,21 @@ import type { SubjectContent } from "@/types";
 import { useSaveItemWithDetails } from "@/hooks";
 import styles from "@/app/subject/[subjectId]/SubjectPage.module.scss";
 
-export default function ContentHeader({ item }: { item: SubjectContent }) {
+export default function ContentHeader({
+  item,
+  subjectId,
+}: {
+  item: SubjectContent;
+  subjectId: string;
+}) {
   const { saved, toggle: toggleSaved } = useSaveItemWithDetails({
     id: item.id,
-    type: "subject",
+    type: "resource",
     title: item.title,
     description: item.description,
     category: "Subject",
     subcategory: item.number ?? "Learning object",
+    href: `/subject/${subjectId}?unit=${encodeURIComponent(item.id)}`,
   });
 
   return (

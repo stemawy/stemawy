@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { use, useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 
 import {
   SubjectContent,
@@ -20,6 +21,7 @@ export default function SubjectPage({
   params: Promise<{ subjectId: string }>;
 }) {
   const { subjectId } = use(params);
+  const searchParams = useSearchParams();
   const fallbackSubject = subjects.find(
     (item) =>
       item.id === subjectId || item.id.startsWith(`${subjectId}-grade-`),
@@ -34,7 +36,10 @@ export default function SubjectPage({
 
   const subject = djangoSubject ?? fallbackSubject;
   const contentItems = subject?.content ?? [];
-  const [selectedId, setSelectedId] = useState(contentItems[0]?.id ?? "");
+  const requestedUnit = searchParams.get("unit");
+  const [selectedId, setSelectedId] = useState(
+    requestedUnit ?? contentItems[0]?.id ?? "",
+  );
 
   if (!subject) {
     return (
@@ -61,6 +66,7 @@ export default function SubjectPage({
         />
         <SubjectContent
           item={selectedItem}
+          subjectId={subjectId}
           resources={
             djangoSubject?.resources?.length
               ? djangoSubject.resources

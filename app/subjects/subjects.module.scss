@@ -79,9 +79,22 @@
   font-size: 15px;
   font-weight: 600;
   white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
 }
 .segmentedControl button:hover {
   color: var(--on-surface);
+}
+.segmentedControl button:active {
+  transform: scale(0.97);
+}
+.segmentedControl button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
 }
 .segmentedControl .selected {
   background: var(--surface);
@@ -119,6 +132,17 @@
   display: flex;
   flex-direction: column;
   gap: 48px;
+  animation: subjectsEnter 280ms ease-out both;
+}
+@keyframes subjectsEnter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .section {
   display: flex;
