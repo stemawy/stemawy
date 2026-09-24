@@ -27,6 +27,7 @@
    ========================================================= */
 
 :root {
+  color-scheme: light;
   /* -------------------------------------------------------
      Fonts
      ------------------------------------------------------- */
@@ -136,6 +137,19 @@
   --on-tertiary-fixed: #002113;
   --on-tertiary-fixed-variant: #005236;
 
+  --accent-blue-soft: #e0f2fe;
+  --accent-blue-strong: #0369a1;
+  --accent-green-soft: #dcfce7;
+  --accent-green-strong: #15803d;
+  --accent-violet-soft: #f3e8ff;
+  --accent-violet-strong: #7e22ce;
+  --accent-warm-soft: #fff0d8;
+  --accent-warm-strong: #7c4a00;
+  --subject-card-surface: #ffffff;
+  --subject-card-border: #aeb8d1;
+  --subject-card-shadow: 0 4px 16px rgb(30 58 138 / 10%);
+  --subject-card-shadow-hover: 0 10px 28px rgb(30 88 190 / 20%);
+
   /* -------------------------------------------------------
      Shape
      ------------------------------------------------------- */
@@ -190,6 +204,7 @@
    ========================================================= */
 
 .dark {
+  color-scheme: dark;
   --background: #0f172a;
   --on-background: #f8fafc;
 
@@ -236,6 +251,19 @@
   --inverse-surface: #e3e1e9;
   --inverse-on-surface: #1a1b21;
   --inverse-primary: #4059aa;
+
+  --accent-blue-soft: #123451;
+  --accent-blue-strong: #7dd3fc;
+  --accent-green-soft: #123b2a;
+  --accent-green-strong: #86efac;
+  --accent-violet-soft: #34204d;
+  --accent-violet-strong: #d8b4fe;
+  --accent-warm-soft: #493517;
+  --accent-warm-strong: #fcd34d;
+  --subject-card-surface: #1e293b;
+  --subject-card-border: #64748b;
+  --subject-card-shadow: 0 4px 16px rgb(2 6 23 / 38%);
+  --subject-card-shadow-hover: 0 10px 28px rgb(96 165 250 / 24%);
 }
 
 /* =========================================================

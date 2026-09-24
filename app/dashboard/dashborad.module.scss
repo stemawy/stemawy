@@ -3,6 +3,8 @@
   flex-direction: column;
   gap: 56px;
   min-height: calc(100vh - 78px);
+  margin-bottom: 48px;
+  overflow-x: clip;
   padding: 40px 48px 0;
   background: var(--background);
 }
@@ -327,16 +329,16 @@
   border-radius: 8px;
 }
 .blue {
-  background: #e0f2fe;
-  color: #0369a1;
+  background: var(--accent-blue-soft);
+  color: var(--accent-blue-strong);
 }
 .green {
-  background: #dcfce7;
-  color: #15803d;
+  background: var(--accent-green-soft);
+  color: var(--accent-green-strong);
 }
 .violet {
-  background: #f3e8ff;
-  color: #7e22ce;
+  background: var(--accent-violet-soft);
+  color: var(--accent-violet-strong);
 }
 .contentGrid {
   display: grid;
@@ -463,6 +465,13 @@
   flex: 0 0 48px;
   border-radius: 8px;
   object-fit: cover;
+}
+.opportunityPlaceholder {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  border-radius: 4px;
+  background: var(--surface-container-high);
 }
 .opportunity strong,
 .opportunity small {
@@ -612,6 +621,7 @@
 @media (max-width: 767px) {
   .dashboard {
     gap: 36px;
+    margin-bottom: 32px;
     padding: 24px 16px 0;
   }
   .heroContent {

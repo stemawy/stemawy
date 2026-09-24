@@ -2,6 +2,8 @@ import GradeSemesterSelector from "./GradeSemesterSelector";
 
 import type { Grade, Semester } from "@/data/subjects";
 import styles from "@/app/dashboard/dashborad.module.scss";
+import { useLayoutState } from "@/components/layout/layout-context";
+import { getTranslations } from "@/lib/i18n";
 
 type DashboardHeroProps = {
   grade: Grade;
@@ -16,6 +18,9 @@ export default function DashboardHero({
   onGradeChange,
   onSemesterChange,
 }: DashboardHeroProps) {
+  const { language } = useLayoutState();
+  const t = getTranslations(language);
+
   return (
     <section className={styles.hero}>
       <div className={styles.heroContent}>
@@ -26,12 +31,9 @@ export default function DashboardHero({
           onSemesterChange={onSemesterChange}
         />
         <h1>
-          Good Morning! <span>Ready to learn?</span>
+          {t.dashboard.greeting} <span>{t.dashboard.greetingAccent}</span>
         </h1>
-        <p>
-          Your progress is saved locally. Continue your journey in Physics and
-          Mathematics today.
-        </p>
+        <p>{t.dashboard.progress}</p>
       </div>
     </section>
   );

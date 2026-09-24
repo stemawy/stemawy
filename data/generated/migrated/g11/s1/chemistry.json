@@ -1,0 +1,2636 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-19T00:00:00.000Z",
+  "source": {
+    "file": "migration/raw/g11/s1/chemistry.json"
+  },
+  "subject": {
+    "id": "chemistry-g11-s1",
+    "name": "Chemistry",
+    "description": "Grade 11 Semester 1 Chemistry introduces the foundations of chemical thinking, from solutions and water chemistry to acids, rates, equilibrium, and ionic systems. This course develops conceptual understanding of matter, reactions, and quantitative analysis while building the skills needed for scientific problem solving.",
+    "grade": "11",
+    "semester": "1",
+    "icon": "chemistry",
+    "content": [
+      {
+        "id": "chemistry-g11-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Unit 1 (Lo1)",
+        "description": "This unit introduces the chemistry of solutions, concentration, and water quality, helping students understand how dissolved substances behave in aqueous systems and why these properties are essential in daily life, industry, and environmental science.",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "chemistry-g11-s1-concept-solutions-and-aqueous-solutions",
+            "title": "Solutions and aqueous solutions",
+            "description": "This concept explains the formation of solutions and the special role of water as a universal solvent, showing how substances dissolve and interact in aqueous environments.",
+            "order": 1,
+            "resources": [
+              "chemistry-g11-s1-concept-solutions-and-aqueous-solutions-01-01-01",
+              "chemistry-g11-s1-concept-solutions-and-aqueous-solutions-01-01-02"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-solubility-of-salts-temperature-impact",
+            "title": "Solubility of salts  — temperature impact",
+            "description": "This concept explores how temperature changes the solubility of salts and why this relationship is important in chemistry, environmental systems, and industrial processes.",
+            "order": 2,
+            "resources": [
+              "chemistry-g11-s1-concept-solubility-of-salts-temperature-impact-01-02-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-solubility-curves",
+            "title": "Solubility curves",
+            "description": "This concept introduces solubility curves as visual tools for predicting how much solute can dissolve at a given temperature and comparing different substances.",
+            "order": 3,
+            "resources": [
+              "chemistry-g11-s1-concept-solubility-curves-01-03-01",
+              "chemistry-g11-s1-concept-solubility-curves-01-03-02"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-quantitative-analysis",
+            "title": "Quantitative analysis",
+            "description": "This concept covers methods for measuring concentrations and dissolved substances, emphasizing the importance of precise quantitative analysis in chemistry.",
+            "order": 4,
+            "resources": [
+              "chemistry-g11-s1-concept-quantitative-analysis-01-04-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-ppm",
+            "title": "ppm",
+            "description": "This concept explains parts per million as a method for expressing very small concentrations, especially in water quality and environmental chemistry.",
+            "order": 5,
+            "resources": ["chemistry-g11-s1-concept-ppm-01-05-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-molarity",
+            "title": "Molarity",
+            "description": "This concept defines molarity as a standard measure of solution concentration and shows how it is calculated and used in chemical calculations.",
+            "order": 6,
+            "resources": [
+              "chemistry-g11-s1-concept-molarity-01-06-01",
+              "chemistry-g11-s1-concept-molarity-01-06-02"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-molality",
+            "title": "Molality",
+            "description": "This concept explains molality as a concentration unit based on solvent mass and emphasizes its usefulness when temperature changes are involved.",
+            "order": 7,
+            "resources": [
+              "chemistry-g11-s1-concept-molality-01-07-01",
+              "chemistry-g11-s1-concept-molality-01-07-02"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-normality",
+            "title": "Normality",
+            "description": "This concept describes normality as a concentration unit related to reactive equivalents and shows when it is useful in acid-base and redox chemistry.",
+            "order": 8,
+            "resources": ["chemistry-g11-s1-concept-normality-01-08-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-mole-fraction",
+            "title": "Mole fraction",
+            "description": "This concept introduces mole fraction as a way to express the proportion of each component in a mixture and its connection to solution composition.",
+            "order": 9,
+            "resources": ["chemistry-g11-s1-concept-mole-fraction-01-09-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-mass-percentage",
+            "title": "Mass percentage",
+            "description": "This concept shows how mass percentage is used to describe concentration by mass and why it is widely applied in laboratory and industrial chemistry.",
+            "order": 10,
+            "resources": ["chemistry-g11-s1-concept-mass-percentage-01-10-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-tds",
+            "title": "TDS",
+            "description": "This concept defines total dissolved solids and explains how they affect water quality, taste, and suitability for human and industrial use.",
+            "order": 11,
+            "resources": ["chemistry-g11-s1-concept-tds-01-11-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-the-different-ion-percentages-which-the-human-body-needs-daily",
+            "title": "The different ion percentages which the human body needs daily",
+            "description": "This concept examines the essential ions the body requires daily and illustrates how mineral balance supports health, metabolism, and biological function.",
+            "order": 12,
+            "resources": [
+              "chemistry-g11-s1-concept-the-different-ion-percentages-which-the-human-body-needs-daily-01-12-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-resins",
+            "title": "Resins",
+            "description": "This concept introduces resins as ion-exchange materials used to remove unwanted ions and purify water in analytical and industrial applications.",
+            "order": 13,
+            "resources": ["chemistry-g11-s1-concept-resins-01-13-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-edta-including-ion-exchange",
+            "title": "EDTA  — including ion exchange",
+            "description": "This concept explains the role of EDTA in binding metal ions and how ion-exchange principles are used to soften water and separate dissolved contaminants.",
+            "order": 14,
+            "resources": [
+              "chemistry-g11-s1-concept-edta-including-ion-exchange-01-14-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-electrodialysis",
+            "title": "Electrodialysis",
+            "description": "This concept describes electrodialysis as a process that separates ions using an electric field and membrane technology for water purification.",
+            "order": 15,
+            "resources": ["chemistry-g11-s1-concept-electrodialysis-01-15-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-reverse-osmosis",
+            "title": "Reverse osmosis",
+            "description": "This concept explains reverse osmosis as a filtration method that removes dissolved salts and impurities by forcing water through a semi-permeable membrane.",
+            "order": 16,
+            "resources": ["chemistry-g11-s1-concept-reverse-osmosis-01-16-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-dissolved-oxygen-do",
+            "title": "Dissolved oxygen  — DO",
+            "description": "This concept introduces dissolved oxygen as a critical parameter in water quality and aquatic ecosystems, highlighting its influence on life and environmental health.",
+            "order": 17,
+            "resources": [
+              "chemistry-g11-s1-concept-dissolved-oxygen-do-01-17-01"
+            ]
+          }
+        ],
+        "resources": [
+          "chemistry-g11-s1-global-01-01",
+          "chemistry-g11-s1-global-01-02",
+          "chemistry-g11-s1-global-01-03",
+          "res_b45627f89f",
+          "res_ca3471b284",
+          "res_4c59194cd1",
+          "res_3fcf9df069",
+          "res_9f6e17c6db",
+          "res_43c0673d7f",
+          "res_5e1723c16d",
+          "res_ee3cda563c",
+          "res_57c8a13de3",
+          "res_b83aae54a2",
+          "res_0ca0ab1c4f"
+        ]
+      },
+      {
+        "id": "chemistry-g11-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Unit 2 (Lo2)",
+        "description": "This unit explores the unique properties of water and the effects of dissolved solutes on physical properties such as density, conductivity, boiling point, freezing point, and osmotic pressure.",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "chemistry-g11-s1-concept-water-in-the-environment",
+            "title": "Water in the environment",
+            "description": "This concept examines water as a natural resource and a key component of ecosystems, emphasizing its distribution, movement, and importance to life.",
+            "order": 1,
+            "resources": [
+              "chemistry-g11-s1-concept-water-in-the-environment-02-01-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-properties-and-types",
+            "title": "Properties and types",
+            "description": "This concept reviews the physical and chemical properties of water and distinguishes the main types of water systems relevant to chemistry and environment.",
+            "order": 2,
+            "resources": [
+              "chemistry-g11-s1-concept-properties-and-types-02-02-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-measuring-densities",
+            "title": "Measuring densities",
+            "description": "This concept explains how density is measured and why differences in density help chemists identify materials and understand water behavior.",
+            "order": 3,
+            "resources": [
+              "chemistry-g11-s1-concept-measuring-densities-02-03-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-conductivity",
+            "title": "Conductivity",
+            "description": "This concept describes conductivity as the ability of a solution to carry electric current and connects it to ion concentration and electrolyte strength.",
+            "order": 4,
+            "resources": ["chemistry-g11-s1-concept-conductivity-02-04-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-ph",
+            "title": "pH",
+            "description": "This concept introduces pH as a measure of acidity or alkalinity and shows how it influences chemical reactions, water quality, and living systems.",
+            "order": 5,
+            "resources": ["chemistry-g11-s1-concept-ph-02-05-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-boiling-points",
+            "title": "Boiling points",
+            "description": "This concept examines how the boiling point of a solution changes with composition and explains the effect of solute concentration on thermal behavior.",
+            "order": 6,
+            "resources": ["chemistry-g11-s1-concept-boiling-points-02-06-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-effect-of-solutes-on-physical-properties",
+            "title": "Effect of solutes on physical properties",
+            "description": "This concept explains how dissolved substances alter physical properties such as boiling point, melting point, and vapor pressure in solution systems.",
+            "order": 7,
+            "resources": [
+              "chemistry-g11-s1-concept-effect-of-solutes-on-physical-properties-02-07-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-colligative-properties",
+            "title": "Colligative properties",
+            "description": "This concept introduces colligative properties as solution properties that depend on the number of dissolved particles rather than the identity of the solute.",
+            "order": 8,
+            "resources": [
+              "chemistry-g11-s1-concept-colligative-properties-02-08-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-elevation-in-b-p",
+            "title": "Elevation in B.P.",
+            "description": "This concept explains boiling point elevation as a result of dissolved particles lowering the solvent’s tendency to escape into the vapor phase.",
+            "order": 9,
+            "resources": ["chemistry-g11-s1-concept-elevation-in-b-p-02-09-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-depression-in-f-p",
+            "title": "Depression in F.P.",
+            "description": "This concept shows how freezing point depression occurs when solutes disrupt crystal formation, lowering the temperature at which a liquid freezes.",
+            "order": 10,
+            "resources": ["chemistry-g11-s1-concept-depression-in-f-p-02-10-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-osmotic-pressure",
+            "title": "Osmotic pressure",
+            "description": "This concept explains osmotic pressure as the force that drives solvent movement across a semi-permeable membrane and highlights its importance in biology and chemistry.",
+            "order": 11,
+            "resources": ["chemistry-g11-s1-concept-osmotic-pressure-02-11-01"]
+          }
+        ],
+        "resources": [
+          "chemistry-g11-s1-global-02-01",
+          "res_07d989ff99",
+          "res_e80cdcf0d1",
+          "res_313748e79b",
+          "res_b533dbbc35",
+          "res_bf6070bf89",
+          "res_f63be87613"
+        ]
+      },
+      {
+        "id": "chemistry-g11-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Unit 3 (Lo3)",
+        "description": "This unit develops the acid-base foundation of chemistry by examining acids, bases, pH, salt behavior, and the structural factors that determine whether a substance acts as an acid or base.",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "chemistry-g11-s1-concept-acids",
+            "title": "Acids",
+            "description": "This concept introduces acids as substances that donate protons or increase hydrogen ion concentration in solution and explains their common chemical behavior.",
+            "order": 1,
+            "resources": ["chemistry-g11-s1-concept-acids-03-01-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-nature-of-acids",
+            "title": "Nature of acids",
+            "description": "This concept explains the chemical nature of acids, including their ionization, proton donation, and relationship to molecular structure.",
+            "order": 2,
+            "resources": ["chemistry-g11-s1-concept-nature-of-acids-03-02-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-acid-strength",
+            "title": "Acid strength",
+            "description": "This concept describes how acid strength depends on ionization and the stability of the conjugate base, helping students compare strong and weak acids.",
+            "order": 3,
+            "resources": ["chemistry-g11-s1-concept-acid-strength-03-03-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-ph-scale",
+            "title": "pH scale",
+            "description": "This concept introduces the pH scale as a logarithmic measure of acidity and alkalinity and shows how it relates to hydrogen ion concentration.",
+            "order": 4,
+            "resources": ["chemistry-g11-s1-concept-ph-scale-03-04-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-polyprotic-acid",
+            "title": "Polyprotic acid",
+            "description": "This concept explains polyprotic acids as acids that can donate more than one proton and shows how successive ionizations affect chemical behavior.",
+            "order": 5,
+            "resources": ["chemistry-g11-s1-concept-polyprotic-acid-03-05-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-bases",
+            "title": "Bases",
+            "description": "This concept defines bases as substances that accept protons or produce hydroxide ions in solution and highlights their role in neutralization reactions.",
+            "order": 6,
+            "resources": ["chemistry-g11-s1-concept-bases-03-06-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-acid-base-properties-of-salts",
+            "title": "Acid-base properties of salts",
+            "description": "This concept explores how salts can behave as acidic, basic, or neutral substances depending on the ions they release in water.",
+            "order": 7,
+            "resources": [
+              "chemistry-g11-s1-concept-acid-base-properties-of-salts-03-07-01",
+              "chemistry-g11-s1-concept-acid-base-properties-of-salts-03-07-02"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-effect-of-structure-on-acid-base-properties",
+            "title": "Effect of structure on acid-base properties",
+            "description": "This concept shows how molecular structure and electron distribution influence whether a compound acts as an acid or a base in chemical reactions.",
+            "order": 8,
+            "resources": [
+              "chemistry-g11-s1-concept-effect-of-structure-on-acid-base-properties-03-08-01",
+              "chemistry-g11-s1-concept-effect-of-structure-on-acid-base-properties-03-08-02"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-acid-base-properties-of-oxides",
+            "title": "Acid-base properties of oxides",
+            "description": "This concept explains how oxides can act as acidic or basic compounds depending on their composition and the chemical environment they are placed in.",
+            "order": 9,
+            "resources": [
+              "chemistry-g11-s1-concept-acid-base-properties-of-oxides-03-09-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-the-lewis-acid-base-model",
+            "title": "The Lewis Acid-Base Model",
+            "description": "This concept introduces the Lewis model, which defines acids and bases by electron-pair donation and acceptance, expanding the concept beyond proton transfer.",
+            "order": 10,
+            "resources": [
+              "chemistry-g11-s1-concept-the-lewis-acid-base-model-03-10-01"
+            ]
+          }
+        ],
+        "resources": [
+          "res_6d39f41843",
+          "res_50bbb5aeff",
+          "res_fc49a68bf3",
+          "res_59902d4284"
+        ]
+      },
+      {
+        "id": "chemistry-g11-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "Unit 4 (Lo4)",
+        "description": "This unit focuses on the fundamentals of reaction kinetics, introducing the language of chemical reactions, rate measurement, and the mathematical relationship between reactant concentration and reaction speed.",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "chemistry-g11-s1-concept-order",
+            "title": "Order",
+            "description": "This concept explains the order of a reaction as the dependence of the rate on reactant concentration and how it is determined experimentally.",
+            "order": 1,
+            "resources": ["chemistry-g11-s1-concept-order-04-01-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-molecularity",
+            "title": "Molecularity",
+            "description": "This concept defines molecularity as the number of reacting particles involved in an elementary step and distinguishes it from reaction order.",
+            "order": 2,
+            "resources": ["chemistry-g11-s1-concept-molecularity-04-02-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-rate-of-chemical-reaction",
+            "title": "Rate of chemical reaction",
+            "description": "This concept introduces reaction rate as the change in concentration over time and highlights its importance in understanding how fast chemical processes occur.",
+            "order": 3,
+            "resources": [
+              "chemistry-g11-s1-concept-rate-of-chemical-reaction-04-03-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-law-of-mass-action",
+            "title": "Law of mass action",
+            "description": "This concept explains the law of mass action, which connects reaction rate to the concentrations of reactants and provides the basis for rate equations.",
+            "order": 4,
+            "resources": [
+              "chemistry-g11-s1-concept-law-of-mass-action-04-04-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-determination-of-rate-of-reaction",
+            "title": "Determination of rate of reaction",
+            "description": "This concept examines the methods used to determine reaction rate experimentally and shows how rate data can be analyzed for chemical insight.",
+            "order": 5,
+            "resources": [
+              "chemistry-g11-s1-concept-determination-of-rate-of-reaction-04-05-01"
+            ]
+          }
+        ],
+        "resources": [
+          "res_affab7d9cc",
+          "res_a9308064a1",
+          "res_1310c0cc2b",
+          "res_0e443b6b42",
+          "res_ddcf2e77e2",
+          "res_a2c76da69a",
+          "res_62bbcb8884",
+          "res_b65b7222b6",
+          "res_65a445082f",
+          "res_d81d8d9028",
+          "res_7e87cfa605"
+        ]
+      },
+      {
+        "id": "chemistry-g11-s1-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "Unit 5 (Lo5)",
+        "description": "This unit examines how reaction rate can be changed by catalysts and activation energy, helping students connect kinetic theory with the practical factors that influence chemical processes.",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "chemistry-g11-s1-concept-catalyst",
+            "title": "Catalyst",
+            "description": "This concept explains how catalysts increase reaction rate by lowering the activation energy without being consumed in the reaction itself.",
+            "order": 1,
+            "resources": ["chemistry-g11-s1-concept-catalyst-05-01-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-activation-energy",
+            "title": "Activation energy",
+            "description": "This concept introduces activation energy as the minimum energy required for a reaction to occur and shows why it controls reaction speed.",
+            "order": 2,
+            "resources": ["chemistry-g11-s1-concept-activation-energy-05-02-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-effects-of-different-variables-on-the-rate-of-chemical-reaction",
+            "title": "Effects of different variables on the rate of chemical reaction",
+            "description": "This concept explores how changing variables such as concentration, temperature, surface area, and catalysts affects the speed of chemical reactions.",
+            "order": 3,
+            "resources": [
+              "chemistry-g11-s1-concept-effects-of-different-variables-on-the-rate-of-chemical-reaction-05-03-01"
+            ]
+          }
+        ],
+        "resources": [
+          "res_1cd7936f4a",
+          "res_b9f0b4498c",
+          "res_fa7101a53c",
+          "res_8a8434503b",
+          "res_7c955550a0",
+          "res_5ca1f8432f",
+          "res_da29b8c5af",
+          "res_2321954f8e",
+          "res_b5284cd1a4"
+        ]
+      },
+      {
+        "id": "chemistry-g11-s1-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "Unit 6 (Lo6)",
+        "description": "This unit introduces chemical equilibria, showing that many reactions do not go to completion and instead settle into dynamic balance governed by reversible processes and equilibrium constants.",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "chemistry-g11-s1-concept-chemical-equilibria",
+            "title": "Chemical equilibria",
+            "description": "This concept explains chemical equilibrium as the state in which the forward and reverse reaction rates are equal, creating a stable balance in a reversible system.",
+            "order": 1,
+            "resources": [
+              "chemistry-g11-s1-concept-chemical-equilibria-06-01-01",
+              "chemistry-g11-s1-concept-chemical-equilibria-06-01-02"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-reversible-reactions",
+            "title": "Reversible reactions",
+            "description": "This concept examines reversible reactions and how the system can proceed in both directions until equilibrium is reached.",
+            "order": 2,
+            "resources": [
+              "chemistry-g11-s1-concept-reversible-reactions-06-02-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-dynamic-equilibrium",
+            "title": "Dynamic equilibrium",
+            "description": "This concept explains dynamic equilibrium as a state of constant microscopic change with no net macroscopic change in concentrations.",
+            "order": 3,
+            "resources": [
+              "chemistry-g11-s1-concept-dynamic-equilibrium-06-03-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-factors-affecting-chemical-equilibria",
+            "title": "Factors affecting chemical equilibria",
+            "description": "This concept explores how concentration, pressure, temperature, and catalysts influence the position of equilibrium in a reaction mixture.",
+            "order": 4,
+            "resources": [
+              "chemistry-g11-s1-concept-factors-affecting-chemical-equilibria-06-04-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-equilibrium-graphing",
+            "title": "Equilibrium graphing",
+            "description": "This concept introduces equilibrium graphs as visual tools for understanding how reactant and product concentrations change as a system approaches balance.",
+            "order": 5,
+            "resources": [
+              "chemistry-g11-s1-concept-equilibrium-graphing-06-05-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-equilibrium-constants",
+            "title": "Equilibrium constants",
+            "description": "This concept defines equilibrium constants and explains how they quantify the ratio of product to reactant concentrations at equilibrium.",
+            "order": 6,
+            "resources": [
+              "chemistry-g11-s1-concept-equilibrium-constants-06-06-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-the-haber-process",
+            "title": "The Haber process",
+            "description": "This concept examines the Haber process as a major industrial method for making ammonia and shows how equilibrium principles guide industrial chemistry.",
+            "order": 7,
+            "resources": ["chemistry-g11-s1-concept-the-haber-process-06-07-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-the-contact-process",
+            "title": "The Contact process",
+            "description": "This concept introduces the Contact process as an industrial method for producing sulfuric acid and emphasizes the importance of equilibrium conditions in manufacturing.",
+            "order": 8,
+            "resources": [
+              "chemistry-g11-s1-concept-the-contact-process-06-08-01"
+            ]
+          }
+        ],
+        "resources": [
+          "res_5ac0d4bfb3",
+          "res_062220de32",
+          "res_12866bcb35",
+          "res_974fb1f008",
+          "res_2a552f0701",
+          "res_0aa4c0ba44",
+          "res_dd10aa8974"
+        ]
+      },
+      {
+        "id": "chemistry-g11-s1-unit-07",
+        "type": "unit",
+        "number": "07",
+        "title": "Unit 7 (Lo7)",
+        "description": "This unit develops ionic equilibria and acid-base theory, focusing on pH, buffer systems, weak acid/base behavior, and the chemical principles behind solubility and equilibrium in ionic systems.",
+        "order": 7,
+        "concepts": [
+          {
+            "id": "chemistry-g11-s1-concept-ionic-equilibria",
+            "title": "Ionic equilibria",
+            "description": "This concept explains ionic equilibria as the balance established when ions dissolve and react in solution, which is central to acid-base and solubility chemistry.",
+            "order": 1,
+            "resources": ["chemistry-g11-s1-concept-ionic-equilibria-07-01-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-br-nsted-lowry-theory-of-acids-and-bases",
+            "title": "Brønsted-Lowry theory of acids and bases",
+            "description": "This concept introduces the Brønsted-Lowry theory, defining acids as proton donors and bases as proton acceptors in solution.",
+            "order": 2,
+            "resources": [
+              "chemistry-g11-s1-concept-br-nsted-lowry-theory-of-acids-and-bases-07-02-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-acid-dissociation-constants-ka-and-the-use-of-pka",
+            "title": "Acid dissociation constants, Ka and the use of pKa",
+            "description": "This concept defines Ka and pKa as tools for comparing acid strength and understanding how weak acids dissociate in water.",
+            "order": 3,
+            "resources": [
+              "chemistry-g11-s1-concept-acid-dissociation-constants-ka-and-the-use-of-pka-07-03-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-the-ionic-product-of-water-kw",
+            "title": "The ionic product of water, Kw",
+            "description": "This concept explains the ionic product of water and how it underpins the relationship between hydrogen and hydroxide ion concentrations in aqueous solutions.",
+            "order": 4,
+            "resources": [
+              "chemistry-g11-s1-concept-the-ionic-product-of-water-kw-07-04-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-ph-choice-of-ph-indicators",
+            "title": "pH: choice of pH indicators",
+            "description": "This concept shows how pH indicators work by changing color over a specific range and how the correct indicator is chosen for a titration or acid-base analysis.",
+            "order": 5,
+            "resources": [
+              "chemistry-g11-s1-concept-ph-choice-of-ph-indicators-07-05-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-buffer-solutions",
+            "title": "Buffer solutions",
+            "description": "This concept explains buffer solutions as systems that resist pH change when small amounts of acid or base are added, which is important in biological and laboratory systems.",
+            "order": 6,
+            "resources": ["chemistry-g11-s1-concept-buffer-solutions-07-06-01"]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-solubility-product",
+            "title": "Solubility product",
+            "description": "This concept introduces the solubility product as the equilibrium constant for a sparingly soluble salt and shows how it predicts precipitation behavior.",
+            "order": 7,
+            "resources": [
+              "chemistry-g11-s1-concept-solubility-product-07-07-01"
+            ]
+          },
+          {
+            "id": "chemistry-g11-s1-concept-the-common-ion-effect",
+            "title": "The common ion effect",
+            "description": "This concept explains how adding a common ion reduces the solubility of a sparingly soluble salt and demonstrates the influence of equilibrium on dissolution.",
+            "order": 8,
+            "resources": [
+              "chemistry-g11-s1-concept-the-common-ion-effect-07-08-01"
+            ]
+          }
+        ],
+        "resources": [
+          "res_a64f228b4a",
+          "res_706ea2f836",
+          "res_b9248bf546",
+          "res_da2c9c688a",
+          "res_0610818ff9",
+          "res_882c3f5c79",
+          "res_37658c3575",
+          "res_eb9a3b6c44",
+          "res_486ea07ddd",
+          "res_3c68b40121",
+          "res_0f61f3c9b3",
+          "res_12f738d921",
+          "res_2de115a372"
+        ]
+      },
+      {
+        "id": "lo_fd993b208d",
+        "type": "unit",
+        "number": "01",
+        "title": "Test banks",
+        "description": "",
+        "order": 8,
+        "concepts": [],
+        "resources": [
+          "res_e227032bf7",
+          "res_26392f9dd0",
+          "res_47af88a220",
+          "res_677d7ae67d",
+          "res_fec0b0664f",
+          "res_7686235422",
+          "res_8fb19f35c9",
+          "res_33894c3f00",
+          "res_b221e847d1",
+          "res_d3d10d45fd",
+          "res_f2a0a52892"
+        ]
+      },
+      {
+        "id": "chemistry-g11-s1-midterm-revisions",
+        "type": "revision",
+        "title": "Midterm Revisions",
+        "description": "A focused review of the major ideas, equations, and practical skills introduced in the first half of the course, designed to strengthen conceptual recall and exam readiness.",
+        "order": 9,
+        "concepts": [],
+        "resources": [
+          "chemistry-g11-s1-revision-midterm-01",
+          "chemistry-g11-s1-revision-midterm-02"
+        ]
+      },
+      {
+        "id": "chemistry-g11-s1-final-revisions",
+        "type": "revision",
+        "title": "Final Revisions",
+        "description": "A final consolidation of the most important chemistry ideas and problem-solving strategies from the semester, preparing students for cumulative assessment and long-term understanding.",
+        "order": 10,
+        "concepts": [],
+        "resources": [
+          "chemistry-g11-s1-revision-final-01",
+          "chemistry-g11-s1-revision-final-02",
+          "chemistry-g11-s1-revision-final-03",
+          "chemistry-g11-s1-revision-final-04"
+        ]
+      },
+      {
+        "id": "lo_73553fdf65",
+        "type": "references",
+        "title": "Additional References",
+        "description": "",
+        "order": 11,
+        "concepts": [],
+        "resources": [
+          "res_6eaa00d22f",
+          "res_eb8cb85bc1",
+          "res_34d9dd707b",
+          "res_477677dd4b",
+          "res_989278b4b8",
+          "res_af34d7ccdd",
+          "res_b645e65c50",
+          "res_87e2d3a103",
+          "res_538009c13a",
+          "res_b2f472a5ec",
+          "res_3301b24026",
+          "res_1fb2c7b00f",
+          "res_ecb1b609b2",
+          "res_cae134a721",
+          "res_cc57b0b5ce",
+          "res_01a3c381f9",
+          "res_4536a4affa",
+          "res_344be7a620",
+          "res_09f12ef202",
+          "res_fd96657690",
+          "res_9b4556401b",
+          "res_20affd10e6",
+          "res_fb073363e3",
+          "res_e0bc045b43",
+          "res_df84a5cce0",
+          "res_bac45f8f59",
+          "res_d51f8a2270",
+          "res_2cdcd8e9b4",
+          "res_11f5fdc533",
+          "res_7e3cd5392c",
+          "res_ae22bc603b",
+          "res_cd0d620231",
+          "res_e35b409eb8",
+          "res_3ca12b4ff8",
+          "res_a96c4b76a8",
+          "res_a93b3f49be",
+          "res_f7d6dc29ad",
+          "res_36a2e5a91b",
+          "res_a8429b3bce",
+          "res_d46218d14a",
+          "res_8fff147436",
+          "res_5a7ef1707d",
+          "res_79fd01d92c",
+          "res_b255b9af3c",
+          "res_2827241f7a",
+          "res_48dd6e5495",
+          "res_904a279f57",
+          "res_e8cf11ef6a",
+          "res_6a8fa6384b",
+          "res_9507205d66",
+          "res_8b17f3be03",
+          "res_34491c74ff",
+          "res_6bebcaa14d",
+          "res_8a005fb908",
+          "res_93d97a2744",
+          "res_6c9f0a0ca1"
+        ]
+      }
+    ],
+    "units": 7
+  },
+  "resources": [
+    {
+      "id": "chemistry-g11-s1-global-01-01",
+      "title": "Unit 1 (Lo1) global link 1",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=CWbvcUUPi_g",
+      "youtubeId": "CWbvcUUPi_g",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Global Links"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-global-01-02",
+      "title": "Unit 1 (Lo1) global link 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=aO754oC4_b8",
+      "youtubeId": "aO754oC4_b8",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Global Links"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-global-01-03",
+      "title": "Unit 1 (Lo1) global link 3",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=iaUivEvCXV0",
+      "youtubeId": "iaUivEvCXV0",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Global Links"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-solutions-and-aqueous-solutions-01-01-01",
+      "title": "Solutions and aqueous solutions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=3mb7hfHZ48Q",
+      "youtubeId": "3mb7hfHZ48Q",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Solutions and aqueous solutions"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-solutions-and-aqueous-solutions-01-01-02",
+      "title": "Solutions and aqueous solutions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=AD22tefqhEQ",
+      "youtubeId": "AD22tefqhEQ",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Solutions and aqueous solutions"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-solubility-of-salts-temperature-impact-01-02-01",
+      "title": "Solubility of salts  — temperature impact",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=awMdCCidgOc&t=30s",
+      "youtubeId": "awMdCCidgOc",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Solubility of salts  — temperature impact"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-solubility-curves-01-03-01",
+      "title": "Solubility curves",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=xxy7o4I3BMQ",
+      "youtubeId": "xxy7o4I3BMQ",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Solubility curves"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-solubility-curves-01-03-02",
+      "title": "Solubility curves",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=VKmyj1z8T8U&t=3s",
+      "youtubeId": "VKmyj1z8T8U",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Solubility curves"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-quantitative-analysis-01-04-01",
+      "title": "Quantitative analysis",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=QUZRxqGVvX8",
+      "youtubeId": "QUZRxqGVvX8",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Quantitative analysis"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-ppm-01-05-01",
+      "title": "ppm",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=gR_3Z_02mi0&t=21s",
+      "youtubeId": "gR_3Z_02mi0",
+      "source": {
+        "location": "Unit 1 (Lo1)  — ppm"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-molarity-01-06-01",
+      "title": "Molarity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=O_nyEj_hZzg&t=25s",
+      "youtubeId": "O_nyEj_hZzg",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Molarity"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-molarity-01-06-02",
+      "title": "Molarity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=L-Uhyjt8t10",
+      "youtubeId": "L-Uhyjt8t10",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Molarity"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-molality-01-07-01",
+      "title": "Molality",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=O_nyEj_hZzg&t=25s",
+      "youtubeId": "O_nyEj_hZzg",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Molality"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-molality-01-07-02",
+      "title": "Molality",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=4VltXjR64SU",
+      "youtubeId": "4VltXjR64SU",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Molality"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-normality-01-08-01",
+      "title": "Normality",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=3BUG_EVrPVc",
+      "youtubeId": "3BUG_EVrPVc",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Normality"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-mole-fraction-01-09-01",
+      "title": "Mole fraction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=L-Uhyjt8t10",
+      "youtubeId": "L-Uhyjt8t10",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Mole fraction"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-mass-percentage-01-10-01",
+      "title": "Mass percentage",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=L-Uhyjt8t10",
+      "youtubeId": "L-Uhyjt8t10",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Mass percentage"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-tds-01-11-01",
+      "title": "TDS",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=HgKpalm7Bd4",
+      "youtubeId": "HgKpalm7Bd4",
+      "source": {
+        "location": "Unit 1 (Lo1)  — TDS"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-the-different-ion-percentages-which-the-human-body-needs-daily-01-12-01",
+      "title": "The different ion percentages which the human body needs daily",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=uRQB8wwAVBo",
+      "youtubeId": "uRQB8wwAVBo",
+      "source": {
+        "location": "Unit 1 (Lo1)  — The different ion percentages which the human body needs daily"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-resins-01-13-01",
+      "title": "Resins",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=QHs8MMMNZ6c",
+      "youtubeId": "QHs8MMMNZ6c",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Resins"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-edta-including-ion-exchange-01-14-01",
+      "title": "EDTA  — including ion exchange",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=8zXpldr8K7U",
+      "youtubeId": "8zXpldr8K7U",
+      "source": {
+        "location": "Unit 1 (Lo1)  — EDTA  — including ion exchange"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-electrodialysis-01-15-01",
+      "title": "Electrodialysis",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=QNX150DtnMc",
+      "youtubeId": "QNX150DtnMc",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Electrodialysis"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-reverse-osmosis-01-16-01",
+      "title": "Reverse osmosis",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=aYEjspiDoRI",
+      "youtubeId": "aYEjspiDoRI",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Reverse osmosis"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-dissolved-oxygen-do-01-17-01",
+      "title": "Dissolved oxygen  — DO",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=oVW5LAzd7Ec",
+      "youtubeId": "oVW5LAzd7Ec",
+      "source": {
+        "location": "Unit 1 (Lo1)  — Dissolved oxygen  — DO"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-global-02-01",
+      "title": "Unit 2 (Lo2) global link 1",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=JQ9mBUuYbbM",
+      "youtubeId": "JQ9mBUuYbbM",
+      "source": {
+        "location": "Unit 2 (Lo2)  — Global Links"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-water-in-the-environment-02-01-01",
+      "title": "Water in the environment",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ncORPosDrjI",
+      "youtubeId": "ncORPosDrjI",
+      "source": {
+        "location": "Unit 2 (Lo2)  — Water in the environment"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-properties-and-types-02-02-01",
+      "title": "Properties and types",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=3jwAGWky98c",
+      "youtubeId": "3jwAGWky98c",
+      "source": {
+        "location": "Unit 2 (Lo2)  — Properties and types"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-measuring-densities-02-03-01",
+      "title": "Measuring densities",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=s0Kh_m-qXy4",
+      "youtubeId": "s0Kh_m-qXy4",
+      "source": {
+        "location": "Unit 2 (Lo2)  — Measuring densities"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-conductivity-02-04-01",
+      "title": "Conductivity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=VEOjtGQ-05s",
+      "youtubeId": "VEOjtGQ-05s",
+      "source": {
+        "location": "Unit 2 (Lo2)  — Conductivity"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-ph-02-05-01",
+      "title": "pH",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=1k9JqWUGFCw",
+      "youtubeId": "1k9JqWUGFCw",
+      "source": {
+        "location": "Unit 2 (Lo2)  — pH"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-boiling-points-02-06-01",
+      "title": "Boiling points",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Qk_uPsq10TI",
+      "youtubeId": "Qk_uPsq10TI",
+      "source": {
+        "location": "Unit 2 (Lo2)  — Boiling points"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-effect-of-solutes-on-physical-properties-02-07-01",
+      "title": "Effect of solutes on physical properties",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=MDHlaTHbEgM",
+      "youtubeId": "MDHlaTHbEgM",
+      "source": {
+        "location": "Unit 2 (Lo2)  — Effect of solutes on physical properties"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-colligative-properties-02-08-01",
+      "title": "Colligative properties",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=c8dDLe37ONg",
+      "youtubeId": "c8dDLe37ONg",
+      "source": {
+        "location": "Unit 2 (Lo2)  — Colligative properties"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-elevation-in-b-p-02-09-01",
+      "title": "Elevation in B.P.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=FlrXNRCYcQI&t=320s",
+      "youtubeId": "FlrXNRCYcQI",
+      "source": {
+        "location": "Unit 2 (Lo2)  — Elevation in B.P."
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-depression-in-f-p-02-10-01",
+      "title": "Depression in F.P.",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=bJz6uChn3_Q&t=385s",
+      "youtubeId": "bJz6uChn3_Q",
+      "source": {
+        "location": "Unit 2 (Lo2)  — Depression in F.P."
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-osmotic-pressure-02-11-01",
+      "title": "Osmotic pressure",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Vas0U4XhbKU",
+      "youtubeId": "Vas0U4XhbKU",
+      "source": {
+        "location": "Unit 2 (Lo2)  — Osmotic pressure"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-acids-03-01-01",
+      "title": "Acids",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=FM2MpMbV0rw",
+      "youtubeId": "FM2MpMbV0rw",
+      "source": {
+        "location": "Unit 3 (Lo3)  — Acids"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-nature-of-acids-03-02-01",
+      "title": "Nature of acids",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=FM2MpMbV0rw",
+      "youtubeId": "FM2MpMbV0rw",
+      "source": {
+        "location": "Unit 3 (Lo3)  — Nature of acids"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-acid-strength-03-03-01",
+      "title": "Acid strength",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=IQ6gHQAg_Nk",
+      "youtubeId": "IQ6gHQAg_Nk",
+      "source": {
+        "location": "Unit 3 (Lo3)  — Acid strength"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-ph-scale-03-04-01",
+      "title": "pH scale",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=75j1b1l6PWU",
+      "youtubeId": "75j1b1l6PWU",
+      "source": {
+        "location": "Unit 3 (Lo3)  — pH scale"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-polyprotic-acid-03-05-01",
+      "title": "Polyprotic acid",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=nXugjkSQtTI",
+      "youtubeId": "nXugjkSQtTI",
+      "source": {
+        "location": "Unit 3 (Lo3)  — Polyprotic acid"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-bases-03-06-01",
+      "title": "Bases",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=FM2MpMbV0rw",
+      "youtubeId": "FM2MpMbV0rw",
+      "source": {
+        "location": "Unit 3 (Lo3)  — Bases"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-acid-base-properties-of-salts-03-07-01",
+      "title": "Acid-base properties of salts",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=MXTsUBC0Nlk",
+      "youtubeId": "MXTsUBC0Nlk",
+      "source": {
+        "location": "Unit 3 (Lo3)  — Acid-base properties of salts"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-acid-base-properties-of-salts-03-07-02",
+      "title": "Acid-base properties of salts",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=EDvtwQLJzEg",
+      "youtubeId": "EDvtwQLJzEg",
+      "source": {
+        "location": "Unit 3 (Lo3)  — Acid-base properties of salts"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-effect-of-structure-on-acid-base-properties-03-08-01",
+      "title": "Effect of structure on acid-base properties",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=OvQufqTyw54",
+      "youtubeId": "OvQufqTyw54",
+      "source": {
+        "location": "Unit 3 (Lo3)  — Effect of structure on acid-base properties"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-effect-of-structure-on-acid-base-properties-03-08-02",
+      "title": "Effect of structure on acid-base properties",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=v_94NsuBwDM",
+      "youtubeId": "v_94NsuBwDM",
+      "source": {
+        "location": "Unit 3 (Lo3)  — Effect of structure on acid-base properties"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-acid-base-properties-of-oxides-03-09-01",
+      "title": "Acid-base properties of oxides",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=SFmmjbVd6Bs",
+      "youtubeId": "SFmmjbVd6Bs",
+      "source": {
+        "location": "Unit 3 (Lo3)  — Acid-base properties of oxides"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-the-lewis-acid-base-model-03-10-01",
+      "title": "The Lewis Acid-Base Model",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=rmaLsdFQ2KQ",
+      "youtubeId": "rmaLsdFQ2KQ",
+      "source": {
+        "location": "Unit 3 (Lo3)  — The Lewis Acid-Base Model"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-order-04-01-01",
+      "title": "Order",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=7I0Xg92_eA4",
+      "youtubeId": "7I0Xg92_eA4",
+      "source": {
+        "location": "Unit 4 (Lo4)  — Order"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-molecularity-04-02-01",
+      "title": "Molecularity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=S84Llf1vqiM",
+      "youtubeId": "S84Llf1vqiM",
+      "source": {
+        "location": "Unit 4 (Lo4)  — Molecularity"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-rate-of-chemical-reaction-04-03-01",
+      "title": "Rate of chemical reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=JpoOfrPKgmM",
+      "youtubeId": "JpoOfrPKgmM",
+      "source": {
+        "location": "Unit 4 (Lo4)  — Rate of chemical reaction"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-law-of-mass-action-04-04-01",
+      "title": "Law of mass action",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=cmVuUFIaLW0",
+      "youtubeId": "cmVuUFIaLW0",
+      "source": {
+        "location": "Unit 4 (Lo4)  — Law of mass action"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-determination-of-rate-of-reaction-04-05-01",
+      "title": "Determination of rate of reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=oh4L2gcI5ds",
+      "youtubeId": "oh4L2gcI5ds",
+      "source": {
+        "location": "Unit 4 (Lo4)  — Determination of rate of reaction"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-catalyst-05-01-01",
+      "title": "Catalyst",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=m_9bpZep1QM",
+      "youtubeId": "m_9bpZep1QM",
+      "source": {
+        "location": "Unit 5 (Lo5)  — Catalyst"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-activation-energy-05-02-01",
+      "title": "Activation energy",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=jX4dEOFwaLQ",
+      "youtubeId": "jX4dEOFwaLQ",
+      "source": {
+        "location": "Unit 5 (Lo5)  — Activation energy"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-effects-of-different-variables-on-the-rate-of-chemical-reaction-05-03-01",
+      "title": "Effects of different variables on the rate of chemical reaction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=JpoOfrPKgmM",
+      "youtubeId": "JpoOfrPKgmM",
+      "source": {
+        "location": "Unit 5 (Lo5)  — Effects of different variables on the rate of chemical reaction"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-chemical-equilibria-06-01-01",
+      "title": "Chemical equilibria",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=J4WJCYpTYj8",
+      "youtubeId": "J4WJCYpTYj8",
+      "source": {
+        "location": "Unit 6 (Lo6)  — Chemical equilibria"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-chemical-equilibria-06-01-02",
+      "title": "Chemical equilibria",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=i_LCF8gmcWQ",
+      "youtubeId": "i_LCF8gmcWQ",
+      "source": {
+        "location": "Unit 6 (Lo6)  — Chemical equilibria"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-reversible-reactions-06-02-01",
+      "title": "Reversible reactions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=i_LCF8gmcWQ",
+      "youtubeId": "i_LCF8gmcWQ",
+      "source": {
+        "location": "Unit 6 (Lo6)  — Reversible reactions"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-dynamic-equilibrium-06-03-01",
+      "title": "Dynamic equilibrium",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=zaHM74k9Z1w",
+      "youtubeId": "zaHM74k9Z1w",
+      "source": {
+        "location": "Unit 6 (Lo6)  — Dynamic equilibrium"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-factors-affecting-chemical-equilibria-06-04-01",
+      "title": "Factors affecting chemical equilibria",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=bNcTt3l3Q8k",
+      "youtubeId": "bNcTt3l3Q8k",
+      "source": {
+        "location": "Unit 6 (Lo6)  — Factors affecting chemical equilibria"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-equilibrium-graphing-06-05-01",
+      "title": "Equilibrium graphing",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=x4Kg3Ux4gB8",
+      "youtubeId": "x4Kg3Ux4gB8",
+      "source": {
+        "location": "Unit 6 (Lo6)  — Equilibrium graphing"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-equilibrium-constants-06-06-01",
+      "title": "Equilibrium constants",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=J4WJCYpTYj8",
+      "youtubeId": "J4WJCYpTYj8",
+      "source": {
+        "location": "Unit 6 (Lo6)  — Equilibrium constants"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-the-haber-process-06-07-01",
+      "title": "The Haber process",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=SMtbS5idkU4",
+      "youtubeId": "SMtbS5idkU4",
+      "source": {
+        "location": "Unit 6 (Lo6)  — The Haber process"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-the-contact-process-06-08-01",
+      "title": "The Contact process",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=6EoUf8Jiy1o",
+      "youtubeId": "6EoUf8Jiy1o",
+      "source": {
+        "location": "Unit 6 (Lo6)  — The Contact process"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-ionic-equilibria-07-01-01",
+      "title": "Ionic equilibria",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=o33-qivUCiA",
+      "youtubeId": "o33-qivUCiA",
+      "source": {
+        "location": "Unit 7 (Lo7)  — Ionic equilibria"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-br-nsted-lowry-theory-of-acids-and-bases-07-02-01",
+      "title": "Brønsted-Lowry theory of acids and bases",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=XVOU9c3crbc",
+      "youtubeId": "XVOU9c3crbc",
+      "source": {
+        "location": "Unit 7 (Lo7)  — Brønsted-Lowry theory of acids and bases"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-acid-dissociation-constants-ka-and-the-use-of-pka-07-03-01",
+      "title": "Acid dissociation constants, Ka and the use of pKa",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=IQ6gHQAg_Nk",
+      "youtubeId": "IQ6gHQAg_Nk",
+      "source": {
+        "location": "Unit 7 (Lo7)  — Acid dissociation constants, Ka and the use of pKa"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-the-ionic-product-of-water-kw-07-04-01",
+      "title": "The ionic product of water, Kw",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ID5K1Yt7Yho",
+      "youtubeId": "ID5K1Yt7Yho",
+      "source": {
+        "location": "Unit 7 (Lo7)  — The ionic product of water, Kw"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-ph-choice-of-ph-indicators-07-05-01",
+      "title": "pH: choice of pH indicators",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZDgYWaeuwbw",
+      "youtubeId": "ZDgYWaeuwbw",
+      "source": {
+        "location": "Unit 7 (Lo7)  — pH: choice of pH indicators"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-buffer-solutions-07-06-01",
+      "title": "Buffer solutions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=kBzPTEB21Po",
+      "youtubeId": "kBzPTEB21Po",
+      "source": {
+        "location": "Unit 7 (Lo7)  — Buffer solutions"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-solubility-product-07-07-01",
+      "title": "Solubility product",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=N9a2r01ToZk",
+      "youtubeId": "N9a2r01ToZk",
+      "source": {
+        "location": "Unit 7 (Lo7)  — Solubility product"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-concept-the-common-ion-effect-07-08-01",
+      "title": "The common ion effect",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=fI3U9T7LigY",
+      "youtubeId": "fI3U9T7LigY",
+      "source": {
+        "location": "Unit 7 (Lo7)  — The common ion effect"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-revision-midterm-01",
+      "title": "Midterm Revisions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=zqB5lYBS9lQ",
+      "youtubeId": "zqB5lYBS9lQ",
+      "source": {
+        "location": "Midterm Revisions"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-revision-midterm-02",
+      "title": "Midterm Revisions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=u5GY5jyf_7Q&list=PLM1uF9AYOW6La8HTYXmQ-88NoDkM2DXQd&index=4",
+      "youtubeId": "u5GY5jyf_7Q",
+      "source": {
+        "location": "Midterm Revisions"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-revision-final-01",
+      "title": "Final Revisions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Nx93_noUUvo",
+      "youtubeId": "Nx93_noUUvo",
+      "source": {
+        "location": "Final Revisions"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-revision-final-02",
+      "title": "Final Revisions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=WHAAtQGd8PI",
+      "youtubeId": "WHAAtQGd8PI",
+      "source": {
+        "location": "Final Revisions"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-revision-final-03",
+      "title": "Final Revisions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=X2-Qln4VFoM",
+      "youtubeId": "X2-Qln4VFoM",
+      "source": {
+        "location": "Final Revisions"
+      }
+    },
+    {
+      "id": "chemistry-g11-s1-revision-final-04",
+      "title": "Final Revisions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=L1aE45dRwdk&list=PLM1uF9AYOW6La8HTYXmQ-88NoDkM2DXQd&index=5",
+      "youtubeId": "L1aE45dRwdk",
+      "source": {
+        "location": "Final Revisions"
+      }
+    },
+    {
+      "id": "res_7bf9e2783e",
+      "title": "Atomic_theory.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1N9Fz4wNQRbF1etGdFuT38WLxOgY2ajGj/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_43d11a3d83",
+      "title": "The Development of Atomic Theory Lecture.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1KJym-ivnH08MfopU-Pot2Cs_hq6upjDA/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b6b0570199",
+      "title": "water supplies _2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1cglGBDfnzCK0akF-DIozo70AYq-sQnJh/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e16496e66b",
+      "title": "water cycle _1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1v-3qEzJz5g2TQ6fee7vuS87oJJT1S3eV/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8dd3148c3e",
+      "title": "Water in our life.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1NpfzuVfKt7WC3nyhOu4c1DghMWICkqSY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_564853bdd8",
+      "title": "Properties of water.doc",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1Fo2aWLUfS8XVTlwmzyDoPYPIJQPOdAKR/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_6d5c35804d",
+      "title": "Chemistry laws & formulas G11 S1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1vC8WvshEzGAUpmrobSiS_LN0OlHmdsFO/view?usp=drivesdk"
+    },
+    {
+      "id": "res_75d87148d0",
+      "title": "Chemistry final revision(2) G11.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/11hBaruzhSCGwIp2A7ez-bLtdNrAQOQt2/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_0cdd67e068",
+      "title": "Chemistry final revision(3) G11.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1RCNpjraDDZL-zMI6HWkAlC11jREbauf3/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_6c63c4b311",
+      "title": "Chemistry final revision G11.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1fARgHfW9bsxGU6MiKByjRQmrbJR6V1w9/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_e93f166a5b",
+      "title": "Chemistry Summarization.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1r1eWqIGWRPRN-Y-4nbg1CxgiNTUbJ5uk/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e227032bf7",
+      "title": "H.W. 1 - Answer.docx.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sWI2EMjSlTK6-YuvVkrwfMr5lZKoQHaS/view?usp=drivesdk"
+    },
+    {
+      "id": "res_26392f9dd0",
+      "title": "HW-2.docx.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1xdndMc4ZXjWub2G5tuI3wrtAYg4J3GkT/view?usp=drivesdk"
+    },
+    {
+      "id": "res_47af88a220",
+      "title": "HW-2 - answer.docx.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/18AEDzIy3WiuXWDGwB7t1p7hT_j3lQxnK/view?usp=drivesdk"
+    },
+    {
+      "id": "res_677d7ae67d",
+      "title": "HW- 3.docx.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sGX-jCaBa2ExSciozcooqDSNtP3dyeBi/view?usp=drivesdk"
+    },
+    {
+      "id": "res_fec0b0664f",
+      "title": "H.W. -1.docx.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1_HSUVAjOtRY11z2UTMEPBjEVcaSdhmRA/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7686235422",
+      "title": "STUDENT REVISION - 2015-2016.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/158uuAYn6TKYE8keOBzfeHY1_wQ9sNSPc/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_8fb19f35c9",
+      "title": "Midterm_Question_bank[1].pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1bRQOuSK-3yhPyTV1E41bBqViBoj4YFn7/view?usp=drivesdk"
+    },
+    {
+      "id": "res_33894c3f00",
+      "title": "final_midterm_11-_2014[1].pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ksBRJVPDEBxBFsIsNf8QFoeHoUis8vQU/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b221e847d1",
+      "title": "Chmeistry midterm.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1zToCjTR-nsQpgnZ4bc1h2DCaWmRSLZEI/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d3d10d45fd",
+      "title": "Chemistry 1st term Final exam (2020-2021).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1pDlCG8lD884Zh3Gkj4mz8geBiswUwJeS/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f2a0a52892",
+      "title": "Chem final.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1OEFJsYCH7JoEUuI0Se8PssP4PcM8HqHy/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6eaa00d22f",
+      "title": "Modern Chemistry - Copy.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1j7LteDbQNGUAqtGYTN9nrVLJ4ICnbEZ_/view?usp=drivesdk"
+    },
+    {
+      "id": "res_eb8cb85bc1",
+      "title": "zumdal test bank.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1-ZycWSwC1jfZ8LO7O040mstcNZBmACJY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_34d9dd707b",
+      "title": "Zumdahl Chemistry 9th c2014 txtbk.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1MTBBCWx4KSz3cKStsCd_bPn4R9Ac2YZE/view?usp=drivesdk"
+    },
+    {
+      "id": "res_477677dd4b",
+      "title": "Zumdahl Chemistry 9th c2014 solutions - Copy.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ZpqglMk_OeBRoexRXtNfwrdHrJkolDbn/view?usp=drivesdk"
+    },
+    {
+      "id": "res_989278b4b8",
+      "title": "Chemistry The Central Science - Test Bank by Random People (z-lib.org).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Mbm90igzeeBo_j2gdMXpQdMmAybcegTp/view?usp=drivesdk"
+    },
+    {
+      "id": "res_af34d7ccdd",
+      "title": "GASES ap..pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1n0E5saR2V3ewtigdzBLE2s4T4ks3ZKbi/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b645e65c50",
+      "title": "reactions and periodicity AP.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1n4BKHTktYneg1HH3CWce7HDoQQQEiOLL/view?usp=drivesdk"
+    },
+    {
+      "id": "res_87e2d3a103",
+      "title": "Bonding AP.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1FxOS6PVXC3_n8goRM9cylIB9vOk6nu4T/view?usp=drivesdk"
+    },
+    {
+      "id": "res_538009c13a",
+      "title": "stoichiometry AP..pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GtQOf0y9OZNqlsB64bHI0y6ub2PjcAhs/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b2f472a5ec",
+      "title": "chemical reactions and bonding ap.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1YhJUyab17Z9YzfoF9dEUPbhjoP8v5p_K/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3301b24026",
+      "title": "Stoichiometry AP.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Fp42DljIWGsadl3KExZYstU3Et70PSAY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1fb2c7b00f",
+      "title": "Gases AP.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1S0Ut86Y3explXCaBwPD0rtKwpXE_C3su/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ecb1b609b2",
+      "title": "Thermodynamics AP.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1LeqGzk7JUpvPx3cJo5HhrFchFpNdXdQa/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cae134a721",
+      "title": "thermo ap.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1mqFv6LMQfd5wknrBndOpg0lg-TgUUh4P/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cc57b0b5ce",
+      "title": "chapter 22.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/12KTdRxIbEGgi5WJbpoS6RbpW4SglVZ9A/view?usp=drivesdk"
+    },
+    {
+      "id": "res_01a3c381f9",
+      "title": "chapter 4.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19GIlSyqm1oPsZZq22eFrgidlDNMrcDsz/view?usp=drivesdk"
+    },
+    {
+      "id": "res_4536a4affa",
+      "title": "chapter 5.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1E4oYei5vpzK3FNICfVPQK3aM30FgPIf6/view?usp=drivesdk"
+    },
+    {
+      "id": "res_344be7a620",
+      "title": "Chapter 20.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1REGnZZd056V1N3AUtyBxbWhzdh3od8Sm/view?usp=drivesdk"
+    },
+    {
+      "id": "res_09f12ef202",
+      "title": "Chapter 3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Z4R9gu6myWET25qSBz56zOdsWHpDci5O/view?usp=drivesdk"
+    },
+    {
+      "id": "res_fd96657690",
+      "title": "Chapter 2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1gs9g_4hZqfEhO09hBIfZz_S1jEUt5062/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9b4556401b",
+      "title": "chapter 7.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1h1qmzY_ll6Zn6el1NYac_g44z6ma4BVr/view?usp=drivesdk"
+    },
+    {
+      "id": "res_20affd10e6",
+      "title": "chapter 9.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1hZvtc3hGpykNTACl3mo9v_rlYyYKdN6W/view?usp=drivesdk"
+    },
+    {
+      "id": "res_fb073363e3",
+      "title": "chapter 6.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1x18PqWUkO6k1bySv_W3dmFQdlt8hgvvV/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e0bc045b43",
+      "title": "Chapter 18.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/14h5UX9QyZ2vkqGUy_qwKJs0boVq1DRjC/view?usp=drivesdk"
+    },
+    {
+      "id": "res_df84a5cce0",
+      "title": "chap. 1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19R8OoUDN-H5Qq68asbOpMWl6Xprec-By/view?usp=drivesdk"
+    },
+    {
+      "id": "res_bac45f8f59",
+      "title": "Chapter 16.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1IyQGgx8J74o264PV4CngrseYvpKhqUTP/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d51f8a2270",
+      "title": "Chapter 12.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1JgB0P-vVgKAMYZdv1gxGtEh4fykSCB_A/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2cdcd8e9b4",
+      "title": "chapter 11.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1MdaVFdYAR3LpLp5lupdbyp0XHlNhJosP/view?usp=drivesdk"
+    },
+    {
+      "id": "res_11f5fdc533",
+      "title": "chapter 13.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1UUSgXASpkeix5tw3cIQ8oEFaAZ1BoKs6/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7e3cd5392c",
+      "title": "chapter 10.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1WatMv_Fx9nZ4PjDc6BuSkU4Nr6hU58Nd/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ae22bc603b",
+      "title": "chapter 17.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1hnXn0n2rFuGnxNUnh0ks9rlzdK-l3bgA/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cd0d620231",
+      "title": "chapter 15.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qpW6COJT5mLw-9VZ7TnY3SBAM7WBSQFx/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e35b409eb8",
+      "title": "Chapter 19.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1yy-M04alqgz5tMyOZPxmZnDvxPAFW2gW/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3ca12b4ff8",
+      "title": "desktop.ini",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1jly61_BDKrUOjArIMO5nPZL-JANsqCuw/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a96c4b76a8",
+      "title": "Chapter 22 - Organic and Biological Molecules.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/12m-sDklOdySex9wjsmQkUUxxeEug4gbN/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_a93b3f49be",
+      "title": "Chapter 19 - The Nucleus - A Chemists View.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1DDmWT74Rg6lgctdbUb28wYH_LdcGuNz_/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_f7d6dc29ad",
+      "title": "Chapter 18 - Electrochemistry.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1y4vbruEBAZQ3Ae5zcxR3UV5ux_VEx6Gg/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_36a2e5a91b",
+      "title": "Chapter 17 - Spontaneity- Entropy- and Free Energy.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1vOGLjCRA18GbkM88UEO1rnRZGaxZyeG-/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_a8429b3bce",
+      "title": "Chapter 16 - Solubility and Complex Ion Equilibria.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1l_Gnt-mY11wS-xIPmQVCxgTNk3AspKTY/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_d46218d14a",
+      "title": "Chapter 15 - Acid-Base Equilibria.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1QmcdzJct35m4lzasZR84YCBHOSEeC7-F/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_8fff147436",
+      "title": "Chapter 14 - Acids and Bases.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1mh3q5M5SlZDgrY4heRgtM5b4XGVg8IbP/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_5a7ef1707d",
+      "title": "Chapter 13 - Chemical Equilibrium.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1YWeMe2mqA-rvnOC8PxotIlf3xhA_bhtX/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_79fd01d92c",
+      "title": "Chapter 12 - Chemical Kinetics.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1Lzh53mIr-0ma8MBjqls7GNVrzBrxk_bZ/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b255b9af3c",
+      "title": "Chapter 11 - Properties of Solutions.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1Re01puozImAHvKlmvGhA3Q90HGjRK-tU/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_2827241f7a",
+      "title": "Chapter 10 - Liquids and Solids.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1_tZw6iYEcz1b15hdhVJ2HK9YuKPcbP4H/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_48dd6e5495",
+      "title": "Chapter 9 - Covalent Bonding - Orbitals.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1PIjZxn_b23XvF6WjJMEABLnkut3TWlMv/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_904a279f57",
+      "title": "Chapter 7 - Atomic Structure and Periodicity.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1Sk1kl9Kdp3wUM_xfJIKDWtiJxmeQa7HQ/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_e8cf11ef6a",
+      "title": "Chapter 8 - Bonding - General Concepts.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1DF8fSNEaH3M-9hhgVjmNQLRr-sagaX4M/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_6a8fa6384b",
+      "title": "Chapter 4 - Types of Chemical Reactions and Solution Stoichiometry.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1rb1oQCPqSOrB5wyu2xANdbpnIWO51eFO/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_9507205d66",
+      "title": "Chapter 3 - Stoichiometry.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1w97UPY4_NtyELwF3szEEg1DPZe7P4Ivx/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_8b17f3be03",
+      "title": "Chapter 2 - Atoms- Molecules- and Ions.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/17Jy_DXGX7wVDSKr31ciQ_624-h1pjU2I/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_34491c74ff",
+      "title": "Chapter 1 - Chemical Foundations.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/14uuM3jMBxqjHsqG07JxyL4tz-yQq0o1H/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_6bebcaa14d",
+      "title": "Chapter 6 - Thermochemistry.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1iwWN1Bqb2WDXjeJsSAtciyS1MOnuxNm2/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_8a005fb908",
+      "title": "Chapter 5 - Gases.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1_ROcEpECsPlTNxGAXf62I_OuTmxxi4xr/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_93d97a2744",
+      "title": "Chapter 20 -.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1EkKdfPx3XMCZCPh2Cjy21SUiFg4glXCv/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_6c9f0a0ca1",
+      "title": "chapter 21 -.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1N5yrabk8Oj1Nabsw_5ogRvSvguoVZufO/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_a64f228b4a",
+      "title": "CH.2.07 session 3 .pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1-vKRgCAqzmlwVni_brugBe23P8h4EGEu/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_706ea2f836",
+      "title": "CH.2.07 session 2 .pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1M6luNCncOYMrr2n8Jev3UYPvPgaQgRRN/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b9248bf546",
+      "title": "CH.2.07 session 2 - Copy.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1z-7Rq1hwi5VOVMKKMN4df8toEg7C9fVP/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_da2c9c688a",
+      "title": "CH.2.07 session 1 .pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1nIP-X1V1EYrAFzm0OILD31Ge_xO7wPvF/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_0610818ff9",
+      "title": "CH.2.07 session 1 - Copy.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/153QZIPdlopf81CMzXjs3Y1dlaPD75XgM/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_882c3f5c79",
+      "title": "L.O 7 (Buffering Capacity)-No Audio.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1_Yd4NjGl44cVskKC736agOFakpF3eeZe/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_37658c3575",
+      "title": "L.O 7 (Buffering Capacity).pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1LmhXV4EuO_mhH2YK1QUyidIyLehnyQ1O/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_eb9a3b6c44",
+      "title": "L.O 7 (SOLIABILITY PRODUCTS) No-Audio.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1VLqvCUWSjVneoLp0-2YwoAuPKEmEk-DE/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_486ea07ddd",
+      "title": "L.O 7 (SOLIABILITY PRODUCTS).pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1Hd44q-VDmZwyV6j2NdHY40OT26vyUEfm/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_3c68b40121",
+      "title": "L.O 7 (Buffer Solutions) .pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1ZqmTLgxxuQdceZM_mUOguA0swvGVl1sP/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_0f61f3c9b3",
+      "title": "L.O 7 (Titration& pH curves).pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1ZKmErNm1TxxVgvTYNn_C9e9KyzG7jIpY/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_12f738d921",
+      "title": "L.O 7 (ionic equilibrium).pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1O4iDtazjkv_7yOa6WXrEVOyMrOas7ItA/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_2de115a372",
+      "title": "L.O 7 (Buffer Solutions).pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1W387uqL_7y2pRUNYu0Si4wTzuKUenM2n/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_5ac0d4bfb3",
+      "title": "CH.2.06 session 2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19TWnOOjEVyO8MO_zM0Ahk6V2Lh7orjve/view?usp=drivesdk"
+    },
+    {
+      "id": "res_062220de32",
+      "title": "CH.2.06 session 1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QvVpPrsiAzjTPv5YzksblENEi3A4qDh0/view?usp=drivesdk"
+    },
+    {
+      "id": "res_12866bcb35",
+      "title": "LO6-Chemical Equlibruim.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/10_BRk6tvX4__UnBiR0Mfu988c1PqUJwY/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_974fb1f008",
+      "title": "Factors affecting chemical equilibrium .pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1IXIDuXb0N4ThGqZtL4C2QA54_tfTJebq/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_2a552f0701",
+      "title": "Lo.6 (Reversible Reaction) C.2.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1G4eqBzEHvRgT33dNygtmuGG1n_Qp1pBR/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_0aa4c0ba44",
+      "title": "LO(6-5)Equilibrium constant.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1f0XeTxghLaYRql2xlbzP-qukGc7qI5XE/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_dd10aa8974",
+      "title": "LO(6-6).pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/17hjvriEKTdVngUkvBCWC3zlBFbIwplxK/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_1cd7936f4a",
+      "title": "CH.04&05.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/15FS4hgq3Gt8GivqEzsOLYVGYCdk4IZ6a/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b9f0b4498c",
+      "title": "CH.2.05 session 2.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1p7HaBfnhe5IdyYDRacl944tf7HJAL5hG/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_fa7101a53c",
+      "title": "CH.2.05 session 1.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1tAIOvjy0-lifO18Q3t9X8LTlsVnA5yKr/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_8a8434503b",
+      "title": "CH.2.05 .pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1Oeq_PxlbklXBs9uUn50zty6p9RmBaXGY/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_7c955550a0",
+      "title": "G 11 LO5 Factors that affect the reaction rate.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1FvuH81ieS1682MuvCahW266gOsc-P-Fl/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_5ca1f8432f",
+      "title": "G 11 LO5 Factors that affect the reaction rate no audio.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1GAklcnmui1DxSFG-om60Y-4XhtO2tYA-/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_da29b8c5af",
+      "title": "activation energy - no audio.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1IhJzx-9qu-rWFOxfKgtIXOSxGkLjjx-q/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_2321954f8e",
+      "title": "activated complex no audio.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1fb6MC5bfeq-5Mkco-YW5kyrrFC2qkV2g/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b5284cd1a4",
+      "title": "LO(5-2) Catalyst -No Audio.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1OEKC6reNaMYo2aUB-NoCwfePc-0LIQLK/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_affab7d9cc",
+      "title": "CH.04&05.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1dPHN9fxlpwg6WvW4wibYrU4irjzir81v/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_a9308064a1",
+      "title": "CH.2.04 session 2.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1ufjaKNXrAgxzoSA0-74lhVMR_LWbqXCp/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_1310c0cc2b",
+      "title": "CH.2.04 session 1.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1oqkd7VEVzYQThPTYZgRI-VccTkLYVz0N/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_0e443b6b42",
+      "title": "L.O4 ( Reaction Mechanisms) without Audio.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1oHt619s8QjuXqHkdzbHDRGH2mS82rXOX/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_ddcf2e77e2",
+      "title": "L.O4 ( Reaction Mechanisms).pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/19bhuL0b2mbwMEgavKSjMkl0TsDPu5M_d/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_a2c76da69a",
+      "title": "G 11 LO4 Reaction rate and its laws No Audio.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1cBWO0x5FgX0K0CSER_qLf4SuBWoTrZnc/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_62bbcb8884",
+      "title": "G 11 LO4 Reaction rate and its laws .pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1mV5S_VOgIB9HWeHhrK6BI9VA17ukXhUl/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b65b7222b6",
+      "title": "Chemistry law of mass action - no audio.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1ABgzodVdwNv1BSK6nIS8lY-V1b45MH69/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_65a445082f",
+      "title": "Chemistry law of mass action.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1xLZuzACCLBDAH90O1ZHpOl81pxBQXPbR/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_d81d8d9028",
+      "title": "LO(4-1) Order without Audio.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/10xCwTCR8j9rQ60CZ0piF8drFAoAZB8cI/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_7e87cfa605",
+      "title": "LO(4-1) Order.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1zMkfY2iXVyNzYmE_mBTTGtweK8ODEoVP/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_6d39f41843",
+      "title": "CH.03.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1P-NKAdHz5iUb7IfrBFstB3licGxTo_kz/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_50bbb5aeff",
+      "title": "CH.2.03 Session 3.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1SFa9AGEEIeSM7CbcxnVZvCn074osY2hy/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_fc49a68bf3",
+      "title": "CH.2.03 Session 2.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1z34hsOu-OkPd70s_E8XHEKnoTraNPkLn/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_59902d4284",
+      "title": "CH.2.03 Session 1 .pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1VAd9wRUueK6ezzHdkHlvOMr0vuzIOYEJ/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_07d989ff99",
+      "title": "CH.02 Pt.2.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1rrC2EmEST_bmyEpJYbFYA27d1QtVq0ak/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_e80cdcf0d1",
+      "title": "CH.2.02 session 2.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1OMbwLmyknBzKwE0g5k3wAQf0vwUN5OOe/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_313748e79b",
+      "title": "CH.2.02 session 2 - Copy.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1t2-sd1n2LGdPEXXcGrjvIG6XPxEqVHBZ/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b533dbbc35",
+      "title": "CH.2.02 session 1 - Copy.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/12B7bjTulk3a4g2Ihpq6fhyhgXlvstDnv/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_bf6070bf89",
+      "title": "CH.2.02 session 1.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1potkE4ichPIORWKwoEFR7Al5bGxSVJlN/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_f63be87613",
+      "title": "LO2 Chemistry Chess Team .pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kE-MOJTZDRNoyaMi8JIRXW44HhFtJQ06/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b45627f89f",
+      "title": "Sandy.pptx.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1zsTgLZA5weWPCKhmHKSb4gImV1MRmJJ3/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ca3471b284",
+      "title": "1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1DIWRrYcUG8vywansGoQFqAFMV1qP2mGg/view?usp=drivesdk"
+    },
+    {
+      "id": "res_4c59194cd1",
+      "title": "CH.01.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1PoCLaG8UD3ysTMOwz_41gSEBZa3aNJ9C/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_3fcf9df069",
+      "title": "CH.2.01 session 4 new - Copy.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1Q2MJI_2KzzaU9t-9h4kfk6aF_Nk74ZU7/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_9f6e17c6db",
+      "title": "CH.2.01 session 3 - Copy.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1sEtVT_LRnWLG2O9XKNbr4WLRkRgrrVLB/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_43c0673d7f",
+      "title": "CH.2.01 session 3.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1rTPC0DtnIY-wnng9e5aOR1rCR9u2r756/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_5e1723c16d",
+      "title": "CH.2.01 session 2.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1Ehh38DFp6GYQ4ECHDcp-KBCo96TrzaWa/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_ee3cda563c",
+      "title": "CH.2.01 Session 2 2025.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/19va90HlXlAA6jIy25yuJbjtCGitlNWY7/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_57c8a13de3",
+      "title": "CH.2.01 session 1.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1stDtAJJyjCAUdMgFTaqrnutYCOu8-1rz/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b83aae54a2",
+      "title": "CH.2.01 Session 1 2025 - Copy.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/14VyFEI3FWHTrjmXx5Mu3Ynn-HoNaI_we/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_0ca0ab1c4f",
+      "title": "Chem G11 LO1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1JlpOWcxuf1VgFCCYlm8ms6mBIkk_lDo2/view?usp=drivesdk"
+    }
+  ]
+}

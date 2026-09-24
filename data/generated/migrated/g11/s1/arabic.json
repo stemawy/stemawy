@@ -1,0 +1,336 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-22T20:46:54.933Z",
+  "source": {
+    "file": "migration/raw/g11/s1/arabic.json"
+  },
+  "subject": {
+    "id": "arabic-g11-s1",
+    "name": "Arabic",
+    "description": "",
+    "grade": "11",
+    "semester": "1",
+    "icon": "arabic",
+    "content": [
+      {
+        "id": "arabic-g11-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "حل",
+        "description": "",
+        "order": 1,
+        "concepts": [],
+        "resources": [
+          "arabic-g11-s1-global-01-01",
+          "arabic-g11-s1-global-01-02",
+          "arabic-g11-s1-global-01-03",
+          "arabic-g11-s1-global-01-04"
+        ]
+      },
+      {
+        "id": "arabic-g11-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "قراءة",
+        "description": "",
+        "order": 2,
+        "concepts": [],
+        "resources": [
+          "arabic-g11-s1-global-02-01",
+          "arabic-g11-s1-global-02-02"
+        ]
+      },
+      {
+        "id": "arabic-g11-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "نصوص",
+        "description": "",
+        "order": 3,
+        "concepts": [],
+        "resources": [
+          "arabic-g11-s1-global-03-01"
+        ]
+      },
+      {
+        "id": "arabic-g11-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "بلاغة",
+        "description": "",
+        "order": 4,
+        "concepts": [],
+        "resources": [
+          "arabic-g11-s1-global-04-01",
+          "arabic-g11-s1-global-04-02",
+          "arabic-g11-s1-global-04-03",
+          "arabic-g11-s1-global-04-04"
+        ]
+      },
+      {
+        "id": "arabic-g11-s1-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "قصة",
+        "description": "",
+        "order": 5,
+        "concepts": [],
+        "resources": [
+          "arabic-g11-s1-global-05-01",
+          "arabic-g11-s1-global-05-02",
+          "arabic-g11-s1-global-05-03"
+        ]
+      },
+      {
+        "id": "arabic-g11-s1-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "نحو",
+        "description": "",
+        "order": 6,
+        "concepts": [],
+        "resources": [
+          "arabic-g11-s1-global-06-01",
+          "arabic-g11-s1-global-06-02"
+        ]
+      },
+      {
+        "id": "arabic-g11-s1-unit-07",
+        "type": "unit",
+        "number": "07",
+        "title": "أدب",
+        "description": "",
+        "order": 7,
+        "concepts": [],
+        "resources": [
+          "arabic-g11-s1-global-07-01",
+          "arabic-g11-s1-global-07-02",
+          "arabic-g11-s1-global-07-03",
+          "arabic-g11-s1-global-07-04",
+          "arabic-g11-s1-global-07-05",
+          "arabic-g11-s1-global-07-06",
+          "arabic-g11-s1-global-07-07",
+          "arabic-g11-s1-global-07-08"
+        ]
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "arabic-g11-s1-global-01-01",
+      "title": "Arabic Test.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1XCkkZAWhb5pzKiVqfp9yPKGfSxe7pFNm/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1XCkkZAWhb5pzKiVqfp9yPKGfSxe7pFNm"
+    },
+    {
+      "id": "arabic-g11-s1-global-01-02",
+      "title": "قطع نحوية ستيم 2ث.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1tVrGZjy5umU5BqSCoAlfn_TCex0LWn47/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1tVrGZjy5umU5BqSCoAlfn_TCex0LWn47"
+    },
+    {
+      "id": "arabic-g11-s1-global-01-03",
+      "title": "قطع بلاغية ستيم 2ث.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1osgLTRuH-icYkHPh15hBDUjenb5mEG82/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1osgLTRuH-icYkHPh15hBDUjenb5mEG82"
+    },
+    {
+      "id": "arabic-g11-s1-global-01-04",
+      "title": "ثانية ثانوي 2016 -2017.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1RnWIuBsmZpatmj0OZ2IvZrxl_LH9zUdH/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1RnWIuBsmZpatmj0OZ2IvZrxl_LH9zUdH"
+    },
+    {
+      "id": "arabic-g11-s1-global-02-01",
+      "title": "كتاب الوزارة عربي 2ث ف2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sM-mEGUlYs-ZjXm7THh0x3QN9UqnrTfo/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1sM-mEGUlYs-ZjXm7THh0x3QN9UqnrTfo"
+    },
+    {
+      "id": "arabic-g11-s1-global-02-02",
+      "title": "كتاب العربي 2ث ف1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1TiY03mIf3yClZWeuwEu2gW1-93LPF07m/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1TiY03mIf3yClZWeuwEu2gW1-93LPF07m"
+    },
+    {
+      "id": "arabic-g11-s1-global-03-01",
+      "title": "نقاط هامة .pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19JRa3jxr0AtJCsX5pC4Zuq8WT3LlEog2/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "19JRa3jxr0AtJCsX5pC4Zuq8WT3LlEog2"
+    },
+    {
+      "id": "arabic-g11-s1-global-04-01",
+      "title": "الإطناب.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1_BhGnnoS_dOUhLo1pU5YCRTJzGRJycOP/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1_BhGnnoS_dOUhLo1pU5YCRTJzGRJycOP"
+    },
+    {
+      "id": "arabic-g11-s1-global-04-02",
+      "title": "8- البلاغة والتجربة الشعرية.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/16GtM1IyWpqw-uk-vUDCz9PSgWhXH-tgh/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "16GtM1IyWpqw-uk-vUDCz9PSgWhXH-tgh"
+    },
+    {
+      "id": "arabic-g11-s1-global-04-03",
+      "title": "بلاغة.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1lOjespqsyHQ_Osxuu7TZlawEb7pBdaHF/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1lOjespqsyHQ_Osxuu7TZlawEb7pBdaHF"
+    },
+    {
+      "id": "arabic-g11-s1-global-04-04",
+      "title": "مراجعة بلاغة وتدريبات شاملة مجابة للصف الثانى الثانوى الترم الاول 2019 مستر احمد فتحى.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/15Nkvlq71b0qQHoVjbnEVHuMF9FADl6Ac/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "15Nkvlq71b0qQHoVjbnEVHuMF9FADl6Ac"
+    },
+    {
+      "id": "arabic-g11-s1-global-05-01",
+      "title": "وا إسلاماه ترم أول.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1xHYOa2M7oTW5iBHdp0GNg1i8DmFCckwZ/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1xHYOa2M7oTW5iBHdp0GNg1i8DmFCckwZ"
+    },
+    {
+      "id": "arabic-g11-s1-global-05-02",
+      "title": "قصة واسلاماه للصف  2 الثانوي.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1OWWQ8gA2EvLzDZ1nWbM6TIBsFwgUtx6N/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1OWWQ8gA2EvLzDZ1nWbM6TIBsFwgUtx6N"
+    },
+    {
+      "id": "arabic-g11-s1-global-05-03",
+      "title": "وا إسلاماه.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1IHYL8dwOBICm-5toEI9MT8K3dawNF8AY/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1IHYL8dwOBICm-5toEI9MT8K3dawNF8AY"
+    },
+    {
+      "id": "arabic-g11-s1-global-06-01",
+      "title": "5- نحو2ث.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1A0kgb4hC02MUajRDYJiqKQPUw8dWr-xS/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1A0kgb4hC02MUajRDYJiqKQPUw8dWr-xS"
+    },
+    {
+      "id": "arabic-g11-s1-global-06-02",
+      "title": "خلاصه نحو ترم تاني تانيه ثانوي.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1MacKx7ADPBttOiU8J21ikBzS1jzIBsDP/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1MacKx7ADPBttOiU8J21ikBzS1jzIBsDP"
+    },
+    {
+      "id": "arabic-g11-s1-global-07-01",
+      "title": "8- المقال.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/13m8EQoJMQUS3vt6iDZkAnlVZFZueJDEu/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "13m8EQoJMQUS3vt6iDZkAnlVZFZueJDEu"
+    },
+    {
+      "id": "arabic-g11-s1-global-07-02",
+      "title": "7- الشعر الوطني.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ZSebjWrSdo6n1aTd5CGYbr12XFYU7bPy/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1ZSebjWrSdo6n1aTd5CGYbr12XFYU7bPy"
+    },
+    {
+      "id": "arabic-g11-s1-global-07-03",
+      "title": "6- المدرسة الرومانتيكية.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1OYN7qGmTUwaPsWmd4tHp2CC8kA4Z1bB0/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1OYN7qGmTUwaPsWmd4tHp2CC8kA4Z1bB0"
+    },
+    {
+      "id": "arabic-g11-s1-global-07-04",
+      "title": "5- مقدمة عن الأدب الندلسي.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Yhb96Hc9_D8NEJ9dT3uQSE0lKeF2UpQH/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1Yhb96Hc9_D8NEJ9dT3uQSE0lKeF2UpQH"
+    },
+    {
+      "id": "arabic-g11-s1-global-07-05",
+      "title": "4- الغزل في العصر العباسي.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1XUGxtg5UlZedcMJs_1QTRhOrl2TNl990/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1XUGxtg5UlZedcMJs_1QTRhOrl2TNl990"
+    },
+    {
+      "id": "arabic-g11-s1-global-07-06",
+      "title": "3- الادب في العصر الأموي 2ث.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1R7nsCRFKpmHXLtO_y9omt9ZzkQ_FVmWe/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1R7nsCRFKpmHXLtO_y9omt9ZzkQ_FVmWe"
+    },
+    {
+      "id": "arabic-g11-s1-global-07-07",
+      "title": "2- الأدب في عصر صدر الإسلام 2ث.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/150HLDRvqN4sBQEiqAC6lNbAw7lmrspKn/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "150HLDRvqN4sBQEiqAC6lNbAw7lmrspKn"
+    },
+    {
+      "id": "arabic-g11-s1-global-07-08",
+      "title": "1- الأدب في العصر الجاهلي 2ث.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1imoBYxDY51NNjTX6Ei-1yAycf9sK8GN4/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1imoBYxDY51NNjTX6Ei-1yAycf9sK8GN4"
+    }
+  ]
+}

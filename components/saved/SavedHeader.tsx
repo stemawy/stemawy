@@ -16,9 +16,7 @@ export default function SavedHeader({
       <div>
         <div className={styles.titleRow}>
           <h1 className={styles.title}>{title}</h1>
-          <span className={styles.subtitle}>/ {subtitle}</span>
         </div>
-        <p className={styles.description}>{description}</p>
       </div>
     </header>
   );

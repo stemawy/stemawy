@@ -8,7 +8,7 @@ export type MigratedConcept = Omit<Concept, "resources"> & {
 export type MigratedContent = Omit<SubjectContent, "concepts" | "resources"> & {
   order: number;
   concepts: MigratedConcept[];
-  resources: string[];
+  resources: Array<string | false>;
 };
 
 export type MigratedResource = Resource & {

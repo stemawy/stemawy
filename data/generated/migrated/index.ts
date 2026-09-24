@@ -15,6 +15,7 @@ import g10_s1_mechanics from "./g10/s1/mechanics.json";
 import g10_s1_physics from "./g10/s1/physics.json";
 import g10_s1_religion from "./g10/s1/religion.json";
 import g10_s1_socialstudies from "./g10/s1/socialstudies.json";
+
 import g10_s2_arabic from "./g10/s2/arabic.json";
 import g10_s2_biology from "./g10/s2/biology.json";
 import g10_s2_capstone from "./g10/s2/capstone.json";
@@ -29,6 +30,21 @@ import g10_s2_mechanics from "./g10/s2/mechanics.json";
 import g10_s2_physics from "./g10/s2/physics.json";
 import g10_s2_religion from "./g10/s2/religion.json";
 import g10_s2_socialstudies from "./g10/s2/socialstudies.json";
+
+import g11_s1_arabic from "./g11/s1/arabic.json";
+import g11_s1_biology from "./g11/s1/biology.json";
+import g11_s1_capstone from "./g11/s1/capstone.json";
+import g11_s1_chemistry from "./g11/s1/chemistry.json";
+import g11_s1_computerscience from "./g11/s1/computerscience.json";
+import g11_s1_english from "./g11/s1/english.json";
+import g11_s1_french from "./g11/s1/french.json";
+import g11_s1_geology from "./g11/s1/geology.json";
+import g11_s1_german from "./g11/s1/german.json";
+import g11_s1_maths from "./g11/s1/maths.json";
+import g11_s1_mechanics from "./g11/s1/mechanics.json";
+import g11_s1_physics from "./g11/s1/physics.json";
+import g11_s1_religion from "./g11/s1/religion.json";
+import g11_s1_citizenship from "./g11/s1/citizenship.json";
 
 const datasets = [
   g10_s1_arabic,
@@ -59,6 +75,20 @@ const datasets = [
   g10_s2_physics,
   g10_s2_religion,
   g10_s2_socialstudies,
+  g11_s1_arabic,
+  g11_s1_biology,
+  g11_s1_capstone,
+  g11_s1_chemistry,
+  g11_s1_computerscience,
+  g11_s1_english,
+  g11_s1_french,
+  g11_s1_geology,
+  g11_s1_german,
+  g11_s1_maths,
+  g11_s1_mechanics,
+  g11_s1_physics,
+  g11_s1_religion,
+  g11_s1_citizenship,
 ];
 
 export default datasets;

@@ -34,7 +34,6 @@
   color: var(--on-background);
   font-family: var(--font-heading), sans-serif;
   font-size: clamp(36px, 4vw, 48px);
-  font-weight: 700;
   line-height: 1.08;
   letter-spacing: -0.02em;
 }
@@ -369,32 +368,32 @@
   font-size: 15px;
 }
 .badgeSubject {
-  background: #e5eee9;
-  color: #17543e;
+  background: var(--accent-green-soft);
+  color: var(--accent-green-strong);
 }
 .badgeScholarship {
-  background: #e8edf7;
-  color: #244987;
+  background: var(--accent-blue-soft);
+  color: var(--accent-blue-strong);
 }
 .badgeResearch {
-  background: #e8f0ff;
-  color: #1761c2;
+  background: var(--accent-blue-soft);
+  color: var(--accent-blue-strong);
 }
 .badgeVideo {
-  background: #f9e6e7;
-  color: #bd2028;
+  background: var(--error-container);
+  color: var(--on-error-container);
 }
 .badgeOpportunity {
-  background: #e9effc;
-  color: #2359bc;
+  background: var(--accent-blue-soft);
+  color: var(--accent-blue-strong);
 }
 .badgeSkill {
-  background: #fff1dc;
-  color: #8c4c00;
+  background: var(--accent-warm-soft);
+  color: var(--accent-warm-strong);
 }
 .badgeResource {
-  background: #f8e4e5;
-  color: #b52229;
+  background: var(--error-container);
+  color: var(--on-error-container);
 }
 .removeButton {
   position: relative;
@@ -447,6 +446,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 1.45;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
@@ -460,6 +460,7 @@
   color: var(--on-surface-variant);
   font-size: 15px;
   line-height: 1.5;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }

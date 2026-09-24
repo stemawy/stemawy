@@ -7,7 +7,7 @@
   "subject": {
     "id": "biology-g10-s1",
     "name": "Biology",
-    "description": "Biology resources for Grade 10, Semester 1.",
+    "description": "Grade 10 Biology, Semester 1 introduces students to cell theory, cell structure, molecular biology, enzymes, cell division, stem cells, and the role of viruses in biological systems.",
     "grade": "10",
     "semester": "1",
     "icon": "biology",
@@ -17,13 +17,13 @@
         "type": "unit",
         "number": "01",
         "title": "Disease and Cell Theory",
-        "description": "",
+        "description": "This unit explores the relationship between cell theory and disease, focusing on infection, risk factors, and the biological causes of illness in living systems.",
         "order": 1,
         "concepts": [
           {
             "id": "biology-g10-s1-concept-cell-theory-disease",
             "title": "Cell Theory Disease.",
-            "description": "",
+            "description": "Students learn how cell theory helps explain the biological basis of disease and how cellular function is connected to health and illness.",
             "order": 1,
             "resources": [
               "biology-g10-s1-video-l3nh3ktns3e-befe48b2a5"
@@ -32,7 +32,7 @@
           {
             "id": "biology-g10-s1-concept-infectious-or-noninfectious-and-factors-vectors-non-infectious-factors",
             "title": "Infectious or noninfectious and factors, Vectors, Non-infectious factors",
-            "description": "",
+            "description": "This concept distinguishes between infectious and non-infectious diseases and examines biological and environmental factors that influence their spread and impact.",
             "order": 2,
             "resources": [
               "biology-g10-s1-video-gbzualib61k-aa91275f6d"
@@ -41,7 +41,7 @@
           {
             "id": "biology-g10-s1-concept-relation-between-diseases-and-economic-development",
             "title": "Relation between diseases and economic development",
-            "description": "",
+            "description": "Students analyze how disease affects communities, healthcare systems, and economic development at the local and national levels.",
             "order": 3,
             "resources": [
               "biology-g10-s1-video-khdaji7dxw0-ca13332bb2"
@@ -50,7 +50,7 @@
           {
             "id": "biology-g10-s1-concept-case-study-malaria",
             "title": "Case study: Malaria",
-            "description": "",
+            "description": "This case study explores the causes, transmission, and effects of malaria to connect disease biology to public health and prevention.",
             "order": 4,
             "resources": [
               "biology-g10-s1-video-hznekaazh9k-6b7a16047d",
@@ -68,13 +68,13 @@
         "type": "unit",
         "number": "02",
         "title": "Cell Structure and Types",
-        "description": "",
+        "description": "This unit examines the basic structure of cells, compares prokaryotic and eukaryotic cells, and explains how cellular organization supports function.",
         "order": 2,
         "concepts": [
           {
             "id": "biology-g10-s1-concept-compare-and-contrast-eukaryotes-and-prokaryotes",
             "title": "Compare and contrast eukaryotes and prokaryotes",
-            "description": "",
+            "description": "Students compare the structural and functional differences between eukaryotic and prokaryotic cells and relate these differences to cell organization.",
             "order": 1,
             "resources": [
               "biology-g10-s1-video-xtnnv7yplso-991efd7597"
@@ -83,7 +83,7 @@
           {
             "id": "biology-g10-s1-concept-eukaryotic-cell-structure-and-function",
             "title": "Eukaryotic cell structure and function",
-            "description": "",
+            "description": "This concept explains the major organelles of eukaryotic cells and how each structure contributes to cellular survival and function.",
             "order": 2,
             "resources": [
               "biology-g10-s1-video-7fn1nbov2u0-74d7104908"
@@ -92,7 +92,7 @@
           {
             "id": "biology-g10-s1-concept-case-study-tuberculosis",
             "title": "Case study: Tuberculosis",
-            "description": "",
+            "description": "This case study examines tuberculosis as a disease caused by infection, highlighting symptoms, transmission, and the role of host defense.",
             "order": 3,
             "resources": [
               "biology-g10-s1-video-6p6zbhpwiga-682bb23c18",
@@ -113,13 +113,13 @@
         "type": "unit",
         "number": "03",
         "title": "Cell Membrane and Transport",
-        "description": "",
+        "description": "This unit investigates the structure of the cell membrane and the mechanisms by which materials move in and out of cells through diffusion and transport systems.",
         "order": 3,
         "concepts": [
           {
             "id": "biology-g10-s1-concept-cell-membrane-barrier-function-phospholipids-and-proteins-fluid-structure-membrane-models-for-study-of-function",
             "title": "Cell membrane (barrier function, phospholipids and proteins, fluid structure, membrane models for study of function)",
-            "description": "",
+            "description": "Students study the membrane as a selective barrier and learn how phospholipids, proteins, and fluid structure support cell function.",
             "order": 1,
             "resources": [
               "biology-g10-s1-video-qpcaca39yta-bcdaf1555a",
@@ -129,7 +129,7 @@
           {
             "id": "biology-g10-s1-concept-cell-membrane-and-diffusion-diffusion-osmosis-selective-permeability-protein-channels-and-facilitated-diffusion-concentration-gradients-transport-proteins-and-active-transport",
             "title": "Cell membrane and diffusion (diffusion, osmosis, selective permeability, protein channels and facilitated diffusion, concentration gradients, transport proteins and active transport)",
-            "description": "",
+            "description": "This concept explains how molecules move across the cell membrane and how gradients and membrane proteins control transport.",
             "order": 2,
             "resources": [
               "biology-g10-s1-video-jhszfbtbpoi-542273815c"
@@ -138,7 +138,7 @@
           {
             "id": "biology-g10-s1-concept-case-study-diabetes",
             "title": "Case study: Diabetes",
-            "description": "",
+            "description": "This case study connects membrane transport and metabolic regulation to the biological causes and effects of diabetes.",
             "order": 3,
             "resources": [
               "biology-g10-s1-video-ulxywzf7bwc-b7334468e2",
@@ -157,13 +157,13 @@
         "type": "unit",
         "number": "04",
         "title": "DNA and RNA Structure",
-        "description": "",
+        "description": "This unit introduces the molecular basis of heredity by examining DNA and RNA structure, nucleotide composition, and the role of genetic information.",
         "order": 4,
         "concepts": [
           {
             "id": "biology-g10-s1-concept-deoxyribonucleic-acid-dna",
             "title": "Deoxyribonucleic acid (DNA).",
-            "description": "",
+            "description": "Students learn the structure of DNA and how genetic information is stored, copied, and passed on during cellular processes.",
             "order": 1,
             "resources": [
               "biology-g10-s1-video-8m6hhrlkwxy-7846cd84c0"
@@ -172,7 +172,7 @@
           {
             "id": "biology-g10-s1-concept-nucleotide-subunits",
             "title": "Nucleotide subunits.",
-            "description": "",
+            "description": "This concept introduces the building blocks of DNA and RNA, including sugars, phosphate groups, and nitrogenous bases.",
             "order": 2,
             "resources": [
               "biology-g10-s1-video-2lonjjineu4-64a3338680"
@@ -181,7 +181,7 @@
           {
             "id": "biology-g10-s1-concept-nitrogenous-bases",
             "title": "Nitrogenous bases",
-            "description": "",
+            "description": "Students study the chemical bases found in nucleic acids and their role in genetic coding and complementary pairing.",
             "order": 3,
             "resources": [
               "biology-g10-s1-video-iyhh2urjdwe-7218fd1d35"
@@ -190,7 +190,7 @@
           {
             "id": "biology-g10-s1-concept-sugar-phosphate-backbone",
             "title": "Sugar–phosphate backbone",
-            "description": "",
+            "description": "This concept develops the main ideas behind Sugar–phosphate backbone and connects them to biological structure, function, and real-life applications.",
             "order": 4,
             "resources": [
               "biology-g10-s1-video-nvcwfl57-3u-e102a7e9f5"
@@ -199,7 +199,7 @@
           {
             "id": "biology-g10-s1-concept-complementary-strands",
             "title": "Complementary strands",
-            "description": "",
+            "description": "Students explore how complementary DNA strands bind together and why complementary base pairing is essential for replication and inheritance.",
             "order": 5,
             "resources": [
               "biology-g10-s1-video-xkkk3tss9wc-b800905f7a"
@@ -208,7 +208,7 @@
           {
             "id": "biology-g10-s1-concept-double-helix",
             "title": "Double helix.",
-            "description": "",
+            "description": "This concept introduces the double-helix model of DNA and explains how its shape supports storage and transmission of genetic information.",
             "order": 6,
             "resources": [
               "biology-g10-s1-video-1vm3od-umfg-fa918042c3"
@@ -217,7 +217,7 @@
           {
             "id": "biology-g10-s1-concept-rna-structure",
             "title": "RNA structure",
-            "description": "",
+            "description": "Students learn how RNA differs from DNA in structure and function, and how it contributes to protein synthesis.",
             "order": 7,
             "resources": [
               "biology-g10-s1-video-juujsom1ihu-c61666e0bf",
@@ -235,13 +235,13 @@
         "type": "unit",
         "number": "05",
         "title": "Proteins and Enzymes",
-        "description": "",
+        "description": "This unit explains how proteins function in cells and how enzymes regulate biological reactions through structure, activity, and environmental factors.",
         "order": 5,
         "concepts": [
           {
             "id": "biology-g10-s1-concept-functions-of-proteins-in-cells-proteins-in-cells-protein-classification-enzyme-structure-functions-and-factors-affecting-rates",
             "title": "Functions of Proteins in cells (Proteins in cells, Protein classification, Enzyme structure, functions and factors affecting rates.)",
-            "description": "",
+            "description": "This concept explains the many roles of proteins in cells, including structural support, catalysis, regulation, and transport.",
             "order": 1,
             "resources": [
               "biology-g10-s1-video-hok2hyed9go-bdbe735a7f",
@@ -260,13 +260,13 @@
         "type": "unit",
         "number": "06",
         "title": "Cell Growth and Division",
-        "description": "",
+        "description": "This unit focuses on the cell cycle, mitotic processes, and the importance of controlled growth and division in healthy organisms.",
         "order": 6,
         "concepts": [
           {
             "id": "biology-g10-s1-concept-cell-growth-and-division",
             "title": "Cell growth and division.",
-            "description": "",
+            "description": "Students examine how cells increase in size and divide, and why regulated growth is essential for healthy tissue development.",
             "order": 1,
             "resources": [
               "biology-g10-s1-video-ludws4jriii-fd2681cad4"
@@ -275,7 +275,7 @@
           {
             "id": "biology-g10-s1-concept-phases-sequence-g1-s-g2-m",
             "title": "Phases sequence (G1, S, G2, M)",
-            "description": "",
+            "description": "This concept describes the phases of the cell cycle and the sequence of events that prepare a cell for division.",
             "order": 2,
             "resources": [
               "biology-g10-s1-video-znjj-c2j4gk-50b0a17a6a"
@@ -284,7 +284,7 @@
           {
             "id": "biology-g10-s1-concept-normal-and-abnormal-rates-and-processes",
             "title": "Normal and abnormal rates and processes",
-            "description": "",
+            "description": "Students compare normal cell growth and division with abnormal patterns that may lead to disease or tumor formation.",
             "order": 3,
             "resources": [
               "biology-g10-s1-video-xkzhcyetvsc-4bda91892d"
@@ -293,7 +293,7 @@
           {
             "id": "biology-g10-s1-concept-rate-differentiation-based-on-cell-type",
             "title": "Rate differentiation based on cell type",
-            "description": "",
+            "description": "This concept explains why different cells divide at different rates depending on function, tissue type, and biological need.",
             "order": 4,
             "resources": [
               "biology-g10-s1-video-gwaz-btvula-701546dd68",
@@ -303,7 +303,7 @@
           {
             "id": "biology-g10-s1-concept-case-study-cancer",
             "title": "Case study: Cancer",
-            "description": "",
+            "description": "This case study explores how uncontrolled cell division leads to cancer and why cell-cycle regulation is essential to health.",
             "order": 5,
             "resources": [
               "biology-g10-s1-video-qvcjdnxjree-dab4cc0c77",
@@ -322,20 +322,20 @@
         "type": "unit",
         "number": "07",
         "title": "Stem Cells",
-        "description": "",
+        "description": "This unit explores stem cell types, differentiation, embryonic development, and the medical potential and ethical issues surrounding stem cell therapy.",
         "order": 7,
         "concepts": [
           {
             "id": "biology-g10-s1-concept-stem-cells-types-according-to-differentiation-totipotent-pluripotent-multipoint",
             "title": "STEM cells types according to differentiation (Totipotent, Pluripotent, Multipoint)",
-            "description": "",
+            "description": "Students learn how stem cells vary in differentiation potential and how this affects their role in development and repair.",
             "order": 1,
             "resources": []
           },
           {
             "id": "biology-g10-s1-concept-types-of-stem-cells-according-to-its-presence-embryonic-adults-somatic",
             "title": "Types of STEM cells according to its presence (Embryonic, Adults (somatic))",
-            "description": "",
+            "description": "This concept distinguishes stem cells based on their origin and explains the differences between embryonic and adult stem cells.",
             "order": 2,
             "resources": [
               "biology-g10-s1-video-fp5h3sslskq-10828a7189"
@@ -344,7 +344,7 @@
           {
             "id": "biology-g10-s1-concept-layers-of-embryo-ectoderm-endoderm-mesoderm",
             "title": "Layers of embryo (Ectoderm, Endoderm, Mesoderm)",
-            "description": "",
+            "description": "Students examine the primary germ layers and their roles in forming specialized tissues and organs in an embryo.",
             "order": 3,
             "resources": [
               "biology-g10-s1-video-u6203vwpfu0-829315f986",
@@ -354,7 +354,7 @@
           {
             "id": "biology-g10-s1-concept-stem-cells-as-a-treatment-treatment-for-leukemia-umbilical-cord-blood-stem-cells-therapy-bone-marrow-transplant",
             "title": "STEM cells as a treatment (Treatment for leukemia, Umbilical cord blood STEM cells therapy, Bone marrow transplant)",
-            "description": "",
+            "description": "This concept explores the medical use of stem cells in treating diseases such as leukemia and the importance of tissue matching and transplantation.",
             "order": 4,
             "resources": [
               "biology-g10-s1-video-7qfhss4y-l4-495aae6366"
@@ -363,7 +363,7 @@
           {
             "id": "biology-g10-s1-concept-new-researches-treatment-for-diabetes",
             "title": "New researches treatment for diabetes",
-            "description": "",
+            "description": "Students evaluate how stem cell research is contributing to new treatments for diabetes and other chronic diseases.",
             "order": 5,
             "resources": [
               "biology-g10-s1-video-fhynq1wesni-e134a2f434"
@@ -372,7 +372,7 @@
           {
             "id": "biology-g10-s1-concept-the-stem-cells-debate",
             "title": "The STEM cells debate.",
-            "description": "",
+            "description": "This concept examines the scientific promise and ethical questions surrounding stem cell research and therapy.",
             "order": 6,
             "resources": [
               "biology-g10-s1-video-lwgrbos9y8a-3b26a730d9",
@@ -392,13 +392,13 @@
         "type": "unit",
         "number": "08",
         "title": "Viral Interactions",
-        "description": "",
+        "description": "This unit examines how viruses interact with cells, reproduce, and affect host biological systems, including diseases such as HIV.",
         "order": 8,
         "concepts": [
           {
             "id": "biology-g10-s1-concept-the-relationship-between-cell-protein-and-viral-protein",
             "title": "The relationship between cell protein and viral protein",
-            "description": "",
+            "description": "Students analyze how viruses use host cell machinery and exploit protein interactions to reproduce and spread infection.",
             "order": 1,
             "resources": [
               "biology-g10-s1-video-8wawlwjaghs-5506db3872"
@@ -407,7 +407,7 @@
           {
             "id": "biology-g10-s1-concept-receptor-proteins-and-enzymes",
             "title": "Receptor proteins and enzymes",
-            "description": "",
+            "description": "This concept explains how receptor proteins and enzymes contribute to viral entry, host recognition, and the regulation of infection.",
             "order": 2,
             "resources": [
               "biology-g10-s1-video-kaorrzakjge-4e1d5edb99"
@@ -416,7 +416,7 @@
           {
             "id": "biology-g10-s1-concept-protein-manufacture-of-virus-utilizing-cell-organelles",
             "title": "Protein manufacture of virus utilizing cell organelles.",
-            "description": "",
+            "description": "Students study how viruses hijack cellular organelles to produce viral proteins and replicate their genetic material.",
             "order": 3,
             "resources": [
               "biology-g10-s1-video-oefai2x2cqm-e58fc96e81"
@@ -425,7 +425,7 @@
           {
             "id": "biology-g10-s1-concept-hiv-virus-mechanism-of-infection-and-replication",
             "title": "HIV virus mechanism of infection and replication.",
-            "description": "",
+            "description": "This concept describes the HIV life cycle, how the virus infects host cells, and how it uses cellular machinery to replicate.",
             "order": 4,
             "resources": [
               "biology-g10-s1-video-kvveccxndks-b4b3d9dc58",
@@ -435,7 +435,7 @@
           {
             "id": "biology-g10-s1-concept-case-study-hiv-disease-symptoms",
             "title": "Case study: HIV (disease symptoms)",
-            "description": "",
+            "description": "This case study explores HIV infection, progression, and symptoms, linking viral biology to disease outcomes and treatment.",
             "order": 5,
             "resources": [
               "biology-g10-s1-video-yytwuvo6gke-8cad65cbaa"
@@ -454,7 +454,7 @@
         "type": "unit",
         "number": "09",
         "title": "Additional References",
-        "description": "",
+        "description": "This section provides supplementary study materials that support broader understanding and independent review of the biology curriculum.",
         "order": 9,
         "concepts": [],
         "resources": []
@@ -463,7 +463,7 @@
         "id": "biology-g10-s1-qs-bank-question-bank",
         "type": "qs-bank",
         "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
+        "description": "This section contains practice questions and exam-style activities designed to reinforce biological concepts and assess understanding.",
         "order": 10,
         "concepts": [],
         "resources": [
@@ -475,7 +475,7 @@
         "id": "biology-g10-s1-revision-revision",
         "type": "revision",
         "title": "Revision",
-        "description": "Revision materials for the semester.",
+        "description": "This section summarizes the key biological ideas and exam skills needed for review before tests and final assessments.",
         "order": 11,
         "concepts": [],
         "resources": []
@@ -484,7 +484,7 @@
         "id": "biology-g10-s1-references-references",
         "type": "references",
         "title": "References",
-        "description": "Reference books and additional materials.",
+        "description": "This section gathers helpful reference books and supporting resources for additional learning and self-study.",
         "order": 12,
         "concepts": [],
         "resources": []

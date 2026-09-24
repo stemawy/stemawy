@@ -14,6 +14,8 @@ import { resources as allResources } from "@/data/resources";
 import { subjects } from "@/data/subjects";
 import { fetchDjangoSubject, type DjangoSubject } from "@/lib/django-api";
 import styles from "./SubjectPage.module.scss";
+import { useLayoutState } from "@/components/layout/layout-context";
+import { getTranslations } from "@/lib/i18n";
 
 export default function SubjectPage({
   params,
@@ -21,6 +23,8 @@ export default function SubjectPage({
   params: Promise<{ subjectId: string }>;
 }) {
   const { subjectId } = use(params);
+  const { language } = useLayoutState();
+  const t = getTranslations(language);
   const searchParams = useSearchParams();
   const fallbackSubject = subjects.find(
     (item) =>
@@ -45,8 +49,8 @@ export default function SubjectPage({
     return (
       <div className={styles.page}>
         <div className={styles.notFound}>
-          <h1>Subject not found</h1>
-          <Link href="/subjects">Back to Subjects</Link>
+          <h1>{t.subjects.detail.subjectNotFound}</h1>
+          <Link href="/subjects">{t.subjects.detail.backToSubjects}</Link>
         </div>
       </div>
     );
@@ -56,7 +60,7 @@ export default function SubjectPage({
     contentItems.find((item) => item.id === selectedId) ?? contentItems[0];
 
   return (
-    <div className={styles.page}>
+    <div className={styles.page} dir={language === "ar" ? "rtl" : "ltr"}>
       <SubjectHeader subject={subject} />
       <div className={styles.layout}>
         <SubjectNavigation

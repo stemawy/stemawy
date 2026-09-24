@@ -7,7 +7,7 @@
   "subject": {
     "id": "computerscience-g10-s1",
     "name": "Computer Science",
-    "description": "Computer Science resources for Grade 10, Semester 1.",
+    "description": "Grade 10 Computer Science, Semester 1 develops digital literacy, computational thinking, networking, problem solving, and web design skills through practical activities.",
     "grade": "10",
     "semester": "1",
     "icon": "computerscience",
@@ -17,34 +17,34 @@
         "type": "unit",
         "number": "01",
         "title": "SketchUp & 3D Design",
-        "description": "",
+        "description": "This unit introduces students to 3D modeling and digital design, helping them create and manipulate objects in a virtual environment.",
         "order": 1,
         "concepts": [
           {
             "id": "computerscience-g10-s1-concept-sketch-up-structure-tools-and-styles",
             "title": "Sketch up structure, tools, and styles",
-            "description": "",
+            "description": "This concept focuses on sketch up structure, tools, and styles and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 1,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-3d-design",
             "title": "3D design",
-            "description": "",
+            "description": "This concept focuses on 3d design and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 2,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-orbit-pan-command-bar-large-tool-set",
             "title": "orbit, pan, command bar, large tool set",
-            "description": "",
+            "description": "This concept focuses on orbit, pan, command bar, large tool set and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 3,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-style-toolbox-tray",
             "title": "Style, toolbox, tray",
-            "description": "",
+            "description": "This concept focuses on style, toolbox, tray and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 4,
             "resources": []
           }
@@ -62,13 +62,13 @@
         "type": "unit",
         "number": "02",
         "title": "Machine Language & Number Systems",
-        "description": "",
+        "description": "This unit explores how computers represent information using different number systems and binary logic.",
         "order": 2,
         "concepts": [
           {
             "id": "computerscience-g10-s1-concept-machine-language-data-digit-bit-byte-word-nibble-decimal-number-system-binary-system-octal-and-hexadecimal-systems",
             "title": "machine language data, digit, bit, byte. Word, Nibble Decimal number system Binary system Octal and Hexadecimal Systems",
-            "description": "",
+            "description": "This concept focuses on machine language data, digit, bit, byte. word, nibble decimal number system binary system octal and hexadecimal systems and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 1,
             "resources": []
           }
@@ -82,34 +82,34 @@
         "type": "unit",
         "number": "03",
         "title": "Networks & Administration",
-        "description": "",
+        "description": "This unit examines network types, connectivity, and the tasks involved in managing digital communication systems.",
         "order": 3,
         "concepts": [
           {
             "id": "computerscience-g10-s1-concept-lan",
             "title": "LAN",
-            "description": "",
+            "description": "This concept focuses on lan and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 1,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-wan",
             "title": "WAN",
-            "description": "",
+            "description": "This concept focuses on wan and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 2,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-peer-to-peer-networks",
             "title": "Peer-to-Peer Networks",
-            "description": "",
+            "description": "This concept focuses on peer-to-peer networks and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 3,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-system-administrator-task",
             "title": "System administrator task",
-            "description": "",
+            "description": "This concept focuses on system administrator task and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 4,
             "resources": []
           }
@@ -128,34 +128,34 @@
         "type": "unit",
         "number": "04",
         "title": "Programming & Problem Solving",
-        "description": "",
+        "description": "This unit builds logical thinking and algorithmic problem-solving skills, enabling students to plan and test solutions to real challenges.",
         "order": 4,
         "concepts": [
           {
             "id": "computerscience-g10-s1-concept-computer-programming-problem-solving-well-defined-problem",
             "title": "Computer programming Problem solving Well-defined problem.",
-            "description": "",
+            "description": "This concept focuses on computer programming problem solving well-defined problem. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 1,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-algorithm",
             "title": "Algorithm.",
-            "description": "",
+            "description": "This concept focuses on algorithm. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 2,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-flowcharts-flowchart-symbols",
             "title": "Flowcharts (Flowchart symbols).",
-            "description": "",
+            "description": "This concept focuses on flowcharts (flowchart symbols). and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 3,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-pseudo-code-sequencing-conditional-loop",
             "title": "Pseudo-code sequencing – conditional Loop",
-            "description": "",
+            "description": "This concept focuses on pseudo-code sequencing – conditional loop and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 4,
             "resources": []
           }
@@ -170,90 +170,90 @@
         "type": "unit",
         "number": "05",
         "title": "HTML & Web Fundamentals",
-        "description": "",
+        "description": "This unit introduces web structure and HTML elements, helping students understand how content is organized on the internet.",
         "order": 5,
         "concepts": [
           {
             "id": "computerscience-g10-s1-concept-html-elements-tags-start-end",
             "title": "HTML - Elements /Tags (Start – End).",
-            "description": "",
+            "description": "This concept focuses on html - elements /tags (start – end). and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 1,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-html-documents",
             "title": "HTML Documents.",
-            "description": "",
+            "description": "This concept focuses on html documents. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 2,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-html-headings",
             "title": "HTML Headings.",
-            "description": "",
+            "description": "This concept focuses on html headings. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 3,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-html-links",
             "title": "HTML Links.",
-            "description": "",
+            "description": "This concept focuses on html links. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 4,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-html-images",
             "title": "HTML Images.",
-            "description": "",
+            "description": "This concept focuses on html images. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 5,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-html-lists",
             "title": "HTML Lists.",
-            "description": "",
+            "description": "This concept focuses on html lists. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 6,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-attributes",
             "title": "Attributes.",
-            "description": "",
+            "description": "This concept focuses on attributes. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 7,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-the-div-element",
             "title": "The div element.",
-            "description": "",
+            "description": "This concept focuses on the div element. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 8,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-web-addresses",
             "title": "Web addresses.",
-            "description": "",
+            "description": "This concept focuses on web addresses. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 9,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-html-form-elements",
             "title": "HTML Form Elements.",
-            "description": "",
+            "description": "This concept focuses on html form elements. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 10,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-html-multimedia-sound-music-videos-movies-and-animations",
             "title": "HTML Multimedia (sound, music, videos, movies, and animations).",
-            "description": "",
+            "description": "This concept focuses on html multimedia (sound, music, videos, movies, and animations). and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 11,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-html5",
             "title": "HTML5",
-            "description": "",
+            "description": "This concept focuses on html5 and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 12,
             "resources": []
           }
@@ -270,69 +270,69 @@
         "type": "unit",
         "number": "06",
         "title": "CSS & Styling",
-        "description": "",
+        "description": "This unit teaches how styling rules control layout, color, and presentation to improve the usability and appearance of web pages.",
         "order": 6,
         "concepts": [
           {
             "id": "computerscience-g10-s1-concept-css-term",
             "title": "CSS term.",
-            "description": "",
+            "description": "This concept focuses on css term. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 1,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-style-attribute-style-element",
             "title": "Style attribute / Style element",
-            "description": "",
+            "description": "This concept focuses on style attribute / style element and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 2,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-inline-styles-multiple-styles",
             "title": "Inline styles / Multiple styles.",
-            "description": "",
+            "description": "This concept focuses on inline styles / multiple styles. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 3,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-css-syntax-selector-rules",
             "title": "CSS syntax (Selector - Rules).",
-            "description": "",
+            "description": "This concept focuses on css syntax (selector - rules). and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 4,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-selectors-type-class-and-id",
             "title": "Selectors (Type - Class and ID).",
-            "description": "",
+            "description": "This concept focuses on selectors (type - class and id). and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 5,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-external-ccs-file",
             "title": "External CCS file.",
-            "description": "",
+            "description": "This concept focuses on external ccs file. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 6,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-boxes-content-padding-border-margin",
             "title": "Boxes (Content – Padding – Border - Margin).",
-            "description": "",
+            "description": "This concept focuses on boxes (content – padding – border - margin). and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 7,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-style-sheet-or-style-element-not-both",
             "title": "Style sheet or style element — not both!",
-            "description": "",
+            "description": "This concept focuses on style sheet or style element — not both! and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 8,
             "resources": []
           },
           {
             "id": "computerscience-g10-s1-concept-css-colors",
             "title": "CSS colors.",
-            "description": "",
+            "description": "This concept focuses on css colors. and helps learners understand the key ideas behind computer science through clear scientific examples and applications.",
             "order": 9,
             "resources": []
           }
@@ -346,7 +346,7 @@
         "type": "unit",
         "number": "07",
         "title": "Revision",
-        "description": "",
+        "description": "This section reviews the key digital and programming concepts studied across the semester and supports final preparation.",
         "order": 7,
         "concepts": [],
         "resources": [
@@ -376,7 +376,7 @@
         "id": "computerscience-g10-s1-qs-bank-question-bank",
         "type": "qs-bank",
         "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
+        "description": "This section provides practice questions and revision activities that help students check their understanding of the full course.",
         "order": 8,
         "concepts": [],
         "resources": []
@@ -385,7 +385,7 @@
         "id": "computerscience-g10-s1-revision-revision",
         "type": "revision",
         "title": "Revision",
-        "description": "Revision materials for the semester.",
+        "description": "This section reviews the key digital and programming concepts studied across the semester and supports final preparation.",
         "order": 9,
         "concepts": [],
         "resources": [
@@ -415,7 +415,7 @@
         "id": "computerscience-g10-s1-references-references",
         "type": "references",
         "title": "References",
-        "description": "Reference books and additional materials.",
+        "description": "This section includes supporting materials and reference guides for further study and independent learning.",
         "order": 10,
         "concepts": [],
         "resources": []

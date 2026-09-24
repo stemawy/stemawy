@@ -16,6 +16,7 @@ export type Opportunity = {
   arDescription: string;
   href: string;
   imageUrl?: string;
+  bannerImage?: string;
   category: OpportunityCategory;
   type: OpportunityType;
   provider: string;
@@ -39,6 +40,7 @@ type Row = [
   string,
   string?,
   string?,
+  string?,
 ];
 const rows: Row[] = [
   [
@@ -52,6 +54,7 @@ const rows: Row[] = [
     "Yale Young African Scholars",
     "Africa",
     "High school students",
+    "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "ala",
@@ -64,6 +67,7 @@ const rows: Row[] = [
     "African Leadership Academy",
     "Africa",
     "High school students",
+    "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "polygence",
@@ -76,6 +80,7 @@ const rows: Row[] = [
     "Polygence",
     "Online",
     "Students",
+    "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "ccir",
@@ -88,6 +93,7 @@ const rows: Row[] = [
     "CCIR",
     "Online",
     "High school students",
+    "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "horizon",
@@ -100,6 +106,7 @@ const rows: Row[] = [
     "Horizon Research",
     "Online",
     "Students",
+    "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "pioneer",
@@ -112,6 +119,7 @@ const rows: Row[] = [
     "Pioneer Academics",
     "Online",
     "High school students",
+    "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "wolfram",
@@ -124,6 +132,7 @@ const rows: Row[] = [
     "Wolfram",
     "International",
     "Students",
+    "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "nc-state",
@@ -136,6 +145,7 @@ const rows: Row[] = [
     "NC State",
     "United States",
     "High school students",
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "mitef",
@@ -148,6 +158,7 @@ const rows: Row[] = [
     "MITEF",
     "Arab World",
     "Entrepreneurs",
+    "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "google-accelerator",
@@ -160,6 +171,7 @@ const rows: Row[] = [
     "Google",
     "Online",
     "Startups",
+    "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "hult-prize",
@@ -172,6 +184,7 @@ const rows: Row[] = [
     "Hult Prize",
     "Global",
     "Students",
+    "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "tiec",
@@ -184,6 +197,7 @@ const rows: Row[] = [
     "TIEC",
     "Egypt",
     "Entrepreneurs",
+    "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "dyson",
@@ -196,6 +210,7 @@ const rows: Row[] = [
     "James Dyson Award",
     "Global",
     "Students",
+    "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "falling-walls",
@@ -208,6 +223,7 @@ const rows: Row[] = [
     "Falling Walls",
     "Global",
     "Students",
+    "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "cs50",
@@ -220,6 +236,7 @@ const rows: Row[] = [
     "Harvard / edX",
     "Online",
     "Everyone",
+    "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "google-pm",
@@ -232,6 +249,7 @@ const rows: Row[] = [
     "Google / Coursera",
     "Online",
     "Everyone",
+    "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "ibm-data",
@@ -244,6 +262,7 @@ const rows: Row[] = [
     "IBM / Coursera",
     "Online",
     "Everyone",
+    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "yale-markets",
@@ -256,6 +275,7 @@ const rows: Row[] = [
     "Yale / Coursera",
     "Online",
     "Everyone",
+    "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "helsinki-ai",
@@ -268,6 +288,7 @@ const rows: Row[] = [
     "University of Helsinki",
     "Online",
     "Everyone",
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "yali",
@@ -280,6 +301,7 @@ const rows: Row[] = [
     "YALI",
     "Africa",
     "Young leaders",
+    "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "coursera-campus",
@@ -292,6 +314,7 @@ const rows: Row[] = [
     "Coursera",
     "Online",
     "Students",
+    "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "ms-startups",
@@ -304,6 +327,7 @@ const rows: Row[] = [
     "Microsoft",
     "Online",
     "Startups",
+    "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "british-council",
@@ -316,6 +340,7 @@ const rows: Row[] = [
     "British Council",
     "Online",
     "Everyone",
+    "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "hp-life",
@@ -328,6 +353,7 @@ const rows: Row[] = [
     "HP",
     "Online",
     "Everyone",
+    "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "erasmus",
@@ -340,6 +366,7 @@ const rows: Row[] = [
     "Erasmus+",
     "Europe",
     "Youth",
+    "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
   ],
   [
     "ashoka",
@@ -352,6 +379,7 @@ const rows: Row[] = [
     "Ashoka",
     "Global",
     "Social innovators",
+    "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
   ],
 ];
 export const opportunities: Opportunity[] = rows.map(
@@ -366,6 +394,7 @@ export const opportunities: Opportunity[] = rows.map(
     provider,
     location,
     eligibility,
+    bannerImage,
   ]) => ({
     id,
     title,
@@ -378,7 +407,9 @@ export const opportunities: Opportunity[] = rows.map(
     provider,
     location,
     eligibility,
-    image: "",
+    imageUrl: bannerImage,
+    bannerImage,
+    image: bannerImage ?? "",
     urgent: false,
     date: "",
   }),

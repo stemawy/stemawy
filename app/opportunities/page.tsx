@@ -1,13 +1,12 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { useLayoutState } from "@/components/layout/layout-context";
 import {
   opportunities as fallback,
   type Opportunity,
   type OpportunityCategory,
 } from "@/data/opportunities";
-import { fetchDjangoOpportunities } from "@/lib/django-api";
 import OpportunitiesCategories from "@/components/opportunities/OpportunitiesCategories";
 import OpportunitiesFilters from "@/components/opportunities/OpportunitiesFilters";
 import OpportunitiesHeader from "@/components/opportunities/OpportunitiesHeader";
@@ -33,17 +32,11 @@ const initialFilters: OpportunityFiltersState = {
 
 export default function OpportunitiesPage() {
   const { language } = useLayoutState();
-  const [items, setItems] = useState<Opportunity[]>(fallback);
+  const items = fallback as Opportunity[];
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<OpportunityCategory | "all">("all");
   const [filters, setFilters] = useState(initialFilters);
   const [sort, setSort] = useState<OpportunitySort>("relevancy");
-
-  useEffect(() => {
-    fetchDjangoOpportunities()
-      .then(setItems)
-      .catch(() => setItems(fallback));
-  }, []);
 
   const counts = useMemo(
     () =>

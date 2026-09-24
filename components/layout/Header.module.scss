@@ -11,10 +11,18 @@
   gap: 24px;
   padding: 0 48px;
   border-bottom: 1px solid var(--outline-variant);
-  background: rgb(250 248 255 / 82%);
+  background: color-mix(
+    in srgb,
+    var(--surface-container-lowest) 82%,
+    transparent
+  );
   color: var(--on-surface);
   backdrop-filter: blur(18px);
-  transition: left var(--sidebar-transition);
+  transition:
+    left var(--sidebar-transition),
+    background-color var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast);
 }
 
 .collapsed {
@@ -91,8 +99,11 @@
   gap: 24px;
 }
 
-.iconButton,
-.profile {
+.notificationArea {
+  position: relative;
+}
+
+.iconButton {
   border: 0;
   background: transparent;
   color: var(--on-surface-variant);
@@ -108,63 +119,123 @@
 }
 
 .iconButton:hover,
-.iconButton:focus-visible,
-.profile:hover .avatar,
-.profile:focus-visible .avatar {
+.iconButton:focus-visible {
   background: var(--surface-container-high);
   outline: none;
 }
 
-.notificationDot {
+.iconButtonActive {
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+}
+
+.notificationPanel {
   position: absolute;
-  top: 9px;
-  right: 3px;
-  width: 8px;
-  height: 8px;
-  border: 1px solid var(--surface);
-  border-radius: 50%;
-  background: var(--error);
+  top: 54px;
+  right: 0;
+  width: min(360px, calc(100vw - 32px));
+  min-height: 220px;
+  padding: 18px;
+  border: 1px solid var(--outline-variant);
+  border-radius: var(--radius-md);
+  background: var(--surface-container-lowest);
+  box-shadow: var(--shadow-modal);
+  color: var(--on-surface);
+  transform-origin: top right;
+  animation: notificationPanelIn 220ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.divider {
-  width: 1px;
-  height: 32px;
-  background: var(--outline-variant);
-}
-
-.profile {
+.notificationPanelHeader {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 0;
-  border-radius: 999px;
-  text-align: right;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--outline-variant);
 }
 
-.profileCopy {
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-}
-.profileCopy strong {
-  color: var(--on-surface);
-  font-size: 15px;
-  font-weight: 600;
-}
-.profileCopy small {
-  color: var(--outline);
-  font-size: 13px;
-  font-weight: 600;
+.notificationPanelHeader strong {
+  display: block;
+  font-size: 16px;
 }
 
-.avatar {
+.notificationClose {
   display: grid;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   place-items: center;
-  border-radius: 50%;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--on-surface-variant);
+  cursor: pointer;
+  transition:
+    background-color var(--transition-fast),
+    color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.notificationClose:hover,
+.notificationClose:focus-visible {
   background: var(--surface-container-high);
-  transition: background-color var(--transition-fast);
+  color: var(--on-surface);
+  outline: none;
+  transform: rotate(90deg);
+}
+
+.notificationEmpty {
+  display: flex;
+  min-height: 155px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.notificationEmptyIcon {
+  display: grid;
+  width: 58px;
+  height: 58px;
+  place-items: center;
+  border: 1px solid var(--primary-fixed-dim);
+  border-radius: 18px;
+  background: var(--primary-fixed);
+  color: var(--primary);
+  animation: notificationIconFloat 2.8s ease-in-out infinite;
+}
+
+.notificationEmpty p {
+  margin: 0;
+  color: var(--on-surface-variant);
+  font-size: 14px;
+}
+
+@keyframes notificationPanelIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes notificationIconFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .notificationPanel,
+  .notificationEmptyIcon {
+    animation: none;
+  }
 }
 
 .mobileMenuButton {
@@ -239,19 +310,6 @@
   }
   .actions {
     gap: 8px;
-  }
-  .divider {
-    display: none;
-  }
-  .profileCopy {
-    display: none;
-  }
-  .profile {
-    gap: 0;
-  }
-  .avatar {
-    width: 36px;
-    height: 36px;
   }
 }
 

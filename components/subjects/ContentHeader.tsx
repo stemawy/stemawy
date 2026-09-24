@@ -5,6 +5,8 @@ import { Bookmark, BookmarkCheck } from "lucide-react";
 import type { SubjectContent } from "@/types";
 import { useSaveItemWithDetails } from "@/hooks";
 import styles from "@/app/subject/[subjectId]/SubjectPage.module.scss";
+import { useLayoutState } from "@/components/layout/layout-context";
+import { getLocalizedContentText, getTranslations } from "@/lib/i18n";
 
 export default function ContentHeader({
   item,
@@ -13,6 +15,10 @@ export default function ContentHeader({
   item: SubjectContent;
   subjectId: string;
 }) {
+  const { language } = useLayoutState();
+  const t = getTranslations(language);
+  const title = getLocalizedContentText(item.title, language);
+
   const { saved, toggle: toggleSaved } = useSaveItemWithDetails({
     id: item.id,
     type: "resource",
@@ -28,9 +34,9 @@ export default function ContentHeader({
       <div className={styles.contentHeaderCopy}>
         <div className={styles.contentEyebrow}>
           <span>{item.number ?? item.type.toUpperCase()}</span>
-          <strong>{item.title}</strong>
+          <strong>{title}</strong>
         </div>
-        <p>{item.description}</p>
+        <p>{getLocalizedContentText(item.description, language)}</p>
       </div>
       {item.type === "unit" && (
         <button
@@ -40,7 +46,7 @@ export default function ContentHeader({
           aria-pressed={saved}
         >
           {saved ? <BookmarkCheck size={18} /> : <Bookmark size={18} />}
-          {saved ? "Saved Unit" : "Save Unit"}
+          {saved ? t.subjects.detail.savedUnit : t.subjects.detail.saveUnit}
         </button>
       )}
     </header>

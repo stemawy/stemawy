@@ -1,49 +1,32 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 import SubjectFilters from "@/components/subjects/SubjectFilters";
 import SubjectSection from "@/components/subjects/SubjectSection";
 import { getSubjects } from "@/data/subjects";
-import { fetchDjangoSubjects } from "@/lib/django-api";
 import styles from "./subjects.module.scss";
 import { useLayoutState } from "@/components/layout/layout-context";
+import { getLocalizedSubject, getTranslations } from "@/lib/i18n";
 
 export default function SubjectsPage() {
-  const { grade, semester, setGrade, setSemester } = useLayoutState();
+  const { grade, semester, setGrade, setSemester, language } = useLayoutState();
+  const t = getTranslations(language);
   const [query, setQuery] = useState("");
-  const [subjects, setSubjects] = useState(() => getSubjects(grade, semester));
-
-  useEffect(() => {
-    let active = true;
-
-    fetchDjangoSubjects(grade, semester)
-      .then((nextSubjects) => {
-        if (active) {
-          setSubjects(nextSubjects);
-        }
-      })
-      .catch(() => {
-        if (active) {
-          setSubjects(getSubjects(grade, semester));
-        }
-      });
-
-    return () => {
-      active = false;
-    };
-  }, [grade, semester]);
+  const subjects = getSubjects(grade, semester);
 
   const filteredSubjects = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
-    return subjects.filter(
-      (subject) =>
+    return subjects.filter((subject) => {
+      const localized = getLocalizedSubject(subject, language);
+      return (
         !normalizedQuery ||
-        `${subject.name} ${subject.description}`
+        `${subject.name} ${subject.description} ${localized.name} ${localized.description}`
           .toLowerCase()
-          .includes(normalizedQuery),
-    );
-  }, [subjects, query]);
+          .includes(normalizedQuery)
+      );
+    });
+  }, [subjects, query, language]);
 
   const scienceAndMath = filteredSubjects.filter(
     (subject) => subject.category === "science",
@@ -61,7 +44,7 @@ export default function SubjectsPage() {
   return (
     <div className={styles.page}>
       <header className={styles.pageHeader}>
-        <h1>Subjects</h1>
+        <h1>{t.subjects.title}</h1>
       </header>
       <SubjectFilters
         grade={grade}
@@ -74,34 +57,38 @@ export default function SubjectsPage() {
       <div className={styles.sections} key={`${grade}-${semester}`}>
         {scienceAndMath.length > 0 && (
           <SubjectSection
-            title={`Science & Math - Semester ${semester}`}
+            title={`${language === "ar" ? "العلوم والرياضيات" : "Science & Math"} - ${t.subjects.semester} ${semester}`}
             subjects={scienceAndMath}
             icon="science"
           />
         )}
         {languages.length > 0 && (
           <SubjectSection
-            title={`Languages - Semester ${semester}`}
+            title={`${language === "ar" ? "اللغات" : "Languages"} - ${t.subjects.semester} ${semester}`}
             subjects={languages}
             icon="language"
           />
         )}
         {humanities.length > 0 && (
           <SubjectSection
-            title={`Humanities & Society - Semester ${semester}`}
+            title={`${language === "ar" ? "العلوم الإنسانية والمجتمع" : "Humanities & Society"} - ${t.subjects.semester} ${semester}`}
             subjects={humanities}
             icon="humanities"
           />
         )}
         {applied.length > 0 && (
           <SubjectSection
-            title={`Computing & Applied - Semester ${semester}`}
+            title={`${language === "ar" ? "الحوسبة والتطبيقات" : "Computing & Applied"} - ${t.subjects.semester} ${semester}`}
             subjects={applied}
             icon="computing"
           />
         )}
         {filteredSubjects.length === 0 && (
-          <p className={styles.emptyState}>No subjects match your search.</p>
+          <p className={styles.emptyState}>
+            {language === "ar"
+              ? "لا توجد مواد تطابق بحثك."
+              : "No subjects match your search."}
+          </p>
         )}
       </div>
     </div>

@@ -28,6 +28,62 @@
   background: var(--primary-fixed);
   color: var(--primary);
 }
+.type-video {
+  background: #fee2e2;
+  color: #dc2626;
+}
+.type-pdf {
+  background: #ffedd5;
+  color: #c2410c;
+}
+.type-document {
+  background: #dbeafe;
+  color: #2563eb;
+}
+.type-slides {
+  background: #fef3c7;
+  color: #b45309;
+}
+.type-sheet {
+  background: #dcfce7;
+  color: #15803d;
+}
+.type-file {
+  background: #e5e7eb;
+  color: #4b5563;
+}
+.type-test-bank {
+  background: #ede9fe;
+  color: #7c3aed;
+}
+:global(.dark) .type-video {
+  background: #4b1f2a;
+  color: #ff8f9c;
+}
+:global(.dark) .type-pdf {
+  background: #4a2d16;
+  color: #ffb36b;
+}
+:global(.dark) .type-document {
+  background: #172f52;
+  color: #8dbdff;
+}
+:global(.dark) .type-slides {
+  background: #4a3b16;
+  color: #ffd166;
+}
+:global(.dark) .type-sheet {
+  background: #123b2a;
+  color: #86efac;
+}
+:global(.dark) .type-file {
+  background: #334155;
+  color: #cbd5e1;
+}
+:global(.dark) .type-test-bank {
+  background: #34204d;
+  color: #d8b4fe;
+}
 .copy {
   display: flex;
   min-width: 0;

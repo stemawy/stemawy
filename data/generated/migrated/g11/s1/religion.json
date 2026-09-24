@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-22T20:46:55.010Z",
+  "source": {
+    "file": "migration/raw/g11/s1/religion.json"
+  },
+  "subject": {
+    "id": "religion-g11-s1",
+    "name": "Religion",
+    "description": "",
+    "grade": "11",
+    "semester": "1",
+    "icon": "religion",
+    "content": [
+      {
+        "id": "religion-g11-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Other",
+        "description": "",
+        "order": 1,
+        "concepts": [],
+        "resources": [
+          "religion-g11-s1-global-01-01",
+          "religion-g11-s1-global-01-02"
+        ]
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "religion-g11-s1-global-01-01",
+      "title": "مراجعه دين ترم اول ٢٠٢٤.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sRNEzNlgZQ_Xlup6oIARLLmtUHZ0Xgbg/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1sRNEzNlgZQ_Xlup6oIARLLmtUHZ0Xgbg"
+    },
+    {
+      "id": "religion-g11-s1-global-01-02",
+      "title": "التربية الدينية الإسلامية.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ZMMYHCdKaRUFkFt-peATH7Sl9cmj6wu0/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1ZMMYHCdKaRUFkFt-peATH7Sl9cmj6wu0"
+    }
+  ]
+}

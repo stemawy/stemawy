@@ -20,9 +20,7 @@
         "description": "",
         "order": 1,
         "concepts": [],
-        "resources": [
-          "capstone-g10-s2-pdf-10-2-challenge-pdf-38d8431ed5"
-        ]
+        "resources": ["capstone-g10-s2-pdf-10-2-challenge-pdf-38d8431ed5"]
       },
       {
         "id": "capstone-g10-s2-unit-02",
@@ -45,7 +43,7 @@
         "id": "capstone-g10-s2-unit-03",
         "type": "unit",
         "number": "03",
-        "title": "Journals (1)",
+        "title": "Journals 1",
         "description": "",
         "order": 3,
         "concepts": [],
@@ -86,7 +84,7 @@
         "id": "capstone-g10-s2-unit-04",
         "type": "unit",
         "number": "04",
-        "title": "Journals (2)",
+        "title": "Journals 2",
         "description": "",
         "order": 4,
         "concepts": [],
@@ -167,33 +165,6 @@
           "capstone-g10-s2-pdf-responces-j5-docx-482cd325fc",
           "capstone-g10-s2-pdf-responces-j1-docx-d14b8645ea"
         ]
-      },
-      {
-        "id": "capstone-g10-s2-qs-bank-question-bank",
-        "type": "qs-bank",
-        "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
-        "order": 6,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "capstone-g10-s2-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 7,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "capstone-g10-s2-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 8,
-        "concepts": [],
-        "resources": []
       }
     ],
     "units": 5

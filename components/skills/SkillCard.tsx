@@ -39,8 +39,24 @@ export default function SkillCard({
     icon: skill.icon,
     href: skill.href,
   });
+  const openSkill = () => {
+    window.open(skill.href, "_blank", "noopener,noreferrer");
+  };
+
   return (
-    <article className={styles.skillCard}>
+    <article
+      className={styles.skillCard}
+      role="link"
+      tabIndex={0}
+      aria-label={arabic ? skill.arTitle : skill.title}
+      onClick={openSkill}
+      onKeyDown={(event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          openSkill();
+        }
+      }}
+    >
       <div className={styles.skillCardTop}>
         <div className={styles.badges}>
           <span
@@ -57,7 +73,10 @@ export default function SkillCard({
         <button
           type="button"
           className={`${styles.bookmarkButton} ${saved ? styles.bookmarkSaved : ""}`}
-          onClick={toggle}
+          onClick={(event) => {
+            event.stopPropagation();
+            toggle();
+          }}
           aria-pressed={saved}
           aria-label={saved ? "Remove from saved" : "Save skill"}
         >
@@ -76,6 +95,7 @@ export default function SkillCard({
           target="_blank"
           rel="noreferrer"
           className={styles.skillAction}
+          onClick={(event) => event.stopPropagation()}
         >
           {arabic ? skill.arAction : skill.action}
           <ExternalLink size={14} />

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-22T20:46:54.970Z",
+  "source": {
+    "file": "migration/raw/g11/s1/french.json"
+  },
+  "subject": {
+    "id": "french-g11-s1",
+    "name": "French",
+    "description": "",
+    "grade": "11",
+    "semester": "1",
+    "icon": "french",
+    "content": [
+      {
+        "id": "french-g11-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Other",
+        "description": "",
+        "order": 1,
+        "concepts": [],
+        "resources": [
+          "french-g11-s1-global-01-01",
+          "french-g11-s1-global-01-02",
+          "french-g11-s1-global-01-03",
+          "french-g11-s1-global-01-04",
+          "french-g11-s1-global-01-05"
+        ]
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "french-g11-s1-global-01-01",
+      "title": "مراجعة ثانية ثانوي.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1hkEGnLzzSZXHz3lzUFVsUfhcvJXyEagF/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1hkEGnLzzSZXHz3lzUFVsUfhcvJXyEagF"
+    },
+    {
+      "id": "french-g11-s1-global-01-02",
+      "title": "تانية-ستم-ترم-اول.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1t8R72JeJwg8j2Eoc2NDaNA_BJqgOlmgv/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1t8R72JeJwg8j2Eoc2NDaNA_BJqgOlmgv"
+    },
+    {
+      "id": "french-g11-s1-global-01-03",
+      "title": "Révision 2e  sec. (STEM).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/136CiC6-dfNSCRXAt1hcQ-JgMD5kBYwrC/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "136CiC6-dfNSCRXAt1hcQ-JgMD5kBYwrC"
+    },
+    {
+      "id": "french-g11-s1-global-01-04",
+      "title": "stem 2+me annee octobre.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1dV_FyjL3hfRw9lTUdwlsJk4cmc-YAPD9/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true",
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "driveFileId": "1dV_FyjL3hfRw9lTUdwlsJk4cmc-YAPD9"
+    },
+    {
+      "id": "french-g11-s1-global-01-05",
+      "title": "livre.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1bhYnkdOFg7-SzWq23F4bUYdKIuxgTO2J/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1bhYnkdOFg7-SzWq23F4bUYdKIuxgTO2J"
+    }
+  ]
+}

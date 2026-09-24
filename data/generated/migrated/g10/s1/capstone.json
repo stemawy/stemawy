@@ -13,37 +13,9 @@
     "icon": "capstone",
     "content": [
       {
-        "id": "capstone-g10-s1-unit-01",
-        "type": "unit",
-        "number": "01",
-        "title": "Files",
-        "description": "",
-        "order": 1,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "capstone-g10-s1-qs-bank-question-bank",
-        "type": "qs-bank",
-        "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
-        "order": 2,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "capstone-g10-s1-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 3,
-        "concepts": [],
-        "resources": []
-      },
-      {
         "id": "capstone-g10-s1-references-references",
         "type": "references",
-        "title": "References",
+        "title": "Files",
         "description": "Reference books and additional materials.",
         "order": 4,
         "concepts": [],

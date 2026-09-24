@@ -15,7 +15,7 @@
       {
         "id": "mechanics-g10-s2-unit-01",
         "type": "unit",
-        "number": "01",
+        "number": "05",
         "title": "LO5",
         "description": "",
         "order": 1,
@@ -61,7 +61,7 @@
       {
         "id": "mechanics-g10-s2-unit-02",
         "type": "unit",
-        "number": "02",
+        "number": "06",
         "title": "LO6",
         "description": "",
         "order": 2,
@@ -82,36 +82,28 @@
             "title": "resolution of a force",
             "description": "",
             "order": 2,
-            "resources": [
-              "mechanics-g10-s2-video-owdnonbvu3a-817129b3c1"
-            ]
+            "resources": ["mechanics-g10-s2-video-owdnonbvu3a-817129b3c1"]
           },
           {
             "id": "mechanics-g10-s2-concept-lami-s-rule",
             "title": "Lami's rule",
             "description": "",
             "order": 3,
-            "resources": [
-              "mechanics-g10-s2-video-tvygghcfkko-84b3bf37b3"
-            ]
+            "resources": ["mechanics-g10-s2-video-tvygghcfkko-84b3bf37b3"]
           },
           {
             "id": "mechanics-g10-s2-concept-triangle-of-force",
             "title": "Triangle of force",
             "description": "",
             "order": 4,
-            "resources": [
-              "mechanics-g10-s2-video-5we36xm5knc-2b5c209def"
-            ]
+            "resources": ["mechanics-g10-s2-video-5we36xm5knc-2b5c209def"]
           },
           {
             "id": "mechanics-g10-s2-concept-equilibrium-of-co-planar-forces-act-at-a-point",
             "title": "Equilibrium of co-planar forces act at a point",
             "description": "",
             "order": 5,
-            "resources": [
-              "mechanics-g10-s2-video-x9g4g1ebhca-862bd498ce"
-            ]
+            "resources": ["mechanics-g10-s2-video-x9g4g1ebhca-862bd498ce"]
           }
         ],
         "resources": [
@@ -123,7 +115,7 @@
       {
         "id": "mechanics-g10-s2-unit-03",
         "type": "unit",
-        "number": "03",
+        "number": "07",
         "title": "LO7",
         "description": "",
         "order": 3,
@@ -133,9 +125,7 @@
             "title": "Net force",
             "description": "",
             "order": 1,
-            "resources": [
-              "mechanics-g10-s2-video-fwdwjzkrtue-4cdb1df410"
-            ]
+            "resources": ["mechanics-g10-s2-video-fwdwjzkrtue-4cdb1df410"]
           },
           {
             "id": "mechanics-g10-s2-concept-mass",
@@ -152,27 +142,21 @@
             "title": "Acceleration",
             "description": "",
             "order": 3,
-            "resources": [
-              "mechanics-g10-s2-video-jspwctipfqw-45612d4e06"
-            ]
+            "resources": ["mechanics-g10-s2-video-jspwctipfqw-45612d4e06"]
           },
           {
             "id": "mechanics-g10-s2-concept-free-body-diagrams",
             "title": "Free body diagrams",
             "description": "",
             "order": 4,
-            "resources": [
-              "mechanics-g10-s2-video-52r61aswhg0-08f1426c19"
-            ]
+            "resources": ["mechanics-g10-s2-video-52r61aswhg0-08f1426c19"]
           },
           {
             "id": "mechanics-g10-s2-concept-friction",
             "title": "Friction",
             "description": "",
             "order": 5,
-            "resources": [
-              "mechanics-g10-s2-video-mx7nyruxdb0-dd42d9559a"
-            ]
+            "resources": ["mechanics-g10-s2-video-mx7nyruxdb0-dd42d9559a"]
           }
         ],
         "resources": [
@@ -183,7 +167,7 @@
       {
         "id": "mechanics-g10-s2-unit-04",
         "type": "unit",
-        "number": "04",
+        "number": "08",
         "title": "LO8",
         "description": "",
         "order": 4,
@@ -208,7 +192,7 @@
       {
         "id": "mechanics-g10-s2-unit-05",
         "type": "unit",
-        "number": "05",
+        "number": "09",
         "title": "LO9",
         "description": "",
         "order": 5,
@@ -218,27 +202,21 @@
             "title": "Centripetal acceleration",
             "description": "",
             "order": 1,
-            "resources": [
-              "mechanics-g10-s2-video-zblirqut9uu-1b2c550830"
-            ]
+            "resources": ["mechanics-g10-s2-video-zblirqut9uu-1b2c550830"]
           },
           {
             "id": "mechanics-g10-s2-concept-centripetal-force",
             "title": "Centripetal force",
             "description": "",
             "order": 2,
-            "resources": [
-              "mechanics-g10-s2-video-sqx22vvmrps-c34ebd1c1f"
-            ]
+            "resources": ["mechanics-g10-s2-video-sqx22vvmrps-c34ebd1c1f"]
           },
           {
             "id": "mechanics-g10-s2-concept-force-free-body-diagrams",
             "title": "Force (free body) Diagrams",
             "description": "",
             "order": 3,
-            "resources": [
-              "mechanics-g10-s2-video-i447nwnpscm-8cc45b15e7"
-            ]
+            "resources": ["mechanics-g10-s2-video-i447nwnpscm-8cc45b15e7"]
           }
         ],
         "resources": [

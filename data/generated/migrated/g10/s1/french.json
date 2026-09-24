@@ -7,7 +7,7 @@
   "subject": {
     "id": "french-g10-s1",
     "name": "French",
-    "description": "French resources for Grade 10, Semester 1.",
+    "description": "Grade 10 French, Semester 1 introduces students to basic communication skills, introductions, personal information, and everyday expressions in French.",
     "grade": "10",
     "semester": "1",
     "icon": "french",
@@ -17,20 +17,20 @@
         "type": "unit",
         "number": "01",
         "title": "Présentation",
-        "description": "",
+        "description": "This unit introduces students to everyday French communication, helping them learn how to introduce themselves, talk about personal details, and use basic social expressions.",
         "order": 1,
         "concepts": [
           {
             "id": "french-g10-s1-concept-se-pr-senter",
             "title": "Se présenter",
-            "description": "",
+            "description": "This concept helps students introduce themselves in French using simple and clear expressions for identity, origin, and personal information.",
             "order": 1,
             "resources": []
           },
           {
             "id": "french-g10-s1-concept-dire-son-ge",
             "title": "Dire son âge",
-            "description": "",
+            "description": "This concept teaches students how to express age in French and use everyday speaking patterns in informal and basic conversation.",
             "order": 2,
             "resources": []
           }
@@ -41,7 +41,7 @@
         "id": "french-g10-s1-qs-bank-question-bank",
         "type": "qs-bank",
         "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
+        "description": "This section contains practice questions and short activities to help students review and strengthen their French skills.",
         "order": 2,
         "concepts": [],
         "resources": []
@@ -50,7 +50,7 @@
         "id": "french-g10-s1-revision-revision",
         "type": "revision",
         "title": "Revision",
-        "description": "Revision materials for the semester.",
+        "description": "This section reviews the key ideas and vocabulary from the semester to support exam preparation and confidence building.",
         "order": 3,
         "concepts": [],
         "resources": []
@@ -59,7 +59,7 @@
         "id": "french-g10-s1-references-references",
         "type": "references",
         "title": "References",
-        "description": "Reference books and additional materials.",
+        "description": "This section provides support materials and reference resources for additional practice and independent learning.",
         "order": 4,
         "concepts": [],
         "resources": [

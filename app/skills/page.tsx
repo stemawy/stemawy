@@ -57,13 +57,11 @@ export default function SkillsPage() {
           language={language}
           counts={counts}
           active={category}
-          resultCount={filteredSkills.length}
           onChange={setCategory}
         />
         <SkillsLibrary
           language={language}
           skills={filteredSkills}
-          totalCount={skills.length}
           onClear={clearFilters}
         />
       </div>

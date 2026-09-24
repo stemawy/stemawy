@@ -68,12 +68,15 @@ function getItemHref(item: SavedItem) {
 
 export default function SavedItemCard({ item, onRemove }: SavedItemCardProps) {
   const badge = getBadge(item);
+  const href = getItemHref(item);
 
   return (
     <article className={styles.card}>
       <Link
         className={styles.cardLink}
-        href={getItemHref(item)}
+        href={href}
+        target="_blank"
+        rel={external ? "noopener noreferrer" : undefined}
         aria-label={`Open ${item.title}`}
       />
       <div className={styles.cardTop}>

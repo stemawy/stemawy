@@ -1,0 +1,4877 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-19T00:00:00.000Z",
+  "source": {
+    "file": "migration/raw/g11/s1/maths.json"
+  },
+  "subject": {
+    "id": "maths-g11-s1",
+    "name": "Maths",
+    "description": "Grade 11 Semester 1 Mathematics develops algebraic reasoning, polynomial analysis, rational functions, counting methods, and probability. The course strengthens students' ability to model relationships, interpret functions and graphs, and solve realistic problems using mathematical structure and logic.",
+    "grade": "11",
+    "semester": "1",
+    "icon": "maths",
+    "content": [
+      {
+        "id": "maths-g11-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Unit 1 (Lo1)",
+        "description": "This unit introduces polynomial functions and algebraic relationships, helping students understand the structure of expressions, the behavior of graphs, and the methods used to solve equations and analyze function properties.",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "maths-g11-s1-concept-polynomial",
+            "title": "Polynomial",
+            "description": "This concept examines polynomial expressions and their structure, emphasizing terms, coefficients, degree, and the role of algebraic form in function behavior.",
+            "order": 1,
+            "resources": ["maths-g11-s1-resource-polynomial-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-absolute-value",
+            "title": "Absolute value",
+            "description": "This concept explains how absolute value measures distance from zero and how it affects graphing, inequalities, and equation solving.",
+            "order": 2,
+            "resources": ["maths-g11-s1-resource-absolute-value-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-inverse-of-a-function",
+            "title": "Inverse of a function",
+            "description": "This concept explores how functions can be reversed and how inverse relationships help interpret equations, mappings, and graph symmetry.",
+            "order": 3,
+            "resources": ["maths-g11-s1-resource-inverse-of-a-function-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-algebraic-function",
+            "title": "Algebraic function",
+            "description": "This concept introduces algebraic functions and shows how symbolic rules can represent patterns, relationships, and continuous mathematical behavior.",
+            "order": 4,
+            "resources": ["maths-g11-s1-resource-algebraic-function-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-operations-with-polynomials",
+            "title": "Operations with polynomials",
+            "description": "This concept focuses on adding, subtracting, multiplying, and dividing polynomial expressions while connecting these operations to algebraic simplification and graph interpretation.",
+            "order": 5,
+            "resources": [
+              "maths-g11-s1-resource-operations-with-polynomials-01"
+            ]
+          },
+          {
+            "id": "maths-g11-s1-concept-roots-of-polynomial-equations",
+            "title": "Roots of polynomial equations",
+            "description": "This concept explains the meaning of roots and zeros, showing how solutions to polynomial equations relate to x-intercepts and the graph of a function.",
+            "order": 6,
+            "resources": [
+              "maths-g11-s1-resource-roots-of-polynomial-equations-01"
+            ]
+          },
+          {
+            "id": "maths-g11-s1-concept-polynomial-curve",
+            "title": "Polynomial curve",
+            "description": "This concept studies the shape of polynomial curves and how their turning points, end behavior, and intercepts communicate the underlying function.",
+            "order": 7,
+            "resources": ["maths-g11-s1-resource-polynomial-curve-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-polynomial-functions",
+            "title": "Polynomial functions",
+            "description": "This concept demonstrates how polynomial functions map inputs to outputs and how their equations and graphs reveal important mathematical patterns.",
+            "order": 8,
+            "resources": ["maths-g11-s1-resource-polynomial-functions-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-degree-of-the-function",
+            "title": "Degree of the function",
+            "description": "This concept addresses how the degree of a polynomial determines its overall behavior, including the number of possible turning points and end behavior.",
+            "order": 9,
+            "resources": ["maths-g11-s1-resource-degree-of-the-function-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-attributes-of-a-graph",
+            "title": "Attributes of a graph - turning points, symmetry, even/odd",
+            "description": "This concept introduces key graph features such as turning points, symmetry, and even/odd behavior, which help interpret the structure of polynomial functions.",
+            "order": 10,
+            "resources": ["maths-g11-s1-resource-attributes-of-a-graph-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-polynomial-in-one-variable",
+            "title": "Polynomial in one variable",
+            "description": "This concept focuses on polynomial expressions involving a single variable and how such expressions are analyzed, simplified, and solved.",
+            "order": 11,
+            "resources": ["maths-g11-s1-resource-polynomial-in-one-variable-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-multiplicity",
+            "title": "Multiplicity",
+            "description": "This concept examines repeated roots and their effect on the graph of a polynomial, including how multiplicity influences intercept behavior.",
+            "order": 12,
+            "resources": ["maths-g11-s1-resource-multiplicity-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-remainder-theorem",
+            "title": "The Remainder Theorem",
+            "description": "This concept explains how polynomial division can reveal remainders and how synthetic or long division helps evaluate functions without full expansion.",
+            "order": 13,
+            "resources": [
+              "maths-g11-s1-resource-remainder-theorem-01",
+              "maths-g11-s1-resource-remainder-theorem-02"
+            ]
+          },
+          {
+            "id": "maths-g11-s1-concept-factor-theorem",
+            "title": "The Factor Theorem",
+            "description": "This concept connects roots and factors, showing that if a value is a root, then the corresponding linear factor divides the polynomial exactly.",
+            "order": 14,
+            "resources": ["maths-g11-s1-resource-factor-theorem-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-intermediate-value-theorem",
+            "title": "Intermediate Value Theorem",
+            "description": "This concept demonstrates that continuous functions take every value between two outputs and why this idea is important for proving solutions and graph behavior.",
+            "order": 15,
+            "resources": ["maths-g11-s1-resource-intermediate-value-theorem-01"]
+          },
+          {
+            "id": "maths-g11-s1-concept-fundamental-theorem-of-algebra",
+            "title": "The Fundamental Theorem of Algebra",
+            "description": "This concept states that every nonzero polynomial has a complete set of roots in the complex number system and explains the significance of this result.",
+            "order": 16,
+            "resources": [
+              "maths-g11-s1-resource-fundamental-theorem-of-algebra-01"
+            ]
+          },
+          {
+            "id": "maths-g11-s1-concept-descartes-rule-of-signs",
+            "title": "Descartes' Rule of Signs",
+            "description": "This concept shows how the number of sign changes in a polynomial's coefficients helps predict the possible number of positive and negative real roots.",
+            "order": 17,
+            "resources": ["maths-g11-s1-resource-descartes-rule-of-signs-01"]
+          }
+        ],
+        "resources": [
+          "maths-g11-s1-global-01-01",
+          "maths-g11-s1-global-01-02",
+          "maths-g11-s1-global-01-03",
+          "maths-g11-s1-global-01-04",
+          "maths-g11-s1-global-01-05",
+          "maths-g11-s1-global-01-06",
+          "maths-g11-s1-global-01-07",
+          "maths-g11-s1-global-01-08",
+          "res_39018737c7",
+          "res_e23dc95340",
+          "res_48c956568b",
+          "res_2361bc7365",
+          "res_6a4bb82643",
+          "res_94ee2343a4",
+          "res_6ba837a3f9",
+          "res_8335ab461e",
+          "res_74b9a261c9",
+          "res_880f45a4b3",
+          "res_ed2e38719d",
+          "res_0a7d900bef",
+          "res_58a4f93894",
+          "res_b19b5d067f",
+          "res_48717bf3b9",
+          "res_86aa7b74cd",
+          "res_89c90b1689",
+          "res_33ce3deaf6",
+          "res_b3ec2cc969",
+          "res_4ea65bf10f",
+          "res_095986428f",
+          "res_ae4842ee95",
+          "res_c094acf496",
+          "res_206c08fc20",
+          "res_5bc12cbd26",
+          "res_d1fb740c26",
+          "res_de29f9b7c0",
+          "res_fa5e6ccdc9"
+        ]
+      },
+      {
+        "id": "maths-g11-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Unit 2 (Lo2)",
+        "description": "This unit develops rational function analysis, focusing on how algebraic expressions behave near undefined values and how asymptotes describe the long-term shape of the graph.",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "maths-g11-s1-concept-rational-polynomial-expressions",
+            "title": "Rational polynomial expressions",
+            "description": "This concept introduces rational expressions and explains how numerator and denominator relationships create domains, restrictions, and simplified algebraic forms.",
+            "order": 1,
+            "resources": [
+              "maths-g11-s1-resource-rational-polynomial-expressions-02"
+            ]
+          },
+          {
+            "id": "maths-g11-s1-concept-sketch-rational-functions",
+            "title": "Sketch rational functions",
+            "description": "This concept shows how to analyze intercepts, asymptotes, and end behavior to sketch the graph of rational functions accurately.",
+            "order": 2,
+            "resources": ["maths-g11-s1-resource-sketch-rational-functions-02"]
+          },
+          {
+            "id": "maths-g11-s1-concept-vertical-asymptotes-of-rational-functions",
+            "title": "Vertical asymptotes of rational functions",
+            "description": "This concept explains how factors in the denominator create vertical asymptotes and how these features represent discontinuities in the graph.",
+            "order": 3,
+            "resources": [
+              "maths-g11-s1-resource-vertical-asymptotes-of-rational-functions-02"
+            ]
+          },
+          {
+            "id": "maths-g11-s1-concept-horizontal-asymptotes-of-rational-functions",
+            "title": "Horizontal asymptotes of rational functions",
+            "description": "This concept examines how the relative degrees of the numerator and denominator determine a function's end behavior and horizontal asymptote.",
+            "order": 4,
+            "resources": [
+              "maths-g11-s1-resource-horizontal-asymptotes-of-rational-functions-02"
+            ]
+          },
+          {
+            "id": "maths-g11-s1-concept-oblique-asymptote-or-slant-asymptote",
+            "title": "An oblique asymptote or a slant asymptote",
+            "description": "This concept introduces slant asymptotes, showing how a rational function can approach a non-horizontal line as x grows large in magnitude.",
+            "order": 5,
+            "resources": ["maths-g11-s1-resource-oblique-asymptote-02"]
+          }
+        ],
+        "resources": [
+          "maths-g11-s1-global-02-01",
+          "maths-g11-s1-global-02-02",
+          "res_4a3d0672c1",
+          "res_66acf33bf8",
+          "res_b29e887b8f",
+          "res_91e8670cf6",
+          "res_0365cbf56f",
+          "res_f20828b5a3",
+          "res_b859cb5ef2",
+          "res_5308da98b6",
+          "res_524a707795"
+        ]
+      },
+      {
+        "id": "maths-g11-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Unit 3 (Lo3)",
+        "description": "This unit introduces counting techniques and combinatorics, helping students calculate possible outcomes, permutations, and combinations in practical and theoretical situations.",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "maths-g11-s1-concept-fundamental-counting-principle",
+            "title": "Fundamental Counting Principle",
+            "description": "This concept introduces multiplication as a strategy for counting total outcomes when independent choices are made in sequence.",
+            "order": 1,
+            "resources": [
+              "maths-g11-s1-resource-fundamental-counting-principle-03"
+            ]
+          },
+          {
+            "id": "maths-g11-s1-concept-permutations",
+            "title": "Permutations",
+            "description": "This concept explains ordered arrangements and shows how the number of possible sequences is found when the order of items matters.",
+            "order": 2,
+            "resources": ["maths-g11-s1-resource-permutations-03"]
+          },
+          {
+            "id": "maths-g11-s1-concept-combinations",
+            "title": "Combinations",
+            "description": "This concept examines unordered selections and demonstrates how grouping objects without regard to order affects the counting process.",
+            "order": 3,
+            "resources": ["maths-g11-s1-resource-combinations-03"]
+          },
+          {
+            "id": "maths-g11-s1-concept-factorials",
+            "title": "Factorials",
+            "description": "This concept explains factorial notation and how it simplifies repeated multiplication in permutations, combinations, and probability counting.",
+            "order": 4,
+            "resources": ["maths-g11-s1-resource-factorials-03"]
+          }
+        ],
+        "resources": [
+          "maths-g11-s1-global-03-01",
+          "maths-g11-s1-global-03-02",
+          "maths-g11-s1-global-03-03",
+          "maths-g11-s1-global-03-04",
+          "res_7c8b958708",
+          "res_08eedf94d7",
+          "res_779822a9a5",
+          "res_9095c5f51e",
+          "res_7f3eb12ebe",
+          "res_95c6241429",
+          "res_93a9c940b8",
+          "res_038b19d3a9",
+          "res_08c4401bac",
+          "res_8b133a00c8",
+          "res_75986ec478",
+          "res_3b3c45ba5a"
+        ]
+      },
+      {
+        "id": "maths-g11-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "Unit 4 (Lo4)",
+        "description": "This unit explores binomial expansion and pattern-based reasoning, using Pascal's Triangle and the Binomial Theorem to model coefficients and combinations in algebra.",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "maths-g11-s1-concept-pascals-triangle",
+            "title": "Pascal's Triangle",
+            "description": "This concept illustrates a triangular number pattern that organizes coefficients and helps students recognize combinations and binomial expansion structure.",
+            "order": 1,
+            "resources": ["maths-g11-s1-resource-pascals-triangle-04"]
+          },
+          {
+            "id": "maths-g11-s1-concept-binomial-theorem",
+            "title": "Binomial Theorem",
+            "description": "This concept expands powers of binomials and connects algebraic expansion with coefficients, combinations, and pattern recognition.",
+            "order": 2,
+            "resources": ["maths-g11-s1-resource-binomial-theorem-04"]
+          }
+        ],
+        "resources": [
+          "maths-g11-s1-global-04-01",
+          "res_8fe0c776c0",
+          "res_4fec7b0401",
+          "res_e7f4b78f2c",
+          "res_a6c00beb29",
+          "res_c34ced1d5f",
+          "res_0f40a8558b",
+          "res_44ee24fa03",
+          "res_3889e59e75",
+          "res_9ed159bcf4",
+          "res_e121a8c002",
+          "res_ec5829d2f8",
+          "res_fa1ee9d5df"
+        ]
+      },
+      {
+        "id": "maths-g11-s1-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "Unit 5 (Lo5)",
+        "description": "This unit introduces probability and chance-based thinking, including sample spaces, expected value, and compound events that model uncertainty and real-life decision-making.",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "maths-g11-s1-concept-probability",
+            "title": "Probability",
+            "description": "This concept defines probability as the measure of likelihood and explains how outcomes are assigned numerical values in experiments and models.",
+            "order": 1,
+            "resources": ["maths-g11-s1-resource-probability-05"]
+          },
+          {
+            "id": "maths-g11-s1-concept-tree-diagram",
+            "title": "Tree diagram",
+            "description": "This concept uses branching diagrams to represent multi-step experiments and to organize possible outcomes clearly and systematically.",
+            "order": 2,
+            "resources": ["maths-g11-s1-resource-tree-diagram-05"]
+          },
+          {
+            "id": "maths-g11-s1-concept-compound-events-probability",
+            "title": "Compound events Probability",
+            "description": "This concept combines multiple events to analyze dependent and independent outcomes, helping students calculate the probability of sequences and intersections.",
+            "order": 3,
+            "resources": [
+              "maths-g11-s1-resource-compound-events-probability-05",
+              "maths-g11-s1-resource-compound-events-probability-06"
+            ]
+          },
+          {
+            "id": "maths-g11-s1-concept-expected-values",
+            "title": "Expected values",
+            "description": "This concept explains how average outcomes are calculated in probabilistic situations and why expected value is useful in prediction and decision-making.",
+            "order": 4,
+            "resources": ["maths-g11-s1-resource-expected-values-05"]
+          }
+        ],
+        "resources": [
+          "res_230b9da4c9",
+          "res_40b91e7a1c",
+          "res_e4bf2a9afb",
+          "res_d674da6418",
+          "res_04bdd93056",
+          "res_fc70a44476",
+          "res_10d5e42598",
+          "res_b7534971bd",
+          "res_f8dfbc2a01",
+          "res_ded233aa36"
+        ]
+      },
+      {
+        "id": "lo_e31681cbb8",
+        "type": "qs-bank",
+        "title": "Test Banks",
+        "description": "",
+        "order": 6,
+        "concepts": [],
+        "resources": [
+          "res_2bc3eb3abf",
+          "res_4dbbf90dde",
+          "res_ff21697764",
+          "res_821f33414c",
+          "res_79495b5e2c",
+          "res_03551783c1",
+          "res_c0d652e2b6",
+          "res_20235f8de6",
+          "res_5e2d3a2739",
+          "res_92768a0d32",
+          "res_0ef8f6ba3c",
+          "res_e4e65a237e",
+          "res_15baa3210e",
+          "res_c01fe5e61a",
+          "res_056dc29109",
+          "res_9a3097f4d8",
+          "res_629c5f752c",
+          "res_a5e766b866",
+          "res_3a1aee97ff",
+          "res_24a5c55b62",
+          "res_6400479dd7",
+          "res_a8d02a73bf",
+          "res_f8468285bd",
+          "res_d590e55842",
+          "res_a297c7606d",
+          "res_6cb5cb4e26",
+          "res_3a8291de63",
+          "res_31ed4df8d2",
+          "res_90289138bf",
+          "res_2f46f5f18a",
+          "res_5123d0b484",
+          "res_9d7a786851",
+          "res_3d55275391",
+          "res_8c97ef494f",
+          "res_7d62b4c579",
+          "res_22fc6daefe",
+          "res_a4dce75abe",
+          "res_08e1b43fd5",
+          "res_b031e2358d",
+          "res_0654bf7fe5",
+          "res_a0cdbd4be5",
+          "res_e2379760ad",
+          "res_fd16617770",
+          "res_53ece856e5",
+          "res_c4d5e236cf",
+          "res_50aaccfc01",
+          "res_c0005a0528",
+          "res_f796a65804",
+          "res_839599159a",
+          "res_56242efea7",
+          "res_e1a319cf54",
+          "res_5986029f7b",
+          "res_3c0f64d538",
+          "res_8cef41f07f",
+          "res_cc0286816f",
+          "res_371c34d487",
+          "res_ce2474661d",
+          "res_f3fc50f389",
+          "res_16764e59bc",
+          "res_9cb9f287e2",
+          "res_5ef7c7417e",
+          "res_f5950c6121",
+          "res_65c2a2adca",
+          "res_7f413a6d7b",
+          "res_f517f5b06f",
+          "res_99d945d9a1",
+          "res_ef54b2c236",
+          "res_817b133a07",
+          "res_0a31922f89",
+          "res_4f50840931",
+          "res_95deb8ba51",
+          "res_18186d626b",
+          "res_370e162313",
+          "res_ee657501d1",
+          "res_c599049700",
+          "res_9433bd1d85",
+          "res_1027e5982a",
+          "res_fc018c3adf",
+          "res_b7ccf71136",
+          "res_aa3248b377",
+          "res_d3ca5334ba",
+          "res_e6dac39373",
+          "res_0a2f624095",
+          "res_97befe349f",
+          "res_6b26039387",
+          "res_bfdc1f55c7",
+          "res_74db632f7c",
+          "res_cfde8a9cac",
+          "res_a003e4ceb8",
+          "res_9482781388",
+          "res_600ebab4a4",
+          "res_506ef0f265",
+          "res_7bb2663939",
+          "res_072ea16b5d",
+          "res_c3ff810afe",
+          "res_5a2d7d002a",
+          "res_cb8cb21004",
+          "res_6708dabc05",
+          "res_6e9c3708c4",
+          "res_f2b7250971",
+          "res_2206637a88",
+          "res_eb1de2e4cd",
+          "res_94f0abcafa",
+          "res_9628692f9e",
+          "res_162d113240",
+          "res_cf834496d5",
+          "res_d237b94800",
+          "res_d98a771947",
+          "res_2b62b93e9c",
+          "res_d02cb57c31",
+          "res_2d5a3d1f8d",
+          "res_11ac405a07",
+          "res_f01a3180e1",
+          "res_e6b6e35a64",
+          "res_3fd1a7cfb2",
+          "res_47bdf88ea8",
+          "res_e43ba9f9a0",
+          "res_bee9a57041",
+          "res_3c9b45b4dd",
+          "res_130514b0a7",
+          "res_7f5800459e",
+          "res_ebb4c85bfe",
+          "res_3d92b5dd3e",
+          "res_ecf9b13c77",
+          "res_e09d65f9dc",
+          "res_b05b2609e7",
+          "res_ba4c67eceb",
+          "res_8110251e74",
+          "res_8ae1f0d7d6",
+          "res_4b881ceef7",
+          "res_8d9db156b1",
+          "res_6c24aece1e",
+          "res_38f82dd232",
+          "res_eb5bbe8a36",
+          "res_20ce8b4d62",
+          "res_c9055d5322",
+          "res_21157b22c9",
+          "res_3e49689f36",
+          "res_b03df9676f",
+          "res_7a94554cba",
+          "res_ffbcd16874",
+          "res_ad32011261",
+          "res_8df8ffe0d6",
+          "res_e74d6465f2",
+          "res_94f612d8eb",
+          "res_618ad5666b",
+          "res_eeb4dd066c",
+          "res_b2d5c26eb4",
+          "res_31c9585926",
+          "res_1c802d6881",
+          "res_2d7a5d6177",
+          "res_8befc25649",
+          "res_9a31d9d1ca",
+          "res_c4ef450330",
+          "res_e69222ff9c",
+          "res_fd66900a77",
+          "res_461e99f608",
+          "res_b673f75f09",
+          "res_95098488c7",
+          "res_763a72afb1",
+          "res_5dfe10f745",
+          "res_16356c279d",
+          "res_78ebb9e2a8",
+          "res_ed0b43faed",
+          "res_2f05150be3",
+          "res_cba242caae",
+          "res_88d4ff6b87",
+          "res_ecc7af8a40",
+          "res_915a6f35a8",
+          "res_e9a6ff5ef7",
+          "res_b003072ac2",
+          "res_febb656e47",
+          "res_a628d7a1db",
+          "res_bc107eb3d5",
+          "res_09cbed0848",
+          "res_f6aea1ba09",
+          "res_7bca3a8d1d",
+          "res_e4f320d521",
+          "res_1da6c4ae04",
+          "res_0574784342",
+          "res_ed8917b886",
+          "res_ed3b136fd7",
+          "res_227f852807",
+          "res_d3081adf2b",
+          "res_8685c33676",
+          "res_411ac7a491",
+          "res_b2395236ac",
+          "res_9b66993799",
+          "res_de55f972b6",
+          "res_e57701e770",
+          "res_38013f2727",
+          "res_6050c0e1f2",
+          "res_8cf3d4d949",
+          "res_6c03031e85",
+          "res_f1c5a45df7",
+          "res_36c5ce4e9f",
+          "res_7ead97e5a5",
+          "res_42c1e92232",
+          "res_5246a88251",
+          "res_daa83ac24e",
+          "res_dbcaf9fdc5",
+          "res_83758c7cc7",
+          "res_c62a814ea2",
+          "res_f6a20ebcae",
+          "res_3d1a4b18d5",
+          "res_1421223c1a",
+          "res_ce429bbf13",
+          "res_b93dff7486",
+          "res_2005939991",
+          "res_5ec592c48f",
+          "res_5ca4d5894b",
+          "res_28b09b9b7a",
+          "res_8385dce124",
+          "res_0804330df1",
+          "res_5c2752c458",
+          "res_58a3403546",
+          "res_e2bd071d6d",
+          "res_eda1996e7d",
+          "res_086cdb241e",
+          "res_86157a7d42",
+          "res_f767fd6936",
+          "res_cef4ff09f1",
+          "res_c654871a0a",
+          "res_abaa3bb3b2",
+          "res_41e633e3ea",
+          "res_0b66e4000c",
+          "res_205cd83d97",
+          "res_a0565d10c6",
+          "res_a10f58d647",
+          "res_ed78d4aa57",
+          "res_8191e6336f",
+          "res_7d6ebdd82b",
+          "res_d5f37c70d8",
+          "res_474b21fe24",
+          "res_f310244b46",
+          "res_3df59c74c0",
+          "res_3a3248ef02",
+          "res_a5f2b0e5b4",
+          "res_1d3aca0c53",
+          "res_d3951978c2",
+          "res_7ba7f634b3",
+          "res_6f037069b9",
+          "res_82a0866892",
+          "res_7a1c390b6b",
+          "res_123125853b",
+          "res_b4773ecd0a",
+          "res_f0e4c0e46a",
+          "res_855399dd59",
+          "res_30f9250989",
+          "res_868c18b7c0",
+          "res_be3bb5680f",
+          "res_59aad01cd4",
+          "res_5f183d164b",
+          "res_3ca5bb53e0",
+          "res_108058f273",
+          "res_d93aefd753",
+          "res_0f3484155a",
+          "res_2df4c72dc1",
+          "res_66b3f0fe3f",
+          "res_039786950f",
+          "res_9b0ffd944e",
+          "res_2060774484",
+          "res_53316545d0",
+          "res_39075a070c",
+          "res_89b97ddddb",
+          "res_1de2c799af",
+          "res_7f0fb2c329",
+          "res_8352f3728f",
+          "res_e57cf81ad5",
+          "res_f665e22aaf",
+          "res_8fa9b0fd0d",
+          "res_38c98befa0",
+          "res_67199aa481",
+          "res_c57431f3f3",
+          "res_58089df3e6",
+          "res_a08db27776",
+          "res_076ad29d04",
+          "res_3c0fd3a429",
+          "res_1b575cfec5",
+          "res_b07dd316e5",
+          "res_94d5648188",
+          "res_cf782a27a4",
+          "res_2c8734616a",
+          "res_717fc5b8f6",
+          "res_5ef63cc469",
+          "res_bb8316b3ed",
+          "res_ce4034b886",
+          "res_a6e17640d2",
+          "res_42dff601a2",
+          "res_49009271ee",
+          "res_68a3379374",
+          "res_54690d536d",
+          "res_6aa0478fc0",
+          "res_c7ce93cdb7",
+          "res_24075c21cd",
+          "res_25cbf0952b",
+          "res_b9f47dc54a",
+          "res_636cc6c69a",
+          "res_5cbace6956",
+          "res_d520c23bb0",
+          "res_7b1b65dbff",
+          "res_9e2dd5a5d6",
+          "res_110f4b29af",
+          "res_bbe8c2f7a6",
+          "res_a263679794",
+          "res_eec2f4b067",
+          "res_7ac0cdf77d",
+          "res_ca205a998f",
+          "res_15fefddf26",
+          "res_a8d7ffd8af",
+          "res_5437826283",
+          "res_25d99c42c3",
+          "res_a4c177e130",
+          "res_de4f30a544",
+          "res_9b817239f9",
+          "res_12205f1d49",
+          "res_c68bf27fb2",
+          "res_5e5000b0ae",
+          "res_badb23004d",
+          "res_9bace63524",
+          "res_d3b6614516",
+          "res_77d9303691",
+          "res_33d217943b",
+          "res_cfbb7ce969",
+          "res_f54f2b81be",
+          "res_d5f9d05bc6",
+          "res_9830c222fb",
+          "res_619d805f33",
+          "res_3955b636ac",
+          "res_c827c7feeb",
+          "res_881ab8831d",
+          "res_452b55961f",
+          "res_89c1ba015c",
+          "res_a9512ce0a8",
+          "res_d2d90692ee",
+          "res_612ebe70e2",
+          "res_de7642b392",
+          "res_51b9bb19f9",
+          "res_2bc5da3aab",
+          "res_522fdeb16f",
+          "res_342f75990d",
+          "res_6c54cf294d",
+          "res_a5b0fce3d0",
+          "res_058da97f20",
+          "res_d2dc7a50ef",
+          "res_61d3cf375e",
+          "res_edc33a8b64",
+          "res_8d3cceb122",
+          "res_60eaa51cd6",
+          "res_4206b0da51",
+          "res_6b47d1e619",
+          "res_1861bd1deb",
+          "res_acb41a8716",
+          "res_1f2b1937ae",
+          "res_938c8d7544",
+          "res_9f8043f7a3",
+          "res_1755c69a07",
+          "res_55a589cb84",
+          "res_e8b361d4b2",
+          "res_580517f030",
+          "res_dea553f33a",
+          "res_9866a77625",
+          "res_d379f2462a",
+          "res_d65a895241",
+          "res_00df23d3e6",
+          "res_0b444d870a",
+          "res_5dc1accdf5",
+          "res_51e354f50a",
+          "res_00554ddf7e",
+          "res_adb7720e60",
+          "res_1789134be3",
+          "res_877abd471c",
+          "res_36df2087d3",
+          "res_87161af7dc",
+          "res_b614fb8ffd",
+          "res_275a206d38",
+          "res_bdcec61fb3",
+          "res_1fab6b0d77",
+          "res_54129122be",
+          "res_80f4a02aef",
+          "res_554fdc9d21",
+          "res_ce1eeab145",
+          "res_7d4d5cc4fe",
+          "res_6efb79b16c",
+          "res_aeb41771af",
+          "res_3c656372f0",
+          "res_b7600c4ec0",
+          "res_7818ce8fd2",
+          "res_64879839a2",
+          "res_cb13a62a2b",
+          "res_5157cbfe15",
+          "res_cf3e348605",
+          "res_00d9824614",
+          "res_5948293ac8",
+          "res_cf7d3913e1",
+          "res_297213a7ca",
+          "res_1c7e45735e",
+          "res_e9198c3f21",
+          "res_e7b6f8c95b",
+          "res_0be8bfc16a",
+          "res_983871d802"
+        ]
+      },
+      {
+        "id": "maths-g11-s1-midterm-revisions",
+        "type": "revision",
+        "title": "Midterm Revisions",
+        "description": "This revision set consolidates the core ideas covered in the first part of the course, helping students revisit algebraic structure, graph interpretation, and foundational mathematical problem solving before the assessment.",
+        "order": 7,
+        "concepts": [],
+        "resources": [
+          "maths-g11-s1-midterm-revision-01",
+          "maths-g11-s1-midterm-revision-02",
+          "maths-g11-s1-midterm-revision-03",
+          "maths-g11-s1-midterm-revision-04"
+        ]
+      },
+      {
+        "id": "maths-g11-s1-final-revisions",
+        "type": "revision",
+        "title": "Final Revisions",
+        "description": "This final review revisits the key mathematical ideas from the semester, reinforcing the methods, principles, and problem-solving techniques needed for a comprehensive understanding of the course content.",
+        "order": 8,
+        "concepts": [],
+        "resources": [
+          "maths-g11-s1-final-revision-01",
+          "maths-g11-s1-final-revision-02",
+          "maths-g11-s1-final-revision-03"
+        ]
+      },
+      {
+        "id": "lo_49b6af9669",
+        "type": "references",
+        "title": "Additional References",
+        "description": "",
+        "order": 9,
+        "concepts": [],
+        "resources": [
+          "res_516ec09926",
+          "res_c6544d2c7e",
+          "res_d12fa533b6",
+          "res_d1a07db7c2",
+          "res_231b3e248e",
+          "res_9c1572a559",
+          "res_bbfcb2dc86",
+          "res_e41c99dd34"
+        ]
+      }
+    ],
+    "units": 5
+  },
+  "resources": [
+    {
+      "id": "maths-g11-s1-global-01-01",
+      "title": "Unit 1 global link 1",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Wqd_shVEN5A",
+      "youtubeId": "Wqd_shVEN5A",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-01-02",
+      "title": "Unit 1 global link 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=AAuIvbxWAvw&list=PLng_1MWBFMJAM-Ey0VVa5rRshXONdjL1l",
+      "youtubeId": "AAuIvbxWAvw",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-01-03",
+      "title": "Unit 1 global link 3",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Bn97cCYJ4oQ&t=1941s",
+      "youtubeId": "Bn97cCYJ4oQ",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-01-04",
+      "title": "Unit 1 global link 4",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Rxx4HepHI_E&list=PLIas9QYAqR5ZOmhMMoobLzClZj73ze0_i",
+      "youtubeId": "Rxx4HepHI_E",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-01-05",
+      "title": "Unit 1 global link 5",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=XesajdTcInI",
+      "youtubeId": "XesajdTcInI",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-01-06",
+      "title": "Unit 1 global link 6",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=tuQoreFs7uc",
+      "youtubeId": "tuQoreFs7uc",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-01-07",
+      "title": "Unit 1 global link 7",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=jhZXGEFaO_E",
+      "youtubeId": "jhZXGEFaO_E",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-01-08",
+      "title": "Unit 1 global link 8",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=I82sRKpO2XE",
+      "youtubeId": "I82sRKpO2XE",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-02-01",
+      "title": "Unit 2 global link 1",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=uqx_qe3LWRM",
+      "youtubeId": "uqx_qe3LWRM",
+      "source": {
+        "location": "Unit 2 (Lo2) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-02-02",
+      "title": "Unit 2 global link 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=wxzVIVYB_kw",
+      "youtubeId": "wxzVIVYB_kw",
+      "source": {
+        "location": "Unit 2 (Lo2) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-03-01",
+      "title": "Unit 3 global link 1",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=mrtGZdw0Jmg&list=PL4M2D32RVDBKys8vGXQVjBoMEjRlhlwEE",
+      "youtubeId": "mrtGZdw0Jmg",
+      "source": {
+        "location": "Unit 3 (Lo3) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-03-02",
+      "title": "Unit 3 global link 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ObHrVOJcnww",
+      "youtubeId": "ObHrVOJcnww",
+      "source": {
+        "location": "Unit 3 (Lo3) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-03-03",
+      "title": "Unit 3 global link 3",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=7ciaY3jYA0s",
+      "youtubeId": "7ciaY3jYA0s",
+      "source": {
+        "location": "Unit 3 (Lo3) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-03-04",
+      "title": "Unit 3 global link 4",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=9hyGR50LRfo",
+      "youtubeId": "9hyGR50LRfo",
+      "source": {
+        "location": "Unit 3 (Lo3) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-global-04-01",
+      "title": "Unit 4 global link 1",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=mrtGZdw0Jmg&list=PL4M2D32RVDBKys8vGXQVjBoMEjRlhlwEE",
+      "youtubeId": "mrtGZdw0Jmg",
+      "source": {
+        "location": "Unit 4 (Lo4) -> Global Links"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-polynomial-01",
+      "title": "Polynomial",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=a5x4lwnvHM0",
+      "youtubeId": "a5x4lwnvHM0",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Polynomial"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-absolute-value-01",
+      "title": "Absolute value",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=_cHbhzQVd7Y",
+      "youtubeId": "_cHbhzQVd7Y",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Absolute value"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-inverse-of-a-function-01",
+      "title": "Inverse of a function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=TN4ybFiuV3k",
+      "youtubeId": "TN4ybFiuV3k",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Inverse of a function"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-algebraic-function-01",
+      "title": "Algebraic function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=grnP3mduZkM",
+      "youtubeId": "grnP3mduZkM",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Algebraic function"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-operations-with-polynomials-01",
+      "title": "Operations with polynomials",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZvL9aDGNHqA&t=724s",
+      "youtubeId": "ZvL9aDGNHqA",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Operations with polynomials"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-roots-of-polynomial-equations-01",
+      "title": "Roots of polynomial equations",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Iaq7z7reznM",
+      "youtubeId": "Iaq7z7reznM",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Roots of polynomial equations"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-polynomial-curve-01",
+      "title": "Polynomial curve",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=WqRPFvZWF0k&t=3s",
+      "youtubeId": "WqRPFvZWF0k",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Polynomial curve"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-polynomial-functions-01",
+      "title": "Polynomial functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=a5x4lwnvHM0&t=877s",
+      "youtubeId": "a5x4lwnvHM0",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Polynomial functions"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-degree-of-the-function-01",
+      "title": "Degree of the function",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=cADQ4Wk4wFc",
+      "youtubeId": "cADQ4Wk4wFc",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Degree of the function"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-attributes-of-a-graph-01",
+      "title": "Attributes of a graph - turning points, symmetry, even/odd",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=fKyBOLsqRlo",
+      "youtubeId": "fKyBOLsqRlo",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Attributes of a graph"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-polynomial-in-one-variable-01",
+      "title": "Polynomial in one variable",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZvL9aDGNHqA",
+      "youtubeId": "ZvL9aDGNHqA",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Polynomial in one variable"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-multiplicity-01",
+      "title": "Multiplicity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=jrFLb9ZoZH0",
+      "youtubeId": "jrFLb9ZoZH0",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Multiplicity"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-remainder-theorem-01",
+      "title": "The Remainder Theorem",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=MwG6QD352yc",
+      "youtubeId": "MwG6QD352yc",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> The Remainder Theorem"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-remainder-theorem-02",
+      "title": "The Remainder Theorem",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=p1lSRAeEMR0",
+      "youtubeId": "p1lSRAeEMR0",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> The Remainder Theorem"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-factor-theorem-01",
+      "title": "The Factor Theorem",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=zAGP46nR6-0",
+      "youtubeId": "zAGP46nR6-0",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> The Factor Theorem"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-intermediate-value-theorem-01",
+      "title": "Intermediate Value Theorem",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=9wEHwFrUyOU",
+      "youtubeId": "9wEHwFrUyOU",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Intermediate Value Theorem"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-fundamental-theorem-of-algebra-01",
+      "title": "The Fundamental Theorem of Algebra",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=cAfRgqEOURw",
+      "youtubeId": "cAfRgqEOURw",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> The Fundamental Theorem of Algebra"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-descartes-rule-of-signs-01",
+      "title": "Descartes' Rule of Signs",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=YaU5JTe3cPU",
+      "youtubeId": "YaU5JTe3cPU",
+      "source": {
+        "location": "Unit 1 (Lo1) -> Concepts -> Descartes' Rule of Signs"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-rational-polynomial-expressions-02",
+      "title": "Rational polynomial expressions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=0Gq3uw2p6fA",
+      "youtubeId": "0Gq3uw2p6fA",
+      "source": {
+        "location": "Unit 2 (Lo2) -> Concepts -> Rational polynomial expressions"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-sketch-rational-functions-02",
+      "title": "Sketch rational functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=XE-Z2-F3oWw",
+      "youtubeId": "XE-Z2-F3oWw",
+      "source": {
+        "location": "Unit 2 (Lo2) -> Concepts -> Sketch rational functions"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-vertical-asymptotes-of-rational-functions-02",
+      "title": "Vertical asymptotes of rational functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=cjXseEPP9vc",
+      "youtubeId": "cjXseEPP9vc",
+      "source": {
+        "location": "Unit 2 (Lo2) -> Concepts -> Vertical asymptotes of rational functions"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-horizontal-asymptotes-of-rational-functions-02",
+      "title": "Horizontal asymptotes of rational functions",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=kvhpu1TkSjI",
+      "youtubeId": "kvhpu1TkSjI",
+      "source": {
+        "location": "Unit 2 (Lo2) -> Concepts -> Horizontal asymptotes of rational functions"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-oblique-asymptote-02",
+      "title": "An oblique asymptote or a slant asymptote",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=kvhpu1TkSjI",
+      "youtubeId": "kvhpu1TkSjI",
+      "source": {
+        "location": "Unit 2 (Lo2) -> Concepts -> An oblique asymptote or a slant asymptote"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-fundamental-counting-principle-03",
+      "title": "Fundamental Counting Principle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=3lmEqp8VhAU",
+      "youtubeId": "3lmEqp8VhAU",
+      "source": {
+        "location": "Unit 3 (Lo3) -> Concepts -> Fundamental Counting Principle"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-permutations-03",
+      "title": "Permutations",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=XJnIdRXUi7A",
+      "youtubeId": "XJnIdRXUi7A",
+      "source": {
+        "location": "Unit 3 (Lo3) -> Concepts -> Permutations"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-combinations-03",
+      "title": "Combinations",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=XJnIdRXUi7A",
+      "youtubeId": "XJnIdRXUi7A",
+      "source": {
+        "location": "Unit 3 (Lo3) -> Concepts -> Combinations"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-factorials-03",
+      "title": "Factorials",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=pxh__ugRKz8",
+      "youtubeId": "pxh__ugRKz8",
+      "source": {
+        "location": "Unit 3 (Lo3) -> Concepts -> Factorials"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-pascals-triangle-04",
+      "title": "Pascal's Triangle",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=v9Evg2tBdRk",
+      "youtubeId": "v9Evg2tBdRk",
+      "source": {
+        "location": "Unit 4 (Lo4) -> Concepts -> Pascal's Triangle"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-binomial-theorem-04",
+      "title": "Binomial Theorem",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=s19dWIHfcY",
+      "youtubeId": "s19dWIHfcY",
+      "source": {
+        "location": "Unit 4 (Lo4) -> Concepts -> Binomial Theorem"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-probability-05",
+      "title": "Probability",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=SkidyDQuupA",
+      "youtubeId": "SkidyDQuupA",
+      "source": {
+        "location": "Unit 5 (Lo5) -> Concepts -> Probability"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-tree-diagram-05",
+      "title": "Tree diagram",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=w4wKXVwtGac",
+      "youtubeId": "w4wKXVwtGac",
+      "source": {
+        "location": "Unit 5 (Lo5) -> Concepts -> Tree diagram"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-compound-events-probability-05",
+      "title": "Compound events Probability",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=EHU6pVSczb4",
+      "youtubeId": "EHU6pVSczb4",
+      "source": {
+        "location": "Unit 5 (Lo5) -> Concepts -> Compound events Probability"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-compound-events-probability-06",
+      "title": "Compound events Probability",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=xSc4oLA9e8o",
+      "youtubeId": "xSc4oLA9e8o",
+      "source": {
+        "location": "Unit 5 (Lo5) -> Concepts -> Compound events Probability"
+      }
+    },
+    {
+      "id": "maths-g11-s1-resource-expected-values-05",
+      "title": "Expected values",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=b6VK2VPMXNI",
+      "youtubeId": "b6VK2VPMXNI",
+      "source": {
+        "location": "Unit 5 (Lo5) -> Concepts -> Expected values"
+      }
+    },
+    {
+      "id": "maths-g11-s1-midterm-revision-01",
+      "title": "Midterm revision 1",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=E_oAg7NPZnY",
+      "youtubeId": "E_oAg7NPZnY",
+      "source": {
+        "location": "Midterm Revisions"
+      }
+    },
+    {
+      "id": "maths-g11-s1-midterm-revision-02",
+      "title": "Midterm revision 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=_R3jtVmQPkg",
+      "youtubeId": "_R3jtVmQPkg",
+      "source": {
+        "location": "Midterm Revisions"
+      }
+    },
+    {
+      "id": "maths-g11-s1-midterm-revision-03",
+      "title": "Midterm revision 3",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=J9n4SXSwTNU",
+      "youtubeId": "J9n4SXSwTNU",
+      "source": {
+        "location": "Midterm Revisions"
+      }
+    },
+    {
+      "id": "maths-g11-s1-midterm-revision-04",
+      "title": "Midterm revision 4",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=cuMsVJYFj8c",
+      "youtubeId": "cuMsVJYFj8c",
+      "source": {
+        "location": "Midterm Revisions"
+      }
+    },
+    {
+      "id": "maths-g11-s1-final-revision-01",
+      "title": "Final revision 1",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=2z_ZEx-rDEM",
+      "youtubeId": "2z_ZEx-rDEM",
+      "source": {
+        "location": "Final Revisions"
+      }
+    },
+    {
+      "id": "maths-g11-s1-final-revision-02",
+      "title": "Final revision 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=qSWyUyhMz5E",
+      "youtubeId": "qSWyUyhMz5E",
+      "source": {
+        "location": "Final Revisions"
+      }
+    },
+    {
+      "id": "maths-g11-s1-final-revision-03",
+      "title": "Final revision 3",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=xDC8A2gCR6k",
+      "youtubeId": "xDC8A2gCR6k",
+      "source": {
+        "location": "Final Revisions"
+      }
+    },
+    {
+      "id": "res_275631453f",
+      "title": "MA  G11 S1 LO 1___4.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1XyCWALAMNti9HchrPY8-RYgIoMrwsyEB/view?usp=drivesdk"
+    },
+    {
+      "id": "res_66a3822f19",
+      "title": "General revision on math first term.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1OUr-p6bY-TwO-RIy12MfWq5Mthb6yURS/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_5b963306d2",
+      "title": "math.to.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/17yWUv5kBESi9BRdZCc7loaiqWwrngth_/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8ae5f83eb7",
+      "title": "Math G 11 S1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1CqtqvId0LH7tpTFbckljgI59Bl6q0ogo/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5b595f9a88",
+      "title": "Final revision.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1r1H6TcV6JG5EOdZJYK-EMBpXLO1JLGd2/view?usp=drivesdk"
+    },
+    {
+      "id": "res_516ec09926",
+      "title": "Coursebook.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1xRy3eWYyv5WwWF3QtVaMbaVtof9ysHld/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c6544d2c7e",
+      "title": "College Algebra with Trigonometry 9th ed. - R. Barnett, et. al., (McGraw-Hill, 2011) BBS.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1VD1JTu4yWjoaXTu4o9dT27_zBzvM1jtZ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d12fa533b6",
+      "title": "College Algebra and Trigonometry 7th- Aufmann, Barker, Nation.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1BnbEZCEfAirtpFpqPn7xPMAvE3S3U954/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d1a07db7c2",
+      "title": "Algebra2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kuNkhgQlWuxztu-wJww1gc8qM8qj3c_m/view?usp=drivesdk"
+    },
+    {
+      "id": "res_231b3e248e",
+      "title": "Copy of BUE PDFs",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1NZpzMrMSxnyijnmZ5D_RY3na8qZgQ9IB/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9c1572a559",
+      "title": "FCP.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1v-fTYz1MA3NbuSyvePlP2Wlatu9L2J9A/view?usp=drivesdk"
+    },
+    {
+      "id": "res_bbfcb2dc86",
+      "title": "Permutations and combination notes for class 11 maths Chapter 7.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1S2-8Ib-35gs_B7kif26cVJ8LCC9KIEHc/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e41c99dd34",
+      "title": "Statistics _3sec_E.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1YpjM-Qt6KVotk-kOappOyuskadOW437v/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2bc3eb3abf",
+      "title": "2-PERM,COMB-Q+A-ME.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qVU_0BqE_1PnZXRrgwwk7chh7hMMGZYe/view?usp=drivesdk"
+    },
+    {
+      "id": "res_4dbbf90dde",
+      "title": "L.O.6,7 - Quiz on L.O.6,7.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1v9A3Jjyul82h3MRkybJfcnAKBJzGYP9t/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_ff21697764",
+      "title": "L.O.1 - Quiz 1 on Limits.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1ZOB2D28ueRib6s_92pcgRTQ8x-sE3em2/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_821f33414c",
+      "title": "L.O.5 - Statistics Revision.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1w-tSNLOQ_0c4RAyH5AP9MInjgv56hQn9/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_79495b5e2c",
+      "title": "L.O.5 - Revision of Statistics.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1UffPLfVbn5k6Xx83ASXDNs3E3C4SYgzA/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_03551783c1",
+      "title": "L.O.4 - Revision on Integration.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1uoh6xLjQS0lrUdHK-F--vLXDIp6rB0Nf/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_c0d652e2b6",
+      "title": "L.O.4 - Exercises on Integration.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1tU1C188zpdr_Vd7yQ4IEkQDgPrtQQTi3/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_20235f8de6",
+      "title": "L.O.3 - Trig Exercises.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1uyWK2d8Xo92vhN8RPCSxswEfOTYFYhT2/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_5e2d3a2739",
+      "title": "L.O.2 - Revision on Derivative.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1tHRPAZ7GBnRxckAeWaChAhuvsJZbu0Eb/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_92768a0d32",
+      "title": "L.O.2 - Quiz 3.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1AYgGiQwu7J-p_bPvYTbyzCPNSFVt6Gkr/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_0ef8f6ba3c",
+      "title": "L.O.1 - Revision on Limits.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1NIdvlQtq46Lzwva3gb-NDd5IW9CCvbI3/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_e4e65a237e",
+      "title": "L.O.1 - Revision on Limits (2).pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1C7Nhxu75rWetbLbQR55N3E0521Wja3iL/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_15baa3210e",
+      "title": "L.O.1 - Quiz on Limits.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1V6nBw2jp8u_mr-PDOylQtWNMdAbC9jUU/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_c01fe5e61a",
+      "title": "L.O.1 - Quiz on Limits.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1I0pQPrkbN2myzpPoEaAdHRaWY38FOuPz/view?usp=drivesdk"
+    },
+    {
+      "id": "res_056dc29109",
+      "title": "L.O.1 - Quiz on Limits.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1uxOesV6RfcTRAz8pN9lVIngLzkzwW694/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_9a3097f4d8",
+      "title": "L.O.1 - Quiz 2.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/16QdsMWnY0jBujFaWXD4ZxlvT1KAVxEEQ/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_629c5f752c",
+      "title": "L.O.1 - Quiz 1 on Limits.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/12Qt5PaGT0SVjQm_hWqeizkHt4U_KdDrY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a5e766b866",
+      "title": "L.O.1 - Quiz 1 on Limits.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1ZzijvQAmq0J23WUHjWB_94OJL95qCtaf/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_3a1aee97ff",
+      "title": "L.O.1 - Exercises on Limits of Logarithm.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1V_vV6b1CBTGtxjQpa-mDZAuDzJHeDz1d/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_24a5c55b62",
+      "title": "L.O.2 - Revision on Derivatives.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1zJUwzESQrim6BGUzS2NCM4dHiN0raMD2/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_6400479dd7",
+      "title": "Revision -G11 - Math -First Term.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1dRaJ2AwnyvXEid5nA2QzSBGfD8QiLBuq/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_a8d02a73bf",
+      "title": "Probability for Ss.ppsx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Tb9zPnfCUMOEgg-rqxD4-OYRe2U27SDy/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f8468285bd",
+      "title": "Revision on probability.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1YrmdRbCUmAr3umR7AmzBhFuXBMpGO4q5/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_d590e55842",
+      "title": "Exercises.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1b2swIXJYE4VV4WRxGJ51Dy3kqSxQ_1u6/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_a297c7606d",
+      "title": "Combinations,+Binomial.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/18R1b7sS4MBp9SW5F5OkjzT0PZeJ4DBjj/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6cb5cb4e26",
+      "title": "Revision on permutation.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1dkcXKcPs4Zl1caWCsaWJ5MPFz1Eq0c_U/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_3a8291de63",
+      "title": "Revision on Binomial Theorem.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1tus7_j1BZt0BDHVzh9w8lnsfqkvDTXIz/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_31ed4df8d2",
+      "title": "College-Algebra-Binomial-Theorem-and-Pascals-Triangle.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1CMynPEJqGyl3_i8H1gBfdYUsNz2RuHq9/view?usp=drivesdk"
+    },
+    {
+      "id": "res_90289138bf",
+      "title": "binomial_expansion_worksheet 2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1-YdHhdEEo0aFTY_hj5yPNpSCzGXe-fz4/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2f46f5f18a",
+      "title": "Binomial Theorem-jeemain.guru 4 teacher.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1UO3YipV-P-wB5Nu9PaD_XWrtHdL3Y5yi/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5123d0b484",
+      "title": "GP1-Precalculus_Quiz_Polynomials_Solutions.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1FB4W0CfidEwv9vlMNCcQGWtcibq_jZRl/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9d7a786851",
+      "title": "1-good quiz.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ntPR4dayiz1nY1FYb6zkR2VOcTZ53sFi/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3d55275391",
+      "title": "2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1AIfuV8BJE-pd-1nHssISFPswMilg6EXl/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8c97ef494f",
+      "title": "LO 4 assignment.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1LzZlBdjtFQTIsUOOEjI8JdyCcmzIFdO4/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7d62b4c579",
+      "title": "Test Bank Function.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1rKNLo753HGcyl9_pBMubz1BV3bKckpCD/view?usp=drivesdk"
+    },
+    {
+      "id": "res_22fc6daefe",
+      "title": "Session 5.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1iOw1XF3EoUH2whI9vE9IaXus7JNE6o3i/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a4dce75abe",
+      "title": "3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1pijnXLS_17oZMqtfbWBkDrzu03x4oOkN/view?usp=drivesdk"
+    },
+    {
+      "id": "res_08e1b43fd5",
+      "title": "2nd Assignment LO_3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Ofwf1DM9LPfLw-_caok9sOIusyYrHfrJ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b031e2358d",
+      "title": "Test bank polynomials.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1RFvHP6tD3UOaEaq1s2-d0cp4pgAThpr_/view?usp=drivesdk"
+    },
+    {
+      "id": "res_0654bf7fe5",
+      "title": "Revision_1Final_1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/12OtvSwjGwMShZDzRhZduyu9AlhdppSlh/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a0cdbd4be5",
+      "title": "revision - math - G11-t1.new attia.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1rUpEnUvX9fwHDxbHq65wK0MfeksGSyfR/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e2379760ad",
+      "title": "revesion math.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1tnMC5WZTdR8xFwSPhGPdHQxeQDG_DNp2/view?usp=drivesdk"
+    },
+    {
+      "id": "res_fd16617770",
+      "title": "PC - Section 1.7 - Worksheet 1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1rXWVG7TBqyDDlhU2Qd6vzKnkJk3B31gj/view?usp=drivesdk"
+    },
+    {
+      "id": "res_53ece856e5",
+      "title": "first term revision math grade 11.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1cGISDojg5713t-hQ-a86MUUpr72M_OwP/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c4d5e236cf",
+      "title": "LO 5 Q.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1RazTp9Bq3ZnyshAWOI6hjlvYn4pwqAmV/view?usp=drivesdk"
+    },
+    {
+      "id": "res_50aaccfc01",
+      "title": "LO 4 Q.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1vNM9wlGmNvfVtXY1iWvF2XzPwG6iIRmp/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c0005a0528",
+      "title": "LO 3 Q.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1fLCMPFrLEFpADiip06ZvDzlfPxjwFjEj/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f796a65804",
+      "title": "LO 1& 2 Q.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1bEjjwEQHrRayI4qKspmrLb9MTPW_g2xy/view?usp=drivesdk"
+    },
+    {
+      "id": "res_839599159a",
+      "title": "LO.5 Mathematics .pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/12J091WaDB1MSZXOwQjMjTn4O4lvva3zH/view?usp=drivesdk"
+    },
+    {
+      "id": "res_56242efea7",
+      "title": "LO.2 Mathematics .pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Jtjp3XXRAr2ZUwbUsUPG29Nu7AsugNfw/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e1a319cf54",
+      "title": "LO.1 Mathematics .pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1j42nqHMsu7T5iGIIT4khzo_kEmsGNFg5/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5986029f7b",
+      "title": "LO.4 Mathematics .pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/16TeK5yvMiOmxM4B8nCUXmL9-RSdS9ngk/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3c0f64d538",
+      "title": "LO.3 Mathematics .pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1JdYLtc_BoHF7bCmiXOTRyyCfwyM6aejo/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8cef41f07f",
+      "title": "pobability- 3 sec.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/12DE5Qyko-uwMIOqwXYVB85KQ6ccIbzuC/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cc0286816f",
+      "title": "pobability- 2 sec.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1axGn6fUR7rQwccozLnCnkfLQc6hXJ5j6/view?usp=drivesdk"
+    },
+    {
+      "id": "res_371c34d487",
+      "title": "aplplication on propability.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/17Q7qu81WKLiD0jePd5TN6kEXJoYIooNL/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ce2474661d",
+      "title": "basic propability.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1f4Vuc6MVhBmpwqwzAsdKXxCyfZKKB9gA/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f3fc50f389",
+      "title": "expected value.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1lReb7PJ6Za59qDn0rnljT3kPAEpox_HT/view?usp=drivesdk"
+    },
+    {
+      "id": "res_16764e59bc",
+      "title": "Q+A.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1yy3H6POBDLHaOU8J1bNL2-55Y5mPc8BS/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9cb9f287e2",
+      "title": "Probability.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sNa7GJnw42qG3f8MIGIcZ4L7QfkqZJQ_/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5ef7c7417e",
+      "title": "Probability(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/13xoG5ctEijPpPmvm-HbIwuVLVH8f989f/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f5950c6121",
+      "title": "Q+A(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1YJtZHlZnIjpxyO1ZsoLOWvb8xf_fPTEP/view?usp=drivesdk"
+    },
+    {
+      "id": "res_65c2a2adca",
+      "title": "expected value(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1-wHhHRH45IKzEDI8_YcldMr1SiPCBSsj/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7f413a6d7b",
+      "title": "basic propability(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qxuOflS85qLSjsXbPlKxwOOqtqgqjQ9f/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f517f5b06f",
+      "title": "1-LO_5- propability-me.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1a8cGHmDJSBzngq7Aq-6K1ELcSTn8trli/view?usp=drivesdk"
+    },
+    {
+      "id": "res_99d945d9a1",
+      "title": "Q+A(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1EMDgQQ8E4dqcYsp3yq7ycUfV4fV1bg5I/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ef54b2c236",
+      "title": "expected value(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1jbbM8IWKzqRtUM5ecJoaBnqWIP0hdifE/view?usp=drivesdk"
+    },
+    {
+      "id": "res_817b133a07",
+      "title": "basic propability(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1xcxXasfbtH8uTYO6x6pr3CLFG5pCrq1L/view?usp=drivesdk"
+    },
+    {
+      "id": "res_0a31922f89",
+      "title": "Q+A(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sezV_J-z3itnWUD9txKyEpF6XJ0f-Ijw/view?usp=drivesdk"
+    },
+    {
+      "id": "res_4f50840931",
+      "title": "expected value(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1BMatFaoHCKs615sEgZVJuNgPC6E_X8_X/view?usp=drivesdk"
+    },
+    {
+      "id": "res_95deb8ba51",
+      "title": "basic propability(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1TzG6GoiBP97WPrvCd0EGPrmDVUUqDdia/view?usp=drivesdk"
+    },
+    {
+      "id": "res_18186d626b",
+      "title": "Probability(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1J17CCUuSAGVVI1QfGbpt3n1keE7-beZG/view?usp=drivesdk"
+    },
+    {
+      "id": "res_370e162313",
+      "title": "Q+A(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1URbtGpNpKko5JFYb0W3ETOm_ohpXBElc/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ee657501d1",
+      "title": "expected value(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1dCokO_h9ITp43CsHjiQOZKhhUugsHuvD/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c599049700",
+      "title": "basic propability(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1dysYbkDHkGY6Z8vfVahvpsq2HF29hN8M/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9433bd1d85",
+      "title": "Q+A(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1rK3-aB1BENx1TGm2JN1s5jsPp726t6xC/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1027e5982a",
+      "title": "expected value(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1jH-s-RX2P3KPYQ9jwiXgInkaYSf4VToM/view?usp=drivesdk"
+    },
+    {
+      "id": "res_fc018c3adf",
+      "title": "basic propability(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1186CWOYDDK6fymdls7nVPM37CqGHAZ4h/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b7ccf71136",
+      "title": "Q+A(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/18nZ8ILHLEMqoBEjt6P8dtGEtoRAOMzP0/view?usp=drivesdk"
+    },
+    {
+      "id": "res_aa3248b377",
+      "title": "expected value(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1dJG4Noaad6zj4LpnnKcQe1PlLVPUJjSO/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d3ca5334ba",
+      "title": "basic propability(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1e1QYPOrMp5w_i-5kmzTT8UvQWBDv88l4/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e6dac39373",
+      "title": "Q+A(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1KN9OYJkgbN9BXAkBZ1gbz0DX8b2X85Bk/view?usp=drivesdk"
+    },
+    {
+      "id": "res_0a2f624095",
+      "title": "expected value(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1JmjfY9RGwqwsIw-hX9kADrludn_sZ2RQ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_97befe349f",
+      "title": "basic propability(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/153fMPJF01ZgL9jxI06jvbwJ8zqDqGWqd/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6b26039387",
+      "title": "Probability(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Knqrx9IOSSB21Sb0eqbTRtfBhWYi4cCZ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_bfdc1f55c7",
+      "title": "Q+A(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1-nE4wFkR-RSfXhgsPmozI8pO21f3L1kc/view?usp=drivesdk"
+    },
+    {
+      "id": "res_74db632f7c",
+      "title": "expected value(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1oB77b7d5QYWeKhOQo1pAOoucLDNUZN-9/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cfde8a9cac",
+      "title": "basic propability(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1XS8mR0IAkkafQ6YLXKBv9fz8xRLj2wgR/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a003e4ceb8",
+      "title": "Probability(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ursq-Cz26H3jdKGq-NtjUMqPirBLekjN/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9482781388",
+      "title": "Probability(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1DfUbpy82nxtwrUxPDtA9Doc8IS5fSb3U/view?usp=drivesdk"
+    },
+    {
+      "id": "res_600ebab4a4",
+      "title": "Q+A(9).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/169KNgdrAIgEsQH1SA48l5ZCGnXrlDkqc/view?usp=drivesdk"
+    },
+    {
+      "id": "res_506ef0f265",
+      "title": "expected value(9).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ZRMZKYLS3-CtCrqBnY1yXrENASEmwwtu/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7bb2663939",
+      "title": "basic propability(9).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1TQlkajnvYGckan0DIr8REeuVXJ0-v3b7/view?usp=drivesdk"
+    },
+    {
+      "id": "res_072ea16b5d",
+      "title": "Probability(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kuoXhP4B6E7cSO6t5rDYW5U8n5p_C1aP/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c3ff810afe",
+      "title": "Q+A(10).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qzssq-vB2Xyz8hmg40SlfElzrF4b3W-F/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5a2d7d002a",
+      "title": "expected value(10).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1e8KyqiuufY8riDeBqv5BpKD3sMrcty3L/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cb8cb21004",
+      "title": "basic propability(10).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Gsyhm_F9om09kXg_8w5TjA5wAKE4qDFY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6708dabc05",
+      "title": "Probability(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sHw-d_NJ1krf1xMey-zVgUAdw57QmuLb/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6e9c3708c4",
+      "title": "basic propability(11).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1n9dn_IItHCPn1H42BWHYCwh_BQu0z7Cc/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f2b7250971",
+      "title": "Q+A(11).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kUMYK3XlvD1MPmPb8E8pBIJH_2pR6WIB/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2206637a88",
+      "title": "Probability(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1SFRZ24vN0Y8JLYp6V4zMybDRfbeHCVhR/view?usp=drivesdk"
+    },
+    {
+      "id": "res_eb1de2e4cd",
+      "title": "expected value(11).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ggUv9RSC7KRCbhlkFJTm8vXlkW-aVdil/view?usp=drivesdk"
+    },
+    {
+      "id": "res_94f0abcafa",
+      "title": "basic propability(12).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19CQqy5UF9eSlRUssIjPPr0ZjEQdYe0xN/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9628692f9e",
+      "title": "Probability(9).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1aTbOxyzpvkJzkefmt8rW3oHjnagQGLO8/view?usp=drivesdk"
+    },
+    {
+      "id": "res_162d113240",
+      "title": "basic propability(13).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ALGfhylCwHn2GY0xxIBSRLhU8fhCba0D/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cf834496d5",
+      "title": "Q+A(12).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1IEuAdv7oXhI9a2YjgaWZlkYNjdOs0wkK/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d237b94800",
+      "title": "expected value(12).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GWxiKnElk2uARudST_2JBNwMPZztEw6r/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d98a771947",
+      "title": "CMA_LP_S01_BC_L12_I02_01.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1PKsIZ4H2Tt4IGuDxjFRQVAI-Vom-cTPW/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2b62b93e9c",
+      "title": "Thebinomialtheorem.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1aVwFKIUOH72uDepyuh97AhbiOAZj4hhZ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d02cb57c31",
+      "title": "the number of term.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/13ReVaLDeRmJrWgTGNzzw3zrO9O-_5zI1/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2d5a3d1f8d",
+      "title": "Section_8.6.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1VUGGJeLBaBz2QwDnTnDcVn-xb62cByW2/view?usp=drivesdk"
+    },
+    {
+      "id": "res_11ac405a07",
+      "title": "Binomial_Theorem.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1-JfowQMYRpPQ0HYkTQNPP0C92U850uLj/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f01a3180e1",
+      "title": "CMA_LP_S01_BC_L12_I02_01(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1L2y6ViuWKiHa1GSg-SnUU3yscMK7T-Wi/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e6b6e35a64",
+      "title": "the number of term(1).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1LL1gImzhrsKB4JrctaXQLDmPsb2C1RVZ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3fd1a7cfb2",
+      "title": "Section_8.6(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1fd5550hfX_PMvbXXXgZuEclCe7VfRMvW/view?usp=drivesdk"
+    },
+    {
+      "id": "res_47bdf88ea8",
+      "title": "Binomial_Theorem(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/17F9Y-zE0oIagjk2EWCwwoWiDxhvyRkAV/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e43ba9f9a0",
+      "title": "the number of term(2).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Wu4_IH8s3vevar9p7PL3VkdMh_WXDO3a/view?usp=drivesdk"
+    },
+    {
+      "id": "res_bee9a57041",
+      "title": "Section_8.6(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QbnVwBxNJ9r_v3jeSZQJvN9uyr3KEizb/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3c9b45b4dd",
+      "title": "Binomial_Theorem(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Bc_p_-yZ27NU5aeVNR7nQNxPyxiIon0q/view?usp=drivesdk"
+    },
+    {
+      "id": "res_130514b0a7",
+      "title": "the number of term(3).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/18KSw1vqUKAqT7DtCUUeouJNl-HqBxA4L/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7f5800459e",
+      "title": "Section_8.6(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1IHDcAKU4YL7FQEs0QzaQtPlbpwjA06CD/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ebb4c85bfe",
+      "title": "Binomial_Theorem(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1VUlQ79YDmIDI0kk4lPMHiO1KgPM6ffXd/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3d92b5dd3e",
+      "title": "CMA_LP_S01_BC_L12_I02_01(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1FIZfxryNub6VeihhQSGfIR1_zC7667KW/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ecf9b13c77",
+      "title": "CMA_LP_S01_BC_L12_I02_01(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/10YthJQS4dBxcgGYf4duRsaoP4PExk8r-/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e09d65f9dc",
+      "title": "Binomial_Theorem(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1F73On9cXnha9WOR2CsFDp06zLMp_StQD/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b05b2609e7",
+      "title": "the number of term(4).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1uCcgDPYOELStqtEEs1hv_nszfxQQ0ZnI/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ba4c67eceb",
+      "title": "Section_8.6(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sDOFslwasjlLxCAKUVnqLb774hzEk4U9/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8110251e74",
+      "title": "Binomial_Theorem(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1zqfIiY0X-LKuoeAuwI5k_NuMFAhQzhaP/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8ae1f0d7d6",
+      "title": "the number of term(5).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19-wGJ93qUthWfUpqG-jdjOMlVbnGchzq/view?usp=drivesdk"
+    },
+    {
+      "id": "res_4b881ceef7",
+      "title": "Section_8.6(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1aJG1maUwjFcyc-QV9BL51N5BYpwgTSNU/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8d9db156b1",
+      "title": "Thebinomialtheorem(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1D0ytX1j8M57xpiI46WL8HAodFHDzBIf1/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6c24aece1e",
+      "title": "CMA_LP_S01_BC_L12_I02_01(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/18B-0L-ZDvTFPiHDGHk9tU-URQ3-V51Jv/view?usp=drivesdk"
+    },
+    {
+      "id": "res_38f82dd232",
+      "title": "Binomial_Theorem(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1CbfsUkP8kBtSWQ9p-cViz25etYqWcuZG/view?usp=drivesdk"
+    },
+    {
+      "id": "res_eb5bbe8a36",
+      "title": "the number of term(6).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1TYvt00dwjWwsyfTIDDatVkbdyBROBd-U/view?usp=drivesdk"
+    },
+    {
+      "id": "res_20ce8b4d62",
+      "title": "Section_8.6(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/116Gylcz_1g1G4ytpC0GLJG7MkeBHwwMW/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c9055d5322",
+      "title": "Thebinomialtheorem(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1F4V0x2-oOsYi30kefmU-ys_j7wOIyRSj/view?usp=drivesdk"
+    },
+    {
+      "id": "res_21157b22c9",
+      "title": "CMA_LP_S01_BC_L12_I02_01(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kOPwHUDFjpyXwbDW6Py1xxlJS-JRWqeL/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3e49689f36",
+      "title": "Binomial_Theorem(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1lRrDYGR2_TCFQx_21p4TQ5c4dp0d93RQ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b03df9676f",
+      "title": "the number of term(7).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1o3CcXFYV3fE1DvuZ-1BeX6_NIFW56x3d/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7a94554cba",
+      "title": "Section_8.6(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/15A-fvnn8aMeWehE1N1D6Y3Pz2h7CCknC/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ffbcd16874",
+      "title": "Thebinomialtheorem(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1MIkaDcspJUp4blIK2T7w2823c6r3TANV/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ad32011261",
+      "title": "CMA_LP_S01_BC_L12_I02_01(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1dfIbTwTIXM0FajLrY_vDKHijkITWS5ZO/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8df8ffe0d6",
+      "title": "Binomial_Theorem(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1vtzLkkv9OjNkIXjGS2nY3jzGeq8ikf1c/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e74d6465f2",
+      "title": "the number of term(8).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1oBIZqAXi-aM2r7yJ7KTDSZyY6AlJtQcn/view?usp=drivesdk"
+    },
+    {
+      "id": "res_94f612d8eb",
+      "title": "Section_8.6(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1gvwzsB31Os4Za1KnS7ba5POjo7Aa_8Hc/view?usp=drivesdk"
+    },
+    {
+      "id": "res_618ad5666b",
+      "title": "Thebinomialtheorem(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/14NhtIbG4fU1pOQlVitIKj6ovxbkLuT6U/view?usp=drivesdk"
+    },
+    {
+      "id": "res_eeb4dd066c",
+      "title": "CMA_LP_S01_BC_L12_I02_01(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1s2pN2CvwVdjIHYya2dwGMIHFdhl_L5bo/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b2d5c26eb4",
+      "title": "Binomial_Theorem(9).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1SMa0AGSNVwFaUv8EtITYProoCiZ4eMMe/view?usp=drivesdk"
+    },
+    {
+      "id": "res_31c9585926",
+      "title": "the number of term(9).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GHwaRl5vEEUJ69W0DU6d3up3T-AsPkqw/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1c802d6881",
+      "title": "Section_8.6(9).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1tdPvMTSvCffDQ9xe2NCrd2o6U7QfW4hA/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2d7a5d6177",
+      "title": "CMA_LP_S01_BC_L12_I02_01(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1rMYWG2FQzQkwAcd8MSDdYm_5V-NzDP8r/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8befc25649",
+      "title": "Thebinomialtheorem(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1pzLdSlHR9mdPQ_mpGzcfLHzTJLVaDT4I/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9a31d9d1ca",
+      "title": "CMA_LP_S01_BC_L12_I02_01(9).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1LOC14eiFLUqpQisJ2v5VhaBQsWaiZa-i/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c4ef450330",
+      "title": "Binomial_Theorem(10).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/110BGLuXsB6QfBSC_sfmIYlgnp3s43PVe/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e69222ff9c",
+      "title": "the number of term(10).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1LCY-Zsw2ktFDw_Uc13WckjDDa0PEr0Ub/view?usp=drivesdk"
+    },
+    {
+      "id": "res_fd66900a77",
+      "title": "Section_8.6(10).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1YD9dipk83dBFdPqZvaViIcUE3RYefOC0/view?usp=drivesdk"
+    },
+    {
+      "id": "res_461e99f608",
+      "title": "Binomial_Theorem(11).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qJrFfnA9CTFXr-0M8DfG94TKASHh35de/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b673f75f09",
+      "title": "Thebinomialtheorem(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1-DwpZKo5CMVYBF5n3ljMxSL4Zf-YqTlY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_95098488c7",
+      "title": "the number of term(11).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1mTGhaLTDgEyK4PJI97Dq4pZEEptRuaBo/view?usp=drivesdk"
+    },
+    {
+      "id": "res_763a72afb1",
+      "title": "Thebinomialtheorem(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ghzGrvEVA0X5d54cR24EXoDgC--DJ8ir/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5dfe10f745",
+      "title": "Section_8.6(11).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1X8dNdXCqiBZKZ1FoBw-MZ6U853HgWxlu/view?usp=drivesdk"
+    },
+    {
+      "id": "res_16356c279d",
+      "title": "Section_8.6(12).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QSI5Eo7fO61UiDbMf0U972WY-TgB9Zxk/view?usp=drivesdk"
+    },
+    {
+      "id": "res_78ebb9e2a8",
+      "title": "Section_8.6(13).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1K10EXM0_J6El2K3qX4jmsHK1TqR97IaG/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ed0b43faed",
+      "title": "the number of term(12).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kRpllnlSl4Q1wFnG4TUASN-eoxw-Bwfw/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2f05150be3",
+      "title": "the number of term(13).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Mn_nMfPqWtYcDqftPqg9fDvJqS86_4WT/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cba242caae",
+      "title": "CMA_LP_S01_BC_L12_I02_01(10).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1DhG8gUJY1_oArH6rJJfa-buDVLfWzzEi/view?usp=drivesdk"
+    },
+    {
+      "id": "res_88d4ff6b87",
+      "title": "Binomial_Theorem(12).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1zTXVmD2J30s6Nrix5bsUhVVkUe8zrOqj/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ecc7af8a40",
+      "title": "Thebinomialtheorem(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1A99msIy3dLL2XDJ1_ewd8I7kdZZBlx_B/view?usp=drivesdk"
+    },
+    {
+      "id": "res_915a6f35a8",
+      "title": "Binomial_Theorem(13).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1cwYknx1Q16BzvwMjrvfAb3BxEYcM8GSs/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e9a6ff5ef7",
+      "title": "CMA_LP_S01_BC_L12_I02_01(11).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1N0KAtMzEENO9G-H-zkkkJLuZpqoBX5qS/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b003072ac2",
+      "title": "Section_8.6(14).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sUjonIAyxdjVGVblhkdCP_5p1MgbUX4z/view?usp=drivesdk"
+    },
+    {
+      "id": "res_febb656e47",
+      "title": "the number of term(14).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Ryam9ZPHZ0kI19hq9K_UytfdJO3cqQFL/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a628d7a1db",
+      "title": "binomial_expansion_worksheet 2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1mMcHB6F4XmKgDEvpXD4vC_VuF_XDYkjx/view?usp=drivesdk"
+    },
+    {
+      "id": "res_bc107eb3d5",
+      "title": "3-mid.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GUW-GF6WzcRL-Z6aq7w4c_eHhai8uPY1/view?usp=drivesdk"
+    },
+    {
+      "id": "res_09cbed0848",
+      "title": "bin-1.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kLkC2oEzsM18cBATvy4PzlfCv438RSdQ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f6aea1ba09",
+      "title": "bin-2.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/166L5lHGpdZfAFtqYbk-8Sba4hvTzdx-h/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7bca3a8d1d",
+      "title": "4-mid.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kTHb0x7SrKvau7oEKi4wV7QrWLmtvfQ1/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e4f320d521",
+      "title": "problems on counting prini..pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/120PSUlR2Gg75xJtRq2pmomeY5c3oygeT/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1da6c4ae04",
+      "title": "Simple Permutations and Combinations Worksheet.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1c8oG_mId0fn7hjDxuK0BCSouOrjTgKCb/view?usp=drivesdk"
+    },
+    {
+      "id": "res_0574784342",
+      "title": "n factor.jpg",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1xPZiWT54mzAqBTsC6k5GtXlD6Psr2oyj/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ed8917b886",
+      "title": "Permutations and Combinations 1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1944Q6kTo2CE_MovtzJPy56dXcqr9B90l/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ed3b136fd7",
+      "title": "phone no..png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1g3Yu39U1GA4lTgSGR7hdFAodn2QeEtrc/view?usp=drivesdk"
+    },
+    {
+      "id": "res_227f852807",
+      "title": "11-permutations-and-combinations.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1B5eRGlKEQKJJix4wDeCS8gsN8bpLCTlk/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_d3081adf2b",
+      "title": "coins.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/15hfHrfwMH-8KQMtP61vLT-QAfBxkjcbY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8685c33676",
+      "title": "circle.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1MFNCIRgCtXxaXl9igfwNGK59svTJOQ8-/view?usp=drivesdk"
+    },
+    {
+      "id": "res_411ac7a491",
+      "title": ".picasa.ini",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1BnVTkZErnVn3B-khhYCgfduySR1Nhy09/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b2395236ac",
+      "title": "answer Q 8.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1yESQ066H53BvwlUfFD842CpOlheFyn6q/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9b66993799",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1cR85KVQHrCFB3xIW9-8n-212foFleWGY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_de55f972b6",
+      "title": "Basic Combinatorics.answer.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1bRVnQ3hYPqqyR57FGAy4IMiuzsLoGZtF/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e57701e770",
+      "title": "at most 2 queens.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1SY4Yeqi9UteBqaXcB-k4ffDlLpc36Lgh/view?usp=drivesdk"
+    },
+    {
+      "id": "res_38013f2727",
+      "title": "answer Q 7.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19VYmkgxnR9COmxosHsghxwtRFfnLWOd7/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6050c0e1f2",
+      "title": "answer Q 15.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1aJdHtb4dKe8iXK4gP93DPRMgE2wXnnFE/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8cf3d4d949",
+      "title": "answer Q 15(1).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1WnsT_O5Li2T0WIuhLGSc0d_OCJ3GcS_R/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6c03031e85",
+      "title": "answer Q 7(1).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/17jXlH12qU0ZUS_dP4opJZtHH5W8Ye3cH/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f1c5a45df7",
+      "title": "at most 2 queens(1).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1aORtXijcm0OpOGMEEDUWVSytpOWQ8jUx/view?usp=drivesdk"
+    },
+    {
+      "id": "res_36c5ce4e9f",
+      "title": "Basic Combinatorics.answer(1).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/15jVGtYEkzEeOt6sjfz9BGqMoEqdGyOSO/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7ead97e5a5",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1WGe0Wdp8303-io87SXAZvN86pf0YyAwy/view?usp=drivesdk"
+    },
+    {
+      "id": "res_42c1e92232",
+      "title": "answer Q 8(1).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/10aIMXMtGT5xkmEdjPYCO7v0FiSkcsADh/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5246a88251",
+      "title": "answer Q 8(2).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kii-cG7oa4OksJBov-W1xp5GUR6uhXAM/view?usp=drivesdk"
+    },
+    {
+      "id": "res_daa83ac24e",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1W1PhJiMTMHAynLSrclBWVodpiqsKkDR9/view?usp=drivesdk"
+    },
+    {
+      "id": "res_dbcaf9fdc5",
+      "title": "Basic Combinatorics.answer(2).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/14pDDd-n75PBxsom-J3PwOK1im92PHXtC/view?usp=drivesdk"
+    },
+    {
+      "id": "res_83758c7cc7",
+      "title": "at most 2 queens(2).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/179vfK_90ZntePLYAbhjO-v-bG7a2jnwJ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c62a814ea2",
+      "title": "answer Q 7(2).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1hw8CD3odMIyXprUUHB3TZsAS8mDa3yjl/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f6a20ebcae",
+      "title": "answer Q 15(2).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/11lVMhb5NKpb0CHjjUy2GSAHBMNz-frWv/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3d1a4b18d5",
+      "title": "answer Q 15(3).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1BaVe4fcM4jc_e1NJ6X1LEddnr_hIy1t9/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1421223c1a",
+      "title": "answer Q 7(3).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1RL4UZD3x5cnpj57uzaHJdanLS8KRqtK8/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ce429bbf13",
+      "title": "at most 2 queens(3).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1muLBO9eG4VjY7DpFeMIG71lznYPP4DJn/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b93dff7486",
+      "title": "Basic Combinatorics.answer(3).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1pelHwJsdnSYol97Fea_2IXPkl7nxRG4g/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2005939991",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ycDAbCDI8-S-RAANd4dH4AKx_wMdb9xD/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5ec592c48f",
+      "title": "answer Q 8(3).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1i9Pclqr7qiYsYrRmsZN_PbmSGGGzYZSe/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5ca4d5894b",
+      "title": "answer Q 8(4).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1LOkz2TWOIvWXqfrkC8ncjIiu2PR-1Iu1/view?usp=drivesdk"
+    },
+    {
+      "id": "res_28b09b9b7a",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1hxDvZ48CvkcyG5PUDSSzFaRBcfKpWnrI/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8385dce124",
+      "title": "Basic Combinatorics.answer(4).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Le9tG7hQEtmHffXxE_sdmAb3MyaiQfhP/view?usp=drivesdk"
+    },
+    {
+      "id": "res_0804330df1",
+      "title": "at most 2 queens(4).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1bG02o6mG1gA00RoLzkHfUi1V9FWi_1m5/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5c2752c458",
+      "title": "answer Q 7(4).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/11wyvsYZyJXxIEDzVAhVjr1-jk6heDKZf/view?usp=drivesdk"
+    },
+    {
+      "id": "res_58a3403546",
+      "title": "answer Q 15(4).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1uqBtxFg5-U-Zn-BvfG_R7yqmoFGEsIYY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e2bd071d6d",
+      "title": "at most 2 queens(5).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1tGe2g7zQJ2tNRv6OYU4Zc8Bz5kM4K5an/view?usp=drivesdk"
+    },
+    {
+      "id": "res_eda1996e7d",
+      "title": "Basic Combinatorics.answer(5).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1jsmfJFJ_c_lfcMoku5GzaWo2blwtyUKv/view?usp=drivesdk"
+    },
+    {
+      "id": "res_086cdb241e",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1b8gi0ILdh9XJoE5cre6VyULUXf8vbe2I/view?usp=drivesdk"
+    },
+    {
+      "id": "res_86157a7d42",
+      "title": "answer Q 8(5).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1P8Vw7Q9m8gSslrCV4-VF9nlEVSqzT_sw/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f767fd6936",
+      "title": "answer Q 15(5).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1V6Uj4r1knpJ9i1GfY2A9EDH7DrjrPJbZ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cef4ff09f1",
+      "title": "at most 2 queens(6).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1dZoCB8XGKeZNXF0DmXVPb0CU1kgU8MCG/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c654871a0a",
+      "title": "Basic Combinatorics.answer(6).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sY2j8tLnDpoYhpai0kpnoSjCLCTEnBbY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_abaa3bb3b2",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1lv52ESRbLN_DZGtbeZ9aW9aGEJhARM7r/view?usp=drivesdk"
+    },
+    {
+      "id": "res_41e633e3ea",
+      "title": "answer Q 8(6).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/10XibF5OCtQ7c-ce14EyuGTb_JS_7MDiO/view?usp=drivesdk"
+    },
+    {
+      "id": "res_0b66e4000c",
+      "title": "Basic Combinatorics.answer(7).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/11NZo3itO4S5fQ5D3IS_eXvOX7YJm89bv/view?usp=drivesdk"
+    },
+    {
+      "id": "res_205cd83d97",
+      "title": "at most 2 queens(7).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1UEKn1iSpff14xwZ-SilTGLfxs79-7pDx/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a0565d10c6",
+      "title": "answer Q 7(5).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1q9j5DWvpAMUn-fBkVLaMKRu6u910dPLr/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a10f58d647",
+      "title": "answer Q 15(6).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1zVecA2qK6zAQRhES4JbW5UDZikQXHqKI/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ed78d4aa57",
+      "title": "answer Q 15(7).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1lTW06nru54KoJjZchrjfoqgbAFldkdlU/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8191e6336f",
+      "title": "answer Q 7(6).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1DUqYoQpkdubKbbth-rKT4x6LHy26FcFs/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7d6ebdd82b",
+      "title": "at most 2 queens(8).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GC5B6SKorgc4eBKJP0nwPJ-V28VZ9ee9/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d5f37c70d8",
+      "title": "Basic Combinatorics.answer(8).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1TMpjoiVLjJPjC_0aC-blpEpvBsWFlr4L/view?usp=drivesdk"
+    },
+    {
+      "id": "res_474b21fe24",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Yl1Nmv-0HFGbwUMXLgr85cOORvikT5-I/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f310244b46",
+      "title": "answer Q 8(7).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/12Hhm0s_hW-AFtkbzPf9op1_kNAM0P05c/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3df59c74c0",
+      "title": "answer Q 7(7).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1lvpNULM2Dwup0fWsRBEHezgJwuyusjNh/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3a3248ef02",
+      "title": "answer Q 15(8).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1mCgYvZddroMk-FACqmQBRetuoxqAi6xP/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a5f2b0e5b4",
+      "title": "at most 2 queens(9).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1lrfAQKNDySFRKoUupIHohrd7m8MYIJyP/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1d3aca0c53",
+      "title": "Basic Combinatorics.answer(9).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1jbT3kNWn-W4yUY34zwhOIDYdEGxnw2E5/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d3951978c2",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QPVX3N97XErkSR1WVytce4srKx8r39VU/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7ba7f634b3",
+      "title": "answer Q 8(8).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1vijY6fgZueY2SmPAUwrheT2OUDV4tJTB/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6f037069b9",
+      "title": "answer Q 8(9).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/16HOVhyuIjCzy_CYmC_VN6HjdRgjJzKZc/view?usp=drivesdk"
+    },
+    {
+      "id": "res_82a0866892",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(9).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1eBnHguvautAhuFbPEdNfopUyU6FK_bUY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7a1c390b6b",
+      "title": "Basic Combinatorics.answer(10).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1zadwSVcYIBmA4Bk-RhsbgMKsOBJETrpg/view?usp=drivesdk"
+    },
+    {
+      "id": "res_123125853b",
+      "title": "at most 2 queens(10).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qcmG2742QRDMAnH-uVfAL0SkDuNtNa6q/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b4773ecd0a",
+      "title": "answer Q 7(8).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/13f_ItgM67_TCO3v_C1sfuaQLfk0LfN7W/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f0e4c0e46a",
+      "title": "answer Q 15(9).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1UkTUYq9RFuqW-IYLWjeu_p1FcUhgUSbl/view?usp=drivesdk"
+    },
+    {
+      "id": "res_855399dd59",
+      "title": "Basic Combinatorics.answer(11).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sBH56QzBc9XVMY7kAQWYflJe91j3Hw5D/view?usp=drivesdk"
+    },
+    {
+      "id": "res_30f9250989",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(10).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1EZoNLrXgSahStkXpkJIXlhx-5RflyNDK/view?usp=drivesdk"
+    },
+    {
+      "id": "res_868c18b7c0",
+      "title": "answer Q 8(10).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1xlapZhZm4dZOIBYwY-gJ07rYNT5Mr4s-/view?usp=drivesdk"
+    },
+    {
+      "id": "res_be3bb5680f",
+      "title": "answer Q 15(10).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1djiSgq8QWvrn85IfDS_v702DE__9oXWh/view?usp=drivesdk"
+    },
+    {
+      "id": "res_59aad01cd4",
+      "title": "answer Q 7(9).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1cin-RyvbpPuX9_pOoRofto-rcflCm1y2/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5f183d164b",
+      "title": "at most 2 queens(11).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1DsVDCaT7NUaSjnIWyWpUl4BJZRqdBY3h/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3ca5bb53e0",
+      "title": "Basic Combinatorics.answer(12).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1cvlS0giTY3VH3lgfqYtSmNAY7vp-RvVF/view?usp=drivesdk"
+    },
+    {
+      "id": "res_108058f273",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(11).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1xA7iBsPjK_vVMNiaSq0YyruBM3-vg9BO/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d93aefd753",
+      "title": "answer Q 8(11).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1vY9_cbQ_0ehy-MsDLE1A-R-ceK-y8EA5/view?usp=drivesdk"
+    },
+    {
+      "id": "res_0f3484155a",
+      "title": "answer Q 7(10).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1nVNzUcwOZTlz3lNnAnJaZC1waQygDwkm/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2df4c72dc1",
+      "title": "answer Q 15(11).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1xx_eP1tzCcDdbAIT-TzaS6mmYhMQsOhd/view?usp=drivesdk"
+    },
+    {
+      "id": "res_66b3f0fe3f",
+      "title": "answer Q 15(12).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1uNN7nVDDka6ewYwCVH6RkY0wxE2yXV9n/view?usp=drivesdk"
+    },
+    {
+      "id": "res_039786950f",
+      "title": "answer Q 7(11).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1NeWS570TYv1JqCF3DXwZuLH5vNLqPmel/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9b0ffd944e",
+      "title": "at most 2 queens(12).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Sayc-nldrGUD8MeTlYOXGMzpFO8XlNN7/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2060774484",
+      "title": "Basic Combinatorics.answer(13).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1AMDUhSKASG86MeyyS8fB_18ytnnuj54N/view?usp=drivesdk"
+    },
+    {
+      "id": "res_53316545d0",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(12).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1SLsOgM-fQUKkxlGTQuoYE0A0wthIDrVc/view?usp=drivesdk"
+    },
+    {
+      "id": "res_39075a070c",
+      "title": "answer Q 8(12).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/16YzrJO3HF4Lru2lWflo9ZxJfQVExyctX/view?usp=drivesdk"
+    },
+    {
+      "id": "res_89b97ddddb",
+      "title": "answer Q 7(12).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19fBkutJAje3uEJmix6OveSQWUwhVyxWh/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1de2c799af",
+      "title": "answer Q 15(13).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1wyDfv23rDovf_n5dL00ecewQb-qG4xZ3/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7f0fb2c329",
+      "title": "answer Q 15(14).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1A43keEUVNlraFK-xI64RBDsACm6k4zF-/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8352f3728f",
+      "title": "answer Q 7(13).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1NgnX2ca9YIKJEhWiySgUtHf2X9o164LR/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e57cf81ad5",
+      "title": "at most 2 queens(13).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1de_eNXyVyuf_2Noi8wR0fGsDEDYjWgGk/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f665e22aaf",
+      "title": "Basic Combinatorics.answer(14).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19ke3WA6zcn-MW05vcL34vHULNzwZLJLF/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8fa9b0fd0d",
+      "title": "Math30-1_diploma_practice_exam_permutationsAndCombinations(13).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1h4ApA8lKyMIInQGGWIbBchL4iGDsGiyo/view?usp=drivesdk"
+    },
+    {
+      "id": "res_38c98befa0",
+      "title": "answer Q 8(13).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1KQ82onBvj4ue5RWY3AzpGPUi8IddYEnT/view?usp=drivesdk"
+    },
+    {
+      "id": "res_67199aa481",
+      "title": "at most 2 queens(14).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1MR48x4LYd3YuwKm_QnyVmtl2IK5MpLVA/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c57431f3f3",
+      "title": "answer Q 7(14).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1hLghCYv5ID16x8BJogVRWDJC77D4fSi7/view?usp=drivesdk"
+    },
+    {
+      "id": "res_58089df3e6",
+      "title": "answer Q 15(15).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Qp9FG9c6q2P_A7JqazAIpo43Jxd5e7D_/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a08db27776",
+      "title": "rational FN.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1BQK-9TdgxjHzYupoL9FAaZPuRcDxqixb/view?usp=drivesdk"
+    },
+    {
+      "id": "res_076ad29d04",
+      "title": "rational_function_assignment.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1zpzn5krFWS5z76IexhlEbFkO6EOpMvQy/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3c0fd3a429",
+      "title": "rational FN(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1m4ZOjZTs4EesYkjSZk-maeELtbaXJp2S/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1b575cfec5",
+      "title": "rational_function_assignment(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1JUs8YOhBrp7gy8qw9KKgIdZEyMzhUXlK/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b07dd316e5",
+      "title": "rational FN(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1BbUvsemeaSOOXWMJIQuJr6lRhHDYGyjm/view?usp=drivesdk"
+    },
+    {
+      "id": "res_94d5648188",
+      "title": "Exercises on Rational.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1BBtFkFl6-KBJNZ5pvGd5f7-yUyCypyyu/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cf782a27a4",
+      "title": "Graphs of Reciprocal Functions.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/12vbek_6HmdVnKKzfWkx4s5HMAI0BqcED/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2c8734616a",
+      "title": "me..png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Z59SShUoNT99OtV4hTYOX5NQbIYfCsSb/view?usp=drivesdk"
+    },
+    {
+      "id": "res_717fc5b8f6",
+      "title": "no ver. asymp..png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kzxFaKD13n49BWCu6Na9eNH9rZ2OX6ra/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5ef63cc469",
+      "title": "rational FN(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/16Yuii5NtB2NzUG0d-9SCFKO7RZxWmqth/view?usp=drivesdk"
+    },
+    {
+      "id": "res_bb8316b3ed",
+      "title": "rational_function_assignment(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qf6Pti0F2CP8AoHe-LAseBpL6k0L9-Dg/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ce4034b886",
+      "title": "rational_function_assignment(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1V2gfi_u3onwtYMLHXZjFCrm6e-Wtw0JN/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a6e17640d2",
+      "title": "rational FN(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1y4hUieP__VcBVSfYwUFniGHn0Kfe_ILR/view?usp=drivesdk"
+    },
+    {
+      "id": "res_42dff601a2",
+      "title": "rational_function_assignment(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1_5dGNr7ffdtfp-U-l2e2j-Nt8VEUDjvu/view?usp=drivesdk"
+    },
+    {
+      "id": "res_49009271ee",
+      "title": "no ver. asymp.(1).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1IYSvTvfZzCAud-AJEmXQ1qXRO7js_C3g/view?usp=drivesdk"
+    },
+    {
+      "id": "res_68a3379374",
+      "title": "me.(1).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19545PDp-Ji9SIjIjuGbYO7r24UG-kNP3/view?usp=drivesdk"
+    },
+    {
+      "id": "res_54690d536d",
+      "title": "Exercises on Rational(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1yV8do8Es3ZbMPSR6my8g09vN40Oyvr39/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6aa0478fc0",
+      "title": "rational FN(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ywfdRgXJMNDl_1wM8nHtXsP3lmaLc2ph/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c7ce93cdb7",
+      "title": "rational_function_assignment(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1jzmts_gTQPmt7EeD-eR_g8Jvha5ctoJ9/view?usp=drivesdk"
+    },
+    {
+      "id": "res_24075c21cd",
+      "title": "Exercises on Rational(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GHrfZf_uHEInEh2nSgs-OebXW1HKcKaf/view?usp=drivesdk"
+    },
+    {
+      "id": "res_25cbf0952b",
+      "title": "me.(2).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Mv_yAwf-jr7-6D_iYg55MSmK3KWF4ZfI/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b9f47dc54a",
+      "title": "rational FN(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1G4jfVnj-uSkBhfGDxlPmxDf9TgLl71e5/view?usp=drivesdk"
+    },
+    {
+      "id": "res_636cc6c69a",
+      "title": "rational FN(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1JeK-L7Kr_LYnDfq7mwa3mX2gRsxDwAhc/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5cbace6956",
+      "title": "Graphs of Reciprocal Functions(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1uoW6Sg8oIkGD-kQirG4TiCQdzRWPlb2q/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d520c23bb0",
+      "title": "Graphs of Reciprocal Functions(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/17XfvuSQHLYAoC1OQ0qrL8qIvLgR7M-yO/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7b1b65dbff",
+      "title": "rational_function_assignment(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1KQ2jEd0_lN8IP-2jTtES4CV11No1aoi-/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9e2dd5a5d6",
+      "title": "no ver. asymp.(2).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1A-DTld9xjK1Rjj6no_5Th1xvrFlgAf7f/view?usp=drivesdk"
+    },
+    {
+      "id": "res_110f4b29af",
+      "title": "Exercises on Rational(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1r8fHuuVCL9tDgwCQRK4A_yjX71qUQA4P/view?usp=drivesdk"
+    },
+    {
+      "id": "res_bbe8c2f7a6",
+      "title": "me.(3).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1nUp1ZXY4j9VSnKgsoE-L3TtQXfN_nXvu/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a263679794",
+      "title": "rational_function_assignment(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1e-4KUziNYBi5tehHedFU3I4lg-jgt7BN/view?usp=drivesdk"
+    },
+    {
+      "id": "res_eec2f4b067",
+      "title": "rational FN(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1XvKBf_l5iAu9xAfMgx2xgQrdn3qcZhq9/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7ac0cdf77d",
+      "title": "no ver. asymp.(3).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/10SNTYNn8ngiLJH6YRfVrtsA6MknqWtFp/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ca205a998f",
+      "title": "me.(4).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1DiwdvVTVPjncHezg2_lCDeP9IeqqI0Ll/view?usp=drivesdk"
+    },
+    {
+      "id": "res_15fefddf26",
+      "title": "no ver. asymp.(4).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1f1yyZ1DV5p71S13cHi2bqcDga7n4ajXC/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a8d7ffd8af",
+      "title": "rational FN(9).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qMchsuyCBW9z475YcYP7rwq3T8mqBYcg/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5437826283",
+      "title": "rational_function_assignment(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1aN_73aa05iwqQS-k78nG1cD7TzFGuSlq/view?usp=drivesdk"
+    },
+    {
+      "id": "res_25d99c42c3",
+      "title": "Graphs of Reciprocal Functions(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1XviejE5DrFJStPI4cPIRFT6n-tpQ0ACI/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a4c177e130",
+      "title": "Exercises on Rational(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Xr9aLqsfSmXxT_r9koG_qPiufU-N6pU8/view?usp=drivesdk"
+    },
+    {
+      "id": "res_de4f30a544",
+      "title": "app-F0G.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/183hRwloTM3plwXCaxp5ol-spT1d70lxP/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9b817239f9",
+      "title": "app-F0G(1).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1lyZouC1jL9Kjrocb8sNExKJJ18Uo0Rvv/view?usp=drivesdk"
+    },
+    {
+      "id": "res_12205f1d49",
+      "title": "app-F0G(2).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Ti7dJui84M_tQs6IZ168cjc48yP0bLF7/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c68bf27fb2",
+      "title": "app-F0G(3).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/17fr45kb3sTLxbUgpqCRXJejiRy3jATIj/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5e5000b0ae",
+      "title": "app-F0G(4).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1PETlo3LH-0pO1oD1sPnKv6sTb5Id_5yF/view?usp=drivesdk"
+    },
+    {
+      "id": "res_badb23004d",
+      "title": "app-F0G(5).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1iJOALfazZFZwW5Flb6kPNV9XGffgn1M4/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9bace63524",
+      "title": "app-F0G(6).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1nHVTPe0HBSfWvLZUFJgItH-BWft0IYVS/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d3b6614516",
+      "title": "app-F0G(7).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1LpZpMxR2fhcogrROqorFxYwIbkqEf6gU/view?usp=drivesdk"
+    },
+    {
+      "id": "res_77d9303691",
+      "title": "app-F0G(8).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1oYkiRKlgSnedZdC9oCjlPEq9UGMxXg5O/view?usp=drivesdk"
+    },
+    {
+      "id": "res_33d217943b",
+      "title": "app-F0G(9).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1xF_Vi_m9NMlN0j95AuHLMh3w70SImklM/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cfbb7ce969",
+      "title": "app-F0G(10).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1g6PPfq2OrhqsGGcjT_9QF620Tvz3z1N6/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f54f2b81be",
+      "title": "Quiz on polynomials me..pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Ev9-KmNKIFr4OIFeDWyyO7JvSYmrknMM/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d5f9d05bc6",
+      "title": "f- + o g.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1pE39Oj1zJ35sHBR-HmJswn18T9I9C7_b/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9830c222fb",
+      "title": "remainder.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1oRSpGhI7CZbAcyPlU3z4ldtVnlJ9Y4C9/view?usp=drivesdk"
+    },
+    {
+      "id": "res_619d805f33",
+      "title": "values.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1CLYRXQpinphEiUWKjHE7-sjRqsLnwBMX/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3955b636ac",
+      "title": "transformation,zeros.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1dUQcoTLXiwe4rbnxdE8_75Fywxhnyepc/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c827c7feeb",
+      "title": "Math30-1_diploma_practice_exam_polynomials.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Auj2ytECTcornjXrnJ9PqHRCSmha73YK/view?usp=drivesdk"
+    },
+    {
+      "id": "res_881ab8831d",
+      "title": "proof.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1FwDskG170rNoL8zxO4cz7jM8wBtVjeI4/view?usp=drivesdk"
+    },
+    {
+      "id": "res_452b55961f",
+      "title": "good graphs.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1glv6NKAoaJSUWZ-tJ3JuNmuoa5D90G7J/view?usp=drivesdk"
+    },
+    {
+      "id": "res_89c1ba015c",
+      "title": "f+g.png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1iYli3FzcO0WE4xQsfdhzZMMLGzBGzKeT/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a9512ce0a8",
+      "title": "os1.jpg",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1q8Z-Ta1Z2HjfmREEWx8QU49y-pt8AGkU/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d2d90692ee",
+      "title": "app-F0G(11).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1bEP0NgcN2ND-YNVqcLyk-uoDtP8R2Tpr/view?usp=drivesdk"
+    },
+    {
+      "id": "res_612ebe70e2",
+      "title": "app-F0G(12).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Aajycb8NmeOGa1trakGvli8fFum6OCXX/view?usp=drivesdk"
+    },
+    {
+      "id": "res_de7642b392",
+      "title": "app-F0G(13).png",
+      "type": "image",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1OdeX5t28-IvmxmMeTGcu-aKuRSrAfmHw/view?usp=drivesdk"
+    },
+    {
+      "id": "res_51b9bb19f9",
+      "title": "4.1afill.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/17cLRCIUJgpMr3wxNrUtIDftBPLKqi-rB/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2bc5da3aab",
+      "title": "mc-ty-polynomial-2009-1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1SzLYgZSr5TDRygJCbnE0Fx5ij2t-tFTK/view?usp=drivesdk"
+    },
+    {
+      "id": "res_522fdeb16f",
+      "title": "4.1afill(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19qrk8RBQ0UyDmxxfe4q41g8uVhMrJqTE/view?usp=drivesdk"
+    },
+    {
+      "id": "res_342f75990d",
+      "title": "Polynomial Summary.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1PUlQXxRL7eJr_-2e5cU_Jctz3uEM7E45/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6c54cf294d",
+      "title": "Graphing Polynomial Functions.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QzI3qTmEjCrEEaExwJ_sQL6iJ0v4OGYf/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a5b0fce3d0",
+      "title": "Ch2_Section3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1CtEv4MSSvegs7KZhrB1Dua4brJ13uyie/view?usp=drivesdk"
+    },
+    {
+      "id": "res_058da97f20",
+      "title": "polyroot.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1zHmHMrUd2Ke63WhC3trwHliH44_KFvU4/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d2dc7a50ef",
+      "title": "MCQ polynomial functions 1 solution.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1xyte8dJWNb-jzBEo9gGMte9PP4IylPXr/view?usp=drivesdk"
+    },
+    {
+      "id": "res_61d3cf375e",
+      "title": "ch10-3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Qtxk-_-IQP5aJrNfYpRVk8DwovjHJgW_/view?usp=drivesdk"
+    },
+    {
+      "id": "res_edc33a8b64",
+      "title": "mc-ty-polynomial-2009-1(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1vs2bjlfRS4un78FkuZnbRF41m3rgyMZp/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8d3cceb122",
+      "title": "4.1afill(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1IxAemJ3zd2RHM80z6Vk0zPs9oEktAsuv/view?usp=drivesdk"
+    },
+    {
+      "id": "res_60eaa51cd6",
+      "title": "Polynomial Summary(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19HVCXgzQ-k-WuxAbWWAwyiTYKoqtFlu2/view?usp=drivesdk"
+    },
+    {
+      "id": "res_4206b0da51",
+      "title": "Graphing Polynomial Functions(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/10V_5m2YKgiH-hXq21fSIGiJCjxvBaSFr/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6b47d1e619",
+      "title": "ch10-3(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/12Ta6C4TOzWRfwFmprtPpObSKO0KwDYmS/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1861bd1deb",
+      "title": "MCQ polynomial functions 1 solution(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1zT1B8c8QlFWHavz1b4naU_PDnRGWyAE2/view?usp=drivesdk"
+    },
+    {
+      "id": "res_acb41a8716",
+      "title": "polyroot(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GIAIm5-evbTfpTqVaa0L1sQqD7l9Tpjs/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1f2b1937ae",
+      "title": "Ch2_Section3(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1t5IseNMfmC0tvV0rl98ZzgaSZHMPPsGZ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_938c8d7544",
+      "title": "3_4.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1VW5Zjvy86t0uAT51g0X8sfM_gGX0KQwm/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9f8043f7a3",
+      "title": "1-polyfun.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1PkaMHPjx0lqxRsWW_qZKxVw6meeYKL2D/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1755c69a07",
+      "title": "polyroot(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GnWfCduvdhiEKezzCaemBTkdV3A_ymWh/view?usp=drivesdk"
+    },
+    {
+      "id": "res_55a589cb84",
+      "title": "MCQ polynomial functions 1 solution(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1vaM5Nvccua-gKdlm1qCOmROeK3KNVyXn/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e8b361d4b2",
+      "title": "ch10-3(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1fhaE-mkRvSCsfPY21fIqEd-_2VuHHdWv/view?usp=drivesdk"
+    },
+    {
+      "id": "res_580517f030",
+      "title": "Graphing Polynomial Functions(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QI6vojcGpAilY6WEkMtLNc773-CDfa9e/view?usp=drivesdk"
+    },
+    {
+      "id": "res_dea553f33a",
+      "title": "Polynomial Summary(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1KCi8St26E3WH74blkgFBzp1Tv4XekkKl/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9866a77625",
+      "title": "4.1afill(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1EsRFUtlN2A-1kduHPi4hgYTmEwLY615H/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d379f2462a",
+      "title": "mc-ty-polynomial-2009-1(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1iqy59P5Rkb5wmkw3PCk_AM_nZBMRfDCe/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d65a895241",
+      "title": "1-polyfun(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1_AHUmVtbwYqEJpDlpAHODvlCoHnsL8KV/view?usp=drivesdk"
+    },
+    {
+      "id": "res_00df23d3e6",
+      "title": "3_4(1).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1A4o9a5OpGJ7uVNAoeg6ywJ90hPln5aXK/view?usp=drivesdk"
+    },
+    {
+      "id": "res_0b444d870a",
+      "title": "1-polyfun(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qNjLAi1y5msv3ECTGT7Gymr5pkPEUQPa/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5dc1accdf5",
+      "title": "1-polyfun(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GpCg6yMaIAOiCJ9Km1lTZhaEFKZv7kqp/view?usp=drivesdk"
+    },
+    {
+      "id": "res_51e354f50a",
+      "title": "3_4(2).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1o2to4qfau2PgU9IS5x0UkXBU-iz2MMoD/view?usp=drivesdk"
+    },
+    {
+      "id": "res_00554ddf7e",
+      "title": "1-polyfun(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/16dOjY3Rg473vOYIMPJAEb0WDtR3i9bTg/view?usp=drivesdk"
+    },
+    {
+      "id": "res_adb7720e60",
+      "title": "3_4(3).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1-zrT89ReZ1FmEoClAQQu-46Zowja-Yt2/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1789134be3",
+      "title": "3_4(4).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1FyXk_yI2ycuE1vq1HjgQEiOqmkmkjM0A/view?usp=drivesdk"
+    },
+    {
+      "id": "res_877abd471c",
+      "title": "1-polyfun(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/17UtFyx79SN5k3_9WoSMNoP_NVveBZRbN/view?usp=drivesdk"
+    },
+    {
+      "id": "res_36df2087d3",
+      "title": "1-polyfun(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QgZPBbp3o_qtnkN8SrvcWuprrK4XGawu/view?usp=drivesdk"
+    },
+    {
+      "id": "res_87161af7dc",
+      "title": "3_4(5).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/15e1EdnNIsqCIMK5JAN0vkhV4JPoQIUil/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b614fb8ffd",
+      "title": "3_4(6).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ydLUUQO9wbNfK4R1U9VIaBR4rp8dk0Dy/view?usp=drivesdk"
+    },
+    {
+      "id": "res_275a206d38",
+      "title": "1-polyfun(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1nAoW-RXfrWDLOS9e3wdv7qYW4KhMpusO/view?usp=drivesdk"
+    },
+    {
+      "id": "res_bdcec61fb3",
+      "title": "3_4(7).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1BgeyIq1Lf16ivCF2HqizqacPNKgOzToM/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1fab6b0d77",
+      "title": "1-polyfun(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1fjkdgdVK0kmjPAnBy2tqHjhJ-VWaCRTQ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_54129122be",
+      "title": "3_4(8).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QqUTQ9mZPQYzmthatGx1NChFb-cvkd-m/view?usp=drivesdk"
+    },
+    {
+      "id": "res_80f4a02aef",
+      "title": "1-polyfun(9).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1NE_k7_uguzR6bgmyokgb4QYZCFamsYB6/view?usp=drivesdk"
+    },
+    {
+      "id": "res_554fdc9d21",
+      "title": "3_4(9).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1DDqg3Q9RP6RwSz8ilZOxUUtWvBOPobVV/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ce1eeab145",
+      "title": "1-polyfun(10).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1utIgSLgWsZ4jE69hWQglwylURciip25z/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7d4d5cc4fe",
+      "title": "3_4(10).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/11VCiw3NqPjkw_4QQ6FWWm-m5XujaIyLW/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6efb79b16c",
+      "title": "1-polyfun(11).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/106n78Q9lVSTc-gl8u2uUe7sxkYw6tZSR/view?usp=drivesdk"
+    },
+    {
+      "id": "res_aeb41771af",
+      "title": "1-good quiz.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1VDrlp-3ZMSV6E157-mQW12BuaCz2CUMa/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3c656372f0",
+      "title": "GP1-Precalculus_Quiz_Polynomials_Solutions.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1tcSSgne0HC_PkQNYQfIS8r8mHvkeoMI6/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b7600c4ec0",
+      "title": "Alg 1 Final Review.doc",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1B0CjDuAdxxlVX2x8i7Id8QPeU58H99Py/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_7818ce8fd2",
+      "title": "4_5798465377293829972.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1frQL1Fed7X9ZvONNRSeDXb_uvHziPHDc/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_64879839a2",
+      "title": "Mid Term Preparation - part 1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1grOcF3_T0m_cm3_TeJ4FHxDSHD76G2_S/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cb13a62a2b",
+      "title": "Mid Term Preparation - part 1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1AvzAoWe-hc_Ww1mNq3Jzi4PfwxWy8-Op/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5157cbfe15",
+      "title": "Math Mid 1st Term (2020-2021).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1dZ90fqBDpbT76wVxAScoyzheOYxX3D0N/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cf3e348605",
+      "title": "Math Mid 1st Term (2019-2020).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1weH1kZY_S5CSb0iwVkSG3oMZbIFT9DY1/view?usp=drivesdk"
+    },
+    {
+      "id": "res_00d9824614",
+      "title": "Math Mid 1st Term (2018-2019) Ans.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1J5EU-a7PhH27mgqmX4W11u-eCg3jgiqZ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5948293ac8",
+      "title": "Math Mid 1st Term (2017-2018).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1J-lHoR-X9M_ISuTT2E8H7HpTwHhH-EKY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cf7d3913e1",
+      "title": "Math Mid 1st Term (2016-2017).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/14caFtNM4OLhlCBGPcX9pDn7nt7eJ_0nS/view?usp=drivesdk"
+    },
+    {
+      "id": "res_297213a7ca",
+      "title": "Math Mid 1st Term (2015-2016) Ans.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ZQ9D1T6DBblOwSuzvaAs4y0cAeMaSUGE/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1c7e45735e",
+      "title": "Math Mid 1st Term (2014-2015).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/10Y0BLm7lcQEt_gV2HtsUQ8gb55j_ek2D/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e9198c3f21",
+      "title": "Math 1st Term final exam 2018-2019.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1RF93pzGCJ_bpc4TWgSvRJbn4MZG6WEjt/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e7b6f8c95b",
+      "title": "Math 1st Term final exam 2017-2018.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1EY1krrFqTgcT-Sk6-CMvbDCs3NQgJEay/view?usp=drivesdk"
+    },
+    {
+      "id": "res_0be8bfc16a",
+      "title": "Math 1st Term final exam 2015.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1YIM35s3vyi7eSBMVU16WPghVqOcRQ2Kv/view?usp=drivesdk"
+    },
+    {
+      "id": "res_983871d802",
+      "title": "Math 1st Term final exam 2015-2016.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GbsW8vsCpYXJzDB6LKy7NKIGedlrZhyV/view?usp=drivesdk"
+    },
+    {
+      "id": "res_230b9da4c9",
+      "title": "L.O.5.3 - Practical Application on Normal distribution.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1q2TnzlY1V0iJ_DbqswvIVFpaxJ78nDKb/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_40b91e7a1c",
+      "title": "L.O.5.2 - Normal Distribution.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1tnXKGf7mG4r95PLKPlrvZvqtfh4CtibK/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_e4bf2a9afb",
+      "title": "L.O.5.1 - Percentiles and Z-Score.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/13tXFCyIF8oMz193Zd3h0wQHGPt2h_lYF/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_d674da6418",
+      "title": "Probability , tree diagram.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1GCvOOIC8-jOs0ekT_zjRoe6diWhKk-rO/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_04bdd93056",
+      "title": "probability.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/13K2ffJEBemSO9-UZ2rrBj1M2B9E8Mv8Q/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_fc70a44476",
+      "title": "Expected Value.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1JNu2pk8M-8jWDLCDUboIUwYTaXblm49L/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_10d5e42598",
+      "title": "Conditional Probability.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1lELnOSbSvh3Dfz2TC29vMqYm_iqlTVBA/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b7534971bd",
+      "title": "4.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1D0vOrvYYp7qzwNu194Z27Lmqdnkj1uBA/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f8dfbc2a01",
+      "title": "1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QSAxPtKYWq7z0RjQGzU-FRtzQAKC4ZmS/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ded233aa36",
+      "title": "3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/16naPhoLu87ywDvyPEQ14BV2hkupV53Ai/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8fe0c776c0",
+      "title": "L.O.4.4 - Definite Integral.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1iw36FwIabD6tst9-EWi-evPpcDGJ-oJK/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_4fec7b0401",
+      "title": "L.O.4.5 - The Fundamental Theorem of Calculus.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1mPODwy_z0H7hxXq7pI6SauUVVtRkTfb5/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_e7f4b78f2c",
+      "title": "L.O.4.8 - Volumes by Integration.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1OWnMjoLvo3mCISMCdyQmpBZBwt0qHTbK/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_a6c00beb29",
+      "title": "L.O.4.7 - Application on Integration.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/16Mee_kU_74eakjA8ISVjXHaSz41MiAhD/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_c34ced1d5f",
+      "title": "L.O.4.6 - The Area Between Two Curves.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1QxBhafbOwg7tl4unJffNLBJnU0JovPo4/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_0f40a8558b",
+      "title": "L.O.4.3 - Area Under Curve.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1OZRo0XexJ9mdPLIW3MikjnQ3-k5W314Y/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_44ee24fa03",
+      "title": "L.O.4.2 - Integrals of Exponential and Logarithmic Functions.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1Y6qKek9DHEr0VUHSiwhNHN5F3HG9MRwi/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_3889e59e75",
+      "title": "L.O.4.1 - Integration.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1z2cOQ7eOjip_6o9A9_E-IWSAegp2gP94/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_9ed159bcf4",
+      "title": "Binomial theorem.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1DuhS2BCHXERFdbqbfNAdnbMR1EARCabK/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_e121a8c002",
+      "title": "binomial theorem Ss.ppsx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1TJtiws5r9vKmupUe8lHPCCoT2OkWDKie/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ec5829d2f8",
+      "title": "Session 2&3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1GWbTTYtVlq_Xph02ri5rLWPbn8lPMV9z/view?usp=drivesdk"
+    },
+    {
+      "id": "res_fa1ee9d5df",
+      "title": "Session 1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1pnO47cZ4388zsSu6pjGmBHNQlkxrpguw/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7c8b958708",
+      "title": "L.O.3.4 - Applications on Derivatives.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1uA4mSTr0lX8oUA9QjRkNjJfwJxR02_D3/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_08eedf94d7",
+      "title": "L.O.3.3 - L’Hospital Rule.pptm",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1DoRzDxSUV6U6b8VpT6D1fm01hNQSzjrp/view?usp=drivesdk"
+    },
+    {
+      "id": "res_779822a9a5",
+      "title": "L.O.3.2 - Derivatives of Exponential and Logarithmic Function.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1cNGc6GKAPq3iZoivx1MKnTE4_j_aFx_O/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_9095c5f51e",
+      "title": "L.O.3.1 - Derivatives of Trig.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1mk9uwtChd5z0893Gq26LmO8KJktg74wZ/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_7f3eb12ebe",
+      "title": "Fundmental,permutation,compinaion [Autosaved].pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1fQnf79__LPlrNFgv3G1ZCmgxoTEiA2dy/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_95c6241429",
+      "title": "'LO3 Permutations and Combinations'.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1-6X2m3YHv1lSxVY51vJlhi8TW02KtSBk/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_93a9c940b8",
+      "title": "session 6.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1xrkAApBWti65_Xb5KXfwS9VpStzAkVqs/view?usp=drivesdk"
+    },
+    {
+      "id": "res_038b19d3a9",
+      "title": "session 4 2c.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1NcIZtPIMvYU82lFCUo3p4HxdHWQhhs2Q/view?usp=drivesdk"
+    },
+    {
+      "id": "res_08c4401bac",
+      "title": "session 1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1KW-tg3bsC7NdTrHKe_bEstBF0eI0EzFb/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8b133a00c8",
+      "title": "5.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/10X9p5Mdhf-AeNpP85lvbNyklzALLXXCj/view?usp=drivesdk"
+    },
+    {
+      "id": "res_75986ec478",
+      "title": "2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/145QamcDBpSuWoRZuUVf8vtRfVJeBc1t6/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3b3c45ba5a",
+      "title": "1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1YeVUGRg-axtfAXVu3ogNJZwOGy0ltXBx/view?usp=drivesdk"
+    },
+    {
+      "id": "res_4a3d0672c1",
+      "title": "L.O.2.3 - Law of Derivative.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1Y8xBsC49-tGmgtFSiw5Kt1FcDDFwLxdT/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_66acf33bf8",
+      "title": "L.O.2.2 - Derivative.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1nMLjD99Png7wWXwEIEQctCDW2PtNRQVG/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b29e887b8f",
+      "title": "L.O.2.4 - Rolls Theorem.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1EbL3qibQ-OZOBPUthV_StFnVhzwI9vyV/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_91e8670cf6",
+      "title": "L.O.2.1 - Average Rate of Change.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1Oo6Lei45SA021022WiWkGK_tpiU4TIQD/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_0365cbf56f",
+      "title": "Revision Rational numbers.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/13ftjFTfLzFhv_qz46ejywnl8OJ3bBPKY/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_f20828b5a3",
+      "title": "RATIONAL FUNCTION11.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1WiLV5sPXWqLti-i1bUH7al6fTkpPsQ9h/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b859cb5ef2",
+      "title": "3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ZcqxYVSAPeA-9AqgpMsVox1R-amIrVH4/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5308da98b6",
+      "title": "2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1958JG9XgTMrwITVmcG43X37MIIebX8EI/view?usp=drivesdk"
+    },
+    {
+      "id": "res_524a707795",
+      "title": "1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Q80ndDjRt5q_r-hW38JdkjJOpSKsBueS/view?usp=drivesdk"
+    },
+    {
+      "id": "res_39018737c7",
+      "title": "L.O.1.1 - LIMITS Day 1.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1bNWbod-KnElmYlYeXII0aC1lJ9lw_6A0/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_e23dc95340",
+      "title": "L.O.1.7 - Squeeze Theorem.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/14bHWQ4Og8ueV0RmMalUiaedH-w8YEYbx/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_48c956568b",
+      "title": "L.O.1.6 - Continuity.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1VBugmQiQZTiFSYy7ae9aP237MdQWClSx/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_2361bc7365",
+      "title": "L.O.1.5 - Logarithm and Exponential Limits.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1dStjMENcv9IHYPmODE9phwy66JQsRRBW/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_6a4bb82643",
+      "title": "L.O.1.4 - Trig Limits.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1sAzzD0r_qwoJxYQKg-AOPTyI4yJSym3a/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_94ee2343a4",
+      "title": "L.O.1.3 - Limits at Infinty.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1CcIJ70xfDep4n0JgMbAYYyXJtK4dsMx9/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_6ba837a3f9",
+      "title": "L.O.1.2 - Limits Day 2.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1eW-0O9t940XIe8sBZs9BIAALlvYVVvIt/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_8335ab461e",
+      "title": "Revision polynomial.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1mQjuhfR1omLFTjlNR-pVYW09dXbDKdIW/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_74b9a261c9",
+      "title": "Graph polynomial function.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/15YqG0wpswjDIE7eHDr_C27O5Y2tH8u9c/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_880f45a4b3",
+      "title": "Dividing polynomial.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1LQe1SmvOEhqzZ-FbRepGsJ2Zp7p7XRbz/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_ed2e38719d",
+      "title": "11-Reciprocal Functions.ppt",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1VYfvxnAhu676KhOwvbFmS5D89MFltPqu/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_0a7d900bef",
+      "title": "10-Graph polynomial function.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1UKgno7wvTLCAGWDGzw-CBhO5nVzTGTa0/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_58a4f93894",
+      "title": "9- absolute function and Graph it.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1KbenG-1nIrNK-euZR_CgamG8HeMhBCJq/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b19b5d067f",
+      "title": "8-Roots & Zeros of Polynomials.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1rZsmh6TxbJth4yBVqBNDKX-tqJPsOF8q/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_48717bf3b9",
+      "title": "7- Absolute Value Inequality.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1meBSD3aInXtYbwC_azkT7QIcWE-_y59o/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_86aa7b74cd",
+      "title": "6-Absolute value equation.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1sKQo0zbGWPpwdsU1LedujHimWVju7jfR/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_89c90b1689",
+      "title": "4-remainder, factor theorem.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1dAzKA6z5n-kf836LxUXuQxSmDQWeAoUc/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_33ce3deaf6",
+      "title": "3-Inverse Functions.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1kIseN8nyu7iKc48QsWoF2KPlGqKTXqbB/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_b3ec2cc969",
+      "title": "2-Operations on functions, composite function.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1LoM49dJk2ve55BQ2UUNhZQ9MpaKYp3R6/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_4ea65bf10f",
+      "title": "1-Polynomial function.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1CP0s2nW9K2-c107_rXHPzSSKS-AkIwpP/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_095986428f",
+      "title": "1-Polynomial function - Copy.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1hgdLZU7k5Fx28szn_Whpu8qNIqtZ-u6E/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_ae4842ee95",
+      "title": "Session 5 _ Reciprocal.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1XqZML-GmWviiFtbJvZ3lBxF3BuJovs-m/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c094acf496",
+      "title": "8.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1M9tLPLBZb4xrCgN4tnuqDAFrAlLGZHTg/view?usp=drivesdk"
+    },
+    {
+      "id": "res_206c08fc20",
+      "title": "7.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ymfE-yTMOE1EdhIfPPA52_--HnFlJHlI/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5bc12cbd26",
+      "title": "5&6.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1bl9FySAulF_X9V6i4fUg6awK7-ZzrORt/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d1fb740c26",
+      "title": "4.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1n-ahoR5fEhjbksYXi0Q3OlErDVglxCpX/view?usp=drivesdk"
+    },
+    {
+      "id": "res_de29f9b7c0",
+      "title": "3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1IrpGW49CFBQ-EMSj4QajGCfzlL8LDy1J/view?usp=drivesdk"
+    },
+    {
+      "id": "res_fa5e6ccdc9",
+      "title": "1&2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1WEo3HuY_-sVLypAWhcAUICROMgQL9jXn/view?usp=drivesdk"
+    }
+  ]
+}

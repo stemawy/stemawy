@@ -1,5 +1,7 @@
 import { GraduationCap } from "lucide-react";
 import styles from "@/app/settings/settings.module.scss";
+import { useLayoutState } from "@/components/layout/layout-context";
+import { getTranslations } from "@/lib/i18n";
 
 export default function GradeSetting({
   grade,
@@ -8,6 +10,9 @@ export default function GradeSetting({
   grade: 10 | 11;
   onChange: (grade: 10 | 11) => void;
 }) {
+  const { language } = useLayoutState();
+  const t = getTranslations(language);
+
   return (
     <div className={styles.settingRow}>
       <div className={styles.settingInfo}>
@@ -15,12 +20,9 @@ export default function GradeSetting({
           <span className={styles.rowIcon}>
             <GraduationCap size={19} />
           </span>
-          Current Grade
+          {t.settings.currentGrade}
         </h3>
-        <p>
-          Switches syllabus units, active Capstone challenges, and relevant past
-          papers for Grade 10 and Grade 11.
-        </p>
+        <p>{t.settings.gradeDescription}</p>
       </div>
       <div className={styles.controlGroup}>
         {([10, 11] as const).map((value) => (
@@ -31,7 +33,7 @@ export default function GradeSetting({
             aria-pressed={grade === value}
             onClick={() => onChange(value)}
           >
-            Grade {value}
+            {t.settings.grade} {value}
           </button>
         ))}
       </div>

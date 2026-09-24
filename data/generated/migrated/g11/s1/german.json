@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-22T20:46:54.992Z",
+  "source": {
+    "file": "migration/raw/g11/s1/german.json"
+  },
+  "subject": {
+    "id": "german-g11-s1",
+    "name": "German",
+    "description": "",
+    "grade": "11",
+    "semester": "1",
+    "icon": "german",
+    "content": [
+      {
+        "id": "german-g11-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Books",
+        "description": "",
+        "order": 1,
+        "concepts": [],
+        "resources": [
+          "german-g11-s1-global-01-01",
+          "german-g11-s1-global-01-02"
+        ]
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "german-g11-s1-global-01-01",
+      "title": "Arbeitsbuch a1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1HFM22zXJgwSMRXzfic5__6WXXGM6AsXC/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1HFM22zXJgwSMRXzfic5__6WXXGM6AsXC"
+    },
+    {
+      "id": "german-g11-s1-global-01-02",
+      "title": "Deutsch .com 1 .pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qJLx6uMqCSkB9UtDOQkGcYvdbceST_Q4/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "1qJLx6uMqCSkB9UtDOQkGcYvdbceST_Q4"
+    }
+  ]
+}

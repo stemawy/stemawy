@@ -4,12 +4,9 @@ import DashboardHero from "@/components/dashboard/DashboardHero";
 import RecentlySaved from "@/components/dashboard/RecentlySaved";
 import CoreCurriculum from "@/components/dashboard/CoreCurriculum";
 import Opportunities from "@/components/dashboard/Opportunities";
-import AIAssistant from "@/components/dashboard/AIAssistant";
 import { getSubjects } from "@/data/subjects";
-import { fetchDjangoSubjects } from "@/lib/django-api";
 import type { Opportunity } from "@/data/opportunities";
 import { opportunities as allOpportunities } from "@/data/opportunities";
-import { useEffect, useState } from "react";
 import { useLayoutState } from "@/components/layout/layout-context";
 import styles from "./dashborad.module.scss";
 
@@ -39,27 +36,7 @@ function getUpcomingOpportunities(
 
 export default function DashboardPage() {
   const { grade, semester, setGrade, setSemester } = useLayoutState();
-  const [subjects, setSubjects] = useState(() => getSubjects(grade, semester));
-
-  useEffect(() => {
-    let active = true;
-
-    fetchDjangoSubjects(grade, semester)
-      .then((nextSubjects) => {
-        if (active) {
-          setSubjects(nextSubjects);
-        }
-      })
-      .catch(() => {
-        if (active) {
-          setSubjects(getSubjects(grade, semester));
-        }
-      });
-
-    return () => {
-      active = false;
-    };
-  }, [grade, semester]);
+  const subjects = getSubjects(grade, semester);
 
   // Get top 3 opportunities sorted by nearest deadline
   const topOpportunities = getUpcomingOpportunities(allOpportunities, 3);
@@ -77,7 +54,6 @@ export default function DashboardPage() {
         <CoreCurriculum subjects={subjects} />
         <div className={styles.sideColumn}>
           <Opportunities items={topOpportunities} />
-          <AIAssistant />
         </div>
       </div>
     </div>

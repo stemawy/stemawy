@@ -85,51 +85,101 @@
 .categories {
   display: flex;
   min-width: 0;
-  gap: 4px;
-  overflow: auto;
-  padding-bottom: 2px;
+  flex: 1;
+  gap: 2px;
+  overflow-x: auto;
   scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 .categories::-webkit-scrollbar {
   display: none;
 }
+.categoryScroller {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  align-items: center;
+  gap: 4px;
+}
+.categoryArrow {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  place-items: center;
+  border: 1px solid var(--outline-variant);
+  border-radius: 50%;
+  background: var(--surface-container-lowest);
+  color: var(--on-surface-variant);
+  cursor: pointer;
+  opacity: 0.8;
+  transition:
+    background-color var(--transition-fast),
+    color var(--transition-fast),
+    transform var(--transition-fast),
+    opacity var(--transition-fast);
+}
+.categoryArrow:hover {
+  background: var(--primary-container);
+  color: var(--on-primary-container);
+  opacity: 1;
+  transform: scale(1.08);
+}
+.categoryArrow:active {
+  transform: scale(0.96);
+}
+.categoryArrow:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
 .category {
   display: inline-flex;
+  min-height: 50px;
   align-items: center;
-  gap: 8px;
-  min-height: 40px;
+  gap: 10px;
   flex: 0 0 auto;
-  padding: 0 14px;
+  padding: 0 16px;
   border: 0;
   border-bottom: 2px solid transparent;
-  border-radius: 8px;
+  border-radius: 8px 8px 0 0;
   color: var(--on-surface-variant);
   background: transparent;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background-color var(--transition-fast),
+    color var(--transition-fast);
 }
 .category:hover {
-  background: var(--surface-container-high);
-  color: var(--primary);
+  background: var(--surface-container);
+  color: var(--on-surface);
 }
 .categoryActive {
   border-bottom-color: var(--primary);
-  background: #eff4fc;
+  background: rgb(30 58 138 / 6%);
   color: var(--primary);
+}
+.category:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: -2px;
 }
 .category b {
   display: grid;
-  min-width: 20px;
-  height: 20px;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
   place-items: center;
   border-radius: 999px;
   background: var(--surface-container-high);
-  font-size: 10px;
+  color: var(--on-surface-variant);
+  font-size: 11px;
+  font-weight: 700;
 }
 .categoryActive b {
-  background: var(--primary);
-  color: var(--on-primary);
+  background: var(--primary-container);
+  color: var(--on-primary-container);
 }
 .toolbarActions {
   display: flex;
@@ -241,6 +291,7 @@
   border-radius: 12px;
   background: var(--surface-container-lowest);
   box-shadow: var(--shadow-card);
+  cursor: pointer;
   transition:
     transform var(--transition-fast),
     box-shadow var(--transition-fast),
@@ -250,6 +301,16 @@
   transform: translateY(-3px);
   border-color: var(--primary-fixed-dim);
   box-shadow: var(--shadow-card-hover);
+}
+.card:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-color: var(--primary);
+}
+.card .bookmark,
+.cardFooter a {
+  position: relative;
+  z-index: 1;
 }
 .cardVisual {
   position: relative;
@@ -283,10 +344,18 @@
   opacity: 0.23;
 }
 .card:nth-child(3n) .cardPattern {
-  background: linear-gradient(135deg, #e7edf9, #f6e9db);
+  background: linear-gradient(
+    135deg,
+    var(--accent-blue-soft),
+    var(--accent-warm-soft)
+  );
 }
 .card:nth-child(3n + 1) .cardPattern {
-  background: linear-gradient(135deg, #d8e6fa, #e5f2ef);
+  background: linear-gradient(
+    135deg,
+    var(--accent-blue-soft),
+    var(--accent-green-soft)
+  );
 }
 .bookmark {
   position: absolute;
@@ -299,7 +368,11 @@
   place-items: center;
   border: 0;
   border-radius: 50%;
-  background: rgb(250 248 255 / 82%);
+  background: color-mix(
+    in srgb,
+    var(--surface-container-lowest) 82%,
+    transparent
+  );
   backdrop-filter: blur(6px);
   color: var(--on-surface-variant);
 }
@@ -313,8 +386,8 @@
   left: 12px;
   padding: 4px 7px;
   border-radius: 4px;
-  background: rgb(0 35 111 / 82%);
-  color: white;
+  background: color-mix(in srgb, var(--primary) 82%, transparent);
+  color: var(--on-primary);
   font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
@@ -333,6 +406,7 @@
   font-family: var(--font-heading), sans-serif;
   font-size: 18px;
   line-height: 1.35;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
@@ -347,6 +421,7 @@
   color: var(--on-surface-variant);
   font-size: 14px;
   line-height: 1.5;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }

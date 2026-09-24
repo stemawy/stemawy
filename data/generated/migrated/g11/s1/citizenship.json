@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-22T20:46:54.946Z",
+  "source": {
+    "file": "migration/raw/g11/s1/citizenship.json"
+  },
+  "subject": {
+    "id": "citizenship-g11-s1",
+    "name": "Citizenship",
+    "description": "",
+    "grade": "11",
+    "semester": "1",
+    "icon": "citizenship",
+    "content": [
+      {
+        "id": "citizenship-g11-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Other",
+        "description": "",
+        "order": 1,
+        "concepts": [],
+        "resources": [
+          "citizenship-g11-s1-global-01-01"
+        ]
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "citizenship-g11-s1-global-01-01",
+      "title": "Citizenship.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/17D17Dd00_k1paOjpSz1P__xYrQT60aUo/view?usp=drivesdk",
+      "mimeType": "application/pdf",
+      "driveFileId": "17D17Dd00_k1paOjpSz1P__xYrQT60aUo"
+    }
+  ]
+}

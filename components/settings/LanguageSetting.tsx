@@ -2,6 +2,7 @@
 
 import { Languages } from "lucide-react";
 import styles from "@/app/settings/settings.module.scss";
+import { getTranslations } from "@/lib/i18n";
 
 export default function LanguageSetting({
   language,
@@ -10,6 +11,8 @@ export default function LanguageSetting({
   language: "en" | "ar";
   onChange: (language: "en" | "ar") => void;
 }) {
+  const t = getTranslations(language);
+
   return (
     <div className={styles.settingRow}>
       <div className={styles.settingInfo}>
@@ -17,9 +20,9 @@ export default function LanguageSetting({
           <span className={styles.rowIcon}>
             <Languages size={19} />
           </span>
-          Language
+          {t.common.language}
         </h3>
-        <p>Switch between English and full Arabic localized layout</p>
+        <p>{t.common.languageDescription}</p>
       </div>
       <div className={styles.controlGroup}>
         <button
@@ -28,7 +31,7 @@ export default function LanguageSetting({
           aria-pressed={language === "en"}
           onClick={() => onChange("en")}
         >
-          English
+          {t.common.english}
         </button>
         <button
           className={language === "ar" ? styles.controlActive : ""}
@@ -36,7 +39,7 @@ export default function LanguageSetting({
           aria-pressed={language === "ar"}
           onClick={() => onChange("ar")}
         >
-          العربية <small>RTL</small>
+          {t.common.arabic} <small>{t.common.rtl}</small>
         </button>
       </div>
     </div>

@@ -1,52 +1,40 @@
 import type { Subject } from "@/data/subjects";
 import type { Resource } from "@/types";
 import type { Opportunity } from "@/data/opportunities";
+import {
+  getResourcesForSubject,
+  getSubjectsByGradeAndSemester,
+  getImportedSubject,
+} from "@/data/catalog";
 
 export type DjangoSubject = Subject & { resources?: Resource[] };
 export type DjangoOpportunity = Opportunity;
-
-const API_URL =
-  process.env.NEXT_PUBLIC_STEMAWY_API_URL ?? "http://127.0.0.1:8000/api";
 
 export async function fetchDjangoSubjects(
   grade: number,
   semester: number,
 ): Promise<DjangoSubject[]> {
-  const response = await fetch(
-    `${API_URL}/subjects/?grade=${grade}&semester=${semester}`,
-    { cache: "no-store" },
-  );
-
-  if (!response.ok) {
-    throw new Error(`Django subjects request failed: ${response.status}`);
-  }
-
-  const data = (await response.json()) as { subjects: DjangoSubject[] };
-  return data.subjects;
+  return getSubjectsByGradeAndSemester(grade, semester).map((subject) => ({
+    ...subject,
+    resources: getResourcesForSubject(subject.id),
+  }));
 }
 
 export async function fetchDjangoSubject(
   subjectId: string,
 ): Promise<DjangoSubject> {
-  const response = await fetch(`${API_URL}/subjects/${subjectId}/`, {
-    cache: "no-store",
-  });
+  const subject = getImportedSubject(subjectId);
 
-  if (!response.ok) {
-    throw new Error(`Django subject request failed: ${response.status}`);
+  if (!subject) {
+    throw new Error(`Local subject data not found: ${subjectId}`);
   }
 
-  return (await response.json()) as Subject;
+  return {
+    ...subject,
+    resources: getResourcesForSubject(subject.id),
+  };
 }
 
 export async function fetchDjangoOpportunities(): Promise<DjangoOpportunity[]> {
-  const response = await fetch(`${API_URL}/opportunities/`, {
-    cache: "no-store",
-  });
-  if (!response.ok)
-    throw new Error(`Django opportunities request failed: ${response.status}`);
-  const data = (await response.json()) as {
-    opportunities: DjangoOpportunity[];
-  };
-  return data.opportunities;
+  return [];
 }

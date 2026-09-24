@@ -48,7 +48,6 @@ export default function SkillsSearch({
           <span className="material-symbols-outlined">close</span>
         </button>
       )}
-      <kbd>CTRL K</kbd>
     </div>
   );
 }

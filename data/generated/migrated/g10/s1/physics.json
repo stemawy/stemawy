@@ -7,7 +7,7 @@
   "subject": {
     "id": "physics-g10-s1",
     "name": "Physics",
-    "description": "Physics resources for Grade 10, Semester 1.",
+    "description": "Grade 10 Physics, Semester 1 introduces the fundamental laws of motion, forces, gravity, equilibrium, and material behaviour. Students develop measurement skills, analytical thinking, and problem-solving strategies through practical examples and structured learning activities.",
     "grade": "10",
     "semester": "1",
     "icon": "physics",
@@ -17,13 +17,13 @@
         "type": "unit",
         "number": "01",
         "title": "Measurements and Units",
-        "description": "",
+        "description": "Explore the foundations of scientific measurement, SI units, precision, dimensional analysis, and how physical quantities are compared and recorded accurately.",
         "order": 1,
         "concepts": [
           {
             "id": "physics-g10-s1-concept-physics-as-experimental-science",
             "title": "Physics as experimental science",
-            "description": "",
+            "description": "Learn the key ideas behind Physics as experimental science and how they connect to everyday physical phenomena and problem solving.",
             "order": 1,
             "resources": [
               "physics-g10-s1-video-uxa3keakdws-d1884bf5bd"
@@ -32,7 +32,7 @@
           {
             "id": "physics-g10-s1-concept-systems-of-measurements-and-standards",
             "title": "Systems of measurements and standards",
-            "description": "",
+            "description": "Understand how Systems of measurements and standards provides the basis for precise observation, comparison, and calculation in physics.",
             "order": 2,
             "resources": [
               "physics-g10-s1-video-0kibygx-30u-10b62ba93c"
@@ -41,7 +41,7 @@
           {
             "id": "physics-g10-s1-concept-international-system-of-units",
             "title": "International system of units",
-            "description": "",
+            "description": "Understand how International system of units provides the basis for precise observation, comparison, and calculation in physics.",
             "order": 3,
             "resources": [
               "physics-g10-s1-video-8rzrypoerpw-097f71e975"
@@ -50,7 +50,7 @@
           {
             "id": "physics-g10-s1-concept-prefixes-of-metric-units",
             "title": "Prefixes of metric units",
-            "description": "",
+            "description": "Understand how Prefixes of metric units provides the basis for precise observation, comparison, and calculation in physics.",
             "order": 4,
             "resources": [
               "physics-g10-s1-video-0kibygx-30u-18fbe4dccc"
@@ -59,7 +59,7 @@
           {
             "id": "physics-g10-s1-concept-from-macro-to-nanoscale",
             "title": "From Macro to Nanoscale",
-            "description": "",
+            "description": "Understand how From Macro to Nanoscale provides the basis for precise observation, comparison, and calculation in physics.",
             "order": 5,
             "resources": [
               "physics-g10-s1-video-ek8gxp3pimu-e8a554c2bd"
@@ -68,7 +68,7 @@
           {
             "id": "physics-g10-s1-concept-measurement-errors",
             "title": "Measurement errors",
-            "description": "",
+            "description": "Understand how Measurement errors provides the basis for precise observation, comparison, and calculation in physics.",
             "order": 6,
             "resources": [
               "physics-g10-s1-video-jbeo46uv6d4-10fb44e44d"
@@ -77,7 +77,7 @@
           {
             "id": "physics-g10-s1-concept-measurement-accuracy-vs-precision",
             "title": "Measurement accuracy vs. precision",
-            "description": "",
+            "description": "Understand how Measurement accuracy vs. precision provides the basis for precise observation, comparison, and calculation in physics.",
             "order": 7,
             "resources": [
               "physics-g10-s1-video-0iihpkavo7g-bde74ef7d7"
@@ -86,7 +86,7 @@
           {
             "id": "physics-g10-s1-concept-dimensional-analysis",
             "title": "Dimensional analysis",
-            "description": "",
+            "description": "Understand how Dimensional analysis provides the basis for precise observation, comparison, and calculation in physics.",
             "order": 8,
             "resources": [
               "physics-g10-s1-video-vwovdihteqs-95689b1356"
@@ -108,13 +108,13 @@
         "type": "unit",
         "number": "02",
         "title": "Forces and Equilibrium",
-        "description": "",
+        "description": "Examine how forces affect motion, how balanced and unbalanced systems behave, and how equilibrium is represented in real-world situations.",
         "order": 2,
         "concepts": [
           {
             "id": "physics-g10-s1-concept-forces",
             "title": "Forces",
-            "description": "",
+            "description": "Study the role of Forces in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 1,
             "resources": [
               "physics-g10-s1-video-maabuhliixa-1f938d77d7",
@@ -124,7 +124,7 @@
           {
             "id": "physics-g10-s1-concept-static-equilibrium",
             "title": "Static equilibrium",
-            "description": "",
+            "description": "Study the role of Static equilibrium in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 2,
             "resources": [
               "physics-g10-s1-video-qgvfal5ck-c-8c2c06bb40"
@@ -133,7 +133,7 @@
           {
             "id": "physics-g10-s1-concept-dynamic-equilibrium",
             "title": "Dynamic equilibrium",
-            "description": "",
+            "description": "Study the role of Dynamic equilibrium in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 3,
             "resources": [
               "physics-g10-s1-video-zahm74k9z1w-08a151f46a"
@@ -142,7 +142,7 @@
           {
             "id": "physics-g10-s1-concept-system-of-forces",
             "title": "System of forces",
-            "description": "",
+            "description": "Study the role of System of forces in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 4,
             "resources": [
               "physics-g10-s1-video-e626-diqgrs-259db87092"
@@ -151,7 +151,7 @@
           {
             "id": "physics-g10-s1-concept-newton-s-third-law",
             "title": "Newton's third law",
-            "description": "",
+            "description": "Study the role of Newton's third law in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 5,
             "resources": [
               "physics-g10-s1-video-txhesw6ytog-135f7ed5ec"
@@ -160,7 +160,7 @@
           {
             "id": "physics-g10-s1-concept-free-body-diagram",
             "title": "Free body diagram",
-            "description": "",
+            "description": "Study the role of Free body diagram in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 6,
             "resources": [
               "physics-g10-s1-video-52r61aswhg0-26a80354e9"
@@ -169,7 +169,7 @@
           {
             "id": "physics-g10-s1-concept-action-reaction-pairs",
             "title": "Action-Reaction Pairs",
-            "description": "",
+            "description": "Learn the key ideas behind Action-Reaction Pairs and how they connect to everyday physical phenomena and problem solving.",
             "order": 7,
             "resources": [
               "physics-g10-s1-video-hm7b-xxj1um-5fff33cf22"
@@ -178,7 +178,7 @@
           {
             "id": "physics-g10-s1-concept-point-particle",
             "title": "Point particle",
-            "description": "",
+            "description": "Learn the key ideas behind Point particle and how they connect to everyday physical phenomena and problem solving.",
             "order": 8,
             "resources": [
               "physics-g10-s1-video-fyjtgg3a2hy-6624e7e3fc"
@@ -198,13 +198,13 @@
         "type": "unit",
         "number": "03",
         "title": "Motion and Newton's Laws",
-        "description": "",
+        "description": "Investigate motion, vectors, net force, and Newton's laws to understand how objects accelerate and respond to applied forces.",
         "order": 3,
         "concepts": [
           {
             "id": "physics-g10-s1-concept-equilibrium-vs-motion-vs-change-in-motion",
             "title": "Equilibrium vs. motion vs. change in motion",
-            "description": "",
+            "description": "Study the role of Equilibrium vs. motion vs. change in motion in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 1,
             "resources": [
               "physics-g10-s1-video-ongo9bbdi7q-ae52f4fdfc"
@@ -213,7 +213,7 @@
           {
             "id": "physics-g10-s1-concept-force-as-a-vector",
             "title": "Force as a vector",
-            "description": "",
+            "description": "Study the role of Force as a vector in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 2,
             "resources": [
               "physics-g10-s1-video-ewshkusxx-8-7628538354"
@@ -222,7 +222,7 @@
           {
             "id": "physics-g10-s1-concept-net-force-acting-on-a-free-body",
             "title": "Net force acting on a free body.",
-            "description": "",
+            "description": "Study the role of Net force acting on a free body. in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 3,
             "resources": [
               "physics-g10-s1-video-fwdwjzkrtue-94faa7ecbb"
@@ -231,7 +231,7 @@
           {
             "id": "physics-g10-s1-concept-newton-s-laws-of-motion",
             "title": "Newton's Laws of Motion",
-            "description": "",
+            "description": "Study the role of Newton's Laws of Motion in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 4,
             "resources": [
               "physics-g10-s1-video-g550h4e5fcy-f7243254cf"
@@ -240,7 +240,7 @@
           {
             "id": "physics-g10-s1-concept-centripetal-acceleration",
             "title": "Centripetal acceleration",
-            "description": "",
+            "description": "Study the role of Centripetal acceleration in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 5,
             "resources": [
               "physics-g10-s1-video-zblirqut9uu-a89a397980"
@@ -249,7 +249,7 @@
           {
             "id": "physics-g10-s1-concept-centripetal-force",
             "title": "Centripetal force",
-            "description": "",
+            "description": "Study the role of Centripetal force in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 6,
             "resources": [
               "physics-g10-s1-video-sqx22vvmrps-cd2119354c"
@@ -258,7 +258,7 @@
           {
             "id": "physics-g10-s1-concept-inertial-reference-frame",
             "title": "Inertial reference frame",
-            "description": "",
+            "description": "See how Inertial reference frame shapes the way motion and forces are described in physics.",
             "order": 7,
             "resources": [
               "physics-g10-s1-video-8xiip2b6l3m-9c005fe5d9",
@@ -282,13 +282,13 @@
         "type": "unit",
         "number": "04",
         "title": "Gravitation",
-        "description": "",
+        "description": "Understand mass, gravity, weight, and orbital motion through the universal law of gravitation and its effects on objects near Earth and in space.",
         "order": 4,
         "concepts": [
           {
             "id": "physics-g10-s1-concept-mass",
             "title": "Mass",
-            "description": "",
+            "description": "Explore how Mass helps explain attraction between masses and its effect on motion, weight, and gravitational systems.",
             "order": 1,
             "resources": [
               "physics-g10-s1-video-iuboedihluc-fb86b05683"
@@ -297,7 +297,7 @@
           {
             "id": "physics-g10-s1-concept-gravity",
             "title": "Gravity",
-            "description": "",
+            "description": "Explore how Gravity helps explain attraction between masses and its effect on motion, weight, and gravitational systems.",
             "order": 2,
             "resources": [
               "physics-g10-s1-video-ep1jihhdf2a-3848bd68f9"
@@ -306,7 +306,7 @@
           {
             "id": "physics-g10-s1-concept-gravitational-field",
             "title": "Gravitational field",
-            "description": "",
+            "description": "Explore how Gravitational field helps explain attraction between masses and its effect on motion, weight, and gravitational systems.",
             "order": 3,
             "resources": [
               "physics-g10-s1-video-8auljad-aye-dd7057c5ec"
@@ -315,7 +315,7 @@
           {
             "id": "physics-g10-s1-concept-weight",
             "title": "Weight",
-            "description": "",
+            "description": "Explore how Weight helps explain attraction between masses and its effect on motion, weight, and gravitational systems.",
             "order": 4,
             "resources": [
               "physics-g10-s1-video-himydnpijzw-c1cedaf0f3"
@@ -324,7 +324,7 @@
           {
             "id": "physics-g10-s1-concept-general-law-of-gravitation",
             "title": "General Law of Gravitation",
-            "description": "",
+            "description": "Explore how General Law of Gravitation helps explain attraction between masses and its effect on motion, weight, and gravitational systems.",
             "order": 5,
             "resources": [
               "physics-g10-s1-video-8cykj3ngbqs-d3636bcd95"
@@ -333,7 +333,7 @@
           {
             "id": "physics-g10-s1-concept-newton-s-second-law-in-gravitational-field",
             "title": "Newton's Second Law in gravitational field",
-            "description": "",
+            "description": "Study the role of Newton's Second Law in gravitational field in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 6,
             "resources": [
               "physics-g10-s1-video-pipngilqefe-0fee16d944"
@@ -342,7 +342,7 @@
           {
             "id": "physics-g10-s1-concept-free-fall",
             "title": "Free Fall",
-            "description": "",
+            "description": "Explore how Free Fall helps explain attraction between masses and its effect on motion, weight, and gravitational systems.",
             "order": 7,
             "resources": [
               "physics-g10-s1-video-bvgemk1y2wa-c626adaa27",
@@ -352,7 +352,7 @@
           {
             "id": "physics-g10-s1-concept-apparent-weight",
             "title": "Apparent weight",
-            "description": "",
+            "description": "Explore how Apparent weight helps explain attraction between masses and its effect on motion, weight, and gravitational systems.",
             "order": 8,
             "resources": [
               "physics-g10-s1-video-tvsygam8mv4-0be2071f0c"
@@ -371,13 +371,13 @@
         "type": "unit",
         "number": "05",
         "title": "Center of Mass and Rotational Equilibrium",
-        "description": "",
+        "description": "Study the center of mass, torque, rotational balance, and the stability of extended bodies in everyday and mechanical systems.",
         "order": 5,
         "concepts": [
           {
             "id": "physics-g10-s1-concept-center-of-mass",
             "title": "Center of mass",
-            "description": "",
+            "description": "Explore how Center of mass helps explain attraction between masses and its effect on motion, weight, and gravitational systems.",
             "order": 1,
             "resources": [
               "physics-g10-s1-video-swu-i-19rn0-2b32838191"
@@ -386,7 +386,7 @@
           {
             "id": "physics-g10-s1-concept-torque",
             "title": "Torque",
-            "description": "",
+            "description": "Learn how Torque explains deformation, stability, and mechanical behaviour in physical systems.",
             "order": 2,
             "resources": [
               "physics-g10-s1-video-jg4e8w44-e4-778b724bb3"
@@ -395,7 +395,7 @@
           {
             "id": "physics-g10-s1-concept-static-equilibrium",
             "title": "Static equilibrium",
-            "description": "",
+            "description": "Study the role of Static equilibrium in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 3,
             "resources": [
               "physics-g10-s1-video-qgvfal5ck-c-d2e4fe1a39"
@@ -404,7 +404,7 @@
           {
             "id": "physics-g10-s1-concept-translational-vs-rotational-equilibrium",
             "title": "Translational vs. Rotational Equilibrium",
-            "description": "",
+            "description": "Study the role of Translational vs. Rotational Equilibrium in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 4,
             "resources": [
               "physics-g10-s1-video-xmxxnswf3fm-147742b223"
@@ -413,7 +413,7 @@
           {
             "id": "physics-g10-s1-concept-the-equilibrium-torque-condition-rotational-analogue-of-newton-s-laws",
             "title": "The equilibrium torque condition: rotational analogue of Newton's Laws",
-            "description": "",
+            "description": "Study the role of The equilibrium torque condition: rotational analogue of Newton's Laws in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 5,
             "resources": [
               "physics-g10-s1-video-xusmsv2z77s-28cb150cb1"
@@ -422,7 +422,7 @@
           {
             "id": "physics-g10-s1-concept-simple-machines",
             "title": "Simple machines",
-            "description": "",
+            "description": "Learn how Simple machines explains deformation, stability, and mechanical behaviour in physical systems.",
             "order": 6,
             "resources": [
               "physics-g10-s1-video-dvevyrsuyjm-a08cf18a28"
@@ -431,7 +431,7 @@
           {
             "id": "physics-g10-s1-concept-the-mechanical-advantage-of-simple-machines",
             "title": "The mechanical advantage of simple machines",
-            "description": "",
+            "description": "Learn how The mechanical advantage of simple machines explains deformation, stability, and mechanical behaviour in physical systems.",
             "order": 7,
             "resources": [
               "physics-g10-s1-video-sptnkncqlw4-6f2417c560"
@@ -440,7 +440,7 @@
           {
             "id": "physics-g10-s1-concept-stability-of-extended-rigid-bodies-depends-on-the-sum-of-the-forces-the-sum-of-the-torques-and-on-the-location-of-the-center-of-mass",
             "title": "Stability of extended rigid bodies depends on the sum of the forces, the sum of the torques and on the location of the center of mass.",
-            "description": "",
+            "description": "Study the role of Stability of extended rigid bodies depends on the sum of the forces, the sum of the torques and on the location of the center of mass. in describing how objects move, interact, and remain stable under the action of forces.",
             "order": 8,
             "resources": [
               "physics-g10-s1-video-jqdeowrr4uu-470131dbcd"
@@ -461,13 +461,13 @@
         "type": "unit",
         "number": "06",
         "title": "Elasticity and Stress",
-        "description": "",
+        "description": "Analyze how materials deform under force, including Hooke's law, stress, strain, and Young's modulus.",
         "order": 6,
         "concepts": [
           {
             "id": "physics-g10-s1-concept-elasticity-hooke-s-law",
             "title": "Elasticity & Hooke's Law",
-            "description": "",
+            "description": "Learn how Elasticity & Hooke's Law explains deformation, stability, and mechanical behaviour in physical systems.",
             "order": 1,
             "resources": [
               "physics-g10-s1-video-halbtydujp0-971265d388"
@@ -476,7 +476,7 @@
           {
             "id": "physics-g10-s1-concept-range-of-validity-for-hooke-s-law",
             "title": "Range of validity for Hooke's Law",
-            "description": "",
+            "description": "Learn how Range of validity for Hooke's Law explains deformation, stability, and mechanical behaviour in physical systems.",
             "order": 2,
             "resources": [
               "physics-g10-s1-video-halbtydujp0-971265d388"
@@ -485,7 +485,7 @@
           {
             "id": "physics-g10-s1-concept-stress-and-strain",
             "title": "Stress and strain",
-            "description": "",
+            "description": "Learn how Stress and strain explains deformation, stability, and mechanical behaviour in physical systems.",
             "order": 3,
             "resources": [
               "physics-g10-s1-video-ncode2fsqq0-81096bce2d",
@@ -495,7 +495,7 @@
           {
             "id": "physics-g10-s1-concept-young-s-modulus",
             "title": "Young's modulus",
-            "description": "",
+            "description": "Learn how Young's modulus explains deformation, stability, and mechanical behaviour in physical systems.",
             "order": 4,
             "resources": [
               "physics-g10-s1-video-jr-uprzv8hq-1d6574454b",
@@ -514,13 +514,13 @@
         "type": "unit",
         "number": "07",
         "title": "Hooke's Law and Spring Systems",
-        "description": "",
+        "description": "Apply Hooke's law to springs and elastic materials to understand restoring forces, extension, and practical mechanical behaviour.",
         "order": 7,
         "concepts": [
           {
             "id": "physics-g10-s1-concept-hooke-s-law-linear-springs",
             "title": "Hooke's Law & Linear Springs",
-            "description": "",
+            "description": "Learn how Hooke's Law & Linear Springs explains deformation, stability, and mechanical behaviour in physical systems.",
             "order": 1,
             "resources": [
               "physics-g10-s1-video-zzwuhs9ldby-f76522ce8d"
@@ -529,7 +529,7 @@
           {
             "id": "physics-g10-s1-concept-the-spring-constant",
             "title": "The spring constant",
-            "description": "",
+            "description": "Learn how The spring constant explains deformation, stability, and mechanical behaviour in physical systems.",
             "order": 2,
             "resources": [
               "physics-g10-s1-video-bnqkccfkg0m-8b1dec59de"
@@ -538,7 +538,7 @@
           {
             "id": "physics-g10-s1-concept-yield-point",
             "title": "Yield point",
-            "description": "",
+            "description": "Learn the key ideas behind Yield point and how they connect to everyday physical phenomena and problem solving.",
             "order": 3,
             "resources": [
               "physics-g10-s1-video-jtaj0s203ci-d070b0b9f5",
@@ -548,7 +548,7 @@
           {
             "id": "physics-g10-s1-concept-tension-and-compression",
             "title": "Tension and compression",
-            "description": "",
+            "description": "Learn the key ideas behind Tension and compression and how they connect to everyday physical phenomena and problem solving.",
             "order": 4,
             "resources": [
               "physics-g10-s1-video-f5oqj5t-pa4-b8010ac899",
@@ -566,7 +566,7 @@
         "id": "physics-g10-s1-qs-bank-question-bank",
         "type": "qs-bank",
         "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
+        "description": "Practice exam-style questions and problem sets covering the core concepts and skills from Grade 10 Physics Semester 1.",
         "order": 8,
         "concepts": [],
         "resources": [
@@ -594,7 +594,7 @@
         "id": "physics-g10-s1-revision-revision",
         "type": "revision",
         "title": "Revision",
-        "description": "Revision materials for the semester.",
+        "description": "A concise review of the key formulas, principles, and problem-solving strategies from the semester.",
         "order": 9,
         "concepts": [],
         "resources": [
@@ -605,7 +605,7 @@
         "id": "physics-g10-s1-references-references",
         "type": "references",
         "title": "References",
-        "description": "Reference books and additional materials.",
+        "description": "Useful textbooks, study guides, and supplementary resources for deeper learning and independent practice.",
         "order": 10,
         "concepts": [],
         "resources": [

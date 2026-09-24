@@ -1,9 +1,11 @@
 "use client";
 
 import { Monitor, Moon, Sun } from "lucide-react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/components/ui/theme-provider";
 import { useEffect, useState } from "react";
 import styles from "@/app/settings/settings.module.scss";
+import { useLayoutState } from "@/components/layout/layout-context";
+import { getTranslations } from "@/lib/i18n";
 
 export default function ThemeSetting({
   onChange,
@@ -11,16 +13,22 @@ export default function ThemeSetting({
   onChange: (message: string) => void;
 }) {
   const { theme, setTheme } = useTheme();
+  const { language } = useLayoutState();
+  const t = getTranslations(language);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     queueMicrotask(() => setMounted(true));
   }, []);
 
-  const options = [
-    { value: "light", label: "Light", icon: Sun },
-    { value: "dark", label: "Dark", icon: Moon },
-    { value: "system", label: "Auto", icon: Monitor },
+  const options: Array<{
+    value: "light" | "dark" | "system";
+    label: string;
+    icon: typeof Sun;
+  }> = [
+    { value: "light", label: t.settings.light, icon: Sun },
+    { value: "dark", label: t.settings.dark, icon: Moon },
+    { value: "system", label: t.settings.auto, icon: Monitor },
   ];
   return (
     <div className={styles.settingRow}>
@@ -29,9 +37,9 @@ export default function ThemeSetting({
           <span className={styles.rowIcon}>
             <Sun size={19} />
           </span>
-          Theme
+          {t.settings.theme}
         </h3>
-        <p>Choose light, dark, or sync with your system preference</p>
+        <p>{t.settings.themeDescription}</p>
       </div>
       <div className={styles.controlGroup}>
         {options.map(({ value, label, icon: Icon }) => (
@@ -42,7 +50,7 @@ export default function ThemeSetting({
             aria-pressed={mounted && theme === value}
             onClick={() => {
               setTheme(value);
-              onChange(`Theme switched to ${label}`);
+              onChange(`${t.settings.themeSwitched} ${label}`);
             }}
           >
             <Icon size={14} />

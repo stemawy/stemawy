@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-22T00:00:00.000Z",
+  "source": {
+    "file": "migration/raw/g11/s1/computerscience.json"
+  },
+  "subject": {
+    "id": "computerscience-g11-s1",
+    "name": "Computer Science",
+    "description": "",
+    "grade": "11",
+    "semester": "1",
+    "icon": "computerscience",
+    "content": [
+      {
+        "id": "computerscience-g11-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Unit 1",
+        "description": "",
+        "order": 1,
+        "concepts": [],
+        "resources": []
+      }
+    ]
+  },
+  "resources": []
+}

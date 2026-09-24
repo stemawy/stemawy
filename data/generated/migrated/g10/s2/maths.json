@@ -15,7 +15,7 @@
       {
         "id": "maths-g10-s2-unit-01",
         "type": "unit",
-        "number": "01",
+        "number": "07",
         "title": "LO7",
         "description": "",
         "order": 1,
@@ -25,27 +25,21 @@
             "title": "Quadratic Function",
             "description": "",
             "order": 1,
-            "resources": [
-              "maths-g10-s2-video-hq2up-1ih5e-8b784ddef2"
-            ]
+            "resources": ["maths-g10-s2-video-hq2up-1ih5e-8b784ddef2"]
           },
           {
             "id": "maths-g10-s2-concept-first-and-second-differences",
             "title": "First and second differences",
             "description": "",
             "order": 2,
-            "resources": [
-              "maths-g10-s2-video-rax-foh28y-8f3b4519ad"
-            ]
+            "resources": ["maths-g10-s2-video-rax-foh28y-8f3b4519ad"]
           },
           {
             "id": "maths-g10-s2-concept-completing-the-square",
             "title": "Completing the square",
             "description": "",
             "order": 3,
-            "resources": [
-              "maths-g10-s2-video-2mkigagpzmq-d30e75a863"
-            ]
+            "resources": ["maths-g10-s2-video-2mkigagpzmq-d30e75a863"]
           },
           {
             "id": "maths-g10-s2-concept-complex-numbers",
@@ -62,18 +56,14 @@
             "title": "Parabola",
             "description": "",
             "order": 5,
-            "resources": [
-              "maths-g10-s2-video-bgz3pkogpag-b8e1489c18"
-            ]
+            "resources": ["maths-g10-s2-video-bgz3pkogpag-b8e1489c18"]
           },
           {
             "id": "maths-g10-s2-concept-focus",
             "title": "Focus",
             "description": "",
             "order": 6,
-            "resources": [
-              "maths-g10-s2-video-pe8dm-fupdu-7d4f6357f5"
-            ]
+            "resources": ["maths-g10-s2-video-pe8dm-fupdu-7d4f6357f5"]
           },
           {
             "id": "maths-g10-s2-concept-argand-diagram",
@@ -105,7 +95,7 @@
       {
         "id": "maths-g10-s2-unit-02",
         "type": "unit",
-        "number": "02",
+        "number": "08",
         "title": "LO8",
         "description": "",
         "order": 2,
@@ -115,27 +105,21 @@
             "title": "Exponential functions",
             "description": "",
             "order": 1,
-            "resources": [
-              "maths-g10-s2-video-taaditpc8oi-88d6028b16"
-            ]
+            "resources": ["maths-g10-s2-video-taaditpc8oi-88d6028b16"]
           },
           {
             "id": "maths-g10-s2-concept-logarithmic-function",
             "title": "Logarithmic function",
             "description": "",
             "order": 2,
-            "resources": [
-              "maths-g10-s2-video-lrbi-pmx1dm-24984e0591"
-            ]
+            "resources": ["maths-g10-s2-video-lrbi-pmx1dm-24984e0591"]
           },
           {
             "id": "maths-g10-s2-concept-growth",
             "title": "Growth",
             "description": "",
             "order": 3,
-            "resources": [
-              "maths-g10-s2-video-77wtg-ffy3q-57f75d69ad"
-            ]
+            "resources": ["maths-g10-s2-video-77wtg-ffy3q-57f75d69ad"]
           },
           {
             "id": "maths-g10-s2-concept-decay",
@@ -157,7 +141,7 @@
       {
         "id": "maths-g10-s2-unit-03",
         "type": "unit",
-        "number": "03",
+        "number": "09",
         "title": "LO9",
         "description": "",
         "order": 3,
@@ -167,36 +151,28 @@
             "title": "Trigonometric functions",
             "description": "",
             "order": 1,
-            "resources": [
-              "maths-g10-s2-video-nefjohvks-5fc4280d6e"
-            ]
+            "resources": ["maths-g10-s2-video-nefjohvks-5fc4280d6e"]
           },
           {
             "id": "maths-g10-s2-concept-coordinates",
             "title": "Coordinates",
             "description": "",
             "order": 2,
-            "resources": [
-              "maths-g10-s2-video-asdat62ndye-2345326ff5"
-            ]
+            "resources": ["maths-g10-s2-video-asdat62ndye-2345326ff5"]
           },
           {
             "id": "maths-g10-s2-concept-graphs-of-sine-cosine-and-tangent-functions",
             "title": "Graphs of sine, cosine and tangent functions",
             "description": "",
             "order": 3,
-            "resources": [
-              "maths-g10-s2-video-bm8oykklcxi-ece1e97ec3"
-            ]
+            "resources": ["maths-g10-s2-video-bm8oykklcxi-ece1e97ec3"]
           },
           {
             "id": "maths-g10-s2-concept-inverses-of-the-sine-cosine-and-tangent-functions",
             "title": "Inverses of the sine, cosine and tangent functions",
             "description": "",
             "order": 4,
-            "resources": [
-              "maths-g10-s2-video-jt7p-mcc0ng-d19a986f03"
-            ]
+            "resources": ["maths-g10-s2-video-jt7p-mcc0ng-d19a986f03"]
           },
           {
             "id": "maths-g10-s2-concept-shape-domain-range-amplitude-intercepts-max-min-period-asymptotes",
@@ -213,9 +189,7 @@
             "title": "Domain of trigonometric functions",
             "description": "",
             "order": 6,
-            "resources": [
-              "maths-g10-s2-video-yhgvtuxnxpm-17125aacef"
-            ]
+            "resources": ["maths-g10-s2-video-yhgvtuxnxpm-17125aacef"]
           },
           {
             "id": "maths-g10-s2-concept-shift-and-stretch-a-trigonometric-function",
@@ -241,7 +215,7 @@
       {
         "id": "maths-g10-s2-unit-04",
         "type": "unit",
-        "number": "04",
+        "number": "10",
         "title": "LO10",
         "description": "",
         "order": 4,
@@ -261,18 +235,14 @@
             "title": "Pythagorean Identities",
             "description": "",
             "order": 2,
-            "resources": [
-              "maths-g10-s2-video-hup3v7izulm-be80e5b606"
-            ]
+            "resources": ["maths-g10-s2-video-hup3v7izulm-be80e5b606"]
           },
           {
             "id": "maths-g10-s2-concept-cofunction-identities",
             "title": "Cofunction Identities",
             "description": "",
             "order": 3,
-            "resources": [
-              "maths-g10-s2-video-35fxto48hzy-5a394957a0"
-            ]
+            "resources": ["maths-g10-s2-video-35fxto48hzy-5a394957a0"]
           },
           {
             "id": "maths-g10-s2-concept-trig-identities-of-sum-and-difference-of-two-angels",
@@ -305,7 +275,7 @@
       {
         "id": "maths-g10-s2-unit-05",
         "type": "unit",
-        "number": "05",
+        "number": "11",
         "title": "LO11",
         "description": "",
         "order": 5,
@@ -322,36 +292,28 @@
             "title": "System of equations",
             "description": "",
             "order": 2,
-            "resources": [
-              "maths-g10-s2-video-nok99johcjo-62c689b03b"
-            ]
+            "resources": ["maths-g10-s2-video-nok99johcjo-62c689b03b"]
           },
           {
             "id": "maths-g10-s2-concept-unknowns",
             "title": "Unknowns",
             "description": "",
             "order": 3,
-            "resources": [
-              "maths-g10-s2-video-wzdzhuusmpm-4fd070f617"
-            ]
+            "resources": ["maths-g10-s2-video-wzdzhuusmpm-4fd070f617"]
           },
           {
             "id": "maths-g10-s2-concept-graphing-methods",
             "title": "Graphing methods",
             "description": "",
             "order": 4,
-            "resources": [
-              "maths-g10-s2-video-tff-db8isa-9859c43530"
-            ]
+            "resources": ["maths-g10-s2-video-tff-db8isa-9859c43530"]
           },
           {
             "id": "maths-g10-s2-concept-algebraic-methods",
             "title": "Algebraic methods",
             "description": "",
             "order": 5,
-            "resources": [
-              "maths-g10-s2-video-9xc9ya13mko-6f9b78bf98"
-            ]
+            "resources": ["maths-g10-s2-video-9xc9ya13mko-6f9b78bf98"]
           },
           {
             "id": "maths-g10-s2-concept-matrix",
@@ -378,18 +340,14 @@
             "title": "Linear Programming",
             "description": "",
             "order": 8,
-            "resources": [
-              "maths-g10-s2-video-bzzqx1f23a8-4f2f28f763"
-            ]
+            "resources": ["maths-g10-s2-video-bzzqx1f23a8-4f2f28f763"]
           },
           {
             "id": "maths-g10-s2-concept-objective-functions",
             "title": "Objective functions",
             "description": "",
             "order": 9,
-            "resources": [
-              "maths-g10-s2-video-hcyazo9-b5g-584b559623"
-            ]
+            "resources": ["maths-g10-s2-video-hcyazo9-b5g-584b559623"]
           },
           {
             "id": "maths-g10-s2-concept-feasible-regions",
@@ -406,9 +364,7 @@
             "title": "Constraints",
             "description": "",
             "order": 11,
-            "resources": [
-              "maths-g10-s2-video-vwuv2idlp8q-abe357ee40"
-            ]
+            "resources": ["maths-g10-s2-video-vwuv2idlp8q-abe357ee40"]
           },
           {
             "id": "maths-g10-s2-concept-optimal-solution",
@@ -430,7 +386,7 @@
       {
         "id": "maths-g10-s2-unit-06",
         "type": "unit",
-        "number": "06",
+        "number": "12",
         "title": "LO12",
         "description": "",
         "order": 6,
@@ -440,9 +396,7 @@
             "title": "Determinants",
             "description": "",
             "order": 1,
-            "resources": [
-              "maths-g10-s2-video-3rozg6n4ymc-ea0aceb3da"
-            ]
+            "resources": ["maths-g10-s2-video-3rozg6n4ymc-ea0aceb3da"]
           },
           {
             "id": "maths-g10-s2-concept-value-of-a-determinant",
@@ -459,36 +413,28 @@
             "title": "Area, parallelogram and triangle",
             "description": "",
             "order": 3,
-            "resources": [
-              "maths-g10-s2-video-jnldmw3bbuw-330aebb4ce"
-            ]
+            "resources": ["maths-g10-s2-video-jnldmw3bbuw-330aebb4ce"]
           },
           {
             "id": "maths-g10-s2-concept-matrices",
             "title": "Matrices",
             "description": "",
             "order": 4,
-            "resources": [
-              "maths-g10-s2-video-yrwq7a6jvlk-26ffeeed76"
-            ]
+            "resources": ["maths-g10-s2-video-yrwq7a6jvlk-26ffeeed76"]
           },
           {
             "id": "maths-g10-s2-concept-system-of-equations",
             "title": "System of equations",
             "description": "",
             "order": 5,
-            "resources": [
-              "maths-g10-s2-video-nok99johcjo-59ebe5882c"
-            ]
+            "resources": ["maths-g10-s2-video-nok99johcjo-59ebe5882c"]
           },
           {
             "id": "maths-g10-s2-concept-cramer-rule",
             "title": "Cramer Rule",
             "description": "",
             "order": 6,
-            "resources": [
-              "maths-g10-s2-video-rdlo-9jh2em-5bf4176ef4"
-            ]
+            "resources": ["maths-g10-s2-video-rdlo-9jh2em-5bf4176ef4"]
           }
         ],
         "resources": [
@@ -541,15 +487,6 @@
           "maths-g10-s2-video-z6mwjtdpp-4-031f6784ea",
           "maths-g10-s2-video-tfs9xcego88-3a3688fa86"
         ]
-      },
-      {
-        "id": "maths-g10-s2-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 9,
-        "concepts": [],
-        "resources": []
       }
     ],
     "units": 6

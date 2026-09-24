@@ -7,7 +7,7 @@
   "subject": {
     "id": "arabic-g10-s1",
     "name": "Arabic",
-    "description": "Arabic resources for Grade 10, Semester 1.",
+    "description": "Grade 10 Arabic, Semester 1 introduces students to grammar, literature, reading comprehension, rhetoric, and practical language skills through structured study and guided practice.",
     "grade": "10",
     "semester": "1",
     "icon": "arabic",
@@ -17,13 +17,13 @@
         "type": "unit",
         "number": "01",
         "title": "النحو",
-        "description": "",
+        "description": "This section supports structured learning by building core language skills and reinforcing understanding through guided practice and study.",
         "order": 1,
         "concepts": [
           {
             "id": "arabic-g10-s1-concept-",
             "title": "اسم الفاعل",
-            "description": "",
+            "description": "This lesson develops key ideas related to اسم الفاعل and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 1,
             "resources": [
               "arabic-g10-s1-video-rybandwqi5k-93d12e3470",
@@ -33,7 +33,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "اسم المفعول و طريقة صوغه",
-            "description": "",
+            "description": "This lesson develops key ideas related to اسم المفعول و طريقة صوغه and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 2,
             "resources": [
               "arabic-g10-s1-video-2mos9f8draq-ba11ad9047",
@@ -43,7 +43,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "اسم المفعول",
-            "description": "",
+            "description": "This lesson develops key ideas related to اسم المفعول and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 3,
             "resources": [
               "arabic-g10-s1-video-qjol7-lqybs-6f0968a789",
@@ -53,7 +53,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "أفعال المقاربة والرجاء والشروع",
-            "description": "",
+            "description": "This lesson develops key ideas related to أفعال المقاربة والرجاء والشروع and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 4,
             "resources": [
               "arabic-g10-s1-video-t0liycxcaqe-9f6dc45a95",
@@ -63,7 +63,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "أفعال تعمل عمل كان إثرائية نحو",
-            "description": "",
+            "description": "This lesson develops key ideas related to أفعال تعمل عمل كان إثرائية نحو and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 5,
             "resources": [
               "arabic-g10-s1-video-7nsvx5twxay-c0ecbacae4",
@@ -73,7 +73,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الأفعال الناقصة و التامة",
-            "description": "",
+            "description": "This lesson develops key ideas related to الأفعال الناقصة و التامة and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 6,
             "resources": [
               "arabic-g10-s1-video-psoqc1d4khu-379e01f60e",
@@ -83,7 +83,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "صيغ المبالغة",
-            "description": "",
+            "description": "This lesson develops key ideas related to صيغ المبالغة and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 7,
             "resources": [
               "arabic-g10-s1-video-6zg2jhmrxjw-95a290b061",
@@ -93,36 +93,32 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "قواعد إعرابية هامة",
-            "description": "",
+            "description": "This lesson develops key ideas related to قواعد إعرابية هامة and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 8,
-            "resources": [
-              "arabic-g10-s1-pdf-doc-e0002a9adb"
-            ]
+            "resources": ["arabic-g10-s1-pdf-doc-e0002a9adb"]
           },
           {
             "id": "arabic-g10-s1-concept-",
             "title": "كيف تجيب على سؤال النحو؟",
-            "description": "",
+            "description": "This lesson develops key ideas related to كيف تجيب على سؤال النحو؟ and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 9,
-            "resources": [
-              "arabic-g10-s1-pdf-doc-e7b174e366"
-            ]
+            "resources": ["arabic-g10-s1-pdf-doc-e7b174e366"]
           }
         ],
-        "resources": []
+        "resources": [false]
       },
       {
         "id": "arabic-g10-s1-unit-02",
         "type": "unit",
         "number": "02",
         "title": "الأدب",
-        "description": "",
+        "description": "This section supports structured learning by building core language skills and reinforcing understanding through guided practice and study.",
         "order": 2,
         "concepts": [
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الأدب في العصر الأموي",
-            "description": "",
+            "description": "This lesson develops key ideas related to الأدب في العصر الأموي and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 1,
             "resources": [
               "arabic-g10-s1-video-foz5kflq9gw-2c5bd6a78c",
@@ -132,7 +128,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الأدب في العصر الجاهلي",
-            "description": "",
+            "description": "This lesson develops key ideas related to الأدب في العصر الجاهلي and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 2,
             "resources": [
               "arabic-g10-s1-video-dpuwgmtehua-69bfcbcb63",
@@ -142,7 +138,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الأدب في عصر صدر الإسلام",
-            "description": "",
+            "description": "This lesson develops key ideas related to الأدب في عصر صدر الإسلام and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 3,
             "resources": [
               "arabic-g10-s1-video-ulvthswpews-2bfa46cf50",
@@ -150,20 +146,20 @@
             ]
           }
         ],
-        "resources": []
+        "resources": [false]
       },
       {
         "id": "arabic-g10-s1-unit-03",
         "type": "unit",
         "number": "03",
         "title": "القصة",
-        "description": "",
+        "description": "This section supports structured learning by building core language skills and reinforcing understanding through guided practice and study.",
         "order": 3,
         "concepts": [
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الفصل الأول: مغني القافلة",
-            "description": "",
+            "description": "This lesson develops key ideas related to الفصل الأول: مغني القافلة and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 1,
             "resources": [
               "arabic-g10-s1-video-9di-w7nivvy-34db6f1a38",
@@ -173,7 +169,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الفصل الثاني: الطل الثائر",
-            "description": "",
+            "description": "This lesson develops key ideas related to الفصل الثاني: الطل الثائر and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 2,
             "resources": [
               "arabic-g10-s1-video-ip5qns-zz9g-22ba93f6b4",
@@ -183,7 +179,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الفصل الثالث: الطريق إلى الحقيقة",
-            "description": "",
+            "description": "This lesson develops key ideas related to الفصل الثالث: الطريق إلى الحقيقة and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 3,
             "resources": [
               "arabic-g10-s1-video-i05rb41dsr4-686edc4d8f",
@@ -193,7 +189,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الفصل الرابع: حوار ساخن",
-            "description": "",
+            "description": "This lesson develops key ideas related to الفصل الرابع: حوار ساخن and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 4,
             "resources": [
               "arabic-g10-s1-video-dc0ati9u-og-360ae7d7f1",
@@ -203,7 +199,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الفصل الخامس: خطبة عبلة",
-            "description": "",
+            "description": "This lesson develops key ideas related to الفصل الخامس: خطبة عبلة and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 5,
             "resources": [
               "arabic-g10-s1-video-veaon2r-ke-e70bb7fd56",
@@ -213,7 +209,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الفصل السادس: البطل الحر",
-            "description": "",
+            "description": "This lesson develops key ideas related to الفصل السادس: البطل الحر and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 6,
             "resources": [
               "arabic-g10-s1-video-se2bhuntha0-f2c93001a7",
@@ -223,7 +219,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الفصل السابع: انتصار",
-            "description": "",
+            "description": "This lesson develops key ideas related to الفصل السابع: انتصار and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 7,
             "resources": [
               "arabic-g10-s1-video-sgcnyhallly-430b510f0a",
@@ -233,7 +229,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الفصل الثامن: علاقة قلقة",
-            "description": "",
+            "description": "This lesson develops key ideas related to الفصل الثامن: علاقة قلقة and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 8,
             "resources": [
               "arabic-g10-s1-video-zk9ajfnopbs-323aa71f5a",
@@ -241,20 +237,20 @@
             ]
           }
         ],
-        "resources": []
+        "resources": [false]
       },
       {
         "id": "arabic-g10-s1-unit-04",
         "type": "unit",
         "number": "04",
         "title": "القراءة",
-        "description": "",
+        "description": "This section supports structured learning by building core language skills and reinforcing understanding through guided practice and study.",
         "order": 4,
         "concepts": [
           {
             "id": "arabic-g10-s1-concept-",
             "title": "تكنولوجيا المعلومات",
-            "description": "",
+            "description": "This lesson develops key ideas related to تكنولوجيا المعلومات and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 1,
             "resources": [
               "arabic-g10-s1-video-9kfi6c1hzqk-22a935a81b",
@@ -264,7 +260,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "قيم اجتماعية",
-            "description": "",
+            "description": "This lesson develops key ideas related to قيم اجتماعية and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 2,
             "resources": [
               "arabic-g10-s1-video-odfdcoivqzm-907802879b",
@@ -274,7 +270,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "مكارم الأخلاق وحاتم الطائي",
-            "description": "",
+            "description": "This lesson develops key ideas related to مكارم الأخلاق وحاتم الطائي and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 3,
             "resources": [
               "arabic-g10-s1-video-w0rlmu6276g-00698c41cc",
@@ -282,20 +278,20 @@
             ]
           }
         ],
-        "resources": []
+        "resources": [false]
       },
       {
         "id": "arabic-g10-s1-unit-05",
         "type": "unit",
         "number": "05",
         "title": "النصوص",
-        "description": "",
+        "description": "This section supports structured learning by building core language skills and reinforcing understanding through guided practice and study.",
         "order": 5,
         "concepts": [
           {
             "id": "arabic-g10-s1-concept-",
             "title": "ابدأ بنفسك",
-            "description": "",
+            "description": "This lesson develops key ideas related to ابدأ بنفسك and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 1,
             "resources": [
               "arabic-g10-s1-video-xcl5afivwlg-92c4e9f26e",
@@ -305,7 +301,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "آداب صناعة الكتّاب",
-            "description": "",
+            "description": "This lesson develops key ideas related to آداب صناعة الكتّاب and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 2,
             "resources": [
               "arabic-g10-s1-video-l137mcniipc-8178cdbc6f",
@@ -315,7 +311,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "العفو مأمول",
-            "description": "",
+            "description": "This lesson develops key ideas related to العفو مأمول and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 3,
             "resources": [
               "arabic-g10-s1-video-lzykn98wtw4-da6cb7cdb2",
@@ -325,7 +321,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "شباب تسامى للعلا",
-            "description": "",
+            "description": "This lesson develops key ideas related to شباب تسامى للعلا and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 4,
             "resources": [
               "arabic-g10-s1-video-1m0d2cl4gl8-ecf40a79f0",
@@ -335,7 +331,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "قيم الحياة الزوجية",
-            "description": "",
+            "description": "This lesson develops key ideas related to قيم الحياة الزوجية and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 5,
             "resources": [
               "arabic-g10-s1-video-uivfczux01s-2bd803f378",
@@ -345,7 +341,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "من أجل حياة كريمة",
-            "description": "",
+            "description": "This lesson develops key ideas related to من أجل حياة كريمة and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 6,
             "resources": [
               "arabic-g10-s1-video-pohjvnbnku-302e09b772",
@@ -353,20 +349,20 @@
             ]
           }
         ],
-        "resources": []
+        "resources": [false]
       },
       {
         "id": "arabic-g10-s1-unit-06",
         "type": "unit",
         "number": "06",
         "title": "البلاغة",
-        "description": "",
+        "description": "This section supports structured learning by building core language skills and reinforcing understanding through guided practice and study.",
         "order": 6,
         "concepts": [
           {
             "id": "arabic-g10-s1-concept-",
             "title": "الاستعارة",
-            "description": "",
+            "description": "This lesson develops key ideas related to الاستعارة and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 1,
             "resources": [
               "arabic-g10-s1-video-ocd6jjsjct0-770839707b",
@@ -376,7 +372,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "التشبيه",
-            "description": "",
+            "description": "This lesson develops key ideas related to التشبيه and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 2,
             "resources": [
               "arabic-g10-s1-video-c-jmj4uyfxo-fdf2e7c0a2",
@@ -386,7 +382,7 @@
           {
             "id": "arabic-g10-s1-concept-",
             "title": "التعبير الحقيقي والتعبير المجازي",
-            "description": "",
+            "description": "This lesson develops key ideas related to التعبير الحقيقي والتعبير المجازي and helps students connect the topic to clear Arabic language use and interpretation.",
             "order": 3,
             "resources": [
               "arabic-g10-s1-video-oow8nlidado-b255103113",
@@ -394,14 +390,13 @@
             ]
           }
         ],
-        "resources": []
+        "resources": [false]
       },
       {
         "id": "arabic-g10-s1-unit-07",
-        "type": "unit",
-        "number": "07",
+        "type": "references",
         "title": "كتب المنهج",
-        "description": "",
+        "description": "This section supports structured learning by building core language skills and reinforcing understanding through guided practice and study.",
         "order": 7,
         "concepts": [],
         "resources": [
@@ -415,20 +410,10 @@
         ]
       },
       {
-        "id": "arabic-g10-s1-unit-08",
-        "type": "unit",
-        "number": "08",
-        "title": "كتب المنهج",
-        "description": "",
-        "order": 8,
-        "concepts": [],
-        "resources": []
-      },
-      {
         "id": "arabic-g10-s1-qs-bank-question-bank",
         "type": "qs-bank",
         "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
+        "description": "This section provides practice questions and exam-style activities designed to reinforce grammar, literature, and reading skills.",
         "order": 9,
         "concepts": [],
         "resources": [
@@ -437,27 +422,9 @@
           "arabic-g10-s1-pdf-docx-8e162a930d",
           "arabic-g10-s1-pdf-2-2015-doc-7b694ea595"
         ]
-      },
-      {
-        "id": "arabic-g10-s1-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 10,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "arabic-g10-s1-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 11,
-        "concepts": [],
-        "resources": []
       }
     ],
-    "units": 8
+    "units": 6
   },
   "resources": [
     {

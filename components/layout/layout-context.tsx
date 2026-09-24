@@ -59,6 +59,7 @@ export function LayoutProvider({ children }: { children: React.ReactNode }) {
   }, [collapsed]);
 
   useEffect(() => {
+    document.documentElement.lang = language;
     document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
     if (hydrated.current) {
       window.localStorage.setItem("stemawy-grade", String(grade));

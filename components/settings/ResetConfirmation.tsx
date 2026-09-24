@@ -1,5 +1,7 @@
 import { AlertTriangle, X } from "lucide-react";
 import styles from "@/app/settings/settings.module.scss";
+import { useLayoutState } from "@/components/layout/layout-context";
+import { getTranslations } from "@/lib/i18n";
 
 export default function ResetConfirmation({
   onCancel,
@@ -8,6 +10,9 @@ export default function ResetConfirmation({
   onCancel: () => void;
   onConfirm: () => void;
 }) {
+  const { language } = useLayoutState();
+  const t = getTranslations(language);
+
   return (
     <div className={styles.modalBackdrop} role="presentation">
       <div
@@ -19,7 +24,7 @@ export default function ResetConfirmation({
         <button
           className={styles.modalClose}
           type="button"
-          aria-label="Close reset dialog"
+          aria-label={t.settings.closeReset}
           onClick={onCancel}
         >
           <X size={18} />
@@ -27,21 +32,18 @@ export default function ResetConfirmation({
         <span className={styles.warningIcon}>
           <AlertTriangle size={22} />
         </span>
-        <h2 id="reset-title">Reset All Data?</h2>
-        <p>
-          This will remove your locally stored Stemawy preferences, saved
-          content, and local search data. This cannot be undone.
-        </p>
+        <h2 id="reset-title">{t.settings.resetAllData}</h2>
+        <p>{t.settings.resetDescription}</p>
         <div className={styles.modalActions}>
           <button type="button" onClick={onCancel}>
-            Cancel
+            {t.settings.cancel}
           </button>
           <button
             className={styles.dangerButton}
             type="button"
             onClick={onConfirm}
           >
-            Confirm Reset
+            {t.settings.confirmReset}
           </button>
         </div>
       </div>

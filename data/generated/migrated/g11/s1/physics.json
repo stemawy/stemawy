@@ -1,0 +1,2229 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-19T00:00:00.000Z",
+  "source": {
+    "file": "migration/raw/g11/s1/physics.json"
+  },
+  "subject": {
+    "id": "physics-g11-s1",
+    "name": "Physics",
+    "description": "Grade 11 Semester 1 Physics develops a deeper understanding of the fundamental forces, fields, and electrical systems that explain motion, interaction, and energy in the physical world. Students investigate gravitation, static and dynamic electricity, circuits, capacitors, magnetism, and electromagnetic effects using conceptual reasoning, quantitative analysis, and real-world applications.",
+    "grade": "11",
+    "semester": "1",
+    "icon": "physics",
+    "content": [
+      {
+        "id": "physics-g11-s1-unit-01",
+        "type": "unit",
+        "number": "01",
+        "title": "Unit 1 (Lo1)",
+        "description": "This unit introduces gravitation as a fundamental force that governs motion in space and explains why planets, moons, and satellites follow predictable paths. Students learn how gravitational force, field strength, and inverse-square relationships connect to orbital motion and everyday observations of attraction between masses.",
+        "order": 1,
+        "concepts": [
+          {
+            "id": "physics-g11-s1-concept-newtons-law-of-universal-gravitation",
+            "title": "Newton's Law of Universal Gravitation",
+            "description": "This concept explains that every mass in the universe attracts every other mass with a force that depends on the product of the masses and the square of the distance between them.",
+            "order": 1,
+            "resources": [
+              "physics-g11-s1-video-newtons-law-of-universal-gravitation-01-01"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-gravitation-constant",
+            "title": "Gravitation constant",
+            "description": "This concept introduces the universal gravitational constant, which quantifies the strength of the gravitational interaction between masses in the universe.",
+            "order": 2,
+            "resources": ["physics-g11-s1-video-gravitation-constant-01-01"]
+          },
+          {
+            "id": "physics-g11-s1-concept-gravitational-field",
+            "title": "Gravitational field",
+            "description": "This concept describes the region around a mass where a gravitational force acts on other objects, helping students visualize how gravity extends through space.",
+            "order": 3,
+            "resources": ["physics-g11-s1-video-gravitational-field-01-01"]
+          },
+          {
+            "id": "physics-g11-s1-concept-field-force",
+            "title": "Field Force",
+            "description": "This concept explores non-contact forces that act through a field, showing how gravity can influence an object without direct physical contact.",
+            "order": 4,
+            "resources": [
+              "physics-g11-s1-video-field-force-01-01",
+              "physics-g11-s1-video-field-force-01-02"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-inverse-square-law",
+            "title": "Inverse square law",
+            "description": "This concept explains how the effect of a central force decreases with the square of the distance, which is a key idea in gravitation and other field-based interactions.",
+            "order": 5,
+            "resources": ["physics-g11-s1-video-inverse-square-law-01-01"]
+          },
+          {
+            "id": "physics-g11-s1-concept-launching-velocity-of-satellites",
+            "title": "Launching velocity of satellites",
+            "description": "This concept connects orbital motion to the minimum speed required for a satellite to stay in a stable path around a planet, highlighting the relationship between gravity and motion.",
+            "order": 6,
+            "resources": [
+              "physics-g11-s1-video-launching-velocity-of-satellites-01-01"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g11-s1-global-01-01",
+          "physics-g11-s1-global-01-02",
+          "physics-g11-s1-global-01-03",
+          "physics-g11-s1-global-01-04",
+          "physics-g11-s1-global-01-05",
+          "physics-g11-s1-global-01-06",
+          "physics-g11-s1-global-01-07",
+          "physics-g11-s1-global-01-08",
+          "physics-g11-s1-global-01-09",
+          "res_50451468a3"
+        ]
+      },
+      {
+        "id": "physics-g11-s1-unit-02",
+        "type": "unit",
+        "number": "02",
+        "title": "Unit 2 (Lo2)",
+        "description": "This unit focuses on electric charge and electric fields, introducing the basic ideas behind static electricity, attraction and repulsion, and the forces that act between charged particles. Students analyze how charges are transferred, how electric fields are formed, and how Coulomb's law explains the strength of interactions between charges.",
+        "order": 2,
+        "concepts": [
+          {
+            "id": "physics-g11-s1-concept-static-electricity",
+            "title": "Static electricity",
+            "description": "This concept examines electric charges at rest and shows how friction and contact can transfer electrons, creating attraction, repulsion, and observable electrical effects.",
+            "order": 1,
+            "resources": [
+              "physics-g11-s1-video-static-electricity-02-01",
+              "physics-g11-s1-video-static-electricity-02-02"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-coulombs-law",
+            "title": "Coulomb's Law",
+            "description": "This concept describes how the electric force between two charges depends on their magnitudes and the distance between them, forming the electrical analogue of Newton's law of gravitation.",
+            "order": 2,
+            "resources": [
+              "physics-g11-s1-video-coulombs-law-02-01",
+              "physics-g11-s1-video-coulombs-law-02-02"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-electric-field-electric-field-intensity",
+            "title": "Electric Field, Electric Field intensity",
+            "description": "This concept introduces the electric field as a region where a test charge experiences a force, and explains field intensity as the force per unit charge at a point in space.",
+            "order": 3,
+            "resources": [
+              "physics-g11-s1-video-electric-field-electric-field-intensity-02-01",
+              "physics-g11-s1-video-electric-field-electric-field-intensity-02-02"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-conservation-of-electric-charge",
+            "title": "Conservation of electric charge",
+            "description": "This concept states that electric charge is neither created nor destroyed during transfer, helping students understand how systems maintain overall charge balance.",
+            "order": 4,
+            "resources": [
+              "physics-g11-s1-video-conservation-of-electric-charge-02-01",
+              "physics-g11-s1-video-conservation-of-electric-charge-02-02"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-repulsion-and-attraction-of-electric-charges",
+            "title": "Repulsion and attraction of electric charges",
+            "description": "This concept shows how like charges repel while opposite charges attract, revealing the fundamental interactions that determine electric behavior in matter.",
+            "order": 5,
+            "resources": [
+              "physics-g11-s1-video-repulsion-and-attraction-of-electric-charges-02-01"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-methods-of-electrification",
+            "title": "Methods of electrification",
+            "description": "This concept examines the ways objects acquire charge, including friction, conduction, and induction, and explains how each method transfers charge differently.",
+            "order": 6,
+            "resources": [
+              "physics-g11-s1-video-methods-of-electrification-02-01"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-electroscope",
+            "title": "Electroscope",
+            "description": "This concept introduces the electroscope as a device used to detect the presence and sign of electric charge through the motion of its leaves.",
+            "order": 7,
+            "resources": ["physics-g11-s1-video-electroscope-02-01"]
+          },
+          {
+            "id": "physics-g11-s1-concept-electric-field-lines",
+            "title": "Electric Field Lines",
+            "description": "This concept uses field-line diagrams to represent the direction and strength of electric fields, making it easier to visualize how charges interact.",
+            "order": 8,
+            "resources": ["physics-g11-s1-video-electric-field-lines-02-01"]
+          },
+          {
+            "id": "physics-g11-s1-concept-electric-potential",
+            "title": "Electric potential",
+            "description": "This concept explains electric potential as the potential energy per unit charge and shows how differences in potential drive current in electrical circuits.",
+            "order": 9,
+            "resources": ["physics-g11-s1-video-electric-potential-02-01"]
+          }
+        ],
+        "resources": [
+          "physics-g11-s1-global-02-01",
+          "physics-g11-s1-global-02-02",
+          "res_128de3bf77"
+        ]
+      },
+      {
+        "id": "physics-g11-s1-unit-03",
+        "type": "unit",
+        "number": "03",
+        "title": "Unit 3 (Lo3)",
+        "description": "This unit introduces dynamic electricity and the movement of charge through conductors. Students learn how electric current is established, how charge flows in circuits, and why practical electrical systems require a complete path and appropriate energy source.",
+        "order": 3,
+        "concepts": [
+          {
+            "id": "physics-g11-s1-concept-dynamic-electricity",
+            "title": "Dynamic electricity",
+            "description": "This concept examines electric current as the continuous flow of charge in a conducting path, connecting the motion of electrons to practical electrical devices and circuits.",
+            "order": 1,
+            "resources": ["physics-g11-s1-video-dynamic-electricity-03-01"]
+          }
+        ],
+        "resources": [
+          "physics-g11-s1-global-03-01",
+          "physics-g11-s1-global-03-02",
+          "physics-g11-s1-global-03-03",
+          "physics-g11-s1-global-03-04",
+          "physics-g11-s1-global-03-05",
+          "physics-g11-s1-global-03-06",
+          "physics-g11-s1-global-03-07",
+          "physics-g11-s1-global-03-08",
+          "physics-g11-s1-global-03-09",
+          "physics-g11-s1-global-03-10",
+          "physics-g11-s1-global-03-11",
+          "res_9f5aefd55f"
+        ]
+      },
+      {
+        "id": "physics-g11-s1-unit-04",
+        "type": "unit",
+        "number": "04",
+        "title": "Unit 4 (Lo4)",
+        "description": "This unit introduces the behavior of electrical circuits and the relationship between resistance, voltage, and current. Students analyze series and parallel arrangements, apply Kirchhoff's laws, and solve circuit problems using conservation principles and equivalent resistance concepts.",
+        "order": 4,
+        "concepts": [
+          {
+            "id": "physics-g11-s1-concept-connections-of-resistors-series-and-parallel",
+            "title": "Connections of resistors (series & parallel)",
+            "description": "This concept explains how resistors combine in series and parallel circuits and how these arrangements affect total resistance, current distribution, and voltage drops.",
+            "order": 1,
+            "resources": [
+              "physics-g11-s1-video-connections-of-resistors-series-and-parallel-04-01"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-kirchoffs-current-law",
+            "title": "Kirchoff's current law",
+            "description": "This concept applies the principle of charge conservation to circuits, showing that current entering a junction must equal the current leaving it.",
+            "order": 2,
+            "resources": [
+              "physics-g11-s1-video-kirchoffs-current-law-04-01",
+              "physics-g11-s1-video-kirchoffs-current-law-04-02"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-kirchoffs-voltage-law",
+            "title": "Kirchoff's voltage law",
+            "description": "This concept uses energy conservation in closed loops to show that the sum of voltage changes around a circuit must equal zero.",
+            "order": 3,
+            "resources": [
+              "physics-g11-s1-video-kirchoffs-voltage-law-04-01",
+              "physics-g11-s1-video-kirchoffs-voltage-law-04-02"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g11-s1-global-04-01",
+          "physics-g11-s1-global-04-02",
+          "physics-g11-s1-global-04-03",
+          "physics-g11-s1-global-04-04",
+          "physics-g11-s1-global-04-05",
+          "physics-g11-s1-global-04-06",
+          "res_e73eccc6a5"
+        ]
+      },
+      {
+        "id": "physics-g11-s1-unit-05",
+        "type": "unit",
+        "number": "05",
+        "title": "Unit 5 (Lo5)",
+        "description": "This unit explores capacitors as devices that store electrical energy in an electric field. Students study charging and discharging behavior, dielectric effects, capacitance relationships, and the time-dependent nature of RC circuits.",
+        "order": 5,
+        "concepts": [
+          {
+            "id": "physics-g11-s1-concept-capacitor-charging-and-discharging",
+            "title": "Capacitor charging and discharging",
+            "description": "This concept explains how a capacitor stores charge as it charges and releases that stored energy as it discharges, showing the role of resistance and time in the process.",
+            "order": 1,
+            "resources": [
+              "physics-g11-s1-video-capacitor-charging-and-discharging-05-01"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-energy-storage",
+            "title": "Energy storage",
+            "description": "This concept shows that capacitors store energy in the electric field between their plates and relates the stored energy to the potential difference and capacitance.",
+            "order": 2,
+            "resources": ["physics-g11-s1-video-energy-storage-05-01"]
+          },
+          {
+            "id": "physics-g11-s1-concept-dielectric-material",
+            "title": "Dielectric material",
+            "description": "This concept introduces dielectrics as insulating materials that increase a capacitor's capacitance by reducing the effective electric field between its plates.",
+            "order": 3,
+            "resources": ["physics-g11-s1-video-dielectric-material-05-01"]
+          },
+          {
+            "id": "physics-g11-s1-concept-time-constant-exponential-chargedischarge",
+            "title": "Time constant ? Exponential charge/discharge",
+            "description": "This concept explains the time constant as the measure of how quickly a capacitor charges or discharges, with the voltage changing exponentially over time.",
+            "order": 4,
+            "resources": [
+              "physics-g11-s1-video-time-constant-exponential-chargedischarge-05-01"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-capacitance-in-series-and-parallel-group-of-connected-capacitors",
+            "title": "Capacitance in series and parallel group of connected capacitors",
+            "description": "This concept explains how capacitors combine in series and parallel arrangements, helping students predict equivalent capacitance in larger circuits.",
+            "order": 5,
+            "resources": [
+              "physics-g11-s1-video-capacitance-in-series-and-parallel-group-of-connected-capacitors-05-01"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g11-s1-global-05-01",
+          "physics-g11-s1-global-05-02",
+          "physics-g11-s1-global-05-03",
+          "physics-g11-s1-global-05-04",
+          "res_dabe8172d0"
+        ]
+      },
+      {
+        "id": "physics-g11-s1-unit-06",
+        "type": "unit",
+        "number": "06",
+        "title": "Unit 6 (Lo6)",
+        "description": "This unit introduces magnetism as a field-based phenomenon that affects moving charges and magnetic materials. Students investigate magnetic field direction, field strength, and the polarity of solenoids, building the foundation for later study of motors and electromagnetic devices.",
+        "order": 6,
+        "concepts": [
+          {
+            "id": "physics-g11-s1-concept-magnetic-field-strength-and-direction",
+            "title": "Magnetic field: strength and direction",
+            "description": "This concept explains that magnetic fields are vector fields that have both magnitude and direction, and that their effect is strongest near magnetic sources.",
+            "order": 1,
+            "resources": [
+              "physics-g11-s1-video-magnetic-field-strength-and-direction-06-01"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-rules-to-determine-the-direction-of-magnetic-field-amperes-rule",
+            "title": "Rules to determine the direction of magnetic field (Ampere's rule)",
+            "description": "This concept introduces the right-hand rule and related methods used to determine the direction of magnetic fields generated by electric currents and current-carrying conductors.",
+            "order": 2,
+            "resources": [
+              "physics-g11-s1-video-rules-to-determine-the-direction-of-magnetic-field-amperes-rule-06-01"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-polarity-of-a-solenoid",
+            "title": "Polarity of a solenoid",
+            "description": "This concept explains how a current-carrying solenoid behaves like a magnet and how its ends acquire north and south polarity depending on the current direction.",
+            "order": 3,
+            "resources": ["physics-g11-s1-video-polarity-of-a-solenoid-06-01"]
+          }
+        ],
+        "resources": [
+          "physics-g11-s1-global-06-01",
+          "physics-g11-s1-global-06-02",
+          "physics-g11-s1-global-06-03",
+          "res_769325ab2a"
+        ]
+      },
+      {
+        "id": "physics-g11-s1-unit-07",
+        "type": "unit",
+        "number": "07",
+        "title": "Unit 7 (Lo7)",
+        "description": "This unit connects magnetic fields to force and motion, showing how moving charges and current-carrying wires experience magnetic forces. Students also study magnetic torque, motors, and measuring instruments that translate magnetic effects into practical technological applications.",
+        "order": 7,
+        "concepts": [
+          {
+            "id": "physics-g11-s1-concept-force-on-moving-charge-in-magnetic-field-force-on-current-carrying-wire-in-magnetic-field",
+            "title": "Force on moving charge in magnetic field / Force on current-carrying wire in magnetic field",
+            "description": "This concept explains how a magnetic field exerts a force on moving charges and on wires carrying current, linking magnetic interactions to motion, torque, and electromechanical devices.",
+            "order": 1,
+            "resources": [
+              "physics-g11-s1-video-force-on-moving-charge-in-magnetic-field-force-on-current-carrying-wire-in-magnetic-field-07-01"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-magnetic-torque-and-motors",
+            "title": "Magnetic torque and motors",
+            "description": "This concept shows how magnetic forces create rotational motion and how motors convert electrical energy into mechanical work through magnetic torque.",
+            "order": 2,
+            "resources": [
+              "physics-g11-s1-video-magnetic-torque-and-motors-07-01"
+            ]
+          },
+          {
+            "id": "physics-g11-s1-concept-measuring-devices-sensitive-galvanometer-ammeter-voltmeter-ohmmeter",
+            "title": "Measuring devices (sensitive galvanometer, ammeter, voltmeter, ohmmeter)",
+            "description": "This concept introduces the measuring instruments used to detect and quantify current, voltage, and resistance, emphasizing their design and the electrical principles behind their operation.",
+            "order": 3,
+            "resources": [
+              "physics-g11-s1-video-measuring-devices-sensitive-galvanometer-ammeter-voltmeter-ohmmeter-07-01"
+            ]
+          }
+        ],
+        "resources": [
+          "physics-g11-s1-global-07-01",
+          "physics-g11-s1-global-07-02",
+          "physics-g11-s1-global-07-03",
+          "res_1a04e6dc94"
+        ]
+      },
+      {
+        "id": "lo_afc5df851f",
+        "type": "qs-bank",
+        "title": "Test Banks",
+        "description": "",
+        "order": 8,
+        "concepts": [],
+        "resources": [
+          "res_a1797084f5",
+          "res_7ec1a13298",
+          "res_0b71ea05d7",
+          "res_6b0d12e037",
+          "res_69a0806d19",
+          "res_fcf43e0aef",
+          "res_686fd24158",
+          "res_a360231e8e",
+          "res_da3befce77",
+          "res_5cc91f99cf",
+          "res_de8a40ad38",
+          "res_7aabc1372e",
+          "res_c88d403c50",
+          "res_de0fc460d2",
+          "res_89cafa4d39",
+          "res_dc6c197477",
+          "res_8522d926fa",
+          "res_2390a8350d",
+          "res_bfe2809877",
+          "res_ebb3c993ed",
+          "res_6471a5a362",
+          "res_c6bc1574c2",
+          "res_ce46ed9721",
+          "res_a2231f5e9e",
+          "res_2608473d94",
+          "res_acfe535cce",
+          "res_eac27cfc29",
+          "res_5b5af7f43b",
+          "res_15f2b0a9d1"
+        ]
+      },
+      {
+        "id": "lo_4568b5e451",
+        "type": "references",
+        "title": "Additional References",
+        "description": "",
+        "order": 9,
+        "concepts": [],
+        "resources": [
+          "res_0d5ad2d17a",
+          "res_8d768998d3",
+          "res_72ce526e81",
+          "res_5578f6be70",
+          "res_61e0c6bccf",
+          "res_6e2f483346",
+          "res_08d8c74c2c",
+          "res_cdec641be5",
+          "res_a0df84a858",
+          "res_c8366cdd2c",
+          "res_bc47784851",
+          "res_8fb9f975df",
+          "res_4b256e153d",
+          "res_892170e90e",
+          "res_7457234491",
+          "res_57da7cff7b",
+          "res_031d2b3d9d",
+          "res_aa60c62644",
+          "res_3c3d0aeb03",
+          "res_4d8f8590fb",
+          "res_a99cdd87f2",
+          "res_6bb96cee4c",
+          "res_3485ea3d63",
+          "res_cb3d9e3e3e",
+          "res_d66f0222ef",
+          "res_fa1b945e0e",
+          "res_d65725c153",
+          "res_3b687001a2",
+          "res_38a99fc7b3",
+          "res_2748d27bbc",
+          "res_dd001ffd13",
+          "res_7a4c40488c",
+          "res_d989c93fa8",
+          "res_fd886cafa1",
+          "res_b3ed7b4fd7",
+          "res_6b1be0e6af",
+          "res_17e52b85e9",
+          "res_bdf023ec4c",
+          "res_02a48fbc56",
+          "res_4cad3edf9a",
+          "res_cd1baee9f0",
+          "res_105d0d8bf4",
+          "res_4d6aca0cdb",
+          "res_e04c9eb2b4",
+          "res_73e33798ef"
+        ]
+      }
+    ],
+    "units": 7
+  },
+  "resources": [
+    {
+      "id": "physics-g11-s1-global-01-01",
+      "title": "Unit 01 global link 1",
+      "type": "video",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/drive/folders/1H1W8eOV3i9sgUPrt9wTI03lBxy8-_K0J?usp=drive_link",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      }
+    },
+    {
+      "id": "physics-g11-s1-global-01-02",
+      "title": "Unit 01 global link 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=WLCMiPkXGTU",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "WLCMiPkXGTU"
+    },
+    {
+      "id": "physics-g11-s1-global-01-03",
+      "title": "Unit 01 global link 3",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=a9W9sHZIEVk&list=PLD30uL4tqplETbt0-JOsPTjLsQG1dFMwS",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "a9W9sHZIEVk"
+    },
+    {
+      "id": "physics-g11-s1-global-01-04",
+      "title": "Unit 01 global link 4",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=k0O0ls8FhFk",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "k0O0ls8FhFk"
+    },
+    {
+      "id": "physics-g11-s1-global-01-05",
+      "title": "Unit 01 global link 5",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=4IYnV6QCDTI",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "4IYnV6QCDTI"
+    },
+    {
+      "id": "physics-g11-s1-global-01-06",
+      "title": "Unit 01 global link 6",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=mjapQ6Ne0sk",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "mjapQ6Ne0sk"
+    },
+    {
+      "id": "physics-g11-s1-global-01-07",
+      "title": "Unit 01 global link 7",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=yHe0ht0YCeQ",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "yHe0ht0YCeQ"
+    },
+    {
+      "id": "physics-g11-s1-global-01-08",
+      "title": "Unit 01 global link 8",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=oLU4cSTi60Y",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "oLU4cSTi60Y"
+    },
+    {
+      "id": "physics-g11-s1-global-01-09",
+      "title": "Unit 01 global link 9",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=VzdVwqQMblQ",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "VzdVwqQMblQ"
+    },
+    {
+      "id": "physics-g11-s1-video-newtons-law-of-universal-gravitation-01-01",
+      "title": "Newton's Law of Universal Gravitation",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=PIpnGilqefE&pp=ygUlTmV3dG9uJ3MgTGF3IG9mIFVuaXZlcnNhbCBHcmF2aXRhdGlvbg%3D%3D",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Concepts -> Newton's Law of Universal Gravitation"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "PIpnGilqefE"
+    },
+    {
+      "id": "physics-g11-s1-video-gravitation-constant-01-01",
+      "title": "Gravitation constant",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Ep1jIhHdf2A&pp=ygUVR3Jhdml0YXRpb24gY29uc3RhbnQu",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Concepts -> Gravitation constant"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "Ep1jIhHdf2A"
+    },
+    {
+      "id": "physics-g11-s1-video-gravitational-field-01-01",
+      "title": "Gravitational field",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=CJV7RZNCN28&pp=ygUTR3Jhdml0YXRpb25hbCBmaWVsZA%3D%3D",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Concepts -> Gravitational field"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "CJV7RZNCN28"
+    },
+    {
+      "id": "physics-g11-s1-video-field-force-01-01",
+      "title": "Field Force",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=JmIXAN9qBUw&pp=ygULRmllbGQgRm9yY2U%3D",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Concepts -> Field Force"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "JmIXAN9qBUw"
+    },
+    {
+      "id": "physics-g11-s1-video-field-force-01-02",
+      "title": "Field Force",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=8AUljAd_AyE&pp=ygULRmllbGQgRm9yY2U%3D",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Concepts -> Field Force"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "8AUljAd_AyE"
+    },
+    {
+      "id": "physics-g11-s1-video-inverse-square-law-01-01",
+      "title": "Inverse square law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=BF73QaY1aEg&pp=ygUSSW52ZXJzZSBzcXVhcmUgbGF3",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Concepts -> Inverse square law"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "BF73QaY1aEg"
+    },
+    {
+      "id": "physics-g11-s1-video-launching-velocity-of-satellites-01-01",
+      "title": "Launching velocity of satellites",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=QIaAleG0Eb4&pp=ygUhTGF1bmNoaW5nIHZlbG9jaXR5IG9mIHNhdGVsbGl0ZXMu",
+      "source": {
+        "location": "Unit 01 (Lo1) -> Concepts -> Launching velocity of satellites"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-01"
+      },
+      "youtubeId": "QIaAleG0Eb4"
+    },
+    {
+      "id": "physics-g11-s1-global-02-01",
+      "title": "Unit 02 global link 1",
+      "type": "video",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/drive/folders/15D3rZsHfM9SX1fusGDBHY-8xkk7H-l?usp=drive_link",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      }
+    },
+    {
+      "id": "physics-g11-s1-global-02-02",
+      "title": "Unit 02 global link 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=CtjkPkv2Fhk&list=PLD30uL4tqplGqcEvIb_lQkguEFvQ2XZKe",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "CtjkPkv2Fhk"
+    },
+    {
+      "id": "physics-g11-s1-video-static-electricity-02-01",
+      "title": "Static electricity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=yc2-363MIQs&pp=ygUSU3RhdGljIGVsZWN0cmljaXR5",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Static electricity"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "yc2-363MIQs"
+    },
+    {
+      "id": "physics-g11-s1-video-static-electricity-02-02",
+      "title": "Static electricity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=D5pJKu_QjRo&pp=ygUSU3RhdGljIGVsZWN0cmljaXR5",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Static electricity"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "D5pJKu_QjRo"
+    },
+    {
+      "id": "physics-g11-s1-video-coulombs-law-02-01",
+      "title": "Coulomb's Law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=kCp5yYjo9zE&pp=ygUNQ291bG9tYidzIExhdw%3D%3D",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Coulomb's Law"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "kCp5yYjo9zE"
+    },
+    {
+      "id": "physics-g11-s1-video-coulombs-law-02-02",
+      "title": "Coulomb's Law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=MsINeZMeTMQ&pp=ygUNQ291bG9tYidzIExhdw%3D%3D",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Coulomb's Law"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "MsINeZMeTMQ"
+    },
+    {
+      "id": "physics-g11-s1-video-electric-field-electric-field-intensity-02-01",
+      "title": "Electric Field, Electric Field intensity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=V9RLc9EX1so&pp=ygUoRWxlY3RyaWMgRmllbGQsIEVsZWN0cmljIEZpZWxkIGludGVuc2l0eQ%3D%3D",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Electric Field, Electric Field intensity"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "V9RLc9EX1so"
+    },
+    {
+      "id": "physics-g11-s1-video-electric-field-electric-field-intensity-02-02",
+      "title": "Electric Field, Electric Field intensity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=_4VC3IHbuW8&pp=ygUoRWxlY3RyaWMgRmllbGQsIEVsZWN0cmljIEZpZWxkIGludGVuc2l0eQ%3D%3D",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Electric Field, Electric Field intensity"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "_4VC3IHbuW8"
+    },
+    {
+      "id": "physics-g11-s1-video-conservation-of-electric-charge-02-01",
+      "title": "Conservation of electric charge",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=OSUvXC1pACA&pp=ygUfQ29uc2VydmF0aW9uIG9mIGVsZWN0cmljIGNoYXJnZQ%3D%3D",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Conservation of electric charge"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "OSUvXC1pACA"
+    },
+    {
+      "id": "physics-g11-s1-video-conservation-of-electric-charge-02-02",
+      "title": "Conservation of electric charge",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Sn5CwAODVdI&pp=ygUfQ29uc2VydmF0aW9uIG9mIGVsZWN0cmljIGNoYXJnZQ%3D%3D",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Conservation of electric charge"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "Sn5CwAODVdI"
+    },
+    {
+      "id": "physics-g11-s1-video-repulsion-and-attraction-of-electric-charges-02-01",
+      "title": "Repulsion and attraction of electric charges",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=TFlVWf8JX4A&t=59s&pp=ygUsUmVwdWxzaW9uIGFuZCBhdHRyYWN0aW9uIG9mIGVsZWN0cmljIGNoYXJnZXM%3D",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Repulsion and attraction of electric charges"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "TFlVWf8JX4A"
+    },
+    {
+      "id": "physics-g11-s1-video-methods-of-electrification-02-01",
+      "title": "Methods of electrification",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZbBHnod_Mew&pp=ygUaTWV0aG9kcyBvZiBlbGVjdHJpZmljYXRpb24%3D",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Methods of electrification"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "ZbBHnod_Mew"
+    },
+    {
+      "id": "physics-g11-s1-video-electroscope-02-01",
+      "title": "Electroscope",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=B1WmizUghMo&pp=ygUMRWxlY3Ryb3Njb3Bl0gcJCRMMAYcqIYzv",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Electroscope"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "B1WmizUghMo"
+    },
+    {
+      "id": "physics-g11-s1-video-electric-field-lines-02-01",
+      "title": "Electric Field Lines",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=AtbaYUYTawg&pp=ygUURWxlY3RyaWMgRmllbGQgTGluZXM%3D",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Electric Field Lines"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "AtbaYUYTawg"
+    },
+    {
+      "id": "physics-g11-s1-video-electric-potential-02-01",
+      "title": "Electric potential",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=LzKMQByFSLc&pp=ygUSZWxlY3RyaWMgcG90ZW50aWFs",
+      "source": {
+        "location": "Unit 02 (Lo2) -> Concepts -> Electric potential"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-02"
+      },
+      "youtubeId": "LzKMQByFSLc"
+    },
+    {
+      "id": "physics-g11-s1-global-03-01",
+      "title": "Unit 03 global link 1",
+      "type": "video",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/drive/folders/1xTVv1gjoRL7L3YJP74kqgjIvQyJEWBZM?usp=drive_link",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      }
+    },
+    {
+      "id": "physics-g11-s1-global-03-02",
+      "title": "Unit 03 global link 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=bekD4EEHM9g",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      },
+      "youtubeId": "bekD4EEHM9g"
+    },
+    {
+      "id": "physics-g11-s1-global-03-03",
+      "title": "Unit 03 global link 3",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=y5WJDi7p0gQ&t=27s",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      },
+      "youtubeId": "y5WJDi7p0gQ"
+    },
+    {
+      "id": "physics-g11-s1-global-03-04",
+      "title": "Unit 03 global link 4",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=eAnz0S7yGsw&t=2374s",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      },
+      "youtubeId": "eAnz0S7yGsw"
+    },
+    {
+      "id": "physics-g11-s1-global-03-05",
+      "title": "Unit 03 global link 5",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=i_eHT0u8zk0",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      },
+      "youtubeId": "i_eHT0u8zk0"
+    },
+    {
+      "id": "physics-g11-s1-global-03-06",
+      "title": "Unit 03 global link 6",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=5c9O01VMFTM",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      },
+      "youtubeId": "5c9O01VMFTM"
+    },
+    {
+      "id": "physics-g11-s1-global-03-07",
+      "title": "Unit 03 global link 7",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ru_j3-QCgSs&t=1688s",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      },
+      "youtubeId": "ru_j3-QCgSs"
+    },
+    {
+      "id": "physics-g11-s1-global-03-08",
+      "title": "Unit 03 global link 8",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=0TT1ZIULEto",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      },
+      "youtubeId": "0TT1ZIULEto"
+    },
+    {
+      "id": "physics-g11-s1-global-03-09",
+      "title": "Unit 03 global link 9",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=4DYolRNrC-g",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      },
+      "youtubeId": "4DYolRNrC-g"
+    },
+    {
+      "id": "physics-g11-s1-global-03-10",
+      "title": "Unit 03 global link 10",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=jlL6JX1CLO8",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      },
+      "youtubeId": "jlL6JX1CLO8"
+    },
+    {
+      "id": "physics-g11-s1-global-03-11",
+      "title": "Unit 03 global link 11",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=mC4x184fWpE",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      },
+      "youtubeId": "mC4x184fWpE"
+    },
+    {
+      "id": "physics-g11-s1-video-dynamic-electricity-03-01",
+      "title": "Dynamic electricity",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=wejz5s31Cts&list=PLtJKsOWK_CHYmB1IcdLnsv4w8srfB2YAR",
+      "source": {
+        "location": "Unit 03 (Lo3) -> Concepts -> Dynamic electricity"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-03"
+      },
+      "youtubeId": "wejz5s31Cts"
+    },
+    {
+      "id": "physics-g11-s1-global-04-01",
+      "title": "Unit 04 global link 1",
+      "type": "video",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/drive/folders/1GyskBYcJIGRojCywGtaeR9wyXme87V6N?usp=drive_link",
+      "source": {
+        "location": "Unit 04 (Lo4) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-04"
+      }
+    },
+    {
+      "id": "physics-g11-s1-global-04-02",
+      "title": "Unit 04 global link 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=FLYFyoPe4Jw&t=2790s",
+      "source": {
+        "location": "Unit 04 (Lo4) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-04"
+      },
+      "youtubeId": "FLYFyoPe4Jw"
+    },
+    {
+      "id": "physics-g11-s1-global-04-03",
+      "title": "Unit 04 global link 3",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=PrfBjPkWVnw",
+      "source": {
+        "location": "Unit 04 (Lo4) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-04"
+      },
+      "youtubeId": "PrfBjPkWVnw"
+    },
+    {
+      "id": "physics-g11-s1-global-04-04",
+      "title": "Unit 04 global link 4",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=kO9PZvzIjKE",
+      "source": {
+        "location": "Unit 04 (Lo4) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-04"
+      },
+      "youtubeId": "kO9PZvzIjKE"
+    },
+    {
+      "id": "physics-g11-s1-global-04-05",
+      "title": "Unit 04 global link 5",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=yZ3AzwuHxyk",
+      "source": {
+        "location": "Unit 04 (Lo4) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-04"
+      },
+      "youtubeId": "yZ3AzwuHxyk"
+    },
+    {
+      "id": "physics-g11-s1-global-04-06",
+      "title": "Unit 04 global link 6",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=1SIIEi7FAzo",
+      "source": {
+        "location": "Unit 04 (Lo4) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-04"
+      },
+      "youtubeId": "1SIIEi7FAzo"
+    },
+    {
+      "id": "physics-g11-s1-video-connections-of-resistors-series-and-parallel-04-01",
+      "title": "Connections of resistors (series & parallel)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=dEuBykX5_B4&pp=ygUrQ29ubmVjdGlvbnMgb2YgcmVzaXN0b3JzIChzZXJpZXMgJiBwYXJhbGxlbA%3D%3D",
+      "source": {
+        "location": "Unit 04 (Lo4) -> Concepts -> Connections of resistors (series & parallel)"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-04"
+      },
+      "youtubeId": "dEuBykX5_B4"
+    },
+    {
+      "id": "physics-g11-s1-video-kirchoffs-current-law-04-01",
+      "title": "Kirchoff's current law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Q39xQUlTGew&pp=ygUWS2lyY2hvZmYncyBjdXJyZW50IGxhdw%3D%3D",
+      "source": {
+        "location": "Unit 04 (Lo4) -> Concepts -> Kirchoff's current law"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-04"
+      },
+      "youtubeId": "Q39xQUlTGew"
+    },
+    {
+      "id": "physics-g11-s1-video-kirchoffs-current-law-04-02",
+      "title": "Kirchoff's current law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=OYerdzZPSI0&pp=ygUWS2lyY2hvZmYncyBjdXJyZW50IGxhd9IHCQkTDAGHKiGM7w%3D%3D",
+      "source": {
+        "location": "Unit 04 (Lo4) -> Concepts -> Kirchoff's current law"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-04"
+      },
+      "youtubeId": "OYerdzZPSI0"
+    },
+    {
+      "id": "physics-g11-s1-video-kirchoffs-voltage-law-04-01",
+      "title": "Kirchoff's voltage law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=6F_rmZ1nXFQ&pp=ygUWS2lyY2hvZmYncyB2b2x0YWdlIGxhdw%3D%3D",
+      "source": {
+        "location": "Unit 04 (Lo4) -> Concepts -> Kirchoff's voltage law"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-04"
+      },
+      "youtubeId": "6F_rmZ1nXFQ"
+    },
+    {
+      "id": "physics-g11-s1-video-kirchoffs-voltage-law-04-02",
+      "title": "Kirchoff's voltage law",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=Bt6V7D5av9A&pp=ygUWS2lyY2hvZmYncyB2b2x0YWdlIGxhdw%3D%3D",
+      "source": {
+        "location": "Unit 04 (Lo4) -> Concepts -> Kirchoff's voltage law"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-04"
+      },
+      "youtubeId": "Bt6V7D5av9A"
+    },
+    {
+      "id": "physics-g11-s1-global-05-01",
+      "title": "Unit 05 global link 1",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=GdfEqOXJ_7E&list=PLD30uL4tqplETtebIz-ZKd7OYx6qPGReW",
+      "source": {
+        "location": "Unit 05 (Lo5) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-05"
+      },
+      "youtubeId": "GdfEqOXJ_7E"
+    },
+    {
+      "id": "physics-g11-s1-global-05-02",
+      "title": "Unit 05 global link 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=RaPvWxaI1NQ",
+      "source": {
+        "location": "Unit 05 (Lo5) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-05"
+      },
+      "youtubeId": "RaPvWxaI1NQ"
+    },
+    {
+      "id": "physics-g11-s1-global-05-03",
+      "title": "Unit 05 global link 3",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=PLQrPqYlPmI",
+      "source": {
+        "location": "Unit 05 (Lo5) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-05"
+      },
+      "youtubeId": "PLQrPqYlPmI"
+    },
+    {
+      "id": "physics-g11-s1-global-05-04",
+      "title": "Unit 05 global link 4",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=CT-z718ctQE",
+      "source": {
+        "location": "Unit 05 (Lo5) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-05"
+      },
+      "youtubeId": "CT-z718ctQE"
+    },
+    {
+      "id": "physics-g11-s1-video-capacitor-charging-and-discharging-05-01",
+      "title": "Capacitor charging and discharging",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=PLQrPqYlPmI&pp=ygUiQ2FwYWNpdG9yIGNoYXJnaW5nIGFuZCBkaXNjaGFyZ2luZw%3D%3D",
+      "source": {
+        "location": "Unit 05 (Lo5) -> Concepts -> Capacitor charging and discharging"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-05"
+      },
+      "youtubeId": "PLQrPqYlPmI"
+    },
+    {
+      "id": "physics-g11-s1-video-energy-storage-05-01",
+      "title": "Energy storage",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=GnXNTC3EyWg&pp=ygUPRW5lcmd5IHN0b3JhZ2U",
+      "source": {
+        "location": "Unit 05 (Lo5) -> Concepts -> Energy storage"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-05"
+      },
+      "youtubeId": "GnXNTC3EyWg"
+    },
+    {
+      "id": "physics-g11-s1-video-dielectric-material-05-01",
+      "title": "Dielectric material",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=rkntp3_cZl4&pp=ygUTZGllbGVjdHJpYyBtYXRlcmlhbA%3D%3D",
+      "source": {
+        "location": "Unit 05 (Lo5) -> Concepts -> Dielectric material"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-05"
+      },
+      "youtubeId": "rkntp3_cZl4"
+    },
+    {
+      "id": "physics-g11-s1-video-time-constant-exponential-chargedischarge-05-01",
+      "title": "Time constant ? Exponential charge/discharge",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=PLQrPqYlPmI&pp=ygUNdGltZSBjb25zdGFudNIHCQkTDAGHKiGM7w%3D%3D",
+      "source": {
+        "location": "Unit 05 (Lo5) -> Concepts -> Time constant ? Exponential charge/discharge"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-05"
+      },
+      "youtubeId": "PLQrPqYlPmI"
+    },
+    {
+      "id": "physics-g11-s1-video-capacitance-in-series-and-parallel-group-of-connected-capacitors-05-01",
+      "title": "Capacitance in series and parallel group of connected capacitors",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=zaT4JorVUz0&pp=ygVAQ2FwYWNpdGFuY2UgaW4gc2VyaWVzIGFuZCBwYXJhbGxlbCBncm91cCBvZiBjb25uZWN0ZWQgY2FwYWNpdG9ycw%3D%3D",
+      "source": {
+        "location": "Unit 05 (Lo5) -> Concepts -> Capacitance in series and parallel group of connected capacitors"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-05"
+      },
+      "youtubeId": "zaT4JorVUz0"
+    },
+    {
+      "id": "physics-g11-s1-global-06-01",
+      "title": "Unit 06 global link 1",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=tBfGQNkaoOU",
+      "source": {
+        "location": "Unit 06 (Lo6) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-06"
+      },
+      "youtubeId": "tBfGQNkaoOU"
+    },
+    {
+      "id": "physics-g11-s1-global-06-02",
+      "title": "Unit 06 global link 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=TGxRrIANaIY",
+      "source": {
+        "location": "Unit 06 (Lo6) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-06"
+      },
+      "youtubeId": "TGxRrIANaIY"
+    },
+    {
+      "id": "physics-g11-s1-global-06-03",
+      "title": "Unit 06 global link 3",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=gEHmod6krLI",
+      "source": {
+        "location": "Unit 06 (Lo6) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-06"
+      },
+      "youtubeId": "gEHmod6krLI"
+    },
+    {
+      "id": "physics-g11-s1-video-magnetic-field-strength-and-direction-06-01",
+      "title": "Magnetic field: strength and direction",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=ZKP_Hymg&t=51s&pp=ygUmTWFnbmV0aWMgZmllbGQ6IHN0cmVuZ3RoIGFuZCBkaXJlY3Rpb24%3D",
+      "source": {
+        "location": "Unit 06 (Lo6) -> Concepts -> Magnetic field: strength and direction"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-06"
+      },
+      "youtubeId": "ZKP_Hymg"
+    },
+    {
+      "id": "physics-g11-s1-video-rules-to-determine-the-direction-of-magnetic-field-amperes-rule-06-01",
+      "title": "Rules to determine the direction of magnetic field (Ampere's rule)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=47uESIjJSTg&pp=ygVBUnVsZXMgdG8gZGV0ZXJtaW5lIHRoZSBkaXJlY3Rpb24gb2YgbWFnbmV0aWMgZmllbGQgKEFtcGVyZSdzIHJ1bGU%3D",
+      "source": {
+        "location": "Unit 06 (Lo6) -> Concepts -> Rules to determine the direction of magnetic field (Ampere's rule)"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-06"
+      },
+      "youtubeId": "47uESIjJSTg"
+    },
+    {
+      "id": "physics-g11-s1-video-polarity-of-a-solenoid-06-01",
+      "title": "Polarity of a solenoid",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=VqjfrIM4ZVA&t=214s&pp=ygUWUG9sYXJpdHkgb2YgYSBzb2xlbm9pZA%3D%3D",
+      "source": {
+        "location": "Unit 06 (Lo6) -> Concepts -> Polarity of a solenoid"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-06"
+      },
+      "youtubeId": "VqjfrIM4ZVA"
+    },
+    {
+      "id": "physics-g11-s1-global-07-01",
+      "title": "Unit 07 global link 1",
+      "type": "video",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/drive/folders/14nEPueqQgmoKwns10YayOUeyoWfYiE2P?usp=drive_link",
+      "source": {
+        "location": "Unit 07 (Lo7) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-07"
+      }
+    },
+    {
+      "id": "physics-g11-s1-global-07-02",
+      "title": "Unit 07 global link 2",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=5fshX5Z89_E",
+      "source": {
+        "location": "Unit 07 (Lo7) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-07"
+      },
+      "youtubeId": "5fshX5Z89_E"
+    },
+    {
+      "id": "physics-g11-s1-global-07-03",
+      "title": "Unit 07 global link 3",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=cWkjEQD_Yb4",
+      "source": {
+        "location": "Unit 07 (Lo7) -> Global Links"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-07"
+      },
+      "youtubeId": "cWkjEQD_Yb4"
+    },
+    {
+      "id": "physics-g11-s1-video-force-on-moving-charge-in-magnetic-field-force-on-current-carrying-wire-in-magnetic-field-07-01",
+      "title": "Force on moving charge in magnetic field / Force on current-carrying wire in magnetic field",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=nv28Cp-ILJ0&pp=ygU4Zm9yY2Ugb24gY3VycmVudCBjYXJyeWluZyB3aXJlIGluIHVuaWZvcm0gbWFnbmV0aWMgZmllbGQ%3D",
+      "source": {
+        "location": "Unit 07 (Lo7) -> Concepts -> Force on moving charge in magnetic field / Force on current-carrying wire in magnetic field"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-07"
+      },
+      "youtubeId": "nv28Cp-ILJ0"
+    },
+    {
+      "id": "physics-g11-s1-video-magnetic-torque-and-motors-07-01",
+      "title": "Magnetic torque and motors",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=-l-aajUS_Ik&pp=ygUbTWFnbmV0aWMgdG9ycXVlIGFuZCBtb3RvcnMu",
+      "source": {
+        "location": "Unit 07 (Lo7) -> Concepts -> Magnetic torque and motors"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-07"
+      },
+      "youtubeId": "-l-aajUS_Ik"
+    },
+    {
+      "id": "physics-g11-s1-video-measuring-devices-sensitive-galvanometer-ammeter-voltmeter-ohmmeter-07-01",
+      "title": "Measuring devices (sensitive galvanometer, ammeter, voltmeter, ohmmeter)",
+      "type": "video",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=NLPSHwDUYrY&pp=ygVJTWVhc3VyaW5nIGRldmljZXM6IChzZW5zaXRpdmUgZ2FsdmFub21ldGVyLCBhbW1ldGVyLCB2b2x0bWV0ZXIsIG9obW1ldGVyKQ%3D%3D",
+      "source": {
+        "location": "Unit 07 (Lo7) -> Concepts -> Measuring devices (sensitive galvanometer, ammeter, voltmeter, ohmmeter)"
+      },
+      "classification": {
+        "status": "unclassified",
+        "unitId": "physics-g11-s1-unit-07"
+      },
+      "youtubeId": "NLPSHwDUYrY"
+    },
+    {
+      "id": "res_bf67e5c69d",
+      "title": "Physics midterm revision.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1gxjx0Axv_oSOzXpefayMBGFJfRies-S0/view?usp=drivesdk"
+    },
+    {
+      "id": "res_29fe735526",
+      "title": "Physics summary.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Obf72vYyTccw2jxkhphuCtQRR619IcfL/view?usp=drivesdk"
+    },
+    {
+      "id": "res_f1f2b61ca6",
+      "title": "physics revision.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1leuMFmdc91agTn53GbgBCpSPnzSaeySO/view?usp=drivesdk"
+    },
+    {
+      "id": "res_232a17b5da",
+      "title": "Physics laws & formulas G11 S1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1w3aQpcfhEiJhBNKu1VAjqLcN6a7TJycC/view?usp=drivesdk"
+    },
+    {
+      "id": "res_0fd8b8f1f1",
+      "title": "Physics G11 S1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1TSEGFY8KO9frzAXyGS5N1ed8hKQzNTPw/view?usp=drivesdk"
+    },
+    {
+      "id": "res_da4ef7b51e",
+      "title": "Physics ( LO1 to LO5 ).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1vaU7ejZXUxumewYyySWLijr4OOkmR5jL/view?usp=drivesdk"
+    },
+    {
+      "id": "res_0d5ad2d17a",
+      "title": "Serway Test Bank.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1mUWgMbnnIlVpvryy2xNtkRn_QF3EUx6C/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8d768998d3",
+      "title": "Giancoli - Physics Principles with Applications 7th c2014 txtbk - Copy.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1i11SOkV3KhEyRuyp5EX_iuXTtxrwZdWN/view?usp=drivesdk"
+    },
+    {
+      "id": "res_72ce526e81",
+      "title": "Halliday 10th edition .pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1DygPQZoUhekUx4Oy4HVL7WlDzUHK4RNB/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5578f6be70",
+      "title": "Halliday TestBank.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1iqx1wR1JNQ5i1d6xxvalYpMeRjEkdSah/view?usp=drivesdk"
+    },
+    {
+      "id": "res_61e0c6bccf",
+      "title": "Serway 9th Edition.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Xkgd4t-AYunauNdGWt6YklFhrjeoqyYu/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6e2f483346",
+      "title": "Holt physics solutions.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1yXaVd6rfiFq4M-JZVX9yEjBw3iwKDoRY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_08d8c74c2c",
+      "title": "Holt Physics.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1bwx7Mtg-yKDn9gvzWQKZp8fXxQx6VRNG/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cdec641be5",
+      "title": "CH 38.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/17ICBPe9UbC6WhdILMxYZPufPH5gI-76E/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a0df84a858",
+      "title": "CH 37.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/16ju7UqAj-a-raNku-y9uSP2mFw75MBjn/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c8366cdd2c",
+      "title": "CH 36.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Rbzf3AswyboIkCvuGfm_S-hJ_HJgny53/view?usp=drivesdk"
+    },
+    {
+      "id": "res_bc47784851",
+      "title": "CH 35.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1XrAxLZowVdAYDyIf0vzF16Hwz9JCRHRH/view?usp=drivesdk"
+    },
+    {
+      "id": "res_8fb9f975df",
+      "title": "CH 34.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qQUgyGXOqGRB9B3RkL4QwKSdXPwa9Pa7/view?usp=drivesdk"
+    },
+    {
+      "id": "res_4b256e153d",
+      "title": "CH 33.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1rdKKrek57DYQxv_CBWSxrd9nM4s1f6UI/view?usp=drivesdk"
+    },
+    {
+      "id": "res_892170e90e",
+      "title": "CH 32.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1VokPrEUzWpWbfkClxWmQHbSUlh2xEjOM/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7457234491",
+      "title": "CH 31.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1wcA1Ah3-P0yKiIvDYmIJZLy9BIva-y4T/view?usp=drivesdk"
+    },
+    {
+      "id": "res_57da7cff7b",
+      "title": "CH 30.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1RHfCNP8jCqG7FehJHLDAcFxc0HV6ry5O/view?usp=drivesdk"
+    },
+    {
+      "id": "res_031d2b3d9d",
+      "title": "CH 29.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Bz1rUG_gFz28Xsu2pGE6CEDn-FxQy8t7/view?usp=drivesdk"
+    },
+    {
+      "id": "res_aa60c62644",
+      "title": "CH 28.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/15g0S4ixflegitxTV0JEF-NHPC4EqEj0H/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3c3d0aeb03",
+      "title": "CH 27.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1LBUy4fBBvYJWo2OjQdW51C39Elfp6W38/view?usp=drivesdk"
+    },
+    {
+      "id": "res_4d8f8590fb",
+      "title": "CH 26.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1267tcS5xaJKs76r2RnzAfNdyEImq6s3K/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a99cdd87f2",
+      "title": "CH 25.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1z1dJAzAaTIMp5mPgg-F8wTDxQSrew0JJ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6bb96cee4c",
+      "title": "CH 24.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1OEupB2totdy5pSrH84vFV7YEZOeVCr8y/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3485ea3d63",
+      "title": "CH 23 .pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QmIiX0o7eKNrGx1kOFEsaNiMaCVeEImO/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cb3d9e3e3e",
+      "title": "CH 22.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1jmwGVMj3b3dN0Oqh7ljFI4OAi8IEegM0/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d66f0222ef",
+      "title": "CH 21.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1-Sl5AWY4TlaUGYmXa3W16Ivgyvfnp8vD/view?usp=drivesdk"
+    },
+    {
+      "id": "res_fa1b945e0e",
+      "title": "CH 20.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qIM7v7PgD8mTODsX_fJl8T-iicnDzmSa/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d65725c153",
+      "title": "CH 19.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/13MG-9JtK8sfidZN5MQ-S0sOzDYfFRrfd/view?usp=drivesdk"
+    },
+    {
+      "id": "res_3b687001a2",
+      "title": "CH 18.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1l3cBWy5UsYu4P-GoTWyqsON9CDXCzqpr/view?usp=drivesdk"
+    },
+    {
+      "id": "res_38a99fc7b3",
+      "title": "CH 17.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/14lbKwCwbN-IOzPfRBwIlAzOjTds8w4Ul/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2748d27bbc",
+      "title": "CH 16.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1WBz9KK1i6M_9iAVG6gfL4UUNFYPBIA-G/view?usp=drivesdk"
+    },
+    {
+      "id": "res_dd001ffd13",
+      "title": "CH 15.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1mfMLJ8WO9Y6nCtnv-K6iPa_OoSvDUZc-/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7a4c40488c",
+      "title": "CH 14.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/17mKG45g6ov5cQ7eCAMQ4Bv6Lnmqg9xG6/view?usp=drivesdk"
+    },
+    {
+      "id": "res_d989c93fa8",
+      "title": "CH 13.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1_ByNBCIV33lZMstQkEMacsSm00ODlpFL/view?usp=drivesdk"
+    },
+    {
+      "id": "res_fd886cafa1",
+      "title": "CH 12.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/19f8HGIEEmnxsdDFz6SGCS5tIin7Dwrtr/view?usp=drivesdk"
+    },
+    {
+      "id": "res_b3ed7b4fd7",
+      "title": "CH 11.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1-OE39H5FmWYjz6AIKEBTseIPfA3eaGDJ/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6b1be0e6af",
+      "title": "CH 10.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/15y5t5To6rV36pYWK7VHuyUiGIiEx89L5/view?usp=drivesdk"
+    },
+    {
+      "id": "res_17e52b85e9",
+      "title": "CH 9.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1WysWbfzSc73JEDKc-85f9YTFOt1Yg5ev/view?usp=drivesdk"
+    },
+    {
+      "id": "res_bdf023ec4c",
+      "title": "CH 8 .pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1DP4azlxZU0_zdrJ9R2ePa9J1KeG0OMYl/view?usp=drivesdk"
+    },
+    {
+      "id": "res_02a48fbc56",
+      "title": "CH 7.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1OMAzRXeaD6BhbgeNNDnk4-xeNElamLIM/view?usp=drivesdk"
+    },
+    {
+      "id": "res_4cad3edf9a",
+      "title": "CH 6.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1vesSVczgsz2JnSGs6BpdQkhD2iCZjDxX/view?usp=drivesdk"
+    },
+    {
+      "id": "res_cd1baee9f0",
+      "title": "CH 5.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1hhR4-jb86b5fULPSqJwUfFTROpntMFya/view?usp=drivesdk"
+    },
+    {
+      "id": "res_105d0d8bf4",
+      "title": "CH 4.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1K_VGqDafnBU95JvYwMeqS0tzwRU6nwRq/view?usp=drivesdk"
+    },
+    {
+      "id": "res_4d6aca0cdb",
+      "title": "CH 3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sipib_lptrVGSSkih4VIylA0ugIZfdz7/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e04c9eb2b4",
+      "title": "CH 2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1XOZzFLrFmpfE9QMIMoyypWyOiQjo-VRh/view?usp=drivesdk"
+    },
+    {
+      "id": "res_73e33798ef",
+      "title": "CH 1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1jsr9c7cDBdOCVdf-twpH5wnA6A0uSduY/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a1797084f5",
+      "title": "Test-Your-Understanding-Grade2.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1lz7eghEGt0jO-_yeS8IymkoK7vtO4oGi/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_7ec1a13298",
+      "title": "Test_Your_Understanding_Capacitors.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1MpwXM1zktJOXrxDYREuuSJc1Y6_pJdtX/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_0b71ea05d7",
+      "title": "Test Your Understanding - Grade2_Answers.pptx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/presentation/d/1UmH_fKCeBCzD8VngBebyCB6YI-0TCT4t/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_6b0d12e037",
+      "title": "Question bank                                   grade 2                        physics                      6th October.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1Fe32ANLIkklFoKO067f941tZbuhJMl2s/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_69a0806d19",
+      "title": "Problems with  (solutions).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1NxOeswzb-tW7yF7U_J1sSc_BNyHp1kOF/view?usp=drivesdk"
+    },
+    {
+      "id": "res_fcf43e0aef",
+      "title": "Testbook G11 1st semester.docx.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1W-XAnY4ZuRC6Xpm3eM_P1z9MHLyskKIi/view?usp=drivesdk"
+    },
+    {
+      "id": "res_686fd24158",
+      "title": "phy lo7.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1b5i5DOFIEtAD-QfimygQeeQj7PS53Asv/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a360231e8e",
+      "title": "phy lo6 magnetic field and force.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1po5ItsB3tyZf_WYAsemYgR5OTfUYUyy-/view?usp=drivesdk"
+    },
+    {
+      "id": "res_da3befce77",
+      "title": "phy lo4.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1_9fEUXhoLRLRQYnYoIIKU-xLODlDriCk/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5cc91f99cf",
+      "title": "phy lo3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kXMSe4Ei7emnnyF-_jl5jI2RA-nYPF4A/view?usp=drivesdk"
+    },
+    {
+      "id": "res_de8a40ad38",
+      "title": "phy LO2 P2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1Grm5-s-OQco3AcrrDUK5oPb5J9nOhIyV/view?usp=drivesdk"
+    },
+    {
+      "id": "res_7aabc1372e",
+      "title": "phy LO2 p1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1-aNeh6zLpQ3Nboyt4mkfSTm8BjBhMd10/view?usp=drivesdk"
+    },
+    {
+      "id": "res_c88d403c50",
+      "title": "Phy lo1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1QD_7afnrToY8HVNDxZ2AbZ9t5wwGPzFr/view?usp=drivesdk"
+    },
+    {
+      "id": "res_de0fc460d2",
+      "title": "PHY WORKBOOK 1 FULL.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1q-_AJaH3ydi1eZfYOsCdx6IXztmzG9SN/view?usp=drivesdk"
+    },
+    {
+      "id": "res_89cafa4d39",
+      "title": "PHY workbook-2-full AP.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1rh2NqkFPqCUUoHb4Va5cdeewplOcA89L/view?usp=drivesdk"
+    },
+    {
+      "id": "res_dc6c197477",
+      "title": "Model Examination Questions.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1cH5Zj_nAfc1YpgIl-6bqsF7TTKHJQe98/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_8522d926fa",
+      "title": "Medterm 2016.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1dED0x2uVGK1IVQkcTGfE15l8Lk8VkB47/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2390a8350d",
+      "title": "midterm 2016 answers.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/19yCkx2bbgUDE5u8CbtlmQbuQ9GHs-tux/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_bfe2809877",
+      "title": "1st midterm exam 2015.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1PaeZsldjn4xikPQaD6yBKxw66HsCStRm/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ebb3c993ed",
+      "title": "1st midterm answer 2015.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1sXLdNp4i7-dE5L2HY8_PxRCNX2aWTuV3/view?usp=drivesdk"
+    },
+    {
+      "id": "res_6471a5a362",
+      "title": "midterm exam 2014.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1zpfnPd7VlfaECrhrUWUKbzH0P4XehhiH/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_c6bc1574c2",
+      "title": "Physics exam 3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1q4BmLzTDtO9zzqcIa-7pig6ALlzwj6ZE/view?usp=drivesdk"
+    },
+    {
+      "id": "res_ce46ed9721",
+      "title": "Physics exam 2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1RuJwY3iYFjRDDpQqQIpSiq4KD8sQ6fVh/view?usp=drivesdk"
+    },
+    {
+      "id": "res_a2231f5e9e",
+      "title": "1stTerm_G11_2015.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1ZhcinUqEEBjI9rll_DSj48nOb3QWU-VO/view?usp=drivesdk"
+    },
+    {
+      "id": "res_2608473d94",
+      "title": "physics questions 2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qx7RFoitEAaQD8L1ni6VtZbUgizkK61D/view?usp=drivesdk"
+    },
+    {
+      "id": "res_acfe535cce",
+      "title": "First_20Term_20Exam_Physics_20Gr11_20__202017 (3).docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1rMvx8x-gwmekWL0YTmAS7GcgVerX7DNa/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_eac27cfc29",
+      "title": "Final Exam (i).pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1f2Xh37XvE_XiWb657m9M0TRyJ2uy5OJy/view?usp=drivesdk"
+    },
+    {
+      "id": "res_5b5af7f43b",
+      "title": "Answers_G11 2014.docx",
+      "type": "file",
+      "provider": "Google Drive",
+      "url": "https://docs.google.com/document/d/1GJlMz3onsUHmmdP7uHGoYt5nyeDkvGqQ/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true"
+    },
+    {
+      "id": "res_15f2b0a9d1",
+      "title": "Final Exam.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1kR-PeX6Lkwg9KmkkKzMd-ea_rwTISI-1/view?usp=drivesdk"
+    },
+    {
+      "id": "res_1a04e6dc94",
+      "title": "PH G 11 LO 7.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1YcqqEABBzpv-jhn8xLASksDMGbhSrGlx/view?usp=drivesdk"
+    },
+    {
+      "id": "res_769325ab2a",
+      "title": "PH G 11 LO 6.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1qVvS1IDoBTNUuCA4RWsc-ZWS25nFVcAB/view?usp=drivesdk"
+    },
+    {
+      "id": "res_dabe8172d0",
+      "title": "PH G 11 LO 5.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1DopqJ7bnyTNlK7cLotlZ1RrXXMvvfORG/view?usp=drivesdk"
+    },
+    {
+      "id": "res_e73eccc6a5",
+      "title": "PH G 11 LO 4.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/16NhXcoAeJ9USDllvE-Vw-6h7iqfJ81ac/view?usp=drivesdk"
+    },
+    {
+      "id": "res_9f5aefd55f",
+      "title": "PH G 11 LO 3.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1KTi2EUmRLjwKgVZW0-gB54Dcw4vut7JR/view?usp=drivesdk"
+    },
+    {
+      "id": "res_128de3bf77",
+      "title": "PH G 11 LO 2.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1L4UYSXOeE1lJE7Egmqgf7Q5AkAw-qEIl/view?usp=drivesdk"
+    },
+    {
+      "id": "res_50451468a3",
+      "title": "PH G 11 LO 1.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/14pC_Exophfr92tHDEwIUqEUYtT6om5b5/view?usp=drivesdk"
+    }
+  ]
+}

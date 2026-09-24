@@ -7,6 +7,8 @@ import Link from "next/link";
 import type { SavedItem } from "@/lib/saved-items";
 import { getSavedItems, getSavedItemsChangeEvent } from "@/lib/saved-items";
 import styles from "@/app/dashboard/dashborad.module.scss";
+import { useLayoutState } from "@/components/layout/layout-context";
+import { getTranslations } from "@/lib/i18n";
 
 const typeIcons = {
   resource: BookOpen,
@@ -22,20 +24,20 @@ const typeColors = {
   skill: "violet",
 } as const;
 
+function isExternalHref(href: string) {
+  return /^(https?:|mailto:|tel:|\/\/)/i.test(href);
+}
+
 export default function RecentlySaved() {
-  const [items, setItems] = useState<SavedItem[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const { language } = useLayoutState();
+  const t = getTranslations(language);
+  const [items, setItems] = useState<SavedItem[]>(() =>
+    getSavedItems()
+      .sort((a, b) => b.savedAt - a.savedAt)
+      .slice(0, 3),
+  );
 
   useEffect(() => {
-    setIsLoading(true);
-    // Get all saved items, sort by most recent, take top 3
-    const allItems = getSavedItems();
-    const recentItems = allItems
-      .sort((a, b) => b.savedAt - a.savedAt)
-      .slice(0, 3);
-    setItems(recentItems);
-    setIsLoading(false);
-
     // Listen for changes to saved items
     const handleChange = () => {
       const allItems = getSavedItems();
@@ -51,22 +53,19 @@ export default function RecentlySaved() {
     };
   }, []);
 
-  if (!isLoading && items.length === 0) {
+  if (items.length === 0) {
     return (
       <section className={styles.section}>
         <div className={styles.sectionHeading}>
           <h2>
-            <Bookmark size={22} /> Recently Saved
+            <Bookmark size={22} /> {t.dashboard.recentlySaved}
           </h2>
-          <Link href="/saved">View All</Link>
+          <Link href="/saved">{t.dashboard.viewAll}</Link>
         </div>
         <div className={styles.emptyState}>
           <Bookmark size={48} />
-          <h3>No saved items yet</h3>
-          <p>
-            Start saving resources, subjects, opportunities, and skills to keep
-            them handy.
-          </p>
+          <h3>{t.dashboard.noSavedItems}</h3>
+          <p>{t.dashboard.noSavedDescription}</p>
         </div>
       </section>
     );
@@ -76,9 +75,9 @@ export default function RecentlySaved() {
     <section className={styles.section}>
       <div className={styles.sectionHeading}>
         <h2>
-          <Bookmark size={22} /> Recently Saved
+          <Bookmark size={22} /> {t.dashboard.recentlySaved}
         </h2>
-        <Link href="/saved">View All</Link>
+        <Link href="/saved">{t.dashboard.viewAll}</Link>
       </div>
       <div className={styles.recentGrid}>
         {items.map((item) => {
@@ -87,18 +86,25 @@ export default function RecentlySaved() {
           const color =
             typeColors[item.type as keyof typeof typeColors] ?? "blue";
           const href = item.href || `/saved?id=${item.id}&type=${item.type}`;
+          const external = isExternalHref(href);
 
           return (
             <a
               className={styles.recentCard}
               href={href}
+              target={external ? "_blank" : undefined}
+              rel={external ? "noopener noreferrer" : undefined}
               key={`${item.id}-${item.type}`}
             >
               <span className={`${styles.subjectIcon} ${styles[color]}`}>
                 <Icon size={22} />
               </span>
               <span>
-                <small>{item.type}</small>
+                <small>
+                  {t.dashboard.savedTypes[
+                    item.type as keyof typeof t.dashboard.savedTypes
+                  ] ?? item.type}
+                </small>
                 <strong>{item.title}</strong>
               </span>
             </a>

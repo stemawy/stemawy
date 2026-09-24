@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-22T20:46:54.936Z",
+  "source": {
+    "file": "migration/raw/g11/s1/capstone.json"
+  },
+  "subject": {
+    "id": "capstone-g11-s1",
+    "name": "Capstone",
+    "description": "",
+    "grade": "11",
+    "semester": "1",
+    "icon": "capstone",
+    "content": []
+  },
+  "resources": []
+}

@@ -107,18 +107,9 @@
               "arabic-g10-s2-video-cfynysuli0-40097d329a",
               "arabic-g10-s2-video-vciu8-j5lqu-5b257f4c99"
             ]
-          },
-          {
-            "id": "arabic-g10-s2-concept-",
-            "title": "البلاي ليست دي شارحة منهج النحو كله",
-            "description": "",
-            "order": 9,
-            "resources": [
-              "arabic-g10-s2-video-72dbb1660a"
-            ]
           }
         ],
-        "resources": []
+        "resources": ["arabic-g10-s2-video-72dbb1660a"]
       },
       {
         "id": "arabic-g10-s2-unit-02",
@@ -149,18 +140,9 @@
               "arabic-g10-s2-video-9hise2ezbi8-9958b49355",
               "arabic-g10-s2-video-go-xzrzkbsa-ce5c4eb4f1"
             ]
-          },
-          {
-            "id": "arabic-g10-s2-concept-",
-            "title": "ملخص ل منهج الأدب",
-            "description": "",
-            "order": 3,
-            "resources": [
-              "arabic-g10-s2-video-7oshs-d-vpw-4bb9db4019"
-            ]
           }
         ],
-        "resources": []
+        "resources": ["arabic-g10-s2-video-7oshs-d-vpw-4bb9db4019"]
       },
       {
         "id": "arabic-g10-s2-unit-03",
@@ -169,19 +151,11 @@
         "title": "القصة",
         "description": "",
         "order": 3,
-        "concepts": [
-          {
-            "id": "arabic-g10-s2-concept-",
-            "title": "ملخص القصة ",
-            "description": "",
-            "order": 1,
-            "resources": [
-              "arabic-g10-s2-video-crcoai8bwek-338eadb5b7",
-              "arabic-g10-s2-video-rxuptm2cdte-1c91f9b82c"
-            ]
-          }
-        ],
-        "resources": []
+        "concepts": [],
+        "resources": [
+          "arabic-g10-s2-video-crcoai8bwek-338eadb5b7",
+          "arabic-g10-s2-video-rxuptm2cdte-1c91f9b82c"
+        ]
       },
       {
         "id": "arabic-g10-s2-unit-04",
@@ -190,19 +164,11 @@
         "title": "القراءة والنصوص",
         "description": "",
         "order": 4,
-        "concepts": [
-          {
-            "id": "arabic-g10-s2-concept-",
-            "title": "النصوص",
-            "description": "",
-            "order": 1,
-            "resources": [
-              "arabic-g10-s2-video-xoknnxgc-1g-f3dad71d85",
-              "arabic-g10-s2-video-njdo9z1c2ys-e19407a211"
-            ]
-          }
-        ],
-        "resources": []
+        "concepts": [],
+        "resources": [
+          "arabic-g10-s2-video-xoknnxgc-1g-f3dad71d85",
+          "arabic-g10-s2-video-njdo9z1c2ys-e19407a211"
+        ]
       },
       {
         "id": "arabic-g10-s2-unit-05",
@@ -233,23 +199,13 @@
               "arabic-g10-s2-video-ylmuk0dhkzu-8e4c78afe7",
               "arabic-g10-s2-video-su0vk81aks-3bcf032433"
             ]
-          },
-          {
-            "id": "arabic-g10-s2-concept-",
-            "title": "ملخص ل منهج البلاغة  ",
-            "description": "",
-            "order": 3,
-            "resources": [
-              "arabic-g10-s2-video-do6gjr-yfa-3c64c7a0cf"
-            ]
           }
         ],
-        "resources": []
+        "resources": ["arabic-g10-s2-video-do6gjr-yfa-3c64c7a0cf"]
       },
       {
         "id": "arabic-g10-s2-unit-06",
-        "type": "unit",
-        "number": "06",
+        "type": "references",
         "title": "كتب المنهج",
         "description": "",
         "order": 6,
@@ -260,46 +216,9 @@
           "arabic-g10-s2-pdf-pdf-e6018f3fba",
           "arabic-g10-s2-pdf-pdf-66679bf64a"
         ]
-      },
-      {
-        "id": "arabic-g10-s2-unit-07",
-        "type": "unit",
-        "number": "07",
-        "title": "المراجع الإضافية",
-        "description": "",
-        "order": 7,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "arabic-g10-s2-qs-bank-question-bank",
-        "type": "qs-bank",
-        "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
-        "order": 8,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "arabic-g10-s2-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 9,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "arabic-g10-s2-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 10,
-        "concepts": [],
-        "resources": []
       }
     ],
-    "units": 7
+    "units": 5
   },
   "resources": [
     {

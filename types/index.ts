@@ -6,6 +6,7 @@ export type SubjectContentType = "unit" | "qs-bank" | "revision" | "references";
 export type ResourceType =
   | "video"
   | "pdf"
+  | "file"
   | "document"
   | "slides"
   | "sheet"
@@ -34,6 +35,7 @@ export interface SubjectContent {
   description: string;
   concepts?: Concept[];
   resources: string[];
+  showResourceSuggestion?: boolean;
 }
 
 export interface Subject {

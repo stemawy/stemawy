@@ -446,15 +446,6 @@
           "maths-g10-s1-video-4uq7jmbpwig-6205eb8ca3",
           "maths-g10-s1-video-ynszorjbdsg-5745063c52"
         ]
-      },
-      {
-        "id": "maths-g10-s1-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 10,
-        "concepts": [],
-        "resources": []
       }
     ],
     "units": 7

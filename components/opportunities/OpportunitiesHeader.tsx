@@ -12,7 +12,7 @@ export default function OpportunitiesHeader({
   const ar = language === "ar";
   return (
     <header className={styles.header}>
-      <h1>{ar ? "استكشف الفرص" : "Explore Opportunities"}</h1>
+      <h1>{ar ? "الفرص" : "Opportunities"}</h1>
       <p>
         {ar
           ? "اكتشف المسابقات والبرامج البحثية والدورات والمنح وفرص ريادة الأعمال لتسريع رحلتك في STEM."

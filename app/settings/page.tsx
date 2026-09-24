@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/components/ui/theme-provider";
 import SettingsHeader from "@/components/settings/SettingsHeader";
 import SettingsSection from "@/components/settings/SettingsSection";
 import ThemeSetting from "@/components/settings/ThemeSetting";
@@ -13,6 +13,7 @@ import ResetConfirmation from "@/components/settings/ResetConfirmation";
 import SettingsToast from "@/components/settings/SettingsToast";
 import styles from "./settings.module.scss";
 import { useLayoutState } from "@/components/layout/layout-context";
+import { getTranslations } from "@/lib/i18n";
 
 export default function SettingsPage() {
   const {
@@ -25,10 +26,12 @@ export default function SettingsPage() {
     resetPreferences,
   } = useLayoutState();
   const { setTheme } = useTheme();
+  const t = getTranslations(language);
   const [toast, setToast] = useState<string | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
 
   useEffect(() => {
+    document.documentElement.lang = language;
     document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
   }, [language]);
 
@@ -43,46 +46,46 @@ export default function SettingsPage() {
     setLanguage(value);
     notify(
       value === "ar"
-        ? "Language switched to Arabic (RTL)"
-        : "Language switched to English",
+        ? t.common.languageSwitchedArabic
+        : t.common.languageSwitchedEnglish,
     );
   };
   const changeGrade = (value: 10 | 11) => {
     setGrade(value);
-    notify(`Active grade set to Grade ${value}`);
+    notify(`${t.settings.gradeChanged} ${t.settings.grade} ${value}`);
   };
   const changeSemester = (value: 1 | 2) => {
     setSemester(value);
-    notify(`Default semester set to Semester ${value}`);
+    notify(`${t.settings.semesterChanged} ${t.settings.semester} ${value}`);
   };
   const clearSaved = () => {
     window.localStorage.removeItem("stemawy-saved");
-    notify("Saved content cleared");
+    notify(t.settings.savedCleared);
   };
   const clearSearches = () => {
     window.localStorage.removeItem("stemawy-searches");
-    notify("Recent searches cleared");
+    notify(t.settings.searchesCleared);
   };
   const resetAll = () => {
     window.localStorage.clear();
     resetPreferences();
     setTheme("light");
     setConfirmReset(false);
-    notify("All local data and preferences were reset");
+    notify(t.settings.resetComplete);
   };
 
   return (
     <div className={styles.page}>
       <SettingsHeader />
-      <SettingsSection title="Interface">
+      <SettingsSection title={t.settings.interface}>
         <ThemeSetting onChange={notify} />
         <LanguageSetting language={language} onChange={changeLanguage} />
       </SettingsSection>
-      <SettingsSection title="Academic Context">
+      <SettingsSection title={t.settings.academicContext}>
         <GradeSetting grade={grade} onChange={changeGrade} />
         <SemesterSetting semester={semester} onChange={changeSemester} />
       </SettingsSection>
-      <SettingsSection title="Data & Storage">
+      <SettingsSection title={t.settings.dataStorage}>
         <DataStorageSetting
           onClearSaved={clearSaved}
           onClearSearches={clearSearches}

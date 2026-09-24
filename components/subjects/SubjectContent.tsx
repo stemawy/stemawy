@@ -3,6 +3,8 @@ import ConceptCard from "./ConceptCard";
 import ResourceCard from "@/components/resources/ResourceCard";
 import type { Resource, SubjectContent } from "@/types";
 import styles from "@/app/subject/[subjectId]/SubjectPage.module.scss";
+import { useLayoutState } from "@/components/layout/layout-context";
+import { getLocalizedContentText, getTranslations } from "@/lib/i18n";
 
 export default function SubjectContent({
   item,
@@ -13,6 +15,8 @@ export default function SubjectContent({
   subjectId: string;
   resources: Resource[];
 }) {
+  const { language } = useLayoutState();
+  const t = getTranslations(language);
   const isUnit = item.type === "unit";
   const itemResources = item.resources
     .map((id) => resources.find((resource) => resource.id === id))
@@ -21,34 +25,46 @@ export default function SubjectContent({
     <article className={styles.contentCard}>
       <ContentHeader key={item.id} item={item} subjectId={subjectId} />
       <div className={styles.contentBody}>
-        <section className={styles.resourcesSection}>
-          <div className={styles.sectionHeading}>
-            <h2>{isUnit ? "Unit Resources" : "Resources & Materials"}</h2>
-          </div>
-          {itemResources.length > 0 ? (
-            <div className={styles.resourceGrid}>
-              {itemResources.map((resource) => (
-                <ResourceCard resource={resource} key={resource.id} />
-              ))}
-            </div>
-          ) : (
-            <div className={styles.emptyContent}>
-              <p>
+        {!(isUnit && item.showResourceSuggestion === false) && (
+          <section className={styles.resourcesSection}>
+            <div className={styles.sectionHeading}>
+              <h2>
                 {isUnit
-                  ? "Resources for this unit are coming soon."
-                  : `Materials for ${item.title} are coming soon.`}
-              </p>
-              <button type="button">Suggest a Resource</button>
+                  ? t.subjects.detail.unitResources
+                  : t.subjects.detail.resourcesMaterials}
+              </h2>
             </div>
-          )}
-        </section>
+            {itemResources.length > 0 ? (
+              <div className={styles.resourceGrid}>
+                {itemResources.map((resource, index) => (
+                  <ResourceCard
+                    resource={resource}
+                    language={language}
+                    key={`${resource.id || "resource"}-${index}`}
+                  />
+                ))}
+              </div>
+            ) : (
+              <div className={styles.emptyContent}>
+                <p>
+                  {isUnit
+                    ? t.subjects.detail.comingSoonUnit
+                    : `${t.subjects.detail.comingSoonMaterials} (${getLocalizedContentText(item.title, language)})`}
+                </p>
+                <button type="button">
+                  {t.subjects.detail.suggestResource}
+                </button>
+              </div>
+            )}
+          </section>
+        )}
         {isUnit && item.concepts && item.concepts.length > 0 && (
           <section className={styles.conceptsSection}>
             <div className={styles.sectionHeading}>
-              <h2>Concepts</h2>
+              <h2>{t.subjects.detail.concepts}</h2>
             </div>
             <div className={styles.conceptList}>
-              {item.concepts.map((concept) => (
+              {item.concepts.map((concept, index) => (
                 <ConceptCard
                   concept={concept}
                   resources={concept.resources
@@ -58,7 +74,7 @@ export default function SubjectContent({
                     .filter((resource): resource is Resource =>
                       Boolean(resource),
                     )}
-                  key={concept.id}
+                  key={`${concept.id || concept.title || "concept"}-${index}`}
                 />
               ))}
             </div>

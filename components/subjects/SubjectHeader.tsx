@@ -3,18 +3,35 @@ import { Atom, ChevronRight } from "lucide-react";
 
 import type { Subject } from "@/types";
 import styles from "@/app/subject/[subjectId]/SubjectPage.module.scss";
+import { useLayoutState } from "@/components/layout/layout-context";
+import { getLocalizedSubject, getTranslations } from "@/lib/i18n";
 
 export default function SubjectHeader({ subject }: { subject: Subject }) {
+  const { language } = useLayoutState();
+  const t = getTranslations(language);
+  const localized = getLocalizedSubject(subject, language);
+
   return (
     <>
-      <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
-        <Link href="/subjects">Subjects</Link>
+      <nav
+        className={styles.breadcrumbs}
+        aria-label={t.subjects.detail.breadcrumb}
+      >
+        <Link href="/subjects">{t.subjects.detail.breadcrumb}</Link>
         <ChevronRight size={15} />
-        <span>Grade {subject.grade}</span>
+        <span>
+          {language === "ar"
+            ? `الصف ${subject.grade.replace("Grade ", "")}`
+            : subject.grade}
+        </span>
         <ChevronRight size={15} />
-        <span>Semester {subject.semester}</span>
+        <span>
+          {language === "ar"
+            ? `الفصل الدراسي ${subject.semester.replace("Semester ", "")}`
+            : subject.semester}
+        </span>
         <ChevronRight size={15} />
-        <strong>{subject.name}</strong>
+        <strong>{localized.name}</strong>
       </nav>
       <header className={styles.subjectHeader}>
         <div className={styles.subjectHeading}>
@@ -22,14 +39,24 @@ export default function SubjectHeader({ subject }: { subject: Subject }) {
             <Atom size={31} />
           </span>
           <div>
-            <h1>{subject.name}</h1>
-            <p>{subject.description}</p>
+            <h1>{localized.name}</h1>
+            <p>{localized.description}</p>
           </div>
         </div>
         <div className={styles.metadata}>
-          <span>{subject.grade}</span>
-          <span>{subject.semester}</span>
-          <span className={styles.primaryMeta}>Core Subject</span>
+          <span>
+            {language === "ar"
+              ? `الصف ${subject.grade.replace("Grade ", "")}`
+              : subject.grade}
+          </span>
+          <span>
+            {language === "ar"
+              ? `الفصل الدراسي ${subject.semester.replace("Semester ", "")}`
+              : subject.semester}
+          </span>
+          <span className={styles.primaryMeta}>
+            {t.subjects.detail.coreSubject}
+          </span>
         </div>
       </header>
     </>

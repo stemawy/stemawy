@@ -27,8 +27,25 @@ export default function OpportunityCard({
     subcategory: item.type,
     href: item.href,
   });
+
+  const openOpportunity = () => {
+    window.open(item.href, "_blank", "noopener,noreferrer");
+  };
+
   return (
-    <article className={styles.card}>
+    <article
+      className={styles.card}
+      role="link"
+      tabIndex={0}
+      aria-label={ar ? item.arTitle : item.title}
+      onClick={openOpportunity}
+      onKeyDown={(event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          openOpportunity();
+        }
+      }}
+    >
       <div className={styles.cardVisual}>
         {item.imageUrl ? (
           <img
@@ -54,7 +71,10 @@ export default function OpportunityCard({
         <button
           className={styles.bookmark}
           type="button"
-          onClick={toggle}
+          onClick={(event) => {
+            event.stopPropagation();
+            toggle();
+          }}
           aria-pressed={saved}
           aria-label={saved ? "Remove from saved" : "Save opportunity"}
         >
@@ -87,7 +107,12 @@ export default function OpportunityCard({
         </div>
         <div className={styles.cardFooter}>
           <span>{item.provider}</span>
-          <a href={item.href} target="_blank" rel="noreferrer">
+          <a
+            href={item.href}
+            target="_blank"
+            rel="noreferrer"
+            onClick={(event) => event.stopPropagation()}
+          >
             {ar ? "عرض التفاصيل" : "View Details"}
             <ExternalLink size={14} />
           </a>

@@ -1,21 +1,24 @@
 import Link from "next/link";
 
 import styles from "./Footer.module.scss";
-
-const footerLinks = [
-  { label: "About", href: "/about" },
-  { label: "Help & Feedback", href: "/help" },
-  { label: "Suggest a Resource", href: "/suggest-resource" },
-];
+import { useLayoutState } from "./layout-context";
+import { getTranslations } from "@/lib/i18n";
 
 export default function Footer() {
+  const { language } = useLayoutState();
+  const t = getTranslations(language);
+  const footerLinks = [
+    { label: t.footer.about, href: "/about" },
+    { label: t.footer.help, href: "/help" },
+    { label: t.footer.suggest, href: "/suggest-resource" },
+  ];
+
   return (
     <footer className={styles.footer}>
       <p className={styles.copyright}>
-        &copy; 2025 Stemawy 2.0. Built for High-Performance Academic
-        Empowerment.
+        &copy; 2025 Stemawy 2.0. {t.footer.builtFor}
       </p>
-      <nav className={styles.links} aria-label="Footer navigation">
+      <nav className={styles.links} aria-label={t.footer.navigation}>
         {footerLinks.map(({ label, href }, index) => (
           <span className={styles.linkGroup} key={href}>
             {index > 0 && (

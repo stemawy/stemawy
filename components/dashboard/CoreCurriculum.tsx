@@ -6,18 +6,24 @@ import {
   getSubjectColorStyle,
   renderSubjectIcon,
 } from "@/components/subjects/subject-icons";
+import { useLayoutState } from "@/components/layout/layout-context";
+import { getLocalizedSubject, getTranslations } from "@/lib/i18n";
 
 export default function CoreCurriculum({ subjects }: { subjects: Subject[] }) {
+  const { language } = useLayoutState();
+  const t = getTranslations(language);
+
   return (
     <section className={`${styles.section} ${styles.curriculum}`}>
       <div className={styles.sectionHeading}>
         <h2>
-          Core Curriculum <span>Current selection</span>
+          {t.dashboard.curriculum} <span>{t.dashboard.currentSelection}</span>
         </h2>
-        <Link href="/subjects">View All</Link>
+        <Link href="/subjects">{t.dashboard.viewAll}</Link>
       </div>
       <div className={styles.curriculumGrid}>
         {subjects.slice(0, 6).map((subject) => {
+          const localized = getLocalizedSubject(subject, language);
           const unitCount = subject.content.filter(
             (item) => item.type === "unit",
           ).length;
@@ -42,10 +48,12 @@ export default function CoreCurriculum({ subjects }: { subjects: Subject[] }) {
                 >
                   {renderSubjectIcon(subject, 24)}
                 </span>
-                <small>{unitCount} Units</small>
+                <small>
+                  {unitCount} {t.dashboard.units}
+                </small>
               </div>
-              <h3>{subject.name}</h3>
-              <p>{subject.description}</p>
+              <h3>{localized.name}</h3>
+              <p>{localized.description}</p>
             </Link>
           );
         })}

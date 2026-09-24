@@ -17,19 +17,21 @@ import {
 
 import { useLayoutState } from "./layout-context";
 import styles from "./Sidebar.module.scss";
+import { getTranslations } from "@/lib/i18n";
 
 const navigation = [
-  { label: "Dashboard", href: "/dashboard", icon: Grid2X2 },
-  { label: "Subjects", href: "/subjects", icon: BookOpen },
-  { label: "Skills", href: "/skills", icon: BrainCircuit },
-  { label: "Opportunities", href: "/opportunities", icon: Compass },
-  { label: "Saved", href: "/saved", icon: Bookmark },
+  { key: "dashboard", href: "/dashboard", icon: Grid2X2 },
+  { key: "subjects", href: "/subjects", icon: BookOpen },
+  { key: "skills", href: "/skills", icon: BrainCircuit },
+  { key: "opportunities", href: "/opportunities", icon: Compass },
+  { key: "saved", href: "/saved", icon: Bookmark },
 ];
 
 export default function Sidebar({ activePath }: { activePath?: string }) {
   const pathname = usePathname();
-  const { collapsed, mobileOpen, setMobileOpen, toggleCollapsed } =
+  const { collapsed, mobileOpen, setMobileOpen, toggleCollapsed, language } =
     useLayoutState();
+  const t = getTranslations(language);
 
   const active = (href: string) =>
     activePath === href ||
@@ -41,7 +43,7 @@ export default function Sidebar({ activePath }: { activePath?: string }) {
         <button
           className={styles.scrim}
           type="button"
-          aria-label="Close navigation"
+          aria-label={t.common.closeNavigation}
           onClick={() => setMobileOpen(false)}
         />
       )}
@@ -75,19 +77,26 @@ export default function Sidebar({ activePath }: { activePath?: string }) {
 
         <nav className={styles.navigation}>
           <div className={styles.navGroup}>
-            {navigation.map(({ label, href, icon: Icon }) => (
-              <Link
-                className={`${styles.navItem} ${active(href) ? styles.active : ""}`}
-                href={href}
-                key={href}
-                aria-current={active(href) ? "page" : undefined}
-                title={collapsed ? label : undefined}
-                onClick={() => setMobileOpen(false)}
-              >
-                <Icon className={styles.navIcon} size={21} strokeWidth={1.8} />
-                <span className={styles.navLabel}>{label}</span>
-              </Link>
-            ))}
+            {navigation.map(({ key, href, icon: Icon }) => {
+              const label = t.nav[key as keyof typeof t.nav];
+              return (
+                <Link
+                  className={`${styles.navItem} ${active(href) ? styles.active : ""}`}
+                  href={href}
+                  key={href}
+                  aria-current={active(href) ? "page" : undefined}
+                  title={collapsed ? label : undefined}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  <Icon
+                    className={styles.navIcon}
+                    size={21}
+                    strokeWidth={1.8}
+                  />
+                  <span className={styles.navLabel}>{label}</span>
+                </Link>
+              );
+            })}
           </div>
 
           <div className={styles.settingsGroup}>
@@ -95,7 +104,7 @@ export default function Sidebar({ activePath }: { activePath?: string }) {
               className={`${styles.navItem} ${active("/settings") ? styles.active : ""}`}
               href="/settings"
               aria-current={active("/settings") ? "page" : undefined}
-              title={collapsed ? "Settings" : undefined}
+              title={collapsed ? t.nav.settings : undefined}
               onClick={() => setMobileOpen(false)}
             >
               <Settings
@@ -103,7 +112,7 @@ export default function Sidebar({ activePath }: { activePath?: string }) {
                 size={21}
                 strokeWidth={1.8}
               />
-              <span className={styles.navLabel}>Settings</span>
+              <span className={styles.navLabel}>{t.nav.settings}</span>
             </Link>
           </div>
         </nav>
@@ -111,10 +120,14 @@ export default function Sidebar({ activePath }: { activePath?: string }) {
         <button
           className={styles.collapseButton}
           type="button"
-          aria-label={collapsed ? "Expand navigation" : "Collapse navigation"}
+          aria-label={
+            collapsed ? t.common.expandNavigation : t.common.collapseNavigation
+          }
           aria-expanded={!collapsed}
           onClick={toggleCollapsed}
-          title={collapsed ? "Expand navigation" : "Collapse navigation"}
+          title={
+            collapsed ? t.common.expandNavigation : t.common.collapseNavigation
+          }
         >
           {collapsed ? <ChevronRight size={18} /> : <ChevronLeft size={18} />}
         </button>

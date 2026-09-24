@@ -7,7 +7,7 @@
   "subject": {
     "id": "chemistry-g10-s1",
     "name": "Chemistry",
-    "description": "Chemistry resources for Grade 10, Semester 1.",
+    "description": "Grade 10 Chemistry, Semester 1 introduces students to scientific investigation, atomic structure, periodic trends, bonding, radioactivity, and chemical change.",
     "grade": "10",
     "semester": "1",
     "icon": "chemistry",
@@ -17,13 +17,13 @@
         "type": "unit",
         "number": "01",
         "title": "Fundamentals of Science",
-        "description": "",
+        "description": "This unit introduces the scientific method, data handling, measurement, and the principles that support reliable observation and experimentation in chemistry.",
         "order": 1,
         "concepts": [
           {
             "id": "chemistry-g10-s1-concept-lo-summerized",
             "title": "LO summerized",
-            "description": "",
+            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 1,
             "resources": [
               "chemistry-g10-s1-video-rhut0bnxzsk-4338d57970"
@@ -32,7 +32,7 @@
           {
             "id": "chemistry-g10-s1-concept-science",
             "title": "Science.",
-            "description": "",
+            "description": "This concept focuses on science. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 2,
             "resources": [
               "chemistry-g10-s1-video-qjfp7ywz3a0-3626093146"
@@ -41,7 +41,7 @@
           {
             "id": "chemistry-g10-s1-concept-scientific-methods",
             "title": "Scientific methods.",
-            "description": "",
+            "description": "This concept focuses on scientific methods. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 3,
             "resources": [
               "chemistry-g10-s1-video-yi0hwfdqtsq-7fe64cc4ac",
@@ -51,7 +51,7 @@
           {
             "id": "chemistry-g10-s1-concept-scientific-law",
             "title": "Scientific law.",
-            "description": "",
+            "description": "This concept focuses on scientific law. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 4,
             "resources": [
               "chemistry-g10-s1-video-gyn2rhbhieu-6d435011ac",
@@ -61,7 +61,7 @@
           {
             "id": "chemistry-g10-s1-concept-scientific-theory",
             "title": "Scientific theory.",
-            "description": "",
+            "description": "This concept focuses on scientific theory. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 5,
             "resources": [
               "chemistry-g10-s1-video-gyn2rhbhieu-9ca7bf7c4a",
@@ -71,7 +71,7 @@
           {
             "id": "chemistry-g10-s1-concept-relations-between-variables",
             "title": "Relations between variables.",
-            "description": "",
+            "description": "This concept focuses on relations between variables. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 6,
             "resources": [
               "chemistry-g10-s1-video-f9f7xfh-vtq-36888cfbd7",
@@ -81,7 +81,7 @@
           {
             "id": "chemistry-g10-s1-concept-uncertainty",
             "title": "Uncertainty.",
-            "description": "",
+            "description": "This concept focuses on uncertainty. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 7,
             "resources": [
               "chemistry-g10-s1-video-ibrztvohbhy-82c9bb2779",
@@ -91,7 +91,7 @@
           {
             "id": "chemistry-g10-s1-concept-si-units",
             "title": "SI units.",
-            "description": "",
+            "description": "This concept focuses on si units. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 8,
             "resources": [
               "chemistry-g10-s1-video-8rzrypoerpw-28feffcee5",
@@ -101,7 +101,7 @@
           {
             "id": "chemistry-g10-s1-concept-instrumentation-precision-accuracy-significant-figures",
             "title": "Instrumentation (precision, accuracy, significant figures).",
-            "description": "",
+            "description": "This concept focuses on instrumentation (precision, accuracy, significant figures). and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 9,
             "resources": [
               "chemistry-g10-s1-video-eehtk5uyemm-30f7d32bcf",
@@ -112,7 +112,7 @@
           {
             "id": "chemistry-g10-s1-concept-types-of-variables",
             "title": "Types of variables.",
-            "description": "",
+            "description": "This concept focuses on types of variables. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 10,
             "resources": [
               "chemistry-g10-s1-video-r16p4q7voi4-8e3e46d06f",
@@ -122,7 +122,7 @@
           {
             "id": "chemistry-g10-s1-concept-density",
             "title": "Density.",
-            "description": "",
+            "description": "This concept focuses on density. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 11,
             "resources": [
               "chemistry-g10-s1-video-lixut4p0drg-058c6ff548",
@@ -132,7 +132,7 @@
           {
             "id": "chemistry-g10-s1-concept-specific-gravity",
             "title": "Specific gravity.",
-            "description": "",
+            "description": "This concept focuses on specific gravity. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 12,
             "resources": [
               "chemistry-g10-s1-video-zdb7z-lsygs-c239170db8",
@@ -151,13 +151,13 @@
         "type": "unit",
         "number": "02",
         "title": "Atomic Structure",
-        "description": "",
+        "description": "This unit examines the structure of atoms, subatomic particles, and how atomic composition influences chemical behavior and reactivity.",
         "order": 2,
         "concepts": [
           {
             "id": "chemistry-g10-s1-concept-lo-summerized",
             "title": "LO summerized",
-            "description": "",
+            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 1,
             "resources": [
               "chemistry-g10-s1-video-l717yghpnio-2dec43d2d2"
@@ -166,7 +166,7 @@
           {
             "id": "chemistry-g10-s1-concept-atoms",
             "title": "Atoms.",
-            "description": "",
+            "description": "This concept focuses on atoms. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 2,
             "resources": [
               "chemistry-g10-s1-video-acdkmeekcnq-3edb7fa604",
@@ -176,7 +176,7 @@
           {
             "id": "chemistry-g10-s1-concept-atomic-structure",
             "title": "Atomic Structure.",
-            "description": "",
+            "description": "This concept focuses on atomic structure. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 3,
             "resources": [
               "chemistry-g10-s1-video-oh-asu-rwgk-49c1e57ca0",
@@ -186,7 +186,7 @@
           {
             "id": "chemistry-g10-s1-concept-isotopes",
             "title": "Isotopes.",
-            "description": "",
+            "description": "This concept focuses on isotopes. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 4,
             "resources": [
               "chemistry-g10-s1-video-bagegezbtos-a635f34795",
@@ -196,7 +196,7 @@
           {
             "id": "chemistry-g10-s1-concept-isobar",
             "title": "Isobar.",
-            "description": "",
+            "description": "This concept focuses on isobar. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 5,
             "resources": [
               "chemistry-g10-s1-video-9xwmj-ai-6o-c15ffbab65",
@@ -206,7 +206,7 @@
           {
             "id": "chemistry-g10-s1-concept-isotones",
             "title": "Isotones.",
-            "description": "",
+            "description": "This concept focuses on isotones. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 6,
             "resources": [
               "chemistry-g10-s1-video-7gpakfpqvm0-bb3e9d6d31",
@@ -216,7 +216,7 @@
           {
             "id": "chemistry-g10-s1-concept-alpha",
             "title": "Alpha.",
-            "description": "",
+            "description": "This concept focuses on alpha. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 7,
             "resources": [
               "chemistry-g10-s1-video-cprff-ecgt8-4f7f51be07",
@@ -226,7 +226,7 @@
           {
             "id": "chemistry-g10-s1-concept-beta",
             "title": "Beta.",
-            "description": "",
+            "description": "This concept focuses on beta. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 8,
             "resources": [
               "chemistry-g10-s1-video-cprff-ecgt8-4f7f51be07",
@@ -236,7 +236,7 @@
           {
             "id": "chemistry-g10-s1-concept-gamma",
             "title": "Gamma.",
-            "description": "",
+            "description": "This concept focuses on gamma. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 9,
             "resources": [
               "chemistry-g10-s1-video-cprff-ecgt8-4f7f51be07",
@@ -256,13 +256,13 @@
         "type": "unit",
         "number": "03",
         "title": "Electronic Structure and Spectra",
-        "description": "",
+        "description": "This unit explores electron arrangement, energy levels, and how spectra help explain atomic and molecular structure.",
         "order": 3,
         "concepts": [
           {
             "id": "chemistry-g10-s1-concept-lo-summerized",
             "title": "LO summerized",
-            "description": "",
+            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 1,
             "resources": [
               "chemistry-g10-s1-video-h3k-yvd5gsk-ee52fba133"
@@ -271,7 +271,7 @@
           {
             "id": "chemistry-g10-s1-concept-electron-configuration",
             "title": "Electron configuration.",
-            "description": "",
+            "description": "This concept focuses on electron configuration. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 2,
             "resources": [
               "chemistry-g10-s1-video-niwcdnfjj98-4c10609172",
@@ -281,7 +281,7 @@
           {
             "id": "chemistry-g10-s1-concept-valence-numbers",
             "title": "Valence numbers.",
-            "description": "",
+            "description": "This concept focuses on valence numbers. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 3,
             "resources": [
               "chemistry-g10-s1-video-fpk2zib9ix0-4b8df04327",
@@ -291,7 +291,7 @@
           {
             "id": "chemistry-g10-s1-concept-quantum-numbers",
             "title": "Quantum numbers",
-            "description": "",
+            "description": "This concept focuses on quantum numbers and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 4,
             "resources": [
               "chemistry-g10-s1-video-erin9cpdrpo-3ff5e6f6bd",
@@ -301,7 +301,7 @@
           {
             "id": "chemistry-g10-s1-concept-electromagnetic-spectrum",
             "title": "Electromagnetic spectrum.",
-            "description": "",
+            "description": "This concept focuses on electromagnetic spectrum. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 5,
             "resources": [
               "chemistry-g10-s1-video-kwqitt-kdfe-e1e2cff68f",
@@ -311,7 +311,7 @@
           {
             "id": "chemistry-g10-s1-concept-frequency",
             "title": "Frequency.",
-            "description": "",
+            "description": "This concept focuses on frequency. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 6,
             "resources": [
               "chemistry-g10-s1-video-lgymxh1lcdo-e4adec643f",
@@ -321,7 +321,7 @@
           {
             "id": "chemistry-g10-s1-concept-wavelength",
             "title": "Wavelength.",
-            "description": "",
+            "description": "This concept focuses on wavelength. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 7,
             "resources": [
               "chemistry-g10-s1-video-lgymxh1lcdo-e4adec643f",
@@ -331,7 +331,7 @@
           {
             "id": "chemistry-g10-s1-concept-photon-absorption",
             "title": "Photon Absorption.",
-            "description": "",
+            "description": "This concept focuses on photon absorption. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 8,
             "resources": [
               "chemistry-g10-s1-video-1upyq63arvg-453c1e0cd7",
@@ -341,7 +341,7 @@
           {
             "id": "chemistry-g10-s1-concept-emission",
             "title": "Emission.",
-            "description": "",
+            "description": "This concept focuses on emission. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 9,
             "resources": [
               "chemistry-g10-s1-video-1upyq63arvg-453c1e0cd7",
@@ -351,7 +351,7 @@
           {
             "id": "chemistry-g10-s1-concept-energy-frequency-and-wavelength-relations",
             "title": "Energy, frequency and wavelength relations.",
-            "description": "",
+            "description": "This concept focuses on energy, frequency and wavelength relations. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 10,
             "resources": [
               "chemistry-g10-s1-video-lgymxh1lcdo-64f49e4f62",
@@ -361,7 +361,7 @@
           {
             "id": "chemistry-g10-s1-concept-photoelectric-phenomenon",
             "title": "Photoelectric phenomenon.",
-            "description": "",
+            "description": "This concept focuses on photoelectric phenomenon. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 11,
             "resources": [
               "chemistry-g10-s1-video-mfpkwu5vugg-da5c23991a",
@@ -371,7 +371,7 @@
           {
             "id": "chemistry-g10-s1-concept-flame-test",
             "title": ". Flame test.",
-            "description": "",
+            "description": "This concept focuses on . flame test. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 12,
             "resources": [
               "chemistry-g10-s1-video-tmz-xr3o5mg-5fb9cfae72",
@@ -381,7 +381,7 @@
           {
             "id": "chemistry-g10-s1-concept-excited-state",
             "title": "Excited state.",
-            "description": "",
+            "description": "This concept focuses on excited state. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 13,
             "resources": [
               "chemistry-g10-s1-video-pr2pnillg6a-84ba7d3eb9",
@@ -399,13 +399,13 @@
         "type": "unit",
         "number": "04",
         "title": "Periodic Table & Periodicity",
-        "description": "",
+        "description": "This unit explains how the periodic table is organized and how repeating trends help predict the properties of elements.",
         "order": 4,
         "concepts": [
           {
             "id": "chemistry-g10-s1-concept-lo-summerized",
             "title": "LO summerized",
-            "description": "",
+            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 1,
             "resources": [
               "chemistry-g10-s1-video-sttljayta1w-c4db2043f6"
@@ -414,7 +414,7 @@
           {
             "id": "chemistry-g10-s1-concept-structure-of-the-periodic-table",
             "title": "Structure of the periodic table.",
-            "description": "",
+            "description": "This concept focuses on structure of the periodic table. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 2,
             "resources": [
               "chemistry-g10-s1-video-hepb00cqvp0-56813c726e",
@@ -424,7 +424,7 @@
           {
             "id": "chemistry-g10-s1-concept-trends-and-periodicity",
             "title": "Trends and Periodicity.",
-            "description": "",
+            "description": "This concept focuses on trends and periodicity. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 3,
             "resources": [
               "chemistry-g10-s1-video-7cetohlzq2a-1d140a5840",
@@ -434,7 +434,7 @@
           {
             "id": "chemistry-g10-s1-concept-atomic-radius",
             "title": "Atomic Radius.",
-            "description": "",
+            "description": "This concept focuses on atomic radius. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 4,
             "resources": [
               "chemistry-g10-s1-video-hepb00cqvp0-c58f72bddc",
@@ -444,7 +444,7 @@
           {
             "id": "chemistry-g10-s1-concept-atomic-radius",
             "title": "Atomic Radius.",
-            "description": "",
+            "description": "This concept focuses on atomic radius. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 5,
             "resources": [
               "chemistry-g10-s1-video-hepb00cqvp0-c58f72bddc",
@@ -454,7 +454,7 @@
           {
             "id": "chemistry-g10-s1-concept-electronegativity",
             "title": "Electronegativity.",
-            "description": "",
+            "description": "This concept focuses on electronegativity. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 6,
             "resources": [
               "chemistry-g10-s1-video-c9n2-gkvsaw-df0713b661",
@@ -464,7 +464,7 @@
           {
             "id": "chemistry-g10-s1-concept-electron-affinity",
             "title": "Electron Affinity",
-            "description": "",
+            "description": "This concept focuses on electron affinity and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 7,
             "resources": [
               "chemistry-g10-s1-video-khlija77wqe-c63261f1eb",
@@ -474,7 +474,7 @@
           {
             "id": "chemistry-g10-s1-concept-metal-nonmetal-and-metalloid",
             "title": ". Metal, nonmetal and metalloid",
-            "description": "",
+            "description": "This concept focuses on . metal, nonmetal and metalloid and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 8,
             "resources": [
               "chemistry-g10-s1-video-26faogpnfio-0cd53aefdb",
@@ -492,13 +492,13 @@
         "type": "unit",
         "number": "05",
         "title": "Chemical Bonding & Organic Basics",
-        "description": "",
+        "description": "This unit introduces ionic and covalent bonding and the basic ideas of organic chemistry that explain how molecules form and behave.",
         "order": 5,
         "concepts": [
           {
             "id": "chemistry-g10-s1-concept-lo-summerized",
             "title": "LO summerized",
-            "description": "",
+            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 1,
             "resources": [
               "chemistry-g10-s1-video-961zmt281gw-f82207549c",
@@ -508,7 +508,7 @@
           {
             "id": "chemistry-g10-s1-concept-chemical-bond",
             "title": "Chemical bond.",
-            "description": "",
+            "description": "This concept focuses on chemical bond. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 2,
             "resources": [
               "chemistry-g10-s1-video-poqjsnqmxok-e7fbcc85d3",
@@ -518,7 +518,7 @@
           {
             "id": "chemistry-g10-s1-concept-ionic-and-covalent-bond",
             "title": "Ionic and Covalent bond",
-            "description": "",
+            "description": "This concept focuses on ionic and covalent bond and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 3,
             "resources": [
               "chemistry-g10-s1-video-s-k0kr2ezsq-17dd546461",
@@ -528,7 +528,7 @@
           {
             "id": "chemistry-g10-s1-concept-electron-dot-diagram",
             "title": "Electron dot diagram",
-            "description": "",
+            "description": "This concept focuses on electron dot diagram and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 4,
             "resources": [
               "chemistry-g10-s1-video-sk7w2vgbhog-dca94e312c",
@@ -538,7 +538,7 @@
           {
             "id": "chemistry-g10-s1-concept-nomenclature-of-alkanes-iupac-common-name",
             "title": "Nomenclature of alkanes (IUPAC common name).",
-            "description": "",
+            "description": "This concept focuses on nomenclature of alkanes (iupac common name). and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 5,
             "resources": [
               "chemistry-g10-s1-video-tyu-jluleme-44937ba37b",
@@ -548,7 +548,7 @@
           {
             "id": "chemistry-g10-s1-concept-isomers-of-alkanes",
             "title": "Isomers of alkanes.",
-            "description": "",
+            "description": "This concept focuses on isomers of alkanes. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 6,
             "resources": [
               "chemistry-g10-s1-video-tj7mxcwkrte-c0dbb05eb0",
@@ -558,7 +558,7 @@
           {
             "id": "chemistry-g10-s1-concept-cis-and-trans",
             "title": "Cis and Trans.",
-            "description": "",
+            "description": "This concept focuses on cis and trans. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 7,
             "resources": [
               "chemistry-g10-s1-video-m8z8ouxfxia-8e1520607e",
@@ -568,7 +568,7 @@
           {
             "id": "chemistry-g10-s1-concept-structure-isomers-and-chains",
             "title": "Structure Isomers and Chains.",
-            "description": "",
+            "description": "This concept focuses on structure isomers and chains. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 8,
             "resources": [
               "chemistry-g10-s1-video-48rsf1pohfa-b3b41d095b",
@@ -587,13 +587,13 @@
         "type": "unit",
         "number": "06",
         "title": "Nuclear Chemistry & Radioactivity",
-        "description": "",
+        "description": "This unit covers radioactivity, nuclear decay, and the scientific and practical applications of nuclear chemistry in society.",
         "order": 6,
         "concepts": [
           {
             "id": "chemistry-g10-s1-concept-lo-summerized",
             "title": "LO summerized",
-            "description": "",
+            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 1,
             "resources": [
               "chemistry-g10-s1-video-zsotts5o-ak-fe30e008d5"
@@ -602,7 +602,7 @@
           {
             "id": "chemistry-g10-s1-concept-radioactive",
             "title": "Radioactive.",
-            "description": "",
+            "description": "This concept focuses on radioactive. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 2,
             "resources": [
               "chemistry-g10-s1-video-p-sd5rt6xmk-42a01b8f31",
@@ -612,7 +612,7 @@
           {
             "id": "chemistry-g10-s1-concept-unstable-atoms",
             "title": "Unstable Atoms.",
-            "description": "",
+            "description": "This concept focuses on unstable atoms. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 3,
             "resources": [
               "chemistry-g10-s1-video-1hsra-vbh-m-f7b245b739",
@@ -622,7 +622,7 @@
           {
             "id": "chemistry-g10-s1-concept-fusion-reaction",
             "title": "Fusion reaction.",
-            "description": "",
+            "description": "This concept focuses on fusion reaction. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 4,
             "resources": [
               "chemistry-g10-s1-video-b9qxaflpz9u-d78bc9600c",
@@ -632,7 +632,7 @@
           {
             "id": "chemistry-g10-s1-concept-fusion-reaction",
             "title": "Fusion reaction.",
-            "description": "",
+            "description": "This concept focuses on fusion reaction. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 5,
             "resources": [
               "chemistry-g10-s1-video-b9qxaflpz9u-d78bc9600c",
@@ -642,7 +642,7 @@
           {
             "id": "chemistry-g10-s1-concept-half-life",
             "title": ". Half-life.",
-            "description": "",
+            "description": "This concept focuses on . half-life. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 6,
             "resources": [
               "chemistry-g10-s1-video-wtqvfvoof3g-d98ad9e6be",
@@ -652,7 +652,7 @@
           {
             "id": "chemistry-g10-s1-concept-nuclear-forces",
             "title": "Nuclear forces",
-            "description": "",
+            "description": "This concept focuses on nuclear forces and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 7,
             "resources": [
               "chemistry-g10-s1-video-c3nge8z3-lo-5bea446191",
@@ -670,13 +670,13 @@
         "type": "unit",
         "number": "07",
         "title": "Chemical Reactions & Phase Changes",
-        "description": "",
+        "description": "This unit investigates reaction types, energy changes, and the physical changes that occur when matter changes state.",
         "order": 7,
         "concepts": [
           {
             "id": "chemistry-g10-s1-concept-lo-summerized",
             "title": "LO summerized",
-            "description": "",
+            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 1,
             "resources": [
               "chemistry-g10-s1-video-ymyfy3nfwgk-6e35bfa63b"
@@ -685,7 +685,7 @@
           {
             "id": "chemistry-g10-s1-concept-element",
             "title": "Element.",
-            "description": "",
+            "description": "This concept focuses on element. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 2,
             "resources": [
               "chemistry-g10-s1-video-kwa-ztldnhw-6ff8583a5f",
@@ -695,7 +695,7 @@
           {
             "id": "chemistry-g10-s1-concept-compound",
             "title": ". Compound.",
-            "description": "",
+            "description": "This concept focuses on . compound. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 3,
             "resources": [
               "chemistry-g10-s1-video-dgghwvfj8xs-61f21c906a",
@@ -705,7 +705,7 @@
           {
             "id": "chemistry-g10-s1-concept-electrolysis",
             "title": "Electrolysis.",
-            "description": "",
+            "description": "This concept focuses on electrolysis. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 4,
             "resources": [
               "chemistry-g10-s1-video-7uiiq-ofzgw-c743da63c8",
@@ -715,7 +715,7 @@
           {
             "id": "chemistry-g10-s1-concept-chemical-formula",
             "title": "Chemical formula.",
-            "description": "",
+            "description": "This concept focuses on chemical formula. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 5,
             "resources": [
               "chemistry-g10-s1-video-gj4mds0cwle-56c94fd879",
@@ -725,7 +725,7 @@
           {
             "id": "chemistry-g10-s1-concept-chemical-equation",
             "title": "Chemical equation.",
-            "description": "",
+            "description": "This concept focuses on chemical equation. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 6,
             "resources": [
               "chemistry-g10-s1-video-e-c-v5vjv80-77c7a052ac",
@@ -735,7 +735,7 @@
           {
             "id": "chemistry-g10-s1-concept-law-of-conservation-of-mass",
             "title": "Law of Conservation of Mass.",
-            "description": "",
+            "description": "This concept focuses on law of conservation of mass. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 7,
             "resources": [
               "chemistry-g10-s1-video-ebtnzsclug4-28e6165d3d",
@@ -745,7 +745,7 @@
           {
             "id": "chemistry-g10-s1-concept-temperature",
             "title": "Temperature.",
-            "description": "",
+            "description": "This concept focuses on temperature. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 8,
             "resources": [
               "chemistry-g10-s1-video-brzwzy0xvhm-ee6a6d9cde",
@@ -755,7 +755,7 @@
           {
             "id": "chemistry-g10-s1-concept-kinetic-energy",
             "title": "Kinetic energy.",
-            "description": "",
+            "description": "This concept focuses on kinetic energy. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 9,
             "resources": [
               "chemistry-g10-s1-video-g7u6pifuvy4-049cc8f19e",
@@ -765,7 +765,7 @@
           {
             "id": "chemistry-g10-s1-concept-vaporization",
             "title": "Vaporization.",
-            "description": "",
+            "description": "This concept focuses on vaporization. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 10,
             "resources": [
               "chemistry-g10-s1-video-oc0ypedelb0-1ade578b6b",
@@ -775,7 +775,7 @@
           {
             "id": "chemistry-g10-s1-concept-sublimation",
             "title": "Sublimation.",
-            "description": "",
+            "description": "This concept focuses on sublimation. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 11,
             "resources": [
               "chemistry-g10-s1-video-29x7varv2ni-2dd29abbea",
@@ -785,7 +785,7 @@
           {
             "id": "chemistry-g10-s1-concept-heating-curve-of-water",
             "title": "Heating Curve of Water.",
-            "description": "",
+            "description": "This concept focuses on heating curve of water. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 12,
             "resources": [
               "chemistry-g10-s1-video-ys2rhrirc88-1d4879cbdf",
@@ -803,7 +803,7 @@
         "type": "unit",
         "number": "08",
         "title": "Additional References",
-        "description": "",
+        "description": "This section provides supplementary materials and additional reading for extending understanding beyond the core units.",
         "order": 8,
         "concepts": [],
         "resources": []
@@ -812,7 +812,7 @@
         "id": "chemistry-g10-s1-qs-bank-question-bank",
         "type": "qs-bank",
         "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
+        "description": "This section contains practice questions and exam-style activities to reinforce key chemistry ideas and prepare students for assessments.",
         "order": 9,
         "concepts": [],
         "resources": [
@@ -846,7 +846,7 @@
         "id": "chemistry-g10-s1-revision-revision",
         "type": "revision",
         "title": "Revision",
-        "description": "Revision materials for the semester.",
+        "description": "This section reviews the major concepts of the semester and supports targeted exam preparation and consolidation.",
         "order": 10,
         "concepts": [],
         "resources": []
@@ -855,7 +855,7 @@
         "id": "chemistry-g10-s1-references-references",
         "type": "references",
         "title": "References",
-        "description": "Reference books and additional materials.",
+        "description": "This section gathers useful reference materials, textbooks, and support resources for independent study.",
         "order": 11,
         "concepts": [],
         "resources": []
