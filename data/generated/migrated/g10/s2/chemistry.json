@@ -15,15 +15,15 @@
       {
         "id": "chemistry-g10-s2-unit-01",
         "type": "unit",
-        "number": "01",
+        "number": "08",
         "title": "LO8",
-        "description": "",
+        "description": "This unit distinguishes pure substances from mixtures and compares solutions, colloids, and suspensions by composition, particle size, and behavior.",
         "order": 1,
         "concepts": [
           {
             "id": "chemistry-g10-s2-concept-pure-substance",
             "title": "Pure substance",
-            "description": "",
+            "description": "A pure substance has a fixed composition and characteristic properties; it consists of a single element or compound rather than a physical mixture.",
             "order": 1,
             "resources": [
               "chemistry-g10-s2-video-xuxg3fmuafy-cc1de197c6",
@@ -33,46 +33,42 @@
           {
             "id": "chemistry-g10-s2-concept-solution",
             "title": "Solution",
-            "description": "",
+            "description": "A solution is a homogeneous mixture in which one or more solutes are evenly dispersed through a solvent.",
             "order": 2,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-solute",
             "title": "Solute",
-            "description": "",
+            "description": "A solute is a substance dissolved in a solution; its identity and amount help determine the solution's composition.",
             "order": 3,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-solvent",
             "title": "Solvent",
-            "description": "",
+            "description": "A solvent is the medium that dissolves a solute and usually determines the physical state of the resulting solution.",
             "order": 4,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-colloid",
             "title": "Colloid",
-            "description": "",
+            "description": "A colloid contains dispersed particles larger than those in a true solution but small enough to remain suspended without quickly settling.",
             "order": 5,
-            "resources": [
-              "chemistry-g10-s2-video-mezqm7hznzg-2896e699a7"
-            ]
+            "resources": ["chemistry-g10-s2-video-mezqm7hznzg-2896e699a7"]
           },
           {
             "id": "chemistry-g10-s2-concept-tyndall-effect",
             "title": "Tyndall Effect",
-            "description": "",
+            "description": "The Tyndall effect is the scattering of light by colloid particles, making a beam visible as it passes through a colloid.",
             "order": 6,
-            "resources": [
-              "chemistry-g10-s2-video-oxokzplb6qo-9100d5fb49"
-            ]
+            "resources": ["chemistry-g10-s2-video-oxokzplb6qo-9100d5fb49"]
           },
           {
             "id": "chemistry-g10-s2-concept-suspension",
             "title": "Suspension",
-            "description": "",
+            "description": "A suspension is a heterogeneous mixture with particles large enough to settle over time and often be separated by filtration.",
             "order": 7,
             "resources": []
           }
@@ -92,56 +88,52 @@
       {
         "id": "chemistry-g10-s2-unit-02",
         "type": "unit",
-        "number": "02",
+        "number": "09",
         "title": "LO9",
-        "description": "",
+        "description": "This unit compares material properties used to describe appearance and mechanical behavior, including texture, uniformity, strength, elasticity, bounce, and malleability.",
         "order": 2,
         "concepts": [
           {
             "id": "chemistry-g10-s2-concept-texture",
             "title": "Texture",
-            "description": "",
+            "description": "Texture describes a material's surface and the size, shape, and arrangement of its visible particles or features.",
             "order": 1,
-            "resources": [
-              "chemistry-g10-s2-video-phci22twtuu-944ab41cb8"
-            ]
+            "resources": ["chemistry-g10-s2-video-phci22twtuu-944ab41cb8"]
           },
           {
             "id": "chemistry-g10-s2-concept-uniformity",
             "title": "Uniformity",
-            "description": "",
+            "description": "Uniformity describes how consistently a material's composition and properties are distributed throughout a sample.",
             "order": 2,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-strength",
             "title": "Strength",
-            "description": "",
+            "description": "Strength is a material's ability to withstand an applied force without breaking or undergoing permanent deformation.",
             "order": 3,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-elasticity",
             "title": "Elasticity",
-            "description": "",
+            "description": "Elasticity is the ability of a material to return toward its original shape after a deforming force is removed.",
             "order": 4,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-bounce",
             "title": "Bounce",
-            "description": "",
+            "description": "Bounce describes how well an object rebounds after impact, depending on its elasticity and how much energy is lost during the collision.",
             "order": 5,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-malleability",
             "title": "Malleability",
-            "description": "",
+            "description": "Malleability is the ability of a solid material to be hammered or rolled into thin sheets without cracking.",
             "order": 6,
-            "resources": [
-              "chemistry-g10-s2-video-08mgigbcsci-04c5515126"
-            ]
+            "resources": ["chemistry-g10-s2-video-08mgigbcsci-04c5515126"]
           }
         ],
         "resources": [
@@ -157,67 +149,59 @@
       {
         "id": "chemistry-g10-s2-unit-03",
         "type": "unit",
-        "number": "03",
+        "number": "10",
         "title": "LO10",
-        "description": "",
+        "description": "This unit uses balanced chemical equations and quantitative relationships to calculate reactant and product amounts, including yields and limiting reagents.",
         "order": 3,
         "concepts": [
           {
             "id": "chemistry-g10-s2-concept-stoichiometry",
             "title": "Stoichiometry",
-            "description": "",
+            "description": "Stoichiometry uses mole ratios from a balanced chemical equation to calculate the amounts of reactants consumed and products formed.",
             "order": 1,
-            "resources": [
-              "chemistry-g10-s2-video-bvrpvhhluga-1d466873f2"
-            ]
+            "resources": ["chemistry-g10-s2-video-bvrpvhhluga-1d466873f2"]
           },
           {
             "id": "chemistry-g10-s2-concept-mole",
             "title": "Mole",
-            "description": "",
+            "description": "The mole is the SI unit for amount of substance and represents Avogadro's number of specified particles, such as atoms, molecules, or ions.",
             "order": 2,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-molar-mass",
             "title": "Molar mass",
-            "description": "",
+            "description": "Molar mass is the mass of one mole of a substance, usually expressed in grams per mole and calculated from its chemical formula.",
             "order": 3,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-standard-temperature-and-pressure-stp",
             "title": "Standard temperature and pressure (STP)",
-            "description": "",
+            "description": "STP is a defined reference temperature and pressure used to compare gas properties; the exact reference values depend on the convention being used.",
             "order": 4,
-            "resources": [
-              "chemistry-g10-s2-video-b1zsdnogeya-2eafb87483"
-            ]
+            "resources": ["chemistry-g10-s2-video-b1zsdnogeya-2eafb87483"]
           },
           {
             "id": "chemistry-g10-s2-concept-dimensional-analysis-unit-conversions",
             "title": "Dimensional analysis (unit conversions)",
-            "description": "",
+            "description": "Dimensional analysis converts measurements by multiplying by ratios equal to one, arranged so unwanted units cancel and the desired unit remains.",
             "order": 5,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-percentage-yield",
             "title": "Percentage yield",
-            "description": "",
+            "description": "Percentage yield compares the amount of product actually obtained with the theoretical maximum, expressed as a percentage.",
             "order": 6,
-            "resources": [
-              "chemistry-g10-s2-video-diird9ozvii-bf6a52d582"
-            ]
+            "resources": ["chemistry-g10-s2-video-diird9ozvii-bf6a52d582"]
           },
           {
             "id": "chemistry-g10-s2-concept-limiting-reagent",
             "title": "Limiting reagent",
-            "description": "",
+            "description": "The limiting reagent is consumed first in a reaction and therefore determines the maximum amount of product that can form.",
             "order": 7,
-            "resources": [
-              "chemistry-g10-s2-video-nzovr8emwru-7a7d360ad6"
-            ]
+            "resources": ["chemistry-g10-s2-video-nzovr8emwru-7a7d360ad6"]
           }
         ],
         "resources": [
@@ -233,46 +217,38 @@
       {
         "id": "chemistry-g10-s2-unit-04",
         "type": "unit",
-        "number": "04",
+        "number": "11",
         "title": "LO11",
-        "description": "",
+        "description": "This unit classifies chemical reactions by how reactants rearrange into products and uses common reaction patterns to interpret chemical change.",
         "order": 4,
         "concepts": [
           {
             "id": "chemistry-g10-s2-concept-synthesis-reaction",
             "title": "Synthesis reaction",
-            "description": "",
+            "description": "A synthesis reaction combines two or more reactants to form a single product, often represented as A + B → AB.",
             "order": 1,
-            "resources": [
-              "chemistry-g10-s2-video-frsuhbtgwsg-ae9c6afe65"
-            ]
+            "resources": ["chemistry-g10-s2-video-frsuhbtgwsg-ae9c6afe65"]
           },
           {
             "id": "chemistry-g10-s2-concept-decomposition-reaction",
             "title": "Decomposition reaction",
-            "description": "",
+            "description": "A decomposition reaction breaks one compound into two or more simpler products, often requiring energy to initiate the change.",
             "order": 2,
-            "resources": [
-              "chemistry-g10-s2-video-bf0alyxhbgw-21ce20cb8d"
-            ]
+            "resources": ["chemistry-g10-s2-video-bf0alyxhbgw-21ce20cb8d"]
           },
           {
             "id": "chemistry-g10-s2-concept-single-replacement-reaction",
             "title": "Single-replacement reaction",
-            "description": "",
+            "description": "In a single-replacement reaction, a free element replaces another element in a compound when the reaction is chemically favorable.",
             "order": 3,
-            "resources": [
-              "chemistry-g10-s2-video-4xlmqvokflg-dc530c9332"
-            ]
+            "resources": ["chemistry-g10-s2-video-4xlmqvokflg-dc530c9332"]
           },
           {
             "id": "chemistry-g10-s2-concept-double-replacement-reaction",
             "title": "Double-replacement reaction",
-            "description": "",
+            "description": "A double-replacement reaction exchanges ions between two compounds and may produce a precipitate, gas, or molecular substance such as water.",
             "order": 4,
-            "resources": [
-              "chemistry-g10-s2-video-d8vwigf2mge-1a1fc8ead7"
-            ]
+            "resources": ["chemistry-g10-s2-video-d8vwigf2mge-1a1fc8ead7"]
           }
         ],
         "resources": [
@@ -286,60 +262,52 @@
       {
         "id": "chemistry-g10-s2-unit-05",
         "type": "unit",
-        "number": "05",
+        "number": "12",
         "title": "LO12",
-        "description": "",
+        "description": "This unit explores molecular polarity, intermolecular attractions, electronegativity, and molecular shape to explain how structure influences substance properties.",
         "order": 5,
         "concepts": [
           {
             "id": "chemistry-g10-s2-concept-intermolecular-forces",
             "title": "Intermolecular forces",
-            "description": "",
+            "description": "Intermolecular forces are attractions between particles that influence physical properties such as boiling point, melting point, viscosity, and solubility.",
             "order": 1,
-            "resources": [
-              "chemistry-g10-s2-video-bjzbdk1oe9m-ed4bcdf906"
-            ]
+            "resources": ["chemistry-g10-s2-video-bjzbdk1oe9m-ed4bcdf906"]
           },
           {
             "id": "chemistry-g10-s2-concept-london-dispersion-force",
             "title": "London dispersion force",
-            "description": "",
+            "description": "London dispersion forces arise from temporary fluctuations in electron distribution and occur between all atoms and molecules.",
             "order": 2,
-            "resources": [
-              "chemistry-g10-s2-video-yiujfhovh48-ab2935a44d"
-            ]
+            "resources": ["chemistry-g10-s2-video-yiujfhovh48-ab2935a44d"]
           },
           {
             "id": "chemistry-g10-s2-concept-dipole-dipole-force",
             "title": "Dipole-dipole force",
-            "description": "",
+            "description": "Dipole-dipole forces are attractions between the partial positive and partial negative ends of neighboring polar molecules.",
             "order": 3,
-            "resources": [
-              "chemistry-g10-s2-video-zovnu0kyyxo-b30ffb8358"
-            ]
+            "resources": ["chemistry-g10-s2-video-zovnu0kyyxo-b30ffb8358"]
           },
           {
             "id": "chemistry-g10-s2-concept-electronegativity",
             "title": "Electronegativity",
-            "description": "",
+            "description": "Electronegativity measures how strongly an atom attracts shared electrons in a chemical bond and helps predict bond polarity.",
             "order": 4,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-polarity",
             "title": "Polarity",
-            "description": "",
+            "description": "Polarity is an uneven distribution of electrical charge in a bond or molecule, determined by electronegativity differences and molecular geometry.",
             "order": 5,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-vespr-theory",
             "title": "VESPR theory",
-            "description": "",
+            "description": "VSEPR theory predicts molecular shape by considering repulsion between regions of electron density around a central atom.",
             "order": 6,
-            "resources": [
-              "chemistry-g10-s2-video-dbrq31w8vc4-9517d28547"
-            ]
+            "resources": ["chemistry-g10-s2-video-dbrq31w8vc4-9517d28547"]
           }
         ],
         "resources": [
@@ -354,24 +322,22 @@
       {
         "id": "chemistry-g10-s2-unit-06",
         "type": "unit",
-        "number": "06",
+        "number": "13",
         "title": "LO13",
-        "description": "",
+        "description": "This unit introduces metals and redox chemistry, focusing on electron transfer and how oxidation and reduction occur together in reactions.",
         "order": 6,
         "concepts": [
           {
             "id": "chemistry-g10-s2-concept-metals",
             "title": "Metals",
-            "description": "",
+            "description": "Metals are elements that typically conduct heat and electricity, are malleable and ductile, and form positive ions by losing electrons.",
             "order": 1,
-            "resources": [
-              "chemistry-g10-s2-video-bd7vnlr-i-c-07314edf87"
-            ]
+            "resources": ["chemistry-g10-s2-video-bd7vnlr-i-c-07314edf87"]
           },
           {
             "id": "chemistry-g10-s2-concept-oxidation-reduction-redox-reaction",
             "title": "Oxidation-reduction (redox) reaction",
-            "description": "",
+            "description": "A redox reaction involves electron transfer: one species is oxidized as another is reduced, with oxidation numbers changing accordingly.",
             "order": 2,
             "resources": [
               "chemistry-g10-s2-video-vxvtkwubqqg-3e7004f501",
@@ -382,14 +348,14 @@
           {
             "id": "chemistry-g10-s2-concept-oxidation",
             "title": "Oxidation",
-            "description": "",
+            "description": "Oxidation is the loss of electrons by a species and corresponds to an increase in its oxidation number.",
             "order": 3,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-reduction",
             "title": "Reduction",
-            "description": "",
+            "description": "Reduction is the gain of electrons by a species and corresponds to a decrease in its oxidation number.",
             "order": 4,
             "resources": []
           }
@@ -405,15 +371,15 @@
       {
         "id": "chemistry-g10-s2-unit-07",
         "type": "unit",
-        "number": "07",
+        "number": "14",
         "title": "LO14",
-        "description": "",
+        "description": "This unit examines electrochemical cells and redox processes by separating electron-transfer steps and identifying species unchanged by the reaction.",
         "order": 7,
         "concepts": [
           {
             "id": "chemistry-g10-s2-concept-oxidation-reduction-redox-reaction",
             "title": "Oxidation-reduction (redox) reaction",
-            "description": "",
+            "description": "Redox reactions couple oxidation and reduction; tracking electron transfer and oxidation numbers helps explain how electrochemical cells operate.",
             "order": 1,
             "resources": [
               "chemistry-g10-s2-video-sabiqq-l46g-7c8a0e8e8d",
@@ -423,38 +389,30 @@
           {
             "id": "chemistry-g10-s2-concept-half-reactions",
             "title": "Half-reactions",
-            "description": "",
+            "description": "Half-reactions show oxidation and reduction separately, including the electrons gained or lost so the overall electron transfer can be balanced.",
             "order": 2,
-            "resources": [
-              "chemistry-g10-s2-video-fdbrhqam9gw-04d7c09a94"
-            ]
+            "resources": ["chemistry-g10-s2-video-fdbrhqam9gw-04d7c09a94"]
           },
           {
             "id": "chemistry-g10-s2-concept-electrochemical-cell",
             "title": "Electrochemical cell",
-            "description": "",
+            "description": "An electrochemical cell uses a redox reaction to transfer electrons through a circuit or uses electrical energy to drive a chemical reaction.",
             "order": 3,
-            "resources": [
-              "chemistry-g10-s2-video-iv4iusholjg-7b48ecd92a"
-            ]
+            "resources": ["chemistry-g10-s2-video-iv4iusholjg-7b48ecd92a"]
           },
           {
             "id": "chemistry-g10-s2-concept-galvanic-cell",
             "title": "Galvanic cell",
-            "description": "",
+            "description": "A galvanic cell converts energy from a spontaneous redox reaction into electrical energy as electrons flow through an external circuit.",
             "order": 4,
-            "resources": [
-              "chemistry-g10-s2-video-9blb-umtiam-f6f5272a83"
-            ]
+            "resources": ["chemistry-g10-s2-video-9blb-umtiam-f6f5272a83"]
           },
           {
             "id": "chemistry-g10-s2-concept-spectator-ions",
             "title": "Spectator ions",
-            "description": "",
+            "description": "Spectator ions are present in solution but remain unchanged during a reaction, so they are omitted from the net ionic equation.",
             "order": 5,
-            "resources": [
-              "chemistry-g10-s2-video-picimjn5hwu-30e12996f4"
-            ]
+            "resources": ["chemistry-g10-s2-video-picimjn5hwu-30e12996f4"]
           }
         ],
         "resources": [
@@ -466,168 +424,134 @@
       {
         "id": "chemistry-g10-s2-unit-08",
         "type": "unit",
-        "number": "08",
+        "number": "15",
         "title": "LO15",
-        "description": "",
+        "description": "This unit connects thermodynamics with reaction kinetics through energy, heat, work, enthalpy, entropy, spontaneity, and the role of catalysts.",
         "order": 8,
         "concepts": [
           {
             "id": "chemistry-g10-s2-concept-system",
             "title": "System",
-            "description": "",
+            "description": "A system is the portion of matter or space selected for study; everything outside it is considered the surroundings.",
             "order": 1,
-            "resources": [
-              "chemistry-g10-s2-video-tfp6svwpoqc-865c27a5e5"
-            ]
+            "resources": ["chemistry-g10-s2-video-tfp6svwpoqc-865c27a5e5"]
           },
           {
             "id": "chemistry-g10-s2-concept-thermodynamic",
             "title": "Thermodynamic",
-            "description": "",
+            "description": "Thermodynamics describes relationships among heat, work, and energy, and how energy changes in a system and its surroundings.",
             "order": 2,
-            "resources": [
-              "chemistry-g10-s2-video-3mjx0cfmpe8-f0f7e72639"
-            ]
+            "resources": ["chemistry-g10-s2-video-3mjx0cfmpe8-f0f7e72639"]
           },
           {
             "id": "chemistry-g10-s2-concept-kinetics",
             "title": "Kinetics",
-            "description": "",
+            "description": "Chemical kinetics studies reaction rates and how factors such as concentration, temperature, surface area, and catalysts affect them.",
             "order": 3,
-            "resources": [
-              "chemistry-g10-s2-video-dyavghgssos-85b1b89381"
-            ]
+            "resources": ["chemistry-g10-s2-video-dyavghgssos-85b1b89381"]
           },
           {
             "id": "chemistry-g10-s2-concept-energy",
             "title": "Energy",
-            "description": "",
+            "description": "Energy is the capacity to transfer heat or perform work and can change form while remaining conserved in a complete system.",
             "order": 4,
-            "resources": [
-              "chemistry-g10-s2-video-jrim-a2ldpm-40ae1d5afe"
-            ]
+            "resources": ["chemistry-g10-s2-video-jrim-a2ldpm-40ae1d5afe"]
           },
           {
             "id": "chemistry-g10-s2-concept-heat",
             "title": "Heat",
-            "description": "",
+            "description": "Heat is energy transferred between objects or systems because of a temperature difference, flowing spontaneously from warmer to cooler regions.",
             "order": 5,
-            "resources": [
-              "chemistry-g10-s2-video-2ixef2zpr8e-9738d98e7b"
-            ]
+            "resources": ["chemistry-g10-s2-video-2ixef2zpr8e-9738d98e7b"]
           },
           {
             "id": "chemistry-g10-s2-concept-maximum-work",
             "title": "Maximum work",
-            "description": "",
+            "description": "Maximum work is the greatest useful work a system can deliver under specified conditions, reached in an ideal reversible process.",
             "order": 6,
-            "resources": [
-              "chemistry-g10-s2-video-jx4deofwalq-02fd21bbf9"
-            ]
+            "resources": ["chemistry-g10-s2-video-jx4deofwalq-02fd21bbf9"]
           },
           {
             "id": "chemistry-g10-s2-concept-law-of-conservation-of-energy",
             "title": "Law of conservation of energy",
-            "description": "",
+            "description": "The law of conservation of energy states that energy is not created or destroyed, but transferred or transformed between forms.",
             "order": 7,
-            "resources": [
-              "chemistry-g10-s2-video-dwicadpm7hk-88fe245fba"
-            ]
+            "resources": ["chemistry-g10-s2-video-dwicadpm7hk-88fe245fba"]
           },
           {
             "id": "chemistry-g10-s2-concept-endothermic",
             "title": "Endothermic",
-            "description": "",
+            "description": "An endothermic process absorbs heat from its surroundings; at constant pressure, its enthalpy change is positive.",
             "order": 8,
-            "resources": [
-              "chemistry-g10-s2-video-wyqqcojggym-9d2f1b3009"
-            ]
+            "resources": ["chemistry-g10-s2-video-wyqqcojggym-9d2f1b3009"]
           },
           {
             "id": "chemistry-g10-s2-concept-exothermic",
             "title": "Exothermic",
-            "description": "",
+            "description": "An exothermic process releases heat to its surroundings; at constant pressure, its enthalpy change is negative.",
             "order": 9,
-            "resources": [
-              "chemistry-g10-s2-video-8n1bxhgsoow-295dd08d43"
-            ]
+            "resources": ["chemistry-g10-s2-video-8n1bxhgsoow-295dd08d43"]
           },
           {
             "id": "chemistry-g10-s2-concept-heat-content",
             "title": "Heat content",
-            "description": "",
+            "description": "Heat content commonly refers to enthalpy, a state function whose change equals heat transferred at constant pressure when only pressure-volume work occurs.",
             "order": 10,
-            "resources": [
-              "chemistry-g10-s2-video-zvrh9d5pw8g-cf4bd6d756"
-            ]
+            "resources": ["chemistry-g10-s2-video-zvrh9d5pw8g-cf4bd6d756"]
           },
           {
             "id": "chemistry-g10-s2-concept-enthalpy-change",
             "title": "Enthalpy change",
-            "description": "",
+            "description": "Enthalpy change is the difference between the products' and reactants' enthalpies and indicates heat absorbed or released at constant pressure.",
             "order": 11,
-            "resources": [
-              "chemistry-g10-s2-video-otk9jrkc6ey-1150f2dcdf"
-            ]
+            "resources": ["chemistry-g10-s2-video-otk9jrkc6ey-1150f2dcdf"]
           },
           {
             "id": "chemistry-g10-s2-concept-energy-diagram",
             "title": "Energy diagram",
-            "description": "",
+            "description": "An energy diagram plots the energy of reactants and products along reaction progress, showing the activation barrier and overall energy change.",
             "order": 12,
-            "resources": [
-              "chemistry-g10-s2-video-yhnhj7wdt8a-da65d2f2f6"
-            ]
+            "resources": ["chemistry-g10-s2-video-yhnhj7wdt8a-da65d2f2f6"]
           },
           {
             "id": "chemistry-g10-s2-concept-activation-energy",
             "title": "Activation energy",
-            "description": "",
+            "description": "Activation energy is the energy barrier reactants must overcome to reach the transition state and proceed toward products.",
             "order": 13,
-            "resources": [
-              "chemistry-g10-s2-video-8n1bxhgsoow-28fbc7787d"
-            ]
+            "resources": ["chemistry-g10-s2-video-8n1bxhgsoow-28fbc7787d"]
           },
           {
             "id": "chemistry-g10-s2-concept-activated-complex",
             "title": "Activated complex",
-            "description": "",
+            "description": "The activated complex, or transition state, is a short-lived, high-energy arrangement formed near the top of the reaction energy barrier.",
             "order": 14,
-            "resources": [
-              "chemistry-g10-s2-video-7qoftl3vebc-4b6845cfd8"
-            ]
+            "resources": ["chemistry-g10-s2-video-7qoftl3vebc-4b6845cfd8"]
           },
           {
             "id": "chemistry-g10-s2-concept-entropy-s",
             "title": "Entropy(S)",
-            "description": "",
+            "description": "Entropy describes the dispersal of energy and the number of microscopic arrangements available to a system.",
             "order": 15,
-            "resources": [
-              "chemistry-g10-s2-video-a23khzi8wjk-31d08cd8da"
-            ]
+            "resources": ["chemistry-g10-s2-video-a23khzi8wjk-31d08cd8da"]
           },
           {
             "id": "chemistry-g10-s2-concept-spontaneity",
             "title": "Spontaneity",
-            "description": "",
+            "description": "Spontaneity describes whether a process is thermodynamically favored under specified conditions; it does not indicate how fast the process occurs.",
             "order": 16,
-            "resources": [
-              "chemistry-g10-s2-video-robkmqjqlr4-337eb0773e"
-            ]
+            "resources": ["chemistry-g10-s2-video-robkmqjqlr4-337eb0773e"]
           },
           {
             "id": "chemistry-g10-s2-concept-gibbs-free-energy",
             "title": "Gibbs free energy",
-            "description": "",
+            "description": "Gibbs free energy combines enthalpy and entropy; at constant temperature and pressure, a negative change indicates a spontaneous process.",
             "order": 17,
-            "resources": [
-              "chemistry-g10-s2-video-hnnvisqlsv8-9d5a329702"
-            ]
+            "resources": ["chemistry-g10-s2-video-hnnvisqlsv8-9d5a329702"]
           },
           {
             "id": "chemistry-g10-s2-concept-catalyst",
             "title": "Catalyst",
-            "description": "",
+            "description": "A catalyst provides an alternative reaction pathway with lower activation energy and is regenerated, without changing the equilibrium position.",
             "order": 18,
             "resources": []
           }
@@ -645,56 +569,50 @@
       {
         "id": "chemistry-g10-s2-unit-09",
         "type": "unit",
-        "number": "09",
+        "number": "16",
         "title": "LO16",
-        "description": "",
+        "description": "This unit models gases using particle motion and gas laws, relating pressure, volume, temperature, and amount under defined conditions.",
         "order": 9,
         "concepts": [
           {
             "id": "chemistry-g10-s2-concept-gas",
             "title": "Gas",
-            "description": "",
+            "description": "A gas has no fixed shape or volume; its particles move freely, spread to fill a container, and can be compressed.",
             "order": 1,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-natural-law",
             "title": "Natural law",
-            "description": "",
+            "description": "A natural law summarizes a consistent relationship observed in nature; gas laws express quantitative relationships among gas variables.",
             "order": 2,
-            "resources": [
-              "chemistry-g10-s2-video-r-ufyy7awko-9e11deecfa"
-            ]
+            "resources": ["chemistry-g10-s2-video-r-ufyy7awko-9e11deecfa"]
           },
           {
             "id": "chemistry-g10-s2-concept-pressure",
             "title": "Pressure",
-            "description": "",
+            "description": "Gas pressure results from particles colliding with the walls of their container and is measured as force per unit area.",
             "order": 3,
-            "resources": [
-              "chemistry-g10-s2-video-6t50gmo8tq0-48646d357c"
-            ]
+            "resources": ["chemistry-g10-s2-video-6t50gmo8tq0-48646d357c"]
           },
           {
             "id": "chemistry-g10-s2-concept-atmosphere",
             "title": "Atmosphere",
-            "description": "",
+            "description": "The atmosphere is the mixture of gases surrounding Earth; its weight exerts atmospheric pressure on surfaces and fluids.",
             "order": 4,
             "resources": []
           },
           {
             "id": "chemistry-g10-s2-concept-barometers",
             "title": "Barometers",
-            "description": "",
+            "description": "A barometer measures atmospheric pressure, traditionally by balancing air pressure against a column of liquid or through a sealed sensor.",
             "order": 5,
-            "resources": [
-              "chemistry-g10-s2-video-yi4rrz3zm7g-77152d32d8"
-            ]
+            "resources": ["chemistry-g10-s2-video-yi4rrz3zm7g-77152d32d8"]
           },
           {
             "id": "chemistry-g10-s2-concept-boyle-s-law",
             "title": "Boyle's Law",
-            "description": "",
+            "description": "Boyle's law states that a gas's pressure varies inversely with its volume when temperature and amount of gas remain constant.",
             "order": 6,
             "resources": [
               "chemistry-g10-s2-video-v8r-au-tlpg-d044ccd8b6",
@@ -704,7 +622,7 @@
           {
             "id": "chemistry-g10-s2-concept-charles-s-law",
             "title": "Charles's Law",
-            "description": "",
+            "description": "Charles's law states that a gas's volume varies directly with its absolute temperature when pressure and amount of gas remain constant.",
             "order": 7,
             "resources": [
               "chemistry-g10-s2-video-twccsshmmgi-1961b1bb0c",
@@ -714,16 +632,14 @@
           {
             "id": "chemistry-g10-s2-concept-absolute-zero",
             "title": "Absolute Zero",
-            "description": "",
+            "description": "Absolute zero is 0 kelvin, the lower limit of the thermodynamic temperature scale and the point of minimum thermal energy.",
             "order": 8,
-            "resources": [
-              "chemistry-g10-s2-video-jhxxpnmydbk-2980968b5a"
-            ]
+            "resources": ["chemistry-g10-s2-video-jhxxpnmydbk-2980968b5a"]
           },
           {
             "id": "chemistry-g10-s2-concept-kinetic-theory-of-matter",
             "title": "Kinetic Theory of Matter",
-            "description": "",
+            "description": "The kinetic theory models matter as particles in constant motion; for an ideal gas, average particle kinetic energy is proportional to absolute temperature.",
             "order": 9,
             "resources": [
               "chemistry-g10-s2-video-robey-idclu-92e6058922",
@@ -733,7 +649,7 @@
           {
             "id": "chemistry-g10-s2-concept-idea-gas",
             "title": "Idea Gas",
-            "description": "",
+            "description": "The ideal-gas model assumes particles have negligible volume, move randomly, and undergo elastic collisions; it approximates real gases best at low pressure and high temperature.",
             "order": 10,
             "resources": []
           }
@@ -750,37 +666,31 @@
       {
         "id": "chemistry-g10-s2-unit-10",
         "type": "unit",
-        "number": "10",
+        "number": "17",
         "title": "LO17",
-        "description": "",
+        "description": "This unit explains how gas particles spread through space or pass through tiny openings and how their relative rates depend on molar mass.",
         "order": 10,
         "concepts": [
           {
             "id": "chemistry-g10-s2-concept-diffusion",
             "title": "Diffusion",
-            "description": "",
+            "description": "Diffusion is the net spreading of particles from regions of higher concentration to lower concentration through random motion.",
             "order": 1,
-            "resources": [
-              "chemistry-g10-s2-video-krlndtmbfzy-957245d8d3"
-            ]
+            "resources": ["chemistry-g10-s2-video-krlndtmbfzy-957245d8d3"]
           },
           {
             "id": "chemistry-g10-s2-concept-effusion",
             "title": "Effusion",
-            "description": "",
+            "description": "Effusion is the escape of gas particles through a tiny opening into a region of lower pressure.",
             "order": 2,
-            "resources": [
-              "chemistry-g10-s2-video-tlrzafu-9kg-0a6142a616"
-            ]
+            "resources": ["chemistry-g10-s2-video-tlrzafu-9kg-0a6142a616"]
           },
           {
             "id": "chemistry-g10-s2-concept-graham-s-law-of-effusion",
             "title": "Graham's Law of Effusion",
-            "description": "",
+            "description": "Graham's law states that, under the same conditions, gas effusion rates are inversely proportional to the square roots of their molar masses.",
             "order": 3,
-            "resources": [
-              "chemistry-g10-s2-video-fe14djj7oei-451f9dcd22"
-            ]
+            "resources": ["chemistry-g10-s2-video-fe14djj7oei-451f9dcd22"]
           }
         ],
         "resources": [
@@ -792,15 +702,6 @@
           "chemistry-g10-s2-pdf-g10-chem-17-pdf-001046a9b2",
           "chemistry-g10-s2-video-0kdlufdkrte-9e28fa7229"
         ]
-      },
-      {
-        "id": "chemistry-g10-s2-qs-bank-question-bank",
-        "type": "qs-bank",
-        "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
-        "order": 11,
-        "concepts": [],
-        "resources": []
       },
       {
         "id": "chemistry-g10-s2-revision-revision",

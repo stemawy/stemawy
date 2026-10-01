@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
   BookOpen,
@@ -54,15 +53,7 @@ export default function Sidebar({ activePath }: { activePath?: string }) {
       >
         <div className={styles.brandRow}>
           <Link className={styles.brand} href="/" aria-label="Stemawy home">
-            <span className={styles.brandMark} aria-hidden="true">
-              <Image
-                className={styles.brandImage}
-                src="/stemawy-logo.png"
-                alt=""
-                width={94}
-                height={94}
-              />
-            </span>
+            <span className={styles.brandMark} aria-hidden="true" />
             <span className={styles.brandName}>Stemawy 2.0</span>
           </Link>
           <button

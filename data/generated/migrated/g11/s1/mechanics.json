@@ -280,52 +280,13 @@
           "res_0277005b12",
           "res_5b15f67dd2",
           "res_0a592ff900",
-          "res_127338c40d",
-          "res_4756085d6f",
-          "res_0642117b4c",
-          "res_3adc9e8af9",
-          "res_d79837fb74",
-          "res_2abf31f99f",
-          "res_3214b56fb5",
-          "res_cc2fdbe5bb",
-          "res_c8611b3cd6",
-          "res_7de0b1ace2",
-          "res_8c1c2440ff",
-          "res_402fbd8673",
-          "res_54cdb25a08",
-          "res_6ffa543cc6",
-          "res_8865c10f44",
-          "res_0804e78e14",
-          "res_671ff6590f",
-          "res_08b4af3dd6",
-          "res_8e7491345e",
-          "res_5a4d98837b",
-          "res_096449c8fe",
-          "res_7321d23da4",
-          "res_152b31dd20",
-          "res_7d9e59118e",
-          "res_302c777f8b",
-          "res_44ff5014b7",
-          "res_0636ae75e8",
-          "res_37729bf34d",
-          "res_dc13b67431",
-          "res_2b49044650",
-          "res_912ab5e1b6",
-          "res_89abebe2c3",
-          "res_f0cd5e3a2b",
-          "res_3ed488d2b4",
-          "res_e5c1bd6196",
-          "res_e5462d4999",
-          "res_5f5ac0e245",
-          "res_a5d88836ed",
-          "res_b35d1336df",
-          "res_0ec93b8254"
+          "res_127338c40d"
         ]
       },
       {
         "id": "mechanics-g11-s1-unit-06",
         "type": "revision",
-        "title": "Midterm Revisions",
+        "title": "Revisions",
         "description": "This section groups revision videos covering the major Mechanics midterm content, including LO1 and LO2 review material.",
         "order": 7,
         "concepts": [],
@@ -337,24 +298,16 @@
           "mechanics-g11-s1-midterm-revision-05",
           "mechanics-g11-s1-midterm-revision-06",
           "mechanics-g11-s1-midterm-revision-07",
-          "mechanics-g11-s1-midterm-revision-08"
+          "mechanics-g11-s1-midterm-revision-08",
+          "mechanics-g11-s1-final-revision-01"
         ]
-      },
-      {
-        "id": "mechanics-g11-s1-unit-07",
-        "type": "unit",
-        "title": "Final Revisions",
-        "description": "This section contains the final Mechanics revision material for the end-of-course review.",
-        "order": 8,
-        "concepts": [],
-        "resources": ["mechanics-g11-s1-final-revision-01"]
       },
       {
         "id": "lo_0d263518f3",
         "type": "references",
         "title": "Additional References",
         "description": "",
-        "order": 9,
+        "order": 8,
         "concepts": [],
         "resources": [
           "res_7fddbe5bc5",
@@ -373,12 +326,13 @@
           "res_b483f8e387"
         ]
       }
-    ]
+    ],
+    "units": 5
   },
   "resources": [
     {
       "id": "mechanics-g11-s1-global-01-01",
-      "title": "Unit 01 global link 1",
+      "title": "Friction Force | Mech G11 LO1 part 1| THE MATHRIX",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=xih7mYWi-2c",
@@ -389,7 +343,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-01-02",
-      "title": "Unit 01 global link 2",
+      "title": "Friction Force | Mech G11 LO1 part 2| THE MATHRIX",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=037Zxfdrr_I",
@@ -400,7 +354,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-01-03",
-      "title": "Unit 01 global link 3",
+      "title": "Mechanics Lo1 Part 1 G11 Semester 1 For STEM Students.",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=aWVU8lZVOzY&t=6s",
@@ -411,7 +365,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-01-04",
-      "title": "Unit 01 global link 4",
+      "title": "Mechanics Lo1 Part 2 Semester 1 G11 For STEM Students.",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=vEWdZAg2Y3o",
@@ -422,7 +376,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-01-05",
-      "title": "Unit 01 global link 5",
+      "title": "Mechanics LO1 | Advanced Friction | Grade 11 semester 1 | STEM Support",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=LbaWjOjWCrg",
@@ -433,7 +387,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-01-06",
-      "title": "Unit 01 global link 6",
+      "title": "G11 S1 LO 1 Mechanics - Friction",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=Cj7gUbRlDH0",
@@ -444,7 +398,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-01-07",
-      "title": "Unit 01 global link 7",
+      "title": "friction force (static and kinetic) l.o.1 mechanics",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=dHe4MEBUdlY",
@@ -455,7 +409,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-01-08",
-      "title": "Unit 01 global link 8",
+      "title": "friction force (static and kinetic) l.o.1 mechanics",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=dHe4MEBUdlY&list=PLmiz5zHlwE8hxIkqH1RqefQuxTORwNPw&index=3",
@@ -466,7 +420,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-kinetic-friction-01-01",
-      "title": "Kinetic friction",
+      "title": "Static Friction and Kinetic Friction Physics Problems With Free Body Diagrams",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=RIBeeW1DSZg",
@@ -477,7 +431,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-static-friction-01-02",
-      "title": "Static friction",
+      "title": "Static Friction and Kinetic Friction Physics Problems With Free Body Diagrams",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=RIBeeW1DSZg",
@@ -488,7 +442,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-normal-force-01-03",
-      "title": "The normal force",
+      "title": "Physics - What Is a Normal Force?",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=fRQq4_ry9-Q",
@@ -499,7 +453,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-free-body-diagrams-01-04",
-      "title": "Free-body diagrams",
+      "title": "Free Body Diagrams - Tension, Friction, Inclined Planes, & Net Force",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=52R61aSWHg0",
@@ -510,7 +464,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-coefficient-of-static-friction-01-05",
-      "title": "Coefficient of static friction",
+      "title": "Static and kinetic friction example | Forces and Newton's laws of motion | Physics | Khan Academy",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=ZA_D4O6l1lo",
@@ -521,7 +475,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-02-01",
-      "title": "Unit 02 global link 1",
+      "title": "Mechanics Lo2 Part 1 G11 Semester 1 For STEM Students.",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=4kctd7a2B5U",
@@ -532,7 +486,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-02-02",
-      "title": "Unit 02 global link 2",
+      "title": "Mechanics Lo2 Part 2 G11 Semester 1 For STEM Students.",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=d7GHlJ7oAi8",
@@ -543,7 +497,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-dot-product-02-01",
-      "title": "Dot Product",
+      "title": "Dot Product of Two Vectors",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=VzX8KJKFhlM",
@@ -554,7 +508,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-magnitude-vector-02-02",
-      "title": "Magnitude (length) of a vector",
+      "title": "Magnitude of vector sums | Vectors | Precalculus | Khan Academy",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=0t8W4JFpP2M",
@@ -565,7 +519,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-angle-between-vectors-02-03",
-      "title": "Angle between vectors",
+      "title": "Defining the angle between vectors | Vectors and spaces | Linear Algebra | Khan Academy",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=5AWob_z74Ks",
@@ -576,7 +530,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-cross-product-02-04",
-      "title": "Cross-product of 2 vectors",
+      "title": "Cross Product of Two Vectors Explained!",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=pWbOisq1MJU",
@@ -587,7 +541,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-03-01",
-      "title": "Unit 03 global link 1",
+      "title": "Mechanics Lo3 & Lo4 G11 Semester 1 For STEM Students.",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=Pwh9zXlvUow&list=PLRx4abJ_xUN8&index=5",
@@ -598,7 +552,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-work-energy-theorem-03-01",
-      "title": "Work-Energy Theorem",
+      "title": "Work-energy theorem | Work & Energy | Physics | Khan Academy",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=nnMirzeTepQ",
@@ -609,7 +563,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-04-01",
-      "title": "Unit 04 global link 1",
+      "title": "Conservation of Energy | Mech G11 LO4 | THE MATHRIX",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=VfeqXmNFCBk",
@@ -620,7 +574,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-04-02",
-      "title": "Unit 04 global link 2",
+      "title": "Mechanics Lo3 & Lo4 G11 Semester 1 For STEM Students.",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=Pwh9zXlvUow&list=PLRx4abJ_xUN8&index=5",
@@ -631,7 +585,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-04-03",
-      "title": "Unit 04 global link 3",
+      "title": "conservation of mechanical energy (kinetic-gravitational/spring potential) l.o.4 mechanics grade11",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=I62YPGOFAJg&list=PLmiz5zHlwE8hxIkqH1RqefQuxTORwNPw&index=6",
@@ -642,7 +596,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-conservation-of-mechanical-energy-04-01",
-      "title": "Conservation of mechanical Energy",
+      "title": "Mechanical Energy - Basic Overview",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=VrLVUfB_t_U",
@@ -653,7 +607,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-gravitational-potential-energy-04-02-01",
-      "title": "Gravitational Potential Energy",
+      "title": "Work Done By Gravity and Gravitational Potential Energy - Physics",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=j8Rf6hXXmUQ",
@@ -664,7 +618,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-gravitational-potential-energy-04-02-02",
-      "title": "Gravitational Potential Energy",
+      "title": "Gravitational potential energy at large distances | Physics | Khan Academy",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=9Pp_LtKgTQg",
@@ -675,7 +629,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-kinetic-energy-04-03",
-      "title": "Kinetic Energy",
+      "title": "Kinetic Energy and Potential Energy",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=DyaVgHGssos",
@@ -686,7 +640,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-potential-energy-04-04",
-      "title": "Potential Energy",
+      "title": "Kinetic Energy and Potential Energy",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=DyaVgHGssos",
@@ -697,7 +651,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-spring-potential-energy-04-05",
-      "title": "Spring potential energy",
+      "title": "Potential energy stored in a spring | Work and energy | Physics | Khan Academy",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=eVl5zs6Lqy0",
@@ -708,7 +662,7 @@
     },
     {
       "id": "mechanics-g11-s1-global-05-01",
-      "title": "Unit 05 global link 1",
+      "title": "STEM Mechanics Grade 11 L.O 5: Power, Part 1.",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=uDq9uqh72JU",
@@ -730,7 +684,7 @@
     },
     {
       "id": "mechanics-g11-s1-video-power-05-01",
-      "title": "Power",
+      "title": "Power | Work and energy | Physics | Khan Academy",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=RpbxIG5HTf4&t=318s",
@@ -741,7 +695,7 @@
     },
     {
       "id": "mechanics-g11-s1-midterm-revision-01",
-      "title": "Midterm revision 1",
+      "title": "G11: Midterm Revision mechanics | 2nd Term",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=GlnlWpgfZ3o",
@@ -752,7 +706,7 @@
     },
     {
       "id": "mechanics-g11-s1-midterm-revision-02",
-      "title": "Midterm revision 2",
+      "title": "STEM G11 Mechanics Mid-Term Revision Power | David Tallat | BS Math Club",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=gxs6rqTL-RY",
@@ -763,7 +717,7 @@
     },
     {
       "id": "mechanics-g11-s1-midterm-revision-03",
-      "title": "Midterm revision 3",
+      "title": "Mechanics Grade 11 midterm revision LO1 STEM 1st term 2024",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=xqRrzsAn0nw",
@@ -774,7 +728,7 @@
     },
     {
       "id": "mechanics-g11-s1-midterm-revision-04",
-      "title": "Midterm revision 4",
+      "title": "Mechanics G11 Midterm Revision S2",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=PbWDrc48c4Q",
@@ -785,7 +739,7 @@
     },
     {
       "id": "mechanics-g11-s1-midterm-revision-05",
-      "title": "Midterm revision 5",
+      "title": "G11 midterm revision for Mechanics L.O.1+L.O.2",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=ROhG6Qzgvao&list=PLmiz5zHlwE8hxIkqH1RqefQuxTORwNPw&index=2",
@@ -796,7 +750,7 @@
     },
     {
       "id": "mechanics-g11-s1-midterm-revision-06",
-      "title": "Midterm revision 6",
+      "title": "Mechanics midterm 2023/2024 G11",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=OTHXviv67hE&list=PLmiz5zHlwE8hxIkqH1RqefQuxTORwNPw&index=4",
@@ -807,7 +761,7 @@
     },
     {
       "id": "mechanics-g11-s1-midterm-revision-07",
-      "title": "Midterm revision 7",
+      "title": "mid-term revision (S1) of mechanics G11 (l.o.2)",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=WCxgpDX1VQc&list=PLmiz5zHlwE8hxIkqH1RqefQuxTORwNPw&index=5",
@@ -818,7 +772,7 @@
     },
     {
       "id": "mechanics-g11-s1-midterm-revision-08",
-      "title": "Midterm revision 8",
+      "title": "mid-term revision (S1) L.O.1 mechanics friction force",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=_zMTHjNQco8&list=PLmiz5zHlwE8hxIkqH1RqefiQuxTORwNPw&index=7",
@@ -829,7 +783,7 @@
     },
     {
       "id": "mechanics-g11-s1-final-revision-01",
-      "title": "Final revision",
+      "title": "Mechanics final revision Grade11 Semester1",
       "type": "video",
       "provider": "youtube",
       "url": "https://www.youtube.com/watch?v=3u6_YmeMDHc&list=PLmiz5zHlwE8hxIkqH1RqefQuxTORwNPw&index=1",

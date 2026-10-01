@@ -96,26 +96,382 @@
   align-items: center;
   gap: 6px;
 }
-.contextBanner > div > span:last-child {
+.contextCopy > span:last-child {
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+}
+.contextCopy small {
+  overflow: hidden;
+  color: var(--on-surface-variant);
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.contextActions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 4px;
+}
+.contextActions button {
+  display: grid;
+  min-width: 28px;
+  height: 25px;
+  place-items: center;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 700;
+}
+.contextActions button:hover,
+.contextActions button:focus-visible {
+  background: color-mix(in srgb, var(--primary) 12%, transparent);
+  outline: none;
+}
+.contextActions button span {
+  font-size: 16px;
+}
+.startResourceReport {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 0 12px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 8px;
+  background: var(--surface-container-lowest);
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+}
+.startResourceReport:hover,
+.startResourceReport:focus-visible {
+  border-color: var(--primary);
+  background: var(--primary-fixed);
+  outline: none;
+}
+.pickerPanel {
+  min-width: 0;
+  padding: 22px;
+  border: 1px solid var(--surface-container-highest);
+  border-radius: 12px;
+  background: var(--surface-container-lowest);
+  box-shadow: var(--shadow-card);
+}
+.pickerBack {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 0;
+  border: 0;
+  background: transparent;
+  color: var(--on-surface-variant);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 650;
+}
+.pickerBack:hover,
+.pickerBack:focus-visible {
+  color: var(--primary);
+  outline: none;
+}
+.pickerHeader {
+  margin: 22px 0 18px;
+}
+.pickerEyebrow {
+  color: var(--primary);
+  font-size: 10px;
+  font-weight: 750;
+}
+.pickerHeader h2 {
+  margin: 7px 0 5px;
+  color: var(--on-surface);
+  font-family: var(--font-heading), sans-serif;
+  font-size: 21px;
+  line-height: 1.3;
+}
+.pickerHeader p {
+  margin: 0;
+  color: var(--on-surface-variant);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.pickerControls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.pickerSearch {
+  display: flex;
+  min-width: 0;
+  height: 42px;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 8px;
+  background: var(--surface-container-lowest);
+  color: var(--outline);
+}
+.pickerSearch:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px var(--primary-fixed);
+}
+.pickerSearch input {
+  width: 100%;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--on-surface);
+  font-size: 12px;
+}
+.selectVisibleButton,
+.loadMoreButton {
+  min-height: 36px;
+  padding: 0 9px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 7px;
+  background: var(--surface-container-lowest);
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.selectVisibleButton:hover,
+.loadMoreButton:hover {
+  border-color: var(--primary);
+  background: var(--primary-fixed);
+}
+.selectVisibleButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.pickerSelectedList {
+  display: grid;
+  gap: 7px;
+  margin: 0 0 10px;
+  padding: 9px;
+  border: 1px solid var(--primary-fixed-dim);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--primary-fixed) 45%, transparent);
+}
+.pickerSelectedHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  color: var(--primary);
+  font-size: 11px;
+}
+.pickerSelectedHeader button {
+  padding: 3px 5px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+}
+.pickerSelectedHeader button:hover {
+  background: var(--primary-fixed);
+}
+.pickerSelectedItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-height: 78px;
+  overflow: auto;
+}
+.pickerSelectedItem {
+  display: inline-flex;
+  max-width: 100%;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 7px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 6px;
+  background: var(--surface-container-lowest);
+  color: var(--on-surface);
+  cursor: pointer;
+  font-size: 10px;
+}
+.pickerSelectedItem span {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.contextBanner button {
+.pickerSelectedItem:hover,
+.pickerSelectedItem:focus-visible {
+  border-color: var(--error);
+  color: var(--error);
+  outline: none;
+}
+.pickerList {
   display: grid;
-  width: 25px;
-  height: 25px;
-  flex: 0 0 25px;
+  max-height: min(52vh, 520px);
+  overflow: auto;
+  border: 1px solid var(--outline-variant);
+  border-radius: 8px;
+  scrollbar-color: var(--outline-variant) transparent;
+  scrollbar-width: thin;
+}
+.pickerResource {
+  position: relative;
+  display: grid;
+  min-height: 62px;
+  grid-template-columns: 1px 18px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 11px;
+  border-bottom: 1px solid var(--surface-container-high);
+  background: var(--surface-container-lowest);
+  cursor: pointer;
+}
+.pickerResource:last-child {
+  border-bottom: 0;
+}
+.pickerResource:hover {
+  background: var(--surface-container-low);
+}
+.pickerResourceSelected {
+  background: var(--primary-fixed);
+}
+.pickerResource input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+}
+.pickerResource:focus-within .pickerCheckbox {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+.pickerCheckbox {
+  display: grid;
+  width: 18px;
+  height: 18px;
+  grid-column: 2;
   place-items: center;
+  border: 1px solid var(--outline);
+  border-radius: 5px;
+  color: var(--on-primary);
+}
+.pickerResourceSelected .pickerCheckbox {
+  border-color: var(--primary);
+  background: var(--primary);
+}
+.pickerResourceCopy {
+  display: grid;
+  min-width: 0;
+  grid-column: 3;
+  gap: 3px;
+}
+.pickerResourceCopy strong,
+.pickerResourceCopy span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pickerResourceCopy strong {
+  color: var(--on-surface);
+  font-size: 12px;
+}
+.pickerResourceCopy span {
+  color: var(--on-surface-variant);
+  font-size: 10px;
+}
+.pickerType {
+  max-width: 72px;
+  overflow: hidden;
+  grid-column: 4;
+  color: var(--outline);
+  font-size: 9px;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+}
+.pickerStatus {
+  display: flex;
+  min-height: 110px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 18px;
+  color: var(--on-surface-variant);
+  font-size: 12px;
+  text-align: center;
+}
+.pickerSpinner {
+  animation: pickerSpin 900ms linear infinite;
+}
+@keyframes pickerSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loadMoreButton {
+  display: block;
+  margin: 9px auto 0;
+}
+.pickerFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 14px;
+}
+.pickerSelectionCount {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--on-surface-variant);
+  font-size: 11px;
+}
+.pickerSelectionCount strong {
+  color: var(--primary);
+  font-variant-numeric: tabular-nums;
+}
+.pickerSelectionCount button {
+  margin-inline-start: 6px;
+  padding: 4px;
   border: 0;
   background: transparent;
-  color: inherit;
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
 }
-.contextBanner button:hover {
-  opacity: 0.65;
+.pickerContinue {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 13px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--primary);
+  color: var(--on-primary);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
 }
-.contextBanner button span {
-  font-size: 16px;
+.pickerContinue:disabled {
+  background: var(--surface-container-high);
+  color: var(--outline);
+  cursor: not-allowed;
 }
 .form {
   display: flex;

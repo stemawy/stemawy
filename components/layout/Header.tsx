@@ -1,30 +1,18 @@
 "use client";
 
-import { Bell, BellRing, Menu, Search, X } from "lucide-react";
+import { Bell, BellRing, Menu, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 import { useLayoutState } from "./layout-context";
 import styles from "./Header.module.scss";
 import { getTranslations } from "@/lib/i18n";
+import GlobalSearch from "@/components/search/GlobalSearch";
 
 export default function Header() {
-  const searchInput = useRef<HTMLInputElement>(null);
   const notificationArea = useRef<HTMLDivElement>(null);
   const [notificationOpen, setNotificationOpen] = useState(false);
   const { collapsed, mobileOpen, setMobileOpen, language } = useLayoutState();
   const t = getTranslations(language);
-
-  useEffect(() => {
-    const handleShortcut = (event: KeyboardEvent) => {
-      if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
-        event.preventDefault();
-        searchInput.current?.focus();
-      }
-    };
-
-    window.addEventListener("keydown", handleShortcut);
-    return () => window.removeEventListener("keydown", handleShortcut);
-  }, []);
 
   useEffect(() => {
     if (!notificationOpen) return;
@@ -61,22 +49,7 @@ export default function Header() {
         <Menu size={21} strokeWidth={2} />
       </button>
       <div className={styles.searchShell}>
-        <Search
-          className={styles.searchIcon}
-          size={21}
-          strokeWidth={2}
-          aria-hidden="true"
-        />
-        <input
-          ref={searchInput}
-          className={styles.searchInput}
-          type="search"
-          placeholder={t.common.searchPlaceholder}
-          aria-label={t.common.searchStemawy}
-        />
-        <kbd className={styles.shortcut} aria-label={t.common.controlK}>
-          CTRL K
-        </kbd>
+        <GlobalSearch />
       </div>
 
       <div className={styles.actions}>

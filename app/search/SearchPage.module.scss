@@ -1,0 +1,102 @@
+.page {
+  min-height: calc(100vh - 78px);
+  background:
+    radial-gradient(ellipse at 18% 0%, var(--primary-fixed) 0, transparent 36%),
+    var(--background);
+}
+
+.container {
+  width: min(100%, 1040px);
+  margin: 0 auto;
+  padding: 36px 40px 64px;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--on-surface-variant);
+  font-size: 12px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.backLink:hover {
+  color: var(--primary);
+}
+
+.pageHeader {
+  margin: 30px 0 25px;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0 0 10px;
+  color: var(--primary);
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.pageHeader h1 {
+  margin: 0;
+  color: var(--on-background);
+  font-family: var(--font-heading), sans-serif;
+  font-size: 34px;
+  line-height: 1.15;
+}
+
+.pageHeader > p:last-child {
+  margin: 10px 0 0;
+  color: var(--on-surface-variant);
+  font-size: 14px;
+}
+
+.queryBar {
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding: 0 14px;
+  border: 1px solid var(--outline-variant);
+  border-radius: 9px;
+  background: var(--surface-container-lowest);
+  color: var(--primary);
+}
+
+.queryBar > span:first-of-type {
+  overflow: hidden;
+  color: var(--on-surface);
+  font-size: 14px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.resultCount {
+  margin-inline-start: auto;
+  color: var(--outline);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.emptyState {
+  padding: 36px 20px;
+  border: 1px dashed var(--outline-variant);
+  border-radius: 10px;
+  color: var(--on-surface-variant);
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 28px 18px 48px;
+  }
+
+  .pageHeader h1 {
+    font-size: 28px;
+  }
+}

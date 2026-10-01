@@ -6,9 +6,17 @@ import { getTranslations } from "@/lib/i18n";
 export default function ResetConfirmation({
   onCancel,
   onConfirm,
+  title,
+  description,
+  confirmLabel,
+  closeLabel,
 }: {
   onCancel: () => void;
   onConfirm: () => void;
+  title?: string;
+  description?: string;
+  confirmLabel?: string;
+  closeLabel?: string;
 }) {
   const { language } = useLayoutState();
   const t = getTranslations(language);
@@ -24,7 +32,7 @@ export default function ResetConfirmation({
         <button
           className={styles.modalClose}
           type="button"
-          aria-label={t.settings.closeReset}
+          aria-label={closeLabel ?? t.settings.closeReset}
           onClick={onCancel}
         >
           <X size={18} />
@@ -32,8 +40,8 @@ export default function ResetConfirmation({
         <span className={styles.warningIcon}>
           <AlertTriangle size={22} />
         </span>
-        <h2 id="reset-title">{t.settings.resetAllData}</h2>
-        <p>{t.settings.resetDescription}</p>
+        <h2 id="reset-title">{title ?? t.settings.resetAllData}</h2>
+        <p>{description ?? t.settings.resetDescription}</p>
         <div className={styles.modalActions}>
           <button type="button" onClick={onCancel}>
             {t.settings.cancel}
@@ -43,7 +51,7 @@ export default function ResetConfirmation({
             type="button"
             onClick={onConfirm}
           >
-            {t.settings.confirmReset}
+            {confirmLabel ?? t.settings.confirmReset}
           </button>
         </div>
       </div>

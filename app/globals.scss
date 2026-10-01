@@ -266,6 +266,420 @@
   --subject-card-shadow-hover: 0 10px 28px rgb(96 165 250 / 24%);
 }
 
+.ramadan-dark {
+  color-scheme: dark;
+  --background: #101b17;
+  --on-background: #f5f0df;
+
+  --surface: #101b17;
+  --surface-dim: #09120f;
+  --surface-bright: #2b4035;
+
+  --surface-container-lowest: #14231d;
+  --surface-container-low: #192b23;
+  --surface-container: #20362b;
+  --surface-container-high: #294234;
+  --surface-container-highest: #355341;
+
+  --on-surface: #f5f0df;
+  --on-surface-variant: #c3d0bd;
+
+  --outline: #a2b39f;
+  --outline-variant: #526a59;
+
+  --primary: #e8c477;
+  --on-primary: #302510;
+  --primary-container: #59451f;
+  --on-primary-container: #ffe9b1;
+
+  --secondary: #b9d5bd;
+  --on-secondary: #1c3022;
+  --secondary-container: #344d39;
+  --on-secondary-container: #d9edda;
+
+  --tertiary: #e8b39c;
+  --on-tertiary: #352017;
+  --tertiary-container: #57382b;
+  --on-tertiary-container: #ffdbc8;
+
+  --error: #ffb4a8;
+  --on-error: #561f16;
+  --error-container: #77382c;
+  --on-error-container: #ffdad2;
+
+  --inverse-surface: #f5f0df;
+  --inverse-on-surface: #20291f;
+  --inverse-primary: #70551f;
+
+  --primary-fixed: #f6e5b8;
+  --primary-fixed-dim: #dfbf73;
+  --on-primary-fixed: #271d0b;
+  --on-primary-fixed-variant: #5a451b;
+  --secondary-fixed: #d9edda;
+  --secondary-fixed-dim: #bdd6bf;
+  --on-secondary-fixed: #14271a;
+  --on-secondary-fixed-variant: #344d39;
+  --tertiary-fixed: #ffdbc8;
+  --tertiary-fixed-dim: #e8b39c;
+  --on-tertiary-fixed: #311b13;
+  --on-tertiary-fixed-variant: #57382b;
+
+  --accent-blue-soft: #183744;
+  --accent-blue-strong: #8bcbd4;
+  --accent-green-soft: #1c3d2b;
+  --accent-green-strong: #9cdaa9;
+  --accent-violet-soft: #3b2d43;
+  --accent-violet-strong: #d8b3e1;
+  --accent-warm-soft: #4b3b1e;
+  --accent-warm-strong: #f2cf7c;
+
+  --subject-card-surface: #1b3025;
+  --subject-card-border: #617a64;
+  --subject-card-shadow: 0 4px 16px rgb(5 15 10 / 42%);
+  --subject-card-shadow-hover: 0 10px 28px rgb(12 28 17 / 45%);
+  --shadow-card: 0 4px 20px rgb(5 15 10 / 24%);
+  --shadow-card-hover: 0 8px 30px rgb(5 15 10 / 38%);
+  --shadow-modal: 0 20px 50px rgb(0 0 0 / 38%);
+}
+
+/* =========================================================
+  RAMADAN LIGHT THEME
+   ========================================================= */
+
+.ramadan-light {
+  color-scheme: light;
+  --background: #fcfaf2;
+  --on-background: #20291f;
+  --surface: #fcfaf2;
+  --surface-dim: #e3e8df;
+  --surface-bright: #ffffff;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #f5f7ef;
+  --surface-container: #edf1e8;
+  --surface-container-high: #e3e9df;
+  --surface-container-highest: #d9e1d5;
+  --on-surface: #20291f;
+  --on-surface-variant: #526052;
+  --outline: #6c7b6b;
+  --outline-variant: #c4cec0;
+  --primary: #72581f;
+  --on-primary: #ffffff;
+  --primary-container: #f1d58f;
+  --on-primary-container: #271d0b;
+  --secondary: #376047;
+  --on-secondary: #ffffff;
+  --secondary-container: #d9edda;
+  --on-secondary-container: #14271a;
+  --tertiary: #a95f40;
+  --on-tertiary: #ffffff;
+  --tertiary-container: #ffdbc8;
+  --on-tertiary-container: #311b13;
+  --error: #ba1a1a;
+  --on-error: #ffffff;
+  --error-container: #ffdad6;
+  --on-error-container: #93000a;
+  --inverse-surface: #303a30;
+  --inverse-on-surface: #eef5e9;
+  --inverse-primary: #dfbf73;
+  --primary-fixed: #f6e5b8;
+  --primary-fixed-dim: #dfbf73;
+  --on-primary-fixed: #271d0b;
+  --on-primary-fixed-variant: #5a451b;
+  --secondary-fixed: #d9edda;
+  --secondary-fixed-dim: #bdd6bf;
+  --on-secondary-fixed: #14271a;
+  --on-secondary-fixed-variant: #344d39;
+  --tertiary-fixed: #ffdbc8;
+  --tertiary-fixed-dim: #e8b39c;
+  --on-tertiary-fixed: #311b13;
+  --on-tertiary-fixed-variant: #57382b;
+  --accent-blue-soft: #e5f2f4;
+  --accent-blue-strong: #17627a;
+  --accent-green-soft: #d9edda;
+  --accent-green-strong: #28633f;
+  --accent-violet-soft: #f1e5f2;
+  --accent-violet-strong: #75457a;
+  --accent-warm-soft: #f6e5b8;
+  --accent-warm-strong: #72581f;
+  --subject-card-surface: #ffffff;
+  --subject-card-border: #b9c7b5;
+  --subject-card-shadow: 0 4px 16px rgb(43 79 52 / 10%);
+  --subject-card-shadow-hover: 0 10px 28px rgb(43 79 52 / 18%);
+}
+
+/* =========================================================
+  CHRISTMAS LIGHT THEME
+  ========================================================= */
+
+.christmas-light {
+  color-scheme: light;
+  --background: #fffaf3;
+  --on-background: #2d241f;
+  --surface: #fffaf3;
+  --surface-dim: #e8ddd2;
+  --surface-bright: #ffffff;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #fff5ec;
+  --surface-container: #f8ebe1;
+  --surface-container-high: #f2dfd4;
+  --surface-container-highest: #ead1c4;
+  --on-surface: #2d241f;
+  --on-surface-variant: #6f5d54;
+  --outline: #8f756a;
+  --outline-variant: #d8bfb2;
+  --primary: #a51d2d;
+  --on-primary: #ffffff;
+  --primary-container: #c93643;
+  --on-primary-container: #fff0ed;
+  --secondary: #176044;
+  --on-secondary: #ffffff;
+  --secondary-container: #d6eddf;
+  --on-secondary-container: #12422f;
+  --tertiary: #b77916;
+  --on-tertiary: #ffffff;
+  --tertiary-container: #f8dfaa;
+  --on-tertiary-container: #5c3a00;
+  --error: #a51d2d;
+  --on-error: #ffffff;
+  --error-container: #ffdad8;
+  --on-error-container: #7d1020;
+  --inverse-surface: #3f3028;
+  --inverse-on-surface: #fff0e7;
+  --inverse-primary: #ffb3b0;
+  --primary-fixed: #ffdad8;
+  --primary-fixed-dim: #ffb3b0;
+  --on-primary-fixed: #410009;
+  --on-primary-fixed-variant: #7d1020;
+  --secondary-fixed: #b9f0ca;
+  --secondary-fixed-dim: #9bd3ad;
+  --on-secondary-fixed: #002113;
+  --on-secondary-fixed-variant: #1e5139;
+  --tertiary-fixed: #ffdda6;
+  --tertiary-fixed-dim: #e5bd72;
+  --on-tertiary-fixed: #281800;
+  --on-tertiary-fixed-variant: #5c3a00;
+  --accent-blue-soft: #e1f2f6;
+  --accent-blue-strong: #176b80;
+  --accent-green-soft: #d6eddf;
+  --accent-green-strong: #176044;
+  --accent-violet-soft: #f1e4ef;
+  --accent-violet-strong: #8a416e;
+  --accent-warm-soft: #f8dfaa;
+  --accent-warm-strong: #8a5a08;
+  --subject-card-surface: #ffffff;
+  --subject-card-border: #d9b8aa;
+  --subject-card-shadow: 0 4px 16px rgb(122 36 35 / 10%);
+  --subject-card-shadow-hover: 0 10px 28px rgb(23 96 68 / 18%);
+  --shadow-card: 0 4px 20px rgb(122 36 35 / 8%);
+  --shadow-card-hover: 0 8px 30px rgb(23 96 68 / 16%);
+  --shadow-modal: 0 20px 50px rgb(83 42 31 / 18%);
+}
+
+html.christmas-light body {
+  background-image:
+    radial-gradient(
+      circle at 12% 8%,
+      rgb(255 255 255 / 78%) 0 2px,
+      transparent 3px
+    ),
+    radial-gradient(
+      circle at 88% 16%,
+      rgb(255 255 255 / 62%) 0 1px,
+      transparent 2px
+    ),
+    linear-gradient(135deg, rgb(23 96 68 / 4%), transparent 42%),
+    linear-gradient(315deg, rgb(165 29 45 / 4%), transparent 42%);
+  background-size:
+    120px 120px,
+    170px 170px,
+    100% 100%,
+    100% 100%;
+  background-attachment: fixed;
+}
+
+/* =========================================================
+   CHRISTMAS DARK THEME
+   ========================================================= */
+
+.christmas-dark {
+  color-scheme: dark;
+  --background: #400817;
+  --on-background: #fff1f2;
+  --surface: #400817;
+  --surface-dim: #28040e;
+  --surface-bright: #123b2b;
+  --surface-container-lowest: #470a1b;
+  --surface-container-low: #4c0b1d;
+  --surface-container: #541024;
+  --surface-container-high: #61132a;
+  --surface-container-highest: #6d1830;
+  --on-surface: #fff1f2;
+  --on-surface-variant: #e8b6bf;
+  --outline: #75bd8d;
+  --outline-variant: #236846;
+  --primary: #e1e500;
+  --on-primary: #18351f;
+  --primary-container: #b7bd00;
+  --on-primary-container: #172b19;
+  --secondary: #7bd47d;
+  --on-secondary: #06301d;
+  --secondary-container: #123b2b;
+  --on-secondary-container: #b9f0ca;
+  --tertiary: #ffd34f;
+  --on-tertiary: #3f2a00;
+  --tertiary-container: #9a6f00;
+  --on-tertiary-container: #fff1b3;
+  --error: #ffb4ab;
+  --on-error: #690005;
+  --error-container: #93000a;
+  --on-error-container: #ffdad6;
+  --inverse-surface: #fff1f2;
+  --inverse-on-surface: #400817;
+  --inverse-primary: #687000;
+  --primary-fixed: #f2f49a;
+  --primary-fixed-dim: #d6d900;
+  --on-primary-fixed: #1b1d00;
+  --on-primary-fixed-variant: #4d5100;
+  --secondary-fixed: #b9f0ca;
+  --secondary-fixed-dim: #9bd3ad;
+  --on-secondary-fixed: #002113;
+  --on-secondary-fixed-variant: #1e5139;
+  --tertiary-fixed: #ffdda6;
+  --tertiary-fixed-dim: #e5bd72;
+  --on-tertiary-fixed: #281800;
+  --on-tertiary-fixed-variant: #5c3a00;
+  --accent-blue-soft: #173a3a;
+  --accent-blue-strong: #8bd6c1;
+  --accent-green-soft: #173b29;
+  --accent-green-strong: #9bd3ad;
+  --accent-violet-soft: #293c28;
+  --accent-violet-strong: #b8df91;
+  --accent-warm-soft: #514314;
+  --accent-warm-strong: #ffe16a;
+  --subject-card-surface: #4c0b1d;
+  --subject-card-border: #2d8054;
+  --subject-card-shadow: 0 4px 16px rgb(24 0 8 / 42%);
+  --subject-card-shadow-hover: 0 10px 28px rgb(155 211 173 / 18%);
+  --shadow-card: 0 4px 20px rgb(0 0 0 / 24%);
+  --shadow-card-hover: 0 8px 30px rgb(155 211 173 / 18%);
+  --shadow-modal: 0 20px 50px rgb(0 0 0 / 45%);
+}
+
+html.christmas-dark body {
+  background-image:
+    radial-gradient(
+      circle at 12px 16px,
+      rgb(255 220 65 / 95%) 0 3px,
+      rgb(255 220 65 / 28%) 4px 5px,
+      transparent 6px
+    ),
+    radial-gradient(
+      circle at 86% 12%,
+      rgb(229 189 114 / 13%) 0 2px,
+      transparent 3px
+    ),
+    linear-gradient(132deg, rgb(18 59 43 / 42%), transparent 36%),
+    linear-gradient(312deg, rgb(229 189 114 / 7%), transparent 30%),
+    linear-gradient(180deg, #400817 0%, #350615 58%, #28040e 100%);
+  background-size:
+    72px 42px,
+    180px 180px,
+    100% 100%,
+    100% 100%,
+    100% 100%;
+  background-position:
+    0 0,
+    0 0,
+    0 0,
+    0 0,
+    0 0;
+  background-repeat: repeat-x, repeat, no-repeat, no-repeat, no-repeat;
+  background-attachment: fixed;
+}
+
+html.christmas-dark::before,
+html.christmas-dark::after {
+  position: fixed;
+  z-index: 50;
+  inset: -100px 0 0;
+  display: block;
+  pointer-events: none;
+  content: "";
+  opacity: 0.56;
+  background-repeat: repeat;
+}
+
+html.christmas-dark::before {
+  background-image:
+    radial-gradient(circle, rgb(255 249 239 / 72%) 0 1px, transparent 2px),
+    radial-gradient(circle, rgb(255 255 255 / 54%) 0 2px, transparent 3px),
+    radial-gradient(circle, rgb(229 189 114 / 38%) 0 1px, transparent 2px);
+  background-position:
+    0 0,
+    55px 30px,
+    110px 10px;
+  background-size:
+    150px 180px,
+    260px 280px,
+    360px 320px;
+  animation: christmas-snow-fall 15s linear infinite;
+}
+
+html.christmas-dark::after {
+  inset: -180px 0 0;
+  opacity: 0.24;
+  background-image:
+    radial-gradient(circle, rgb(255 255 255 / 68%) 0 2px, transparent 3px),
+    radial-gradient(circle, rgb(255 249 239 / 48%) 0 1px, transparent 2px);
+  background-position:
+    30px 0,
+    150px 70px;
+  background-size:
+    270px 290px,
+    180px 190px;
+  animation: christmas-snow-fall-soft 24s linear infinite;
+}
+
+html.christmas-dark body > * {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes christmas-snow-fall {
+  from {
+    background-position:
+      0 -20px,
+      55px -30px,
+      110px -10px;
+  }
+  to {
+    background-position:
+      34px 150px,
+      95px 240px,
+      74px 280px;
+  }
+}
+
+@keyframes christmas-snow-fall-soft {
+  from {
+    background-position:
+      30px -40px,
+      150px -70px;
+  }
+  to {
+    background-position:
+      90px 290px,
+      96px 190px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.christmas-dark::before,
+  html.christmas-dark::after {
+    animation: none;
+  }
+}
+
 /* =========================================================
    BASE
    ========================================================= */

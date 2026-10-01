@@ -244,7 +244,7 @@
       {
         "id": "mechanics-g10-s2-revision-revision",
         "type": "revision",
-        "title": "Revision",
+        "title": "Revisions & References",
         "description": "Revision materials for the semester.",
         "order": 7,
         "concepts": [],
@@ -253,17 +253,7 @@
           "mechanics-g10-s2-video-eyaprde8fuk-8c245c8ee6",
           "mechanics-g10-s2-video-k1edneagqz0-d96d504b99",
           "mechanics-g10-s2-video-fmomrfdiurm-a2cba7a36e",
-          "mechanics-g10-s2-video-bsjdf84g7oc-f53c750bcb"
-        ]
-      },
-      {
-        "id": "mechanics-g10-s2-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 8,
-        "concepts": [],
-        "resources": [
+          "mechanics-g10-s2-video-bsjdf84g7oc-f53c750bcb",
           "mechanics-g10-s2-pdf-final-revision-on-mechanics-with-answer-pdf-f541380f9e",
           "mechanics-g10-s2-pdf-mech-2015-2016-g10-final-2nd-pdf-eacce22d90",
           "mechanics-g10-s2-pdf-mechanics-lo5-utag-pdf-0cdbde9afb"

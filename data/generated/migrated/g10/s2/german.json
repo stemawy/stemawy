@@ -13,109 +13,11 @@
     "icon": "german",
     "content": [
       {
-        "id": "german-g10-s2-unit-01",
-        "type": "unit",
-        "number": "01",
-        "title": "Begrüßung & Auskunft",
-        "description": "",
-        "order": 1,
-        "concepts": [
-          {
-            "id": "german-g10-s2-concept-jemanden-begr-ssen-und-sich-verabschieden",
-            "title": "jemanden begrüssen und sich verabschieden",
-            "description": "",
-            "order": 1,
-            "resources": []
-          },
-          {
-            "id": "german-g10-s2-concept-jemanden-nach-dem-herkunftsland-nennen-und-ber-sprachkenntnisse",
-            "title": "‣jemanden nach dem Herkunftsland nennen und über Sprachkenntnisse",
-            "description": "",
-            "order": 2,
-            "resources": []
-          },
-          {
-            "id": "german-g10-s2-concept-auskunft-geben",
-            "title": "Auskunft geben",
-            "description": "",
-            "order": 3,
-            "resources": []
-          }
-        ],
-        "resources": []
-      },
-      {
-        "id": "german-g10-s2-unit-02",
-        "type": "unit",
-        "number": "02",
-        "title": "Befinden & Familie",
-        "description": "",
-        "order": 2,
-        "concepts": [
-          {
-            "id": "german-g10-s2-concept-jemanden-nach-dem-befinden-fragen-und-sein-eigenes-befinden-ausdr-cken",
-            "title": "jemanden nach dem Befinden fragen und sein eigenes Befinden ausdrücken",
-            "description": "",
-            "order": 1,
-            "resources": []
-          },
-          {
-            "id": "german-g10-s2-concept-seine-familie-und-freunde-vorstellen",
-            "title": "seine Familie und Freunde vorstellen",
-            "description": "",
-            "order": 2,
-            "resources": []
-          },
-          {
-            "id": "german-g10-s2-concept-den-wohnort-und-die-adresse-nennen",
-            "title": "den Wohnort und die Adresse nennen",
-            "description": "",
-            "order": 3,
-            "resources": []
-          }
-        ],
-        "resources": []
-      },
-      {
-        "id": "german-g10-s2-unit-03",
-        "type": "unit",
-        "number": "03",
-        "title": "Additional References",
-        "description": "",
-        "order": 3,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "german-g10-s2-qs-bank-question-bank",
-        "type": "qs-bank",
-        "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
-        "order": 4,
-        "concepts": [],
-        "resources": [
-          "german-g10-s2-pdf-online-quizs-docx-541b22f1cf",
-          "german-g10-s2-pdf-pdf-47568cb596",
-          "german-g10-s2-pdf-copy-pdf-1ff25151a1",
-          "german-g10-s2-pdf-docx-964c6490c2",
-          "german-g10-s2-pdf-copy-pdf-f3c8f8065f"
-        ]
-      },
-      {
-        "id": "german-g10-s2-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 5,
-        "concepts": [],
-        "resources": []
-      },
-      {
         "id": "german-g10-s2-references-references",
         "type": "references",
-        "title": "References",
+        "title": "Books and Materials",
         "description": "Reference books and additional materials.",
-        "order": 6,
+        "order": 1,
         "concepts": [],
         "resources": [
           "german-g10-s2-pdf-deutsch-herr-amr-final-2-pptx-4166cb3201",
@@ -124,6 +26,21 @@
           "german-g10-s2-pdf-pdf-6b057271ec",
           "german-g10-s2-pdf-pdf-8365e5a86e",
           "german-g10-s2-pdf-18-pdf-1a0db9b573"
+        ]
+      },
+      {
+        "id": "german-g10-s2-qs-bank-question-bank",
+        "type": "qs-bank",
+        "title": "Question Bank",
+        "description": "Practice questions, test banks, and exam materials.",
+        "order": 2,
+        "concepts": [],
+        "resources": [
+          "german-g10-s2-pdf-online-quizs-docx-541b22f1cf",
+          "german-g10-s2-pdf-pdf-47568cb596",
+          "german-g10-s2-pdf-copy-pdf-1ff25151a1",
+          "german-g10-s2-pdf-docx-964c6490c2",
+          "german-g10-s2-pdf-copy-pdf-f3c8f8065f"
         ]
       }
     ],

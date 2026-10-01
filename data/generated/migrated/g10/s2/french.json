@@ -13,29 +13,13 @@
     "icon": "french",
     "content": [
       {
-        "id": "french-g10-s2-unit-01",
+        "id": "french-g10-s2-references-references",
         "type": "unit",
-        "number": "01",
-        "title": "Présentation",
+        "title": "Books",
         "description": "",
         "order": 1,
-        "concepts": [
-          {
-            "id": "french-g10-s2-concept-se-pr-senter",
-            "title": "Se présenter",
-            "description": "",
-            "order": 1,
-            "resources": []
-          },
-          {
-            "id": "french-g10-s2-concept-dire-son-ge",
-            "title": "Dire son âge",
-            "description": "",
-            "order": 2,
-            "resources": []
-          }
-        ],
-        "resources": []
+        "concepts": [],
+        "resources": ["french-g10-s2-pdf-bravo-second-term-pdf-d73cc79626"]
       },
       {
         "id": "french-g10-s2-qs-bank-question-bank",
@@ -51,29 +35,9 @@
           "french-g10-s2-pdf-french-gr-10-stem-mid-term2018-pdf-b271248604",
           "french-g10-s2-pdf-quiz-sur-les-trois-premi-res-s-ances-docx-97bf5cea8d"
         ]
-      },
-      {
-        "id": "french-g10-s2-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 3,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "french-g10-s2-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 4,
-        "concepts": [],
-        "resources": [
-          "french-g10-s2-pdf-bravo-second-term-pdf-d73cc79626"
-        ]
       }
     ],
-    "units": 1
+    "units": 0
   },
   "resources": [
     {

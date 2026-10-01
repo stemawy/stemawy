@@ -14,6 +14,13 @@ import SettingsToast from "@/components/settings/SettingsToast";
 import styles from "./settings.module.scss";
 import { useLayoutState } from "@/components/layout/layout-context";
 import { getTranslations } from "@/lib/i18n";
+import { clearSavedItems, getSavedItems } from "@/lib/saved-items";
+import {
+  clearCompletedResources as clearResourceProgress,
+  getCompletedResourceCount,
+} from "@/lib/resource-progress";
+
+type ClearRequest = { type: "saved" | "completed"; count: number };
 
 export default function SettingsPage() {
   const {
@@ -25,10 +32,11 @@ export default function SettingsPage() {
     setSemester,
     resetPreferences,
   } = useLayoutState();
-  const { setTheme } = useTheme();
+  const { setAppearance, setTheme } = useTheme();
   const t = getTranslations(language);
   const [toast, setToast] = useState<string | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
+  const [clearRequest, setClearRequest] = useState<ClearRequest | null>(null);
 
   useEffect(() => {
     document.documentElement.lang = language;
@@ -59,19 +67,45 @@ export default function SettingsPage() {
     notify(`${t.settings.semesterChanged} ${t.settings.semester} ${value}`);
   };
   const clearSaved = () => {
-    window.localStorage.removeItem("stemawy-saved");
-    notify(t.settings.savedCleared);
+    const savedCount = getSavedItems().length;
+    if (savedCount === 0) {
+      notify(t.settings.noSavedContentToClear);
+      return;
+    }
+    setClearRequest({ type: "saved", count: savedCount });
   };
-  const clearSearches = () => {
-    window.localStorage.removeItem("stemawy-searches");
-    notify(t.settings.searchesCleared);
+  const clearCompleted = () => {
+    const completedCount = getCompletedResourceCount();
+    if (completedCount === 0) {
+      notify(t.settings.noCompletedResourcesToClear);
+      return;
+    }
+    setClearRequest({ type: "completed", count: completedCount });
+  };
+  const confirmClear = () => {
+    if (!clearRequest) return;
+
+    if (clearRequest.type === "saved") {
+      clearSavedItems();
+      notify(t.settings.savedCleared);
+    } else {
+      clearResourceProgress();
+      notify(t.settings.completedResourcesCleared);
+    }
+
+    setClearRequest(null);
   };
   const resetAll = () => {
+    clearSavedItems();
+    clearResourceProgress();
     window.localStorage.clear();
     resetPreferences();
-    setTheme("light");
+    setLanguage("en");
+    window.localStorage.setItem("stemawy-language", "en");
+    setAppearance("system");
+    setTheme("default");
     setConfirmReset(false);
-    notify(t.settings.resetComplete);
+    notify(getTranslations("en").settings.resetComplete);
   };
 
   return (
@@ -88,7 +122,7 @@ export default function SettingsPage() {
       <SettingsSection title={t.settings.dataStorage}>
         <DataStorageSetting
           onClearSaved={clearSaved}
-          onClearSearches={clearSearches}
+          onClearCompletedResources={clearCompleted}
           onReset={() => setConfirmReset(true)}
         />
       </SettingsSection>
@@ -97,6 +131,30 @@ export default function SettingsPage() {
         <ResetConfirmation
           onCancel={() => setConfirmReset(false)}
           onConfirm={resetAll}
+        />
+      )}
+      {clearRequest !== null && (
+        <ResetConfirmation
+          title={
+            clearRequest.type === "saved"
+              ? t.settings.clearSavedTitle
+              : t.settings.clearCompletedResourcesTitle
+          }
+          description={
+            clearRequest.type === "saved"
+              ? t.settings.clearSavedConfirmation(clearRequest.count)
+              : t.settings.clearCompletedResourcesConfirmation(
+                  clearRequest.count,
+                )
+          }
+          confirmLabel={t.settings.clear}
+          closeLabel={
+            clearRequest.type === "saved"
+              ? t.settings.closeClearSaved
+              : t.settings.closeClearCompletedResources
+          }
+          onCancel={() => setClearRequest(null)}
+          onConfirm={confirmClear}
         />
       )}
     </div>

@@ -56,7 +56,7 @@
             "resources": []
           }
         ],
-        "resources": []
+        "resources": [false]
       },
       {
         "id": "english-g10-s2-unit-02",
@@ -102,7 +102,7 @@
             "resources": []
           }
         ],
-        "resources": []
+        "resources": [false]
       },
       {
         "id": "english-g10-s2-unit-03",
@@ -148,12 +148,11 @@
             "resources": []
           }
         ],
-        "resources": []
+        "resources": [false]
       },
       {
         "id": "english-g10-s2-unit-04",
-        "type": "unit",
-        "number": "04",
+        "type": "references",
         "title": "Books",
         "description": "",
         "order": 4,
@@ -163,36 +162,9 @@
           "english-g10-s2-pdf-grammarway-3-pdf-5f6f5a8da6",
           "english-g10-s2-pdf-upstream-intermediate-b2-students-book-compress-pdf-d89cc266f5"
         ]
-      },
-      {
-        "id": "english-g10-s2-qs-bank-question-bank",
-        "type": "qs-bank",
-        "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
-        "order": 5,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "english-g10-s2-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 6,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "english-g10-s2-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 7,
-        "concepts": [],
-        "resources": []
       }
     ],
-    "units": 4
+    "units": 3
   },
   "resources": [
     {

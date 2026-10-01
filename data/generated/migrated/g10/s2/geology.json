@@ -15,7 +15,7 @@
       {
         "id": "geology-g10-s2-unit-01",
         "type": "unit",
-        "number": "01",
+        "number": "08",
         "title": "LO8",
         "description": "",
         "order": 1,
@@ -25,36 +25,28 @@
             "title": "‣A) Different earth materials and ore minerals have different chemical, physical and engineering properties making them suitable for different economic industries.",
             "description": "",
             "order": 1,
-            "resources": [
-              "geology-g10-s2-video-zpayislw-fu-6319fa1e67"
-            ]
+            "resources": ["geology-g10-s2-video-zpayislw-fu-6319fa1e67"]
           },
           {
             "id": "geology-g10-s2-concept-b-common-ore-minerals-include-both-relatively-oxidized-some-oxides-hydroxides-carbonates-and-relatively-reduced-some-oxides-sulfides-compounds-of-metals-as-well-as-native-elements",
             "title": "‣B) Common ore minerals include both relatively oxidized ( some oxides, hydroxides, carbonates) and relatively reduced (some oxides, sulfides) compounds of metals as well as native elements.",
             "description": "",
             "order": 2,
-            "resources": [
-              "geology-g10-s2-video-jin3nc6rwja-9dddfda827"
-            ]
+            "resources": ["geology-g10-s2-video-jin3nc6rwja-9dddfda827"]
           },
           {
             "id": "geology-g10-s2-concept-c-ore-minerals-must-become-concentrated-by-some-geologic-process-to-produce-an-economic-mineral-deposit-igneous-sedimentary-and-metamorphic-processes-can-all-produce-ore-deposits",
             "title": "‣C) Ore minerals must become concentrated by some geologic process to produce an economic mineral deposit. Igneous, sedimentary, and metamorphic processes can all produce ore deposits.",
             "description": "",
             "order": 3,
-            "resources": [
-              "geology-g10-s2-video-jfiw2ivtueu-8f1229384b"
-            ]
+            "resources": ["geology-g10-s2-video-jfiw2ivtueu-8f1229384b"]
           },
           {
             "id": "geology-g10-s2-concept-d-modern-electronics-technologies-require-new-materials-such-as-rare-earth-elements-that-must-also-be-extracted-from-earth-materials-creating-new-ores-and-new-industries",
             "title": "‣D) Modern electronics technologies require new materials, such as rare earth elements, that must also be extracted from earth materials, creating new ores and new industries.",
             "description": "",
             "order": 4,
-            "resources": [
-              "geology-g10-s2-video-1inpon9cktg-cec6beccca"
-            ]
+            "resources": ["geology-g10-s2-video-1inpon9cktg-cec6beccca"]
           }
         ],
         "resources": [
@@ -68,7 +60,7 @@
       {
         "id": "geology-g10-s2-unit-02",
         "type": "unit",
-        "number": "02",
+        "number": "09",
         "title": "LO9",
         "description": "",
         "order": 2,
@@ -96,7 +88,7 @@
       {
         "id": "geology-g10-s2-unit-03",
         "type": "unit",
-        "number": "03",
+        "number": "10",
         "title": "LO10",
         "description": "",
         "order": 3,
@@ -146,7 +138,7 @@
       {
         "id": "geology-g10-s2-unit-04",
         "type": "unit",
-        "number": "04",
+        "number": "11",
         "title": "LO11",
         "description": "",
         "order": 4,
@@ -166,18 +158,14 @@
             "title": "‣ B) Reserves of coal are limited and are distributed in unequal ways, geographically.",
             "description": "",
             "order": 2,
-            "resources": [
-              "geology-g10-s2-video-ncwtfuoycds-bb9ae46b70"
-            ]
+            "resources": ["geology-g10-s2-video-ncwtfuoycds-bb9ae46b70"]
           },
           {
             "id": "geology-g10-s2-concept-c-impact-of-the-use-of-coal-on-the-environment",
             "title": "‣C) Impact of the use of coal on the environment",
             "description": "",
             "order": 3,
-            "resources": [
-              "geology-g10-s2-video-pggout3prc-1825b19d94"
-            ]
+            "resources": ["geology-g10-s2-video-pggout3prc-1825b19d94"]
           }
         ],
         "resources": [
@@ -192,7 +180,7 @@
       {
         "id": "geology-g10-s2-unit-05",
         "type": "unit",
-        "number": "05",
+        "number": "12",
         "title": "LO12",
         "description": "",
         "order": 5,
@@ -233,7 +221,7 @@
       {
         "id": "geology-g10-s2-unit-06",
         "type": "unit",
-        "number": "06",
+        "number": "13",
         "title": "LO13",
         "description": "",
         "order": 6,

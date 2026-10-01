@@ -15,14 +15,131 @@
       {
         "id": "computerscience-g11-s1-unit-01",
         "type": "unit",
-        "number": "01",
-        "title": "Unit 1",
+        "title": "Revisions",
         "description": "",
         "order": 1,
-        "concepts": [],
-        "resources": []
+        "concepts": [
+          {
+            "id": "computerscience-g10-s1-unit-01",
+            "type": "revision",
+            "title": "Midterm Revision",
+            "description": "",
+            "order": 1,
+            "concepts": [],
+            "resources": [
+              "computerscience-g11-s1-pdf-technology-grade11-exam-midterm-march-2018",
+              "computerscience-g11-s1-video-oqawbtyfcbq",
+              "computerscience-g11-s1-video-ynmgeu1vije"
+            ]
+          },
+          {
+            "id": "computerscience-g10-s1-unit-02",
+            "type": "revision",
+            "title": "Final Revision",
+            "description": "",
+            "order": 2,
+            "concepts": [],
+            "resources": [
+              "computerscience-g11-s1-video-hw-meladkea",
+              "computerscience-g11-s1-video-kayqq5jvsmw"
+            ]
+          },
+          {
+            "id": "computerscience-g10-s1-unit-03",
+            "type": "unit",
+            "title": "Other",
+            "description": "",
+            "order": 3,
+            "resources": [
+              "computerscience-g11-s1-pdf-cs-revision",
+              "computerscience-g11-s1-video-km-uduidwem"
+            ]
+          }
+        ],
+        "resources": [false]
       }
-    ]
+    ],
+    "units": 0
   },
-  "resources": []
+  "resources": [
+    {
+      "id": "computerscience-g11-s1-pdf-cs-revision",
+      "title": "CS-Revision.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1YhjDTeSaJ11K7xr3QjeC6zLLKUkeR97O/view?usp=drive_link",
+      "driveFileId": "1YhjDTeSaJ11K7xr3QjeC6zLLKUkeR97O",
+      "mimeType": "application/pdf",
+      "source": {
+        "location": "Unit 1 -> Global resources"
+      }
+    },
+    {
+      "id": "computerscience-g11-s1-pdf-technology-grade11-exam-midterm-march-2018",
+      "title": "Technology _Grade11_Exam Midterm March 2018.pdf",
+      "type": "pdf",
+      "provider": "Google Drive",
+      "url": "https://drive.google.com/file/d/1cEj4hST4OW0TDnRDJEttOHtHWfwptcA7/view?usp=drive_link",
+      "driveFileId": "1cEj4hST4OW0TDnRDJEttOHtHWfwptcA7",
+      "mimeType": "application/pdf",
+      "source": {
+        "location": "Unit 1 -> Global resources"
+      }
+    },
+    {
+      "id": "computerscience-g11-s1-video-hw-meladkea",
+      "title": "G11 STEM Computer Science Past Exams solving- Semester 1 - Obour CS Club",
+      "type": "video",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Hw_MelADkeA",
+      "youtubeId": "Hw_MelADkeA",
+      "source": {
+        "location": "Unit 1 -> Global resources"
+      }
+    },
+    {
+      "id": "computerscience-g11-s1-video-kayqq5jvsmw",
+      "title": "Nutshell Computer Science Final revision | Grade 11 S1 STEM",
+      "type": "video",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Kayqq5jVsmw",
+      "youtubeId": "Kayqq5jVsmw",
+      "source": {
+        "location": "Unit 1 -> Global resources"
+      }
+    },
+    {
+      "id": "computerscience-g11-s1-video-oqawbtyfcbq",
+      "title": "Nutshell Computer Science Midterm revision | Grade 11 S1 STEM",
+      "type": "video",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=OQaWbYTFcbQ",
+      "youtubeId": "OQaWbYTFcbQ",
+      "source": {
+        "location": "Unit 1 -> Global resources"
+      }
+    },
+    {
+      "id": "computerscience-g11-s1-video-ynmgeu1vije",
+      "title": "CS ll midterm revision ll Grade 11 ll semester 1 ll ACE STEMObour",
+      "type": "video",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ynMgeU1vIJE",
+      "youtubeId": "ynMgeU1vIJE",
+      "source": {
+        "location": "Unit 1 -> Global resources"
+      }
+    },
+    {
+      "id": "computerscience-g11-s1-video-km-uduidwem",
+      "title": "Number System and Logic Function - Grade 11 - Computer Science",
+      "type": "video",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=KM-UduIDweM&list=PL3IIpAGdgZTdd1W6Df3_OvGQasHo0i53",
+      "youtubeId": "KM-UduIDweM",
+      "source": {
+        "location": "Unit 1 -> Global resources"
+      }
+    }
+  ]
 }

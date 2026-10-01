@@ -15,8 +15,7 @@
       {
         "id": "religion-g10-s2-unit-01",
         "type": "unit",
-        "number": "01",
-        "title": "كتب المنهج",
+        "title": "منهج التربية الدينية الإسلامية",
         "description": "",
         "order": 1,
         "concepts": [
@@ -25,51 +24,20 @@
             "title": "كتاب دين اسلامى اولى ثانوى ترم ثانى - منتدى الامتحان التعليمى",
             "description": "كتاب دين اسلامى اولى ثانوى ترم ثانى - منتدى الامتحان التعليمى",
             "order": 1,
-            "resources": [
-              "religion-g10-s2-pdf-pdf-a124e6842e"
-            ]
+            "resources": ["religion-g10-s2-pdf-pdf-a124e6842e"]
           },
           {
             "id": "religion-g10-s2-concept-",
             "title": "مراجعة دين اولى ثانوى - الامتحان التعليمى",
             "description": "مراجعة دين اولى ثانوى - الامتحان التعليمى",
             "order": 2,
-            "resources": [
-              "religion-g10-s2-pdf-pdf-36a797bf28"
-            ]
+            "resources": ["religion-g10-s2-pdf-pdf-36a797bf28"]
           }
         ],
-        "resources": []
-      },
-      {
-        "id": "religion-g10-s2-qs-bank-question-bank",
-        "type": "qs-bank",
-        "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
-        "order": 2,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "religion-g10-s2-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 3,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "religion-g10-s2-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 4,
-        "concepts": [],
-        "resources": []
+        "resources": [false]
       }
     ],
-    "units": 1
+    "units": 3
   },
   "resources": [
     {
@@ -77,7 +45,7 @@
       "title": "كتاب دين اسلامى اولى ثانوى ترم ثانى - منتدى الامتحان التعليمى.pdf",
       "type": "pdf",
       "provider": "google-drive",
-      "url": "https://drive.google.com/file/d/1a72rrqbw8VOu1XBIpUA5eUAuw1-HHuiP/view?usp=drive_link",
+      "url": "https://drive.google.com/file/d/1MQp-LwbO7c-w4xauo2JU6gntc3nvn5FM/view?usp=drivesdk",
       "source": {
         "location": "references → كتاب دين اسلامى اولى ثانوى ترم ثانى - منتدى الامتحان التعليمى"
       },

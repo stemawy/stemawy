@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 import styles from "./Footer.module.scss";
 import { useLayoutState } from "./layout-context";
@@ -7,16 +8,21 @@ import { getTranslations } from "@/lib/i18n";
 export default function Footer() {
   const { language } = useLayoutState();
   const t = getTranslations(language);
+  const [currentYear, setCurrentYear] = useState<number | null>(null);
   const footerLinks = [
     { label: t.footer.about, href: "/about" },
     { label: t.footer.help, href: "/help" },
     { label: t.footer.suggest, href: "/suggest-resource" },
   ];
 
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className={styles.footer}>
       <p className={styles.copyright}>
-        &copy; 2025 Stemawy 2.0. {t.footer.builtFor}
+        &copy; {currentYear ?? ""} Stemawy 2.0. {t.footer.builtFor}
       </p>
       <nav className={styles.links} aria-label={t.footer.navigation}>
         {footerLinks.map(({ label, href }, index) => (

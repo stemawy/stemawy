@@ -84,6 +84,15 @@ export function removeSavedItem(id: string, type: SavedItemType): void {
   writeSavedItems(items);
 }
 
+export function clearSavedItems(): void {
+  if (typeof window === "undefined") return;
+
+  window.localStorage.removeItem(STORAGE_KEY);
+  cachedStorageValue = null;
+  cachedItems = [];
+  window.dispatchEvent(new CustomEvent(CHANGE_EVENT));
+}
+
 export function isSaved(id: string, type: SavedItemType): boolean {
   return getSavedItems().some((i) => i.id === id && i.type === type);
 }

@@ -8,10 +8,8 @@ import {
   type OpportunityCategory,
 } from "@/data/opportunities";
 import OpportunitiesCategories from "@/components/opportunities/OpportunitiesCategories";
-import OpportunitiesFilters from "@/components/opportunities/OpportunitiesFilters";
 import OpportunitiesHeader from "@/components/opportunities/OpportunitiesHeader";
 import OpportunitiesLibrary from "@/components/opportunities/OpportunitiesLibrary";
-import OpportunitiesSort from "@/components/opportunities/OpportunitiesSort";
 import styles from "./OpportunitiesPage.module.scss";
 
 export type OpportunitySort = "relevancy" | "deadline" | "newest" | "az" | "za";
@@ -22,21 +20,12 @@ export type OpportunityFiltersState = {
   location: string;
   deadline: string;
 };
-const initialFilters: OpportunityFiltersState = {
-  type: "all",
-  field: "all",
-  eligibility: "all",
-  location: "all",
-  deadline: "all",
-};
 
 export default function OpportunitiesPage() {
   const { language } = useLayoutState();
   const items = fallback as Opportunity[];
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<OpportunityCategory | "all">("all");
-  const [filters, setFilters] = useState(initialFilters);
-  const [sort, setSort] = useState<OpportunitySort>("relevancy");
 
   const counts = useMemo(
     () =>
@@ -45,21 +34,6 @@ export default function OpportunitiesPage() {
         result[item.category] = (result[item.category] ?? 0) + 1;
         return result;
       }, {}),
-    [items],
-  );
-  const values = useMemo(
-    () => ({
-      type: [...new Set(items.map((item) => item.type))],
-      field: [
-        ...new Set(items.map((item) => item.field).filter(Boolean)),
-      ] as string[],
-      eligibility: [
-        ...new Set(items.map((item) => item.eligibility).filter(Boolean)),
-      ] as string[],
-      location: [
-        ...new Set(items.map((item) => item.location).filter(Boolean)),
-      ] as string[],
-    }),
     [items],
   );
   const filtered = useMemo(() => {
@@ -81,28 +55,14 @@ export default function OpportunitiesPage() {
         .toLowerCase();
       return (
         (category === "all" || item.category === category) &&
-        (!term || searchable.includes(term)) &&
-        (filters.type === "all" || item.type === filters.type) &&
-        (filters.field === "all" || item.field === filters.field) &&
-        (filters.eligibility === "all" ||
-          item.eligibility === filters.eligibility) &&
-        (filters.location === "all" || item.location === filters.location) &&
-        (filters.deadline === "all" ||
-          Boolean(item.deadline) === (filters.deadline === "has"))
+        (!term || searchable.includes(term))
       );
     });
-    return [...result].sort((a, b) =>
-      sort === "az"
-        ? a.title.localeCompare(b.title)
-        : sort === "za"
-          ? b.title.localeCompare(a.title)
-          : Number(b.featured) - Number(a.featured),
-    );
-  }, [category, filters, items, query, sort]);
+    return result;
+  }, [category, items, query]);
   const clear = () => {
     setQuery("");
     setCategory("all");
-    setFilters(initialFilters);
   };
 
   return (
@@ -120,19 +80,6 @@ export default function OpportunitiesPage() {
             active={category}
             onChange={setCategory}
           />
-          <div className={styles.toolbarActions}>
-            <OpportunitiesFilters
-              language={language}
-              values={values}
-              filters={filters}
-              onChange={setFilters}
-            />
-            <OpportunitiesSort
-              value={sort}
-              onChange={setSort}
-              language={language}
-            />
-          </div>
         </div>
         <OpportunitiesLibrary
           language={language}

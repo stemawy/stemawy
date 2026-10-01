@@ -69,6 +69,8 @@ export function LayoutProvider({ children }: { children: React.ReactNode }) {
   }, [grade, semester, language]);
 
   const resetPreferences = () => {
+    setCollapsed(false);
+    setMobileOpen(false);
     setGrade(10);
     setSemester(1);
     setLanguage("en");

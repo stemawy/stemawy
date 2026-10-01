@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Compass, Timer } from "lucide-react";
 
 import type { Opportunity } from "@/data/opportunities";
@@ -18,7 +19,13 @@ export default function Opportunities({ items }: { items: Opportunity[] }) {
       </header>
       <div className={styles.opportunityList}>
         {items.map((item) => (
-          <a href="/opportunities" className={styles.opportunity} key={item.id}>
+          <a
+            href={item.href}
+            className={styles.opportunity}
+            key={item.id}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {item.image ? (
               <Image src={item.image} alt="" width={48} height={48} />
             ) : (
@@ -33,9 +40,9 @@ export default function Opportunities({ items }: { items: Opportunity[] }) {
             </span>
           </a>
         ))}
-        <a className={styles.findLink} href="/opportunities">
+        <Link className={styles.findLink} href="/opportunities">
           {t.dashboard.findOpportunities}
-        </a>
+        </Link>
       </div>
     </section>
   );

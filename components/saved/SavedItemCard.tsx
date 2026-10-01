@@ -69,16 +69,25 @@ function getItemHref(item: SavedItem) {
 export default function SavedItemCard({ item, onRemove }: SavedItemCardProps) {
   const badge = getBadge(item);
   const href = getItemHref(item);
+  const isResource = item.type === "resource";
 
   return (
     <article className={styles.card}>
-      <Link
-        className={styles.cardLink}
-        href={href}
-        target="_blank"
-        rel={external ? "noopener noreferrer" : undefined}
-        aria-label={`Open ${item.title}`}
-      />
+      {isResource ? (
+        <Link
+          className={styles.cardLink}
+          href={href}
+          aria-label={`Open ${item.title}`}
+        />
+      ) : (
+        <a
+          className={styles.cardLink}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Open ${item.title}`}
+        />
+      )}
       <div className={styles.cardTop}>
         <span className={`${styles.badge} ${badge.color}`}>
           <span className="material-symbols-outlined">{badge.icon}</span>

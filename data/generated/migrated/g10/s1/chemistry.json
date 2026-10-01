@@ -21,22 +21,11 @@
         "order": 1,
         "concepts": [
           {
-            "id": "chemistry-g10-s1-concept-lo-summerized",
-            "title": "LO summerized",
-            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
-            "order": 1,
-            "resources": [
-              "chemistry-g10-s1-video-rhut0bnxzsk-4338d57970"
-            ]
-          },
-          {
             "id": "chemistry-g10-s1-concept-science",
             "title": "Science.",
             "description": "This concept focuses on science. and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
             "order": 2,
-            "resources": [
-              "chemistry-g10-s1-video-qjfp7ywz3a0-3626093146"
-            ]
+            "resources": ["chemistry-g10-s1-video-qjfp7ywz3a0-3626093146"]
           },
           {
             "id": "chemistry-g10-s1-concept-scientific-methods",
@@ -143,7 +132,8 @@
         "resources": [
           "chemistry-g10-s1-pdf-chapter-2-atoms-molecules-and-ions-docx-c1b38e28ad",
           "chemistry-g10-s1-pdf-chemistry-l-o-1-ssc-pdf-3ea5c951cb",
-          "chemistry-g10-s1-pdf-chemistry-lo1-pptx-04d6ed75e1"
+          "chemistry-g10-s1-pdf-chemistry-lo1-pptx-04d6ed75e1",
+          "chemistry-g10-s1-video-rhut0bnxzsk-4338d57970"
         ]
       },
       {
@@ -154,15 +144,6 @@
         "description": "This unit examines the structure of atoms, subatomic particles, and how atomic composition influences chemical behavior and reactivity.",
         "order": 2,
         "concepts": [
-          {
-            "id": "chemistry-g10-s1-concept-lo-summerized",
-            "title": "LO summerized",
-            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
-            "order": 1,
-            "resources": [
-              "chemistry-g10-s1-video-l717yghpnio-2dec43d2d2"
-            ]
-          },
           {
             "id": "chemistry-g10-s1-concept-atoms",
             "title": "Atoms.",
@@ -248,7 +229,8 @@
           "chemistry-g10-s1-pdf-4-5810146429913534102-pdf-7f7e336a09",
           "chemistry-g10-s1-pdf-chemistry-l-o-2-pdf-c34b0d7c0c",
           "chemistry-g10-s1-pdf-chemistry-l-o-2-ssc-pdf-de547c358a",
-          "chemistry-g10-s1-pdf-chemistry-lo2-pptx-5296aa0bbd"
+          "chemistry-g10-s1-pdf-chemistry-lo2-pptx-5296aa0bbd",
+          "chemistry-g10-s1-video-l717yghpnio-2dec43d2d2"
         ]
       },
       {
@@ -259,15 +241,6 @@
         "description": "This unit explores electron arrangement, energy levels, and how spectra help explain atomic and molecular structure.",
         "order": 3,
         "concepts": [
-          {
-            "id": "chemistry-g10-s1-concept-lo-summerized",
-            "title": "LO summerized",
-            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
-            "order": 1,
-            "resources": [
-              "chemistry-g10-s1-video-h3k-yvd5gsk-ee52fba133"
-            ]
-          },
           {
             "id": "chemistry-g10-s1-concept-electron-configuration",
             "title": "Electron configuration.",
@@ -391,7 +364,8 @@
         ],
         "resources": [
           "chemistry-g10-s1-pdf-chemistry-l-o-3-ssc-pdf-c855c5b105",
-          "chemistry-g10-s1-pdf-chemistry-lo-3-pptx-32571314da"
+          "chemistry-g10-s1-pdf-chemistry-lo-3-pptx-32571314da",
+          "chemistry-g10-s1-video-h3k-yvd5gsk-ee52fba133"
         ]
       },
       {
@@ -402,15 +376,6 @@
         "description": "This unit explains how the periodic table is organized and how repeating trends help predict the properties of elements.",
         "order": 4,
         "concepts": [
-          {
-            "id": "chemistry-g10-s1-concept-lo-summerized",
-            "title": "LO summerized",
-            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
-            "order": 1,
-            "resources": [
-              "chemistry-g10-s1-video-sttljayta1w-c4db2043f6"
-            ]
-          },
           {
             "id": "chemistry-g10-s1-concept-structure-of-the-periodic-table",
             "title": "Structure of the periodic table.",
@@ -484,7 +449,8 @@
         ],
         "resources": [
           "chemistry-g10-s1-pdf-chemistry-l-o-4-ssc-pdf-e3fc0f5e07",
-          "chemistry-g10-s1-pdf-chemistry-lo4-pptx-4cad383a34"
+          "chemistry-g10-s1-pdf-chemistry-lo4-pptx-4cad383a34",
+          "chemistry-g10-s1-video-sttljayta1w-c4db2043f6"
         ]
       },
       {
@@ -495,16 +461,6 @@
         "description": "This unit introduces ionic and covalent bonding and the basic ideas of organic chemistry that explain how molecules form and behave.",
         "order": 5,
         "concepts": [
-          {
-            "id": "chemistry-g10-s1-concept-lo-summerized",
-            "title": "LO summerized",
-            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
-            "order": 1,
-            "resources": [
-              "chemistry-g10-s1-video-961zmt281gw-f82207549c",
-              "chemistry-g10-s1-video-dcnymrmd0kw-b3aa4437d8"
-            ]
-          },
           {
             "id": "chemistry-g10-s1-concept-chemical-bond",
             "title": "Chemical bond.",
@@ -579,7 +535,9 @@
         "resources": [
           "chemistry-g10-s1-pdf-ch-1-05-part-1-pptx-9c99fd5835",
           "chemistry-g10-s1-pdf-ch-1-05-part-3-isomersm-pptx-44ae83afac",
-          "chemistry-g10-s1-pdf-chemistry-l-o-5-ssc-pdf-feb3f39550"
+          "chemistry-g10-s1-pdf-chemistry-l-o-5-ssc-pdf-feb3f39550",
+          "chemistry-g10-s1-video-961zmt281gw-f82207549c",
+          "chemistry-g10-s1-video-dcnymrmd0kw-b3aa4437d8"
         ]
       },
       {
@@ -590,15 +548,6 @@
         "description": "This unit covers radioactivity, nuclear decay, and the scientific and practical applications of nuclear chemistry in society.",
         "order": 6,
         "concepts": [
-          {
-            "id": "chemistry-g10-s1-concept-lo-summerized",
-            "title": "LO summerized",
-            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
-            "order": 1,
-            "resources": [
-              "chemistry-g10-s1-video-zsotts5o-ak-fe30e008d5"
-            ]
-          },
           {
             "id": "chemistry-g10-s1-concept-radioactive",
             "title": "Radioactive.",
@@ -662,7 +611,8 @@
         ],
         "resources": [
           "chemistry-g10-s1-pdf-chemistry-lo6-pptx-40077ab63f",
-          "chemistry-g10-s1-pdf-chemistry-l-o-6-7-pdf-e527ae0f12"
+          "chemistry-g10-s1-pdf-chemistry-l-o-6-7-pdf-e527ae0f12",
+          "chemistry-g10-s1-video-zsotts5o-ak-fe30e008d5"
         ]
       },
       {
@@ -673,15 +623,6 @@
         "description": "This unit investigates reaction types, energy changes, and the physical changes that occur when matter changes state.",
         "order": 7,
         "concepts": [
-          {
-            "id": "chemistry-g10-s1-concept-lo-summerized",
-            "title": "LO summerized",
-            "description": "This concept focuses on lo summerized and helps learners understand the key ideas behind chemistry through clear scientific examples and applications.",
-            "order": 1,
-            "resources": [
-              "chemistry-g10-s1-video-ymyfy3nfwgk-6e35bfa63b"
-            ]
-          },
           {
             "id": "chemistry-g10-s1-concept-element",
             "title": "Element.",
@@ -795,18 +736,9 @@
         ],
         "resources": [
           "chemistry-g10-s1-pdf-chemistry-l-o-6-7-lo7-pdf-0507c2f5b9",
-          "chemistry-g10-s1-pdf-chemistry-lo7-pptx-be60fb88b9"
+          "chemistry-g10-s1-pdf-chemistry-lo7-pptx-be60fb88b9",
+          "chemistry-g10-s1-video-ymyfy3nfwgk-6e35bfa63b"
         ]
-      },
-      {
-        "id": "chemistry-g10-s1-unit-08",
-        "type": "unit",
-        "number": "08",
-        "title": "Additional References",
-        "description": "This section provides supplementary materials and additional reading for extending understanding beyond the core units.",
-        "order": 8,
-        "concepts": [],
-        "resources": []
       },
       {
         "id": "chemistry-g10-s1-qs-bank-question-bank",
@@ -849,19 +781,27 @@
         "description": "This section reviews the major concepts of the semester and supports targeted exam preparation and consolidation.",
         "order": 10,
         "concepts": [],
-        "resources": []
+        "resources": [
+          "chemistry-g10-s1-slides-chemistry-summarization-pptx-ea9cfeda08"
+        ]
       },
       {
         "id": "chemistry-g10-s1-references-references",
         "type": "references",
-        "title": "References",
+        "title": "Additional References",
         "description": "This section gathers useful reference materials, textbooks, and support resources for independent study.",
         "order": 11,
         "concepts": [],
-        "resources": []
+        "resources": [
+          "chemistry-g10-s1-pdf-active-chemistry-pdf-b219b81222",
+          "chemistry-g10-s1-pdf-holt-chemistry-textbook-pdf-62b0c5ad22",
+          "chemistry-g10-s1-pdf-principles-of-organic-chemistry-pdf-8a1ff2f17d",
+          "chemistry-g10-s1-pdf-principles-of-general-chemistry-by-martin-silberberg-z-lib-org-pdf-15b8352225",
+          "chemistry-g10-s1-pdf-zumdahl-chemistry-9th-c2014-solutions-copy-pdf-a0694ff447"
+        ]
       }
     ],
-    "units": 8
+    "units": 7
   },
   "resources": [
     {
@@ -1119,6 +1059,60 @@
         "status": "unclassified",
         "unitId": "chemistry-g10-s1-unit-01"
       }
+    },
+    {
+      "id": "chemistry-g10-s1-slides-chemistry-summarization-pptx-ea9cfeda08",
+      "title": "Chemistry (Summarization).pptx",
+      "type": "slides",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/presentation/d/1fV7ZDgR-tPQJx0aRzeu4PUG7yMkrqQUP/edit?usp=drivesdk",
+      "source": { "location": "Revision" },
+      "classification": { "status": "classified", "contentType": "revision" }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-active-chemistry-pdf-b219b81222",
+      "title": "Active_Chemistry.PDF",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Mi7xSGxdqSaM3CsHU6U_1RALvtOy09IW/view",
+      "source": { "location": "Additional References" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-holt-chemistry-textbook-pdf-62b0c5ad22",
+      "title": "Holt_Chemistry_Textbook.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1XNMHDqHhavlvWhBilOgMAQ8A0Fczt-eo/view",
+      "source": { "location": "Additional References" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-principles-of-organic-chemistry-pdf-8a1ff2f17d",
+      "title": "Principles of organic chemistry.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1HCrQLUOSzkqV_84i9UcU-xaWlKraakzK/view",
+      "source": { "location": "Additional References" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-principles-of-general-chemistry-by-martin-silberberg-z-lib-org-pdf-15b8352225",
+      "title": "Principles_of_General_Chemistry_by_Martin_Silberberg_z_lib_org.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/14m3z-gnDKIHoXCYgkwT9YTX4iuoN1_4i/view",
+      "source": { "location": "Additional References" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "chemistry-g10-s1-pdf-zumdahl-chemistry-9th-c2014-solutions-copy-pdf-a0694ff447",
+      "title": "Zumdahl Chemistry 9th c2014 solutions - Copy.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1y_ZiYIeS7ZVr0ZrcpG2SqO5a6Hai6IDi/view",
+      "source": { "location": "Additional References" },
+      "classification": { "status": "classified", "contentType": "references" }
     },
     {
       "id": "chemistry-g10-s1-pdf-chemistry-l-o-1-ssc-pdf-3ea5c951cb",

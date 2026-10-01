@@ -23,49 +23,49 @@
           {
             "id": "mechanics-g10-s1-concept-position-time-graphs",
             "title": "Position /Time graphs",
-            "description": "",
+            "description": "Position-time graphs show an object's position and how it changes over time. Their slope represents the object's velocity.",
             "order": 1,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-velocity-time-graphs",
             "title": "Velocity/Time graphs",
-            "description": "",
+            "description": "Velocity-time graphs show how velocity changes over time. Their slope represents acceleration, while the area under the graph represents displacement.",
             "order": 2,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-acceleration-time-graphs",
             "title": "Acceleration /Time graphs",
-            "description": "",
+            "description": "Acceleration-time graphs describe how an object's acceleration varies over time. The area under the graph gives the change in velocity.",
             "order": 3,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-relative-velocity",
             "title": "Relative velocity",
-            "description": "",
+            "description": "Relative velocity is the velocity of one object as measured from another object's reference frame.",
             "order": 4,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-instantaneous-velocity",
             "title": "Instantaneous velocity",
-            "description": "",
+            "description": "Instantaneous velocity is an object's velocity at a particular moment, found from the gradient of its position-time graph at that point.",
             "order": 5,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-average-velocity",
             "title": "Average velocity",
-            "description": "",
+            "description": "Average velocity is the total displacement divided by the total time taken, including the direction of the motion.",
             "order": 6,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-reference-frames",
             "title": "Reference Frames",
-            "description": "",
+            "description": "A reference frame is the coordinate system and viewpoint used to describe an object's position and motion.",
             "order": 7,
             "resources": []
           }
@@ -95,21 +95,21 @@
           {
             "id": "mechanics-g10-s1-concept-area-under-a-curve",
             "title": "Area under a curve",
-            "description": "",
+            "description": "The area under a motion graph can represent a physical quantity, such as displacement on a velocity-time graph or change in velocity on an acceleration-time graph.",
             "order": 1,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-kinematic-equations-for-1-d-motion-with-constant-acceleration",
             "title": "Kinematic equations for 1-D motion with constant acceleration",
-            "description": "",
+            "description": "The kinematic equations relate displacement, initial velocity, final velocity, acceleration, and time for one-dimensional motion with constant acceleration.",
             "order": 2,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-free-fall-motion",
             "title": "Free-fall motion",
-            "description": "",
+            "description": "Free-fall motion is the movement of an object under gravity alone, with air resistance neglected and acceleration approximately equal to g near Earth's surface.",
             "order": 3,
             "resources": []
           }
@@ -139,28 +139,28 @@
           {
             "id": "mechanics-g10-s1-concept-reference-frame",
             "title": "Reference frame",
-            "description": "",
+            "description": "A reference frame provides the coordinates, origin, and observer used to measure an object's position and velocity.",
             "order": 1,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-reference-object",
             "title": "Reference object",
-            "description": "",
+            "description": "A reference object is the object chosen as a fixed or moving comparison point when describing another object's motion.",
             "order": 2,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-velocity-as-a-signed-quantity",
             "title": "Velocity as a signed quantity",
-            "description": "",
+            "description": "Treating velocity as a signed quantity allows its positive or negative sign to show direction relative to a chosen axis.",
             "order": 3,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-difference-of-velocities",
             "title": "Difference of velocities",
-            "description": "",
+            "description": "The difference of velocities compares motion states and is used to calculate relative velocity between two objects.",
             "order": 4,
             "resources": []
           }
@@ -183,56 +183,56 @@
           {
             "id": "mechanics-g10-s1-concept-vector-and-scalar-quantities",
             "title": "Vector and scalar quantities",
-            "description": "",
+            "description": "Scalars have magnitude only, while vectors have both magnitude and direction, such as distance compared with displacement.",
             "order": 1,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-rectangular-coordinates",
             "title": "Rectangular coordinates",
-            "description": "",
+            "description": "Rectangular coordinates describe position or vectors using perpendicular horizontal and vertical components.",
             "order": 2,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-polar-coordinates",
             "title": "Polar coordinates",
-            "description": "",
+            "description": "Polar coordinates locate a point or vector using its distance from an origin and its angle from a reference direction.",
             "order": 3,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-engineering-i-j-k-notation",
             "title": "Engineering (i,j,k) notation",
-            "description": "",
+            "description": "The i, j, k notation represents vector components along three mutually perpendicular coordinate axes.",
             "order": 4,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-physical-diagrams",
             "title": "Physical diagrams",
-            "description": "",
+            "description": "Physical diagrams represent objects, directions, vectors, and relationships visually so a mechanics problem can be modelled clearly.",
             "order": 5,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-position-vectors",
             "title": "Position vectors",
-            "description": "",
+            "description": "A position vector points from the chosen origin to an object's location and specifies its position in space.",
             "order": 6,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-resultant-of-two-vectors",
             "title": "Resultant of two vectors",
-            "description": "",
+            "description": "The resultant of two vectors is the single vector equal to their vector sum, found by combining their components or using a geometric construction.",
             "order": 7,
             "resources": []
           },
           {
             "id": "mechanics-g10-s1-concept-relative-velocity-in-2-dimensions",
             "title": "Relative velocity in 2-dimensions",
-            "description": "",
+            "description": "Relative velocity in two dimensions is found by subtracting one velocity vector from another and comparing both magnitude and direction.",
             "order": 8,
             "resources": []
           }
@@ -280,15 +280,6 @@
           "mechanics-g10-s1-video-nrosxemj-vm-3f5d71df63",
           "mechanics-g10-s1-video-v9kytyidpyg-eab75d7149"
         ]
-      },
-      {
-        "id": "mechanics-g10-s1-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 7,
-        "concepts": [],
-        "resources": []
       }
     ],
     "units": 4

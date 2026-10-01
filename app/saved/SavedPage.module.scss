@@ -310,6 +310,11 @@
   border-radius: inherit;
   outline: none;
 }
+.cardTop,
+.breadcrumb,
+.cardBody {
+  pointer-events: none;
+}
 .cardLink:focus-visible {
   border: 2px solid var(--primary);
   outline: none;
@@ -406,6 +411,7 @@
   border: 0;
   background: transparent;
   color: var(--primary);
+  pointer-events: auto;
 }
 .removeButton:hover,
 .removeButton:focus-visible {

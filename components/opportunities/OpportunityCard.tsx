@@ -40,6 +40,7 @@ export default function OpportunityCard({
       aria-label={ar ? item.arTitle : item.title}
       onClick={openOpportunity}
       onKeyDown={(event) => {
+        if (event.target !== event.currentTarget) return;
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault();
           openOpportunity();
@@ -69,16 +70,27 @@ export default function OpportunityCard({
           </div>
         )}
         <button
-          className={styles.bookmark}
+          className={`${styles.bookmark} ${saved ? styles.bookmarkSaved : ""}`}
           type="button"
           onClick={(event) => {
             event.stopPropagation();
             toggle();
           }}
           aria-pressed={saved}
-          aria-label={saved ? "Remove from saved" : "Save opportunity"}
+          aria-label={
+            saved
+              ? ar
+                ? "إزالة من المحفوظات"
+                : "Remove from saved"
+              : ar
+                ? "حفظ الفرصة"
+                : "Save opportunity"
+          }
         >
-          {saved ? <BookmarkCheck size={19} /> : <Bookmark size={19} />}
+          {saved ? <BookmarkCheck size={17} /> : <Bookmark size={17} />}
+          <span>
+            {saved ? (ar ? "تم الحفظ" : "Saved") : ar ? "حفظ" : "Save"}
+          </span>
         </button>
         <span className={styles.typeTag}>{item.type}</span>
       </div>

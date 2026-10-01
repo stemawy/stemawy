@@ -14,9 +14,8 @@
     "content": [
       {
         "id": "socialstudies-g10-s2-unit-01",
-        "type": "unit",
-        "number": "01",
-        "title": "ملخصات",
+        "type": "revision",
+        "title": "Summaries",
         "description": "",
         "order": 1,
         "concepts": [],
@@ -30,9 +29,8 @@
       },
       {
         "id": "socialstudies-g10-s2-unit-02",
-        "type": "unit",
-        "number": "02",
-        "title": "ملفات",
+        "type": "references",
+        "title": "Files",
         "description": "",
         "order": 2,
         "concepts": [],
@@ -64,20 +62,11 @@
         ]
       },
       {
-        "id": "socialstudies-g10-s2-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 4,
-        "concepts": [],
-        "resources": []
-      },
-      {
         "id": "socialstudies-g10-s2-references-references",
         "type": "references",
-        "title": "References",
+        "title": "Books",
         "description": "Reference books and additional materials.",
-        "order": 5,
+        "order": 4,
         "concepts": [],
         "resources": [
           "socialstudies-g10-s2-pdf-1-2026-pdf-e7c26adc5d",
@@ -85,7 +74,7 @@
         ]
       }
     ],
-    "units": 2
+    "units": 0
   },
   "resources": [
     {

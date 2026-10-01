@@ -13,26 +13,27 @@
     "icon": "english",
     "content": [
       {
-        "id": "english-g11-s1-unit-01",
+        "id": "english-g11-s1-unit-03",
         "type": "unit",
         "number": "01",
-        "title": "My tutor",
+        "title": "Cycles",
         "description": "",
         "order": 1,
         "concepts": [],
         "resources": [
-          "english-g11-s1-global-01-01",
-          "english-g11-s1-global-01-02",
-          "english-g11-s1-global-01-03",
-          "english-g11-s1-global-01-04",
-          "english-g11-s1-global-01-05"
+          "english-g11-s1-global-03-01",
+          "english-g11-s1-global-03-02",
+          "english-g11-s1-global-03-03",
+          "english-g11-s1-global-03-04",
+          "english-g11-s1-global-03-05",
+          "english-g11-s1-global-03-06"
         ]
       },
       {
         "id": "english-g11-s1-unit-02",
         "type": "unit",
         "number": "02",
-        "title": "Cycles Summary_",
+        "title": "Cycles Summary",
         "description": "",
         "order": 2,
         "concepts": [],
@@ -49,43 +50,12 @@
         ]
       },
       {
-        "id": "english-g11-s1-unit-03",
-        "type": "unit",
-        "number": "03",
-        "title": "Cycles_",
-        "description": "",
-        "order": 3,
-        "concepts": [],
-        "resources": [
-          "english-g11-s1-global-03-01",
-          "english-g11-s1-global-03-02",
-          "english-g11-s1-global-03-03",
-          "english-g11-s1-global-03-04",
-          "english-g11-s1-global-03-05",
-          "english-g11-s1-global-03-06"
-        ]
-      },
-      {
-        "id": "english-g11-s1-unit-04",
-        "type": "unit",
-        "number": "04",
-        "title": "Tests",
-        "description": "",
-        "order": 4,
-        "concepts": [],
-        "resources": [
-          "english-g11-s1-global-04-01",
-          "english-g11-s1-global-04-02",
-          "english-g11-s1-global-04-03"
-        ]
-      },
-      {
         "id": "english-g11-s1-unit-05",
         "type": "unit",
-        "number": "05",
+        "number": "03",
         "title": "Story",
         "description": "",
-        "order": 5,
+        "order": 3,
         "concepts": [],
         "resources": [
           "english-g11-s1-global-05-01",
@@ -96,12 +66,28 @@
         ]
       },
       {
+        "id": "english-g11-s1-unit-01",
+        "type": "unit",
+        "number": "04",
+        "title": "My tutor",
+        "description": "",
+        "order": 4,
+        "concepts": [],
+        "resources": [
+          "english-g11-s1-global-01-01",
+          "english-g11-s1-global-01-02",
+          "english-g11-s1-global-01-03",
+          "english-g11-s1-global-01-04",
+          "english-g11-s1-global-01-05"
+        ]
+      },
+      {
         "id": "english-g11-s1-unit-06",
         "type": "unit",
-        "number": "06",
+        "number": "05",
         "title": "New Hello",
         "description": "",
-        "order": 6,
+        "order": 5,
         "concepts": [],
         "resources": [
           "english-g11-s1-global-06-01",
@@ -127,10 +113,10 @@
       {
         "id": "english-g11-s1-unit-07",
         "type": "unit",
-        "number": "07",
+        "number": "06",
         "title": "Books",
         "description": "",
-        "order": 7,
+        "order": 6,
         "concepts": [],
         "resources": [
           "english-g11-s1-global-07-01",
@@ -144,18 +130,29 @@
         ]
       },
       {
+        "id": "english-g11-s1-unit-04",
+        "type": "qs-bank",
+        "title": "Tests",
+        "description": "",
+        "order": 7,
+        "concepts": [],
+        "resources": [
+          "english-g11-s1-global-04-01",
+          "english-g11-s1-global-04-02",
+          "english-g11-s1-global-04-03"
+        ]
+      },
+      {
         "id": "english-g11-s1-unit-08",
-        "type": "unit",
-        "number": "08",
+        "type": "references",
         "title": "Other",
         "description": "",
         "order": 8,
         "concepts": [],
-        "resources": [
-          "english-g11-s1-global-08-01"
-        ]
+        "resources": ["english-g11-s1-global-08-01"]
       }
-    ]
+    ],
+    "units": 6
   },
   "resources": [
     {

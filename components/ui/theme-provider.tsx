@@ -2,12 +2,15 @@
 
 import * as React from "react";
 
-type Theme = "light" | "dark" | "system";
+export type Appearance = "light" | "dark" | "system";
+export type ThemeFamily = "default" | "ramadan" | "christmas";
 
 type ThemeContextValue = {
-  theme: Theme;
+  appearance: Appearance;
+  theme: ThemeFamily;
   resolvedTheme: "light" | "dark";
-  setTheme: (theme: Theme) => void;
+  setAppearance: (appearance: Appearance) => void;
+  setTheme: (theme: ThemeFamily) => void;
 };
 
 const ThemeContext = React.createContext<ThemeContextValue | undefined>(
@@ -23,35 +26,72 @@ function getSystemTheme(): "light" | "dark" {
 }
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setThemeState] = React.useState<Theme>("light");
+  const [appearance, setAppearanceState] = React.useState<Appearance>("system");
+  const [theme, setThemeState] = React.useState<ThemeFamily>("default");
 
   React.useEffect(() => {
-    const saved = window.localStorage.getItem("stemawy-theme") as Theme | null;
-    const nextTheme = saved ?? "system";
-    setThemeState(nextTheme);
+    const savedAppearance = window.localStorage.getItem(
+      "stemawy-appearance",
+    ) as Appearance | null;
+    const savedTheme = window.localStorage.getItem(
+      "stemawy-theme-family",
+    ) as ThemeFamily | null;
+    const legacyTheme = window.localStorage.getItem("stemawy-theme");
+
+    if (savedAppearance) setAppearanceState(savedAppearance);
+    if (savedTheme) setThemeState(savedTheme);
+
+    if (!savedAppearance && !savedTheme && legacyTheme) {
+      if (legacyTheme === "ramadan" || legacyTheme === "christmas") {
+        setThemeState(legacyTheme);
+        setAppearanceState(legacyTheme === "ramadan" ? "dark" : "light");
+      } else if (
+        legacyTheme === "light" ||
+        legacyTheme === "dark" ||
+        legacyTheme === "system"
+      ) {
+        setAppearanceState(legacyTheme);
+      }
+    }
   }, []);
 
-  const resolvedTheme = theme === "system" ? getSystemTheme() : theme;
+  const resolvedTheme = appearance === "system" ? getSystemTheme() : appearance;
 
   React.useEffect(() => {
     const root = document.documentElement;
-    root.classList.remove("light", "dark");
-    root.classList.add(resolvedTheme);
+    root.classList.remove(
+      "light",
+      "dark",
+      "ramadan-light",
+      "ramadan-dark",
+      "christmas-light",
+      "christmas-dark",
+    );
+    root.classList.add(
+      theme === "default" ? resolvedTheme : `${theme}-${resolvedTheme}`,
+    );
     root.style.colorScheme = resolvedTheme;
-  }, [resolvedTheme]);
+  }, [resolvedTheme, theme]);
 
-  const setTheme = React.useCallback((nextTheme: Theme) => {
+  const setAppearance = React.useCallback((nextAppearance: Appearance) => {
+    setAppearanceState(nextAppearance);
+    window.localStorage.setItem("stemawy-appearance", nextAppearance);
+  }, []);
+
+  const setTheme = React.useCallback((nextTheme: ThemeFamily) => {
     setThemeState(nextTheme);
-    window.localStorage.setItem("stemawy-theme", nextTheme);
+    window.localStorage.setItem("stemawy-theme-family", nextTheme);
   }, []);
 
   const value = React.useMemo<ThemeContextValue>(
     () => ({
+      appearance,
       theme,
       resolvedTheme,
+      setAppearance,
       setTheme,
     }),
-    [resolvedTheme, setTheme, theme],
+    [appearance, resolvedTheme, setAppearance, setTheme, theme],
   );
 
   return (

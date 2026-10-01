@@ -100,6 +100,10 @@
   display: inline-flex;
   color: var(--primary);
 }
+:global(.christmas-dark) .rowIcon {
+  color: var(--tertiary);
+  filter: drop-shadow(0 0 4px rgb(255 211 79 / 35%));
+}
 .controlGroup {
   display: flex;
   flex: 0 0 auto;
@@ -122,6 +126,14 @@
   font-size: 13px;
   font-weight: 600;
   white-space: nowrap;
+}
+.themeOptions {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+}
+:global(.christmas-dark) .settingInfo p,
+:global(.christmas-dark) .sectionLabel p {
+  color: var(--on-surface-variant);
 }
 .controlGroup button:hover {
   color: var(--on-surface);
@@ -177,6 +189,8 @@
 .confirmation {
   position: relative;
   width: min(100%, 440px);
+  max-height: calc(100dvh - 40px);
+  overflow-y: auto;
   padding: 32px;
   border: 1px solid var(--outline-variant);
   border-radius: 16px;
@@ -308,6 +322,13 @@
   .controlGroup {
     align-self: flex-start;
     max-width: 100%;
+  }
+  .themeOptions {
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .themeOptions button {
+    justify-content: center;
   }
   .controlGroup button {
     padding-inline: 10px;

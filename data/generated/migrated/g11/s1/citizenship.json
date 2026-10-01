@@ -14,17 +14,15 @@
     "content": [
       {
         "id": "citizenship-g11-s1-unit-01",
-        "type": "unit",
-        "number": "01",
-        "title": "Other",
+        "type": "references",
+        "title": "The Book",
         "description": "",
         "order": 1,
         "concepts": [],
-        "resources": [
-          "citizenship-g11-s1-global-01-01"
-        ]
+        "resources": ["citizenship-g11-s1-global-01-01"]
       }
-    ]
+    ],
+    "units": 0
   },
   "resources": [
     {

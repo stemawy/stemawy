@@ -38,17 +38,15 @@ export default function ContentHeader({
         </div>
         <p>{getLocalizedContentText(item.description, language)}</p>
       </div>
-      {item.type === "unit" && (
-        <button
-          className={`${styles.saveButton} ${saved ? styles.saved : ""}`}
-          type="button"
-          onClick={toggleSaved}
-          aria-pressed={saved}
-        >
-          {saved ? <BookmarkCheck size={18} /> : <Bookmark size={18} />}
-          {saved ? t.subjects.detail.savedUnit : t.subjects.detail.saveUnit}
-        </button>
-      )}
+      <button
+        className={`${styles.saveButton} ${saved ? styles.saved : ""}`}
+        type="button"
+        onClick={toggleSaved}
+        aria-pressed={saved}
+      >
+        {saved ? <BookmarkCheck size={18} /> : <Bookmark size={18} />}
+        {saved ? t.subjects.detail.savedUnit : t.subjects.detail.saveUnit}
+      </button>
     </header>
   );
 }

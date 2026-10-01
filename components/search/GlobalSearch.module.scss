@@ -1,0 +1,121 @@
+.searchControl {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.searchShellContent {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.searchInput[dir="rtl"] {
+  text-align: right;
+}
+
+.clearButton {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--outline);
+  cursor: pointer;
+}
+
+.clearButton:hover,
+.clearButton:focus-visible {
+  background: var(--surface-container-high);
+  color: var(--on-surface);
+  outline: none;
+}
+
+.panel {
+  position: absolute;
+  z-index: 60;
+  top: calc(100% + 12px);
+  left: 0;
+  width: min(620px, calc(100vw - 32px));
+  overflow: hidden;
+  border: 1px solid var(--outline-variant);
+  border-radius: 12px;
+  background: var(--surface-container-lowest);
+  box-shadow: var(--shadow-modal);
+  color: var(--on-surface);
+  animation: panelEnter 150ms ease-out;
+}
+
+.panel[dir="rtl"] {
+  right: 0;
+  left: auto;
+}
+
+.panelStatus {
+  padding: 20px 18px;
+  color: var(--on-surface-variant);
+  font-size: 13px;
+  text-align: center;
+}
+
+.panelFooter {
+  display: flex;
+  min-height: 43px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 15px;
+  border-top: 1px solid var(--outline-variant);
+  color: var(--outline);
+  font-size: 11px;
+}
+
+.viewAll {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.viewAll:hover {
+  text-decoration: underline;
+}
+
+.panel[dir="rtl"] .viewAll svg {
+  transform: rotate(180deg);
+}
+
+@keyframes panelEnter {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .panel,
+  .panel[dir="rtl"] {
+    position: fixed;
+    top: 82px;
+    right: 16px;
+    left: 16px;
+    width: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panel {
+    animation: none;
+  }
+}

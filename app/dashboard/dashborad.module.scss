@@ -458,6 +458,24 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: inherit;
+  text-decoration: none;
+  transition:
+    transform var(--transition-fast),
+    border-color var(--transition-fast),
+    background-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+.opportunity:hover,
+.opportunity:focus-visible {
+  border-color: var(--primary-fixed-dim);
+  background: var(--surface-container-low);
+  box-shadow: var(--shadow-card);
+  outline: none;
+  transform: translateX(4px);
 }
 .opportunity img {
   width: 48px;

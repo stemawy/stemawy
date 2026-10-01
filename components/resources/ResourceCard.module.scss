@@ -18,6 +18,30 @@
   box-shadow: var(--shadow-card);
   transform: translateY(-2px);
 }
+.completed {
+  border-color: var(--accent-green-strong);
+  background: color-mix(
+    in srgb,
+    var(--surface-container-lowest) 88%,
+    var(--accent-green-soft)
+  );
+}
+.completed:hover {
+  border-color: var(--accent-green-strong);
+}
+.completedMark {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: grid;
+  width: 20px;
+  height: 20px;
+  place-items: center;
+  border: 1px solid var(--surface-container-lowest);
+  border-radius: 50%;
+  background: var(--accent-green-strong);
+  color: var(--surface-container-lowest);
+}
 .icon {
   display: grid;
   width: 38px;
@@ -27,6 +51,12 @@
   border-radius: 10px;
   background: var(--primary-fixed);
   color: var(--primary);
+}
+:global(.christmas-dark) .icon {
+  border: 1px solid rgb(255 211 79 / 42%);
+  background: #123b2b;
+  color: #ffe16a;
+  box-shadow: 0 0 12px rgb(255 211 79 / 18%);
 }
 .type-video {
   background: #fee2e2;
@@ -83,6 +113,63 @@
 :global(.dark) .type-test-bank {
   background: #34204d;
   color: #d8b4fe;
+}
+:global(.ramadan-light) .type-video,
+:global(.ramadan-dark) .type-video {
+  background: #512d31;
+  color: #ffb1a9;
+}
+:global(.ramadan-light) .type-pdf,
+:global(.ramadan-dark) .type-pdf {
+  background: #4b3a20;
+  color: #f2cf7c;
+}
+:global(.ramadan-light) .type-document,
+:global(.ramadan-dark) .type-document {
+  background: #20394a;
+  color: #a6d2e5;
+}
+:global(.ramadan-light) .type-slides,
+:global(.ramadan-dark) .type-slides {
+  background: #4c3b1f;
+  color: #f2cf7c;
+}
+:global(.ramadan-light) .type-sheet,
+:global(.ramadan-dark) .type-sheet {
+  background: #1c3d2b;
+  color: #9cdaa9;
+}
+:global(.ramadan-light) .type-file,
+:global(.ramadan-dark) .type-file {
+  background: #35483c;
+  color: #d0decf;
+}
+:global(.ramadan-light) .type-test-bank,
+:global(.ramadan-dark) .type-test-bank {
+  background: #3b2d43;
+  color: #d8b3e1;
+}
+:global(.christmas-dark) .type-video {
+  background: #5a1024;
+  color: #ffb3b0;
+}
+:global(.christmas-dark) .type-pdf,
+:global(.christmas-dark) .type-slides {
+  background: #514314;
+  color: #ffe16a;
+}
+:global(.christmas-dark) .type-document,
+:global(.christmas-dark) .type-sheet {
+  background: #123b2b;
+  color: #9bd3ad;
+}
+:global(.christmas-dark) .type-file {
+  background: #263a31;
+  color: #c1e5c6;
+}
+:global(.christmas-dark) .type-test-bank {
+  background: #293c28;
+  color: #b8df91;
 }
 .copy {
   display: flex;

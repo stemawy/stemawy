@@ -11,7 +11,260 @@
     "grade": "11",
     "semester": "1",
     "icon": "capstone",
-    "content": []
+    "content": [
+      {
+        "id": "capstone-g11-s1-files",
+        "type": "references",
+        "title": "Files",
+        "description": "Capstone files and resources.",
+        "order": 1,
+        "concepts": [],
+        "resources": [
+          "capstone-g11-s1-files-01",
+          "capstone-g11-s1-files-02",
+          "capstone-g11-s1-files-03",
+          "capstone-g11-s1-files-04",
+          "capstone-g11-s1-files-05",
+          "capstone-g11-s1-files-06"
+        ]
+      },
+      {
+        "id": "capstone-g11-s1-journals",
+        "type": "references",
+        "title": "Journals",
+        "description": "Capstone journals and related materials.",
+        "order": 2,
+        "concepts": [],
+        "resources": [
+          "capstone-g11-s1-journals-01",
+          "capstone-g11-s1-journals-02",
+          "capstone-g11-s1-journals-03",
+          "capstone-g11-s1-journals-04",
+          "capstone-g11-s1-journals-05",
+          "capstone-g11-s1-journals-06",
+          "capstone-g11-s1-journals-07",
+          "capstone-g11-s1-journals-08",
+          "capstone-g11-s1-journals-09",
+          "capstone-g11-s1-journals-10",
+          "capstone-g11-s1-journals-11",
+          "capstone-g11-s1-journals-12",
+          "capstone-g11-s1-journals-13",
+          "capstone-g11-s1-journals-14",
+          "capstone-g11-s1-journals-15",
+          "capstone-g11-s1-journals-16",
+          "capstone-g11-s1-journals-17"
+        ]
+      }
+    ],
+    "units": 0
   },
-  "resources": []
+  "resources": [
+    {
+      "id": "capstone-g11-s1-files-01",
+      "title": "poster rubric simplified.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1WGm0tnCrKB-uBDfX-0d87bpxFxJxcXHN/view?usp=drivesdk",
+      "source": { "location": "Files" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-files-02",
+      "title": "Capstone Portfolio Template.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1qozSEf-JIHwFghpNDFKB-fdO51gwcs4s/view?usp=drivesdk",
+      "source": { "location": "Files" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-files-03",
+      "title": "Capstone Rubric (Poster).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1StwTo3-n_ArWg_DGX1dQQxA-yD78juxR/view?usp=drivesdk",
+      "source": { "location": "Files" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-files-04",
+      "title": "EDP.jpg",
+      "type": "file",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ADSYr37ShrbMR8-63ENXzK54numIWo2l/view?usp=drivesdk",
+      "source": { "location": "Files" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-files-05",
+      "title": "Explained Capstone Calendar-1st 2021.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1mTEkj4Vpp1-BcS5cFO-Q6auczJDBvtGw/view?usp=drivesdk",
+      "source": { "location": "Files" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-files-06",
+      "title": "G11_Capstone_Smart_Food_Packaging_revised.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1x00RAejMMYgWYO_YWk8J-TQ-F7uy6hDM/view?usp=drivesdk",
+      "source": { "location": "Files" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-01",
+      "title": "All BLUE Journals.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1nyDNrhqteCy4hNBr5QI4eyLXDcfoiqQE/view?usp=drivesdk",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-02",
+      "title": "Arwa Saleh s25.docx.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/10LMWULFtyyihA2_kArN8cnPsaR1UrBTy/view?usp=drivesdk",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-03",
+      "title": "All G11 journals semester (1)_241209_214948.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1t0V3lSPJGeVoNpi1h2YDATFRpPVoXDpb/view?usp=drivesdk",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-04",
+      "title": "Geology lo2 connection.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1-l8c95KzhWBhajYJhYwnsiHE0ZTHAk6J/view?usp=drivesdk",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-05",
+      "title": "SKB Journal 4..pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1Qw3ksnLr0ncympt3zoPzyACCdhEXElFF/view?usp=drivesdk",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-06",
+      "title": "Journals 2022.pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1nt04aQxSjgivtfPzN1o0Xsvu_TOT8IYx/view?usp=drivesdk",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-07",
+      "title": "Journal G11 S1.docx",
+      "type": "file",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1Yx0wW2BlXiGA9CtPOXv9exxTh9NQsdmi/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-08",
+      "title": "Journal 5(1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1P9pWUN10e94qiM4N7JHwJJIPDJ7FGqMD/view?usp=drivesdk",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-09",
+      "title": "Journal 4(1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1M9n_iC2Qvel0-QK_VO1_MjXD6uPSL68a/view?usp=drivesdk",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-10",
+      "title": "Journal 3(1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1sm1ber8gZL5wMgt6quZVUOS9N5Q_wx22/view?usp=drivesdk",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-11",
+      "title": "Journal 2(1).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1wPp2ODy7vejL0fKPkTsKo5A2YYDV9jnQ/view?usp=drivesdk",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-12",
+      "title": "Journal 1(2).pdf",
+      "type": "pdf",
+      "provider": "google-drive",
+      "url": "https://drive.google.com/file/d/1ZVCfS7Eh9IjreGa_oYld8XXITQbET5A6/view?usp=drivesdk",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-13",
+      "title": "J4.docx",
+      "type": "file",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1_jjne1Ywt9w-uTd7DNcyKUNubMruEz0d/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-14",
+      "title": "J3.docx",
+      "type": "file",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1Gn4pGRswjMIESZFb-_DNF5zjX0XGrwhH/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-15",
+      "title": "J2.docx",
+      "type": "file",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1Mh_1vIn8i6U7_BCJ3FJdSXi6pZ_zbaw_/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-16",
+      "title": "J1.docx",
+      "type": "file",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1aLJ1ViWmoC7uDSX1mea6bdpE0GpkBWs9/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    },
+    {
+      "id": "capstone-g11-s1-journals-17",
+      "title": "Capstone journals.docx",
+      "type": "file",
+      "provider": "google-drive",
+      "url": "https://docs.google.com/document/d/1MZYBBNVuRGWukDX_-GRpW55iaDnpSBuG/edit?usp=drivesdk&ouid=113280035464667832004&rtpof=true&sd=true",
+      "source": { "location": "Journals" },
+      "classification": { "status": "classified", "contentType": "references" }
+    }
+  ]
 }

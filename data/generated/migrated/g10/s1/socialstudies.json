@@ -29,19 +29,10 @@
       },
       {
         "id": "socialstudies-g10-s1-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 2,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "socialstudies-g10-s1-references-references",
         "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 3,
+        "title": "Books",
+        "description": "",
+        "order": 2,
         "concepts": [],
         "resources": [
           "socialstudies-g10-s1-pdf-pdf-433706ca4a",
@@ -51,7 +42,32 @@
           "socialstudies-g10-s1-pdf-101-2025-1-pdf-d5c9021ad4",
           "socialstudies-g10-s1-pdf-2-pdf-e0448d19b7",
           "socialstudies-g10-s1-pdf-2024-pdf-c1b415a734",
-          "socialstudies-g10-s1-pdf-history-1sec-sb-wb-pdf-9671d9edf4",
+          "socialstudies-g10-s1-pdf-history-1sec-sb-wb-pdf-9671d9edf4"
+        ]
+      },
+      {
+        "id": "socialstudies-g10-s1-summaries",
+        "type": "revision",
+        "title": "Summaries",
+        "description": "",
+        "order": 3,
+        "concepts": [],
+        "resources": [
+          "socialstudies-g10-s1-pdf-pdf-572ccab8fa",
+          "socialstudies-g10-s1-pdf-pptx-f6cca8c185",
+          "socialstudies-g10-s1-pdf-pdf-f233d3f58d",
+          "socialstudies-g10-s1-pdf-pdf-1a0798757c",
+          "socialstudies-g10-s1-pdf-pdf-c01e87751d"
+        ]
+      },
+      {
+        "id": "socialstudies-g10-s1-references-references",
+        "type": "references",
+        "title": "Files",
+        "description": "Reference books and additional materials.",
+        "order": 3,
+        "concepts": [],
+        "resources": [
           "socialstudies-g10-s1-pdf-pdf-572ccab8fa",
           "socialstudies-g10-s1-pdf-pptx-f6cca8c185",
           "socialstudies-g10-s1-pdf-pdf-f233d3f58d",

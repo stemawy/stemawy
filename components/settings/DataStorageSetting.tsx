@@ -1,15 +1,15 @@
-import { Bookmark, History, Trash2 } from "lucide-react";
+import { Bookmark, CheckCircle2, Trash2 } from "lucide-react";
 import styles from "@/app/settings/settings.module.scss";
 import { useLayoutState } from "@/components/layout/layout-context";
 import { getTranslations } from "@/lib/i18n";
 
 export default function DataStorageSetting({
   onClearSaved,
-  onClearSearches,
+  onClearCompletedResources,
   onReset,
 }: {
   onClearSaved: () => void;
-  onClearSearches: () => void;
+  onClearCompletedResources: () => void;
   onReset: () => void;
 }) {
   const { language } = useLayoutState();
@@ -24,11 +24,11 @@ export default function DataStorageSetting({
       onClick: onClearSaved,
     },
     {
-      icon: History,
-      title: t.settings.recentSearches,
-      description: t.settings.recentSearchesDescription,
+      icon: CheckCircle2,
+      title: t.settings.completedResources,
+      description: t.settings.completedResourcesDescription,
       action: t.settings.clear,
-      onClick: onClearSearches,
+      onClick: onClearCompletedResources,
     },
     {
       icon: Trash2,

@@ -405,7 +405,7 @@
       {
         "id": "lo_e31681cbb8",
         "type": "qs-bank",
-        "title": "Test Banks",
+        "title": "Questions Bank",
         "description": "",
         "order": 6,
         "concepts": [],
@@ -816,7 +816,7 @@
       {
         "id": "maths-g11-s1-midterm-revisions",
         "type": "revision",
-        "title": "Midterm Revisions",
+        "title": "Revisions",
         "description": "This revision set consolidates the core ideas covered in the first part of the course, helping students revisit algebraic structure, graph interpretation, and foundational mathematical problem solving before the assessment.",
         "order": 7,
         "concepts": [],
@@ -824,17 +824,7 @@
           "maths-g11-s1-midterm-revision-01",
           "maths-g11-s1-midterm-revision-02",
           "maths-g11-s1-midterm-revision-03",
-          "maths-g11-s1-midterm-revision-04"
-        ]
-      },
-      {
-        "id": "maths-g11-s1-final-revisions",
-        "type": "revision",
-        "title": "Final Revisions",
-        "description": "This final review revisits the key mathematical ideas from the semester, reinforcing the methods, principles, and problem-solving techniques needed for a comprehensive understanding of the course content.",
-        "order": 8,
-        "concepts": [],
-        "resources": [
+          "maths-g11-s1-midterm-revision-04",
           "maths-g11-s1-final-revision-01",
           "maths-g11-s1-final-revision-02",
           "maths-g11-s1-final-revision-03"
@@ -845,7 +835,7 @@
         "type": "references",
         "title": "Additional References",
         "description": "",
-        "order": 9,
+        "order": 8,
         "concepts": [],
         "resources": [
           "res_516ec09926",

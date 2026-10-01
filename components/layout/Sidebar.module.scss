@@ -46,15 +46,30 @@
   height: 28px;
   flex: 0 0 28px;
   place-items: center;
+  color: var(--primary);
 }
 
-.brandImage {
+:global(.christmas-dark) .brandMark {
+  color: var(--tertiary);
+  filter: drop-shadow(0 0 7px rgb(255 211 79 / 55%));
+}
+
+.brandMark::before {
   position: absolute;
   top: -34px;
   left: -9px;
   width: 94px;
-  max-width: none;
   height: 94px;
+  background: currentColor;
+  content: "";
+  -webkit-mask-image: url("/stemawy-logo.png");
+  mask-image: url("/stemawy-logo.png");
+  -webkit-mask-position: 0 0;
+  mask-position: 0 0;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 94px 94px;
+  mask-size: 94px 94px;
 }
 
 .brandName,
@@ -113,6 +128,16 @@
 }
 .navIcon {
   flex: 0 0 21px;
+}
+
+:global(.christmas-dark) .navIcon {
+  color: var(--primary);
+  filter: drop-shadow(0 0 4px rgb(225 229 0 / 28%));
+}
+
+:global(.christmas-dark) .active .navIcon {
+  color: var(--tertiary);
+  filter: drop-shadow(0 0 5px rgb(255 211 79 / 48%));
 }
 
 .collapseButton {

@@ -14,18 +14,20 @@
     "content": [
       {
         "id": "german-g11-s1-unit-01",
-        "type": "unit",
-        "number": "01",
-        "title": "Books",
+        "type": "references",
+        "title": "Files",
         "description": "",
         "order": 1,
         "concepts": [],
         "resources": [
           "german-g11-s1-global-01-01",
-          "german-g11-s1-global-01-02"
+          "german-g11-s1-global-01-02",
+          "german-g10-s2-video-zmeunki59o",
+          "german-g10-s2-video-c7pxhgpaaio"
         ]
       }
-    ]
+    ],
+    "units": 0
   },
   "resources": [
     {
@@ -45,6 +47,28 @@
       "url": "https://drive.google.com/file/d/1qJLx6uMqCSkB9UtDOQkGcYvdbceST_Q4/view?usp=drivesdk",
       "mimeType": "application/pdf",
       "driveFileId": "1qJLx6uMqCSkB9UtDOQkGcYvdbceST_Q4"
+    },
+    {
+      "id": "german-g10-s2-video-zmeunki59o",
+      "title": "الحصة الاولى A1، الجزء الأول من اساسيات الألمانية: الحروف وقواعد النطق، علامات الترقيم، الضمائر",
+      "type": "video",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ZMEuNkI_59o&list=PLsOCaxyGqKt8jGudhtJu8pPX61srbFxy-",
+      "youtubeId": "ZMEuNkI_59o",
+      "source": {
+        "location": "General German Resources"
+      }
+    },
+    {
+      "id": "german-g10-s2-video-c7pxhgpaaio",
+      "title": "Alltagssituationen Revision | Grade 11 (Lektion 7–12)",
+      "type": "video",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=C7pxHgPaAIo",
+      "youtubeId": "C7pxHgPaAIo",
+      "source": {
+        "location": "General German Resources"
+      }
     }
   ]
 }

@@ -1,15 +1,18 @@
-import type { FeedbackContext } from "@/app/help/page";
 import HelpFeedbackContextBanner from "./HelpFeedbackContextBanner";
 import HelpFeedbackSuccess from "./HelpFeedbackSuccess";
 import styles from "@/app/help/HelpFeedbackPage.module.scss";
+import type { ReportableResource } from "@/lib/resource-reporting";
 
 type HelpFeedbackFormProps = {
-  context: FeedbackContext | null;
+  selectedResources: ReportableResource[];
+  language: "en" | "ar";
   feedbackType: string;
   message: string;
   email: string;
   submitted: boolean;
-  onContextClear: () => void;
+  onStartResourceReport: () => void;
+  onEditResourceSelection: () => void;
+  onClearResourceSelection: () => void;
   onFeedbackTypeChange: (value: string) => void;
   onMessageChange: (value: string) => void;
   onEmailChange: (value: string) => void;
@@ -18,12 +21,15 @@ type HelpFeedbackFormProps = {
 };
 
 export default function HelpFeedbackForm({
-  context,
+  selectedResources,
+  language,
   feedbackType,
   message,
   email,
   submitted,
-  onContextClear,
+  onStartResourceReport,
+  onEditResourceSelection,
+  onClearResourceSelection,
   onFeedbackTypeChange,
   onMessageChange,
   onEmailChange,
@@ -49,8 +55,24 @@ export default function HelpFeedbackForm({
           to see improved.
         </p>
       </div>
-      {context && (
-        <HelpFeedbackContextBanner context={context} onClear={onContextClear} />
+      {selectedResources.length > 0 ? (
+        <HelpFeedbackContextBanner
+          resources={selectedResources}
+          language={language}
+          onEdit={onEditResourceSelection}
+          onClear={onClearResourceSelection}
+        />
+      ) : (
+        <button
+          className={styles.startResourceReport}
+          type="button"
+          onClick={onStartResourceReport}
+        >
+          <span className="material-symbols-outlined">report</span>
+          {language === "en"
+            ? "Report one or more resources"
+            : "الإبلاغ عن مورد أو أكثر"}
+        </button>
       )}
       <form
         className={styles.form}

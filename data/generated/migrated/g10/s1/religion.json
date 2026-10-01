@@ -15,67 +15,37 @@
       {
         "id": "religion-g10-s1-unit-01",
         "type": "unit",
-        "number": "01",
-        "title": "كتب المنهج",
+        "title": "منهج التربية الدينية الإسلامية",
         "description": "",
         "order": 1,
         "concepts": [
           {
             "id": "religion-g10-s1-concept-",
-            "title": "كتاب الدين للصف الأول",
+            "title": "كتب الدين للصف الأول",
             "description": "الكتاب الأساسي للمادة",
             "order": 1,
             "resources": [
-              "religion-g10-s1-video-lblgh30we1c-8b60bd22eb",
-              "religion-g10-s1-pdf-pdf-9d58c7671b"
+              "religion-g10-s1-pdf-pdf-9d58c7671b",
+              "religion-g10-s1-pdf-pdf-c26ca87f82"
             ]
           },
           {
             "id": "religion-g10-s1-concept-",
-            "title": "معجزة القرآن",
-            "description": "كتاب معجزة القرآن للصف الأول",
+            "title": "المراجعة النهائية",
+            "description": "المراجعة النهائية دين لأولى ثانوي الترم الأول",
             "order": 2,
-            "resources": [
-              "religion-g10-s1-pdf-pdf-c26ca87f82"
-            ]
+            "resources": ["religion-g10-s1-video-lblgh30we1c-8b60bd22eb"]
           }
         ],
-        "resources": []
-      },
-      {
-        "id": "religion-g10-s1-qs-bank-question-bank",
-        "type": "qs-bank",
-        "title": "Question Bank",
-        "description": "Practice questions, test banks, and exam materials.",
-        "order": 2,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "religion-g10-s1-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 3,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "religion-g10-s1-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 4,
-        "concepts": [],
-        "resources": []
+        "resources": [false]
       }
     ],
-    "units": 1
+    "units": 3
   },
   "resources": [
     {
       "id": "religion-g10-s1-video-lblgh30we1c-8b60bd22eb",
-      "title": "كتاب الدين للصف الأول",
+      "title": "مراجعة التربية الدينية الإسلامية | أولى ثانوي 2025",
       "type": "video",
       "provider": "youtube",
       "url": "https://youtu.be/lbLgH30we1c?si=KZji1pjFdDLLQljF",

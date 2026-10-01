@@ -13,85 +13,23 @@
     "icon": "german",
     "content": [
       {
-        "id": "german-g10-s1-unit-01",
-        "type": "unit",
-        "number": "01",
-        "title": "Begrüßung & Auskunft",
-        "description": "",
+        "id": "german-g10-s1-references-references",
+        "type": "references",
+        "title": "Books",
+        "description": "Reference books and additional materials.",
         "order": 1,
-        "concepts": [
-          {
-            "id": "german-g10-s1-concept-jemanden-begr-ssen-und-sich-verabschieden",
-            "title": "jemanden begrüssen und sich verabschieden",
-            "description": "",
-            "order": 1,
-            "resources": []
-          },
-          {
-            "id": "german-g10-s1-concept-jemanden-nach-dem-herkunftsland-nennen-und-ber-sprachkenntnisse",
-            "title": "‣jemanden nach dem Herkunftsland nennen und über Sprachkenntnisse",
-            "description": "",
-            "order": 2,
-            "resources": []
-          },
-          {
-            "id": "german-g10-s1-concept-auskunft-geben",
-            "title": "Auskunft geben",
-            "description": "",
-            "order": 3,
-            "resources": []
-          }
-        ],
-        "resources": []
-      },
-      {
-        "id": "german-g10-s1-unit-02",
-        "type": "unit",
-        "number": "02",
-        "title": "Befinden & Familie",
-        "description": "",
-        "order": 2,
-        "concepts": [
-          {
-            "id": "german-g10-s1-concept-jemanden-nach-dem-befinden-fragen-und-sein-eigenes-befinden-ausdr-cken",
-            "title": "jemanden nach dem Befinden fragen und sein eigenes Befinden ausdrücken",
-            "description": "",
-            "order": 1,
-            "resources": []
-          },
-          {
-            "id": "german-g10-s1-concept-seine-familie-und-freunde-vorstellen",
-            "title": "seine Familie und Freunde vorstellen",
-            "description": "",
-            "order": 2,
-            "resources": []
-          },
-          {
-            "id": "german-g10-s1-concept-den-wohnort-und-die-adresse-nennen",
-            "title": "den Wohnort und die Adresse nennen",
-            "description": "",
-            "order": 3,
-            "resources": []
-          }
-        ],
-        "resources": []
-      },
-      {
-        "id": "german-g10-s1-unit-03",
-        "type": "unit",
-        "number": "03",
-        "title": "Additional References",
-        "description": "",
-        "order": 3,
         "concepts": [],
-        "resources": []
+        "resources": [
+          "german-g10-s1-pdf-arbeitsbuch-a1-pdf-9d2d617dde",
+          "german-g10-s1-pdf-deutsch-com-1-pdf-3134e2a9ec"
+        ]
       },
       {
         "id": "german-g10-s1-qs-bank-question-bank",
         "type": "qs-bank",
         "title": "Question Bank",
         "description": "Practice questions, test banks, and exam materials.",
-        "order": 4,
+        "order": 2,
         "concepts": [],
         "resources": [
           "german-g10-s1-pdf-alltagssituationen1-10-l-1-2-docx-7a82e107de",
@@ -103,27 +41,6 @@
           "german-g10-s1-pdf-schriftlicher-ausdruck-l-1-2-a-docx-a315580cea",
           "german-g10-s1-pdf-wiederholt-texterfassung-l-1-2-docx-d29a31bbdd",
           "german-g10-s1-pdf-wiederholt-texterfassung-10-l-1-2-a-docx-40475b3565"
-        ]
-      },
-      {
-        "id": "german-g10-s1-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "Revision materials for the semester.",
-        "order": 5,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "german-g10-s1-references-references",
-        "type": "references",
-        "title": "References",
-        "description": "Reference books and additional materials.",
-        "order": 6,
-        "concepts": [],
-        "resources": [
-          "german-g10-s1-pdf-arbeitsbuch-a1-pdf-9d2d617dde",
-          "german-g10-s1-pdf-deutsch-com-1-pdf-3134e2a9ec"
         ]
       }
     ],

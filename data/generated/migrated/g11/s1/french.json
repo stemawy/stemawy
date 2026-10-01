@@ -13,22 +13,45 @@
     "icon": "french",
     "content": [
       {
-        "id": "french-g11-s1-unit-01",
-        "type": "unit",
-        "number": "01",
-        "title": "Other",
-        "description": "",
+        "id": "french-g11-s1-references-01",
+        "type": "references",
+        "title": "Books and Materials",
+        "description": "Books and reference material for French study.",
         "order": 1,
         "concepts": [],
         "resources": [
-          "french-g11-s1-global-01-01",
-          "french-g11-s1-global-01-02",
-          "french-g11-s1-global-01-03",
+          "french-g11-s1-global-01-05",
+          "french-g11-s1-global-01-02"
+        ]
+      },
+      {
+        "id": "french-g11-s1-unit-01",
+        "type": "references",
+        "title": "French Channels",
+        "description": "French learning material and curriculum playlists for Grade 11 Semester 1.",
+        "order": 2,
+        "concepts": [],
+        "resources": [
+          "french-g11-s1-playlist-term-one",
+          "french-g11-s1-channel-francais-arab",
+          "french-g11-s1-channel-frenchawy"
+        ]
+      },
+      {
+        "id": "french-g11-s1-qs-bank-01",
+        "type": "qs-bank",
+        "title": "Questions and Revision",
+        "description": "Practice exercises and question-focused French material.",
+        "order": 3,
+        "concepts": [],
+        "resources": [
           "french-g11-s1-global-01-04",
-          "french-g11-s1-global-01-05"
+          "french-g11-s1-playlist-practice-2022",
+          "french-g11-s1-global-01-01"
         ]
       }
-    ]
+    ],
+    "unit": 3
   },
   "resources": [
     {
@@ -50,15 +73,6 @@
       "driveFileId": "1t8R72JeJwg8j2Eoc2NDaNA_BJqgOlmgv"
     },
     {
-      "id": "french-g11-s1-global-01-03",
-      "title": "Révision 2e  sec. (STEM).pdf",
-      "type": "pdf",
-      "provider": "Google Drive",
-      "url": "https://drive.google.com/file/d/136CiC6-dfNSCRXAt1hcQ-JgMD5kBYwrC/view?usp=drivesdk",
-      "mimeType": "application/pdf",
-      "driveFileId": "136CiC6-dfNSCRXAt1hcQ-JgMD5kBYwrC"
-    },
-    {
       "id": "french-g11-s1-global-01-04",
       "title": "stem 2+me annee octobre.docx",
       "type": "file",
@@ -75,6 +89,46 @@
       "url": "https://drive.google.com/file/d/1bhYnkdOFg7-SzWq23F4bUYdKIuxgTO2J/view?usp=drivesdk",
       "mimeType": "application/pdf",
       "driveFileId": "1bhYnkdOFg7-SzWq23F4bUYdKIuxgTO2J"
+    },
+    {
+      "id": "french-g11-s1-playlist-practice-2022",
+      "title": "تدريبات اللغة الفرنسية٢٠٢٢ | الصف الثاني الثانوي | أ. أحمد فتحي",
+      "type": "video",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PL1wB5NguzsNoWrPow0Lp8dI8IpCfdUyl7",
+      "source": {
+        "location": "Questions and Practice"
+      }
+    },
+    {
+      "id": "french-g11-s1-playlist-term-one",
+      "title": "اللغة الفرنسية | الترم الاول | الصف الثاني الثانوي",
+      "type": "video",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PL1wB5NguzsNqM67BjHOfxrp5SIiff10vO",
+      "source": {
+        "location": "French Course Material"
+      }
+    },
+    {
+      "id": "french-g11-s1-channel-francais-arab",
+      "title": "فرنساوى العرب le français",
+      "type": "video",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/channel/UCGBeGIgbJVKP1TKUQTt2J1w",
+      "source": {
+        "location": "French Course Material"
+      }
+    },
+    {
+      "id": "french-g11-s1-channel-frenchawy",
+      "title": "فرنشاوي Frenchawy",
+      "type": "video",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/c/MsuWalidMostafa/playlists",
+      "source": {
+        "location": "Other French Resources"
+      }
     }
   ]
 }

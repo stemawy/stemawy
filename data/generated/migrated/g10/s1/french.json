@@ -13,49 +13,6 @@
     "icon": "french",
     "content": [
       {
-        "id": "french-g10-s1-unit-01",
-        "type": "unit",
-        "number": "01",
-        "title": "Présentation",
-        "description": "This unit introduces students to everyday French communication, helping them learn how to introduce themselves, talk about personal details, and use basic social expressions.",
-        "order": 1,
-        "concepts": [
-          {
-            "id": "french-g10-s1-concept-se-pr-senter",
-            "title": "Se présenter",
-            "description": "This concept helps students introduce themselves in French using simple and clear expressions for identity, origin, and personal information.",
-            "order": 1,
-            "resources": []
-          },
-          {
-            "id": "french-g10-s1-concept-dire-son-ge",
-            "title": "Dire son âge",
-            "description": "This concept teaches students how to express age in French and use everyday speaking patterns in informal and basic conversation.",
-            "order": 2,
-            "resources": []
-          }
-        ],
-        "resources": []
-      },
-      {
-        "id": "french-g10-s1-qs-bank-question-bank",
-        "type": "qs-bank",
-        "title": "Question Bank",
-        "description": "This section contains practice questions and short activities to help students review and strengthen their French skills.",
-        "order": 2,
-        "concepts": [],
-        "resources": []
-      },
-      {
-        "id": "french-g10-s1-revision-revision",
-        "type": "revision",
-        "title": "Revision",
-        "description": "This section reviews the key ideas and vocabulary from the semester to support exam preparation and confidence building.",
-        "order": 3,
-        "concepts": [],
-        "resources": []
-      },
-      {
         "id": "french-g10-s1-references-references",
         "type": "references",
         "title": "References",
@@ -70,7 +27,7 @@
         ]
       }
     ],
-    "units": 1
+    "units": 0
   },
   "resources": [
     {

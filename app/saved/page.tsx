@@ -5,7 +5,6 @@ import SavedHeader from "@/components/saved/SavedHeader";
 import SavedSearch from "@/components/saved/SavedSearch";
 import SavedCategories from "@/components/saved/SavedCategories";
 import SavedSort from "@/components/saved/SavedSort";
-import SavedFilters from "@/components/saved/SavedFilters";
 import SavedLibrary from "@/components/saved/SavedLibrary";
 import {
   getSavedItems,
@@ -15,7 +14,6 @@ import {
 } from "@/lib/saved-items";
 import styles from "./SavedPage.module.scss";
 
-type FilterMode = "all" | "described" | "recent";
 const EMPTY_SAVED_ITEMS: ReturnType<typeof getSavedItems> = [];
 
 function subscribeToSavedItems(onChange: () => void) {
@@ -37,7 +35,6 @@ export default function SavedPage() {
   );
   const [searchQuery, setSearchQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState("all");
-  const [filterMode, setFilterMode] = useState<FilterMode>("all");
   const [sortBy, setSortBy] = useState<"newest" | "oldest" | "alphabetical">(
     "newest",
   );
@@ -73,18 +70,6 @@ export default function SavedPage() {
       );
     }
 
-    if (filterMode === "described") {
-      filtered = filtered.filter((item) => item.description.trim().length > 0);
-    } else if (filterMode === "recent") {
-      const mostRecent = items.reduce(
-        (latest, item) => Math.max(latest, item.savedAt),
-        0,
-      );
-      filtered = filtered.filter(
-        (item) => item.savedAt >= mostRecent - 7 * 24 * 60 * 60 * 1000,
-      );
-    }
-
     // Sort
     if (sortBy === "newest") {
       filtered.sort((a, b) => b.savedAt - a.savedAt);
@@ -95,7 +80,7 @@ export default function SavedPage() {
     }
 
     return filtered;
-  }, [items, activeCategory, searchQuery, filterMode, sortBy]);
+  }, [items, activeCategory, searchQuery, sortBy]);
 
   const handleRemove = (id: string, type: string) => {
     removeSavedItem(id, type as SavedItemType);
@@ -121,15 +106,6 @@ export default function SavedPage() {
           <div className={styles.controlActions}>
             <div className={styles.controlSpacer} />
             <div className={styles.actionButtons}>
-              <SavedFilters
-                value={filterMode}
-                onChange={setFilterMode}
-                onClearAll={() => {
-                  setSearchQuery("");
-                  setActiveCategory("all");
-                  setFilterMode("all");
-                }}
-              />
               <SavedSort value={sortBy} onChange={setSortBy} />
             </div>
           </div>

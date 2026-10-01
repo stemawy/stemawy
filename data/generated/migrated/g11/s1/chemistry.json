@@ -674,8 +674,7 @@
       },
       {
         "id": "lo_fd993b208d",
-        "type": "unit",
-        "number": "01",
+        "type": "qs-bank",
         "title": "Test banks",
         "description": "",
         "order": 8,
