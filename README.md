@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Feedback Email
+
+Feedback is sent through Gmail SMTP. Copy `.env.example` to `.env.local`, set `FEEDBACK_GMAIL_USER` to the Gmail account that will send the email, enable 2-Step Verification on that account, and create a Google App Password for `FEEDBACK_GMAIL_APP_PASSWORD`. Keep that secret in `.env.local`; never commit it. The legacy site used `yassoalaa822@gmail.com` as a `mailto:` recipient, not as a confirmed sender. Testing currently sends to `youssefbhaa2010@gmail.com`; change `FEEDBACK_TO_EMAIL` to `yassoalaa822@gmail.com` when ready for production. Restart the Next.js server after changing environment values.
+
 ## Getting Started
 
 First, run the development server:

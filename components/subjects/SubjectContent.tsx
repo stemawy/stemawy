@@ -9,11 +9,19 @@ import { getLocalizedContentText, getTranslations } from "@/lib/i18n";
 export default function SubjectContent({
   item,
   subjectId,
+  reportSubjectId,
   resources,
+  reportMode,
+  selectedResourceKeys,
+  onToggleReportResource,
 }: {
   item: SubjectContent;
   subjectId: string;
+  reportSubjectId: string;
   resources: Resource[];
+  reportMode: boolean;
+  selectedResourceKeys: ReadonlySet<string>;
+  onToggleReportResource: (key: string) => void;
 }) {
   const { language } = useLayoutState();
   const t = getTranslations(language);
@@ -40,6 +48,15 @@ export default function SubjectContent({
                   <ResourceCard
                     resource={resource}
                     language={language}
+                    reportMode={reportMode}
+                    reportSelected={selectedResourceKeys.has(
+                      `${reportSubjectId}:${resource.id}`,
+                    )}
+                    onReportToggle={() =>
+                      onToggleReportResource(
+                        `${reportSubjectId}:${resource.id}`,
+                      )
+                    }
                     key={`${resource.id || "resource"}-${index}`}
                   />
                 ))}
@@ -74,6 +91,10 @@ export default function SubjectContent({
                     .filter((resource): resource is Resource =>
                       Boolean(resource),
                     )}
+                  reportMode={reportMode}
+                  reportSubjectId={reportSubjectId}
+                  selectedResourceKeys={selectedResourceKeys}
+                  onToggleReportResource={onToggleReportResource}
                   key={`${concept.id || concept.title || "concept"}-${index}`}
                 />
               ))}

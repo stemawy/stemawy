@@ -12,9 +12,17 @@ import { getLocalizedContentText, getTranslations } from "@/lib/i18n";
 export default function ConceptCard({
   concept,
   resources,
+  reportMode,
+  reportSubjectId,
+  selectedResourceKeys,
+  onToggleReportResource,
 }: {
   concept: Concept;
   resources: Resource[];
+  reportMode: boolean;
+  reportSubjectId: string;
+  selectedResourceKeys: ReadonlySet<string>;
+  onToggleReportResource: (key: string) => void;
 }) {
   const [open, setOpen] = useState(false);
   const { language } = useLayoutState();
@@ -63,6 +71,13 @@ export default function ConceptCard({
                 <ResourceCard
                   resource={resource}
                   language={language}
+                  reportMode={reportMode}
+                  reportSelected={selectedResourceKeys.has(
+                    `${reportSubjectId}:${resource.id}`,
+                  )}
+                  onReportToggle={() =>
+                    onToggleReportResource(`${reportSubjectId}:${resource.id}`)
+                  }
                   key={`${resource.id || "resource"}-${index}`}
                 />
               ))}

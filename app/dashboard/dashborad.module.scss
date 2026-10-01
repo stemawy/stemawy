@@ -350,6 +350,33 @@
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 24px;
 }
+.curriculumEmptyIcon {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border-radius: 12px;
+  background: var(--primary-fixed);
+  color: var(--primary);
+}
+.emptyState .curriculumEmptyIcon svg {
+  color: inherit;
+  opacity: 1;
+}
+.curriculumEmptyLink {
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.curriculumEmptyLink:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+.curriculumEmptyLink:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
 .curriculumCard {
   position: relative;
   display: block;

@@ -42,6 +42,15 @@
   color: var(--on-surface-variant);
   font-size: 17px;
 }
+.reportHandoffError {
+  margin: 0 0 16px;
+  padding: 10px 12px;
+  border: 1px solid var(--error-container);
+  border-radius: 8px;
+  background: var(--surface-container-lowest);
+  color: var(--error);
+  font-size: 13px;
+}
 .contentGrid {
   display: grid;
   grid-template-columns: minmax(0, 7fr) minmax(280px, 5fr);
@@ -516,6 +525,10 @@
   padding: 14px;
   line-height: 1.5;
 }
+.form textarea[aria-invalid="true"] {
+  border-color: var(--error);
+  box-shadow: 0 0 0 2px var(--error-container);
+}
 .form select:focus,
 .form input:focus,
 .form textarea:focus {
@@ -557,8 +570,40 @@
   background: var(--primary);
   transform: translateY(-1px);
 }
+.submitButton:disabled {
+  opacity: 0.65;
+  cursor: wait;
+  transform: none;
+}
 .submitButton:active {
   transform: translateY(0);
+}
+.submitError {
+  margin: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--error-container);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--error-container) 45%, transparent);
+  color: var(--error);
+  font-size: 12px;
+  line-height: 1.45;
+}
+.honeypot {
+  position: absolute !important;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.submitSpinner {
+  animation: feedbackSubmitSpin 850ms linear infinite;
+}
+@keyframes feedbackSubmitSpin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 .sideColumn {
   display: flex;

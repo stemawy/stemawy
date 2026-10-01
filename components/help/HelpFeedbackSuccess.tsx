@@ -12,8 +12,8 @@ export default function HelpFeedbackSuccess({
       </div>
       <h2>Thanks for your feedback!</h2>
       <p>
-        We appreciate you helping us improve Stemawy. Your submission has been
-        indexed for review.
+        We appreciate you helping us improve Stemawy. Your feedback has been
+        sent to the Stemawy team.
       </p>
       <button type="button" onClick={onReset}>
         Send another message

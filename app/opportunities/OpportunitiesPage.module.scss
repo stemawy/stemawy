@@ -273,14 +273,51 @@
   color: var(--on-surface-variant);
   font-size: 14px;
 }
-.libraryHeading > span {
+.viewToggle {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  place-items: center;
+  border: 0;
+  background: transparent;
   color: var(--outline);
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+.viewToggle span {
   font-size: 20px;
+  line-height: 1;
+}
+.viewToggle:hover {
+  color: var(--primary);
+}
+.viewToggle:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
 }
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
+}
+.list {
+  grid-template-columns: minmax(0, 1fr);
+}
+.list .card {
+  flex-direction: row;
+  min-height: 190px;
+}
+.list .cardVisual {
+  width: min(28%, 240px);
+  height: auto;
+  min-height: 190px;
+  flex: 0 0 min(28%, 240px);
+}
+.list .cardBody > p {
+  min-height: 0;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
 }
 .card {
   display: flex;
@@ -572,7 +609,18 @@
   .cardVisual {
     height: 140px;
   }
+  .list .card {
+    min-height: 0;
+  }
+  .list .cardVisual {
+    width: 30%;
+    min-height: 170px;
+    flex-basis: 30%;
+  }
   .cardBody {
     padding: 17px;
+  }
+  .list .cardBody {
+    padding: 13px;
   }
 }

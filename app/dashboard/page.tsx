@@ -51,7 +51,7 @@ export default function DashboardPage() {
       />
       <RecentlySaved />
       <div className={styles.contentGrid}>
-        <CoreCurriculum subjects={subjects} />
+        <CoreCurriculum subjects={subjects} grade={grade} semester={semester} />
         <div className={styles.sideColumn}>
           <Opportunities items={topOpportunities} />
         </div>

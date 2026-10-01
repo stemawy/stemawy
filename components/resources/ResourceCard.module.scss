@@ -1,4 +1,5 @@
 .card {
+  position: relative;
   display: flex;
   min-width: 0;
   align-items: flex-start;
@@ -28,6 +29,38 @@
 }
 .completed:hover {
   border-color: var(--accent-green-strong);
+}
+.reportMode {
+  cursor: pointer;
+}
+.reportMode:hover {
+  border-color: var(--error);
+  box-shadow: 0 0 0 1px var(--error-container);
+  transform: translateY(-1px);
+}
+.reportSelected,
+.reportSelected:hover {
+  border-color: var(--error);
+  background: color-mix(
+    in srgb,
+    var(--surface-container-lowest) 82%,
+    var(--error-container)
+  );
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--error) 24%, transparent);
+  transform: none;
+}
+.reportMark {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: grid;
+  width: 20px;
+  height: 20px;
+  place-items: center;
+  border: 1px solid var(--surface-container-lowest);
+  border-radius: 50%;
+  background: var(--error);
+  color: var(--on-error);
 }
 .completedMark {
   position: absolute;

@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import type { Opportunity } from "@/data/opportunities";
 import OpportunityCard from "./OpportunityCard";
 import styles from "@/app/opportunities/OpportunitiesPage.module.scss";
@@ -13,6 +16,15 @@ export default function OpportunitiesLibrary({
   onClear: () => void;
 }) {
   const ar = language === "ar";
+  const [listView, setListView] = useState(false);
+  const toggleLabel = ar
+    ? listView
+      ? "التبديل إلى العرض الشبكي"
+      : "التبديل إلى عرض القائمة"
+    : listView
+      ? "Switch to grid view"
+      : "Switch to list view";
+
   return (
     <section className={styles.library}>
       <div className={styles.libraryHeading}>
@@ -24,10 +36,21 @@ export default function OpportunitiesLibrary({
               : `Showing ${items.length} of ${total} opportunities`}
           </p>
         </div>
-        <span className="material-symbols-outlined">view_agenda</span>
+        <button
+          className={styles.viewToggle}
+          type="button"
+          aria-label={ar ? "تبديل تخطيط الفرص" : "Toggle opportunity layout"}
+          aria-pressed={listView}
+          title={toggleLabel}
+          onClick={() => setListView((current) => !current)}
+        >
+          <span className="material-symbols-outlined">
+            {listView ? "view_agenda" : "grid_view"}
+          </span>
+        </button>
       </div>
       {items.length ? (
-        <div className={styles.grid}>
+        <div className={`${styles.grid} ${listView ? styles.list : ""}`}>
           {items.map((item) => (
             <OpportunityCard key={item.id} item={item} language={language} />
           ))}

@@ -5,6 +5,8 @@ import {
   type Language,
 } from "@/lib/i18n";
 
+export const REPORT_SELECTION_STORAGE_KEY = "stemawy-resource-report-selection";
+
 export type ReportableResource = {
   key: string;
   id: string;
@@ -34,12 +36,7 @@ function normalize(value: string): string {
     .trim();
 }
 
-export function searchReportableResources(
-  rawQuery: string,
-  language: Language,
-  limit = 40,
-): ReportableResourceSearch {
-  const query = normalize(rawQuery.slice(0, 120));
+function getAllReportableResources(language: Language): ReportableResource[] {
   const resources: ReportableResource[] = [];
 
   for (const subject of getAllSubjects()) {
@@ -82,30 +79,51 @@ export function searchReportableResources(
     }
   }
 
-  const normalizedResources = resources.map((resource) => {
-    const searchable = normalize(
-      [
-        resource.title,
-        resource.type,
-        resource.provider,
-        resource.subject,
-        resource.grade,
-        resource.semester,
-        resource.unit,
-      ].join(" "),
-    );
-    const terms = query.split(" ").filter(Boolean);
-    const matchedTerms = terms.filter((term) => searchable.includes(term));
-    const score = !query
-      ? 1
-      : matchedTerms.length !== terms.length
-        ? 0
-        : normalize(resource.title).startsWith(query)
-          ? 3
-          : 2;
+  return resources;
+}
 
-    return { resource, score };
-  });
+export function getReportableResourcesByKeys(
+  keys: string[],
+  language: Language,
+): ReportableResource[] {
+  const requestedKeys = new Set(keys.slice(0, 1000));
+  return getAllReportableResources(language).filter((resource) =>
+    requestedKeys.has(resource.key),
+  );
+}
+
+export function searchReportableResources(
+  rawQuery: string,
+  language: Language,
+  limit = 40,
+): ReportableResourceSearch {
+  const query = normalize(rawQuery.slice(0, 120));
+  const normalizedResources = getAllReportableResources(language).map(
+    (resource) => {
+      const searchable = normalize(
+        [
+          resource.title,
+          resource.type,
+          resource.provider,
+          resource.subject,
+          resource.grade,
+          resource.semester,
+          resource.unit,
+        ].join(" "),
+      );
+      const terms = query.split(" ").filter(Boolean);
+      const matchedTerms = terms.filter((term) => searchable.includes(term));
+      const score = !query
+        ? 1
+        : matchedTerms.length !== terms.length
+          ? 0
+          : normalize(resource.title).startsWith(query)
+            ? 3
+            : 2;
+
+      return { resource, score };
+    },
+  );
 
   const matches = normalizedResources
     .filter((entry) => entry.score > 0)
