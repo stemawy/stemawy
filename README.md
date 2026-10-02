@@ -6,7 +6,7 @@ Feedback is sent through Gmail SMTP. Copy `.env.example` to `.env.local`, set `F
 
 ## Deploy the Full App
 
-For the Vercel + Render + Neon deployment steps, production caveats, and free-tier limits, see [DEPLOYMENT.md](DEPLOYMENT.md). The frontend, Django API, and database must all be configured; the Next.js app alone does not include the editable catalog or admin.
+For the Vercel + Neon deployment steps, production caveats, and free-tier limits, see [DEPLOYMENT.md](DEPLOYMENT.md). Deploy the Next.js frontend and Django API as separate Vercel projects, with Neon providing PostgreSQL.
 
 ## Getting Started
 

@@ -1,68 +1,92 @@
 # Public Deployment
 
-For a no-cost, non-commercial deployment, use **Vercel Hobby for Next.js**, **Render Free for the Django API**, and **Neon Free for PostgreSQL**. The Render Blueprint in this repository creates only the API; it does not create a Render database that expires after 30 days or a second frontend service.
+This setup uses **two Vercel projects** and **Neon PostgreSQL**:
 
-This setup can be a reasonable starting point for roughly 3,000 active users spread over time, but free plans have quotas and no uptime guarantees. User count alone cannot predict usage; monitor real traffic, database compute, and network transfer after launch.
+- The existing Vercel project hosts the Next.js website.
+- A second Vercel project, with its root directory set to `backend`, hosts Django as Python Functions. No Render account or card is needed.
+- Neon Free provides the external PostgreSQL database.
 
-## Before You Start
+This is a free-tier deployment for a non-commercial project, not a production availability guarantee. Vercel Hobby is limited to personal, non-commercial use; confirm your project qualifies under Vercel's terms.
 
-- Push the project, including `render.yaml`, to the GitHub repository connected to Vercel and Render.
-- Create accounts on Vercel, Neon, and Render. Do not select paid plans or enable billing if your budget must remain zero.
-- Vercel Hobby is restricted to personal, non-commercial use. Confirm that your project ownership/use meets Vercel's terms; being educational does not automatically make an organization eligible for Hobby.
-- Keep database URLs, Django admin credentials, and all generated secrets private. Enter them only into the provider's secret environment-variable fields.
+## 1. Push the Latest Backend Setup
 
-## 1. Deploy the Website to Vercel
+Commit and push the latest files (`backend/config/settings.py`, `backend/build.py`, `backend/.python-version`, `backend/requirements.txt`, and this guide) to the GitHub repository connected to Vercel. Do not stage unrelated deleted design files.
 
-1. In Vercel, choose **Add New → Project** and import the GitHub repository.
-2. Leave the project root at the repository root and let Vercel detect Next.js. Keep the default build command (`npm run build`) and output settings.
-3. Deploy. The site can build before the API is connected because the frontend has bundled catalog fallbacks.
-4. Copy the production URL Vercel assigns, such as `https://your-project.vercel.app`. You'll add it to the API's allowed CORS origins in step 3.
+## 2. Create the Database
 
-## 2. Create the Persistent Free Database
+1. Create a Neon project on the Free plan. Oregon is a suitable region for the Vercel deployment.
+2. In Neon, open **Connect** and copy the pooled PostgreSQL connection string suitable for serverless functions. Keep the supplied TLS option such as `sslmode=require`.
+3. Keep the connection string private; it contains your database password.
 
-1. In Neon, create a PostgreSQL project on the **Free** plan. Pick the same region as the Render API (Render defaults to Oregon unless changed).
-2. In Neon, copy the **direct** connection string for the database. Keep it private. It contains database credentials and should not be committed to GitHub.
-3. The connection string must use TLS (`sslmode=require`). Neon supplies this in its connection string; keep the query options intact.
+Neon Free currently includes 1 GB of database storage, 100 compute-hours per project each month, and 5 GB of monthly public network transfer. Compute suspends after five idle minutes and resumes when queried. Free Neon has no scheduled backups; export important data regularly. Check current limits before deployment because providers can change their plans.
 
-Neon Free does **not** have Render's 30-day expiry. It has a 1 GB database limit, 100 compute-hours per project each month, and 5 GB monthly public network transfer. Database compute suspends after five minutes idle and resumes on demand. If compute or transfer quotas run out, the database suspends until the allowance resets; exceeding a free quota does not automatically delete the data. Neon Free has no scheduled backups, so export important data regularly.
+## 3. Create the Django Vercel Project
 
-## 3. Deploy the Django API to Render
+1. In Vercel, choose **Add New → Project** and import the same GitHub repository again.
+2. In the detected applications list, choose **Import single project** for the **Django** application (`backend`, not the Next.js row).
+3. Set **Root Directory** to `backend` and let Vercel detect Django/Python. Keep the install command that installs `requirements.txt`; set **Build Command** to `python build.py`.
+4. In the Django project's **Settings → Environment Variables**, enable access to Vercel System Environment Variables. Django uses `VERCEL`, `VERCEL_URL`, and `VERCEL_PROJECT_PRODUCTION_URL` to set serverless cache/database behavior and accept the Vercel hostnames.
+5. Add these Environment Variables for the **Production** environment only:
+   - `DATABASE_URL`: the Neon pooled connection string.
+   - `DJANGO_DEBUG`: `false`.
+   - `DJANGO_SECRET_KEY`: a private random value. Generate one locally with `python -c "import secrets; print(secrets.token_urlsafe(64))"` and paste it into Vercel.
+   - `STEMAWY_CORS_ALLOWED_ORIGINS`: the Next.js website's production origin, including `https://`.
+6. Deploy the Django project. `backend/build.py` runs migrations during production builds when `DATABASE_URL` is present. Vercel automatically collects Django static files.
+7. Copy the Django project's stable production URL, such as `https://your-api.vercel.app`.
 
-1. In Render, choose **New → Blueprint** and connect the same GitHub repository.
-2. Render reads `render.yaml`. It should show one service: `stemawy-api`, on the **Free** plan. It should not create a Render database.
-3. During setup, provide the prompted environment values:
-   - `DATABASE_URL`: the Neon direct connection string from step 2.
-   - `STEMAWY_CORS_ALLOWED_ORIGINS`: the exact Vercel production origin, including `https://`, with no path. Example: `https://your-project.vercel.app`.
-   - `DJANGO_SUPERUSER_USERNAME`, `DJANGO_SUPERUSER_EMAIL`, and `DJANGO_SUPERUSER_PASSWORD`: credentials for the initial admin account. Use a unique, strong password.
-4. Apply the Blueprint. Render generates the Django secret key automatically. The API startup applies migrations and safely imports missing catalog rows. The initial-deploy hook creates the admin user once.
-5. Wait until `stemawy-api` is **Live**. Its URL will look like `https://stemawy-api.onrender.com`. The admin is at `/admin/`; the announcements API is at `/api/announcements/`.
-6. After the first successful deploy, remove `DJANGO_SUPERUSER_PASSWORD` from the Render service's environment settings.
+The API URLs use that hostname with `/api/`; the admin is at `/admin/`. Use the Vercel **production domain**, not a temporary deployment URL.
 
-Render Free services sleep after 15 minutes without traffic and may take about a minute to wake. This means the first website request after an idle period can be slow. Render's free filesystem is temporary, but that is okay here because database content is stored in Neon.
+## 4. Load the Catalog and Create the Admin User
 
-## 4. Connect Vercel to the API
+Vercel's Django project root is `backend`, while catalog JSON files are outside that directory. Therefore, seed the new Neon database once from your local project after the Django Vercel project has deployed:
 
-1. In Vercel, open the project, then **Settings → Environment Variables**.
-2. Add `NEXT_PUBLIC_STEMAWY_API_URL` with the API URL ending in `/api`, for example `https://stemawy-api.onrender.com/api`.
-3. Apply it to **Production** and save.
-4. In Vercel, open **Deployments** and redeploy the latest production deployment. This variable is read at build time.
-5. Open the Vercel site, check the subject/opportunity/skill pages, then publish an announcement in Django admin and verify it appears in the notification bell.
+1. Open PowerShell in the repository's `backend` directory.
+2. If you do not already have a local virtual environment for this backend, create one and install the requirements:
 
-## 5. Add Your Domain Later
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+   ```
 
-When ready, add your domain in Vercel's project **Settings → Domains** and follow the DNS instructions Vercel shows for your domain registrar. After the domain works over HTTPS:
+3. Set the database URL for this terminal session. Paste your Neon pooled connection string at the prompt; do not share it or commit it:
 
-- Update Render's `STEMAWY_CORS_ALLOWED_ORIGINS` to include the new website origin (for example, `https://example.com`). Multiple origins can be comma-separated.
-- Redeploy the Render API after changing its environment variable.
-- Set `NEXT_PUBLIC_STEMAWY_API_URL` on Vercel if you later give the API its own domain, then redeploy the website.
+   ```powershell
+   $env:DATABASE_URL = Read-Host "Paste the Neon DATABASE_URL"
+   ```
 
-## Free-Plan Limits and Tradeoffs
+4. Import the catalog and create your Django admin account:
 
-- Vercel Hobby is free for personal, non-commercial projects, but has monthly usage limits. If a limit is reached, some features pause until the allowance resets.
-- Render Free API services sleep after 15 idle minutes and cold-start on the next request. They have limited monthly instance hours and no persistent local disk.
-- Neon Free persists data without a fixed 30-day deletion, but is limited to 1 GB storage, 100 compute-hours/project/month, and 5 GB egress/project/month. Compute scales to zero after five idle minutes. The free tier has no scheduled backups or uptime SLA.
-- Free-plan limits can change. Check the provider dashboards and current terms before deploying, monitor usage, and keep independent database exports. Never assume 3,000 users will fit a quota without measuring actual traffic.
-- Render Free blocks outbound SMTP ports. The feedback endpoint's Gmail SMTP delivery will return `503` on this plan; other site features can still work. An HTTPS email API could be integrated separately if its free terms fit.
+   ```powershell
+   .\.venv\Scripts\python.exe manage.py migrate --noinput
+   .\.venv\Scripts\python.exe manage.py import_migrated_data --apply
+   .\.venv\Scripts\python.exe manage.py createsuperuser
+   ```
+
+5. Clear the connection string from the terminal session when finished:
+
+   ```powershell
+   Remove-Item Env:DATABASE_URL
+   ```
+
+The importer is additive: it adds missing catalog records and does not overwrite existing admin edits. The announcements endpoint is `https://your-api.vercel.app/api/announcements/`.
+
+## 5. Connect the Website to Django
+
+1. Open the existing Next.js Vercel project and go to **Settings → Environment Variables**.
+2. Add `NEXT_PUBLIC_STEMAWY_API_URL` for **Production**, with the Django URL ending in `/api`, such as `https://your-api.vercel.app/api`.
+3. Save and redeploy the Next.js project. The frontend reads this variable at build time.
+4. Open the website and check the catalog pages. Sign in at `https://your-api.vercel.app/admin/`, publish a test announcement, and check the notification bell.
+
+## 6. Add Your Domain Later
+
+Add your domain to the Next.js Vercel project and follow Vercel's DNS instructions. Then update `STEMAWY_CORS_ALLOWED_ORIGINS` in the Django Vercel project to the custom website origin and redeploy Django. If you later give Django a custom domain too, update `DJANGO_ALLOWED_HOSTS` and `CSRF_TRUSTED_ORIGINS` to match it.
+
+## Free-Tier Limits
+
+- Vercel Hobby is limited to personal, non-commercial use and has monthly function/build quotas. Django runs as serverless functions, so it is not an always-on server; observe Vercel's current function limits and usage dashboard.
+- Neon Free has storage, compute, and egress caps. If a usage cap is reached, database access may be suspended or writes blocked until the quota resets; it does not provide scheduled backups.
+- About 3,000 users over time may fit, but account count alone cannot predict request volume. Monitor actual Vercel function invocations, compute time, database storage, and egress.
+- The feedback route currently sends email through Gmail SMTP. Vercel Functions may restrict outbound SMTP; if feedback delivery fails, switch that route to an HTTPS email API.
 
 ## Local Preflight
 
@@ -80,5 +104,3 @@ npm ci
 npm run lint
 npm run build
 ```
-
-The production check may warn that HSTS subdomain inclusion and browser preload are disabled. Those settings are intentionally not enabled automatically because they depend on domain ownership and HTTPS coverage for every subdomain.

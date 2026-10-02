@@ -11,6 +11,7 @@ DEBUG = os.environ.get("DJANGO_DEBUG", "true").strip().lower() in {
     "yes",
     "on",
 }
+IS_VERCEL = bool(os.environ.get("VERCEL") or os.environ.get("VERCEL_ENV"))
 
 
 def parse_origins(value):
@@ -39,15 +40,22 @@ ALLOWED_HOSTS = [
     ).split(",")
     if host.strip()
 ]
-render_hostname = os.environ.get("RENDER_EXTERNAL_HOSTNAME", "").strip()
-if render_hostname and render_hostname not in ALLOWED_HOSTS:
-    ALLOWED_HOSTS.append(render_hostname)
+for hostname_key in ("VERCEL_URL", "VERCEL_PROJECT_PRODUCTION_URL"):
+    hostname = os.environ.get(hostname_key, "").strip()
+    if hostname and hostname not in ALLOWED_HOSTS:
+        ALLOWED_HOSTS.append(hostname)
 CORS_ALLOWED_ORIGINS = parse_origins(
     os.environ.get("STEMAWY_CORS_ALLOWED_ORIGINS", "http://localhost:3000")
 )
 CSRF_TRUSTED_ORIGINS = parse_origins(
     os.environ.get("CSRF_TRUSTED_ORIGINS", "")
 )
+for hostname_key in ("VERCEL_URL", "VERCEL_PROJECT_PRODUCTION_URL"):
+    hostname = os.environ.get(hostname_key, "").strip()
+    if hostname:
+        origin = f"https://{hostname}"
+        if origin not in CSRF_TRUSTED_ORIGINS:
+            CSRF_TRUSTED_ORIGINS.append(origin)
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -101,7 +109,7 @@ if database_url:
     DATABASES = {
         "default": dj_database_url.parse(
             database_url,
-            conn_max_age=600,
+            conn_max_age=0 if IS_VERCEL else 600,
             ssl_require=not DEBUG,
         )
     }
@@ -117,12 +125,22 @@ else:
 
 CACHES = {
     "default": {
-        "BACKEND": "django.core.cache.backends.filebased.FileBasedCache",
-        "LOCATION": os.environ.get(
-            "DJANGO_CACHE_DIR", str(BASE_DIR / ".cache")
+        "BACKEND": (
+            "django.core.cache.backends.dummy.DummyCache"
+            if IS_VERCEL
+            else "django.core.cache.backends.filebased.FileBasedCache"
         ),
-        "TIMEOUT": 60,
-        "OPTIONS": {"MAX_ENTRIES": 1000},
+        **(
+            {}
+            if IS_VERCEL
+            else {
+                "LOCATION": os.environ.get(
+                    "DJANGO_CACHE_DIR", str(BASE_DIR / ".cache")
+                ),
+                "TIMEOUT": 60,
+                "OPTIONS": {"MAX_ENTRIES": 1000},
+            }
+        ),
     }
 }
 
