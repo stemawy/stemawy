@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import SubjectFilters from "@/components/subjects/SubjectFilters";
 import SubjectSection from "@/components/subjects/SubjectSection";
@@ -8,12 +8,26 @@ import { getSubjects } from "@/data/subjects";
 import styles from "./subjects.module.scss";
 import { useLayoutState } from "@/components/layout/layout-context";
 import { getLocalizedSubject, getTranslations } from "@/lib/i18n";
+import { fetchDjangoSubjects } from "@/lib/django-api";
+import type { Subject } from "@/data/subjects";
 
 export default function SubjectsPage() {
   const { grade, semester, setGrade, setSemester, language } = useLayoutState();
   const t = getTranslations(language);
   const [query, setQuery] = useState("");
-  const subjects = getSubjects(grade, semester);
+  const [subjects, setSubjects] = useState<Subject[]>(() =>
+    getSubjects(grade, semester),
+  );
+
+  useEffect(() => {
+    let active = true;
+    fetchDjangoSubjects(grade, semester).then((result) => {
+      if (active) setSubjects(result);
+    });
+    return () => {
+      active = false;
+    };
+  }, [grade, semester]);
 
   const filteredSubjects = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();

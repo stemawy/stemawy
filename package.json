@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "export:admin-seed": "node --experimental-strip-types scripts/export-admin-seed.mjs"
   },
   "dependencies": {
     "babel-plugin-react-compiler": "^1.0.0",

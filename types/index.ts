@@ -10,7 +10,8 @@ export type ResourceType =
   | "document"
   | "slides"
   | "sheet"
-  | "test-bank";
+  | "test-bank"
+  | "image";
 
 export interface Resource {
   id: string;
@@ -18,6 +19,7 @@ export interface Resource {
   type: ResourceType;
   provider: string;
   url: string;
+  linkText?: string;
 }
 
 export interface Concept {

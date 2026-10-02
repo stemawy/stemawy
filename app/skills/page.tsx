@@ -1,31 +1,43 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useLayoutState } from "@/components/layout/layout-context";
 import { skills, type SkillCategory } from "@/data/skills";
 import SkillsCategories from "@/components/skills/SkillsCategories";
 import SkillsHeader from "@/components/skills/SkillsHeader";
 import SkillsLibrary from "@/components/skills/SkillsLibrary";
 import styles from "./SkillsPage.module.scss";
+import { fetchDjangoSkills } from "@/lib/django-api";
 
 export default function SkillsPage() {
   const { language } = useLayoutState();
+  const [items, setItems] = useState(skills);
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<SkillCategory | "all">("all");
 
+  useEffect(() => {
+    let active = true;
+    fetchDjangoSkills().then((result) => {
+      if (active) setItems(result);
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
+
   const counts = useMemo(
     () =>
-      skills.reduce<Record<string, number>>((result, skill) => {
+      items.reduce<Record<string, number>>((result, skill) => {
         result.all = (result.all ?? 0) + 1;
         result[skill.category] = (result[skill.category] ?? 0) + 1;
         return result;
       }, {}),
-    [],
+    [items],
   );
 
   const filteredSkills = useMemo(() => {
     const term = query.trim().toLowerCase();
-    return skills.filter((skill) => {
+    return items.filter((skill) => {
       const searchable = [
         skill.title,
         skill.arTitle,
@@ -42,7 +54,7 @@ export default function SkillsPage() {
         searchable.includes(term)
       );
     });
-  }, [category, query]);
+  }, [category, items, query]);
 
   const clearFilters = () => {
     setQuery("");

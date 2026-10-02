@@ -4,6 +4,7 @@ import {
   Check,
   ClipboardList,
   FileText,
+  Image as ImageIcon,
   Play,
   Presentation,
 } from "lucide-react";
@@ -27,6 +28,7 @@ const icons = {
   sheet: BookOpen,
   "test-bank": ClipboardList,
   pdf: FileText,
+  image: ImageIcon,
 } as const;
 
 export default function ResourceCard({
@@ -112,7 +114,7 @@ export default function ResourceCard({
       </span>
       <span className={styles.copy}>
         <strong>{resourceTitle}</strong>
-        <small>{resource.provider}</small>
+        <small>{resource.linkText || resource.provider}</small>
       </span>
       <ArrowUpRight className={styles.arrow} size={17} aria-hidden="true" />
       {completed && (

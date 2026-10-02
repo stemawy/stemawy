@@ -40,6 +40,7 @@ const fallbackIcons: Record<string, LucideIcon> = {
   landmark: Landmark,
   history: History,
   lightbulb: Lightbulb,
+  "book-open": BookOpen,
 };
 
 const gradeIcons: Record<string, { grade10: LucideIcon; grade11: LucideIcon }> =
@@ -55,13 +56,20 @@ const gradeIcons: Record<string, { grade10: LucideIcon; grade11: LucideIcon }> =
     german: { grade10: Languages, grade11: BookText },
     french: { grade10: Languages, grade11: PenLine },
     "computer-science": { grade10: Code2, grade11: Terminal },
+    computerscience: { grade10: Code2, grade11: Terminal },
     religion: { grade10: Landmark, grade11: Scale },
     "social-studies": { grade10: History, grade11: Landmark },
+    socialstudies: { grade10: History, grade11: Landmark },
     civics: { grade10: History, grade11: Landmark },
+    citizenship: { grade10: History, grade11: Landmark },
     capstone: { grade10: Lightbulb, grade11: Orbit },
   };
 
 function getSubjectKey(subject: Subject) {
+  if (subject.icon in gradeIcons || subject.icon in fallbackIcons) {
+    return subject.icon;
+  }
+
   const knownKey = Object.keys(gradeIcons).find((key) =>
     subject.id.startsWith(`${key}-`),
   );

@@ -1,4 +1,5 @@
 import { searchStemawy } from "@/lib/search";
+import { fetchDjangoSearch } from "@/lib/django-api";
 
 export async function GET(request: Request) {
   const url = new URL(request.url);
@@ -7,7 +8,11 @@ export async function GET(request: Request) {
   const requestedLimit = Number(url.searchParams.get("limit")) || 4;
   const limit = Math.min(250, Math.max(1, requestedLimit));
 
-  return Response.json(searchStemawy(query, language, limit), {
-    headers: { "Cache-Control": "no-store" },
-  });
+  const databaseResults = await fetchDjangoSearch(query, language, limit);
+  return Response.json(
+    databaseResults ?? searchStemawy(query, language, limit),
+    {
+      headers: { "Cache-Control": "no-store" },
+    },
+  );
 }

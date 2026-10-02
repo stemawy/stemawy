@@ -164,8 +164,8 @@ export default function SubjectPage({
           selectedResourceKeys={selectedReportKeySet}
           onToggleReportResource={toggleReportResource}
           resources={
-            djangoSubject?.resources?.length
-              ? djangoSubject.resources
+            djangoSubject
+              ? (djangoSubject.resources ?? [])
               : getResourcesForSubject(subject.id).length > 0
                 ? getResourcesForSubject(subject.id)
                 : allResources
