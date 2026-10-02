@@ -1,36 +1,68 @@
 # Public Deployment
 
-This repository includes a Render Blueprint for a public trial deployment. It creates a Next.js web service, a Django API, and a private PostgreSQL database. The Blueprint uses Render's free plans, which are for evaluation only and have important data and uptime limits.
+For a no-cost, non-commercial deployment, use **Vercel Hobby for Next.js**, **Render Free for the Django API**, and **Neon Free for PostgreSQL**. The Render Blueprint in this repository creates only the API; it does not create a Render database that expires after 30 days or a second frontend service.
+
+This setup can be a reasonable starting point for roughly 3,000 active users spread over time, but free plans have quotas and no uptime guarantees. User count alone cannot predict usage; monitor real traffic, database compute, and network transfer after launch.
 
 ## Before You Start
 
-- Push this repository and the `render.yaml` file to GitHub.
-- Create or sign in to a Render account and connect the GitHub repository.
-- Generate a Django secret with `python -c "import secrets; print(secrets.token_urlsafe(64))"` and provide it when Render prompts for `DJANGO_SECRET_KEY`.
-- During Blueprint setup, enter a strong, unique password for `DJANGO_SUPERUSER_PASSWORD`, plus the username and email for the initial Django admin account. Render stores these as secret environment variables.
-- Review the resources and plans Render proposes before confirming. Do not add a payment method or select a paid plan unless you intend to pay for it.
+- Push the project, including `render.yaml`, to the GitHub repository connected to Vercel and Render.
+- Create accounts on Vercel, Neon, and Render. Do not select paid plans or enable billing if your budget must remain zero.
+- Vercel Hobby is restricted to personal, non-commercial use. Confirm that your project ownership/use meets Vercel's terms; being educational does not automatically make an organization eligible for Hobby.
+- Keep database URLs, Django admin credentials, and all generated secrets private. Enter them only into the provider's secret environment-variable fields.
 
-## Deploy
+## 1. Deploy the Website to Vercel
 
-1. In Render, choose **New** then **Blueprint** and select this repository.
-2. Review the `stemawy-web`, `stemawy-api`, and `stemawy-db` resources. The database is private to the Render services.
-3. Provide the initial Django admin username, email, and password when prompted, then apply the Blueprint.
-4. Wait for both web services to report **Live**. The API startup command applies migrations and performs the repository's additive catalog import. The initial-deploy hook creates the admin user once.
-5. Open the `stemawy-web` URL for the site. The API is available at the `stemawy-api` URL, with the admin at `/admin/` and the announcements endpoint at `/api/announcements/`.
-6. Log into Django admin and verify subjects, opportunities, skills, and announcements. Publish an announcement and check the website notification bell.
-7. After the first successful deploy, remove `DJANGO_SUPERUSER_PASSWORD` from the API service's environment settings. The hook runs only on the initial deploy, so keeping the bootstrap secret is unnecessary.
+1. In Vercel, choose **Add New → Project** and import the GitHub repository.
+2. Leave the project root at the repository root and let Vercel detect Next.js. Keep the default build command (`npm run build`) and output settings.
+3. Deploy. The site can build before the API is connected because the frontend has bundled catalog fallbacks.
+4. Copy the production URL Vercel assigns, such as `https://your-project.vercel.app`. You'll add it to the API's allowed CORS origins in step 3.
 
-Render supplies each service's hostname. The Blueprint passes those hostnames into CORS, CSRF, and the frontend API URL settings. Django also generates a secret key, requires HTTPS in production, and serves admin static files through WhiteNoise.
+## 2. Create the Persistent Free Database
 
-## Free-Tier Limits
+1. In Neon, create a PostgreSQL project on the **Free** plan. Pick the same region as the Render API (Render defaults to Oregon unless changed).
+2. In Neon, copy the **direct** connection string for the database. Keep it private. It contains database credentials and should not be committed to GitHub.
+3. The connection string must use TLS (`sslmode=require`). Neon supplies this in its connection string; keep the query options intact.
 
-Render free web services sleep after 15 minutes without traffic and can take about a minute to wake. Their local files are temporary, so the deployment uses PostgreSQL rather than SQLite. Free PostgreSQL expires 30 days after creation, has no backups, and is eventually deleted if it is not upgraded. Do not put important production content in this database. Upgrade the database and web services to suitable paid plans, and configure backups, before treating this as a permanent public site.
+Neon Free does **not** have Render's 30-day expiry. It has a 1 GB database limit, 100 compute-hours per project each month, and 5 GB monthly public network transfer. Database compute suspends after five minutes idle and resumes on demand. If compute or transfer quotas run out, the database suspends until the allowance resets; exceeding a free quota does not automatically delete the data. Neon Free has no scheduled backups, so export important data regularly.
 
-Feedback email is not ready on the free plan: Render blocks outbound SMTP ports for free services. The feedback endpoint will return `503` until you use a paid service or switch delivery to an email provider's HTTPS API and configure its credentials.
+## 3. Deploy the Django API to Render
 
-## Custom Domains
+1. In Render, choose **New → Blueprint** and connect the same GitHub repository.
+2. Render reads `render.yaml`. It should show one service: `stemawy-api`, on the **Free** plan. It should not create a Render database.
+3. During setup, provide the prompted environment values:
+   - `DATABASE_URL`: the Neon direct connection string from step 2.
+   - `STEMAWY_CORS_ALLOWED_ORIGINS`: the exact Vercel production origin, including `https://`, with no path. Example: `https://your-project.vercel.app`.
+   - `DJANGO_SUPERUSER_USERNAME`, `DJANGO_SUPERUSER_EMAIL`, and `DJANGO_SUPERUSER_PASSWORD`: credentials for the initial admin account. Use a unique, strong password.
+4. Apply the Blueprint. Render generates the Django secret key automatically. The API startup applies migrations and safely imports missing catalog rows. The initial-deploy hook creates the admin user once.
+5. Wait until `stemawy-api` is **Live**. Its URL will look like `https://stemawy-api.onrender.com`. The admin is at `/admin/`; the announcements API is at `/api/announcements/`.
+6. After the first successful deploy, remove `DJANGO_SUPERUSER_PASSWORD` from the Render service's environment settings.
 
-Add custom domains in Render for both services, then update `STEMAWY_CORS_ALLOWED_ORIGINS` on the API to the exact website origin, `CSRF_TRUSTED_ORIGINS` to the admin/API origin, and `DJANGO_ALLOWED_HOSTS` to the API hostname. Set `NEXT_PUBLIC_STEMAWY_API_URL` on the web service to the API's HTTPS URL ending in `/api`. Redeploy the frontend after changing this public build-time variable.
+Render Free services sleep after 15 minutes without traffic and may take about a minute to wake. This means the first website request after an idle period can be slow. Render's free filesystem is temporary, but that is okay here because database content is stored in Neon.
+
+## 4. Connect Vercel to the API
+
+1. In Vercel, open the project, then **Settings → Environment Variables**.
+2. Add `NEXT_PUBLIC_STEMAWY_API_URL` with the API URL ending in `/api`, for example `https://stemawy-api.onrender.com/api`.
+3. Apply it to **Production** and save.
+4. In Vercel, open **Deployments** and redeploy the latest production deployment. This variable is read at build time.
+5. Open the Vercel site, check the subject/opportunity/skill pages, then publish an announcement in Django admin and verify it appears in the notification bell.
+
+## 5. Add Your Domain Later
+
+When ready, add your domain in Vercel's project **Settings → Domains** and follow the DNS instructions Vercel shows for your domain registrar. After the domain works over HTTPS:
+
+- Update Render's `STEMAWY_CORS_ALLOWED_ORIGINS` to include the new website origin (for example, `https://example.com`). Multiple origins can be comma-separated.
+- Redeploy the Render API after changing its environment variable.
+- Set `NEXT_PUBLIC_STEMAWY_API_URL` on Vercel if you later give the API its own domain, then redeploy the website.
+
+## Free-Plan Limits and Tradeoffs
+
+- Vercel Hobby is free for personal, non-commercial projects, but has monthly usage limits. If a limit is reached, some features pause until the allowance resets.
+- Render Free API services sleep after 15 idle minutes and cold-start on the next request. They have limited monthly instance hours and no persistent local disk.
+- Neon Free persists data without a fixed 30-day deletion, but is limited to 1 GB storage, 100 compute-hours/project/month, and 5 GB egress/project/month. Compute scales to zero after five idle minutes. The free tier has no scheduled backups or uptime SLA.
+- Free-plan limits can change. Check the provider dashboards and current terms before deploying, monitor usage, and keep independent database exports. Never assume 3,000 users will fit a quota without measuring actual traffic.
+- Render Free blocks outbound SMTP ports. The feedback endpoint's Gmail SMTP delivery will return `503` on this plan; other site features can still work. An HTTPS email API could be integrated separately if its free terms fit.
 
 ## Local Preflight
 
@@ -49,4 +81,4 @@ npm run lint
 npm run build
 ```
 
-The production check may warn that HSTS subdomain inclusion and browser preload are disabled. Those options are intentionally not enabled automatically because they depend on domain ownership and HTTPS coverage for every subdomain.
+The production check may warn that HSTS subdomain inclusion and browser preload are disabled. Those settings are intentionally not enabled automatically because they depend on domain ownership and HTTPS coverage for every subdomain.

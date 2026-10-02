@@ -6,7 +6,7 @@ Feedback is sent through Gmail SMTP. Copy `.env.example` to `.env.local`, set `F
 
 ## Deploy the Full App
 
-For the Render Blueprint, deployment steps, production caveats, and free-tier data limits, see [DEPLOYMENT.md](DEPLOYMENT.md). The frontend and Django API must both be deployed; the Next.js app alone does not include the editable catalog or admin.
+For the Vercel + Render + Neon deployment steps, production caveats, and free-tier limits, see [DEPLOYMENT.md](DEPLOYMENT.md). The frontend, Django API, and database must all be configured; the Next.js app alone does not include the editable catalog or admin.
 
 ## Getting Started
 
