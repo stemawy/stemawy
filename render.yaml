@@ -1,0 +1,63 @@
+databases:
+  - name: stemawy-db
+    plan: free
+    databaseName: stemawy
+    user: stemawy
+    ipAllowList: []
+
+services:
+  - type: web
+    name: stemawy-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt && python backend/manage.py collectstatic --noinput
+    startCommand: >-
+      python backend/manage.py migrate --noinput &&
+      python backend/manage.py import_migrated_data --apply &&
+      gunicorn --chdir backend config.wsgi:application
+      --bind 0.0.0.0:${PORT:-10000} --workers 2 --access-logfile - --error-logfile -
+    initialDeployHook: python backend/manage.py createsuperuser --noinput
+    healthCheckPath: /api/announcements/
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.4
+      - key: DJANGO_DEBUG
+        value: "false"
+      - key: DJANGO_SECRET_KEY
+        sync: false
+      - key: DATABASE_URL
+        fromDatabase:
+          name: stemawy-db
+          property: connectionString
+      - key: DJANGO_SECURE_HSTS_SECONDS
+        value: "31536000"
+      - key: STEMAWY_CORS_ALLOWED_ORIGINS
+        fromService:
+          name: stemawy-web
+          type: web
+          envVarKey: RENDER_EXTERNAL_HOSTNAME
+      - key: CSRF_TRUSTED_ORIGINS
+        fromService:
+          name: stemawy-api
+          type: web
+          envVarKey: RENDER_EXTERNAL_HOSTNAME
+      - key: DJANGO_SUPERUSER_USERNAME
+        sync: false
+      - key: DJANGO_SUPERUSER_EMAIL
+        sync: false
+      - key: DJANGO_SUPERUSER_PASSWORD
+        sync: false
+
+  - type: web
+    name: stemawy-web
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start -- --hostname 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    envVars:
+      - key: NEXT_PUBLIC_STEMAWY_API_URL
+        fromService:
+          name: stemawy-api
+          type: web
+          envVarKey: RENDER_EXTERNAL_HOSTNAME

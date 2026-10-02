@@ -44,5 +44,6 @@ next-env.d.ts
 # Django backend
 /backend/db.sqlite3
 /backend/.cache/
+/backend/staticfiles/
 /backend/**/__pycache__/
 /backend/.venv/

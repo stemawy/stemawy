@@ -23,9 +23,17 @@ export type DjangoAnnouncement = {
   createdAt: string;
 };
 
-const apiBase = (
-  process.env.NEXT_PUBLIC_STEMAWY_API_URL ?? "http://127.0.0.1:8000/api"
-).replace(/\/+$/, "");
+const configuredApiBase =
+  process.env.NEXT_PUBLIC_STEMAWY_API_URL ?? "http://127.0.0.1:8000/api";
+const apiBaseUrl = new URL(
+  /^https?:\/\//i.test(configuredApiBase)
+    ? configuredApiBase
+    : `https://${configuredApiBase}`,
+);
+if (!apiBaseUrl.pathname || apiBaseUrl.pathname === "/") {
+  apiBaseUrl.pathname = "/api";
+}
+const apiBase = apiBaseUrl.toString().replace(/\/+$/, "");
 const cacheDuration = 60_000;
 const responseCache = new Map<
   string,
