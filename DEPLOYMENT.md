@@ -14,7 +14,7 @@ Commit and push the latest files (`backend/config/settings.py`, `backend/build.p
 
 ## 2. Create the Database
 
-1. Create a Neon project on the Free plan. Oregon is a suitable region for the Vercel deployment.
+1. Create a Neon project on the Free plan. Vercel Functions default to Washington, D.C. (`iad1`), so choose Neon's AWS US East 1 (N. Virginia) region when available to keep the database close to the Django functions. The earlier Oregon suggestion was for Render and no longer applies.
 2. In Neon, open **Connect** and copy the pooled PostgreSQL connection string suitable for serverless functions. Keep the supplied TLS option such as `sslmode=require`.
 3. Keep the connection string private; it contains your database password.
 
