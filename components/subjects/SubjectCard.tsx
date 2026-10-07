@@ -13,7 +13,11 @@ export default function SubjectCard({ subject }: { subject: Subject }) {
   const localized = getLocalizedSubject(subject, language);
 
   return (
-    <Link className={styles.subjectCard} href={`/subject/${subject.id}`}>
+    <Link
+      className={styles.subjectCard}
+      href={`/subject/${subject.id}`}
+      prefetch={false}
+    >
       <span className={styles.cardIcon} style={getSubjectColorStyle(subject)}>
         {renderSubjectIcon(subject, 24)}
       </span>

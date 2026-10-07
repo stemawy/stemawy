@@ -12,7 +12,11 @@ export async function GET(request: Request) {
   return Response.json(
     databaseResults ?? searchStemawy(query, language, limit),
     {
-      headers: { "Cache-Control": "no-store" },
+      headers: {
+        "Cache-Control": "public, max-age=15",
+        "Vercel-CDN-Cache-Control":
+          "public, s-maxage=60, stale-while-revalidate=300",
+      },
     },
   );
 }

@@ -11,7 +11,11 @@ export async function GET(request: Request) {
   const limit = Math.min(100, Math.max(1, requestedLimit));
 
   return Response.json(searchReportableResources(query, language, limit), {
-    headers: { "Cache-Control": "no-store" },
+    headers: {
+      "Cache-Control": "public, max-age=15",
+      "Vercel-CDN-Cache-Control":
+        "public, s-maxage=60, stale-while-revalidate=300",
+    },
   });
 }
 

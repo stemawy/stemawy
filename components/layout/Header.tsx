@@ -44,6 +44,7 @@ export default function Header() {
   const announcementModal = useRef<HTMLDivElement>(null);
   const announcementCloseButton = useRef<HTMLButtonElement>(null);
   const notificationOpenRef = useRef(false);
+  const refreshAnnouncementsRef = useRef<(() => void) | null>(null);
   const seenAnnouncementIdsRef = useRef<number[]>([]);
   const [notificationOpen, setNotificationOpen] = useState(false);
   const [announcements, setAnnouncements] = useState<
@@ -57,36 +58,58 @@ export default function Header() {
 
   useEffect(() => {
     let active = true;
+    let lastRefreshAt = 0;
+    let requestInFlight = false;
     const refreshAnnouncements = () => {
-      fetchDjangoAnnouncements().then((items) => {
-        if (!active) return;
+      if (
+        !active ||
+        document.visibilityState !== "visible" ||
+        requestInFlight ||
+        Date.now() - lastRefreshAt < 60_000
+      ) {
+        return;
+      }
+      lastRefreshAt = Date.now();
+      requestInFlight = true;
 
-        const seenIds = [
-          ...new Set([
-            ...seenAnnouncementIdsRef.current,
-            ...readSeenAnnouncementIds(),
-          ]),
-        ];
-        setAnnouncements(items);
-        if (notificationOpenRef.current) {
-          seenIds.push(...items.map((item) => item.id));
-          const updatedIds = [...new Set(seenIds)];
-          writeSeenAnnouncementIds(updatedIds);
-          seenAnnouncementIdsRef.current = updatedIds;
-          setSeenAnnouncementIds(updatedIds);
-        } else {
-          seenAnnouncementIdsRef.current = seenIds;
-          setSeenAnnouncementIds(seenIds);
-        }
-      });
+      void fetchDjangoAnnouncements()
+        .then((items) => {
+          if (!active) return;
+
+          const seenIds = [
+            ...new Set([
+              ...seenAnnouncementIdsRef.current,
+              ...readSeenAnnouncementIds(),
+            ]),
+          ];
+          setAnnouncements(items);
+          if (notificationOpenRef.current) {
+            seenIds.push(...items.map((item) => item.id));
+            const updatedIds = [...new Set(seenIds)];
+            writeSeenAnnouncementIds(updatedIds);
+            seenAnnouncementIdsRef.current = updatedIds;
+            setSeenAnnouncementIds(updatedIds);
+          } else {
+            seenAnnouncementIdsRef.current = seenIds;
+            setSeenAnnouncementIds(seenIds);
+          }
+        })
+        .finally(() => {
+          requestInFlight = false;
+        });
     };
 
+    refreshAnnouncementsRef.current = refreshAnnouncements;
     refreshAnnouncements();
-    const refreshInterval = window.setInterval(refreshAnnouncements, 60_000);
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") refreshAnnouncements();
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
 
     return () => {
       active = false;
-      window.clearInterval(refreshInterval);
+      refreshAnnouncementsRef.current = null;
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
     };
   }, []);
 
@@ -107,7 +130,10 @@ export default function Header() {
     const nextOpen = !notificationOpen;
     notificationOpenRef.current = nextOpen;
     setNotificationOpen(nextOpen);
-    if (nextOpen && announcements) markAnnouncementsSeen(announcements);
+    if (nextOpen) {
+      refreshAnnouncementsRef.current?.();
+      if (announcements) markAnnouncementsSeen(announcements);
+    }
   };
 
   useEffect(() => {

@@ -55,9 +55,11 @@ export default function ResourceReportPicker({
 
   useEffect(() => {
     const requestId = ++requestSequence.current;
+    const requestController = new AbortController();
     const timeout = window.setTimeout(() => {
       void fetch(
         `/api/report-resources?q=${encodeURIComponent(query.trim())}&lang=${language}&limit=${limit}`,
+        { signal: requestController.signal },
       )
         .then((result) => {
           if (!result.ok) throw new Error("Resource search request failed");
@@ -77,10 +79,11 @@ export default function ResourceReportPicker({
             });
           }
         });
-    }, 160);
+    }, 300);
 
     return () => {
       window.clearTimeout(timeout);
+      requestController.abort();
       if (requestSequence.current === requestId) requestSequence.current += 1;
     };
   }, [language, limit, query, requestKey]);

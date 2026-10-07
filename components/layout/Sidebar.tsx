@@ -74,6 +74,7 @@ export default function Sidebar({ activePath }: { activePath?: string }) {
                 <Link
                   className={`${styles.navItem} ${active(href) ? styles.active : ""}`}
                   href={href}
+                  prefetch={false}
                   key={href}
                   aria-current={active(href) ? "page" : undefined}
                   title={collapsed ? label : undefined}
@@ -94,6 +95,7 @@ export default function Sidebar({ activePath }: { activePath?: string }) {
             <Link
               className={`${styles.navItem} ${active("/settings") ? styles.active : ""}`}
               href="/settings"
+              prefetch={false}
               aria-current={active("/settings") ? "page" : undefined}
               title={collapsed ? t.nav.settings : undefined}
               onClick={() => setMobileOpen(false)}

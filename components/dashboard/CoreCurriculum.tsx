@@ -62,6 +62,7 @@ export default function CoreCurriculum({
               <Link
                 className={styles.curriculumCard}
                 href={`/subject/${subject.id}`}
+                prefetch={false}
                 key={subject.id}
               >
                 <span
