@@ -1,12 +1,68 @@
 from io import StringIO
+import json
+from unittest.mock import patch
 
 from django.core.cache import cache
 from django.core.management import call_command
 from django.contrib.auth import get_user_model
-from django.test import TestCase, override_settings
+from django.test import SimpleTestCase, TestCase, override_settings
 from django.urls import reverse
 
 from .models import Announcement, Concept, ContentItem, Opportunity, Resource, Skill, Subject
+
+
+class FeedbackEmailApiTests(SimpleTestCase):
+    @patch.dict(
+        "os.environ",
+        {
+            "RESEND_API_KEY": "re_test_key",
+            "FEEDBACK_FROM_EMAIL": "Stemawy <feedback@example.test>",
+            "FEEDBACK_TO_EMAIL": "inbox@example.test",
+        },
+    )
+    @patch("content.views.urllib.request.urlopen")
+    def test_feedback_uses_resend_https_api(self, urlopen):
+        urlopen.return_value.__enter__.return_value.read.return_value = b"{}"
+        response = self.client.post(
+            "/api/feedback/",
+            data=json.dumps(
+                {
+                    "feedbackType": "general",
+                    "message": "A valid feedback message for testing delivery.",
+                    "email": "reply@example.test",
+                    "companyWebsite": "",
+                    "resources": [],
+                }
+            ),
+            content_type="application/json",
+        )
+
+        self.assertEqual(response.status_code, 202)
+        request = urlopen.call_args.args[0]
+        self.assertEqual(request.full_url, "https://api.resend.com/emails")
+        self.assertEqual(request.get_header("Authorization"), "Bearer re_test_key")
+        self.assertEqual(json.loads(request.data)["reply_to"], "reply@example.test")
+
+    @patch.dict("os.environ", {}, clear=True)
+    @patch("content.views.urllib.request.urlopen")
+    def test_missing_resend_configuration_returns_503(self, urlopen):
+        response = self.client.post(
+            "/api/feedback/",
+            data=json.dumps(
+                {
+                    "feedbackType": "general",
+                    "message": "A valid feedback message for testing delivery.",
+                    "email": "",
+                    "companyWebsite": "",
+                    "resources": [],
+                }
+            ),
+            content_type="application/json",
+        )
+
+        self.assertEqual(response.status_code, 503)
+        self.assertEqual(response.json()["error"], "delivery_not_configured")
+        urlopen.assert_not_called()
 
 
 @override_settings(

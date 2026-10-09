@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Feedback Email
 
-Feedback is sent through Gmail SMTP. Copy `.env.example` to `.env.local`, set `FEEDBACK_GMAIL_USER` to the Gmail account that will send the email, enable 2-Step Verification on that account, and create a Google App Password for `FEEDBACK_GMAIL_APP_PASSWORD`. Keep that secret in `.env.local`; never commit it. The legacy site used `yassoalaa822@gmail.com` as a `mailto:` recipient, not as a confirmed sender. Testing currently sends to `youssefbhaa2010@gmail.com`; change `FEEDBACK_TO_EMAIL` to `yassoalaa822@gmail.com` when ready for production. Restart the Next.js server after changing environment values.
+Feedback and resource-suggestion emails are sent through the Resend HTTPS API from the Django backend. Set `RESEND_API_KEY`, `FEEDBACK_FROM_EMAIL` to an address on a verified Resend domain, and `FEEDBACK_TO_EMAIL` in the backend environment. Keep the API key secret and never commit it. For local development, place these values in `backend/.env` or export them in the shell running Django.
 
 ## Deploy the Full App
 

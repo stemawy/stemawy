@@ -1,9 +1,11 @@
 import json
+import logging
 import os
 import re
 import unicodedata
+import urllib.error
+import urllib.request
 
-from django.core.mail import send_mail
 from django.http import JsonResponse
 from django.db.models import Q
 from django.shortcuts import get_object_or_404
@@ -14,6 +16,46 @@ from django.views.decorators.http import require_GET, require_POST
 from .models import Announcement, ContentItem, Opportunity, Resource, Skill, Subject
 
 CACHE_SECONDS = 60
+logger = logging.getLogger(__name__)
+
+
+def send_resend_email(subject, text, reply_to=None):
+    api_key = os.environ.get("RESEND_API_KEY", "").strip()
+    from_email = os.environ.get("FEEDBACK_FROM_EMAIL", "").strip()
+    to_email = os.environ.get("FEEDBACK_TO_EMAIL", "").strip()
+    if not api_key or not from_email or not to_email:
+        return False, "delivery_not_configured"
+
+    payload = {
+        "from": from_email,
+        "to": [to_email],
+        "subject": subject,
+        "text": text,
+    }
+    if reply_to:
+        payload["reply_to"] = reply_to
+
+    request = urllib.request.Request(
+        "https://api.resend.com/emails",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=15) as response:
+            response.read()
+    except urllib.error.HTTPError as error:
+        logger.warning("Resend API returned HTTP %s", error.code)
+        return False, "email_delivery_failed"
+    except (urllib.error.URLError, TimeoutError, OSError):
+        logger.exception("Resend API request failed")
+        return False, "email_delivery_failed"
+
+    return True, None
 
 
 def parse_json_request(request):
@@ -200,23 +242,14 @@ def feedback(request):
     if validated_payload["companyWebsite"]:
         return JsonResponse({"accepted": True}, status=202)
 
-    gmail_user = os.environ.get("FEEDBACK_GMAIL_USER", "").strip()
-    app_password = os.environ.get("FEEDBACK_GMAIL_APP_PASSWORD", "").strip()
-    to_email = os.environ.get("FEEDBACK_TO_EMAIL", "youssefbhaa2010@gmail.com").strip()
-    if not gmail_user or not app_password:
-        return JsonResponse({"error": "delivery_not_configured"}, status=503)
-
-    try:
-        send_mail(
-            subject=f"Stemawy feedback: {validated_payload['feedbackType']}",
-            message=build_feedback_email_text(validated_payload),
-            from_email=gmail_user,
-            recipient_list=[to_email],
-            fail_silently=False,
-            reply_to=[validated_payload["email"]] if validated_payload["email"] else [],
-        )
-    except Exception:
-        return JsonResponse({"error": "email_delivery_failed"}, status=502)
+    sent, error = send_resend_email(
+        subject=f"Stemawy feedback: {validated_payload['feedbackType']}",
+        text=build_feedback_email_text(validated_payload),
+        reply_to=validated_payload["email"] or None,
+    )
+    if not sent:
+        status = 503 if error == "delivery_not_configured" else 502
+        return JsonResponse({"error": error}, status=status)
 
     return JsonResponse({"accepted": True}, status=202)
 
@@ -236,23 +269,14 @@ def resource_suggestion(request):
     if validated_payload["companyWebsite"]:
         return JsonResponse({"accepted": True}, status=202)
 
-    gmail_user = os.environ.get("FEEDBACK_GMAIL_USER", "").strip()
-    app_password = os.environ.get("FEEDBACK_GMAIL_APP_PASSWORD", "").strip()
-    to_email = os.environ.get("FEEDBACK_TO_EMAIL", "youssefbhaa2010@gmail.com").strip()
-    if not gmail_user or not app_password:
-        return JsonResponse({"error": "delivery_not_configured"}, status=503)
-
-    try:
-        send_mail(
-            subject=f"Resource suggestion: {validated_payload['title']}",
-            message=build_resource_suggestion_email_text(validated_payload),
-            from_email=gmail_user,
-            recipient_list=[to_email],
-            fail_silently=False,
-            reply_to=[validated_payload["email"]] if validated_payload["email"] else [],
-        )
-    except Exception:
-        return JsonResponse({"error": "email_delivery_failed"}, status=502)
+    sent, error = send_resend_email(
+        subject=f"Resource suggestion: {validated_payload['title']}",
+        text=build_resource_suggestion_email_text(validated_payload),
+        reply_to=validated_payload["email"] or None,
+    )
+    if not sent:
+        status = 503 if error == "delivery_not_configured" else 502
+        return JsonResponse({"error": error}, status=status)
 
     return JsonResponse({"accepted": True}, status=202)
 

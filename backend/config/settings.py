@@ -192,24 +192,3 @@ SECURE_HSTS_PRELOAD = False
 SESSION_COOKIE_SECURE = not DEBUG
 CSRF_COOKIE_SECURE = not DEBUG
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
-EMAIL_BACKEND = os.environ.get(
-    "EMAIL_BACKEND", "django.core.mail.backends.smtp.EmailBackend"
-)
-EMAIL_HOST = os.environ.get("EMAIL_HOST", "smtp.gmail.com")
-EMAIL_PORT = int(os.environ.get("EMAIL_PORT", "587"))
-EMAIL_USE_TLS = os.environ.get("EMAIL_USE_TLS", "true").strip().lower() in {
-    "1",
-    "true",
-    "yes",
-    "on",
-}
-EMAIL_USE_SSL = os.environ.get("EMAIL_USE_SSL", "false").strip().lower() in {
-    "1",
-    "true",
-    "yes",
-    "on",
-}
-EMAIL_HOST_USER = os.environ.get("FEEDBACK_GMAIL_USER", "").strip()
-EMAIL_HOST_PASSWORD = os.environ.get("FEEDBACK_GMAIL_APP_PASSWORD", "").strip()
-DEFAULT_FROM_EMAIL = os.environ.get("FEEDBACK_GMAIL_USER", "").strip()

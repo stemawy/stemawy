@@ -31,6 +31,9 @@ Neon Free currently includes 1 GB of database storage, 100 compute-hours per pro
    - `DJANGO_DEBUG`: `false`.
    - `DJANGO_SECRET_KEY`: a private random value. Generate one locally with `python -c "import secrets; print(secrets.token_urlsafe(64))"` and paste it into Vercel.
    - `STEMAWY_CORS_ALLOWED_ORIGINS`: the Next.js website's production origin, including `https://`.
+   - `RESEND_API_KEY`: a private Resend API key.
+   - `FEEDBACK_FROM_EMAIL`: a sender address on a domain verified in Resend.
+   - `FEEDBACK_TO_EMAIL`: the inbox that should receive feedback.
 6. Deploy the Django project. `backend/build.py` runs migrations during production builds when `DATABASE_URL` is present. Vercel automatically collects Django static files.
 7. Copy the Django project's stable production URL, such as `https://your-api.vercel.app`.
 
@@ -86,7 +89,7 @@ Add your domain to the Next.js Vercel project and follow Vercel's DNS instructio
 - Vercel Hobby is limited to personal, non-commercial use and has monthly function/build quotas. Django runs as serverless functions, so it is not an always-on server; observe Vercel's current function limits and usage dashboard.
 - Neon Free has storage, compute, and egress caps. If a usage cap is reached, database access may be suspended or writes blocked until the quota resets; it does not provide scheduled backups.
 - About 3,000 users over time may fit, but account count alone cannot predict request volume. Monitor actual Vercel function invocations, compute time, database storage, and egress.
-- The feedback route currently sends email through Gmail SMTP. Vercel Functions may restrict outbound SMTP; if feedback delivery fails, switch that route to an HTTPS email API.
+- Feedback email uses Resend's HTTPS API, avoiding outbound SMTP restrictions in Vercel Functions. The sender domain must be verified with Resend.
 
 ## Local Preflight
 
