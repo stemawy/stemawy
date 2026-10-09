@@ -1,11 +1,11 @@
-import nodemailer from "nodemailer";
-
 import {
-  checkFeedbackRateLimit,
-  getFeedbackClientKey,
   MAX_FEEDBACK_PAYLOAD_BYTES,
   validateFeedbackPayload,
 } from "@/lib/feedback-validation";
+import {
+  checkFeedbackRateLimit,
+  getFeedbackClientKey,
+} from "@/lib/feedback-rate-limit";
 
 export const runtime = "nodejs";
 
@@ -34,6 +34,27 @@ async function readBoundedBody(request: Request): Promise<string | null> {
     offset += chunk.byteLength;
   }
   return new TextDecoder().decode(bytes);
+}
+
+function getBackendApiBase(): string {
+  const configuredBase =
+    process.env.NEXT_PUBLIC_STEMAWY_API_URL ??
+    process.env.STEMAWY_API_URL ??
+    "http://127.0.0.1:8000/api";
+  const normalized = configuredBase.replace(/\/+$/, "");
+  return normalized;
+}
+
+async function proxyFeedbackToBackend(payload: unknown) {
+  const backendUrl = `${getBackendApiBase()}/feedback/`;
+  return fetch(backendUrl, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: JSON.stringify(payload),
+  });
 }
 
 export async function POST(request: Request) {
@@ -65,13 +86,6 @@ export async function POST(request: Request) {
     return Response.json({ accepted: true }, { status: 202 });
   }
 
-  const gmailUser = process.env.FEEDBACK_GMAIL_USER;
-  const appPassword = process.env.FEEDBACK_GMAIL_APP_PASSWORD;
-  const to = process.env.FEEDBACK_TO_EMAIL || "youssefbhaa2010@gmail.com";
-  if (!gmailUser || !appPassword) {
-    return Response.json({ error: "delivery_not_configured" }, { status: 503 });
-  }
-
   const rateLimit = checkFeedbackRateLimit(getFeedbackClientKey(request));
   if (!rateLimit.allowed) {
     return Response.json(
@@ -83,40 +97,39 @@ export async function POST(request: Request) {
     );
   }
 
-  const resourceList = validation.payload.resources.length
-    ? validation.payload.resources
-        .map((resource) => `- ${resource.title} (${resource.key})`)
-        .join("\n")
-    : "None";
-  const text = [
-    `Feedback type: ${validation.payload.feedbackType}`,
-    `Reply email: ${validation.payload.email || "Not provided"}`,
-    "",
-    "Message:",
-    validation.payload.message,
-    "",
-    "Reported resources:",
-    resourceList,
-  ].join("\n");
-
   try {
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: { user: gmailUser, pass: appPassword },
-    });
+    const response = await proxyFeedbackToBackend(validation.payload);
+    const result = (await response.json().catch(() => ({}))) as {
+      error?: string;
+      retryAfterSeconds?: number;
+      fields?: Record<string, string>;
+    };
 
-    await transporter.sendMail({
-      from: { name: "Stemawy Feedback", address: gmailUser },
-      to,
-      subject: `Stemawy feedback: ${validation.payload.feedbackType}`,
-      text,
-      ...(validation.payload.email
-        ? { replyTo: validation.payload.email }
-        : {}),
-    });
+    if (response.status === 429) {
+      return Response.json(
+        {
+          error: "rate_limited",
+          retryAfterSeconds: result.retryAfterSeconds ?? 60,
+        },
+        {
+          status: 429,
+          headers: { "Retry-After": String(result.retryAfterSeconds ?? 60) },
+        },
+      );
+    }
+
+    if (!response.ok) {
+      return Response.json(
+        {
+          error: result.error ?? "email_delivery_failed",
+          fields: result.fields,
+        },
+        { status: response.status },
+      );
+    }
+
+    return Response.json({ accepted: true }, { status: 202 });
   } catch {
     return Response.json({ error: "email_delivery_failed" }, { status: 502 });
   }
-
-  return Response.json({ accepted: true }, { status: 202 });
 }

@@ -1,0 +1,27 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "stemawy",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-10-07",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS",
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "stemawy",
+    },
+  ],
+  "images": {
+    "binding": "IMAGES",
+  },
+  "vars": {
+    "NEXT_PUBLIC_STEMAWY_API_URL": "https://test-backend-nine-iota.vercel.app/api",
+    "STEMAWY_API_URL": "https://test-backend-nine-iota.vercel.app/api",
+  },
+  "observability": {
+    "enabled": true,
+  },
+}

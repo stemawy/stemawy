@@ -1,15 +1,257 @@
+import json
+import os
 import re
 import unicodedata
 
+from django.core.mail import send_mail
 from django.http import JsonResponse
 from django.db.models import Q
 from django.shortcuts import get_object_or_404
 from django.views.decorators.cache import cache_page
-from django.views.decorators.http import require_GET
+from django.views.decorators.http import require_GET, require_POST
 
 from .models import Announcement, ContentItem, Opportunity, Resource, Skill, Subject
 
 CACHE_SECONDS = 60
+
+
+def parse_json_request(request):
+    if not request.body:
+        return None
+    try:
+        return json.loads(request.body.decode("utf-8"))
+    except (TypeError, ValueError, UnicodeDecodeError):
+        return None
+
+
+def build_feedback_email_text(payload):
+    resource_list = "\n".join(
+        f"- {item.get('title', 'Untitled')} ({item.get('key', '')})"
+        for item in payload.get("resources", [])
+        if isinstance(item, dict)
+    ) or "None"
+    return "\n".join(
+        [
+            f"Feedback type: {payload.get('feedbackType', 'general')}",
+            f"Reply email: {payload.get('email') or 'Not provided'}",
+            "",
+            "Message:",
+            payload.get("message", ""),
+            "",
+            "Reported resources:",
+            resource_list,
+        ]
+    )
+
+
+def build_resource_suggestion_email_text(payload):
+    return "\n".join(
+        [
+            f"Resource title: {payload.get('title', '')}",
+            f"Resource URL: {payload.get('url', '')}",
+            f"Type: {payload.get('resourceType', '')}",
+            f"Subject or unit: {payload.get('subject') or 'Not specified'}",
+            f"Suggested by: {payload.get('email') or 'Not provided'}",
+            "",
+            "Why this resource should be added:",
+            payload.get("description", ""),
+        ]
+    )
+
+
+def validate_feedback_payload(value):
+    if not value or not isinstance(value, dict):
+        return {"fields": {"form": "invalid"}}
+
+    feedback_type = value.get("feedbackType")
+    message = value.get("message", "")
+    email = value.get("email", "")
+    company_website = value.get("companyWebsite", "")
+    raw_resources = value.get("resources", [])
+    fields = {}
+
+    if not isinstance(feedback_type, str) or feedback_type not in {
+        "report-resource",
+        "suggestion",
+        "bug",
+        "incorrect-info",
+        "general",
+    }:
+        fields["feedbackType"] = "invalid"
+
+    message_text = message.strip()
+    message_length = len(list(message_text))
+    if message_length < 20:
+        fields["message"] = "too_short"
+    elif message_length > 600:
+        fields["message"] = "too_long"
+
+    if not isinstance(email, str):
+        email = ""
+    email = email.strip()
+    if len(email) > 254 or (email and not __import__("re").match(r"^[^\s@]+@[^\s@]+\.[^\s@]+$", email)):
+        fields["email"] = "invalid"
+
+    if not isinstance(raw_resources, list):
+        fields["resources"] = "invalid"
+    else:
+        resources = [
+            item for item in raw_resources if isinstance(item, dict)
+        ]
+        if len(resources) != len(raw_resources) or len(resources) > 100:
+            fields["resources"] = "invalid"
+        if feedback_type == "report-resource" and len(resources) == 0:
+            fields["resources"] = "required"
+        if feedback_type != "report-resource" and len(resources) > 0:
+            fields["resources"] = "unexpected"
+
+    if fields:
+        return {"fields": fields}
+
+    return {
+        "payload": {
+            "feedbackType": feedback_type,
+            "message": message_text,
+            "email": email,
+            "companyWebsite": company_website.strip() if isinstance(company_website, str) else "",
+            "resources": raw_resources,
+        }
+    }
+
+
+def validate_resource_suggestion_payload(value):
+    if not value or not isinstance(value, dict):
+        return {"fields": {"form": "invalid"}}
+
+    title = str(value.get("title", "")).strip()
+    url = str(value.get("url", "")).strip()
+    subject = str(value.get("subject", "")).strip()
+    description = str(value.get("description", "")).strip()
+    email = str(value.get("email", "")).strip()
+    resource_type = value.get("resourceType")
+    fields = {}
+
+    if len(list(title)) < 3:
+        fields["title"] = "too_short"
+    elif len(list(title)) > 160:
+        fields["title"] = "too_long"
+
+    if not url or len(url) > 2048:
+        fields["url"] = "invalid"
+    else:
+        try:
+            parsed = __import__("urllib.parse").ParseResult
+        except Exception:
+            parsed = None
+        try:
+            import urllib.parse
+
+            parsed_url = urllib.parse.urlparse(url)
+            if parsed_url.scheme not in {"http", "https"}:
+                fields["url"] = "invalid"
+        except (TypeError, ValueError):
+            fields["url"] = "invalid"
+
+    if resource_type not in {"video", "article", "course", "practice", "reference", "other"}:
+        fields["resourceType"] = "invalid"
+
+    if not subject:
+        fields["subject"] = "required"
+    elif len(subject) > 160:
+        fields["subject"] = "too_long"
+
+    if len(list(description)) < 20:
+        fields["description"] = "too_short"
+    elif len(list(description)) > 600:
+        fields["description"] = "too_long"
+
+    if len(email) > 254 or (email and not __import__("re").match(r"^[^\s@]+@[^\s@]+\.[^\s@]+$", email)):
+        fields["email"] = "invalid"
+
+    if fields:
+        return {"fields": fields}
+
+    return {
+        "payload": {
+            "title": title,
+            "url": url,
+            "resourceType": resource_type,
+            "subject": subject,
+            "description": description,
+            "email": email,
+            "companyWebsite": str(value.get("companyWebsite", "")).strip(),
+        }
+    }
+
+
+@require_POST
+def feedback(request):
+    payload = parse_json_request(request)
+    if payload is None:
+        return JsonResponse({"error": "invalid_json"}, status=400)
+
+    validation = validate_feedback_payload(payload)
+    if "payload" not in validation:
+        return JsonResponse({"error": "validation_failed", "fields": validation["fields"]}, status=400)
+
+    validated_payload = validation["payload"]
+    if validated_payload["companyWebsite"]:
+        return JsonResponse({"accepted": True}, status=202)
+
+    gmail_user = os.environ.get("FEEDBACK_GMAIL_USER", "").strip()
+    app_password = os.environ.get("FEEDBACK_GMAIL_APP_PASSWORD", "").strip()
+    to_email = os.environ.get("FEEDBACK_TO_EMAIL", "youssefbhaa2010@gmail.com").strip()
+    if not gmail_user or not app_password:
+        return JsonResponse({"error": "delivery_not_configured"}, status=503)
+
+    try:
+        send_mail(
+            subject=f"Stemawy feedback: {validated_payload['feedbackType']}",
+            message=build_feedback_email_text(validated_payload),
+            from_email=gmail_user,
+            recipient_list=[to_email],
+            fail_silently=False,
+            reply_to=[validated_payload["email"]] if validated_payload["email"] else [],
+        )
+    except Exception:
+        return JsonResponse({"error": "email_delivery_failed"}, status=502)
+
+    return JsonResponse({"accepted": True}, status=202)
+
+
+@require_POST
+def resource_suggestion(request):
+    payload = parse_json_request(request)
+    if payload is None:
+        return JsonResponse({"error": "invalid_json"}, status=400)
+
+    validation = validate_resource_suggestion_payload(payload)
+    if "payload" not in validation:
+        return JsonResponse({"error": "validation_failed", "fields": validation["fields"]}, status=400)
+
+    validated_payload = validation["payload"]
+    if validated_payload["companyWebsite"]:
+        return JsonResponse({"accepted": True}, status=202)
+
+    gmail_user = os.environ.get("FEEDBACK_GMAIL_USER", "").strip()
+    app_password = os.environ.get("FEEDBACK_GMAIL_APP_PASSWORD", "").strip()
+    to_email = os.environ.get("FEEDBACK_TO_EMAIL", "youssefbhaa2010@gmail.com").strip()
+    if not gmail_user or not app_password:
+        return JsonResponse({"error": "delivery_not_configured"}, status=503)
+
+    try:
+        send_mail(
+            subject=f"Resource suggestion: {validated_payload['title']}",
+            message=build_resource_suggestion_email_text(validated_payload),
+            from_email=gmail_user,
+            recipient_list=[to_email],
+            fail_silently=False,
+            reply_to=[validated_payload["email"]] if validated_payload["email"] else [],
+        )
+    except Exception:
+        return JsonResponse({"error": "email_delivery_failed"}, status=502)
+
+    return JsonResponse({"accepted": True}, status=202)
 
 
 def announcement_payload(announcement):

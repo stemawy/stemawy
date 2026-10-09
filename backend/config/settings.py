@@ -45,10 +45,13 @@ for hostname_key in ("VERCEL_URL", "VERCEL_PROJECT_PRODUCTION_URL"):
     if hostname and hostname not in ALLOWED_HOSTS:
         ALLOWED_HOSTS.append(hostname)
 CORS_ALLOWED_ORIGINS = parse_origins(
-    os.environ.get("STEMAWY_CORS_ALLOWED_ORIGINS", "http://localhost:3000")
+    os.environ.get(
+        "STEMAWY_CORS_ALLOWED_ORIGINS",
+        "http://localhost:3000,https://stemawy.youssefbhaa2010.workers.dev",
+    )
 )
 CSRF_TRUSTED_ORIGINS = parse_origins(
-    os.environ.get("CSRF_TRUSTED_ORIGINS", "")
+    os.environ.get("CSRF_TRUSTED_ORIGINS", "https://stemawy.youssefbhaa2010.workers.dev")
 )
 for hostname_key in ("VERCEL_URL", "VERCEL_PROJECT_PRODUCTION_URL"):
     hostname = os.environ.get(hostname_key, "").strip()
@@ -189,3 +192,24 @@ SECURE_HSTS_PRELOAD = False
 SESSION_COOKIE_SECURE = not DEBUG
 CSRF_COOKIE_SECURE = not DEBUG
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+EMAIL_BACKEND = os.environ.get(
+    "EMAIL_BACKEND", "django.core.mail.backends.smtp.EmailBackend"
+)
+EMAIL_HOST = os.environ.get("EMAIL_HOST", "smtp.gmail.com")
+EMAIL_PORT = int(os.environ.get("EMAIL_PORT", "587"))
+EMAIL_USE_TLS = os.environ.get("EMAIL_USE_TLS", "true").strip().lower() in {
+    "1",
+    "true",
+    "yes",
+    "on",
+}
+EMAIL_USE_SSL = os.environ.get("EMAIL_USE_SSL", "false").strip().lower() in {
+    "1",
+    "true",
+    "yes",
+    "on",
+}
+EMAIL_HOST_USER = os.environ.get("FEEDBACK_GMAIL_USER", "").strip()
+EMAIL_HOST_PASSWORD = os.environ.get("FEEDBACK_GMAIL_APP_PASSWORD", "").strip()
+DEFAULT_FROM_EMAIL = os.environ.get("FEEDBACK_GMAIL_USER", "").strip()

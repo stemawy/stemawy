@@ -1,10 +1,8 @@
-import nodemailer from "nodemailer";
-
+import { MAX_FEEDBACK_PAYLOAD_BYTES } from "@/lib/feedback-validation";
 import {
   checkFeedbackRateLimit,
   getFeedbackClientKey,
-  MAX_FEEDBACK_PAYLOAD_BYTES,
-} from "@/lib/feedback-validation";
+} from "@/lib/feedback-rate-limit";
 import { validateResourceSuggestion } from "@/lib/resource-suggestion";
 
 export const runtime = "nodejs";
@@ -35,6 +33,26 @@ async function readBoundedBody(request: Request): Promise<string | null> {
   return new TextDecoder().decode(bytes);
 }
 
+function getBackendApiBase(): string {
+  const configuredBase =
+    process.env.NEXT_PUBLIC_STEMAWY_API_URL ??
+    process.env.STEMAWY_API_URL ??
+    "http://127.0.0.1:8000/api";
+  return configuredBase.replace(/\/+$/, "");
+}
+
+async function proxySuggestionToBackend(payload: unknown) {
+  const backendUrl = `${getBackendApiBase()}/resource-suggestions/`;
+  return fetch(backendUrl, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: JSON.stringify(payload),
+  });
+}
+
 export async function POST(request: Request) {
   const contentLength = Number(request.headers.get("content-length") ?? 0);
   if (contentLength > MAX_FEEDBACK_PAYLOAD_BYTES) {
@@ -59,15 +77,9 @@ export async function POST(request: Request) {
       { status: 400 },
     );
   }
+
   if (validation.payload.companyWebsite) {
     return Response.json({ accepted: true }, { status: 202 });
-  }
-
-  const gmailUser = process.env.FEEDBACK_GMAIL_USER;
-  const appPassword = process.env.FEEDBACK_GMAIL_APP_PASSWORD;
-  const to = process.env.FEEDBACK_TO_EMAIL || "youssefbhaa2010@gmail.com";
-  if (!gmailUser || !appPassword) {
-    return Response.json({ error: "delivery_not_configured" }, { status: 503 });
   }
 
   const rateLimit = checkFeedbackRateLimit(getFeedbackClientKey(request));
@@ -81,35 +93,39 @@ export async function POST(request: Request) {
     );
   }
 
-  const text = [
-    `Resource title: ${validation.payload.title}`,
-    `Resource URL: ${validation.payload.url}`,
-    `Type: ${validation.payload.resourceType}`,
-    `Subject or unit: ${validation.payload.subject || "Not specified"}`,
-    `Suggested by: ${validation.payload.email || "Not provided"}`,
-    "",
-    "Why this resource should be added:",
-    validation.payload.description,
-  ].join("\n");
-
   try {
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: { user: gmailUser, pass: appPassword },
-    });
+    const response = await proxySuggestionToBackend(validation.payload);
+    const result = (await response.json().catch(() => ({}))) as {
+      error?: string;
+      retryAfterSeconds?: number;
+      fields?: Record<string, string>;
+    };
 
-    await transporter.sendMail({
-      from: { name: "Stemawy Resource Suggestion", address: gmailUser },
-      to,
-      subject: `Resource suggestion: ${validation.payload.title}`,
-      text,
-      ...(validation.payload.email
-        ? { replyTo: validation.payload.email }
-        : {}),
-    });
+    if (response.status === 429) {
+      return Response.json(
+        {
+          error: "rate_limited",
+          retryAfterSeconds: result.retryAfterSeconds ?? 60,
+        },
+        {
+          status: 429,
+          headers: { "Retry-After": String(result.retryAfterSeconds ?? 60) },
+        },
+      );
+    }
+
+    if (!response.ok) {
+      return Response.json(
+        {
+          error: result.error ?? "email_delivery_failed",
+          fields: result.fields,
+        },
+        { status: response.status },
+      );
+    }
+
+    return Response.json({ accepted: true }, { status: 202 });
   } catch {
     return Response.json({ error: "email_delivery_failed" }, { status: 502 });
   }
-
-  return Response.json({ accepted: true }, { status: 202 });
 }
