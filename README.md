@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Feedback Email
 
-Feedback and resource-suggestion emails are sent through the Resend HTTPS API from the Django backend. Set `RESEND_API_KEY`, `FEEDBACK_FROM_EMAIL` to an address on a verified Resend domain, and `FEEDBACK_TO_EMAIL` in the backend environment. Keep the API key secret and never commit it. For local development, place these values in `backend/.env` or export them in the shell running Django.
+Feedback and resource-suggestion emails are sent through the Resend HTTPS API from the Django backend. Set `RESEND_API_KEY`, `FEEDBACK_FROM_EMAIL` to an address on a verified Resend domain, and `FEEDBACK_TO_EMAIL` in the backend environment. Keep the API key secret and never commit it. For local development, export these values in the shell running Django; Django does not load `.env` files automatically.
 
 ## Deploy the Full App
 
