@@ -94,6 +94,7 @@ class ContentItem(models.Model):
     title = models.CharField(max_length=240)
     description = models.TextField(blank=True)
     display_order = models.PositiveIntegerField(default=0)
+    show_resource_suggestion = models.BooleanField(default=True)
 
     class Meta:
         ordering = ["display_order", "title"]

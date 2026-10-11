@@ -293,6 +293,9 @@ class Command(BaseCommand):
                     title=data.get("title"),
                     description=data.get("description") or "",
                     display_order=data.get("order") or 0,
+                    show_resource_suggestion=not any(
+                        resource_id is False for resource_id in data.get("resources", [])
+                    ),
                 ),
                 item_id,
                 exclude=("subject",),
@@ -531,6 +534,9 @@ class Command(BaseCommand):
                     title=data["title"],
                     description=data.get("description", ""),
                     display_order=data.get("order", 0),
+                    show_resource_suggestion=not any(
+                        resource_id is False for resource_id in data.get("resources", [])
+                    ),
                 )
             )
         ContentItem.objects.bulk_create(content_rows, batch_size=500)

@@ -73,6 +73,33 @@ class FeedbackEmailApiTests(SimpleTestCase):
         }
     }
 )
+class SubjectPayloadTests(TestCase):
+    def test_subject_content_includes_show_resource_suggestion_flag(self):
+        subject = Subject.objects.create(
+            id="test-subject",
+            name="Test Subject",
+            grade=10,
+            semester=1,
+            category="science",
+        )
+        item = ContentItem.objects.create(
+            id="test-subject-unit-01",
+            subject=subject,
+            type="unit",
+            title="Unit 1",
+            display_order=1,
+            show_resource_suggestion=False,
+        )
+        item.resources.set([])
+
+        response = self.client.get("/api/subjects/?grade=10&semester=1")
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()["subjects"]
+        self.assertIn("showResourceSuggestion", payload[0]["content"][0])
+        self.assertFalse(payload[0]["content"][0]["showResourceSuggestion"])
+
+
 class CatalogApiTests(TestCase):
     @classmethod
     def setUpTestData(cls):

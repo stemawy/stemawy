@@ -337,6 +337,7 @@ def content_payload(item):
         "title": item.title,
         "description": item.description,
         "order": item.display_order,
+        "showResourceSuggestion": item.show_resource_suggestion,
         "concepts": [concept_payload(concept) for concept in item.concepts.all()],
         "resources": [resource.id for resource in item.resources.all()],
     }
