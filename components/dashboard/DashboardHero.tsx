@@ -25,14 +25,14 @@ export default function DashboardHero({
 
   return (
     <section className={styles.hero}>
-      {theme === "ramadan" && resolvedTheme === "dark" && (
-        <svg
-          className={styles.ramadanArt}
-          viewBox="0 0 500 360"
-          preserveAspectRatio="xMidYMax meet"
-          fill="none"
-          aria-hidden="true"
-        >
+      <div className={styles.heroBackdrop} aria-hidden="true">
+        {theme === "ramadan" && resolvedTheme === "dark" && (
+          <svg
+            className={styles.ramadanArt}
+            viewBox="0 0 500 360"
+            preserveAspectRatio="xMidYMax meet"
+            fill="none"
+          >
           <path
             className={styles.moon}
             d="M385 42a37 37 0 1 0 28 58 41 41 0 1 1-28-58Z"
@@ -74,8 +74,9 @@ export default function DashboardHero({
             className={styles.lantern}
             d="M414 130v20m-9 0h18l5 9-5 9h-18l-5-9 5-9Zm-4 20h26l4 33-17 17-17-17 4-33Zm0 10h26m-13-10v34m-13-24 13 34 13-34m-13 26v10"
           />
-        </svg>
-      )}
+          </svg>
+        )}
+      </div>
       <div className={styles.heroContent}>
         <GradeSemesterSelector
           grade={grade}

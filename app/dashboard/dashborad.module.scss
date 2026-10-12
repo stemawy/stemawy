@@ -11,12 +11,20 @@
 
 .hero {
   position: relative;
-  overflow: hidden;
   border-radius: 24px;
   background: var(--surface-container-high);
 }
 
-.hero::after {
+.heroBackdrop {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.heroBackdrop::after {
   position: absolute;
   top: -220px;
   right: -120px;
