@@ -20,6 +20,11 @@ export interface Resource {
   provider: string;
   url: string;
   linkText?: string;
+  sizeBytes?: number | null;
+  durationSeconds?: number | null;
+  pageCount?: number | null;
+  questionCount?: number | null;
+  estimatedMinutes?: number | null;
 }
 
 export interface Concept {

@@ -1,12 +1,19 @@
 import Link from "next/link";
 import { Atom, ChevronRight } from "lucide-react";
 
-import type { Subject } from "@/types";
+import type { Resource, Subject } from "@/types";
 import styles from "@/app/subject/[subjectId]/SubjectPage.module.scss";
 import { useLayoutState } from "@/components/layout/layout-context";
 import { getLocalizedSubject, getTranslations } from "@/lib/i18n";
+import ResourceProgress from "./ResourceProgress";
 
-export default function SubjectHeader({ subject }: { subject: Subject }) {
+export default function SubjectHeader({
+  subject,
+  resources,
+}: {
+  subject: Subject;
+  resources: Resource[];
+}) {
   const { language } = useLayoutState();
   const t = getTranslations(language);
   const localized = getLocalizedSubject(subject, language);
@@ -58,6 +65,10 @@ export default function SubjectHeader({ subject }: { subject: Subject }) {
             {t.subjects.detail.coreSubject}
           </span>
         </div>
+        <ResourceProgress
+          resources={resources}
+          title={t.subjects.detail.progressTitle}
+        />
       </header>
     </>
   );

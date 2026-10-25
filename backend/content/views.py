@@ -309,6 +309,11 @@ def resource_payload(resource):
         "url": resource.url,
         "linkText": resource.link_text,
         "youtubeId": resource.youtube_id,
+        "sizeBytes": resource.size_bytes,
+        "durationSeconds": resource.duration_seconds,
+        "pageCount": resource.page_count,
+        "questionCount": resource.question_count,
+        "estimatedMinutes": resource.estimated_minutes,
         "source": {
             "legacyPath": resource.legacy_path,
             "location": resource.location,

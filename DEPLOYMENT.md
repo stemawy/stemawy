@@ -34,6 +34,7 @@ Neon Free currently includes 1 GB of database storage, 100 compute-hours per pro
    - `RESEND_API_KEY`: a private Resend API key.
    - `FEEDBACK_FROM_EMAIL`: a sender address on a domain verified in Resend.
    - `FEEDBACK_TO_EMAIL`: the inbox that should receive feedback.
+   - `GOOGLE_API_KEY` (optional): a server-side Google API key with the Drive API and YouTube Data API enabled. It lets the admin fetch size and video-duration metadata for accessible Drive/YouTube links. Restrict the key to these APIs and keep it only on the Django backend; links that cannot be read still use the manual workload fields.
 6. Deploy the Django project. `backend/build.py` runs migrations during production builds when `DATABASE_URL` is present. Vercel automatically collects Django static files.
 7. Copy the Django project's stable production URL, such as `https://your-api.vercel.app`.
 

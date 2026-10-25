@@ -62,6 +62,25 @@ export default function SubjectPage({
     );
   }
 
+  const fallbackResources = getResourcesForSubject(subject.id);
+  const resourceCatalog = djangoSubject
+    ? (djangoSubject.resources ?? [])
+    : fallbackResources.length > 0
+      ? fallbackResources
+      : allResources;
+  const subjectResourceIds = [
+    ...new Set(
+      contentItems.flatMap((item) => [
+        ...item.resources,
+        ...(item.concepts ?? []).flatMap((concept) => concept.resources),
+      ]),
+    ),
+  ];
+  const subjectResources = subjectResourceIds.flatMap((resourceId) => {
+    const resource = resourceCatalog.find((item) => item.id === resourceId);
+    return resource ? [resource] : [];
+  });
+
   const selectedItem =
     contentItems.find((item) => item.id === selectedId) ?? contentItems[0];
   const selectedReportKeySet = new Set(selectedReportKeys);
@@ -88,7 +107,7 @@ export default function SubjectPage({
 
   return (
     <div className={styles.page} dir={language === "ar" ? "rtl" : "ltr"}>
-      <SubjectHeader subject={subject} />
+      <SubjectHeader subject={subject} resources={subjectResources} />
       <div
         className={`${styles.reportModeToolbar} ${reportMode ? styles.reportModeToolbarActive : ""}`}
         aria-live="polite"
@@ -163,13 +182,7 @@ export default function SubjectPage({
           reportMode={reportMode}
           selectedResourceKeys={selectedReportKeySet}
           onToggleReportResource={toggleReportResource}
-          resources={
-            djangoSubject
-              ? (djangoSubject.resources ?? [])
-              : getResourcesForSubject(subject.id).length > 0
-                ? getResourcesForSubject(subject.id)
-                : allResources
-          }
+          resources={resourceCatalog}
         />
       </div>
     </div>

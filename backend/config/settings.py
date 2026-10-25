@@ -11,6 +11,7 @@ DEBUG = os.environ.get("DJANGO_DEBUG", "true").strip().lower() in {
     "yes",
     "on",
 }
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "").strip()
 IS_VERCEL = bool(os.environ.get("VERCEL") or os.environ.get("VERCEL_ENV"))
 
 

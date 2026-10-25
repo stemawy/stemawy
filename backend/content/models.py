@@ -155,6 +155,31 @@ class Resource(models.Model):
     link_text = models.CharField(max_length=240, blank=True)
     image_url = models.URLField(max_length=1000, blank=True)
     youtube_id = models.CharField(max_length=40, blank=True)
+    size_bytes = models.PositiveBigIntegerField(
+        null=True,
+        blank=True,
+        help_text="Drive file size when available; stored as metadata, not used directly as study effort.",
+    )
+    duration_seconds = models.PositiveIntegerField(
+        null=True,
+        blank=True,
+        help_text="Video duration; fetched automatically from accessible YouTube or Drive videos.",
+    )
+    page_count = models.PositiveIntegerField(
+        null=True,
+        blank=True,
+        help_text="Enter document pages or slide count when known.",
+    )
+    question_count = models.PositiveIntegerField(
+        null=True,
+        blank=True,
+        help_text="Enter the number of questions when known.",
+    )
+    estimated_minutes = models.PositiveIntegerField(
+        null=True,
+        blank=True,
+        help_text="Optional manual workload estimate; overrides metadata-based estimates.",
+    )
     legacy_path = models.CharField(max_length=1000, blank=True)
     location = models.CharField(max_length=300, blank=True)
     classification = models.CharField(max_length=40, blank=True)

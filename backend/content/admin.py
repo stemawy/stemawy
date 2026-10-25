@@ -2,6 +2,7 @@ from django.contrib import admin
 from django.db.models import Count, Q
 
 from .models import Announcement, Concept, ContentItem, Opportunity, Resource, Skill, Subject
+from .resource_metadata import fetch_resource_metadata
 
 
 class GeneratedIdAdmin(admin.ModelAdmin):
@@ -113,7 +114,13 @@ class ConceptAdmin(GeneratedIdAdmin):
 
 @admin.register(Resource)
 class ResourceAdmin(GeneratedIdAdmin):
-    list_display = ("title", "type", "provider", "link_text", "content_type")
+    list_display = (
+        "title",
+        "type",
+        "provider",
+        "estimated_minutes",
+        "content_type",
+    )
     list_filter = ("type", "content_type")
     search_fields = ("id", "title", "url", "link_text", "legacy_path")
     autocomplete_fields = ("content_items", "concepts")
@@ -121,9 +128,32 @@ class ResourceAdmin(GeneratedIdAdmin):
     fieldsets = (
         ("Resource", {"fields": ("id", "title", "type", "provider")} ),
         ("Link", {"fields": ("url", "link_text", "image_url", "youtube_id")} ),
+        (
+            "Metadata and workload",
+            {
+                "fields": (
+                    "size_bytes",
+                    "duration_seconds",
+                    "page_count",
+                    "question_count",
+                    "estimated_minutes",
+                )
+            },
+        ),
         ("Curriculum", {"fields": ("content_items", "concepts")} ),
         ("Source details", {"fields": ("legacy_path", "location", "classification", "content_type")} ),
     )
+
+    def save_model(self, request, obj, form, change):
+        super().save_model(request, obj, form, change)
+        metadata = fetch_resource_metadata(obj)
+        changed_fields = []
+        for field, value in metadata.items():
+            if value is not None and getattr(obj, field) != value:
+                setattr(obj, field, value)
+                changed_fields.append(field)
+        if changed_fields:
+            obj.save(update_fields=changed_fields)
 
 
 @admin.register(Opportunity)

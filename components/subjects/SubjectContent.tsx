@@ -29,9 +29,27 @@ export default function SubjectContent({
   const itemResources = item.resources
     .map((id) => resources.find((resource) => resource.id === id))
     .filter((resource): resource is Resource => Boolean(resource));
+  const conceptResources = (item.concepts ?? []).flatMap((concept) =>
+    concept.resources
+      .map((id) => resources.find((resource) => resource.id === id))
+      .filter((resource): resource is Resource => Boolean(resource)),
+  );
+  const progressResources = [
+    ...new Map(
+      [...itemResources, ...conceptResources].map((resource) => [
+        resource.id,
+        resource,
+      ]),
+    ).values(),
+  ];
   return (
     <article className={styles.contentCard}>
-      <ContentHeader key={item.id} item={item} subjectId={subjectId} />
+      <ContentHeader
+        key={item.id}
+        item={item}
+        subjectId={subjectId}
+        resources={progressResources}
+      />
       <div className={styles.contentBody}>
         {!(isUnit && item.showResourceSuggestion === false) && (
           <section className={styles.resourcesSection}>

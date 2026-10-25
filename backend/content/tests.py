@@ -9,6 +9,7 @@ from django.test import SimpleTestCase, TestCase, override_settings
 from django.urls import reverse
 
 from .models import Announcement, Concept, ContentItem, Opportunity, Resource, Skill, Subject
+from .resource_metadata import fetch_resource_metadata
 
 
 class FeedbackEmailApiTests(SimpleTestCase):
@@ -98,6 +99,85 @@ class SubjectPayloadTests(TestCase):
         payload = response.json()["subjects"]
         self.assertIn("showResourceSuggestion", payload[0]["content"][0])
         self.assertFalse(payload[0]["content"][0]["showResourceSuggestion"])
+
+    def test_subject_payload_includes_resource_workload_metadata(self):
+        subject = Subject.objects.create(
+            id="metadata-subject",
+            name="Metadata Subject",
+            grade=10,
+            semester=1,
+            category="science",
+        )
+        item = ContentItem.objects.create(
+            id="metadata-subject-unit-01",
+            subject=subject,
+            type="unit",
+            title="Unit 1",
+            display_order=1,
+        )
+        resource = Resource.objects.create(
+            id="metadata-resource",
+            title="Unit PDF",
+            type="pdf",
+            url="https://drive.google.com/file/d/example/view",
+            size_bytes=250000,
+            page_count=12,
+            estimated_minutes=30,
+        )
+        item.resources.add(resource)
+
+        response = self.client.get("/api/subjects/metadata-subject/")
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()["resources"][0]
+        self.assertEqual(payload["sizeBytes"], 250000)
+        self.assertEqual(payload["pageCount"], 12)
+        self.assertEqual(payload["estimatedMinutes"], 30)
+
+
+class ResourceMetadataTests(SimpleTestCase):
+    @override_settings(GOOGLE_API_KEY="test-google-key")
+    @patch("content.resource_metadata.urlopen")
+    def test_youtube_video_duration_is_read_when_available(self, urlopen):
+        urlopen.return_value.__enter__.return_value.read.return_value = (
+            b'{"items":[{"contentDetails":{"duration":"PT1H2M3S"}}]}'
+        )
+        resource = Resource(
+            title="YouTube video",
+            type="video",
+            url="https://www.youtube.com/watch?v=abcdefghijk",
+        )
+
+        self.assertEqual(fetch_resource_metadata(resource), {"duration_seconds": 3723})
+
+    @override_settings(GOOGLE_API_KEY="test-google-key")
+    @patch("content.resource_metadata.urlopen")
+    def test_drive_metadata_is_read_when_available(self, urlopen):
+        urlopen.return_value.__enter__.return_value.read.return_value = (
+            b'{"size":"250000","videoMediaMetadata":{"durationMillis":"90000"}}'
+        )
+        resource = Resource(
+            title="Drive video",
+            type="video",
+            url="https://drive.google.com/file/d/example-id/view",
+        )
+
+        self.assertEqual(
+            fetch_resource_metadata(resource),
+            {"size_bytes": 250000, "duration_seconds": 90},
+        )
+
+    @override_settings(GOOGLE_API_KEY="")
+    @patch("content.resource_metadata.urlopen")
+    def test_metadata_lookup_is_skipped_without_api_key(self, urlopen):
+        resource = Resource(
+            title="Drive PDF",
+            type="pdf",
+            url="https://drive.google.com/file/d/example-id/view",
+        )
+
+        self.assertEqual(fetch_resource_metadata(resource), {})
+        urlopen.assert_not_called()
 
 
 class CatalogApiTests(TestCase):
