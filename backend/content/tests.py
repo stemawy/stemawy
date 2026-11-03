@@ -18,7 +18,7 @@ class FeedbackEmailApiTests(SimpleTestCase):
         {
             "RESEND_API_KEY": "re_test_key",
             "FEEDBACK_FROM_EMAIL": "Stemawy <feedback@example.test>",
-            "FEEDBACK_TO_EMAIL": "inbox@example.test",
+            "FEEDBACK_TO_EMAIL": "inbox@example.test, second@example.test",
         },
     )
     @patch("content.views.urllib.request.urlopen")
@@ -41,6 +41,10 @@ class FeedbackEmailApiTests(SimpleTestCase):
         self.assertEqual(response.status_code, 202)
         request = urlopen.call_args.args[0]
         self.assertEqual(request.full_url, "https://api.resend.com/emails")
+        self.assertEqual(
+            json.loads(request.data)["to"],
+            ["inbox@example.test", "second@example.test"],
+        )
         self.assertEqual(request.get_header("Authorization"), "Bearer re_test_key")
         self.assertEqual(json.loads(request.data)["reply_to"], "reply@example.test")
 

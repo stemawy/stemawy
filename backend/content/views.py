@@ -22,13 +22,17 @@ logger = logging.getLogger(__name__)
 def send_resend_email(subject, text, reply_to=None):
     api_key = os.environ.get("RESEND_API_KEY", "").strip()
     from_email = os.environ.get("FEEDBACK_FROM_EMAIL", "").strip()
-    to_email = os.environ.get("FEEDBACK_TO_EMAIL", "").strip()
-    if not api_key or not from_email or not to_email:
+    to_emails = [
+        email.strip()
+        for email in os.environ.get("FEEDBACK_TO_EMAIL", "").split(",")
+        if email.strip()
+    ]
+    if not api_key or not from_email or not to_emails:
         return False, "delivery_not_configured"
 
     payload = {
         "from": from_email,
-        "to": [to_email],
+        "to": to_emails,
         "subject": subject,
         "text": text,
     }
