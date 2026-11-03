@@ -46,6 +46,7 @@ def send_resend_email(subject, text, reply_to=None):
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
             "Accept": "application/json",
+            "User-Agent": "Stemawy/2.0",
         },
         method="POST",
     )
@@ -53,7 +54,27 @@ def send_resend_email(subject, text, reply_to=None):
         with urllib.request.urlopen(request, timeout=15) as response:
             response.read()
     except urllib.error.HTTPError as error:
-        logger.warning("Resend API returned HTTP %s", error.code)
+        try:
+            response_data = json.loads(error.read().decode("utf-8"))
+        except (UnicodeDecodeError, json.JSONDecodeError):
+            response_data = {}
+        error_name = response_data.get("name", "unknown_error")
+        error_message = response_data.get("message", "No error message provided")
+        if not isinstance(error_name, str):
+            error_name = "unknown_error"
+        if not isinstance(error_message, str):
+            error_message = "No error message provided"
+        error_message = re.sub(
+            r"[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}",
+            "[email]",
+            error_message,
+        )
+        logger.warning(
+            "Resend API rejected email: HTTP %s (%s): %s",
+            error.code,
+            error_name,
+            error_message[:300],
+        )
         return False, "email_delivery_failed"
     except (urllib.error.URLError, TimeoutError, OSError):
         logger.exception("Resend API request failed")

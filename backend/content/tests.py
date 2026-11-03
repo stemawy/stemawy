@@ -1,5 +1,6 @@
-from io import StringIO
+from io import BytesIO, StringIO
 import json
+from urllib.error import HTTPError
 from unittest.mock import patch
 
 from django.core.cache import cache
@@ -46,7 +47,54 @@ class FeedbackEmailApiTests(SimpleTestCase):
             ["inbox@example.test", "second@example.test"],
         )
         self.assertEqual(request.get_header("Authorization"), "Bearer re_test_key")
+        self.assertEqual(request.get_header("User-agent"), "Stemawy/2.0")
         self.assertEqual(json.loads(request.data)["reply_to"], "reply@example.test")
+
+    @patch.dict(
+        "os.environ",
+        {
+            "RESEND_API_KEY": "re_test_key",
+            "FEEDBACK_FROM_EMAIL": "Stemawy <feedback@example.test>",
+            "FEEDBACK_TO_EMAIL": "inbox@example.test",
+        },
+    )
+    @patch("content.views.logger.warning")
+    @patch("content.views.urllib.request.urlopen")
+    def test_resend_rejection_is_logged_without_email_addresses(
+        self, urlopen, logger_warning
+    ):
+        error_body = json.dumps(
+            {
+                "name": "validation_error",
+                "message": "Sender feedback@example.test is not verified",
+            }
+        ).encode()
+        urlopen.side_effect = HTTPError(
+            "https://api.resend.com/emails",
+            403,
+            "Forbidden",
+            {},
+            BytesIO(error_body),
+        )
+        response = self.client.post(
+            "/api/feedback/",
+            data=json.dumps(
+                {
+                    "feedbackType": "general",
+                    "message": "A valid feedback message for testing delivery.",
+                    "email": "",
+                    "companyWebsite": "",
+                    "resources": [],
+                }
+            ),
+            content_type="application/json",
+        )
+
+        self.assertEqual(response.status_code, 502)
+        self.assertEqual(response.json()["error"], "email_delivery_failed")
+        self.assertEqual(logger_warning.call_args.args[1], 403)
+        self.assertIn("[email]", logger_warning.call_args.args[-1])
+        self.assertNotIn("feedback@example.test", logger_warning.call_args.args[-1])
 
     @patch.dict("os.environ", {}, clear=True)
     @patch("content.views.urllib.request.urlopen")
